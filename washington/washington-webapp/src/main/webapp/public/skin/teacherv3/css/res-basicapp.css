@@ -1,0 +1,15 @@
+.basicExercises .h-topicPackage{position:relative;width:100%;margin-bottom:20px}
+.basicExercises .h-topicPackage .line{position:relative;margin-top:-1px;width:100%;height:1px;line-height:1px;overflow:hidden;background:#dae6ee}
+.basicExercises .topicBox{position:relative;padding:20px 18px 0}
+.basicExercises .topicBox ul{overflow:hidden}
+.basicExercises .topicBox li{float:left;cursor:pointer;position:relative;margin:0 20px 20px 0;width:189px;height:40px;-webkit-box-pack:center;-webkit-box-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;background:#fff;padding:20px 15px;border:1px solid #dae6ee}
+.basicExercises .topicBox li p{max-height:44px;line-height:20px;padding:0;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;color:#4e5656}
+.basicExercises .topicBox li.active{background:#f5fbff;border-color:#189cfb}
+.basicExercises .e-lessonsList{border:1px solid #dae6ee;margin:15px;line-height:20px}
+.basicExercises .e-lessonsList .el-title{padding:10px;border-bottom:1px solid #dae6ee;font-size:16px;color:#4e5656}
+.basicExercises .e-lessonsList .el-name{padding:10px;font-size:14px;color:#4e5656}
+.basicExercises .e-lessonsList .el-list ul{overflow:hidden;padding:14px 10px}
+.basicExercises .e-lessonsList .el-list li{position:relative;cursor:pointer;float:left;margin:0 6px 8px 0;width:169px;height:52px;border:1px solid #dae6ee;-moz-border-radius:2px;border-radius:2px;font-size:14px}
+.basicExercises .e-lessonsList .el-list li .lessons-text{cursor:pointer}
+.basicExercises .e-lessonsList .el-list li .lessons-text .e-icons{display:inline-block;vertical-align:middle;width:40px;height:40px;margin:6px}
+.basicExercises .e-lessonsList .el-list li .lessons-text .text{display:inline-block;vertical-align:middle;text-align:center;width:72px;height:52px;line-height:52px;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}

@@ -1,0 +1,89 @@
+.w-content{ width: auto;}
+.head, .head .inner{ background:#ffcf7c; width: 100%; height: 275px;}
+.head .inner{ width: 1000px; position: absolute; z-index: 5; background: url(headDraw-back.png) no-repeat 0 0; height: 400px; left: 50%; margin-left: -500px;}
+.head .inner .logo{ position: absolute; width: 102px; height: 50px;}
+.head .inner .logo a{ background: url("logo.png") no-repeat 0 0; width: 102px; height: 50px; display: block;}
+.head .inner .share{ position: absolute; left: 0; bottom: 10px; color: #fff;}
+.head .inner .share a{ color: #fff;}
+.head .inner .game{ position: absolute; right: 0; top: 10px; color: #fff; width: 454px; height: 454px;}
+.angle_box{ height: 140px;}
+.angle_box .inner{position: relative;width: 1000px!important; margin: 0 auto; }
+.content_box{ overflow: hidden;  padding-top: 15px;}
+.content_box .inner{ width: 1000px!important; margin: 0 auto;}
+.content_box .con-left{ float: left; width: 690px; }
+.content_box .con-left .award{}
+.content_box .con-left h3{ height: 40px; font-size: 24px; color: #ff7800; font-weight: normal; }
+.content_box .con-left .award .table{border-radius: 5px;  background-color: #fff; width: 100%; overflow: hidden; border: 1px solid #ffa650; }
+.content_box .con-left .award table{ border-collapse: collapse; }
+.content_box .con-left .award table thead td, .content_box .con-left .award table tbody td{ text-align: center; font-size: 18px; padding: 15px 0; width: 100px; }
+.content_box .con-left .award table thead tr{ background-color: #ffa650; color: #fff; border-radius: 20px 20px 0 0;}
+.content_box .con-left .award table tbody td{ color: #4d4d4d;}
+.content_box .con-left .tip{ margin: 40px 0 0 0;}
+.content_box .con-left .tip ul li{ font-size: 16px; color: #333; padding-bottom: 2px; line-height: 32px;}
+.content_box .con-right{ float: right; margin-top: 80px; position: relative}
+.content_box .con-right .number{ background: url("number.png") no-repeat 0 0; color: #330000; width: 17px; height: 17px; display: inline-block; vertical-align: middle; font-style: normal; line-height: 17px; text-align: center; float: left; margin: 7px 5px 5px 0;}
+.content_box .con-right .number1{ background-position: 0 0;}
+.content_box .con-right .number2{ background-position: 0 -26px;}
+.content_box .con-right .number3{ background-position: 0 -53px;}
+.content_box .con-right h4{ background: url("tip.png?1.0.1") no-repeat 0 0; width: 307px; height: 47px; line-height: 40px; text-align: center; color: #fff; font-size: 20px;  position: absolute; left: 0; top: -37px;}
+.content_box .con-right .cr-up, .content_box .con-right .cr-down{background-color: #ffea78; width: 260px; margin: 0 0 0 13px; color: #924c00; padding: 0 0 0 20px; }
+.content_box .con-right .cr-up{border-bottom: 1px solid #fdd168; padding-top: 20px;}
+.content_box .con-right .cr-up ul li{ padding: 0 0 8px 0; line-height: 24px;}
+.content_box .con-right ul li span{ color: #ff5955;}
+.content_box .con-right .cr-down{border-top: 1px solid #fff2af; border-bottom: 2px solid #e6c239; border-radius: 0 0 10px 10px ; padding: 5px 0 10px 20px;}
+.content_box .con-right .cr-down h5{ font-size: 16px; font-weight: normal;}
+.content_box .con-right .cr-down h5 .moving-title{ font-size: 20px;background: url("moving-title.png") no-repeat 0 0;width:281px;height:40px;line-height: 40px;text-align: center; color: #fff;position: absolute;top: -40px;left: 13px;}
+.content_box .con-right .cr-down .list{ height: 142px; overflow: hidden; line-height: 22px;}
+.content_box .con-right .cr-down .list li{ margin-top: 5px;}
+/*content_prize_box*/
+.content_prize_box{}
+.content_prize_box .inner{}
+.content_prize_box .inner h4{height: 60px; font-size: 24px; color: #ff5955; font-weight: normal; _margin-left: 80px;  }
+.content_prize_box .inner .con{ overflow: hidden; *zoom: 1; width: 1080px; _margin-left: 80px;  }
+.content_prize_box .inner .con dl{ padding: 25px ; background-color: #ffd647; color: #4d3e09; float: left; border-bottom: 2px solid #e9a33b; width: 427px; margin:0 45px 20px 0;}
+.content_prize_box .inner .con dl dt{ float: left; width: 165px;}
+.content_prize_box .inner .con dl dt img{ width: 160px; height: 160px; border: 1px solid #ccc;}
+.content_prize_box .inner .con dl dd{ margin-left: 182px;}
+.content_prize_box .inner .con dl dd .font{ padding: 0 0 18px 0;}
+.content_prize_box .inner .con dl dd .feel{ height: 65px; overflow: hidden;}
+.content_prize_box .inner .con dl dd span{ color: #ff5955;}
+.special-footer .copyright, .special-footer .m-foot-link a{ color: #fff !important;}
+.special-footer, .special-footer .m-inner{ background-color: #8f2b9b;}
+.special-footer{ border: 0;}
+.special-footer .m-foot-link .m-code .c-title{ color: #fff;}
+.special-footer .link{ display: none;}
+/*rcode-area*/
+.code-area{ position: absolute; top: 200px; left: 0; width: 410px;}
+.code-area dl{ border-radius: 10px; padding: 10px; overflow: hidden; height: 100%; margin: 12px 0 15px; clear: both;}
+.code-area dt{ float: left; width: 100px; height: 100px; background-color: #fff;}
+.code-area dd{ font-size: 14px; color: #fff; line-height: 20px; margin: 0 0 0 120px; padding: 10px 0 0; width: 150px;}
+/*popup*/
+.travelLottery-popup{ position: relative;}
+.travelLottery-popup, .travelLottery-popup .btn a{ background: url(r-popup-4.png) no-repeat 0 0; width: 650px; height: 423px;}
+.travelLottery-popup .close{ width: 41px; height: 36px; position: absolute; top: 159px; right: 48px;}
+.travelLottery-popup .close a{ width: 41px; height: 36px; background: url(close.png) no-repeat; display: block;}
+.travelLottery-popup .close a:hover{ background-position: -51px 0;}
+.travelLottery-popup .close a:active{ background-position: -101px 0;}
+.travelLottery-popup .btn{ float: right; padding: 363px 80px  0 0;}
+.travelLottery-popup .btn a{ display: block; width: 185px; height: 56px; background-position: -385px -363px;}
+.travelLottery-popup .btn a:hover{ background-position: -179px -432px;}
+.travelLottery-popup .btn a:active{ background-position: -379px -432px;}
+.travelLottery-popup .content{ color: #fff; font-size: 14px; position: absolute; top: 85px; left: 75px; line-height: 110%;}
+/*.travelLottery-popup-4*/
+.travelLottery-popup-4, .travelLottery-popup-4 .btn a{ background-image: url(r-popup-4.png); width: 641px; height: 195px;}
+.travelLottery-popup-4 .close { top: 29px; right: 0;}
+.travelLottery-popup-4 .btn { padding: 144px 20px 0 0;}
+.travelLottery-popup-4 .btn a{ width: 103px; height: 48px; background-position: -518px -144px;}
+.travelLottery-popup-4 .btn a:hover{ background-position: -394px -207px;}
+.travelLottery-popup-4 .btn a:active{ background-position: -509px -207px;}
+.travelLottery-popup-4 .content{ font-size: 18px;}
+/*.travelLottery-popup-5*/
+.travelLottery-popup-5, .travelLottery-popup-5 .btn a{ background-image: url(r-popup-5.png); width: 441px; height: 180px;}
+.travelLottery-popup-5 .close { top: 18px; right: 0;}
+.travelLottery-popup-5 .btn { padding: 132px 21px 0 0;}
+.travelLottery-popup-5 .btn a{ width: 103px; height: 48px; background-position: -317px -132px; float: left;}
+.travelLottery-popup-5 .btn a:hover{ background-position: -193px -195px;}
+.travelLottery-popup-5 .btn a:active{ background-position: -308px -195px;}
+.travelLottery-popup-5 .content{ font-size: 14px; width: 300px; top: 75px; line-height: 25px;}
+#specialHeader{ display: none;}
+

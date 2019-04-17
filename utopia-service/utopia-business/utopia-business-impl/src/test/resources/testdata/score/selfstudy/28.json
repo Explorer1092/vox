@@ -1,0 +1,60 @@
+{
+    "actualScore": 85,
+    "bookId": "878",
+    "passScore": "30",
+    "voiceScoringMode": "Normal",
+    "studyType": "selfstudy",
+    "sentence": [
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001001",
+            "score": 94,
+            "content": "hello"
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001002",
+            "score": 84,
+            "content": "I"
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001003",
+            "score": 80,
+            "content": "nice"
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001004",
+            "score": 80,
+            "content": "meet"
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001005",
+            "score": 89,
+            "content": "you"
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900010001006",
+            "score": 80,
+            "content": "too"
+        }
+    ],
+    "uintId": "879",
+    "version": "1.0.0.1",
+    "param": {
+        "unitId": 879,
+        "bookId": 878,
+        "userId": 30046,
+        "practiceType": 28,
+        "lessonId": 8790001,
+        "gameType": 28,
+        "studyType": "selfstudy"
+    },
+    "totalScore": 93,
+    "lessonId": "8790001",
+    "totalTime": 78479,
+    "voiceEngineType": "internal"
+}

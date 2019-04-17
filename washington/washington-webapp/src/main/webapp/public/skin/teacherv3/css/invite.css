@@ -1,0 +1,67 @@
+.intiveSelect { clear: both; width: 100%; }
+.intiveSelect .invite-toSendBag-box{background: url(../images/publicbanner/invite-redBag-bg.png) no-repeat center 0; width: 149px; height: 187px;}
+.intiveSelect .invite-toSendInfo-box{ font-size: 16px; padding: 20px 0 10px; text-align: center; color: #5a2800; height: 20px;}
+.intiveSelect .invite-toSendBag-box{ text-align: center; color: #fff; margin: 0 auto 22px}
+.intiveSelect .invite-toSendBag-box span{ display: block; padding: 55px 0 65px 0; color: #c97354; font-size: 20px;}
+.intiveSelect .invite-toSendBag-box h6{ font-size: 20px; font-weight: normal;}
+.intiveSelect .horizontal_vox { clear: both;  position: relative; top: -1px; padding: 40px 0 0; border-radius: 0 6px 6px 6px; margin-bottom: 10px; position: relative; }
+.intiveSelect .horizontal_vox dt { width: 132px; color: #666; font-weight: normal; line-height: 25px; position: relative; font-size: 12px; float: left; text-align: right; }
+.intiveSelect .horizontal_vox dd { margin: 0 0 20px 140px; }
+.intiveSelect .horizontal_vox dd.pl{ margin-left: 36px;  font-size: 15px;}
+.intiveSelect .horizontal_vox dd span.clazz{ vertical-align: middle; display: inline-block; line-height: 22px;}
+.intiveSelect .horizontal_vox .ctn { margin: 0; clear: both; padding:22px 0 22px 32px; text-align: center;  }
+.intiveSelect .horizontal_vox .sms_ctn { width: 370px; padding: 20px; position: absolute; right: 10px; top: 15px; border: 1px dashed #b4cbdb; background: /*url(../images/intive/invite-new-back_2.png) no-repeat 15px 110px */#f5fbff; height: 300px; text-align: left; line-height: 24px;}
+.intiveSelect .horizontal_vox .ctn h5 { color: #333; font: 12px/22px Arial, Helvetica, sans-serif; padding: 14px 0;}
+.intiveSelect .horizontal_vox .ctn h4{ font-size: 15px; font-weight: normal; text-align: left; height: 22px; padding-bottom: 5px; line-height: 26px;}
+.intiveSelect .horizontal_vox .ctn p { border: 1px dashed #bfbfbf; background-color: #f6f6f6; padding: 20px; margin: 0 0 20px; clear: both; border-radius: 4px; line-height: 18px; color: #666; overflow: hidden; height: 100%; }
+.intiveSelect .horizontal_vox .ctn p textarea { background: none; }
+.tabsMain { padding: 15px 0 0 0px; height: 38px; border-bottom: 1px solid #ddd;  *height: 37px; *overflow: hidden; margin-bottom: 15px; }
+.tabsMain li { float: left; margin-right: -1px; }
+.tabsMain li span { padding: 8px 25px; display: inline-block; border-radius: 4px 4px 0 0; cursor: pointer; color: #666; }
+.tabsMain li span strong { display: inline-block; vertical-align: middle; }
+.tabsMain li.active { position: relative; z-index: 11; padding: 0; }
+.tabsMain li.active span { background-color: #fafafa; color: #638ce8; font-weight: inherit; border: 1px solid #ddd; border-bottom: none; box-shadow: none; padding-bottom: 9px; }
+/*copyLink*/
+.copyLink { width: 143px; margin: auto; }
+.copyLink div { top: 0 !important; left: 0 !important; ; }
+.copyLink div, .copyLink div embed { width: 139px !important; height: 36px !important; display: block; }
+/*table_vox_blue 2013-12-13 add css*/
+.table_vox_blue { border: 1px solid #c9daff; overflow: hidden; }
+.table_vox_blue .errorSuccess { position: relative; z-index: 11; float: left; width: 100%; text-align: center; _padding-bottom: 5px }
+.table_vox_blue table { margin-top: -1px; }
+.table_vox_blue tr td, .table_vox_blue tr th { border-color: #c9daff !important; border-width: 1px 0 0 !important; padding: 10px 0 !important; color: #666; }
+.table_vox_blue thead td, .table_vox_blue thead th { background-color: #e3ecff; }
+.table_vox_blue thead.title td, .table_vox_blue thead.title th { background-color: #628be8; color: #fff; font-size: 14px; text-indent: 23px; }
+/*table_vox_red*/
+.table_vox_red { border: 1px solid #fdbeb7; overflow: hidden; margin-bottom: 20px; }
+.table_vox_red table { margin-top: -1px; }
+.table_vox_red tr td, .table_vox_red tr th { border-color: #fdbeb7 !important; border-width: 1px 0 0 !important; padding: 10px 0 !important; }
+.table_vox_red thead td, .table_vox_red thead th { background-color: #ffe9e7; }
+.table_vox_red thead.title td, .table_vox_red thead.title th { background-color: #eb4a3b; color: #fff; font-size: 14px; text-indent: 23px;}
+/*inrule_box*/
+.inrule_box { }
+.inrule_box h3 { font-size: 14px; color: #666; padding: 0 20px; margin: 0; }
+.inrule_box ul, .inrule_box ul li { list-style: decimal; }
+.inrule_box ul { padding: 0 40px 10px; }
+.inrule_box ul li { padding: 1px 0; color: #666; }
+/*icon_general*/
+.icon_general { background-image: url(../images/intive/frameIcon.png); display: inline-block; width: 24px; height: 24px; }
+.icon_general_70 { background-position: -288px -266px; }
+.icon_general_95 { background-position: -294px -103px; }
+table th, table td { font-size: 12px; }
+
+.invite-enter-banner{ background: url(../images/intive/invite-enter-banner.png) no-repeat 0 0; width: 760px; height: 246px; position: relative;}
+.invite-enter-banner .swap{ position: absolute; right: 27px; top: 20px;}
+
+/*t-inviteSend-number*/
+.t-inviteSend-number{ background-color: #f3f3f3;}
+.t-inviteSend-number dl{ font-size: 14px; padding: 10px 0;}
+.t-inviteSend-number dl dt{ width: 154px; float: left; text-align: center; padding-top: 8px;}
+.t-inviteSend-number dl dd{ margin-left: 160px;}
+.t-inviteSend-number dl dd p{padding: 4px;}
+.t-inviteSend-number dl dd p .w-red{font-size: 18px;}
+.t-inviteSend-number dl dd p .info{margin-left: 10px;}
+
+.wx-code-wrap{float: left; width: 120px; height: 160px; text-align: center;overflow: hidden; border: 1px solid #ccc; border-left:0; margin-top: -1px;}
+.intiveSelect .horizontal_vox .wx-code-wrap p{ border: 0; font-size: 12px; margin: 0; padding: 5px; background: #fff;height:auto;line-height: 15px;}
+.wx-code-wrap span img{ width: 100px; height:100px;}

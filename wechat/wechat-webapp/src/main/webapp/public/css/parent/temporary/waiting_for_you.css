@@ -1,0 +1,15 @@
+@charset "UTF-8";html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}}
+@media only screen and (min-width:375px){html{font-size:21px!important}}
+@media only screen and (min-width:400px){html{font-size:22px!important}}
+@media only screen and (min-width:414px){html{font-size:23px!important}}
+@media only screen and (min-width:480px){html{font-size:24px!important}}
+@media only screen and (min-width:540px){html{font-size:26px!important}}
+@media only screen and (min-width:640px){html{font-size:28px!important}}
+@media only screen and (min-width:768px){html{font-size:32px!important}}
+@media only screen and (min-width:960px){html{font-size:36px!important}}
+@media only screen and (min-width:1024px){html{font-size:46px!important}}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,html{-webkit-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;tap-highlight-color:transparent}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}

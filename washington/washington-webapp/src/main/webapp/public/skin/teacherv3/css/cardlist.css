@@ -1,0 +1,125 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+.w-sets-container-back{position:relative}
+.t-teacherMissionCenter{position:relative;/*padding:46px 0 0 0!important;*/height:400px;overflow:hidden}
+.t-teacherMissionCenter .missionCenter-item{position:relative;padding:0 10px;float:left;width:200px;height:400px;background:#fff;border-right:1px solid #dae6ee;border-radius:2px}
+.missionCenter-top{margin:0 auto;width:180px;height:60px;text-align:center;color:#fff;background:url(../images/cardlist/mission-top.png?v=fe46420f0e) no-repeat 0 0}
+.missionCenter-top.topBlue{background-position:-215px 0}
+.missionCenter-top.topGreen{background-position:-429px 0}
+.missionCenter-top.topNone{background:0 0}
+.missionCenter-top.topNone .title{font-size:18px;color:#383a4c}
+.missionCenter-top .title{padding:8px 0 0 0;font-size:16px}
+.missionCenter-top .info{font-size:12px}
+.missionCenter-image{margin:10px 0;width:200px;height:103px;border-radius:4px}
+.missionCenter-image img{width: 100%}
+.missionCenter-set .set-list{margin:15px 0 0 -86px;overflow:hidden}
+.missionCenter-set .set-list li{position:relative;float:left;width:95px;height:28px;cursor:pointer}
+.missionCenter-set .set-list li .line{position:absolute;top:8px;right:2px;width:100%;border-bottom:1px solid #189cfb}
+.missionCenter-set .set-list li:first-child .line{display:none}
+.missionCenter-set .set-list li .circleIcon{position:absolute;top:4px;right:0}
+.missionCenter-set .set-list li.active .circleIcon{background-position:-87px 0;top:3px}
+.missionCenter-set .set-list li.success .circleIcon{background-position:0 0}
+.missionCenter-set .set-list li.success.active .circleIcon{background-position:-21px 0}
+.missionCenter-set .set-list li.disabled .circleIcon{background-position:-68px 0}
+.missionCenter-set .set-list li.disabled .line{border-bottom:1px solid #d8d8d8}
+.missionCenter-set .tips{font-size:14px;color:#383a4c}
+.missionCenter-set .tips .fontBlue{color:#189cfb}
+.missionCenter-set.schedule .set-list{margin: 0 0 0 -5px;}
+.missionCenter-set.schedule .set-list li{width:29px;}
+.missionCenter-set.schedule .set-list li .line{top:14px;right:12px}
+.missionCenter-set.schedule .set-list li .circleIcon{position:relative;z-index:2;left:8px;width:18px;height:18px;line-height:16px;text-align:center;font-size:10px;color:#189cfb;background:#ffffff;border:1px solid #189cfb;border-radius:100%;}
+.missionCenter-set.schedule .set-list li.active .circleIcon{top: 3px;border:2px solid #189cfb;}
+.missionCenter-set.schedule .set-list li.success .circleIcon{color:#fff;background:#3cacfc;}
+.missionCenter-set.schedule .set-list li.success.active .circleIcon{top: 2px;left: 5px;color:#fff;background:#3cacfc;border:3px solid #85cbfd;}
+.missionCenter-set.schedule .set-list li.disabled .circleIcon{color:#fff;background:#d8d8d8;border:1px solid #c7c6c6;}
+.missionCenter-set .set-column{margin: 0 6px;padding:5px 5px 0 0;width:95%;height:78px;overflow:hidden;overflow-y:auto}
+.missionCenter-set .set-column.marT28{margin-top: 28px;}
+.missionCenter-set .set-column li{position:relative;font-size:14px;color:#383a4c;overflow:hidden}
+.missionCenter-set .set-column li .name{float:left;width:120px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.missionCenter-set .set-column li .count{float:right}
+.missionCenter-set .set-column li .count .set_btn{font-size:14px;color:#383a4c}
+.missionCenter-set .set-column li .circleIcon{float:left;margin:6px 5px 0 0}
+.circleIcon{display:inline-block;vertical-align:middle;width:12px;height:12px;background:url(../images/cardlist/mission-circle.png?v=83eb73a962) no-repeat -44px 0}
+.missionCenter-box .rule{padding:3px 0;font-size:14px;color:#383a4c;line-height:24px}
+.missionCenter-box .rule .icon-circle{display: inline-block;vertical-align: middle;margin-right: 4px;width: 10px;height: 10px;background: url(../images/cardlist/icon01.png) no-repeat;}
+.missionCenter-btn{position:absolute;text-align:center;bottom:15px;left:0;width:100%}
+.missionCenter-btn .rule-info{padding:5px 0;font-size:14px;color:#189cfb;cursor: pointer}
+.missionCenter-btn .w-btn-gray{color:#fff;background-color:#d8d8d8;border:1px solid #c3c3c3;cursor:default}
+.missionCenter-btn .w-btn-gray:active,.missionCenter-btn .w-btn-gray:hover{color:#fff;background-color:#d8d8d8}
+.missionCenter-btn .w-btn-fontGray{font-size:14px;color:#c2c2c2;text-decoration:underline;background:0 0;border:none}
+.missionCenter-btn .w-btn-fontGray:active,.missionCenter-btn .w-btn-fontGray:hover{color:#c2c2c2;background:0 0;border:none}
+.t-teacherMissionCenter-arrow li{cursor:pointer}
+.t-teacherMissionCenter-arrow li .arrow_btn{position:absolute;top:50%;margin:-13px 0 0 0;display:block;width:26px;height:26px;background:url(../images/cardlist/mission-arrow.png?v=6046b14dce) no-repeat -67px 0;border-radius:100%}
+.t-teacherMissionCenter-arrow li .arrow_btn.prev{left:18px}
+.t-teacherMissionCenter-arrow li .arrow_btn.next{right:18px;background-position:-100px 0}
+.t-teacherMissionCenter-arrow li .arrow_btn.prev.disabled{background-position:0 0}
+.t-teacherMissionCenter-arrow li .arrow_btn.next.disabled{background-position:-34px 0}
+.addStudent-box{margin-top:-40px;font-size:16px;color:#4d5656;overflow:hidden}
+.addStudent-box .title{padding:18px 0}
+.addStudent-box .title span{color:#fa7252}
+.addStudent-box .column{position:relative;padding:20px;border:solid #3cacfc;border-width:4px 1px 1px 1px;border-radius:2px}
+.addStudent-box .column .icon-triangle{position:absolute;top:-12px;left:54px;display:inline-block;vertical-align:middle;width:13px;height:12px;background:url(../images/cardlist/mission-triangle.png?v=82925db3fe) no-repeat}
+.addStudent-box .column p{line-height:28px}
+.addStudent-box .column p.sub{padding:30px 0 0 0}
+.addStudent-box .column a{color:#3cacfc}
+.addStudent-box .info{margin-bottom:10px;padding:5px 0;text-align: right}
+.addStudent-box .info a{padding:0 0 0 15px;font-size:14px;color:#3cacfc}
+.setPop-box{text-align:center}
+.setPop-box p{font-size:18px;color:#595757;line-height:26px}
+.receiveReward-pop{text-align:center}
+.receiveReward-pop .item{font-size:18px;color:#ffca29}
+.receiveReward-pop .item .icon-bean{display:inline-block;vertical-align:middle;width:15px;height:18px;background:url(../images/cardlist/mission-bea.png?v=11360a77ec) no-repeat}
+.receiveReward-pop .tips{font-size:16px;color:#595757;line-height:30px}
+.ruleExplain-card{margin:-36px 0 0 0;background:#f3f5f6;border-radius:2px;height:380px!important;}
+.ruleExplain-card .title{padding:18px 0 16px 0;text-align:center;font-size:18px;color:#383a4c;font-weight: bold}
+.ruleExplain-card .info{padding:0 11px;font-size:14px;color:#383a4c;line-height:20px}
+.cardListContent .flex-viewport{margin:0 56px;border-left: 1px solid #dae6ee;}
+.clazzAdjustment{float:left;height:36px;line-height:36px;margin-left:26px;font-size:18px; color:#fa7152;letter-spacing:0.43px;text-align:left;text-indent:20px;background:url(../images/cardlist/clazzAticon.png?v=11360a77ec) no-repeat left center;}
+.clazzAdjustment:hover{cursor: pointer}
+.clazzAdjustmentBox{ padding:5px 20px 20px;}
+.clazzAdjustmentBox p{line-height: 25px;font-size:18px;color:#595757;letter-spacing:0.22px; text-align:center; padding-bottom:10px;}
+.clazzAdjustmentBox a{display:block;margin:20px auto 0; width:160px;height:51px;line-height: 51px;border-radius:4px;color:#fff;font-size:18px;color:#f5f6f7; letter-spacing:0.22px;text-align:center;}
+.clazzAdjustmentBox a.btn1{background:#3cacfc;border:1px solid #189cfb;}
+.clazzAdjustmentBox a.btn2{background:#1abc9c;border:1px solid #08977b;}
+/*.cardListContent .flex-direction-nav a{opacity:1!important;position:absolute;top:50%;margin:-13px 0 0 0!important;display:block;width:26px!important;height:26px!important;background:url(../images/cardlist/mission-arrow.png?v=6046b14dce) no-repeat 0 0!important;}*/
+/*.cardListContent .flex-direction-nav .flex-prev{left: 18px!important;background-position: 0 0!important;}*/
+/*.cardListContent .flex-direction-nav .flex-prev.active{background-position:-67px 0!important;}*/
+/*.cardListContent .flex-direction-nav .flex-next{right:18px!important;background-position:-34px 0!important;}*/
+/*.cardListContent .flex-direction-nav .flex-next.active{background-position:-100px 0!important;}*/
+/*.missionCenter-item .cardBox{position: relative;width: 100%;height: 100%;-webkit-perspective: 800px;-moz-perspective: 800px;-o-perspective: 800px;perspective: 800px;-webkit-transition: -webkit-transform 1s;-moz-transition: -moz-transform 1s;-o-transition: -o-transform 1s;-ms-transition: -ms-transform 1s;transition: transform 1s;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;-ms-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;}*/
+/*.missionCenter-item .cardBox .ruleExplain-card,.missionCenter-item .cardBox .daily-card{position:absolute;left:0;top:0;width:100%;height:100%;backface-visibility: hidden;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;transition:.8s ease-in-out;-webkit-transition:.8s ease-in-out;-moz-transition:.8s ease-in-out;-o-transition:.8s ease-in-out;-ms-transition:.8s ease-in-out;}*/
+/*.missionCenter-item .cardBox .daily-card{z-index:2;transform:rotateY(0deg);-webkit-transform:rotateY(0deg);-ms-transform:rotateY(0deg);-moz-transform:rotateY(0deg);-o-transform:rotateY(0deg);}*/
+/*.missionCenter-item .cardBox .ruleExplain-card{ z-index:1;transform:rotateY(180deg);-webkit-transform:rotateY(180deg);-ms-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);}*/
+/*.flipped {transform:rotateY(180deg);-webkit-transform:rotateY(180deg);-ms-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);}*/

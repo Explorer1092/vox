@@ -1,0 +1,22 @@
+html, body{ padding: 0; margin: 0; background-color: #fdecac;}
+.header{ background: url(three_1.jpg) repeat-x 0 0; height:540px }
+.header .inner{ background: url(three_2.jpg?1.0.1) no-repeat; width: 960px; height: 540px; margin: 0 auto; overflow: hidden; position: relative;}
+.header .inner .btnOpening{ background: url(btn.png) no-repeat -287px -0px; width: 254px; height:86px; position: absolute; top: 225px; left: 620px; overflow: hidden; line-height: 2500px;}
+.header .inner .btnOpening:hover{ background-position: -287px -91px;}
+.header .inner .btnOpening:active{ background-position: -287px -182px;}
+.header .inner .btnTry{ background-position: 0 0; left: 330px;}
+.header .inner .btnTry:hover{ background-position: 0 -91px;}
+.header .inner .btnTry:active{ background-position: 0 -182px;}
+.footer .inner{  width: 960px; height: 120px; margin: 0 auto; overflow: hidden; position: relative;}
+.footer .inner .btnOpening{ background: url(btn.png) no-repeat -287px -0px; width: 254px; height:86px; position: absolute; top: 0; left: 500px; overflow: hidden; line-height: 2500px;}
+.footer .inner .btnOpening:hover{ background-position: -287px -91px;}
+.footer .inner .btnOpening:active{ background-position: -287px -182px;}
+.footer .inner .btnTry{ background-position: 0 0; left: 200px;}
+.footer .inner .btnTry:hover{ background-position: 0 -91px;}
+.footer .inner .btnTry:active{ background-position: 0 -182px;}
+.main{ width: 960px; margin: 0 auto;}
+.main p{ clear: both;}
+.main .picture_1{ background: url(three_3.jpg?1.0.1) no-repeat; height: 595px; margin-bottom: 20px;}
+.main .picture_2{ background: url(three_4.jpg?1.0.1) no-repeat; height: 480px; margin-bottom: 20px;}
+.main .picture_3{ background: url(three_5.jpg) no-repeat; height: 290px;}
+.main .picture_4{ background: url(three_6.jpg) no-repeat; height: 415px; margin-bottom: 20px;}

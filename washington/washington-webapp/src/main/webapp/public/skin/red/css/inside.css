@@ -1,0 +1,178 @@
+body { background: url(../images/insideback.png); }
+.iarticle, .iarticle .iarttop, .iarticle .iartbot { background: url(../images/articlewhite.png) no-repeat; clear:both;}
+.iarticle { background-position: -699px 0; background-repeat: repeat-y; margin:0 auto 10px; width:698px;}
+.iarticle .iarttop { background-position: 0 top; height:15px; font:1px/1px arial;}
+.iarticle .iartbot { background-position: -1398px bottom; height:20px;}
+/*userarticle*/
+.userarticle{ width:650px; margin:0 auto;}
+.userarticle .userinfo{ float:left;}
+.userarticle .userinfo dt{ width:94px; height:94px; float:left; background:url(../images/insideavatar.png) no-repeat;}
+.userarticle .userinfo dt img{ width:84px; height:84px; margin:4px 0 0 5px;}
+.userarticle .userinfo dd { float:left; padding: 0 0 0 20px;}
+.userarticle .userinfo dd p{ color:#666; padding:5px 0; line-height:20px;}
+.userarticle .userinfo dd p .school{ display:block;}
+.userarticle .userbtn{ float:right; width:210px; text-align:right; border-left: dashed 1px #e7e7e7; height:100px; position: relative;}
+.userarticle .userbtn .infoopen{ position:absolute; right:-23px; bottom:10px; cursor:pointer;}
+/*navsseed*/
+.navsseed { text-align:center; padding:10px 0 0 ; position:relative; width:650px; margin:0 auto;}
+.navsseed li{ display: inline-block; *display:inline; *zoom:1; margin:5px 10px;}
+.navsseed li.left,.navsseed li.right{ background:url(../images/articlewhiteg.png) no-repeat; width:16px; height:60px; position: absolute; top:-55px;}
+.navsseed li.left{ left: 135px;}
+.navsseed li.right{ right:130px;}
+/*rankingbox*/
+.rankingbox h4{ color:#fff; background:url(../images/arttitle.png) no-repeat 0 0; _background:url(../images/png8/arttitle.png) no-repeat 0 0; height: 38px; margin-left:-1px; line-height:28px; font-size:12px;}
+.rankingbox h4 span{ display:inline-block; text-align:center;}
+.rankingbox h4 .h1{ width:140px; }
+.rankingbox h4 .h2{ width:80px; }
+.rankingbox h4 .h3{ width:80px; }
+.rankingbox h4 .h4{ width:320px; }
+.rankingbox .tabtreebox{ padding:15px 20px;}
+.rankingbox .tabart{ width:280px; margin:0 0 0 0; float:left;}
+.rankingbox .tabart li{ clear:both; padding: 8px 0; color:#666;}
+.rankingbox .tabart li.even{ background:#fef9e9;}
+.rankingbox .tabart li span{ display:inline-block; text-align:center;}
+.rankingbox .tabart li .t1{ width:100px; }
+.rankingbox .tabart li .t2{ width:100px; }
+.rankingbox .tabart li .t3{ width:70px; }
+.rankingbox .tabart li .red{ color:#f00; font: bold 14px/1.125 arial;}
+.rankingbox .tabart li .green{ color:#69a600; }
+.rankingbox .treeart{ border:solid 1px #bf9e76; border-radius:6px; width:300px; float:right; padding:10px 0;}
+/**/
+h5.titleLabel{ clear:both; padding:10px 0 5px;}
+h5.titleLabel b{ background:url(../images/arttitle.png) no-repeat 0 -39px; _background:url(../images/png8/arttitle.png) no-repeat 0 -39px; display:block; height:39px; margin-left:-1px; font:bold 14px/30px arial; padding: 0 0 0 20px; color: #fff;}
+.tabbox { padding:10px 0;}
+.tabbox table{ border-collapse:collapse; width:95%; margin:0 auto; clear:both; border:solid 1px #bf9e76;}
+.tabbox table td,.tabbox table th { padding:6px; line-height:140%; word-break:break-all; word-wrap:break-word; color:#666; border:solid #bf9e76 ; border-width:0 1px;}
+.tabbox table thead td,.tabbox table thead th { background:#bf9e76; color:#fff; font-weight:bold;}
+.tabbox table td p,.tabbox table th p{ padding:3px 0;}
+.tabbox table tbody tr.even td,.tabbox table tbody tr.even th { background:#fef9e9;}
+.tabbox table thead tr.title td,.tabbox table thead tr.title th{ background:#feefbe; color:#bf9e76;}
+table.borall td, table.borall th { border-width:1px;}
+.tabbox .redpoint { background:#ffdac3 !important; color:#f00;}
+.tabbox .redpoint .lowback{ display:block; width:51px; height:51px; clear:both; background:url(../images/lowback.png) no-repeat;}
+.tabbox table a{ color:#bf9e76; }
+.tabbox table a:hover{ text-decoration:underline; }
+/**/
+.common_pagination a ,.common_pagination a span,.common_pagination a:hover, .common_pagination a.this,.common_pagination a:hover span, .common_pagination a.this span, .common_pagination a.disable:hover,.common_pagination a.disable:hover span { background: url(../images/pagebutton.png)}
+.common_pagination { text-align:center; padding:10px; font-family: "Arial"; }
+.common_pagination a { background-position: left top ; display:inline-block; height: 21px; line-height: 21px; margin-left: 3px; padding-left: 6px; text-align: center; }
+.common_pagination a span { background-position: right top; display: inline-block; height: 21px; line-height: 21px; padding-right: 6px; }
+.common_pagination a:hover, .common_pagination a.this { background-position: left bottom ; color: #bf9e76; cursor: pointer; }
+.common_pagination a:hover span, .common_pagination a.this span { background-position: right bottom ; }
+.common_pagination a.disable { color: #C4C4C4; cursor: auto; }
+.common_pagination a.disable:hover { background-position: left top; color: #C4C4C4; }
+.common_pagination a.disable:hover span { background-position: right top ; }
+.common_pagination span.points { border: 0 none; color: #000000; display: inline; float: left; line-height: 11px; margin-left: 3px; padding: 5px 6px; text-align: center; }
+/*reportbox*/
+.reportbox p{ padding:10px 0 20px; text-align:center; color:#666;}
+.reportbox p b{ font: 24px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#c62705;}
+.detailctn{ position:relative;}
+.detailctn .popdalctn{ position:absolute; color:#666; right:60px; top:-40px; background:url(../images/redetail.png) no-repeat; _background:url(../images/png8/redetail.png) no-repeat; width:386px; height:169px; text-align: left; font:12px/17px arial; z-index:1000;}
+.detailctn .popdalctn .tle{ height:32px; font: bold 12px/32px arial; color:#fff; padding:0 18px;}
+.detailctn .popdalctn .tle .cls{ float:right; display:inline-block; height:20px; width:20px; margin-top:6px;}
+.detailctn .popdalctn .ctn{overflow:auto; height:105px; margin:0 20px 0 15px ;}
+.detailctn .popdalctn .ctn p{ padding:2px 0;}
+.detailctn .popdalctn .ctn .red{ color:#c62705; font-weight:bold;}
+.detailctn .popdalctn .info{ padding:0 15px; color:#c62705;}
+.popdalctnRed{ position:relative; display: inline-block; *display:inline; *zoom:1;}
+.popdalctnRed .popdalctn{ position: absolute; color: #666; right: 0; top: 20px; background: #c52000; width: 300px; border-radius: 6px; text-align: left; font: 12px/18px arial; z-index: 1000; }
+.popdalctnRed .popdalctn .arrowlr{ font: 18px/1.128 arial; color: #c52000; position: absolute; left: 189px; top: -8px; }
+.popdalctnRed .popdalctn .tle{ font: bold 12px/1.125 arial; color:#fff; padding:10px 10px 5px;}
+.popdalctnRed .popdalctn .tle .cls{ float:right; display:inline-block; height:20px; width:20px; margin-top:6px;}
+.popdalctnRed .popdalctn .ctn{ margin:5px; background:#fff; border-radius:3px; padding:7px;}
+.popdalctnRed .popdalctn .ctn p{ padding:2px 0;}
+/*contrastbox*/
+.contrastbox { width:600px; margin:0 auto; padding:20px 0; position:relative;}
+.contrastbox .selectbox{ position:relative;}
+.contrastbox .selectbox select{ padding:7px; border:solid 1px #ccc; border-radius:6px; position:absolute; right:0;}
+.contrastbox .uleft{ float:left; width:300px; border-right:solid 2px #bf9e76;}
+.contrastbox .uleft .ctarticle .ctinnle{ float:right;}
+.contrastbox .uservs{ position:absolute; padding:0; margin:0; left:283px; top:85px;}
+.contrastbox .uright{ float:right;}
+.contrastbox .uright .userfrac .ctarticle{ float:left;}
+.contrastbox .uright .userfrac .ctcontent{ float:right; text-align: right;}
+.contrastbox .userinfo, .contrastbox .userfrac{ width:260px; clear:both;}
+.contrastbox .userinfo{ border:solid 1px #bf9e76; border-radius:6px; position:relative; margin:50px 0 0;}
+.contrastbox .userinfo dt ,.contrastbox .userinfo dd{ margin:10px;}
+.contrastbox .userinfo dt{ float:left; background:url(../images/conavatar.png) no-repeat; width:84px; height:84px;}
+.contrastbox .userinfo dt img{ width:74px; height:74px; margin: 2px 0 0 5px;}
+.contrastbox .userinfo dd{ font:24px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#666;}
+.contrastbox .userinfo dd .username{ line-height:84px; display:inline-block; width:100px; overflow:hidden; vertical-align:middle; white-space: nowrap;}
+.contrastbox .userfrac { padding: 20px 0 0;}
+.contrastbox .userfrac li{ padding:10px 0;}
+.contrastbox .userfrac .ctcontent{ float:left; width:80px; overflow:hidden;}
+.contrastbox .userfrac .ctcontent span{ display:inline-block; text-align: center;}
+.contrastbox .userfrac .ctcontent span b{ display:block; font:24px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; padding:0px 0; color:#c62705;}
+.contrastbox .userfrac .ctcontent span i{ color:#666;}
+/*ctarticle*/
+.ctarticle ,.ctarticle .ctinnle ,.ctarticle .ctinnle span{ background:url(../images/ctarticle.png?1.0.3) no-repeat; _background:url(../images/png8/ctarticle.png?1.0.3) no-repeat;}
+.ctarticle { width:174px; float:right; background-position:0 0; height:30px; overflow:hidden; clear:both; padding:0 3px}
+.ctarticle .ctinnle{ background-position: right -62px; height:24px; margin:3px 0;  width:100%;}
+.ctarticle .ctinnle span{ display:block; height:24px; background-position: 0 -62px; margin: 0 2px 0 0 }
+.ctGreenArt .ctarticle {background-position:0 -31px;}
+.ctGreenArt .ctarticle .ctinnle{background-position: right -87px;}
+.ctGreenArt .ctarticle .ctinnle span{background-position:0 -87px;}
+.ctGreenArt .ctcontent span b{ color:#69a600 !important;}
+/*tarticle*/
+.textbox{ color:#666;}
+.textbox li{ float:left; width:74px ; text-align:center; padding: 0 0 20px;}
+.textbox li b{ display:inline-block; font-weight: normal;}
+.treeart .treebox{ clear:both; margin: 50px 0 0;}
+.treeart .treebox li{ float:left; width:38px ; padding:0 18px; height:443px; position:relative;}
+.tarticle ,.tarticle span.t{ background:url(../images/tarticle.png) no-repeat; _background:url(../images/png8/tarticle.png) no-repeat;}
+.tarticle{  background-position: -39px bottom; width:38px; height:100%; position:absolute; bottom:0; margin:0 auto;}
+.tarticle span.t{ display:block; overflow:hidden; height:4px; background-position: -39px top; position:absolute; width:38px; top:-4px;}
+.tarticle i.tx{ display:block; position:absolute; width:38px; top:-48px; height:20px; color:#666; text-align:center; white-space:nowrap;}
+.greenArt { height:50%; background-position: -80px bottom;}
+.greenArt span.t{ background-position: -80px top;}
+.redArt{  height:45%; background-position: 0 bottom;}
+.redArt span.t{ background-position: 0 top;}
+.upgrlayerinfo { position:absolute; width:180px;}
+.upgrlayerinfo .redtxt{ vertical-align:middle; width:38px; display:inline-block; text-align:center;}
+.upgrlayerinfo .redtxt .luc{ display:inline-block; width:38px; color:#f00;}
+.upgrlayerinfo .upgradebtn{ margin-left:-11px; background:url(../images/upgradebtn.png) no-repeat; _background:url(../images/png8/upgradebtn.png) no-repeat; width:115px; height:30px; color:#fff; line-height:28px; display:inline-block; padding-left:15px;}
+/*message*/
+.msgNavs,.rounded_bot{clear: both; margin: 0 20px;}
+.msgNavs { height: 40px;}
+.msgNavs .nL { float: left; }
+.msgNavs .nR { float: right; }
+.sysmsg dl { border: solid 1px #bf9e76; border-radius: 6px; margin: 0 0 15px; }
+.sysmsg dt { height: 36px; background: #FAF8F0; border-bottom:solid 1px #bf9e76; clear: both; border-radius: 6px 6px 0 0; }
+.sysmsg dt .title { float: left; font: 12px/35px arial; padding: 0 10px; color: #999; }
+.sysmsg dt .n_breath { font-weight: bold; color: #333; }
+.sysmsg dt .btn { float: right; margin: 8px 10px 0; }
+.sysmsg dd { clear: both; padding: 10px; font: 14px/22px Arial; }
+.sysmsg dd .content { color: #6b6649; height: 22px; overflow: hidden; white-space: nowrap; width: 99%; text-overflow: ellipsis; word-wrap: break-word; }
+.sysmsg dd .c_more { height: auto; white-space: normal; color: #666; }
+.teachermsg { padding: 0; }
+.teachermsg li { margin: 0 0 30px; clear: both; border-radius: 6px; }
+.teachermsg .currentctn dl { width: 100%; background: #fefdf8; border: solid 1px #bf9e76; border-radius: 6px; }
+.teachermsg dt.avatar { float: left; width: 80px; padding: 15px 0 0; }
+.teachermsg dt.avatar .arrowl { background: url(../images/arrowh.png) no-repeat left top; display: inline-block; *zoom:1;font: 1px/1.125 arial; height: 11px; width: 6px; margin: -25px 0 0 75px; }
+.teachermsg .currentctn dt { padding: 15px 0 0; }
+.teachermsg .currentctn dt.avatar span { width: 52px; height: 52px; margin: 0 auto; display: block; }
+.teachermsg .currentctn dt.avatar img { width: 46px; height: 46px; margin: 2px 0 0 3px; }
+.teachermsg .currentctn dd { margin: 0 0 0 80px; border-left: solid 1px #bf9e76; }
+.teachermsg .currentctn dd .title { background: #faf8f0; padding: 5px 10px; border-radius: 0 6px 0 0; border-bottom: solid 1px #bf9e76; height: 28px; }
+.teachermsg .currentctn dd .title .tL { float: left; color: #bf9e76; margin: 7px 0 0; }
+.teachermsg .currentctn dd .title .tR { float: right; }
+.teachermsg .currentctn dd .title .tR b { color: #bf9e76; }
+.teachermsg .currentctn dd .ctn { font: 14px/22px arial; padding: 12px; color: #666;/* white-space: nowrap; width: 90%; overflow: hidden; text-overflow: ellipsis;*/ }
+.teachermsg .replyctn { clear: both; margin: 0 0 0 50px; padding: 10px; border: solid #bf9e76; border-width: 0 1px 1px; background: #fefdf8; border-radius: 0 0 6px 6px; }
+.teachermsg .replyctn dl { margin: 0 0 10px;border: none; }
+.teachermsg .replyctn dt.avatar span { width: 52px; height: 52px; display: block; margin: 0 auto; }
+.teachermsg .replyctn dt.avatar img { width: 46px; height: 46px; margin: 2px 0 0 3px; }
+.teachermsg .replyctn dd { margin: 0 0 0 80px; border: solid 1px #bf9e76; background: #fefdf8; }
+.teachermsg .replyctn dd .title { background: #faf8f0; padding: 5px 10px; border-bottom: solid 1px #bf9e76; height: 28px; }
+.teachermsg .replyctn dd .title .tL { color: #bf9e76; float: left; display: block; }
+.teachermsg .replyctn dd .title .tR { float: right; }
+.teachermsg .replyctn dd .ctn { font: 14px/22px arial; padding: 12px; color: #666; word-break: break-all; word-wrap: break-word; }
+.teachermsg .replybox .txa { position: relative; }
+.teachermsg .replybox .txa .tif { position: absolute; bottom: 6px; color: #999; right: 20px; }
+.teachermsg .replybox .txa .tif b { font-size: 16px; color: #666; padding: 0 5px; }
+.teachermsg .replybox .txa textarea { width: 98%; *width:568px;border: solid 1px #bf9e76; background: #fff; padding: 5px 5px 25px; color: #666; font: 14px/22px arial; height: 48px; border-radius: 8px; }
+.teachermsg .replybox .btn { padding: 10px; text-align: right; }
+/*afenticompare*/
+.afentitab {width:100%; line-height:32px;}
+.afentitab .lt{display:inline-block; width:47%; background:#fff;}
+.afentitab .rt{display:inline-block; width:47%; border-left: solid 1px #feefbe; background:#fef9e9;}

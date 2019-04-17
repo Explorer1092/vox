@@ -1,0 +1,111 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body,html{margin:0;padding:0}
+body{background-color:#f8fafb}
+a{text-decoration:none}
+*{font-style:normal}
+li{list-style:none}
+body,html{-webkit-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;tap-highlight-color:transparent}
+.s-skin{min-width:1028px;background:#f8e0c0}
+.clearfix{*zoom:1}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
+.s-banner img{display:block;width:100%}
+.m-list{padding:0 24px 30px}
+.m-list .m-item{position:relative;left:0;top:0;margin:100px auto 0;width:840px;background:#fefcf2;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px}
+.m-list .m-item .tagIcon{position:absolute;left:0;top:-40px;width:69px;height:69px;line-height:70px;text-align:center;color:#fff;font-size:16px;background:url(../images/icon-tag.png?v=7c132bae47) no-repeat;background-size:100% 100%}
+.m-list .m-item .sub-title{position:absolute;left:50%;top:-50px;margin-left:-167px;width:335px;height:82px;line-height:80px;text-align:center;font-size:28px;font-weight:700;color:#fff;background-repeat:no-repeat;background-image:url(../images/bar-title-y.png?v=b085586477);background-size:100% 100%}
+.m-list .m-item .sub-title.sub-title-2{background-image:url(../images/bar-title-b.png?v=34cb8437eb)}
+.m-list .m-item .inner-box{padding:40px 20px 20px;overflow:hidden}
+.m-list .m-item .inner-box .in-peopl,.m-list .m-item .inner-box .in-time{padding-top:10px;font-size:20px;color:#9490f7}
+.m-list .m-item .inner-box .in-peopl .timeIcon,.m-list .m-item .inner-box .in-time .timeIcon{display:inline-block;margin:-5px 10px 0 0;width:23px;height:23px;vertical-align:middle;background-image:url(../images/icon-time.png?v=3aa15cd8a3);background-repeat:no-repeat;background-size:100% 100%}
+.m-list .m-item .inner-box .in-peopl .timeIcon.timeIcon-2,.m-list .m-item .inner-box .in-time .timeIcon.timeIcon-2{background-image:url(../images/icon-user.png?v=33b922649e)}
+.m-list .m-item .inner-box .text-info img{float:right;margin:-40px 0 0 10px;width:230px}
+.m-list .m-item .inner-box .text-info img.icon-posit{margin-top:-80px;margin-right:20px}
+.m-list .m-item .inner-box .text-info img.icon-wid{margin:-40px 20px 0 20px;width:120px}
+.m-list .m-item .inner-box .text-info .txt{padding-left:30px;line-height:30px;font-size:16px;color:#333}
+.m-list .m-item .inner-box .text-info .txt p{padding-top:10px}
+.m-list .m-item .inner-box .text-info .txt .type-colr{color:#ff6000}
+.m-list .m-item .inner-box .open-btn{margin:30px auto 0;width:520px;height:75px;line-height:75px;text-align:center;font-size:20px;color:#fff;background:url(../images/icon-btn.png?v=84397685f4) no-repeat;background-size:100% 100%}
+.m-list .m-item .inner-box .open-btn a{display:block;color:#fff}
+.s-skin-2{position:relative;min-width:1028px;background:#ffd9c9}
+.s-skin-2 .tagIcon-2{position:absolute;right:30%;top:-20px;width:73px;height:85px;background:url(../images/icon-tag-3.png?v=8444fb9309) no-repeat;background-size:100% auto}
+.s-banner-2 img{display:block;width:100%}
+.wrap-box{margin-top:-60px}
+.f-btn-join{text-align:center}
+.f-btn-join a{display:inline-block;width:514px;height:70px;line-height:70px;font-size:22px;color:#ff5944;background:url(../images/icon-btn-2.png?v=154ef460b9) no-repeat;background-size:100% auto}
+.m-ranking{margin:0 auto;padding-bottom:30px;width:850px}
+.m-ranking .rank-list{background:#fff;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;overflow:hidden}
+.m-ranking .rank-list .rank-title{padding:30px 0 10px;text-align:center;font-size:16px;color:#fd8713}
+.m-ranking .rank-list .rank-title h4{padding-bottom:10px;font-size:22px}
+.m-ranking .rank-list .rank-title span{padding-right:20px}
+.m-ranking .rank-list .rank{width:15%;text-align:center}
+.m-ranking .rank-list .area{width:15%}
+.m-ranking .rank-list .school{width:25%}
+.m-ranking .rank-list .teach{width:15%}
+.m-ranking .rank-list .newStd{width:15%;text-align:center}
+.m-ranking .rank-list .time{width:15%;text-align:center}
+.m-ranking .rank-list .t-head{margin:0 20px;padding-right:18px;height:60px;line-height:60px;background:#fbf4eb;overflow:hidden}
+.m-ranking .rank-list .t-head i{float:left;font-size:18px;font-weight:700;text-indent:10px;color:#f29c76}
+.m-ranking .rank-list .list-inner{margin:0 20px;height:490px;overflow-y:auto}
+.m-ranking .rank-list .list-inner li{height:70px;line-height:70px}
+.m-ranking .rank-list .list-inner li:nth-child(even){background-color:#fbf4eb}
+.m-ranking .rank-list .list-inner li i{float:left;height:100%;font-size:16px;color:#333;text-indent:10px;text-overflow:ellipsis;white-space:nowrap;background-size:30% auto;background-repeat:no-repeat;background-position:center;overflow:hidden}
+.m-ranking .rank-list .list-inner li i.rank{color:#fd8713}
+.m-ranking .rank-list .list-inner li i.newStd{text-align:center}
+.m-ranking .rank-list .list-inner li i.medals-1{background-image:url(../images/medals-1.png?v=bd36fcc19a)}
+.m-ranking .rank-list .list-inner li i.medals-2{background-image:url(../images/medals-2.png?v=73a70bad3d)}
+.m-ranking .rank-list .list-inner li i.medals-3{background-image:url(../images/medals-3.png?v=16e962fc8c)}
+.m-ranking .rank-list .list-inner .tips-rank{line-height:490px;text-align:center;font-size:16px;color:#333}
+.m-ranking .rank-list .my-ranking .rank-inner{height:44px;line-height:44px;text-align:center;font-size:16px;color:#fd8713;background:#fff2d5;border-radius:44px}
+.m-ranking .rank-list .my-ranking .rank-inner .my-rk{padding-right:40px}
+.m-ranking .rank-list .my-ranking .rank-inner .my-lf{padding-left:40px}
+.m-ranking .rank-list .m-progress .flow-box{padding:60px 0 70px}
+.m-ranking .rank-list .m-progress .flow-box.flow-box2 li{width:25%}
+.m-ranking .rank-list .m-progress .flow-box li{position:relative;float:left;padding-bottom:20px;width:33.33%;text-align:center;border-bottom:4px solid #d2d2d2}
+.m-ranking .rank-list .m-progress .flow-box li.active{border-bottom:4px solid #fe5844}
+.m-ranking .rank-list .m-progress .flow-box li.active .order{background:#fe5844}
+.m-ranking .rank-list .m-progress .flow-box li.active .btn-prog{display:none}
+.m-ranking .rank-list .m-progress .flow-box li:first-child:after{position:absolute;left:0;bottom:-5px;width:50%;height:6px;background:#fff}
+.m-ranking .rank-list .m-progress .flow-box li:last-child:after{position:absolute;right:0;bottom:-5px;width:50%;height:6px;background:#fff}
+.m-ranking .rank-list .m-progress .flow-box li .order{position:absolute;left:50%;bottom:-10px;width:20px;height:20px;line-height:20px;text-align:center;font-size:12px;color:#fff;background:#d2d2d2;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;z-index:4}
+.m-ranking .rank-list .m-progress .flow-box li .text-inner{position:relative;font-size:20px;font-weight:700;color:#444c7d}
+.m-ranking .rank-list .m-progress .flow-box li .text-inner i{position:absolute;left:50%;top:-44px;margin-left:-46px;width:94px;height:39px;background-repeat:no-repeat;background-size:100% auto}
+.m-ranking .rank-list .m-progress .flow-box li .text-inner i.flow-3{background-image:url(../images/icon-02.png?v=849e182e0b)}
+.m-ranking .rank-list .m-progress .flow-box li .text-inner i.flow-6{background-image:url(../images/icon-03.png?v=56190eb5c3)}
+.m-ranking .rank-list .m-progress .flow-box li .text-inner i.flow-9{background-image:url(../images/icon-04.png?v=9205c3a44a)}
+.m-ranking .rank-list .m-progress .flow-box li .btn-prog{position:absolute;left:50%;bottom:-70px;margin-left:-53px;width:105px;height:32px;line-height:32px;text-align:center;color:#fe5844;font-size:12px;background:url(../images/icon-btn-3.png?v=fb3049ea85) no-repeat;background-size:100% auto}
+.m-ranking .rank-list .m-progress .flow-box li .btn-prog i{display:inline-block;margin:-3px 0 0 4px;width:18px;height:18px;vertical-align:middle;background:url(../images/icon-01.png?v=b3fe4067d3) no-repeat;background-size:100% auto}
+.m-ranking .rank-list .m-progress .explan-box{padding:0 60px 30px;font-size:12px}
+.m-ranking .rank-list .m-progress .explan-box p{padding-top:10px}

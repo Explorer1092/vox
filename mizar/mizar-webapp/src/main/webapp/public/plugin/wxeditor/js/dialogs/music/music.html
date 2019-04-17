@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>插入音乐</title>
+    <script type="text/javascript" src="../internal.js"></script>
+    <link rel="stylesheet" type="text/css" href="music.css">
+</head>
+<body>
+<div class="upload-box">
+    <label></label>
+    <input type="file" id="uploadVocie">
+    <div id="errorMsg" style="color: #ff5835;font-size: 14px;text-align: center;"></div>
+    <div class="arrow-info">提示：音频文件格式仅支持mp3，文件大小不超过10M</div>
+</div>
+<script type="text/javascript" src="music.js"></script>
+<script type="text/javascript">
+    var music = new Music;
+    dialog.onok = function () {
+        music.exec();
+    };
+    dialog.oncancel = function () {
+        $G('errorMsg').innerHTML = "";
+    };
+</script>
+</body>
+</html>

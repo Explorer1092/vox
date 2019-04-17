@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr { margin: 0; padding: 0; }
+body { color: #333; font: 12px/1.5 Arial,"Microsoft Yahei","\5FAE\8F6F\96C5\9ED1"; }
+select,input,button { vertical-align: middle; font-size: 100%; }
+ul,ol,li { list-style: none; }
+fieldset,img { border: 0; }
+em { font-style: normal; }
+.clearfix:after { content:"..header"; display: block; visibility: hidden; clear: both; height: 0; font-size: 0; }
+.clearfix { *zoom: 1; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrapper { margin: 0 auto; width: 1000px; }
+
+/* header */
+.header { position: fixed; width: 100%; height: 50px; z-index: 11; _position: absolute; _top: expression(documentElement.scrollTop);}
+.header .h-back {width: 100%; height: 50px; background-color: #000; opacity: 0.4; filter: alpha(opacity=40); position: absolute; z-index: 2; left: 0; top: 0; }
+.header .h-inner { position: relative; margin: 0 auto; width: 1000px; z-index: 4; }
+.header .logo { float: left; width: 130px; height: 50px; background: url(../indexv4/logo.png) 0 center no-repeat; }
+.header .logo a { display: block; width: 100%; height: 100%; }
+.header .h-menu { float: left; padding: 0 0 0 30px; font-size: 14px; line-height: 50px; }
+.header .h-menu a { float: left; padding: 0 18px; color: #f9f9f9; }
+.header .h-menu a:hover,.header .h-menu .active {text-decoration: underline; }
+.header .h-login { float: right; padding-top: 18px; color: #fff; }
+.header .h-login .i-error-info { top: 30px; left: 0; }
+.header .h-login input { padding: 5px 10px; width: 100px; background-color: #fff; border: none; border-radius: 3px; }
+.header .h-login input.error-int { background-color: #ffeae3; }
+.header .h-login label { position: absolute; top: 7px; left: 10px; color: #b3b3b3; }
+.header .h-login p { padding: 5px 0; color: #fff; }
+.header .h-login a { color: #fff; }
+.header .h-login a:hover { color: #d3f4ff; }
+.header .h-login .h-login-btn, .header .h-login .h-password, .header .h-login .h-user { position: relative; zoom: 1; float: left; _display: inline; margin-left: 10px; }
+.header .h-login .submit { display: inline-block; padding: 6px 10px 5px; width: 35px; text-align: center; color: #fff; border: solid #c6522d; border-width: 0 0 2px; border-radius: 3px; background-color: #f86638; cursor: pointer; }
+.header .h-login .submit:hover { background-color: #ff7246; }
+.header .h-login .submit:active { background-color: #f86638; }
+.header .h-login .submit-orange { background-color: #ffc03a; border-color: #cc9a2e; }
+.header .h-login .submit-orange:hover { background-color: #ffcb54; }
+.header .h-login .submit-orange:active { background-color: #ffbb35; }
+.header .h-arrow-login-info { position: absolute; top: 50px; right: 5px; width: 100px; height: 110px; background: url(../indexv4/login-arrow.gif) no-repeat; }
+.header .h-arrow-login-info .h-al-close { float: right; margin-top: 5px; width: 20px; height: 20px; background: url(../indexv4/login-arrow-close.png) center center no-repeat; cursor: pointer; }
+.header .h-user .check { display: block; float: left; margin-right: 5px; width: 10px; height: 15px; background: url(../indexv4/check-back.png) -14px 2px no-repeat; }
+.header .h-user .check input { height: 5px; width: 5px; overflow: hidden; }
+.header .h-user .check-active { background-position: 0 2px; }
+.header .h-yi-inner { padding: 8px 0 0; text-align: right; }
+.header .h-yi-inner font { color: #fff; }
+.f-service .btn,.f-service .text { display: inline-block; vertical-align: middle; }
+.f-service { float: right; padding: 11px 0 0;}
+.f-service .btn { padding: 0 7px; width: 48px; text-align: center; color: #fff; line-height: 28px; background-color: #75db57; border-radius: 5px; }
+.f-service .btn:hover { background-color: #72d455; text-decoration: none; }
+.f-service .btn:active { background-color: #4ec232; }
+.f-service .btn-blue { background-color: #59b9eb; }
+.f-service .btn-blue:hover { background-color: #59b9eb; }
+.f-service .btn-blue:active { background-color: #4dafe7; }
+.f-service .btn-orange { background-color: #ffb33a; }
+.f-service .btn-orange:hover { background-color: #f1a835; }
+.f-service .btn-orange:active { background-color: #e19929; }
+.f-service .text { color: #fff; line-height: 14px; }
+/* footer */
+.m-foot-box { background-color: #1b92bf; }
+.m-foot-inner { margin: 0 auto; width: 1000px; }
+.m-foot-inner .foot-fl { float: left; }
+.m-footer,.m-header { font: 14px/100% "微软雅黑", "Microsoft YaHei",arial,"黑体"; }
+.m-header,.m-header .m-inner { height: 53px; background-color: #fff; }
+.m-header { position: relative; z-index: 99; border: 1px solid #eee;min-width:1000px; }
+.m-header .m-inner { margin: 0 auto; width: 1000px; }
+.m-header .logo { float: left; margin: 8px 0 0; width: 96px; height: 37px; background: url(logo.png) no-repeat; }
+.m-header .logo a { display: block; width: 100%; height: 100%; }
+.m-header .r-nav { float: right; padding: 18px 0 0; }
+.m-header .r-nav a { color: #667284; }
+.m-footer,.m-footer .m-inner { clear: both; height: 160px; }
+.m-footer { background-color: #1b92bf; }
+.m-footer .m-inner { margin: 0 auto; width: 1000px; overflow: hidden; }
+.m-footer .copyright { margin-top: 30px; color: #f2f2f2; font-size: 12px; line-height: 20px; }
+.m-footer .link { margin-top: 13px; }
+.m-footer .link .spare-icon { display: inline-block; margin-right: 20px; width: 46px; height: 46px; background: url(m-icon-share.png) 500px 500px no-repeat; }
+.m-footer .link .spare-icon:hover { background-image: url(m-icon-share-blue.png); }
+.m-footer .link .spare-weibo { background-position: 0 0; }
+.m-footer .link .spare-rr { background-position: -62px 0; }
+.m-footer .link .spare-qq { background-position: -124px 0; }
+.m-footer .link .spare-wx { background-position: -185px 0; }
+.m-footer .link .spare-qzone { background-position: -50px 0; }
+.m-footer .m-foot-link { float: right; margin-top: 20px; width: 306px; }
+.m-footer .m-foot-link h3 { padding-left: 10px; height: 25px; color: #000; font-size: 16px; line-height: 100%; }
+.m-footer .m-foot-link a,.m-footer .m-foot-link .tel { display: block; color: #fff; font-size: 14px; line-height: 26px; }
+.m-footer .m-foot-link .tel,.m-footer .m-foot-link .advice,.m-footer .m-foot-link .service { margin: 11px 0 0; padding: 0 0 0 24px; background: url(m-footer-icon-blue.png) no-repeat; }
+.m-footer .m-foot-link .advice,.m-footer .m-foot-link .service { float: left; }
+.m-footer .m-foot-link .tel { background-position: 0 0; }
+.m-footer .m-foot-link .advice { background-position: 0 -25px; margin-right: 18px; }
+.m-footer .m-foot-link .service { background-position: 0 -50px; }
+.m-footer .m-foot-link .m-left { padding: 10px 0 0; width: 198px; }
+.m-footer .m-foot-link .m-code { float: right; }
+.m-footer .m-foot-link .m-code .c-image { margin: 0 auto; width: 108px; height: 108px; background: url(m-code.jpg) no-repeat; }
+.m-footer .m-foot-link .m-code .c-title { padding: 6px 0 0; text-align: center; color: #fff; font-size: 14px; line-height: 26px; }
+.m-footer .m-left { float: left; }
+/*popup - box*/
+div.jqi{ border-radius: 5px; padding: 0; border: none; font: 14px/100% "微软雅黑", "Microsoft YaHei", arial;}
+div.jqi .jqiclose { font-size: 28px; font-weight: normal; color: #000; border-left: 1px solid #dae6ee; padding: 0; height: 46px; line-height: 40px; width: 46px; text-align: center; position: absolute; top: 0; right: 0; _line-height: 48px; overflow: hidden;}
+div.jqi .jqistates{ float: none;}
+div.jqi .jqititle { color: #383a4b; padding: 13px 0 13px 20px; font-size:18px; border-color: #dae6ee;}
+div.jqi .jqimessage{ margin: 40px 20px 20px; padding: 0;}
+div.jqi .jqimessage .w-ag-center{ word-break: break-all;}
+div.jqi .jqimessage .jqicontent{ margin: 40px 20px; clear: both; line-height: 180%;}
+div.jqi .jqibuttons{ border: none; background: none; text-align: center; padding: 20px 0 30px;}
+div.jqi .jqibuttons button{ background-color: #1abc9c; color: #fff; display: inline-block; padding: 12px 35px; _padding: 12px 10px; border: 1px solid #08977b; border-radius: 4px; text-decoration: none; text-align: center; font: 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial; vertical-align: middle; outline: none; cursor: pointer;}
+div.jqi .jqibuttons button:hover{background-color: #16b495; color: #fff;}
+div.jqi .jqibuttons button:active{background-color: #10ac8d;}
+div.jqi .jqibuttons .jqidefaultbutton{ background-color: #189cfb; border: 1px solid #0979ca; border-radius: 4px;}
+div.jqi .jqibuttons .jqidefaultbutton:hover{ background-color: #52b4fb;}
+/*  */
+.w-int { background-color: #fff; border: 1px solid #dedede; color: #555; width: 150px; padding: 2px 9px; line-height: 19px; height: 19px; vertical-align: middle; display: inline-block; outline: none; border-radius: 2px; }
+.w-int:focus, .w-int-active { border-color: #189cfb; background-color: #fff }
+.w-hide { visibility: hidden !important; }
+.content-module-1 .wrapper{ margin-top: 70px;}

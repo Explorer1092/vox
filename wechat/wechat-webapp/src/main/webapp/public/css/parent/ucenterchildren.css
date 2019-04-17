@@ -1,0 +1,10 @@
+/*t-myChild-box */
+.t-myChild-box .myChild-column{border:1px solid #cccccc; border-radius: 4px;padding:30px 35px;margin:20px;}
+.t-myChild-box .myChild-column dt{width: 90px;float: left;}
+.t-myChild-box .myChild-column dt img{width: 90px;border-radius: 100px;height: 90px;background-color: #ccc;}
+.t-myChild-box .myChild-column dd p{font-size:28px;color:#464646;line-height: 45px;}
+.t-myChild-box .myChild-column dd p span{width:150px;text-align: right;float:left;}
+.t-myChild-box .myChild-column dd p .name{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.t-myChild-box .btn{text-align: center;}
+.t-myChild-box .btn .btn-addChild{font-size:28px;color:#fff;padding:30px 0;width:600px;background-color: #359bff;display: inline-block;border-radius: 4px;}
+.t-myChild-box .btn .btn-addChild .addChild-icon{display: inline-block;background: url(../../images/parent/ucenter/addChild-icon.png) no-repeat;width:40px;height:40px;vertical-align: middle;padding:0 10px 0 0;}

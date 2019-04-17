@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>proxy</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+	</head>
+	<body>
+        <script type="text/javascript">
+	        (function(){
+		        function getRequest(name){
+			        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+                    var r   = window.location.search.substr(1).match(reg);
+			        return (r != null) ? unescape(r[2]) : null;
+                }
+
+                var minheight   = Number(getRequest("data-minheight")) || 650;
+                var height      = Number(getRequest("data-frameheight")) || 0;
+                var timer       = Number(getRequest("data-timer")) || 500;
+                var frameid     = getRequest("data-frameid");
+                var sideid      = getRequest("data-sideid");
+
+		        try{
+                    var $ifrm = this.parent.$("#" + frameid);
+                    var $sider = this.parent.$("#" + sideid);
+
+                    height = Math.max(height, minheight);
+
+                    if($sider){
+                        var siderH = Number($sider.offsetHeight);
+                        height = height < siderH ? siderH : height;
+                    }
+                    if($ifrm){
+                        this.self.parent.frameElement.style.height = height + 'px';
+                    }
+                } catch (e) {
+                    // console.log(e);
+                }
+	        })();
+        </script>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+.w-content{ width: auto;}
+/*---*/
+.t-studentsDraw-box{width:100%; background: url("../images/studentsDraw-bg-1.jpg?1.0.1") center top no-repeat;position: relative;}
+.t-studentsDraw-box .turntable,.t-studentsDraw-box .turntable .hp-btn a{background: url("../images/studentsDraw-turntable.png?1.0.2") no-repeat center;height:534px;background-position: 0 0;}
+.t-studentsDraw-box .turntable{background: url("../images/studentsDraw-turntable.png?1.0.2") no-repeat center;width:1032px;height:582px;background-position: 0 0;position: relative;left: 50%;top: 25px;margin-left: -553px;}
+.t-studentsDraw-box .turntable .hp-btn{ position: absolute;bottom: 75px;right: 355px;}
+.t-studentsDraw-box .turntable .hp-btn .draw-btn{ width: 234px; height: 95px; display: inline-block; background-position: -34px -616px;}
+.t-studentsDraw-box .turntable .hp-btn .draw-btn:hover{ background-position: -34px -732px;}
+.t-studentsDraw-box .turntable .hp-btn .draw-btn:active{background-position: -34px -847px;}
+.t-studentsDraw-box .turntable .hp-btn .disabled,.t-studentsDraw-box .turntable .hp-btn .disabled:hover,.t-studentsDraw-box .turntable .hp-btn .disabled:active {background-position: -34px -963px;cursor: default;}
+.t-studentsDraw-box .turntable .turntable-title{font-size:24px;color:#c32e00; padding: 90px 0 0 103px;text-align: center;}
+.t-studentsDraw-box .turntable .turntable-info{height:60px;background-color: #ffeebb;border: 4px solid #790407;border-radius:15px;position:absolute;left: 150px;bottom: 253px;padding:4px;}
+.t-studentsDraw-box .turntable .turntable-info p{font-size:16px;color:#790407;line-height: 30px;text-align: center;}
+.t-studentsDraw-box .turntable .turntable-info .turntable-triangle{background: url("../images/studentsDraw-triangle.png") no-repeat;width:20px;height:15px;display: inline-block; position: absolute; bottom: -15px;left: 10px;}
+/*----*/
+.t-studentsDraw-box .slider-box{ padding:130px 0 0 364px;}
+.t-studentsDraw-box .slider-box li{ overflow: hidden; width: 120px; height: 93px; position: relative; float: left; padding: 0 6px;}
+.t-studentsDraw-box .slider-box li .prize-content{ position: relative; top: 0;}
+.t-studentsDraw-box .slider-box li .lottery_result_1{ top: 0;}
+.t-studentsDraw-box .slider-box li .lottery_result_2{ top : -279px;}
+.t-studentsDraw-box .slider-box li .lottery_result_3{ top: -186px;}
+/*----*/
+.t-drawIcon{ padding: 60px 0 0; color: #680909; font-size: 20px;background: no-repeat center 2px; height: 33px; text-align: center; overflow: hidden;}
+.t-drawIcon span{ display: block; line-height: 200%;}
+.t-drawIcon-1{background-image: url("../images/turntable-beans-1.png");}
+.t-drawIcon-2{background-image: url("../images/turntable-beans-2.png");}
+.t-drawIcon-3{background: url("../images/turntable-beans-3.png")  no-repeat center 0;}
+.t-drawIcon-4{background-image: url("../images/turntable-beans-4.png");}
+.t-drawIcon-5{background-image: url("../images/turntable-beans-5.png");}
+.t-drawIcon-6{background-image: url("../images/turntable-beans-6.png");}
+/*----*/
+.t-studentsDraw-box .sd-container{width:980px;margin:0 auto;}
+.t-studentsDraw-box .sd-fragment{color:#fff;font-size:16px;background-color: #d63535;padding: 0 30px;border-radius: 35px;line-height: 53px;margin: 40px;}
+.t-studentsDraw-box .sd-fragment b{font-size:14px;font-weight: normal;padding:0 20px;}
+.t-studentsDraw-box .sd-fragment .fragment-icon{background: url(../images/fragment-icon1.png) no-repeat;width:59px;height:57px;vertical-align: middle;display: inline-block;}
+.t-studentsDraw-box .sd-fragment .symbol{font-size: 18px;}
+.t-studentsDraw-box .sd-fragment span{font-size: 26px;color: #fef226;}
+.t-studentsDraw-box .sd-fragment .warning-icon{background: url(../images/fragment-icon2.png) no-repeat;width:16px;height:16px;vertical-align: middle;display: inline-block;}
+.t-studentsDraw-box .sd-left{width:577px;float: left;background-color: #fff;border:4px solid #b3221a;border-radius: 10px;}
+.t-studentsDraw-box .sd-left .sd-title{background-color: #ffef64;color: #ca2c33;text-align: center;padding:5px 0;border-radius: 5px 5px 0 0;}
+.t-studentsDraw-box .sd-left .sd-title h1{font-size: 20px;line-height: 30px;font-weight: normal;}
+.t-studentsDraw-box .sd-left .sd-title p{font-size: 14px;line-height: 20px;}
+.t-studentsDraw-box .sd-left .sd-content p{color: #302f2f;line-height: 30px;font-size: 16px;padding:4px 0 0 17px;}
+.t-studentsDraw-box .sd-left .sd-content p span{color: #ff4444;font-size: 22px;}
+.t-studentsDraw-box .sd-left .sd-content .gray{color: #b0b0b0;}
+.t-studentsDraw-box .sd-left .sd-content .share_student{float: right;color: #ca2e2e;font-size: 20px;background-color: #ffde5c;text-align: center;display: inline-block;box-shadow: 0 -5px 0 0 #ffc121 inset;border-radius: 8px;padding: 20px 30px;margin:25px;}
+.t-studentsDraw-box .sd-right{width:355px;float: right;}
+.t-studentsDraw-box .sd-right h2{font-size: 20px;color: #feed25;line-height: 40px;padding:0 13px;font-weight: normal;}
+.t-studentsDraw-box .sd-right ul{background-color: #e73132; height: 130px; overflow: hidden;}
+.t-studentsDraw-box .sd-right li{line-height: 33px;color: #fff;font-size: 16px;padding:0 16px;}
+.t-studentsDraw-box .sd-right li span{color: #fdeb24;}
+.t-studentsDraw-box .sd-right .sd-empty{color: #fff;text-align: center;font-size: 16px;line-height: 50px;}
+.t-studentsDraw-box .sd-column{clear: both;margin:30px 0;position: relative;overflow: hidden;}
+.t-studentsDraw-box .sd-column h3{font-size: 24px;color: #fef223;font-weight: normal;line-height: 60px;}
+.t-studentsDraw-box .sd-column .award{overflow: hidden;position: relative;}
+.t-studentsDraw-box .sd-column .award li{float: left;width:160px;height:160px;text-align: center;background-color: #fff;border:4px solid #ca2c33;border-radius: 50%;margin: 0 12px;}
+.t-studentsDraw-box .sd-column .award li b{font-size:16px;color:#ca2c33;font-weight: 600;line-height: 40px;}
+.t-studentsDraw-box .sd-column .info p b{width:33px;height:33px;border-radius: 50%;background-color: #ffef64;color: #720527;text-align: center;line-height: 33px;font-size: 15px;display: inline-block;margin:0 17px 0 0;}
+.t-studentsDraw-box .sd-column .info p{float:left;font-size: 16px;color:#fff;line-height: 35px;padding:0 80px 0 0;}
+.t-studentsDraw-box .sd-column .list{float: left;width:50%;}
+.t-studentsDraw-box .sd-column .list li span{ font-size: 14px;color:#fff;}
+.t-studentsDraw-box .sd-column .list li{padding:0 0 0 48px;line-height: 36px;}
+.t-studentsDraw-box .sd-column .list li .con{padding:0 13px 0 0;font-size: 16px;}
+.t-studentsDraw-box .sd-column .list li.bgColor1{background-color: #e73132;}
+.t-studentsDraw-box .sd-column .empty{padding:0 0 45px 0;}
+.t-studentsDraw-box .sd-column .empty .emptyBg{background: url("../images/studentsDraw-empty.png") no-repeat center;width:364px;height:125px;display: block;margin: 0 auto;font-size:16px;color:#916114;line-height: 47px;text-align: center;}
+/*------pop-----*/
+.t-studentsDraw-pop{background: url("../images/studentsDraw-pop.png") no-repeat;width:363px;height:276px;position: relative;overflow: hidden;}
+.t-studentsDraw-pop .close,.sharePop .close{cursor:pointer;position: absolute;top:0;right:60px;font-size: 40px;color:#fff;line-height: 40px;}
+.t-studentsDraw-pop .prompt{font-size:18px;color:#fffeb0;text-align: center;line-height: 35px;padding:135px 0 0 0;width:320px;}
+.t-studentsDraw-pop .btn .btn-cancel,.t-studentsDraw-pop .btn .btn-determine,.t-studentsDraw-pop .btn .btn-gotIt,.t-studentsDraw-pop .btn .btn-next{width:110px;padding:18px 0;text-align: center;border:2px solid #790407;border-radius: 8px;background-color: #05da8c;color:#fffeb0;font-size: 18px;display: inline-block;box-shadow: 0 -6px 0 0 #37a85b inset;}
+.t-studentsDraw-pop .btn .btn-determine,.t-studentsDraw-pop .btn .btn-gotIt{background-color: #26ace4;box-shadow: 0 -6px 0 0 #4d8a94 inset;}
+.t-studentsDraw-pop .btn{text-align: center;width:340px;padding:22px 0 0 0;}
+.t-studentsDraw-pop .btn .btn-gotIt{width:130px;}
+.t-studentsDraw-pop .btn a{ margin: 0 18px 0 5px;}
+.sharePop{background: url("../images/studentsDrawShare-pop.png") no-repeat;width:465px;height:314px;position: relative;overflow: hidden;}
+.sharePop .prompt {padding: 130px 0 5px 65px;}
+.sharePop .prompt p{font-size:16px;color:#fff;text-align: center;line-height: 30px;}
+.sharePop .prompt p span{font-size:26px;color:#ffda1f;}
+.sharePop .btn .btn-firstDraw,.sharePop .btn .btn-share{width:110px;padding:18px 0;text-align: center;border:2px solid #209445;border-radius: 8px;background-color: #0fe295;color:#fff;font-size: 18px;display: inline-block;box-shadow: 0 -6px 0 0 #0bcd86 inset;}
+.sharePop .btn .btn-share{background-color: #4fc9fb;box-shadow: 0 -6px 0 0 #27ace4 inset;border: 2px solid #19769d;}
+.sharePop .btn{text-align: center;padding:22px 0 0 113px;}
+.sharePop .btn a{ margin: 0 10px 0 0;}
+.systemPromptPop1 .sp-title{font-size: 14px;text-align: center;color: #3f2603;line-height: 160%;}
+.systemPromptPop1 ul{text-align: left; margin: 0 20px;}
+.systemPromptPop1 li{width:25%; float:left;}
+.systemPromptPop1 li a{font-size: 14px;color: #3f2603;line-height: 40px;}
+.systemPromptPop1 li .name-icon{width:16px;height:18px;display: inline-block;vertical-align: middle;background: url("../images/name-icon.png") no-repeat 0 0;margin:0 10px 0 0;}
+.systemPromptPop1 li.active .name-icon{background-position: 0 -22px;}
+.fragment-pop1{ width: 351px; height: 297px; position: relative; background: url("../images/fragment-pop1.png") no-repeat;}
+.fragment-pop1 .fp-close,.fragment-pop2 .fp-close{ position: absolute;top: 34px;right: 0;}
+.fragment-pop1 .fp-close a,.fragment-pop2 .fp-close a{ width: 29px; height: 29px; display: inline-block;background-position: -322px -34px;}
+.fragment-pop1 .fp-btn,.fragment-pop2 .fp-btn{ text-align: center;padding:30px 0 0 0;}
+.fragment-pop1 .fp-title,.fragment-pop2 .fp-title{ text-align: center;color: #fff;font-size: 14px;padding:300px 0 0 0;}
+.fragment-pop2{ width: 343px; height: 307px; position: relative; background: url("../images/fragment-pop2.png") no-repeat;}
+.fragment-pop1 .fp-btn a, .fragment-pop2 .fp-btn a{ width: 110px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 14px;
+    background: url(/public/skin/studentv3/images/w-btn.png) no-repeat;
+}
+.fragment-pop1 .fp-btn a:hover, .fragment-pop2 .fp-btn a:hover { background-position: 0 -62px; color: #fff; }
+.fragment-pop1 .fp-btn a:active,.fragment-pop2 .fp-btn a:active { background-position: 0 -123px; }
+
+/*--------footer--------*/
+.footer{display: none;}
+.t-studentsDraw-box .m-footer{clear: both; background: url(../images/footer-back.png) center 0 repeat-x;height:183px;}
+.t-studentsDraw-box .m-footer .copyright{color: #790407;font-size: 12px;text-align: center;padding:80px 0 0 0;}

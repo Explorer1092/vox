@@ -1,0 +1,333 @@
+@charset "UTF-8";body,html,input{font:14px/100% "微软雅黑","Microsoft Yahei","微软雅黑",Arial,"黑体"}
+a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var{margin:0;padding:0}
+body,html{width:100%;height:100%}
+li,ol,ul{list-style:none}
+img{border:0;vertical-align:middle}
+em,i,u{font-style:normal}
+a,input,textarea{outline:0}
+a{text-decoration:none}
+.h-historyBox{width:960px;margin:0 auto;padding:20px;background:#fff;border-radius:15px;box-shadow:1px 1px 3px #ccc}
+.h-historyBox .h-header{position:relative}
+.h-historyBox .h-header .jf-intro{position:absolute;right:10px;top:2px;cursor:pointer}
+.h-historyBox .h-header .jf-intro .hoverText{display:inline-block;padding:8px 10px;font-size:14px;color:#189cfb}
+.h-historyBox .h-header .jf-intro .hoverInfo{display:none;position:absolute;z-index:4;top:35px;right:5px;width:194px;height:104px;padding:10px;background:#f2eaa4;border:1px solid #fce194;font-size:12px;color:#cb6206}
+.h-historyBox .h-header .jf-intro .hoverInfo .jf-arrow{position:absolute;right:40px;top:-6px;display:inline-block;width:12px;height:7px;background:url(../images/homework-history/jf-arrow.png?v=30656352be) no-repeat}
+.h-historyBox .h-header .jf-intro .hoverInfo table{width:100%;border-collapse:collapse;border:1px solid #fad56b}
+.h-historyBox .h-header .jf-intro .hoverInfo table td{padding:8px 0;text-align:center;border:1px solid #fad56b}
+.h-historyBox .h-header .jf-intro:hover .hoverInfo{display:block}
+.h-historyBox .h-title{margin:0 0 20px -20px;width:932px;height:36px;background:url(../images/homework-history/title-message-bg.png?v=1f4f8c5f46) no-repeat;padding:0 20px;line-height:36px;font-size:18px;color:#fff}
+.h-historyBox .h-title-2{margin-left:-20px;width:560px;height:36px;background:url(../images/homework-history/title-message-bg02.png?v=5173a0d2e6) no-repeat;padding:0 20px;line-height:36px;font-size:18px;color:#fff}
+.h-historyBox .h-title .left-text{float:left}
+.h-historyBox .h-title .right-text{float:right;font-size:14px;color:#fff}
+.h-historyWork{width:740px;background:#fff;margin-top:20px;border-radius:12px}
+.h-historyWork .no-record{background:url(../images/homework-history/no-record.png?v=3f581f3193) no-repeat center;height:100px}
+.h-historyWork .data-exception{background:url(../images/homework-history/data-exception.png?v=79c8e92569) no-repeat center;height:100px}
+.h-countProgress{padding:10px 15px 35px 15px;border-bottom:1px solid #e5f1f5}
+.h-countProgress .h-cpTitle{font-size:12px;line-height:20px;color:#333;margin-bottom:5px}
+.h-countProgress .h-cpMain .proBox{float:left;width:430px;height:12px;background:#e7f2f6;border-radius:6px}
+.h-countProgress .h-cpMain .proCurrent{position:relative;width:70%;height:12px;background:#8de84b;border-radius:6px 0 0 6px}
+.h-countProgress .h-cpMain .proCount{position:absolute;right:-20px;top:-25px;border-radius:4px;background:#8de84b;padding:2px 5px;color:#fff}
+.h-countProgress .h-cpMain .proCount i{position:absolute;bottom:-5px;left:50%;margin-left:-5px;display:inline-block;width:0;height:0;overflow:hidden;border:5px solid #fff;border-top:5px solid #8de84b;border-bottom:0}
+.h-countProgress .h-cpMain .number{float:left;padding:0 5px;font-size:12px;line-height:12px;color:#333}
+.h-countProgress .h-cpMain .checkLabel{float:right;margin-right:30px}
+.h-countProgress .h-cpMain .checkLabel .ck{font-size:12px;color:#333;cursor:pointer}
+.h-countProgress .h-cpMain .checkLabel .w-check{display:inline-block;vertical-align:middle;background:url(../images/homework-history/ck-check.png?v=cdc5133c0a) no-repeat;background-position:0 -29px;width:18px;height:18px}
+.h-countProgress .h-cpMain .checkLabel .active .w-check{background-position:0 -1px}
+.h-workDtop{padding:12px 0;border-bottom:1px solid #e5f1f5;font-size:14px;color:#999}
+.h-workDtop ul{overflow:hidden;*zoom:1}
+.h-workDtop li{float:left;width:150px;text-align:center}
+.h-workDtop li.cell02{padding:0 140px}
+.h-workDtop li p .number{font-size:20px;color:#333}
+.h-workDmain .h3-title{padding:15px 0;font-weight:400;font-size:14px;color:#a6a8a9}
+.h-workDmain .h3-title .icon{display:inline-block;width:30px;height:30px;background:url(../images/homework-history/goldenCup-icon01.png?v=d893daf663) no-repeat;vertical-align:middle;margin:-5px 5px 0 0}
+.h-mainTimeAxis{border-left:2px solid #e5f1f5;margin-left:30px}
+.h-mainTimeAxis li{padding-bottom:20px}
+.h-mainTimeAxis .intro-title{padding:0 10px 5px 10px;font-size:14px;color:#a6a8a9}
+.h-mainTimeAxis .intro-title .icon-circle{display:inline-block;float:left;margin-left:-22px;width:22px;height:25px;background:url(../images/homework-history/time-circle-icon.png?v=70efcb958a) no-repeat}
+.h-mainTimeAxis .intro-content{overflow:hidden;*zoom:1;margin:0 0 0 8px;width:680px;background:#eef6f9;border-radius:8px;font-size:12px}
+.h-mainTimeAxis .contentBox{overflow:hidden;*zoom:1}
+.h-mainTimeAxis .contentBox .content-intro{float:left;width:370px;padding:12px 18px;line-height:24px}
+.h-mainTimeAxis .contentBox .hWork-btns{float:left;margin-top:18px}
+.hWork-btns{width:260px;overflow:hidden;text-align:right}
+.hWork-btns .hw-btn{display:inline-block;width:105px;margin-right:20px;padding:8px 0;border-radius:30px;text-align:center;font-size:14px;color:#fff}
+.hWork-btns .hw-btn-yellow{background:#ffb004}
+.hWork-btns .hw-btn-yellow:hover{background:#fdc345}
+.hWork-btns .hw-btn-yellow:active{background:#eda404}
+.hWork-btns .hw-btn-green{background:#75cf1c}
+.hWork-btns .hw-btn-green:hover{background:#8beb2c}
+.hWork-btns .hw-btn-green:active{background:#67be11}
+.hWork-btns .hw-btn-disabled{cursor:default;background:#b5b5b5}
+.h-mainTimeAxis .contentBox .ci-title{color:#333;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.h-mainTimeAxis .contentBox .textBlue{color:#02b5f1}
+.h-mainTimeAxis .contentBox .ci-complete{color:#5eac14}
+.h-mainTimeAxis .contentBox .ci-completeNo{color:#fec35f}
+.h-mainTimeAxis .contentBox .state-icon{display:inline-block;vertical-align:middle;margin:0 5px 0 0;width:16px;height:16px;background:url(../images/homework-history/state-icon.png?v=ad145804fd) no-repeat}
+.h-mainTimeAxis .contentBox .ci-complete .state-icon{background-position:0 0}
+.h-mainTimeAxis .contentBox .ci-completeNo .state-icon{background-position:0 -22px}
+.h-mainTimeAxis .intro-content .content-review{background:#e7f2f6;padding:10px 18px;color:#666}
+.h-mainTimeAxis .intro-content .content-review .reviewList{padding:5px 0;line-height:18px}
+.h-mainTimeAxis .intro-content .content-review .time{margin-left:38px;color:#a6a8a9}
+.h-jobsReport{background:#fff}
+.h-jobsR-intro{overflow:hidden;*zoom:1;padding:10px 25px 10px 15px;margin-bottom:15px}
+.h-jobsR-intro .projectTitle{float:left;width:740px;color:#666}
+.h-jobsR-intro .projectTitle .time{font-size:18px;font-weight:400;padding:6px 0}
+.h-jobsR-intro .projectTitle .title{font-size:16px;line-height:24px}
+.h-jobsR-intro .projectTime{float:right}
+.h-jobsR-intro .projectTime .count{padding:5px 0;font-size:18px;font-weight:400;color:#5eac14}
+.h-jobsR-intro .projectTime .count span{color:#666}
+.h-jobsR-intro .projectTime .time{font-size:14px}
+.h-jobsR-review{background:#eef6f9;border-radius:6px;padding:5px 15px;margin-bottom:15px}
+.h-jobsR-review .reviewList{overflow:hidden;*zoom:1;font-size:12px;padding:3px 0}
+.h-jobsR-review .reviewList .rText{float:left;width:760px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#666}
+.h-jobsR-review .reviewList .rTime{float:right;color:#b2b4c0}
+.h-jobsR-review .reviewList .rTime span{padding:0 10px}
+.h-jobsR-review .reviewCount{overflow:hidden;*zoom:1;padding:10px 0}
+.h-jobsR-review .reviewCount .rText{float:left;line-height:30px;color:#333}
+.h-jobsR-review .reviewCount .btn-right{float:right}
+.contentList{border:1px solid #e2f1f7;background:#fff;border-radius:6px;overflow:hidden;margin-bottom:15px}
+.contentList .clear{overflow:hidden;*zoom:1}
+.contentList .listLeft{float:left}
+.contentList .listRight{float:right}
+.contentList .textRed{color:#fa7252}
+.contentList .textGreen{color:#5eac14}
+.contentList .textGray{color:#4e5656}
+.contentList .font18{font-size:18px}
+.contentList .font16{font-size:16px}
+.contentList .hd{padding:18px 10px;border-bottom:1px dashed #e2f1f7}
+.contentList .hd .title{font-size:18px;line-height:30px;color:#333}
+.contentList .hd .title span{margin-left:20px}
+.contentList .mn{padding:18px 22px;border-bottom:1px dashed #e2f1f7;font-size:14px}
+.contentList .mn .judgeBox{float:left;*display:inline;*zoom:1;padding:0 18px}
+.contentList .mn .judgeBox .judge-icon{position:relative;z-index:2;display:inline-block;width:38px;height:32px;margin:0 6px;vertical-align:middle;background:url(../images/homework-history/judge-icon.png?v=b06c75a900) no-repeat}
+.contentList .mn .judgeBox .tips-icon{position:relative;display:inline-block;margin-left:8px;padding:4px 6px;font-size:14px;color:#fff;border-radius:5px;background:#75cf1c}
+.contentList .mn .judgeBox .tips-icon .arrow-l{position:absolute;left:-12px;top:50%;margin-top:-6px;display:block;width:0;height:0;line-height:0;overflow:hidden;border:6px solid #fff;border-right-color:#75cf1c}
+.contentList .mn .judgeBox .tips-icon-yellow{background:#ffb004}
+.contentList .mn .judgeBox .tips-icon-yellow .arrow-l{border-right-color:#ffb004}
+.contentList .mn .textGreen .judge-icon{background-position:-6px 0}
+.contentList .mn .textRed .judge-icon{background-position:-54px 0}
+.contentList .mn .textYellow .judge-icon{background-position:-102px 0}
+.contentList .mn .textYellow02 .judge-icon{background-position:-152px 0}
+.contentList .mn .textYellow03 .judge-icon{background-position:-198px 0}
+.contentList .mn .judgeBox .judge-icon-2{display:inline-block;width:38px;height:32px;margin:0 6px;vertical-align:middle;background:url(../images/homework-history/judge-icon02.png?v=1d4381fcac) no-repeat}
+.contentList .mn .textGreen .judge-icon-2{background-position:-6px 0}
+.contentList .mn .textRed .judge-icon-2{background-position:-54px 0}
+.contentList .mn .time{float:left;*display:inline;*zoom:1;padding:0 10px;line-height:32px}
+.contentList .ft{padding:20px 20px 20px 42px;padding:20px 20px 20px 42px}
+.contentList .ft .ft-title{font-size:16px}
+.contentList .ft .ft-title .goldenCup-icon{display:inline-block;width:30px;height:30px;background:url(../images/homework-history/goldenCup-icon02.png?v=cc5ed337d5) no-repeat;vertical-align:top;margin:-10px 5px 0 0}
+.contentList .ft .stuName{font-size:14px;color:#4e5656}
+.contentList .ft .stuName .textGrey{font-size:12px;color:#b2b4c0}
+.contentList .GradeList{overflow:hidden}
+.contentList .GradeList li{float:left;padding:0 10px}
+.contentList .jobList{overflow:hidden}
+.contentList .jobList li{float:left;padding:0 10px}
+.contentList .jobList li img{width:100px;height:80px}
+.contentList .jobList li .name{line-height:26px;text-align:center;font-size:16px;color:#b2b4c0}
+.contentList .jobList li .textGreen{color:#5eac14}
+.h-answerDetails{background:#fff}
+.h-answerD-list{margin-bottom:15px;background:#fff;border:1px solid #e5f1f5;border-radius:8px;font-size:14px}
+.h-answerD-list .textRed{color:#fa7252}
+.h-answerD-list .title{padding:8px 0;border-bottom:1px solid #dfdfdf}
+.h-answerD-list .title span{display:inline-block;padding:0 15px;border-right:1px solid #dfdfdf;color:#7f96a3;font-size:14px}
+.h-answerD-list .title span.border-none{border-right:0}
+.h-answerD-list .hd{padding:15px;color:#999}
+.h-answerD-list .ft{background:#f9fcfe;border-top:1px solid #e5f1f5;color:#4e5656}
+.h-answerD-list .ft ul{width:100%;overflow:hidden;*zoom:1;padding:8px 0}
+.h-answerD-list .ft li{position:relative;float:left;width:33%;border-right:2px solid #dceff6;text-align:center;padding:5px 0;word-break:break-all;line-height:22px}
+.h-answerD-list .ft li.lastLi{border:0;float:right}
+.h-answerD-list .ft li span{padding:0 5px}
+.h-answerD-list .ft .ul-list-2 li{width:47%;padding:5px 1%}
+.h-answerD-list .ft li .answer-icon{position:absolute;bottom:-9px;right:-1px;display:block;width:44px;height:40px}
+.h-answerD-list .ft li .answer-error-icon{background:url(../images/homework-history/answer-error-icon.png?v=11101d9215) no-repeat}
+.h-answerD-list .ft li .answer-correct-icon{background:url(../images/homework-history/answer-correct-icon.png?v=6114047a71) no-repeat}
+.h-answerD-list .ft .myAnswer-title{padding-left:20px}
+.h-answerD-list .ft .show-myAnswer{overflow:hidden;padding-left:20px}
+.h-answerD-list .show-myAnswer li{position:relative;float:left;width:280px;height:210px;border:1px solid #dedede;border-radius:10px;overflow:hidden}
+.h-answerD-list .show-myAnswer li img{width:280px;height:210px}
+.h-answerD-list .show-myAnswer li .bottomIcon{position:absolute;bottom:-1px;right:-1px;display:block;width:32px;height:32px;text-align:center;line-height:32px;font-size:16px;color:#fff;background:#75cb44}
+.h-answerD-list .stemDetails{font-size:24px;color:#4e5656;line-height:34px;padding:30px 20px;border-bottom:1px solid #e5f1f5}
+.h-answerD-list .stemDescribe{padding:10px 20px}
+.h-answerD-list .stemDescribe span{display:inline-block;margin-right:20px}
+.h-answerD-list .stemDescribe .tet-red{color:#fa7252}
+.h-answerD-list .stemDescribe .txt-green{color:#16d381}
+.leftLayer-Box{position:fixed;z-index:99;left:50px;top:100px;width:161px;height:auto}
+.leftLayer-Box .top{width:100%;height:16px;background:url(../images/homework-history/flayerInner-bg_01.png?v=761f2cae83) no-repeat}
+.leftLayer-Box .footer{width:100%;height:32px;background:url(../images/homework-history/flayerInner-bg_03.png?v=45551b5a45) no-repeat}
+.leftLayer-Box .main{width:100%;background:#f3d113}
+.leftLayer-Box ul{padding:0 25px}
+.leftLayer-Box li{padding-bottom:8px}
+.leftLayer-Box li a{display:block;padding:5px 0;text-align:center;font-size:18px;line-height:18px;color:#7c6a07}
+.leftLayer-Box li a.active{background:#905e1e;color:#fff;border-radius:5px}
+.audio-play{width:65px;height:54px;background:url(../images/homework-history/videoPlay-bg-active.png?v=2d2685c882) no-repeat;cursor:pointer}
+.audio-play.hover{background:url(../images/homework-history/videoPlay-bg.png?v=6453769805) no-repeat}
+.audio-pause{width:65px;height:54px;background:url(../images/homework-history/videoPlay-bg-pause.png?v=9cc2972322) no-repeat;cursor:pointer}
+.loadmore{width:680px;text-align:center;border:1px solid #cdcdcd;padding:10px 0;margin:10px 30px 10px 38px;cursor:pointer;font-size:16px;color:#cdcdcd}
+.e-pictureList{position:relative;float:left;*display:inline;margin:0 15px 15px 0;padding:5px;width:223px;height:112px;border:1px solid #dae6ee}
+.e-pictureList .title{padding:5px 5px 10px 5px;font-size:14px;font-weight:600;color:#4e5656;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.e-pictureList .title a:hover{color:#189cfb}
+.e-pictureList .lPic{position:relative;float:left;width:80px;height:80px}
+.e-pictureList .lPic img{width:100%;height:100%;border-radius:4px;border:1px solid #dae6ee}
+.e-pictureList .rInfo{float:left;padding:0 10px;width:120px}
+.e-pictureList .rInfo .text{font-size:12px;line-height:18px;color:#a9a9a9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.e-pictureList .rInfo .state{padding:5px 0;font-size:14px;color:#fdad00}
+.e-pictureList .rInfo .radioIcon{display:inline-block;margin-right:5px}
+.e-pictureList .rInfo .radioIcon i{display:inline-block;vertical-align:middle;margin:-3px 3px 0 0;width:14px;height:14px;background:url(../images/homework-history/radioIcon.png?v=488b2e4b1f) no-repeat}
+.e-pictureList .rInfo .radioIcon.selected i{background:url(../images/homework-history/radioIcon-select.png?v=7dcd752c4b) no-repeat}
+.e-pictureList .h-btnGroup{position:absolute;bottom:0;right:0}
+.e-pictureList .h-btnGroup a{height:30px;line-height:30px}
+.e-pictureList:hover{border:1px solid #189cfb}
+.e-pictureList.hover{border:1px solid #189cfb}
+.e-pictureList.diffNew{width:236px;height:146px;padding:0}
+.e-pictureList.diffNew .title{padding:0;margin-bottom:5px;line-height:20px}
+.e-pictureList.diffNew .lPic{width:100px;height:146px}
+.e-pictureList.diffNew .lPic img{border-radius:0;border:0}
+.e-pictureList.diffNew .rInfo{padding:10px 5px 0 10px;width:210px;height:136px}
+.e-pictureList.diffNew .rInfo .text{padding:0;line-height:20px}
+.pb-stuDetails{margin:15px}
+.pb-stuDetails .play-icon{display:inline-block;cursor:pointer;margin:-8px 0;width:21px;height:21px;background:url(../images/homework-history/play-icon-small.png?v=a86a9a7a3c) no-repeat;background-position:0 0}
+.pb-stuDetails .play-pause{background-position:-29px 0}
+.pb-stuDetails .play-stop{background-position:-59px 0}
+.pb-stuDetails .play-disabled{cursor:default;background-position:-89px 0}
+.pb-stuDetails table{width:100%;border:1px solid #dae6ee;border-bottom:0}
+.pb-stuDetails table thead{font-size:16px}
+.pb-stuDetails table td{padding:6px 10px;text-align:center;border-left:1px solid #dae6ee;border-bottom:1px solid #dae6ee}
+.pb-stuDetails table td.name{width:340px;border-left:0}
+.pb-stuDetails table td.score{width:200px}
+.pb-stuDetails table td.d-name,.pb-stuDetails table td.d-time,.pb-stuDetails table td.d-video{width:308px}
+.pb-stuDetails table td .operation{color:#189cfb}
+.pb-stuDetails table td .e-pictureList{width:330px;height:auto;margin:0;border:0;text-align:left}
+.pb-stuDetails table td .e-pictureList .rInfo{width:230px}
+.pb-stuDetails table td .e-pictureList.diffNew .rInfo{width:210px}
+.pb-stuDetails .dubbingInfo{width:308px;padding:6px 0;text-align:center}
+.pb-stuDetails .dubbingInfo .title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:24px;font-size:16px;color:#333}
+.pb-stuDetails .dubbingInfo .text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:20px;font-size:14px;color:#9c9c9c}
+.pb-details .play-icon{display:inline-block;cursor:pointer;margin:-8px 0;width:21px;height:21px;background:url(../images/homework-history/play-icon-small.png?v=a86a9a7a3c) no-repeat;background-position:0 0}
+.pb-details .play-pause{background-position:-29px 0}
+.pb-details .play-stop{background-position:-59px 0}
+.pb-details .play-disabled{cursor:default;background-position:-89px 0}
+.pb-details .pb-details-name{padding:10px;text-align:center}
+.pb-details .pb-details-name h3{width:100%;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:24px}
+.pb-details .pb-details-section .title{padding:5px 0;font-size:16px}
+.pb-details .pb-details-section .title .right-text{float:right}
+.pb-details .pb-content-table{margin:10px 0;border:1px solid #dfdfdf}
+.pb-details .pb-content-table table{width:100%}
+.pb-details .pb-content-table table tr.odd{background:#f9fcfe}
+.pb-details .pb-content-table table td{padding:10px;border-left:1px solid #dfdfdf;font-size:14px;color:#4e5656}
+.pb-details .pb-content-table table thead td{border-bottom:1px solid #dfdfdf}
+.pb-details .pb-content-table .name{border-left:0;width:790px}
+.pb-details .pb-content-table .name a{display:inline-block;width:760px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#4e5656}
+.h-set-homework{border:1px solid #dfdfdf;border-radius:3px;margin:10px 0}
+.h-set-homework .seth-hd{padding:8px 0;overflow:hidden;*zoom:1;border-bottom:1px solid #dfdfdf}
+.h-set-homework .seth-hd .fl{float:left}
+.h-set-homework .seth-hd .fr{float:right}
+.h-set-homework .seth-hd .fr .txtYellow{color:#fdc642}
+.h-set-homework .seth-hd .fr span{border-right:0}
+.h-set-homework .seth-hd span{display:inline-block;padding:0 15px;border-right:1px solid #dfdfdf;color:#7f96a3;font-size:14px}
+.h-set-homework .seth-hd .noBorder{border:0}
+.h-set-homework .seth-hd a.w-btn{width:108px;padding:5px 0}
+.h-set-homework .seth-mn{padding:5px 15px}
+.h-set-homework .seth-mn .inner{padding:15px 10px 50px 10px}
+.h-set-homework .seth-mn .innerBox{padding:10px 0}
+.speakWorks .speak-header{height:30px;line-height:30px;padding:0 15px;border-top:1px solid #e5f1f5;border-bottom:1px solid #e5f1f5;font-size:14px;color:#333}
+.speakWorks .speak-main{overflow:hidden;padding:5px}
+.speakWorks .sw-list{float:left;width:65px;margin:0 0 10px 10px}
+.speakWorks .sw-list .name{width:100%;line-height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;color:#333}
+.speakWorks .sw-list .speak{position:relative;width:65px;height:54px;background-image:url(../images/homework-history/videoPlay-bg-active.png?v=2d2685c882)}
+.speakWorks .sw-list .speak .icon{position:absolute;right:0;bottom:0;width:15px;height:15px;border-radius:0 0 3px 0;background:#189cfb;line-height:15px;text-align:center;font-size:12px;color:#fff}
+.speakWorks .sw-list .speak.play{background-image:url(../images/homework-history/videoPlay-bg.png?v=6453769805)}
+.speakWorks .sw-list .speak.pause{background-image:url(../images/homework-history/videoPlay-bg-pause.png?v=9cc2972322)}
+.h-homework-pop{margin:20px 7px;font-size:16px}
+.h-homework-pop .popTitle{float:left;width:80px}
+.h-homework-pop .popContent{margin-left:80px;word-wrap:break-word;overflow:hidden}
+.read-aDetails{border-radius:3px;border:1px solid #dae6ee}
+.read-aDetails .playIcon{display:inline-block;vertical-align:middle;cursor:pointer;width:18px;height:18px;background:url(../images/homework-history/r-playBtn.png?v=188f105d26) no-repeat}
+.read-aDetails .playIcon.pause{background:url(../images/homework-history/r-pauseBtn.png?v=7d2e7d13f5) no-repeat}
+.read-aDetails .arrow{display:inline-block;vertical-align:middle;cursor:pointer;width:13px;height:6px;background:url(../images/homework-history/arrow-down.png?v=c3b3f7784c) no-repeat}
+.read-aDetails .levelIcon{position:relative;top:-3px;display:inline-block;vertical-align:middle;cursor:pointer;margin:0 5px;width:20px;height:24px;background:url(../images/homework-history/state-icon01.png?v=af7b7465aa) no-repeat}
+.read-aDetails .levelIcon.level01{background:url(../images/homework-history/state-icon01.png?v=af7b7465aa) no-repeat}
+.read-aDetails .levelIcon.level02{background:url(../images/homework-history/state-icon02.png?v=9328c07db3) no-repeat}
+.read-aDetails .levelIcon.level03{background:url(../images/homework-history/state-icon03.png?v=6444547ac5) no-repeat}
+.read-aDetails .levelIcon.level04{background:url(../images/homework-history/state-icon04.png?v=0f565b9249) no-repeat}
+.read-aDetails .levelIcon.level05{background:url(../images/homework-history/state-icon05.png?v=320ddab05f) no-repeat}
+.read-aDetails .levelIcon.level06{background:url(../images/homework-history/state-icon06.png?v=5925e0b72b) no-repeat}
+.read-aDetails .r-title{padding:10px 20px;line-height:26px;border-bottom:1px solid #dae6ee;font-size:18px;color:#3d3f52}
+.read-aDetails .aDetails-section{margin:10px 20px 20px;border-radius:3px;border:1px solid #dae6ee}
+.read-aDetails .r-inner{margin:0 20px;border-bottom:1px solid #dae6ee}
+.read-aDetails .r-inner.showDetails{border-bottom:0}
+.read-aDetails .r-inner.showDetails .arrow{background:url(../images/homework-history/arrow-up.png?v=9c3139dbca) no-repeat}
+.read-aDetails .r-inner.showDetails .readTxt-details{display:block}
+.read-aDetails .r-inner:last-child{border-bottom:0}
+.read-aDetails .readTxt-list{overflow:hidden;padding:16px 0}
+.read-aDetails .readTxt-list .fl-aside{margin-right:110px}
+.read-aDetails .readTxt-list .fl-aside .name{padding-bottom:8px;line-height:16px;font-size:16px;color:#4e5656}
+.read-aDetails .readTxt-list .fl-aside .textGray{line-height:12px;font-size:12px;color:#7e7e7e}
+.read-aDetails .readTxt-list .frAside{float:right;margin-top:10px;width:100px;cursor:pointer;font-size:14px;color:#7f96a3}
+.read-aDetails .readTxt-details{display:none}
+.read-aDetails .readInner{margin-bottom:20px;border-radius:3px;border:1px solid #dae6ee}
+.read-aDetails .readInner .r-title{padding:10px 30px;line-height:20px;font-size:14px}
+.read-aDetails .readInner .r-title .label{font-size:12px;color:#7f96a3}
+.read-aDetails .readInner .r-inner{padding:20px 10px;line-height:24px;border-bottom:0}
+.read-aDetails .readInner .r-playBtn{margin-top:-20px;padding:0 15px 10px;text-align:right}
+.h-homeworkCorrect .hp-title{padding:12px;background:#edf5fa}
+.h-video-tab{padding:20px}
+.h-video-tab .video-info-box{width:100%;border-collapse:collapse;border:1px solid #eef5f9}
+.h-video-tab .video-info-box thead tr{height:40px;line-height:40px;font-size:16px}
+.h-video-tab .video-info-box tr{text-align:center;height:110px;border:1px solid #eef5f9;border-left:0;border-top:0}
+.h-video-tab .video-info-box tr td{width:33.33%;border:1px solid #eef5f9;border-bottom:0;border-top:0}
+.h-video-tab .video-info-box tr.column4 td{width: 25%;}
+.h-video-tab .video-info-box tr td p{margin:0 auto;width:130px;font-size:14px;color:#9c9c9c;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.h-video-tab .video-info-box tr td .v-name{font-size:16px;color:#383a4c}
+.h-video-tab .video-info-box tr td .play-btn{display:inline-block;width:29px;height:29px;background:url(../images/dubbing/btn-radio-1.png?v=80822e5f01) no-repeat;background-size:100% auto}
+.tDubbing-popup{width:550px;background-color:#fff}
+.tDubbing-popup .dubPopup-video{position:relative}
+.tDubbing-popup .dubPopup-video .video{width:550px;height:276px}
+.tDubbing-popup .dubPopup-video .video img{display:block;width:100%;height:100%}
+.tDubbing-popup .dubPopup-video .playBtn{position:absolute;left:50%;top:50%;cursor:pointer;margin:-25px 0 0 -25px;width:50px;height:50px;background:url(../images/dubbing/btn-radio-1.png?v=80822e5f01) no-repeat;background-size:100% 100%}
+
+/* 学生端 课文读背-作业详情 */
+.r-title{padding:10px 20px;line-height:26px;border-bottom:1px solid #dae6ee;font-size:18px;color:#3d3f52;background:#f9fcfe}
+.aDetails-section{margin:10px 20px 20px;border-radius:3px;border:1px solid #dae6ee}
+.showDetails .arrow{background:url(../images/icon-arrw.png?v=9c3139dbca) no-repeat !important}
+
+.r-inner{margin:0 20px;border-bottom:1px solid #dae6ee}
+.r-inner:last-child{border-bottom:0}
+.readTxt-list .fl-aside,.readTxt-list2 .fl-aside{margin-right:110px}
+.readTxt-list .playAll,.readTxt-list2 .playAll{margin:0;height:26px;line-height:26px;color:#fff;background-color:#489bf4;border-radius:30px;cursor:pointer}
+.readTxt-list2{padding-top:20px}
+.frAside,.frAside2{float:right;margin-top:10px;width:100px;cursor:pointer;font-size:14px;color:#7f96a3}
+.readTxt-list .fl-aside .name,.readTxt-list2 .fl-aside .name{line-height:16px;font-size:16px;color:#4e5656}
+.readTxt-list .fl-aside .textGray,.readTxt-list2 .fl-aside .textGray{padding-bottom:8px;height:20px;line-height:20px;font-size:12px;color:#7e7e7e}
+.readTxt-list .playAll,.readTxt-list2 .playAll{margin:0;height:26px;line-height:26px;color:#fff;background-color:#489bf4;border-radius:30px;cursor:pointer}
+.readTxt-list .playAll span,.readTxt-list2 .playAll span{margin:-2px 0 0 4px}
+.readTxt-list .arrow,.readTxt-list2 .arrow{display:inline-block;vertical-align:middle;cursor:pointer;width:13px;height:6px;background:url(../images/icon-arrw-1.png?v=c3b3f7784c) no-repeat}
+.frAside,.frAside2{float:right;margin-top:10px;width:100px;cursor:pointer;font-size:14px;color:#7f96a3}
+.frAside2{margin-top:0;width:60px;cursor:pointer}
+.readInner{position:relative;margin-bottom:20px;border-radius:3px;border:1px solid #dae6ee}
+.readInner .r-sub-title{padding:10px 30px;line-height:20px;font-size:14px;border-bottom:1px solid #dae6ee}
+.readInner .r-sub-title .label{font-size:12px;color:#7f96a3}
+.readInner .r-sub-title.subtitle{padding:10px 0 10px 40px;line-height:24px;border:none}
+.readInner .r-sub-title.subtitle .label{margin-left:10px;color:#383838}
+.readInner .r-sub-title.subtitle .noreach{color:#ff7563}
+.readInner .r-inner{padding:20px 10px;line-height:24px;border-bottom:0}
+.readInner .r-playBtn{margin-top:-20px;padding:0 15px 10px;text-align:right}
+.readInner .itag{position:absolute;top:0;left:0;width:50px;height:48px;background:url(../images/i-tag.png?v=d4bc7bbbcd) no-repeat}
+.readInner .r-part{margin:0;padding:20px 100px;border-top:1px solid #dae6ee}
+.readInner .segment{padding:20px 100px;line-height:24px;border-top:1px solid #dae6ee;border-bottom:0}
+.paragr-btn{display:inline-block}
+.paragr-btn .arrow{display:inline-block;vertical-align:middle;cursor:pointer;width:13px;height:6px;background:url(../images/icon-arrw-1.png?v=c3b3f7784c) no-repeat}
+.readInner .r-part{margin:0;padding:20px 100px;border-top:1px solid #dae6ee}
+
+.sink-student .readTxt-list2 .playAll{background-color:#7ccc32}
+.sink-student .audio-pause,.audio-play{display:inline-block;margin:-3px 6px 0 0;width:24px;height:24px;vertical-align:middle;background-repeat:no-repeat;background-size:100% auto;cursor:pointer}
+.sink-student .audio-play{background-image:url(../images/s-audio-play.png?v=d975f279ab)}
+.sink-student .audio-pause{background-image:url(../images/s-audio-pause.png?v=ec93b00bce)}
+.sink-student .readInner .itag{background:url(../images/s-itag.png?v=085f954e67) no-repeat;background-size:100% 100%}
+
+.date_icon {
+    background: url(../images/timeicon.png) right 2px no-repeat #fff;
+    border: 1px solid #bbb;
+}
+
+.h-playIcon{display:inline-block;cursor:pointer;margin:-5px 0;width:21px;height:21px;background:url(../images/homework-history/play-icon-small.png?v=a86a9a7a3c) no-repeat;background-position:0 0}
+.h-playVideo{width:25px;height:20px;background:url(../images/i-video.png?v=046a1b1712) no-repeat;background-size:100% auto}
+.h-playStop{background-position:-59px 0}

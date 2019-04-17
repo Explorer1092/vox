@@ -1,0 +1,293 @@
+[v-cloak] {
+    display: none !important;
+}
+.titleBox{
+    margin-bottom: 20px;
+}
+.titleBox .title{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+}
+.titleBox .titleContent{
+    padding: 20px;
+}
+.titleBox .title h3{
+    margin: 0;
+    line-height: 50px;
+    display: inline-block;
+}
+.titleBox .title a{
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.uploadBox .itemBox{
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.uploadBox .itemBox .fileBox{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 250px;
+    position: relative;
+}
+.uploadBox .itemBox.uploadTypeBox .fileBox{
+    padding-left: 0px;
+}
+.uploadBox .itemBox.uploadTypeBox .fileBox.star:before{
+    content: '*';
+    color: #d0021b;
+    margin-right: 3px;
+}
+.uploadBox .itemBox .fileBox .fileType{
+    width: 60px;
+    height: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 57px 54px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url("./images/icon_file.png");
+}
+.uploadBox .itemBox .fileBox .fileType.pic{
+    background-image: url("./images/icon_pic.png");
+}
+.uploadBox .itemBox .fileBox .fileType.word{
+    background-image: url("./images/icon_word.png");
+}
+.uploadBox .itemBox .fileBox .fileType.ppt{
+    background-image: url("./images/icon_ppt.png");
+}
+.uploadBox .itemBox .fileBox .fileType.pdf{
+    background-image: url("./images/icon_pdf.png");
+}
+.uploadBox .itemBox .fileBox .fileType.zip{
+    background-image: url("./images/icon_zip.png");
+}
+.uploadBox .itemBox .fileBox .fileType.audio{
+    background-image: url("./images/icon_mp3.png");
+}
+.uploadBox .itemBox .fileBox .fileType.video{
+    background-image: url("./images/icon_mp4.png");
+}
+.uploadBox .itemBox .fileBox .fileName{
+    height: 60px;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-weight: normal;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+}
+.uploadBox .itemBox .btnBox{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 60px;
+}
+.uploadBox .itemBox .btnBox div{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #006dcc;
+    color: #006dcc;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.uploadBox .itemBox .btnBox div.edit{
+    background-color: #006dcc;
+    color: #ffffff;
+}
+.blockTitle{
+    padding: 20px 0 10px;
+}
+/*基础信息、任务设置*/
+.baseInfoBox, .taskInfoBox{
+    background-color: #fff;
+    padding: 30px;
+}
+.baseInfoBox .baseItemBox,
+.taskInfoBox .taskItemBox{
+    margin-bottom: 20px;
+}
+.baseInfoBox .baseItemBox:last-child,
+.taskInfoBox .taskItemBox:last-child{
+    margin-bottom: 0;
+}
+.baseInfoBox .baseItemBox label,
+.taskInfoBox .taskItemBox label{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    vertical-align: top;
+}
+.baseInfoBox .baseItemBox label.star:before,
+.taskInfoBox .taskItemBox label.star:before{
+    content: '*';
+    color: #d0021b;
+    margin-right: 3px;
+}
+.baseInfoBox .baseItemBox span.tip,
+.taskInfoBox .taskItemBox span.tip{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+}
+.baseInfoBox .baseItemBox .editor{
+    display: inline-block;
+    vertical-align: top;
+}
+.baseInfoBox .baseItemBox select,
+.baseInfoBox .baseItemBox input,
+.baseInfoBox .baseItemBox textarea,
+.taskInfoBox .taskItemBox select,
+.taskInfoBox .taskItemBox input,
+.taskInfoBox .taskItemBox textarea{
+    display: inline-block;
+    width: 364px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 30px;
+}
+.baseInfoBox .baseItemBox textarea,
+.taskInfoBox .taskItemBox textarea{
+    height: 100px;
+}
+.taskInfoBox .taskItemBox input[type="checkbox"]{
+    width: auto;
+}
+.baseInfoBox .baseItemBox2 .baseItemContent,
+.baseInfoBox .baseItemBox3 .baseItemContent{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.baseItemBox1 label.special{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.baseInfoBox .baseItemBox2 .baseItemContent span{
+    display: inline-block;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.baseInfoBox .baseItemBox2 .baseItemContent span.active{
+    border: 1px solid #006dcc;
+    color: #006dcc;
+}
+.baseInfoBox .baseItemBox3 .baseItemContent select{
+    width: 115px;
+    margin-right: 10px;
+    float: left;
+}
+.baseItemContent{
+    display: inline-block;
+}
+.baseUploadBox{
+    display: inline-block;
+    margin-right: 20px;
+}
+.baseUploadBox .imageBox{
+    width: 195px;
+    height: 148px;
+    background: url("./images/click_upload.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.baseUploadBox .imageBox.uploaded{
+    background: none;
+}
+.baseUploadBox .imageBox img{
+    display: block;
+    width: 100%;
+    height:100%;
+    border: 1px solid #e5e5e5;
+}
+.baseUploadBox h5, .baseUploadBox p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.baseUploadBox h5.star:before{
+    content: '*';
+    color: #d0021b;
+    margin-right: 3px;
+}
+.baseUploadBox p{
+    font-size: 14px;
+}
+.previewTip{
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* 添加资源弹窗 */
+.addBox{
+    margin: 20px;
+}
+.addBox .addItem{
+    margin-bottom: 10px;
+}
+.addBox .addItem label{
+    font-size: 16px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.addBox .addItem input{
+    width: 312px;
+    display: inline-block;
+}
+.addBox .addItem .labelBox{
+    width: 370px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+.addBox .addItem .labelBox span{
+    padding: 0 20px;
+    float: left;
+    height: 26px;
+    border-radius: 13px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addBox .addItem span.tip{
+    font-size: 14px;
+}
+.addBox .tipBox{
+    font-size: 12px;
+}

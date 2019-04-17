@@ -1,0 +1,53 @@
+html, body{ width: 100%; font:14px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体";}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+body { background-color: #fff; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none;  cursor:pointer; text-decoration:none}
+img{ vertical-align:middle; border:none;}
+#ClCache{ display: none;}
+/*special-header*/
+.special-header{ background-color: #fafcfd; height: 50px; border-bottom: 1px solid #dad7dd;}
+.special-header{ position: relative; z-index: 99;}
+.special-header .m-inner{ width: 1000px; margin: 0 auto;}
+.special-header .logo{ background: url(../images/logo.png?1.0.1) no-repeat; width: 150px; height: 37px; float: left; margin: 7px 0 0;}
+.special-header .logo a{ width: 100%; height: 100%; display: block;}
+.special-header .back{ float: right; padding: 18px 0 0;}
+.special-header .back a{ color: #666;}
+.special-header .back a:hover{ color: #333;}
+/*special-footer*/
+.special-footer, .special-footer .m-inner{ clear: both; background-color: #fff; height: 200px;}
+.special-footer { border-top: 2px solid #189cfb;}
+.special-footer .m-inner{ width: 1000px; margin: 0 auto; overflow: hidden;}
+.special-footer .copyright{ color: #b9b9b9; font-size: 12px; margin-top: 80px;}
+.special-footer .link{ margin-top: 8px;}
+.special-footer .link .spare-icon{ background: url("../images/m-icon-share.png") no-repeat 500px 500px; display: inline-block; width: 39px; height: 38px; margin-right:20px;}
+.special-footer .link .spare-icon:hover{ background-image: url(../images/m-icon-share-blue.png)}
+.special-footer .link .spare-weibo{ background-position: 0 0;}
+.special-footer .link .spare-rr{background-position: -62px 0;}
+.special-footer .link .spare-qq{background-position: -124px 0;}
+.special-footer .link .spare-wx{background-position: -185px 0;}
+.special-footer .link .spare-qzone{background-position: -248px 0;}
+/*m-foot-link*/
+.special-footer .m-foot-link { margin-top: 80px; width: 410px;}
+.special-footer .m-foot-link h3{ color: #000; font-size: 16px; height: 25px; padding-left: 10px;}
+.special-footer .m-foot-link a{ display: block; color: #666; line-height: 26px; font-size: 14px;}
+.special-footer .m-foot-link a:hover{ color: #189cfb;}
+.special-footer .w-fl-right{ float: right;}
+.special-footer .w-fl-left{ float: left;}
+.special-footer .m-foot-link .w-fl-left{ width: 120px; }
+.special-footer .m-foot-link .m-code { float: right; width: 96px;}
+.special-footer .m-foot-link .m-code .c-image{ background: url(../images/m-code.jpg) no-repeat; width: 90px; height: 90px; margin: 0 auto;}
+.special-footer .m-foot-link .m-code .c-title{ color: #666; text-align: center; line-height: 35px; font-size: 12px;}
+.special-footer .m-service { float: left;}
+.special-footer .m-service .c-title{ color: #667284; font-size: 12px; background: url(../images/service-icon.png) no-repeat 0 7px; line-height: 25px; padding-left: 45px; margin-bottom: 10px;}
+.special-footer .m-service .c-title strong{ display: block; font-size: 16px;}
+.special-footer .m-service .c-btn {}
+.special-footer .m-service .c-btn a{ display: inline-block; background-color: #77d142; color: #fff; padding: 10px 8px; line-height: 100%; border-radius: 6px; float: right; margin: 0 0 0 5px;}
+.special-footer .m-service .c-btn a:hover{ background-color: #92da68; color: #fff;}
+.special-footer .m-service .c-btn a:active{ background-color: #77d142;}
+.special-footer .m-service .c-btn a.on-service{ background-color: #46c0ea;}
+.special-footer .m-service .c-btn .on-service:hover{ background-color: #6bcdee;}
+.special-footer .m-service .c-btn .on-service:active{ background-color: #46c0ea;}

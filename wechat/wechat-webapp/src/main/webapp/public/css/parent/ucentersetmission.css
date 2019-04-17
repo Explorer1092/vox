@@ -1,0 +1,33 @@
+.t-smallGoalkeeper-box .smallGoalkeeper-column{float:left;margin:15px 0 0 0;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dt{float:left;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dt img{width:90px;height:90px;border-radius: 5px;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dd{margin-left:110px;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dd p{line-height: 45px;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dd .movie{font-size:28px;color:#5f66ec;}
+.t-smallGoalkeeper-box .smallGoalkeeper-column dd .sub{font-size:22px;color:#9c9c9c;}
+.t-smallGoalkeeper-box .btn{float:right;}
+.t-smallGoalkeeper-box .btn a{margin:0 0 12px 0;}
+.t-smallGoalkeeper-box .btn .addTo-btn,.t-smallGoalkeeper-box .btn .view-btn,.t-parentAward-column .btn .view-btn{background-color: #84dd3c; display: block;margin: 0.375rem 0 0;width: 4.0625rem;height: 1.6875rem;text-align: center;color: #fff;font-size: 0.75rem;line-height: 1.6875rem;border-radius: 5px;}
+.t-smallGoalkeeper-box .btn .view-btn,.t-parentAward-column .btn .view-btn{background-color: #4dcfff;}
+
+
+.t-parentAward-column{clear: both;border:2px solid #d0d4da;border-radius: 4px; padding: 0.4rem;font-size: 0.87rem;background-color: #fff;width: 88%;margin: 0 0 0 1.3rem;}
+.t-parentAward-column .btn{float:right;margin: -8px 0 0 0;}
+.t-parentAward-column .info{color: #3d4245;font-size:24px;}
+
+
+.t-setRewards-content{width:640px;margin:0 auto;}
+.t-setRewards-content .inner-0{background: url(../../images/parent/reward/small-goalkeeper-bg-0.jpg?v=0.0.1) no-repeat;height:370px;}
+.t-setRewards-content .inner-1{background: url(../../images/parent/reward/small-goalkeeper-bg-1.jpg?v=0.0.1) no-repeat;height:530px;}
+.t-setRewards-content .inner-2{background: url(../../images/parent/reward/small-goalkeeper-bg-2.jpg?v=0.0.1) no-repeat;height:729px;}
+.t-setRewards-content .inner-3{background: url(../../images/parent/reward/small-goalkeeper-bg-3.jpg?v=0.0.1) no-repeat;height:385px;}
+.t-setRewards-content .inner-4{background: url(../../images/parent/reward/small-goalkeeper-bg-4.jpg?v=0.0.1) no-repeat;height:325px;}
+.t-setRewards-content .inner-5{background: url(../../images/parent/reward/small-goalkeeper-bg-5.jpg?v=0.0.1) no-repeat;height:318px;}
+.t-setRewards-content .inner-6{background: url(../../images/parent/reward/small-goalkeeper-bg-6.jpg?v=0.0.1) no-repeat;height:352px;}
+.t-setRewards-content .inner-7{background: url(../../images/parent/reward/small-goalkeeper-bg-7.jpg?v=0.0.1) no-repeat;height:352px;}
+.t-setRewards-content .inner-8{background: url(../../images/parent/reward/small-goalkeeper-bg-8.jpg?v=0.0.1) no-repeat;height:315px;}
+.t-setRewards-content .inner-9{background: url(../../images/parent/reward/small-goalkeeper-bg-9.jpg?v=0.0.1) no-repeat;height:307px;}
+.t-setRewards-content .inner-10{background: url(../../images/parent/reward/small-goalkeeper-bg-10.jpg?v=0.0.1) no-repeat;height:349px;}
+.t-setRewards-content .inner-11{background: url(../../images/parent/reward/small-goalkeeper-bg-11.jpg?v=0.0.1) no-repeat;height:324px;}
+.t-setRewards-content .inner-12{background: url(../../images/parent/reward/small-goalkeeper-bg-12.jpg?v=0.0.1) no-repeat;height:520px;}
+

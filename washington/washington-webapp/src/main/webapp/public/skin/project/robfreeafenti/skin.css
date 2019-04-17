@@ -1,0 +1,20 @@
+html, body{ background: url(images/rob_1.jpg) repeat-x 0 48px #71bfff;}
+.main{ width: 980px; margin: 0 auto;}
+.main div{ margin: 0 auto;}
+.main .btn_red{ background: url(images/btn_one.png) no-repeat 0 0; width: 128px; height: 40px; display: block;}
+.main .btn_big{ background: url(images/btn.png?a=1) no-repeat 0 0; width: 263px; height: 68px; display: block; margin: 0 auto; border: 0; cursor: pointer;}
+.main .btn_rob{ background-position: 0 0;}
+.main .btn_been{ background-position: 0 -78px;}
+.main .btn_over{ background-position: 0 -156px;}
+.main .btn_other{ background-position: 0 -234px;}
+.main .rob_1{ background: url(images/rob_2.jpg) repeat-x 0 0; height: 228px; width: 620px;}
+.main .rob_2{ background: url(images/rob_3.jpg) repeat-x 0 0; height: 115px; width: 620px; }
+.main .rob_2_1{ background: url(images/rob_3_null.jpg) repeat-x 0 0; height: 115px; width: 620px; }
+.main .rob_2 .timeDate{ position: absolute; top: 33px; right: 16px; text-shadow: 0px 1px 2px #ce3204;}
+.main .rob_2 .timeDate span{ color: #fff; font: bold 42px/1.125 arial; padding: 0 12px;}
+.main .rob_3{ background: url(images/rob_4.jpg) repeat-x 0 0; height: 160px; width: 780px;}
+.main .rob_4{ background: url(images/rob_5.jpg) repeat-x 0 0; height: 160px; width: 780px;}
+.main .rob_5{ background: url(images/rob_6.jpg) no-repeat center 0; height: 143px; width: 980px;}
+.main .rob_2, .main .rob_3, .main .rob_5{position: relative;}
+.main .rob_3 .btn_shop{ position: absolute; top: 90px; right: 90px; background-position: 0 0;}
+.main .rob_5 .btn_detail{ position: absolute;  top: 0; right: 150px;  background-position: 0 -44px;}

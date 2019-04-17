@@ -1,0 +1,28 @@
+html, body{ width: 100%; height: 100%; font:14px/100% "Microsoft YaHei", arial, "黑体";}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none;  cursor:pointer; text-decoration:none}
+img{ vertical-align:middle; border:none;}
+
+.t-student-downloadPage,.t-parent-downloadPage{width:640px;height:100%;text-align: center;background-color: #fff;margin:0 auto; position: relative;}
+.t-student-downloadPage .banner{background: url(../images/student-downloadPage-banner.png) no-repeat;height:616px;}
+.t-student-downloadPage .btn {margin:-30px 0 0 0; text-align: center;}
+.t-student-downloadPage .btn a,.t-parent-downloadPage .btn a{background-color: #0780cc;color:#fff;font-size:32px;width:570px;display: inline-block;padding:30px 0;border-radius: 50px;margin:0 0 25px 0;}
+.t-student-downloadPage .btn .and-btn:active,.t-student-downloadPage .btn .ios-btn:active{background-color:#1ea7ee;}
+.t-student-downloadPage .btn .and-btn .and-icon,.t-student-downloadPage .btn .ios-btn .ios-icon,.t-student-downloadPage .foot .upward-slider .slider-icon,.t-parent-downloadPage .btn .and-btn .and-icon,.t-parent-downloadPage .btn .ios-btn .ios-icon{width:47px;height:57px;display: inline-block;background: url(../images/student-downloadPage-phone-icon.png) no-repeat 0 0;vertical-align: middle;padding:0 30px 0 0;}
+.t-student-downloadPage .btn .ios-btn .ios-icon{background-position: 0 -73px;}
+.t-student-downloadPage .info{font-size:24px;color:#999999;line-height: 30px;}
+.t-student-downloadPage .foot{position: absolute;bottom: 0;left: 50%;margin-left: -90px;}
+.t-student-downloadPage .foot .upward-slider{font-size:20px;color:#c2c2c2;line-height: 65px;}
+.t-student-downloadPage .foot .upward-slider .slider-icon{width:24px;height:54px;background-position: -11px -132px;padding: 0;margin:0 auto;display: block;}
+/*t-parent-downloadPage*/
+.t-parent-downloadPage .banner{background: url(../images/parent-downloadPage.png) no-repeat center top; height:250px;}
+.t-parent-downloadPage .btn { background: url(../images/parent-downloadPage.png) no-repeat center -270px; position: absolute; left: 0; bottom: 0; padding: 260px 0 0 0; height: 300px; width: 100%; }
+.t-parent-downloadPage .btn .ios-btn{background-color: #0cb0bf;}
+.t-parent-downloadPage .btn .ios-btn:active{background-color:#2dcada;}
+.t-parent-downloadPage .btn .and-btn:active{background-color: #1ea7ee;}
+.t-parent-downloadPage .btn .and-btn{background-color: #5a70d6;}
+.t-parent-downloadPage .info{color:#fff;font-size: 20px;position: relative; }

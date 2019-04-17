@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "totalTime": 191551,
+    "totalScore": 67,
+    "coin": 1,
+    "param": {
+        "unitId": 879,
+        "practiceType": 67,
+        "homeworkDetailId": "537c3240e4b0b4838bb3d18d",
+        "gameType": 67,
+        "cid": 34051,
+        "bookId": 878,
+        "lessonId": 31040007,
+        "userId": 30033,
+        "studyType": "homework",
+        "hid": "537c3240e4b0b4838bb3d18a"
+    },
+    "wordCollecteds": [
+        {
+            "viewNum": 1,
+            "word": "come"
+        }
+    ],
+    "readingQuestionRsts": [
+        {
+            "questionId": "533c0a5afb6dec158c567fef",
+            "answer": "A",
+            "master": true
+        },
+        {
+            "questionId": "533c0a5afb6dec158c567ff0",
+            "answer": "B",
+            "master": true
+        },
+        {
+            "questionId": "533c0a5afb6dec158c567ff1",
+            "answer": "C",
+            "master": true
+        }
+    ]
+}

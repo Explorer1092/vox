@@ -1,0 +1,34 @@
+.wordTitle{font-size:16px;font-weight:700;color:#575f5f}
+.popupTitle{padding-bottom:30px;font-size:16px;color:#230000;font-weight:700}
+.popupTitle .speColor{color:#189cfb;cursor:pointer}
+.cultureBox{border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;background:#fff}
+.cultureTitle{padding:10px 25px;font-size:18px;font-weight:700;color:#4e5656;background:#f9fcfe;border-bottom:1px solid #dae6ee}
+.taskTitle{padding:30px 20px;background:#fff;border-bottom:1px solid rgba(218,230,238,.3);-moz-border-radius:1px;border-radius:1px}
+.taskDetail{padding:0 20px;background:#fff}
+.taskDetailCard{position:relative;padding:20px 0;overflow:hidden}
+.taskDetailCard .taskDetailName{position:absolute;padding-left:18px;float:left;font-size:16px;font-weight:700;color:#7d8694;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%)}
+.taskDetailCard .taskDetailName:before{content:"";position:absolute;top:50%;left:0;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);width:10px;height:10px;-moz-border-radius:50%;border-radius:50%;background:#7d8694}
+.taskDetailCard .taskDetailCon,.taskDetailCard .taskDetailCon2{position:relative;padding:0 0 0 180px}
+.taskDetailCard .taskDetailCon .taskInfo,.taskDetailCard .taskDetailCon2 .taskInfo{display:inline-block}
+.taskDetailCard .taskDetailCon .taskFrac,.taskDetailCard .taskDetailCon2 .taskFrac{font-size:14px;color:#002727;text-align:center}
+.taskDetailCard .taskDetailCon .taskFrac i,.taskDetailCard .taskDetailCon2 .taskFrac i{font-size:20px;font-weight:700;color:#595757;font-style:normal}
+.taskDetailCard .taskDetailCon .taskExp,.taskDetailCard .taskDetailCon2 .taskExp{font-size:14px;color:#7d8694}
+.taskDetailCard .taskDetailCon .arrowPic,.taskDetailCard .taskDetailCon2 .arrowPic{position:relative;display:inline-block;width:154px;height:45px;vertical-align:top}
+.taskDetailCard .taskDetailCon .arrow,.taskDetailCard .taskDetailCon2 .arrow{position:absolute;left:50%;top:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);display:inline-block;width:34px;height:20px;background:url(../images/homework/arrowBlack.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.taskDetailCard .taskDetailCon.taskDetailCon2,.taskDetailCard .taskDetailCon2.taskDetailCon2{padding:0 40px 0 180px}
+.taskDetailCard .taskDetailCon.taskDetailCon2 .taskInfo,.taskDetailCard .taskDetailCon2.taskDetailCon2 .taskInfo{float:right}
+.personDetailCard{padding:0 20px;background:#fff}
+.personDetailCard .detailTitle{position:relative;padding:20px 0 20px 18px;font-weight:700;font-size:16px;color:#7d8694}
+.personDetailCard .detailTitle:before{content:"";position:absolute;top:50%;left:0;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);width:10px;height:10px;-moz-border-radius:50%;border-radius:50%;background:#7d8694}
+.personDetailCard .detailConBox{padding:0 40px 0;border:1px solid #dae6ee;-moz-border-radius:1px;border-radius:1px}
+.personDetailCard .detailConBox .taskCon{padding:20px 0;font-size:14px;color:#595757;border-bottom:1px solid rgba(218,230,238,.3)}
+.personDetailCard .detailConBox .taskCon:last-child{border-bottom:none}
+.personDetailCard .detailConBox .taskdetailTitle{display:inline-block;width:33%;font-size:14px;color:#595757;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.personDetailCard .detailConBox .starIcon{display:inline-block;text-align:center;width:33%}
+.personDetailCard .detailConBox .starIcon i{display:inline-block;width:16px;height:16px}
+.personDetailCard .detailConBox .starIcon i.starYellow{background:url(../images/homework/staryellow.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.personDetailCard .detailConBox .starIcon i.sterGray{background:url(../images/homework/stargray.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.personDetailCard .detailConBox .taskdetailTitle2{display:inline-block;max-width:85%;font-size:14px;color:#5a5858;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.personDetailCard .detailConBox .finish{float:right;font-size:14px;color:#5a5858}
+.personDetailCard .detailConBox .prev{text-align:right;float:right;display:inline-block;width:33%;font-size:14px;color:#189cfb;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.personDetailCard .detailConBox .prev u{cursor:pointer}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+html{font-size:20px}
+@media only screen and (min-width:400px){html{font-size:21.33px!important}
+}
+@media only screen and (min-width:414px){html{font-size:22.08px!important}
+}
+@media only screen and (min-width:480px){html{font-size:25.6px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{margin:0;background:#f1f2f5;}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.reward-gap{border-top: .7rem solid #f1f2f5;background: #fff;}
+.particular-title{position:relative;margin:0 0 0 1rem;height:2rem;font-size:.7rem;color:#9199bb;line-height:2rem;border-bottom:.05rem solid #eaeaea;}
+.particular-title .data{padding:0 1rem 0 0;float:left}
+.reward-box .particular-body{margin-left:1rem;overflow:hidden;margin-top: .5rem;color: #636880;}
+.reward-box .particular-body:last-child{border:none}
+.reward-box .particular-body .left{float:left;font-size:.7rem;}
+.reward-box .particular-body .left a{position:relative;padding-right:1rem;display:block;color: #636880;}
+.reward-box .particular-body .left p{color: #ff7d5a;overflow:hidden;line-height: .7rem;display: inline-block;}
+.reward-box .particular-body .left a:after{position:absolute;top:50%;right:0;content:'';margin:-.425rem 0 0 0;width:.45rem;height:.85rem;background-size:100% 100%}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.head{color:#76797e;position:relative;padding:.375rem 1rem 0;line-height:2.25rem;height:2.5rem;box-sizing:border-box;overflow:hidden}
+.head .inner-right{font-size:.9rem;color:#ff7d5a;float:right}
+.return{float:left;cursor:pointer;font-size:.9rem;color:#76797e}
+.return .return-icon{margin-right:.25rem;display:inline-block;width:.4rem;height:.7rem;background:url(/public/rebuildRes/image/mobile/home/icon_arrow_left.png?v=6f6e5554dd) no-repeat;background-size:100% 100%}
+.return-line{float:left;content:"";height:.95rem;margin:.65rem .625rem 0 .4rem;border-right:1px solid #979797}
+.h-title{float:left;font-size:.9rem;color:#76797e}
+.name{font-size:.75rem;line-height:1rem;color:#50546d;padding:.25rem 0}
+.name .inner-right{font-size:.55rem;color:#7f86ad;float:right;cursor: pointer;}
+.dl{position:relative;font-size:.65rem;line-height:1rem;min-height:1rem;padding:.25rem 0 .25rem 3.5rem;color:#636880}
+.dl .dt{position:absolute;top:.25rem;left:0}
+/*
+.holder{background:#f1f2f5}*/
+.nonInfo{padding:2rem 0;text-align: center;font-size:.75rem;color:#636880;}
+.reward_expired{background-image:url(/public/rebuildRes/image/mobile/home/reward_expired.png);display: inline-block;vertical-align: middle;width: 4.35rem;height: .95rem;background-size: 100% 100%}
+.reward_recevied{background-image:url(/public/rebuildRes/image/mobile/home/reward_recevied.png);display: inline-block;vertical-align: middle;width: 4.35rem;height: .95rem;background-size: 100% 100%}
+.reward_to_get{background-image:url(/public/rebuildRes/image/mobile/home/reward_to_get.png);display: inline-block;vertical-align: middle;width: 4.35rem;height: .95rem;background-size: 100% 100%}

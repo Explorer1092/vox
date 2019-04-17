@@ -1,0 +1,10 @@
+/**/
+body,ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,h7,p,form{margin:0;padding:0;}
+ul{list-style-type:none;}
+img{border:none;}
+a{text-decoration:none;}
+em{ font-style:normal;}
+/**/
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;line-height: 0;height:0;overflow:hidden;*margin-top:-4px;}

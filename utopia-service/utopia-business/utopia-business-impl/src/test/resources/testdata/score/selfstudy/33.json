@@ -1,0 +1,54 @@
+{
+    "actualScore": 73,
+    "totalScore": 88,
+    "totalTime": 82658,
+    "voiceEngineType": "internal",
+    "voiceScoringMode": "Normal",
+    "version": "1.0.0.1",
+    "param": {
+        "userId": 30046,
+        "studyType": "selfstudy",
+        "gameType": 33,
+        "bookId": 878,
+        "unitId": 879,
+        "lessonId": 8790002
+    },
+    "sentence": [
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001007",
+            "content": "Hello , I'm Peter .",
+            "score": 80
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001008",
+            "content": "Hello , I'm Lingling .",
+            "score": 68
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001009",
+            "content": "Nice to meet you !",
+            "score": 59
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001010",
+            "content": "Hello , I'm Mingming .",
+            "score": 75
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001011",
+            "content": "Hello , I'm Anne .",
+            "score": 82
+        },
+        {
+            "voiceId": "",
+            "sentenceId": "87900020001012",
+            "content": "Nice to meet you too !",
+            "score": 70
+        }
+    ]
+}

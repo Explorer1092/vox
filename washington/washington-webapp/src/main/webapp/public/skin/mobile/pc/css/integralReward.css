@@ -1,0 +1,22 @@
+html,body { color: #333; font: 28px/1.125 Arial,"Microsoft YaHei"; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li { margin: 0; padding: 0; }
+body { overflow: auto; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+ul,li { list-style: none; }
+iframe{display: none;}
+* { -webkit-tap-highlight-color: transparent; background-clip: padding-box; }
+.clearfix:after,.clearfix:before { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+a { text-decoration: none; }
+/*beanAward*/
+.beanAward{ width: 100%; min-height: 100%; background: #92d145;}
+.beanAward .header { position: relative; width: 100%; height: 500px; background: url(../images/integralReward/award-bean-bg-top.png) no-repeat 50% 0 #90d538; background-size: 100% auto; }
+.beanAward .header .bean-num { position: absolute; width: 100%; left: 0; top: 265px; text-align: center; }
+.beanAward .header .bean-num .icon { display: inline-block; width: 55px; height: 55px; background: url("../images/integralReward/ward-add-icon.png") no-repeat; vertical-align: middle; }
+.beanAward .header .bean-num .num { color: #fa4440; font-size: 84px; font-weight: bold; vertical-align: middle; }
+.beanAward .footer { width: 100%; height: 214px; background: url(../images/integralReward/award-bean-bg-footer.png) no-repeat 50% 100% #90d538; background-size: 100% auto; }
+.beanAward .main { margin: -1px 0; width: 100%; background-color: #90d538; }
+.beanAward .main .copywriter { margin: 0 40px 38px 40px; padding: 45px 90px; background: #70b22f; border-radius: 15px; color: #fff; font-size: 26px; line-height: 36px; }
+.beanAward .main .copywriter .count { color: #fff629; font-size: 46px; }
+.beanAward .main .btn-default { display: block; margin: 0 40px; border: 6px #1eb800 solid; border-radius: 48px; background: url(../images/integralReward/public-btn-round-white.png) no-repeat 5% 10% #89f022; text-align: center; color: #fff; font-size: 34px; line-height: 90px; font-weight: 700; box-shadow: 0 -6px 0px 3px #6ddd15 inset; }
+.beanAward .main .btn-blue { border-color: #0097ce; background-color: #5dcdf6; box-shadow: 0 -6px 0px 3px #43bcf5 inset; }
+

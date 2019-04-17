@@ -1,0 +1,63 @@
+html, body{ background: url(images/rank_back.png?1.0.0) 0 0;}
+ul, li, p{list-style: none; padding: 0; margin: 0; }
+.text_red{ color: #e13a31;}
+.clear { clear: both !important; padding:0!important; margin:0!important;  overflow:hidden!important; font:1px/1px arial!important; float:none !important;}
+.header{ background: url(images/rank_header.png?1.0.1) no-repeat center 0; }
+.header .inner{ background: url(images/rank_header.png?1.0.1) no-repeat center 0 #efefef; width: 960px; margin: 0 auto; position: relative; padding: 350px 0 20px; overflow: hidden;}
+.header .inner .userBox { position: absolute; top: 276px; left: 150px;}
+.header .inner .userBox dt{ background: url(images/rank_icon.png) no-repeat -25px 0; width: 58px; height: 58px; float: left;}
+.header .inner .userBox dt img{ width: 50px; height: 50px; border: none; margin: 2px 0 0 4px;}
+.header .inner .userBox dd{ margin-left: 70px;}
+.header .inner .userBox dd.name{ color: #3e3e3e; padding: 3px 0 0; font-size: 14px; font-weight: bold;}
+.header .inner .userBox dd.tol{ color: #000;}
+.header .inner .userBox h4{ background: url(images/huojiantitle.png) no-repeat center center; width: 350px; height: 50px; }
+.main{ width: 960px; margin: 0 auto; background-color: #fff; border-radius: 0 0 10px 10px; margin-bottom: 50px; padding: 0 0 40px; clear: both;}
+.main .rankInfo{ background-color: #e4e4e4; border-bottom: 1px solid #d7d7d7; padding: 10px 0;}
+.main .rankInfo ul{ margin: 0 78px;}
+.main .rankInfo li{ padding: 3px 10px;color: #535353;}
+.main .rankTagBox { padding: 40px 50px 0;}
+.main .rankTagBox h4{ background:  url(images/rank_icon.png) no-repeat 0 -266px; width:108px; height: 34px; font-size: 14px; text-align: center; line-height: 34px; color:#fff; margin-bottom: 8px;}
+.main .rankTagBox ul{background-color: #ececec; border-radius: 10px; padding: 20px 38px;;}
+.main .rankTagBox ul li{ padding: 2px 0; line-height: 20px; color: #828282;}
+.main .rankTagBox ul li .number{ background-color: #6cbf35; border-radius: 8px; font: bold 12px/1.125 arial; color: #fff; padding: 1px 4px; display: block; float: left; margin-top: 5px;}
+.main .rankTagBox ul li p{ margin-left: 30px; *margin-top: -19px;}
+/*rankFrom*/
+.header .rankFrom{ color: #333; font: 16px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; clear: both; padding: 0 0 0 50px;}
+.header .rankFrom .int{ background: url(images/rank_icon.png) no-repeat 0 -84px; width: 108px; height: 34px; display: inline-block; vertical-align: middle; text-align: center; }
+.header .rankFrom .info{ color: #e13a31;}
+.header .rankFrom input{ border: none; background: none; outline: none;  width:86px; padding:8px 0;font: 16px/1.125 arial;}
+.header .rankFrom ul{ width: 370px; float: left;}
+.header .rankFrom li{ padding: 7px 0;}
+.header .rankFrom .submitBtn{ float: left; background: url(images/graybtn.png) no-repeat 0 0; width: 108px; cursor: default; overflow: hidden; padding-top: 91px; color: #6f6f6f; font: 12px/1.125 arial; text-align: center;}
+/*rankTable*/
+.rankTable{ margin: 0 50px;}
+.rankTable table{ border-collapse: collapse; background-color: #fff; border-radius: 10px; border: 1px solid #d7d7d7; overflow: hidden; width: 100%;}
+.rankTable table tr td,.rankTable table tr th{ border: 1px solid #d7d7d7; padding: 10px 0; text-align: center; }
+.rankTable table thead td,.rankTable table thead th{ background-color: #5eac14; font-weight: bold; color: #fff; border: none; padding: 12px 0;}
+.rankTable table tbody th{ font-weight: normal;}
+.rankTable table tbody td a{ color: #5c84e6; text-decoration: underline; color: #4d76d9;}
+.rankTable table tbody tr.even td, .rankTable table tbody tr.even th{ background-color: #ececec;}
+.btnBox{ background: url(images/rank_btn.png) repeat-x; padding: 0 15px; height: 22px; line-height: 22px; font-size: 12px; border: 1px solid #b4b4b4; display: inline-block; border-radius: 10px; color: #666 !important; text-decoration: none  !important;}
+/*ranklistBox*/
+.ranklistBox{ background-color: #fff; overflow: hidden; margin: 0 0 30px 30px; border-radius: 0 10px 10px; padding: 20px;}
+.menuSwitch{ overflow: hidden; padding: 0 30px;}
+.menuSwitch li{ float: left; cursor: pointer; background: url(images/switchBtnBack.jpg) repeat-x; height: 41px; font: bold 14px/41px arial; color: #444; border-radius: 6px 6px 0 0; text-align: center;  width: 200px; margin-right: 14px;}
+.menuSwitch li.active{ background: #fff;}
+/*listBox*/
+.listBox { float: left; width: 48%; margin-right: 15px; }
+.listBox li { padding: 10px 0; clear: both; height: 100%; overflow: hidden; border-bottom: 1px solid #c3d5e7; margin-bottom: 10px;}
+.listBox li.title { font: 20px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #000; padding: 10px 30px;}
+.listBox dt { background: url(images/talent_14.png) no-repeat center 0; float: left; width: 50px; height: 60px; overflow: hidden; text-indent: -1000px; }
+.listBox .rank_1 dt { background-image: url(images/talent_10.png); }
+.listBox .rank_2 dt { background-image: url(images/talent_11.png); }
+.listBox .rank_3 dt { background-image: url(images/talent_12.png); }
+.listBox .rank_4 dt { background-image: url(images/talent_13.png); }
+.listBox .rank_5 dt { background-image: url(images/talent_14.png); }
+.listBox dd { margin-left: 55px; }
+.listBox dd .picture, .listBox dd .picture img{ width: 50px; height: 50px;}
+.listBox dd .picture{ float: left; padding: 3px; border: 1px solid #ddd; }
+.listBox dd .content{ margin-left: 70px;}
+.listBox dd p { font: 12px/1.125 arial; margin-bottom: 10px; }
+.listBox .school span { width: 170px; display: inline-block; vertical-align: top; }
+.listBox .statis .word, .listBox .statis .exact { }
+.listBox .statis .exact { display: inline-block; padding: 0 0 0 15px; }

@@ -1,0 +1,25 @@
+.cultureBox{border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;background:#fff}
+.cultureTitle{padding:10px 25px;font-size:18px;font-weight:700;color:#4e5656;background:#f9fcfe;border-bottom:1px solid #dae6ee}
+.cultureCard{padding:30px 20px}
+.cultureCard .culConTitle{font-size:16px;font-weight:700;color:#7d8694;position:relative;padding-left:18px}
+.cultureCard .culConTitle:before{content:"";position:absolute;top:50%;left:0;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);width:10px;height:10px;-moz-border-radius:50%;border-radius:50%;background:#7d8694}
+.level{padding:10px 0 10px;overflow:hidden}
+.level li{float:left;height:40px;padding:0 20px;margin-right:20px;line-height:40px;font-size:16px;text-align:center;color:#595757;border:1px solid #595757;-moz-border-radius:100px;border-radius:100px;cursor:pointer;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px}
+.level li.active{color:#189cfb;font-weight:700;border:1px solid #189cfb}
+.tabBox{border:1px solid #dae6ee;-moz-border-radius:1px;border-radius:1px}
+.tabBox li{background:#fff;overflow:hidden;border-bottom:1px solid rgba(218,230,238,.3)}
+.tabBox li span{padding:20px 0;width:33%;float:left;font-size:14px;color:#595757;text-align:left}
+.tabBox li span:nth-child(2){text-align:center}
+.tabBox li span:last-child{text-align:right}
+.tabBox.tabBox-2 li span{width:50%}
+.tabBox .tHead li{background:#f9fcfe;padding:0 20px}
+.tabBox .tHead li span{position:relative;font-weight:700}
+.tabBox .tBody{padding:0 20px}
+.tabBox .tBody li{position:relative}
+.tabBox .tBody li:last-child{border-bottom:none}
+.tabBox .tBody li .starIcon{display:inline-block}
+.tabBox .tBody li .starIcon i{display:inline-block;width:16px;height:16px}
+.tabBox .tBody li .starIcon i.starYellow{background:url(../images/homework/staryellow.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.tabBox .tBody li .starIcon i.sterGray{background:url(../images/homework/stargray.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.tabBox .tBody li .prev{position:relative;color:#2384ff}
+.tabBox .tBody li .prev u{cursor:pointer}

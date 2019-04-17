@@ -1,0 +1,59 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li { margin: 0; padding: 0; }
+body { color: #4e5656; font: 12px/1.5 Arial,"Microsoft YaHei"; }
+select,input,button { vertical-align: middle; font-size: 100%; }
+ul,ol,li { list-style: none; }
+fieldset,img { border: 0; }
+em { font-style: normal; }
+.clearfix { *zoom: 1; }
+.clearfix:after { content:"."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0; }
+body { background-color: #f4f7fb; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+/*reg-program-box*/
+.reg-program-box{width:798px;height:338px;background: url(../images/content.png) no-repeat 0 0;margin:0 auto;position: relative;}
+.reg-program-box .title{background: url(../images/title.png) no-repeat 0 0;width:159px;height:45px;position: absolute;top:10px;}
+.reg-program-box .title h4{font-size: 24px;color: #ffffff;font-weight: normal;padding:4px 0 0 25px;}
+.reg-program-box .paragraph p{font-size: 18px;line-height: 29px;}
+.reg-program-box .paragraph p span{color:#f1378c;}
+.reg-program-box .paragraph{padding:60px 25px 0 25px;}
+.reg-program-box .paragraph .line2{border-bottom:1px solid #c1bba7;margin-right:185px;}
+.reg-program-box .paragraph .line3{border-bottom:1px solid #c1bba7;margin-right:490px;}
+.reg-program-box .paragraph .line4{border-bottom:1px solid #c1bba7;margin-right:466px;}
+.reg-program-box .paragraph .line5{border-bottom:1px solid #c1bba7;margin-right:250px;}
+.reg-program-box .paragraph .line6{border-bottom:1px solid #c1bba7;margin-left:583px;}
+.reg-program-box .paragraph .line1{border-bottom:1px solid #c1bba7;}
+.reg-program-box .paragraph .con{text-indent: 21px;}
+.reg-program-box .paragraph .sub{text-align: right;}
+.reg-program-box .btn{text-align: center;}
+.reg-program-box .btn .send-btn{background-color: #fa8e1a;border:1px solid #bc320d;display: inline-block;padding:7px 15px;color: #ffffff;font-size: 20px;}
+/*registration-ins-main*/
+.registration-ins-main {width:798px;background-color: #e9edf2;margin:30px auto;padding-bottom:24px;}
+.registration-ins-main .registration-ins-title h1 span{font-size:18px;font-weight: normal;}
+.registration-ins-main .registration-ins-title h1 span a{color:#11aedf;}
+.registration-ins-main .registration-ins-title h1{font-size:24px;padding:10px 0 0 24px;}
+.registration-ins-module{background: url(../images/reg-program-stepBg.png) no-repeat #ffffff;position: relative;zoom:1;margin:15px 24px 0 24px;padding:0 0 22px 0;}
+.registration-ins-module img{margin: 0 auto;display: block;}
+.registration-ins-module .moduleStep{position:absolute;top:6px;left:10px;font-size: 18px;color:#fff;}
+.registration-ins-module .moduleTitle{padding:15px 0 10px 150px;font-size: 14px;color:#373737;}
+.registration-ins-moduleBlue{background-position: 0 0;}
+.registration-ins-moduleRed{background-position: 0 -412px;}
+.registration-ins-modulePink{background-position: 0 -1646px;}
+.module-content{border:1px solid #cccccc;margin:0 22px;padding:26px 0 80px 100px;}
+.module-content .moduleDescription{padding:20px 0 0 0;}
+.module-content .moduleDescription p{font-size: 18px;line-height: 33px;}
+.module-content .moduleDescription .moduleInfo{padding:0 0 10px 0;}
+.module-content .module-QR-code{width:150px;float: left;overflow: hidden;margin:0 68px 0 0;}
+.module-content .module-QR-code .write{font-size: 14px;text-align: center;line-height: 24px;}
+.module-content .module-QR-code .btn .clickDownload{font-size: 20px;color:#ffffff;background-color: #1ab4fa;border:1px solid #0d85bc;display: inline-block;padding:5px 33px;}
+/*reg-program-copy*/
+.reg-program-copy{width:750px;margin:0 auto;}
+.reg-program-copy .title{padding:10px;}
+.reg-program-copy .title h5{font-size:14px;font-weight: normal;line-height: 22px;}
+.reg-program-copy .title h5 span{color:#fa7252;}
+.reg-program-copy .paragraph{border:1px solid #dfdfdf;/*box-shadow:2px 2px 2px #d6d6d6 inset;*/border-radius: 4px;padding:17px;position: relative;background-color: #ffffff;}
+.reg-program-copy .paragraph .par-space-arrow{position: absolute; background: url(../images/arrow.png) no-repeat;width:13px;height:11px;top:-11px;left:25px;}
+.reg-program-copy .paragraph p{font-size:14px;line-height: 24px;}
+.reg-program-copy .paragraph p a{color:#189cfb;}
+.reg-program-copy .btn{text-align: center;margin:20px 0 20px 0;}
+.reg-program-copy .btn .copy-btn{background-color: #189cfb;border:1px solid #0979ca;display: inline-block;color: #ffffff;font-size: 14px;border-radius: 3px;}
+

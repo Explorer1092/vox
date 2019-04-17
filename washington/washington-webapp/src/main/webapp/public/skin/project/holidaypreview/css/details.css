@@ -1,0 +1,35 @@
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+html{font:20px/1.5 "Microsoft YaHei",Arial}
+body,html{width:100%;height:100%;color:#333}
+body,input,option,select{-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+.partThree .banner{width:100%;height:15.5rem;margin-bottom:.5rem;background:url(../images/banner.png?v=748c539812) no-repeat;background-size:100% 100%}
+.partThree .text{display:inline-block;padding:.5rem 1.25rem;font-size:1rem;color:#504c47;line-height:1.8}
+.partThree .text p{text-indent:2rem}
+.partThree .text p i{color:#ff7800}
+.partThree .step{padding:0 1.3rem}
+.partThree .step .title{padding:1rem 0;font-size:1.7rem}
+.partThree .step .title .icon{display:inline-block;width:2.3rem;height:2.3rem;line-height:2.3rem;background:#f35b3d;border-radius:2.3rem;color:#fff;text-align:center}
+.partThree .step .title .small{padding:0 .5rem;font-size:1rem}
+.partThree .step .intro{width:100%;height:8.9rem;margin-bottom:1rem}
+.partThree .step .intro01{background:url(../images/step01.jpg?v=f82fa73321) no-repeat;background-size:100% 100%}
+.partThree .step .intro02{background:url(../images/step02-1.jpg?v=cecca3735b) no-repeat;background-size:100% 100%}
+.partThree .step .intro03{background:url(../images/step02-2.jpg?v=b4f9fd3f63) no-repeat;background-size:100% 100%}
+.partThree .step .intro04{background:url(../images/step03-1.jpg?v=bda0d6a824) no-repeat;background-size:100% 100%}
+.partThree .step .intro05{background:url(../images/step03-2.jpg?v=588044a270) no-repeat;background-size:100% 100%}
+.partThree .btns-group{padding:1rem 1.3rem}
+.partThree .btns-group .btn{display:inline-block;width:45%}
+.partThree .btns-group .btn:first-child{margin-right:8%}
+.partThree .btns-group .btn a{display:block;padding:.7rem 0;border-radius:.5rem;text-align:center;font-size:1.7rem;color:#fff}
+.partThree .btns-group .btn a.btn-blue{background:#16a1f1}
+.partThree .btns-group .btn a.btn-green{background:#0dcc74}
+.partThree .footer{width:100%}
+.partThree .footer .empty{width:100%;height:4.5rem}
+.partThree .footer .footerFixed{position:fixed;left:0;bottom:0;z-index:4;width:100%;height:4.5rem;line-height:4.5rem;background:#f35b3d;text-align:center;font-size:1.7rem}
+.partThree .footer .footerFixed a{display:block;color:#fff}

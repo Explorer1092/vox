@@ -1,0 +1,38 @@
+/*.phonicsBox{padding:0 30px}*/
+.phonicsBox.spacingBottom{margin-bottom:30px}
+.phonicsBox.pictureBottom{height:100%;overflow-y:hidden;padding-bottom:70px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative}
+.phonicsBox.pictureBottom .picutreBottomCard{height:100%;overflow-y:auto}
+.phonicsBox.pictureBottom .homework_page_list{position:absolute;bottom:0;left:50%;-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);width:100%}
+.phonicsBox .phonicsTitleCard{padding:50px 0 44px;text-align:center}
+.phonicsBox .phonicsTitleCard div{display:inline-block;width:232px;height:80px;-moz-border-radius:10px;border-radius:10px;background:#f4f4f4;cursor:pointer}
+.phonicsBox .phonicsTitleCard div i{display:inline-block;width:50px;height:50px;vertical-align:middle}
+.phonicsBox .phonicsTitleCard div span{font-size:18px;line-height:80px;font-weight:700}
+.phonicsBox .phonicsTitleCard div.active{background:#d2ecff}
+.phonicsBox .phonicsTitleCard div.phonicsRecommend{margin-right:20px}
+.phonicsBox .phonicsTitleCard div.phonicsRecommend i{background:url(../images/teachingresource/phonicsRecommend.png?v=c4ffca6a44) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.phonicsBox .phonicsTitleCard div.phonicsWhole i{background:url(../images/teachingresource/phonicsWhole.png?v=52c3d73cf4) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.phonicsBox .phonicsRecommendCard{padding:0 30px}
+.phonicsBox .e-lessonsTitle{padding-top:15px;line-height:20px;font-size:16px;color:#333;font-weight:700}
+.phonicsBox .e-lessonsList{border:1px solid #dae6ee;margin-top:15px;line-height:20px}
+.phonicsBox .e-lessonsList .el-title{padding:10px;border-bottom:1px solid #dae6ee;font-size:16px;color:#4e5656}
+.phonicsBox .e-lessonsList .el-name{padding:10px;font-size:14px;color:#4e5656}
+.phonicsBox .e-lessonsList .el-name p{line-height:22px}
+.phonicsBox .e-lessonsList .el-list ul{overflow:hidden;padding:14px 10px}
+.phonicsBox .e-lessonsList .el-list li{position:relative;cursor:pointer;float:left;margin:0 6px 8px 0;width:172px;height:52px;border:1px solid #dae6ee;-moz-border-radius:2px;border-radius:2px;font-size:14px}
+.phonicsBox .e-lessonsList .el-list li .lessons-text{padding:0 25px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer}
+.phonicsBox .e-lessonsList .el-list li .lessons-text .e-icons{display:inline-block;vertical-align:middle;width:40px;height:40px;margin:6px}
+.phonicsBox .phonicsWholeCard{padding:0 30px}
+.phonicsBox .phonicsWholeCard .levelChoice{padding:20px;background:#f4f4f4;overflow:hidden}
+.phonicsBox .phonicsWholeCard .levelChoice .levelCon{line-height:28px;margin-right:20px;float:left}
+.phonicsBox .phonicsWholeCard .levelChoice li{float:left;cursor:pointer;margin-right:13px;width:75px;height:28px;line-height:20px;padding:4px 12px;-webkit-box-pack:center;-webkit-box-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;background:#fff;border:1px solid #e0e0e0;-moz-border-radius:14px;border-radius:14px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.phonicsBox .phonicsWholeCard .levelChoice li.active{background:#189cfb;border:1px solid #189cfb;color:#fff}
+.phonicsBox .homework_page_list{padding:20px 0;text-align:center}
+.phonicsBox .homework_page_list a{display:inline-block;margin:0 18px;font-size:14px;color:#333;cursor:pointer}
+.phonicsBox .homework_page_list a.this{color:#189cfb}
+.phonicsBox .homework_page_list a.disable,.phonicsBox .homework_page_list a.enable{width:60px;height:28px;line-height:28px;-moz-border-radius:3px;border-radius:3px;margin:0}
+.phonicsBox .homework_page_list a.disable{border:1px solid rgba(0,0,0,.1);color:#ccc}
+.phonicsBox .homework_page_list a.enable{border:1px solid #189cfb;color:#189cfb}
+.containerBox .containerCard .tipsCard2{text-align:center;margin-top:100px}
+.containerBox .containerCard .tipsCard2 .tipsPic{display:inline-block;width:200px;height:200px}
+.containerBox .containerCard .tipsCard2 .tipsPic.noResources{background:url(../images/teachingresource/noResources.png?v=73511aa1eb) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard2 .tipsCon{font-size:16px;color:#999;text-align:center;margin-top:20px}

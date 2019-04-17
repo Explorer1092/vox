@@ -1,0 +1,82 @@
+html, body { width:100%; height:auto; _height:100%; }
+body, button, input, select, textarea { font:12px/1.125 Arial, Helvetica, sans-serif; }
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { padding:0; margin:0; }
+input, button, select { vertical-align:middle; }
+table { border-collapse:collapse; }
+li { list-style: none outside; }
+fieldset, img { vertical-align:middle; border: 0 none; }
+address, caption, cite, code, dfn, em, i, s, th, var { font-style: normal; font-weight: normal; }
+s { vertical-align:middle; font:0px/0px arial; }
+.clear { clear:both; font:0pt/0 Arial; height:0px; visibility:hidden; }
+.air_link { position:absolute; display:block; overflow:hidden; background:url(../images/air_line.png?1.1.0); }
+.middle, .middle_c { display: inline-block; vertical-align: middle; }
+.middle { visibility:hidden; height: 100%; font:0pt/0 Arial; width:0px; }
+a { color:#15c; text-decoration:none; }
+a:hover { color:#f50; text-decoration: underline; }
+/*overall wrap*/
+.public_body, .public_bodyI { background:url(../images/back_all.jpg?1.1.0) repeat-x 0 -1156px; width:100%; height:100%; z-index:-10000; position: absolute; left:0; }
+.public_bodyI { left:680px; width:300px; z-index:-9999; }
+.public_wrap { position:relative; width:960px; height:100%; margin:0 auto; }
+.public_wrap .float_left, .public_wrap .float_right { width:91px; height:578px; position:absolute; top:100px; }
+.public_wrap .float_left { background:url(../images/back_all.jpg?1.1.0) no-repeat 0 0; left:-91px; }
+.public_wrap .float_right { background:url(../images/back_all.jpg?1.1.0) no-repeat 0 -578px; right:-91px; }
+/*overall frame*/
+.public_main_t .m_top, .public_main_t .m_bot, .public_main_t .m_top b, .public_main_t .m_bot b { background-image:url(../images/public_wrap.png?1.1.0); }
+.public_main, .public_main_t { background:url(../images/public_wrap_h.png?1.1.0) repeat-y; width:960px; overflow:hidden; }
+.public_main { background-position:-15px 0; background-color:#fff; clear:both; }
+.public_main_t { background-position:945px 0; }
+.public_main_t .m_top, .public_main_t .m_bot, .public_main_t .m_top b, .public_main_t .m_bot b { background-repeat:repeat-x }
+.public_main_t .m_top b { display:block; width:15px; height:48px; }
+.public_main_t .m_top { background-position:0 -133px; background-color:#fff; height:48px; width:960px; clear:both; }
+.public_main_t .m_top b.left { background-position:0 -85px; float:left; }
+.public_main_t .m_top b.right { background-position:0 -37px; float:right; }
+.public_main_t .m_bot b { display:block; width:15px; height:15px; }
+.public_main_t .m_bot { background-position:0 8px; background-color:#fff; height:15px; width:960px; clear:both; }
+.public_main_t .m_bot b.left { background-position:0 -22px; float:left; }
+.public_main_t .m_bot b.right { background-position:0 -7px; float:right; }
+/*overall footer*/
+.footer { clear:both; text-align:center; padding:10px 0 20px; color:#8E5105; }
+.footer a { color:#8E5105; text-decoration:none; }
+.footer a:hover { text-decoration:underline; }
+.footer .navs { padding:6px 0; }
+.footer .navs span { padding:0 10px; display:inline-block; }
+.footer .navs span b { font-size:16px; }
+.footer .navs span.f_tel { margin-left:20px; }
+.footer .copyright { color:#B37E39; clear:both; }
+/*overall null login header*/
+.head_menu, .head_menu .head_ct { background:url(../images/public_nav_back.png?1.1.0) no-repeat 0 0; height:37px; }
+.head_menu .head_ct { background-position: 0 -38px; font-weight:normal; float:right; margin-right:15px; padding-left:60px; font-size:12px; }
+.head_menu a { color:#555; text-decoration:none; padding:7px 10px; display:inline-block; background:url(../images/public_nav_back.png?1.1.0) no-repeat -658px -58px; }
+.head_menu a:hover { color:#f60; text-decoration:underline; }
+.head_menu a.voice_i { background-position: -862px -52px; padding-left:35px; font-family: Arial, Helvetica, sans-serif; }
+.head_logo { background:url(../images/logo.png?1.1.0) no-repeat 0 0; width:160px; height:80px; float:left; margin-top:-35px; position:relative; }
+.head_logo a { display:block; height: 80px; width: 160px; }
+.head_school_logo { width:130px; height:60px; float:left; margin:-15px 0 0; }
+.head_nolog { height:80px; }
+.head_nolog .head_logo { margin:-35px 0 0; }
+/*overall login header*/
+.head_havelog { height:100px; }
+.head_havelog .head_logo { margin:-25px 0 0; }
+.head_havelog .head_login, .head_havelog .info_class { float:right; margin-top:10px; color:#999; }
+.head_havelog .head_login a { color:#666; }
+.head_havelog .head_login p { line-height:34px; }
+.head_havelog .head_login p a { font:normal normal bold 12px/1.125 Arial; }
+.head_havelog .head_login a:hover { color:#f50; }
+.head_havelog .head_login input { font-size:12px; vertical-align:middle; }
+.head_havelog .head_login input.ninp { width:160px; padding:6px; height:15px; border:solid 1px; border-color:#bbb #ddd #ddd #bbb; }
+.head_havelog .head_login input.ninp:hover, .head_havelog .head_login input.ninp:active, .head_havelog .head_login input.ninp:focus { background:#ffb; border-color:#4b9dd5 #bcdcf2 #bcdcf2 #4b9dd5; }
+.head_havelog .info_class { margin-left:10px; }
+.head_havelog .index_height { height:34px; }
+.head_havelog .head_login .login_reg { background-image:url(../images/index_image.png?1.2.0); background-repeat:no-repeat; width:83px; height:33px; display:inline-block; vertical-align:middle; overflow:hidden; margin:0 2px; }
+.head_havelog .head_login .h_login { background-position:-143px -173px; }
+.head_havelog .head_login .h_login input { width:83px; height:32px; border:none; background:none; cursor:pointer; }
+.head_havelog .head_login .h_reg { background-position:-233px -173px; }
+.head_havelog .head_login .h_password { background-position:-322px -173px; width:106px; }
+/*inside page header*/
+.innle_main, .innle_main_t, .innle_main_b { background:url(../images/innle_wrap.png?1.1.0); }
+.innle_main { background-position:-960px 0; width:960px; }
+.innle_main_t { background-position:0 -15px; height:45px; clear:both; }
+.innle_main_b { background-position:0 0; height:15px; clear:both; }
+.innle_main_l { float:left; padding:0 0 0 6px; width:720px; overflow:hidden; }
+.innle_main_r { float:right; padding:0 6px 0 0; width:224px; }
+.platform { position:absolute; top:5px; left:120px; display:block; font:bold 18px/20px "微软雅黑", "Microsoft YaHei", Arial; color:#f60; z-index:1500; width:80px; }

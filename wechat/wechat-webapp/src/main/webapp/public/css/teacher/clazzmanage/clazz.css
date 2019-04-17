@@ -1,0 +1,139 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+body{background:#eff2f6}
+.cBtn{display:block;width:6.5rem;padding:.4rem 0;border-radius:1rem;font-size:.7rem;line-height:.7rem;text-align:center;color:#fff}
+.cBtn-green{background:#5bb85d;border:.05rem solid #2c8f2e}
+.cBtn-yellow{background:#efad4d;border:.05rem solid #c77900}
+.cBtn-blue{background:#189cfb;border:.05rem solid #0979ca}
+.cBtn-disabled{background-color:#ccc;border-color:#b3b3b3}
+.select-icon{display:inline-block;vertical-align:middle;width:.6rem;height:.6rem;background:url(../../../images/teacher/clazz/select-icon01.png?v=c4798dea8f) no-repeat;background-size:100% 100%}
+.active .select-icon{background:url(../../../images/teacher/clazz/select-icon02.png?v=f58606694c) no-repeat;background-size:100% 100%}
+.cHeader{padding:.75rem .875rem}
+.cHeader ul{overflow:hidden}
+.cHeader li{float:left;width:50%}
+.cHeader li .cBtn{float:right;width:90%}
+.cHeader li:first-child .cBtn{float:left}
+.cFooter{width:100%;height:4rem}
+.footerInner{position:fixed;bottom:0;left:0;width:100%;padding:.75rem 0;background:#fff;border-top:.025rem solid #d3d8df}
+.footerInner .btnBox .btn{display:block;width:90%;margin:0 auto;padding:.675rem 0;background:#3c9dfc;border-radius:.15rem;border:.05rem solid #0979ca;text-align:center;line-height:.8rem;font-size:.8rem;color:#fff}
+.footerInner .btnBox .btn-grey{background:#e1f0fc;border-color:#abc1d3;color:#2180c1}
+.footerInner .btnBox .btn-disabled{background:#d1d1d1;border:.05rem solid #bcbcbc}
+.footerInner .btnBox-2 .btn{display:inline-block;width:40%;margin:0 0 0 6%}
+.cTitle{position:relative;padding:.375rem .75rem;background:#eff2f6;border-bottom:.025rem solid #d3d8df;font-size:.7rem;color:#4e5656}
+.pad30{padding:.75rem}
+.countOperation{position:absolute;top:.5rem;right:.75rem}
+.countOperation .operation{cursor:pointer;vertical-align:middle;display:inline-block;width:1.4rem;height:1.4rem;background:#269ef8;border-radius:.15rem}
+.countOperation .disabled{cursor:default;background:#b2b2b2}
+.countOperation .icon{display:inline-block;width:1.4rem;height:1.4rem;border-radius:.15rem}
+.countOperation .icon-reduce{background:url(../../../images/teacher/clazz/o-reduce-icon.png?v=5b126e8358) no-repeat;background-size:100% 100%}
+.countOperation .icon-add{background:url(../../../images/teacher/clazz/o-add-icon.png?v=8eabc92ff7) no-repeat;background-size:100% 100%}
+.countOperation .countText{vertical-align:middle;display:inline-block;width:2.45rem;height:1.35rem;line-height:1.4rem;background:#fff;border-radius:.1rem;border:.025rem solid #dfdfdf;text-align:center}
+.cList{border-top:.025rem solid #d3d8df}
+.cList li{position:relative;cursor:pointer;height:2.25rem;background:#fff;border-bottom:.025rem solid #d3d8df;line-height:2.25rem;font-size:.7rem;color:#4e5656}
+.cList li .list-cell{padding:0 .875rem;display:block;color:#4e5656}
+.cList li .grade{display:inline-block;vertical-align:middle;margin-top:-.1rem;width:70%;padding-right:4%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cList li .count{display:inline-block;width:22%;font-size:.6rem;color:#afb5b7}
+.cList li .stu-name{display:inline-block;vertical-align:middle;width:5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cList li .tea-name{display:inline-block;vertical-align:middle;padding:0 .5rem;max-width:12.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cList li .auth-icon{vertical-align:middle;display:inline-block;width:.9rem;height:.9rem;background:url(../../../images/teacher/clazz/auth-icon.png?v=1bde9462f4) no-repeat;background-size:100% 100%}
+.cList li .span-r{display:block;position:absolute;right:.75rem;top:.6rem}
+.cList li .cBtn{top:.3rem;width:3.65rem;padding:.3rem 0;border-radius:.15rem}
+.cList li .addState{line-height:.9rem;color:#a9a9a9}
+.cList li .label-name{display:inline-block;width:4rem}
+.cList li .pwd-ipt{display:inline-block;border:0;background:0 0;outline-style:none;width:70%;font-size:.7rem;color:#4e5656}
+.cList li .pwd-ipt :-moz-placeholder{color:#a9a9a9}
+.cList li .pwd-ipt ::-webkit-input-placeholder{color:#a9a9a9}
+.cList li:after{position:absolute;top:.75rem;right:.875rem;display:block;content:"";width:.5rem;height:.7rem;background:url(../../../images/teacher/clazz/arrow-right.png?v=ae1a7c279f) no-repeat;background-size:100% 100%}
+.selectGrade{overflow:hidden;background:#fff;max-height:12.5rem;overflow-y:auto;margin-bottom:.375rem;border-bottom:.025rem solid #d3d8df;color:#4e5656}
+.selectGrade .labelBox{overflow:hidden;padding:.5rem 0}
+.selectGrade .grade-left{float:left;width:4.5rem;border-right:.025rem solid #d3d8df}
+.selectGrade .grade-left li{cursor:pointer;width:4.5rem;padding:.5rem 0;background:#fff;border-bottom:.025rem solid #d3d8df;text-align:center;font-size:.7rem}
+.selectGrade .grade-left li.active{position:relative;z-index:2;margin-left:.05rem;color:#3c9dfc}
+.selectGrade .grade-left li div{display:table-cell;width:4.5rem;height:1.3rem;text-align:center;vertical-align:middle}
+.selectGrade .grade-left li .count{width:4.5rem;line-height:.55rem;font-size:.45rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.selectGrade .grade-right{margin-left:4.925rem}
+.selectGrade .grade-right ul{padding:.625rem 0 0 0;overflow:hidden}
+.selectGrade .grade-right ul li{float:left;cursor:pointer;margin:0 .5rem .625rem .5rem;width:5rem;padding:.35rem 0;background:#fff;border:.05rem solid #c7d9e8;border-radius:.15rem;font-size:.75rem;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.selectGrade .grade-right ul li.active{background:#eef4f9;border-color:#3c9dfc;color:#3c9dfc}
+.selectGrade .label{float:left;margin:0 .5rem;line-height:1rem;font-size:.55rem}
+.addTeacher{margin-top:-.025rem}
+.addTeacher .cList li{padding:0 .875rem}
+.addTeacher .cList li:after{display:none}
+.addTeacher .cList li.active{color:#3c9dfc}
+.addTeacher .link-tips{display:block;background:#fff;border-bottom:.025rem solid #d3d8df;padding:.5rem 0;line-height:1rem;text-align:center;font-size:.55rem;color:#4e5656}
+.addTeacher .link-tips .blue{font-size:.7rem;color:#3c9dfc}
+.addTeacher .link-tips .icons{vertical-align:middle;display:inline-block;margin:0 .5rem;width:2.05rem;height:1.85rem;background:url(../../../images/teacher/clazz/tips-icon.png?v=e848e75a2b) no-repeat;background-size:100% 100%}
+.addTeacher .link-tips .text{display:inline-block;vertical-align:middle;text-align:left}
+.cTab{padding:1.25rem .875rem;overflow:hidden}
+.cTab .tabList{float:left;width:25%;text-align:center}
+.cTab .tabList .tabIcon01{background:url(../../../images/teacher/clazz/class-tab01.png?v=046e90cdc8) no-repeat}
+.cTab .tabList .tabIcon02{background:url(../../../images/teacher/clazz/class-tab02.png?v=a2c8fa3db9) no-repeat}
+.cTab .tabList .tabIcon03{background:url(../../../images/teacher/clazz/class-tab03.png?v=787e61eba3) no-repeat}
+.cTab .tabList .tabIcon04{background:url(../../../images/teacher/clazz/class-tab04.png?v=553e40ec4e) no-repeat}
+.cTab .tabList .tabIcon{display:inline-block;width:2.25rem;height:2.25rem;background-size:100% 100%}
+.cTab .tabList .text{padding:.35rem 0 0 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.7rem;color:#4e5656}
+.subjectList{margin-bottom:.5rem;padding:.75rem;background:#fff;border-bottom:.025rem solid #d3d8df}
+.subjectList h2{margin-bottom:.75rem;font-weight:400;font-size:.75rem;color:#4e5656}
+.subjectList .labelBox .label{position:relative;cursor:pointer;display:inline-block;margin:0 .5rem 0 0;width:4.5rem;padding:.3rem 0;overflow:hidden;border-radius:.15rem;border:.05rem solid #b8b8b8;text-align:center;font-size:.7rem;color:#464a49}
+.subjectList .labelBox .label.active{border-color:#3c9dfc;color:#3c9dfc}
+.subjectList .labelBox .label.active:after{position:absolute;top:0;right:0;display:block;content:"";width:1rem;height:1rem;background:url(../../../images/teacher/clazz/select-top-icon.png?v=94af0c93a9) no-repeat;background-size:100% 100%}
+.classCreate-dialog{padding:0 .875rem;background:#fff}
+.classCreate-dialog .scrollBox{max-height:15rem;overflow-y:auto}
+.classCreate-dialog .text{padding:.5rem 0 .25rem 0;font-size:.7rem;line-height:1.05rem;text-align:center;color:#646464}
+.classCreate-dialog .info{margin:.375rem 0;padding:.375rem;background:#fff;border:.025rem solid #a0a0a0}
+.classCreate-dialog .info .name{text-align:left;font-size:.6rem;line-height:.9rem;color:#535454}
+.classCreate-dialog .info.active{background:#edf5fa;border-color:#1a9dfb}
+.classCreate-dialog .footerInner{position:static;border-top:0}

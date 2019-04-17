@@ -1,0 +1,54 @@
+.t-receiveReward-pop .r-title{font-size: 14px;color:#333;line-height: 40px;padding:0;}
+.t-receiveReward-pop .r-column .r-left{width:190px;float: left;}
+.t-receiveReward-pop .r-column .r-left .r-step,.t-receiveReward-pop .r-column .r-right .r-step{font-size: 14px;text-align: center;line-height: 40px;}
+.t-receiveReward-pop .r-column .r-left .r-info{font-size: 14px;line-height: 20px;text-align: center;}
+.t-receiveReward-pop .r-column .r-arrow{background: url(beanList-arrow.png) no-repeat;width: 77px;height:33px;float: left;margin:100px 15px 0 0;}
+.t-receiveReward-pop .r-column{ padding: 20px 30px;overflow: hidden;}
+.t-receiveReward-pop .r-column .r-right{float: left;}
+
+.beanList-bg{background-color: #fcc858;}
+.t-beanList-box{width:100%;position: relative;}
+.t-beanList-box .bgs{ position: absolute;width: 100%;min-width: 1000px;top: 0;left: 0; background-color: #FDCC65;}
+.t-beanList-box .bgs .bg01{ width:100%;height:269px;background: url(beanList-bg01.jpg) center top no-repeat;}
+.t-beanList-box .bgs .bg02{ width:100%;height:377px;background: url(beanList-bg02.jpg) center top no-repeat;}
+.t-beanList-box .bgs .bg03{ width:100%;height:1106px;background: url(beanList-bg03.jpg) center top no-repeat;margin:-3px 0 0 0;}
+.t-beanList-box .bgs .bg04{ width:100%;height:695px;background: url(beanList-bg04.jpg) center top no-repeat;}
+.t-beanList-box .container{width:1000px;margin:0 auto;position: relative;}
+.t-beanList-box .container .rl-top .rl-logo{background: url(logo.png) no-repeat;width: 150px;height:37px;float:left;margin:10px 0 0 0;}
+.t-beanList-box .container .rl-top .return-home{color:#fff;font-size: 14px;float: right;line-height: 55px;}
+.t-beanList-box .container .rl-column{color:#48000a;text-align: center;padding:330px 0 0 0;}
+.t-beanList-box .container .rl-column .rl-title{font-size:24px;line-height: 70px;padding:10px 0 0 0;}
+.t-beanList-box .container .rl-column .rl-tips{font-size:20px;line-height: 60px;}
+.t-beanList-box .container .rl-column .rl-btn{font-size:20px;line-height: 60px;}
+.t-beanList-box .container .rl-column .rl-btn .btn-dole{display:inline-block;background: url(beanList-btn.png) no-repeat 0 0;width:245px;height:63px;color: #48000a;}
+.t-beanList-box .container .rl-column .rl-btn .btn-dole:active{background-position: 0 -73px;}
+.t-beanList-box .container .rl-column .rl-btn .dole-disabled,.t-beanList-box .container .rl-column .rl-btn .dole-disabled:active{cursor: default;background-position: 0 -146px;color: #6b6b6b;}
+.t-beanList-box .container .rl-table {padding:265px 19px 190px 19px;}
+.t-beanList-box .container .rl-table table{border-collapse: collapse;width: 100%;}
+.t-beanList-box .container .rl-table table thead .rl-top td{font-size:24px;color: #48000a;line-height: 95px;text-align: center;background-color: #f4e29c;}
+.t-beanList-box .container .rl-table table thead .rl-mid td{background-color: #eec584;text-align: center;color: #48000a;font-size:20px;line-height: 45px;}
+.t-beanList-box .container .rl-table table thead .rl-bot .mid-sub{font-size:18px;line-height: 37px;}
+.t-beanList-box .container .rl-table table thead .rl-bot .mid-sub .rl-icon,.t-beanList-box .container .rl-table table tbody tr .badge{background: url(beanList-badge.png) no-repeat -14px -187px;width:25px;height:22px;display: inline-block;vertical-align: middle;}
+.t-beanList-box .container .rl-table table thead .rl-bot .mid-sub .icon-1{background-position: -14px -218px;}
+.t-beanList-box .container .rl-table table thead .rl-bot td:nth-child(1){text-align: center;}
+.t-beanList-box .container .rl-table table thead .rl-bot{background-color: #eec584;color: #48000a;}
+.t-beanList-box .container .rl-table table tr td{width:330px;}
+.t-beanList-box .container .rl-table table tbody .rl-strip{background-color: #f5e4a5;}
+.t-beanList-box .container .rl-table table tbody tr td{font-size:20px;line-height: 60px;text-align: center;color: #48000a;}
+.t-beanList-box .container .rl-table table tbody{}
+.t-beanList-box .container .rl-table table thead, tbody tr{}
+.t-beanList-box .container .rl-table table tbody tr .name,.t-beanList-box .container .rl-table table thead .rl-mid .name{width: 200px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;text-align: center;float: left; padding-left: 57px;}
+.t-beanList-box .container .rl-table table tbody tr .badge{width:48px;height:48px;background-position: 0 0;}
+.t-beanList-box .container .rl-table table tbody tr .badge-1{background-position: 0 -60px;}
+.t-beanList-box .container .rl-table table tbody tr .badge-2{background-position: 0 -120px;}
+.t-beanList-box .container .rl-mode{color: #48000a;padding:0 0 0 130px;}
+.t-beanList-box .container .rl-mode .rl-info{font-size:20px;line-height: 55px;}
+.t-beanList-box .container .rl-mode ul li{font-size:16px;line-height: 150%;}
+.t-beanList-box .container .rl-mode ul li b{padding:0 0 0 60px;}
+.t-beanList-box .container .rl-mode .list-1{}
+.t-beanList-box .container .rl-mode .beans-icon{width:171px;height:117px;background: url(beanList-icon.png) no-repeat;display: inline-block;float: right;margin:80px 130px 0 0;}
+
+.special-footer{clear: both;position: relative;top:210px;background-color: #FDCC65;border:none;}
+.special-footer .m-inner{background-color: #FDCC65;}
+.special-footer .copyright,.special-footer .m-foot-link a{color:#fff;}
+.special-footer .link{display:none;}

@@ -1,0 +1,241 @@
+{
+  "common": {
+    "name1": "Nicole",
+    "name2": "Naomi",
+    "name3": "Kate",
+    "name4": "Charlize",
+    "cookie_encryption_key": "RSA:FEmEsYK1sP9Kur9SZNUfBD+e0M5oFOuw2FEuJQnOjD057vO6IS9w8AaO3mn5p8CWC2+aF8jrJQWC+icl58zgEXIJUlKVjEdNBoJGqzK9shfQFzNhoc/DsLGpLHfcagi8IeqPaZQJ+9UjNmufj+/8yePhRilUqGQ9BtwSMGP8ckE=",
+    "default_des_key": "RSA:XoWJTZ+tc4SrxJS/kuUz3IsmKZYwuOuWceJVK9IKT6hVTwG3toS5pueoKmEXn0Ua36+oP5Xls8BSScadIM6HTKWVgeAW7pGSje09tysOHBw8JIW515wFErvbOc1lpF7nKUx5WvS+9Gkr2WiT3o2lkdnyhL7/E+HqpYAwE2dBcoQ=",
+    "default_aes_key": "0987654321098765",
+    "jinshan_app_key": "AKLTqxKc-Po4RMuwKWjIfX9KUA",
+    "jinshan_secret_key": "OK/f6lOETY+ZIa/9YvVMT0hKO8cZVWlRN6bDFFHPrOazL+AI2dgpX7M6+NUjBz5Urw=="
+  },
+  "memcached": {
+    "_default": {
+      "opTimeout": 3000,
+      "transcoder": "hessian2",
+      "flushable": true
+    },
+    "ALPS": {
+      "servers": "127.0.0.1:11211",
+      "connectionPoolSize": 1
+    }
+  },
+  "couchbase": {
+    "_environment": {
+      "queryTimeout": 3000,
+      "kvTimeout": 1500
+    },
+    "_default": {
+      "bucketPassword": "",
+      "openBucketTimeoutInSeconds": 30,
+      "encoder": "hessian2"
+    },
+    "ALPS": {
+      "servers": "192.168.100.67 192.168.100.73",
+      "bucketName": "atomic",
+      "flushable": true
+    }
+  },
+  "ehcache": {
+    "_default": {
+      "persistence": false,
+      "flushable": true
+    },
+    "ALPS": {
+      "heapSize": 1,
+      "heapUnit": "ENTRIES",
+      "offheapSize": 32,
+      "offheapUnit": "MB"
+    }
+  },
+  "hazelcast": {
+    "ALPS": {
+      "addresses": "127.0.0.1",
+      "connectionTimeout": 10000
+    }
+  },
+  "redis": {
+    "ALPS": {
+      "addresses": "127.0.0.1:6379",
+      "server": "SINGLE",
+      "flushable": true
+    }
+  },
+  "aerospike": {
+    "ALPS": {
+      "addresses": "10.200.2.251:3000"
+    },
+    "cache": {
+      "ALPS": {
+        "client": "ALPS",
+        "namespace": "test",
+        "set": "alps--ut--cache"
+      }
+    }
+  },
+  "hbase": {
+    "ALPS": {
+      "zookeeperQuorum": "10.200.2.126,10.200.2.125,10.200.2.124"
+    }
+  },
+  "atomicLock": {
+    "cacheSystem": "JVM",
+    "cacheName": "ALPS"
+  },
+  "dataSource": {
+    "_default": {
+      "driverClass": "com.mysql.jdbc.Driver",
+      "autoCommit": true,
+      "connectionTimeout": 30000,
+      "idleTimeout": 600000,
+      "maxLifetime": 1800000,
+      "minimumIdle": 1,
+      "maximumPoolSize": 10,
+      "registerMbeans": true
+    },
+    "ALPS": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave2": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    }
+  },
+  "mongoDb": {
+    "_default": {
+      "connectionsPerHost": 60,
+      "threadsAllowedToBlockForConnectionMultiplier": 5,
+      "connectTimeout": 10000,
+      "maxWaitTime": 120000,
+      "socketKeepAlive": false,
+      "socketTimeout": 0,
+      "readPreference": "primary",
+      "writeConcern": "ACKNOWLEDGED",
+      "readConcern": "DEFAULT"
+    },
+    "ALPS": {
+      "replicaSet": "127.0.0.1:27017"
+    }
+  },
+  "mongodb-shard":{
+    "_default":{
+      "connectTimeout": 20000,
+      "maxWaitTime": 120000,
+      "readPreference": "primary",
+      "writeConcern": "ACKNOWLEDGED",
+      "readConcern": "DEFAULT"
+    },
+    "mongo-alps":{
+      "aliases": "mongo,ALPS",
+      "shards":{
+        "0":"127.0.0.1:27017"
+      }
+    }
+  },
+  "influxdb": {
+    "ALPS": {
+      "url": "http://127.0.0.1:8086",
+      "username": "admin",
+      "password": ""
+    }
+  },
+  "derby": {
+    "ALPS": {
+      "aliases": "ALPS.UT.1,ALPS.UT.2,ALPS.UT.3",
+      "databaseName": "test"
+    }
+  },
+  "rabbitmq": {
+    "ALPS": {
+      "aliases": "ALPS.UT.1,ALPS.UT.2,ALPS.UT.3",
+      "addresses": "127.0.0.1:5672",
+      "username": "guest",
+      "password": "guest",
+      "virtualHost": "/"
+    }
+  },
+  "activemq": {
+    "ALPS": {
+      "aliases": "ALPS.UT.1,ALPS.UT.2,ALPS.UT.3",
+      "addresses": "127.0.0.1:61616"
+    }
+  },
+  "kafka": {
+    "ALPS": {
+      "aliases": "ALPS.UT.1,ALPS.UT.2,ALPS.UT.3",
+      "addresses": "127.0.0.1:9092",
+      "producer": {
+        "asyncSend": false,
+        "batchSize": 16384,
+        "acks": "all",
+        "requestTimeout": 30000,
+        "lingerMs": 0
+      },
+      "consumer": {
+      }
+    }
+  },
+  "aliyunoss": {
+    "ALPS": {
+      "accessId": "nK3Ku8AsvmRWZvmS",
+      "accessKey": "CPrtMbZHtTrlXtlebukWp9SoFM60e1",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17test-portrait",
+      "host": "oss-cn-beijing.aliyuncs.com",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    }
+  },
+  "gridfs": {
+    "ALPS": {
+      "client": "ALPS",
+      "database": "test",
+      "bucket": "alps"
+    }
+  },
+  "dubbo": {
+    "registry": {
+      "address": "zookeeper://192.168.100.10:2181"
+    },
+    "client": {
+      "threadPool": "cached",
+      "maximumPoolSize": 32,
+      "dispatcher": "threadpool"
+    },
+    "server": {
+      "threadPool": "cached",
+      "maximumPoolSize": 64,
+      "serialization": "hessian2",
+      "dispatcher": "threadpool"
+    }
+  },
+  "hydra": {
+    "agent": {
+      "host": "0.0.0.0",
+      "port": 1889
+    },
+    "registry": {
+      "addresses": "192.168.100.10"
+    }
+  },
+  "email": {
+    "smtpHost": "127.0.0.1",
+    "smtpAuth": true,
+    "smtpUsername": "username",
+    "smtpPassword": "RSA:UHAOXpFFjxpRZOmggpgqu8J2IA4KLU1b6S10ttH7Xmu6OE40cfRZaeiM0cElMWoMp7mgIg/xurStR6CwkHE3Ah5jFHOkjFee5ALnaboU4dctghd99UgpTmMMn+LpxCNIg1i9TqK4OGNmE66jStuCMPqwqvmWi5exdy+YrHqs/bg="
+  },
+  "argus": {
+    "address": "http://argus.test.17zuoye.net"
+  }
+}

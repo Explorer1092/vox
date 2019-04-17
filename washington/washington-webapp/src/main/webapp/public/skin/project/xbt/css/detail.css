@@ -1,0 +1,66 @@
+/**
+ * by yunzhao.li on 20170105
+ */
+blockquote,body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+body,input,option,select{color:#333;line-height:1.5;font-family:"Heiti SC",Rotobo,Arial;-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:focus::-webkit-input-placeholder{color:transparent}
+input::-webkit-input-placeholder{color:#999}
+input:focus::-moz-placeholder{color:transparent}
+input::-moz-placeholder{color:#999}
+input:focus:-ms-input-placeholder{color:transparent}
+input:-ms-input-placeholder{color:#999}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+html{font-size:20px}
+.do_hide,[v-cloak]{display:none!important}
+.do_opacity{opacity:0!important}
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+body{background-color:#f6f6f6}
+.bg-fff,.huiben-book .round,.study-wrap{background-color:#fff}
+.height-100{height:100%}
+.huiben-book .book{position:relative;margin:4.75rem auto 0;width:7.8rem;height:9rem}
+.huiben-book .book img{display:block;width:100%;height:100%;border-radius:.5rem;background-color:#ccc}
+.huiben-book .book .tag{position:absolute;top:.5rem;left:-.25rem;padding:0 .3rem;color:#fff;font-size:.6rem;line-height:1rem;background-color:#f78b71}
+.huiben-book .book .tag:after{position:absolute;top:0;right:-.25rem;content:"";width:.3rem;height:1rem;background:url(../images/icon-01.png) no-repeat;background-size:100% 100%}
+.huiben-book .book .title{position:absolute;bottom:0;left:0;right:0;display:-webkit-box;white-space:normal;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;-webkit-box-align:center;-webkit-box-pack:center;margin:0;padding:0 .25rem;height:2.5rem;color:#fff;font-size:.7rem;line-height:1.25rem;border-radius:0 0 .5rem .5rem;background-color:rgba(0,0,0,.7)}
+.huiben-book .title{display:-webkit-box;padding:.95rem 1rem 0;height:3.6rem;-webkit-box-pack:center;font-size:1.2rem;line-height:1.8rem;white-space:normal;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2}
+.huiben-book .people{padding:.9rem 2.15rem 0;text-align:center;color:#888;font-size:.8rem;line-height:1.1rem}
+.huiben-book .round{position:absolute;top:-.25rem;right:-.25rem;width:1rem;height:1rem;border-radius:100%;box-shadow:0 0 0 .05rem #ee4b08 inset}
+.huiben-list{padding:.5rem 1rem}
+.huiben-list li{float:left;vertical-align:top;padding:.5rem 0;width:50%;text-align:center}
+.huiben-list .huiben-book{display:block;margin:0 auto;width: 100%; max-width:6.5rem}
+.huiben-list .huiben-book .book{margin:0;width:100%;height:7.5rem}
+.huiben-list .huiben-book .people{padding:.125rem 0;text-align:left;color:#bababa;font-size:.6rem;line-height:.85rem}
+.study-wrap{margin:.5rem;border-radius:.25rem;box-shadow:0 .05rem .2rem 0 rgba(0,0,0,.1)}
+.study-wrap .title{margin:0 1.5rem;padding:.5rem 0;text-align:center;font-size:.8rem;line-height:1.3rem;border-bottom:1px #e5e5e5 solid}
+.study-face{text-align:center;overflow:hidden}
+.study-face .face{margin:.75rem auto 0;width:3.55rem;height:3.55rem}
+.study-face .face img{display:block;width:100%;height:100%;border-radius:100%;border:1px #e1e1e1 solid}
+.study-face .name{padding:.5rem 0;font-size:.9rem;line-height:1.4rem}
+.study-face .name~.text{padding:0 0 .5rem}
+.study-face .text{padding:.5rem 0;font-size:.8rem;line-height:1.3rem}

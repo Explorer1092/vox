@@ -1,0 +1,119 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+@media only screen and (min-width:1024px){html{font-size:21px!important}}
+@media only screen and (min-width:1100px){html{font-size:22px!important}}
+@media only screen and (min-width:1280px){html{font-size:26px!important}}
+@media only screen and (min-width:1366px){html{font-size:28px!important}}
+@media only screen and (min-width:1440px){html{font-size:30px!important}}
+@media only screen and (min-width:1680px){html{font-size:35px!important}}
+@media only screen and (min-width:1920px){html{font-size:40px!important}}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:rgba(0,0,0,0)}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body,html{height:100%;background-color:#eff2f6;font:14px/100% "微软雅黑","Microsoft YaHei"}
+.mainBox{position:relative;width:100%;min-width:1024px;height:100%;margin:0 auto;overflow-y:hidden;overflow-x:auto;clear:both}
+.shadowLayer{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.6);-moz-border-radius:2px;border-radius:2px;z-index:2}
+.choiceSubjectBox{position:absolute;bottom:0;left:0;background:#fff;width:167px;z-index:3}
+.choiceSubjectBox .teach-jqiclose{font-size:28px;font-weight:400;color:#000;border-left:1px solid #dae6ee;padding:0;height:46px;line-height:40px;width:46px;text-align:center;position:absolute;top:0;right:0;overflow:hidden;z-index:auto;cursor:pointer;float:right;margin:0 0 -35px}
+.choiceSubjectBox .teach-jqititle{color:#383a4b;padding:13px 0 13px 20px;font-size:18px;border-color:#dae6ee;line-height:20px;border-bottom:solid 1px #eee}
+.choiceSubjectBox .subjectInfo{padding:13px 0 13px 14px;font-size:13px;color:#333;border-top:1px solid #dae6ee;border-bottom:1px solid #dae6ee;-moz-border-radius:1px;border-radius:1px;cursor:pointer}
+.choiceSubjectBox .subjectInfo.active{position:relative;color:#189cfb}
+.choiceSubjectBox .subjectInfo.active:after{content:"";position:absolute;width:18px;height:18px;right:18px;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);background:url(../images/teachingresource/selectArrow.png?v=c4baed7466) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.choiceSubjectBox .subjectInfo:first-child{border-top:none;border-bottom:none}
+.choiceSubjectBox .subjectInfo:last-child{border-top:none}
+.choiceSubjectBox .bottom{background:#eee;-moz-border-radius:1px;border-radius:1px;height:51px;padding:20px 0 20px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:13px;color:#189cfb}
+.choiceSubjectBox .bottom i{display:inline-block;width:8px;height:8px;background:url(../images/teachingresource/subSelect.png?v=6681ae17c4) no-repeat center}
+.gradeBox{position:absolute;bottom:0;left:100px;background:#fff;z-index:3}
+.gradeBox .teach-jqiclose{font-size:28px;font-weight:400;color:#000;border-left:1px solid #dae6ee;padding:0;height:46px;line-height:40px;width:46px;text-align:center;position:absolute;top:0;right:0;overflow:hidden;z-index:auto;cursor:pointer;float:right;margin:0 0 -35px}
+.gradeBox .teach-jqititle{color:#383a4b;padding:13px 0 13px 20px;font-size:18px;font-weight:bold;border-color:#dae6ee;line-height:20px;border-bottom:solid 1px #eee}
+.gradeBox .teach-jqimessage{margin:40px 20px 20px;line-height:20px;color:#444}
+.gradeBox .h-homework-dialog{width:650px;font-size:14px;color:#4e5656;background:#fff;margin:-30px 0 -10px}
+.gradeBox p{line-height:22px}
+.gradeBox .h-homework-dialog04 .inner p .iname{width:56px;text-align:right;display:inline-block}
+.gradeBox .w-radio-current .w-radio{background:url(../images/teachingresource/choiceSelected.png?v=b5b71a3365) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.gradeBox .w-radio{display:inline-block;background:url(../images/teachingresource/choice.png?v=564f74c3f6) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;width:12px;height:12px;overflow:hidden;cursor:pointer;vertical-align:middle}
+.gradeBox .w-icon-md{display:inline-block;vertical-align:middle}
+.gradeBox .h-homework-dialog04 .list-box .list-hd{overflow:hidden;*zoom:1;border-bottom:1px solid #dae6ee;padding:10px 0;margin-bottom:10px}
+.gradeBox .h-homework-dialog04 .list-box .list-hd .hdl{float:left;font-size:16px;font-weight:700}
+.gradeBox .h-homework-dialog04 .list-box .list-hd p{margin:0;height:25px;line-height:25px}
+.gradeBox .h-homework-dialog04 .list-box .list-mn{zoom:1;height:160px;overflow:auto;margin-bottom:10px}
+.gradeBox .h-homework-dialog04 .list-box .list-mn a{display:inline-block;width:175px;color:#4e5656;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;padding:4px 9px;margin:0 13px 8px 0;-moz-border-radius:3px;border-radius:3px;background:#e1f0fc;border:1px solid #abc1d3;line-height:14px}
+.gradeBox .h-homework-dialog04 .list-box .list-mn a.active{background:#476785;color:#fff}
+.gradeBox .bottom{background:#eee;-moz-border-radius:1px;border-radius:1px;height:51px;padding:20px 0 20px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:13px;color:#189cfb}
+.gradeBox .bottom i{display:inline-block;width:8px;height:8px;background:url(../images/teachingresource/subSelect.png?v=6681ae17c4) no-repeat center}
+.leftBox{position:relative;float:left;width:8rem;height:100%;min-width:200px;padding:220px 0 51px;background:#fff;-webkit-box-shadow:1px 0 .1rem 0 rgba(158,158,162,.3);-moz-box-shadow:1px 0 .1rem 0 rgba(158,158,162,.3);box-shadow:1px 0 .1rem 0 rgba(158,158,162,.3);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-y:hidden}
+.leftBox .leftTopBox{position:absolute;top:0;width:100%}
+.leftBox .logoBox{position:relative;height:160px;background:url(../images/teachingresource/logoBg.png?v=332b085945) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.leftBox .logoBox:after{content:"";position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:82px;height:124px;background:url(../images/teachingresource/logoIcon.png?v=510f54f34e) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.leftBox .allMenu{position:relative;padding:15px 0 15px 42px;margin:10px 0 4px;font-size:14px;color:#707070}
+.leftBox .allMenu:after{content:"";position:absolute;width:16px;height:16px;left:25px;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);background:url(../images/teachingresource/bookIcon.png?v=688d95a829) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.leftBox .leftMenu{height:100%;overflow-y:auto}
+.leftBox .leftMenu li{border-top:1px solid #e7eef3;font-size:16px;font-family:regular}
+.leftBox .leftMenu li:last-child{border-bottom:1px solid #e7eef3}
+.leftBox .leftMenu li .oneLevel{display:block;padding:15px 32px 15px 20px;color:#333;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.leftBox .leftMenu li .pullMenu{background-color:#1a5c9f;display:none}
+.leftBox .leftMenu li .pullMenu a{display:block;border-top:1px solid #fff;padding:17px 32px 17px 54px;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.leftBox .leftMenu li .pullMenu .current{position:relative;color:#189cfb!important;background:#fff!important}
+.leftBox .leftMenu li .pullMenu .current:after{content:"";position:absolute;width:12px;height:12px;right:20px;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);background:url(../images/teachingresource/pointArrow.png?v=d805aee021) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.leftBox .leftMenu li.pullDown .oneLevel{position:relative}
+.leftBox .leftMenu li.pullDown .oneLevel:after{content:"";position:absolute;width:12px;height:12px;right:20px;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);background:url(../images/teachingresource/retractArrow2.png?v=01c853bd48) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.leftBox .leftMenu li.active .pullMenu{display:block;background:rgba(242,242,242,.54);color:#333}
+.leftBox .leftMenu li.active .oneLevel{color:#fff;background:#189cfb}
+.leftBox .leftMenu li.active .oneLevel:after{background:url(../images/teachingresource/openArrow-new.png?v=6a080f643b) no-repeat center}
+.leftBox .choiceBox{position:absolute;width:100%;height:51px;line-height:51px;background:#eee;bottom:0}
+.leftBox .choiceBox div{width:50%;height:100%;font-size:13px;color:#189cfb;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-align:center;cursor:pointer}
+.leftBox .choiceBox div span{display:inline-block;max-width:80%;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle}
+.leftBox .choiceBox div i{display:inline-block;width:8px;height:8px;background:url(../images/teachingresource/subjectOpen.png?v=15a7cd359a) no-repeat center;vertical-align:middle}
+.leftBox .choiceBox .choiceSubject{float:left}
+.leftBox .choiceBox .choiceGrade{float:right}
+.containerBox{width:-moz-calc(100% - 8.5rem);width:calc(100% - 8.5rem);min-width:780px;max-width:-moz-calc(100% - 220px);max-width:calc(100% - 220px);height:100%;float:right;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;background:#fff}
+.containerBox .containerCard{position:relative;float:right;width:100%;height:100%;padding-bottom:51px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-color:#eff2f6}
+.containerBox .containerCard .containerCon{background:#fff;height:100%;border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;overflow-y:auto}
+.containerBox .containerCard .containerBottom{position:absolute;bottom:0;right:0;width:100%;height:51px;background:#eee;padding:0 90px 0 30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.containerBox .containerCard .containerBottom p{line-height:51px;font-size:14px;color:#333}
+.containerBox .containerCard .containerBottom label{margin-right:20px}
+.containerBox .containerCard .containerBottom .w-radio-current .w-radio{background:url(../images/teachingresource/choiceSelected.png?v=b5b71a3365) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .containerBottom .w-radio{display:inline-block;background:url(../images/teachingresource/choice.png?v=564f74c3f6) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;width:12px;height:12px;overflow:hidden;cursor:pointer;vertical-align:middle}
+.containerBox .containerCard .containerBottom .w-icon-md{display:inline-block;vertical-align:middle}
+.containerBox .containerCard .clear,.containerBox .containerCard .dropDown,.containerBox .containerCard .previewWord{cursor:pointer;position:absolute;bottom:5px;-moz-border-radius:6px;border-radius:6px;height:40px;width:122px;font-size:14px;text-align:center;line-height:40px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.containerBox .containerCard .dropDown,.containerBox .containerCard .previewWord{right:100px;background:#189cfb;border:1px solid #0979ca;color:#fff}
+.containerBox .containerCard .clear{right:242px;background:#fff;border:1px solid #d9d9d9;color:#333}
+.containerBox .containerCard .closePage{cursor:pointer;position:absolute;right:0;bottom:0;background:#ccc;height:100%;width:90px;font-size:14px;color:#000;text-align:center;line-height:50px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.containerBox .containerCard .tipsCard{text-align:center;position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}
+.containerBox .containerCard .tipsCard .tipsPic{display:inline-block;width:200px;height:200px}
+.containerBox .containerCard .tipsCard .tipsPic.noNetWork{background:url(../images/teachingresource/noNetWork.png?v=aafce14247) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard .tipsPic.isLoading{position:relative;background:url(../images/teachingresource/isLoading.png?v=68542b2553) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard .tipsPic.isLoading:after{content:"";position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:80px;height:80px;background:url(../images/teachingresource/isLoading.gif?v=77419faef1) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard .tipsPic.noResources{background:url(../images/teachingresource/noResources.png?v=73511aa1eb) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard .tipsCon{font-size:16px;color:#999;text-align:center;margin-top:20px}
+.containerBox .containerCard .tipsCard .refreshBtn{display:inline-block;width:160px;height:38px;line-height:38px;background:#189cfb;-moz-border-radius:6px;border-radius:6px;color:#fff;margin-top:20px;text-align:center;cursor:pointer}
+@media screen and (min-width:1920px){.mainBox .leftBox .logoBox{background:url(../images/teachingresource/logoBg-full.png?v=474eef19ae) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}}

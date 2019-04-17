@@ -1,0 +1,72 @@
+.main{ background:#fcecb2 url(../image/favorable-bg.png?1.0.1) repeat-x 0 0; padding:0 0 50px 0; overflow: hidden; *zoom: 1;}
+.head, .head .inner{ background: url(../image/favorable-01.png?1.0.3) no-repeat center 0; height: 278px;}
+.head .inner .logo, .head .inner .logo a{ width: 125px; height: 50px; display: block;}
+.content{ position: relative; overflow: hidden; *zoom: 1;}
+.content .favorite-window{ background: url(../image/favorable-bar-title.png) no-repeat center 0; width: 1120px; height: 172px; position: absolute; top: 0; z-index: 2; left: 50%; margin-left: -560px;}
+.content .favorite-list{ background: url(../image/favorable-02.png) no-repeat center 0; margin-top: 100px;  padding:154px 0 0 0;}
+.content .favorite-title{ padding: 0 130px; position: absolute; top: 108px; height: 160px; z-index:1; }
+.content .favorite-title p{ float: left;  width: 188px; height: 136px; margin: 0 28px; *display: inline; text-align: center;}
+.content .favorite-title .active, .content .favorite-title .hover{ margin-top: 26px;}
+.content .favorite-title .active a{  background-position: 0 -162px;}
+.content .favorite-title p a{ color: #fff; font-size: 24px;display: inline-block; line-height: 138px;}
+.icon-f{ background: url(../image/favorable-nav.png) no-repeat 0 0; display: inline-block; width: 188px; height: 130px;}
+.icon-1{ background-position: 0 0;}
+/*favorite-list-mun*/
+.favorite-list-mun{ overflow: hidden; *zoom: 1;}
+.favorite-list-mun .fl-box{ float: left; width: 596px;}
+.favorite-list-mun .fl-box dl{ padding: 15px 0 0 60px; height: 174px;}
+.favorite-list-mun .fl-box dl dt{ float: left; width: 225px; height: 170px; border: 1px solid #daad56; border-radius: 8px; overflow: hidden; *zoom: 1;}
+.favorite-list-mun .fl-box dl dt img{ width: 225px; height: 135px;}
+.favorite-list-mun .fl-box dl dt strong{ font-size: 20px;}
+.favorite-list-mun .fl-box dl dt div.tips{ display: block; background-color: #e46f19; font-size: 16px; padding: 5px 0; text-align: center; color: #fff; height: 26px; line-height: 26px;}
+.favorite-list-mun .fl-box dl dd{ margin-left: 290px;}
+.favorite-list-mun .fl-box dl dd p{ font-size: 20px; color: #402c1b; line-height: 30px; padding-bottom: 20px;}
+.favorite-list-mun .fl-box dl dd p .big{ font-size: 26px; color: #e97504;}
+.favorite-list-mun{ background: url(../image/favorable-line.png) repeat-y 0 130px; padding-bottom: 12px;}
+.favorite-result-main-yellow{ background-color: #fff7e5; margin: 0 28px; overflow: hidden; *zoom: 1;}
+.favorite-list-mun .fr-box{ width: 328px; float: right; margin-right: 35px; *display: inline;}
+.favorite-list-mun .fr-box .f-table table thead td{ font-size: 18px; color: #402c1b;}
+.favorite-list-mun .fr-box .f-table table td{ text-align: center; padding: 5px 0; color: #6a3502;}
+.favorite-list-mun .fr-box .f-table table td.txt-left{ text-align: left;}
+.favorite-list-mun .fr-box .f-table table td span{ width: 60px; padding: 3px 10px; display: inline-block; border-radius: 20px; background-color: #ffd33c;}
+.favorite-list-mun .fr-box .f-table table td span.leng-10{ width: 63px;}
+.favorite-list-mun .fr-box .f-table table td span.leng-50{ width: 80px;}
+.favorite-list-mun .fr-box .f-table table td span.leng-100{ width: 110px;}
+.favorite-list-mun .fr-box .f-table table td span.leng-500{ width: 140px; }
+.favorite-list-mun .fr-box .f-table table td span.leng-1000{ width: 170px;}
+.favorite-list-mun .fr-box .f-table table td span.leng-green{ background-color: #73be07;}
+/*favorite-list-main*/
+.favorite-list-main .bar-foot{ background: url(../image/favorable-03.png) no-repeat center 0; height: 36px; width: 1000px;}
+.favorite-list-main-01 .favorite-list-mun .fl-box dl dt span{ background-color: #91cb09;}
+.favorite-list-main-02 .favorite-list-mun .fl-box dl dt span{ background-color: #3ecfd8;}
+.favorite-list-main-03 .favorite-list-mun .fl-box dl dt span{ background-color: #9f67f2;}
+.favorite-list-font{ padding: 35px 0 18px 98px;}
+.favorite-list-font ul li{ padding: 8px 0; color: #582e01; font-size: 16px;}
+.favorite-list-font ul li a{ color: #0998e2;}
+.favorite-list-main .l-table{ width: 820px; margin: 0 auto 30px; border-radius: 20px; overflow: hidden;  border: 1px solid #f8953d; }
+.favorite-list-main .l-table table{ width: 100%; border-collapse: collapse;}
+.favorite-list-main .l-table table thead tr td{ background-color: #f8953d; color: #fff;}
+.favorite-list-main .l-table table tr td{ color: #000; padding: 10px 5px; background-color: #fff; text-align: center;}
+.favorite-list-main .l-table table tr td.yellow{ background-color: #f8f3e2!important; border:  solid #e2c8b1; border-width: 0 1px 1px 0;}
+.favorite-list-main .l-table table tr.odd td{ background-color: #f7f7f7;}
+/*btn-buy*/
+.btn-buy{ background: url(../image/favorable-btn.png) no-repeat 0 0; width: 170px; height: 56px; display: inline-block;}
+.btn-buy:hover{ background-position: 0 -78px;}
+.btn-buy-orange{ background: url(../image/favorable-btn-orange.png) no-repeat 0 0;}
+.foot-bottom-bg{ background: url(../image/favorable-foot.png) no-repeat center 0; width: 100%; height: 47px; position: relative; z-index: 3; top: -31px;}
+.main .inner{ width: 1000px!important; margin: 0 auto;}
+
+/*study-beanAlert-box*/
+.study-beanAlert-box{ background: url(../image/alert-bean.png) no-repeat 0 0; width: 616px; height: 314px; position: relative; overflow: hidden; *zoom: 1;}
+.study-beanAlert-box h5{ color: #fff; font: 26px/50px "微软雅黑"; text-align: center; height: 50px; margin-bottom: 30px;}
+.study-beanAlert-box .text-box{ color: #793a01; text-align: center; font-size: 16px;}
+.study-beanAlert-box .text-box p{ padding: 10px 0; }
+.study-beanAlert-box .text-box p.big-font{ font-size: 26px;}
+.study-beanAlert-box .text-box p.big-font strong{ font-size: 36px; color: #df5400; font-family: arial, sans-serif;}
+.study-beanAlert-box .hp-close{ width: 42px; height: 42px; position: absolute; right: 11px; top: 9px;}
+.study-beanAlert-box .hp-close a{  width: 42px; height: 42px; display: block;}
+.study-beanAlert-box .text-box .share-btn{ padding-top: 16px; height: 42px;}
+.orange-share-btn{ background: url(../image/orange-bean-btn.png) repeat-x 0 0; text-decoration: none; width: 162px; height: 41px; line-height: 42px; color: #fff; font-size: 22px; display: inline-block; border-radius: 20px;}
+.orange-share-btn:hover{background-position: 0 -49px; color: #fff;}
+.orange-share-btn:active{background-position: 0 -95px;}
+.w-clear{clear: both; font: 0px/0 "";  height: 1px;  overflow: hidden;  width: 100%;}

@@ -1,0 +1,194 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body,html{width:100%;height:100%;background-color:#ebe9e4}
+*{margin:0;padding:0}
+.report_wrap{width:100%;background:#f5f6f7;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-y:auto;position:relative;overflow-x: hidden}
+.text01{font-size:24px;font-weight:600;color:rgba(0,0,0,.85)}
+.text02{font-size:20px;font-weight:600;color:rgba(0,0,0,.85);line-height:24px}
+.text03{font-size:16px;font-weight:600;color:#383838}
+.text04{font-size:14px;color:#595959}
+.text05{font-size:14px;color:rgba(0,0,0,.65)}
+.active_text01{font-size:16px;color:#fff}
+.active_menu{font-size:16px;color:#2384ff;background:rgba(35,132,255,.1)}
+.r_header{width: 100%;height:80px; border-bottom:20px solid #f5f6f7;line-height:80px;background:#fff;position:fixed;z-index:10;top:0;overflow:hidden}
+.r_header_outer{min-width: 1000px;height: 80px;}
+.r_header_inner{width: 1000px;height: 80px;margin: 0 auto;position: relative;}
+.r_header .r_header_inner .logo,.title{float:left;position:absolute;top:0;bottom:0;margin:auto}
+.r_header .logo{width:118px;height:30px;background:url(../../../../public/resource/adminteacherreport/images/logo.png?v=01723f7490) no-repeat;-moz-background-size:contain;-o-background-size:contain;background-size:contain;left:0}
+.r_header .title{left:0;right:0;width:742px;text-align:center}
+.r_header .title p{line-height: 40px}
+.r_header .title .title_city_name{line-height: 40px;letter-spacing: 2px;}
+.r_header .title .title_grade_report{line-height: 40px;letter-spacing: 5px;font-size: 20px;color: #000;}
+.r_header .download,.reminder_btn{position: relative;top:50%;margin-top: -20px;cursor: pointer;}
+.r_header .download{float: right; padding:0 26px;height:40px;line-height:40px;background:#2384ff;-moz-border-radius:8px;border-radius:8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor: pointer;}
+.r_header .reminder_btn{float:right;margin-left: 10px; padding:0 26px;height:40px;line-height:40px;background:#2384ff;-moz-border-radius:8px;border-radius:8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.r_header .download .icon_download{display:inline-block;vertical-align:middle;margin-right:8px;width:16px;height:18px;background:url(../../../../public/resource/adminteacherreport/images/download.png?v=8d639aa58a) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.r_main{width:1000px;margin:0 auto 30px;padding-top: 100px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-x: hidden}
+.r_sidebar_a{position:fixed;top: 100px;z-index:10;width:290px;padding-top:30px;background:#fdfdfd;border-right:1px solid #e8e8e8;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-y:auto}
+.r_sidebar_a .menu_box{cursor:pointer}
+.r_sidebar_a .title{width:100%;padding:0 40px;height:34px;line-height:34px;margin-bottom:12px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;white-space:nowrap;position:relative}
+.r_sidebar_a .arrow{position:absolute;z-index:999;right:40px;display:inline-block;width:34px;height:34px;background-image:url(../../../../public/resource/adminteacherreport/images/arrow_up.png?v=b1000ee218);background-repeat:no-repeat;background-position:50% 50%;-moz-background-size:13px 8px;-o-background-size:13px 8px;background-size:13px 8px}
+.r_sidebar_a .down_arrow{background-image:url(../../../../public/resource/adminteacherreport/images/arrow_down.png?v=258ee85c9d)}
+.r_sidebar_a .drop_menu{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.r_sidebar_a .drop_menu li{height:34px;padding:0 30px 0 60px;line-height:34px;margin-bottom:12px}
+.right_box{width: 1000px;padding-left: 290px;}
+.content_box{position: relative; width:710px;background:#fff;overflow-y:auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.box_hidden{position: absolute;z-index: -1}
+.download_box{padding:60px 50px 70px 50px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position: relative}
+.big_title{margin-bottom:20px;text-align:left}
+.small_title{margin-bottom:20px;}
+.del_txt{margin-bottom:20px}
+.del_txt:last-child{padding-bottom:50px}
+.table_name{text-align:center;margin-bottom:20px}
+.table_box{margin-bottom:30px}
+.table_box table{ table-layout: fixed; word-wrap: break-word; word-break: break-all; width:100%;border:1px solid #aaa;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.table_box table td,.table_box table th{height:36px;line-height:36px;vertical-align:middle;text-align:center;}
+.table_box table td{border:1px dotted #f0eef0;}
+.table_box table tbody tr:nth-child(2n+1)>td{background:#fafafa;font-weight:400}
+.table_box table tbody>.table_active{background:#2384ff!important}
+.table_box .table2_02 tbody tr:last-child .td01{border-right: 1px solid #aaa;}
+.table_box th:last-child{padding-right:10px}
+.table_box .td41,.table_box .th41{width:237px;overflow:hidden}
+.table_box .td4_31,.table_box .th4_31{width:310px; padding: 0 20px; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.table_box .td4_31{text-align:left ;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.table_box .th4_32:last-child{padding-right: 0}
+.table_box .active{background:#ff6767}
+.table_box .td03{width:28px;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.table_box .td02{width:50%;overflow:hidden;border-left: 1px solid #aaa;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis;text-align: left;padding: 0 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.table_box .meg_line .td01{width:15%;background:#fff;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.table_box .meg_line{border-top:1px solid #aaa}
+.table_box .th01{width:15%;padding: 0 20px; overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.table_box .th02{width:50%;border-left: 1px solid #aaa;overflow:hidden}
+.table_box .th03{width:28px;overflow:hidden}
+.table_box .t_footer td{border-top:1px solid #aaa}
+.table_box .t_footer .td01{border-right:1px solid #aaa;border-top:1px solid #aaa;}
+.table_box .table4_02{border-right:none;border-left:none}
+.table_box .table4_02 td:first-child,.table_box .table4_02 th:first-child{width:420px;padding-left:10px;overflow:hidden}
+.table_box .table4_02 td,.table_box .table4_02 th{text-align:left;border-bottom:none;background:#fff}
+.table_del{margin-bottom:30px}
+.table_box>.table3>thead>tr>th{height: 50px;font-size: 16px;border:1px solid #aaa}
+.table_box>.table3>tbody>tr>td{border:1px solid #aaa !important;}
+.table_box>.table3>thead>tr>.th30{width: 25px;vertical-align: top}
+.table_box>.table3>thead>tr>.th31{width:33%;font-size: 14px}
+.table_box>.table3>thead>tr>.th33{ vertical-align: top}
+
+
+.table_box>.table4>thead>tr>th{height: 50px;font-size: 16px;border:1px solid #aaa}
+.table_box>.table4>tbody>tr>td{border:1px solid #aaa !important;}
+.table_box>.table4>thead>tr>.th40_1{width:30px;vertical-align: top}
+.table_box>.table4>thead>tr>.th41_2{width:29%;font-size: 14px}
+.table_box>.table4>thead>tr>.th43_3{ vertical-align: top}
+
+
+
+.canvas3_01 .canvas_box{height:460px}
+.canvas3_02 .canvas_box{height:398px}
+.canvas3_03 .canvas_box{height:363px}
+.canvas3_04 .canvas_box{height:398px}
+.canvas4_01 .canvas_box{min-height:398px}
+.canvas4_02 .canvas_box{min-height:398px}
+.canvas_name{text-align:center;margin-bottom:28px}
+.canvas_del{margin-bottom:60px}
+.canvas_box_wrap{width:70%;float: left}
+.canvas_box{width: 100%;border:1px solid #ddd;margin-bottom:18px}
+.canvas_right_table{float: right;width: 150px;text-align: center;}
+.canvas_right_table .canvas_table_main{width: 150px;font-size: 12px;color:#595959;margin-top: 50px}
+.canvas_right_table .canvas_table_main thead th{background-color: #aaa;}
+.canvas_right_table .canvas_table_main tr td,th{line-height: 25px;vertical-align: middle}
+.canvas_right_table .canvas_table_main tr td:first-child{border-right:1px solid #fff}
+.canvas_right_table .canvas_table_main tr th:first-child{border-right:1px solid #fff}
+.canvas_right_table .canvas_table_main tbody tr td{border-top:1px solid #fff}
+.canvas_right_table .canvas_table_main tbody tr:nth-child(2n+1)>td{background:#fafafa;}
+.canvas_right_table .canvas_table_main tbody tr:nth-child(2n)>td{background:#F1F1F1;}
+.catalog_wrap .main_title{padding-top: 50px; color:#383838;text-align:center;font-size:26px;font-weight:700}
+.catalog_wrap .main_title .report_name{padding-top: 20px; color:#383838;text-align:center;font-size:26px;font-weight:700}
+.catalog_wrap .sub_title{color:#595959;font-size:16px;text-align:center;margin-top:30px}
+.catalog_wrap .content{padding:60px 0}
+.catalog_wrap .content .text01{font-size:18px;color:#383838;font-weight:700;text-align:center;margin-bottom:20px}
+.catalog_wrap .content .first_menu_item{width:90%;margin:30px auto 10px;}
+.catalog_wrap .content .first_menu_item .menu_name{display:inline-block;font-size:16px;color:#595959;background:#fff}
+.catalog_wrap .content .first_menu_item .menu_page{font-size:16px;color:#595959;background:#fff}
+.catalog_wrap .content .first_menu_item .second_menu_item{width:97%;margin-top:10px;background:url(../../../../public/resource/adminteacherreport/images/ellipsis.png?v=ec32860139);-moz-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%;background-position:20px -4px}
+.catalog_wrap .fl{float:left}
+.catalog_wrap .fr{float:right}
+.catalog_wrap .clearfix:after{content:"";height:0;width:0;line-height:0;visibility:hidden;clear:both;}
+.catalog_wrap .clearfix{zoom:1}
+.page_wrap{padding: 0; height:1002px;background: url(../../../../public/resource/adminteacherreport/images/back_cover.png?v=7c1e3a6f53) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.page_wrap .page_title{padding-top:150px;font-size:26px;color:#fff;text-align:center}
+.page_wrap .copyright_text{padding:30px 150px 20px 150px;font-size:16px;color:#fff;margin:40px auto;line-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.page_wrap .er_code{display:block;margin:320px auto 0;width:150px;height:150px}
+.page_wrap .copyright_info{color:#fff;font-size:14px;text-align:center;margin-top:100px}
+.beginPageBox{position:relative;width:710px;height:1002px;color:#fff;padding:0px}
+.beginPageBox .coverBg{position:absolute;z-index:0;width:100%;height:100%}
+.beginPageBox .beginNum{position:absolute;right:0;top:33px;font-size:170px;font-weight:700}
+.beginPageBox .beginName{position:absolute;top:35%;width:100%;text-align:center;font-size:22px;overflow: hidden}
+.beginPageBox .beginName .title{margin-bottom:30px;font-size:40px}
+.beginPageBox .botContent{position:absolute;bottom:20px;width:100%;text-align:center}
+.beginPageBox .botContent .date{margin-bottom:20px;font-size:18px;letter-spacing:3px}
+.beginPageBox .botContent .copyRight{font-size:14px}
+.totop-btn{width: 50px;height: 50px;background: url(../../../../public/resource/adminteacherreport/images/totop-icon.png?v=098aefeaea) no-repeat;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;position: fixed;right: 10px;bottom: 212px;cursor: pointer;z-index: 100;}
+.pop_up_wrap{position:fixed;top:0;left:0;z-index:99;width:100%;height:100%;background:rgba(0,0,0,.5)}
+.pop_up_wrap .main_box{margin:120px auto 0;width:600px;height:600px;background:#fff;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 5px #ccc;-moz-box-shadow:0 0 5px #ccc;box-shadow:0 0 5px #ccc}
+.pop_up_wrap .tip_text{font-size:16px;color:#4e92df;padding:20px 40px;line-height:30px}
+.pop_up_wrap .text_box{padding:20px 40px}
+.pop_up_wrap .text_box .text_content{width:100%;min-height:200px;border:2px solid #1b9bfc}
+.pop_up_wrap .btns{padding:20px 60px;color:#fff}
+.pop_up_wrap .btns span{font-size:18px;display:inline-block;padding:10px 18px;-moz-border-radius:5px;border-radius:5px}
+.pop_up_wrap .btns .left_btn{float:left;background:#5ecc43}
+.pop_up_wrap .btns .right_btn{float:right;background:#eab669}
+.blank{display: none}
+.beginName .num_times{float: left}
+.beginNameTitle{font-size: 40px;letter-spacing: 5px}
+.beginNameSmallTitle{ font-size: 30px;letter-spacing: 5px;margin: 20px auto}
+.page_header {width: 100%; font-size: 14px;color: #595959; margin-bottom: 50px;overflow: hidden;position: absolute; top:20px;left:0px; z-index: -5;padding:0px 50px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.page_header .page_header_left{float: left;}
+.page_header .page_header_right{float: right}
+.projectBox{margin-top:50px}
+.projectList{position:relative;margin:0 auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:8px 18px 34px 106px;width:512px;height:122px;background-repeat:no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;font-weight:600}
+.projectList.projectList01{background-image:url(../../../../public/resource/adminteacherreport/images/project_bg01.png?v=af2738d1d8)}
+.projectList.projectList02{background-image:url(../../../../public/resource/adminteacherreport/images/project_bg02.png?v=f538397aa2)}
+.projectList.projectList03{background-image:url(../../../../public/resource/adminteacherreport/images/project_bg03.png?v=c4b90d0110)}
+.projectList.projectList04{background-image:url(../../../../public/resource/adminteacherreport/images/project_bg04.png?v=601a47a5d2)}
+.projectList.diff{padding-top:20px}
+.projectList .projectLabel{position:absolute;left:13px;top:60%;-webkit-transform:translateY(-60%);-moz-transform:translateY(-60%);-ms-transform:translateY(-60%);-o-transform:translateY(-60%);transform:translateY(-60%);width:64px;line-height:22px;font-size:16px;color:#fff;text-align:center}
+.projectList .projectRight{font-size:14px;color:#595959;line-height:24px}
+.projectList .projectRight li{position:relative;padding-left:16px}
+.projectList .projectRight li:before{position:absolute;content:"";left:0;top:50%;margin-top:-4px;width:8px;height:8px;background:#4a5060;-moz-border-radius:4px;border-radius:4px}
+.nameWidth{width: 10%}
+.pop_up_download{position: fixed;top:0;left:0;z-index: 10;width: 100%;height: 100%;background: rgba(00,00,00,0.5)}
+.pop_up_download .header-title{width:100%;height: 50px;margin-bottom:10px;line-height:50px;padding-left:10px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background-color:#1B92FF;color:#fff;font-weight: 600;font-size: 18px}
+.convert-report-box{position: absolute;top:300px;left: 40%; width:320px;height:200px;background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 0 5px;margin:0 auto;-moz-border-radius: 10px;border-radius: 5px}
+.convert-report-box .loading-icon{display:block;width:48px;height:48px;background:url(../../../../public/resource/adminteacherreport/images/loading.gif?v=49cf1be209) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;margin:0 auto 20px}
+.convert-report-box p{font-size:14px;color:#999;line-height:24px;text-align:center}

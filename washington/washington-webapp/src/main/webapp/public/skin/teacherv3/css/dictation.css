@@ -1,0 +1,16 @@
+.wordListBox{padding:20px 10px 10px 20px;overflow:hidden}
+.wordListBox .worldSingle{float:left;padding:5px 10px;margin:0 10px 10px 0;font-size:16px;text-align:left;line-height:24px;-moz-border-radius:3px;border-radius:3px;color:#4e5656;background:rgba(24,156,251,.1);border:1px solid transparent;cursor:pointer}
+.wordListBox .worldSingle.selectedSingle{color:#189cfb;border:1px solid #2384ff}
+.pinyinBox{padding:0 58px 0px}
+@font-face{font-family:english-grid;src:url(../fonts/EnglishLing-Regular.ttf) format("truetype");font-style:normal;font-weight:400}
+.pinyinBox{padding:0 78px 11px}
+.pinyinBox .english-grid{position:relative;margin:28px 0 17px 0;width:100%;height:45px;border:1px solid rgba(80,223,195,.3);border-width:2px 0 2px 0;line-height:45px;font-family:english-grid,TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif;font-size:40px;color:#4b4b4b}
+.pinyinBox .english-grid:before{content:'';position:absolute;left:0;top:33.33%;width:100%;height:0;border:1px solid rgba(80,223,195,.3)}
+.pinyinBox .english-grid:after{content:'';position:absolute;left:0;top:66.67%;width:100%;height:0;border:1px solid rgba(80,223,195,.3)}
+.pinyinBox .english-grid span{position:absolute;top:0;left:50%;-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);white-space:nowrap}
+.choiceBox .choice{text-align:center;font-size:14px;color:#585858;margin-bottom:22px;line-height:18px}
+.choiceBox .choice:last-child{margin-bottom:0}
+.choiceBox .choice i{margin-right:10px;cursor:pointer;display:inline-block;width:18px;height:18px;background:url(../images/choice.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;vertical-align:middle}
+.choiceBox .choice i.choiceSelected{background:url(../images/choiceSelected.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+
+

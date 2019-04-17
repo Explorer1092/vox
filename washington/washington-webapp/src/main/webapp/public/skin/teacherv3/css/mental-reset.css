@@ -1,0 +1,17 @@
+#venus-app .sfont{font-size:12px!important}
+#venus-app .smfont{font-size:14px!important}
+#venus-app .mfont{font-size:16px!important}
+#venus-app .bfont{font-size:18px!important}
+#venus-app .lfont{font-size:20px!important}
+#venus-app .sbfont{font-size:24px!important}
+#venus-app .slfont{font-size:32px!important}
+.t-question #venus-app{background-color:transparent;font-size: 18px;}
+.t-question #venus-app #keybord,.t-question #venus-app .title,.t-question #venus-app .v-ui-progress{display:none!important}
+.t-question #venus-app .v-tpl-main{padding:0!important}
+.t-question #venus-app #scrollwrap{overflow:hidden!important}
+.t-question #venus-app .v-content-text img{max-width:50%!important}
+.t-question #venus-app #img_parent{height:auto!important}
+.t-question #venus-app #img_parent .add-box{display:none!important}
+.t-question #venus-app input.v-fill-in{margin:3px 0 0!important;width:32px!important}
+#venus-app #v-panel-question .v-fill-wrap .v-fill-in{border-bottom:1px solid #595757;border-radius:0;box-shadow:none;height:24px;background:0 0}
+.t-question #venus-app #v-panel-question .description-content{display: none;}

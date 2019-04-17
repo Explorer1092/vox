@@ -1,0 +1,74 @@
+html, body{ width: 100%; font:14px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体";}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+body { background-color: #6257ba; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none;  cursor:pointer; text-decoration:none}
+img{ vertical-align:middle; border:none;}
+/*header*/
+.text-back{ background: url(../images/text-img.png) no-repeat; }
+.title-text-1{ background-position: 0 0; width: 753px; height: 34px; margin: 25px auto;}
+.title-text-2{ background-position: 0 -109px; }
+.title-text-3{ background-position: 0 -148px; }
+.title-text-4{ background-position: 0 -200px; width: 475px; height: 58px;}
+.title-text-5-green, .title-text-5-red, .title-text-5-blue{ background-position: 0 -253px; width: 350px; height: 32px;}
+.title-text-5-red{ background-position: 0 -303px;}
+.title-text-5-blue{ background-position: 0 -352px;}
+.title-text-6{ background-position: 0 -396px;  width: 558px; height: 66px;}
+.title-text-7{ background: url(../images/text-img-date-v1.png) no-repeat; width: 399px; height: 91px; margin: 0 auto;}
+.title-text-8{ background: url(../images/text-img-k-v1.png) no-repeat; width: 665px; height: 65px; margin: 0 auto;}
+.title-text-9{ background: url(../images/text-img-k-v1.png) no-repeat 0 -81px; width: 339px; height: 54px; margin:10px 0 40px;}
+.title-text-10{ background: url(../images/text-img-k-v1.png) no-repeat -360px -109px; width: 264px; height: 25px; margin:30px 0 20px;}
+.main{  background: url(../images/header-back-v1.jpg) no-repeat center 0; width: 100%;}
+.header{  height: 426px; width: 1000px; margin: 0 auto; position: relative;}
+.header .header-text{ position: absolute; background-position: 0 -49px; width: 410px; height: 45px; top: 305px; left: 250px;}
+.container{  width: 1000px; background-color: #cb9d1f; margin: -14px auto 80px; position: relative; padding-bottom: 40px;}
+.container-inner{ margin: 0 40px; background: url(../images/ap-back.png) repeat-y #ffebbb; overflow: hidden; *zoom: 1;  padding: 0 57px 0 75px;}
+/*item-container*/
+.item-container{ clear: both; margin-bottom: 20px;}
+.item-container dt{ background: url(../images/i-1.png) no-repeat 0 center; padding: 20px 90px;}
+.item-container dt h3.text-back{ width: 210px; height: 20px; overflow: hidden; text-indent: -10000px;}
+.item-container dd{ padding: 0 0 0 90px;}
+.item-container dd.item-btn{ padding-top: 54px; }
+.item-container dd.item-btn a{ margin-right: 100px; vertical-align: middle;}
+.item-container dd.item-btn .text{ display: inline-block; vertical-align: middle; font-size: 24px; color: #bd6212;}
+.item-container dd p{ line-height: 35px; font-size: 16px; color: #c37034;}
+.item-inner-block{ display: inline-block; vertical-align: bottom; *display: inline; *zoom:1;}
+.item-inner-avt{ margin-bottom: 10px;}
+/*left-carton*/
+.left-carton{ background: url(../images/ap-proson-v1.png) no-repeat; width: 496px; height: 495px; position: absolute; left: -220px; bottom: -70px;}
+/*answer-container*/
+.answer-container{ background: url(../images/aw-back.png); overflow: hidden; margin: 0 10px; *zoom: 1;}
+.answer-container .answer-container-inner{ width: 720px; margin: 20px auto;}
+.answer-container .answer-container-inner .answer-container-top{ background: url(../images/kuan-back_1.png) no-repeat 0 0; height: 63px;}
+.answer-container .answer-container-inner .answer-container-mid{ background: url(../images/kuan-back_2.png) repeat-y; clear: both;}
+.answer-container .answer-container-inner .answer-container-bot{ background: url(../images/kuan-back_3.png) no-repeat 0 0; height: 63px; }
+.answer-container-mid .answer-check-box{ padding-left: 75px;}
+.answer-container-mid .check-flag-box{}
+.answer-container-mid .check-flag-box dl{ padding-bottom: 22px;}
+.answer-container-mid .check-flag-box dl dt{ float: left; width: 80px;}
+.answer-container-mid .check-flag-box dl dt span.flag{ background: url(../images/i-2.png) no-repeat 0 0; width: 56px; height: 62px; line-height: 45px; color: #70340c; display: block; font-size: 22px; text-indent: 10px;}
+.answer-container-mid .check-flag-box dl dd{ margin-left: 84px; color: #955503;}
+.answer-container-mid .check-flag-box dl dd h3{ font-size: 20px; font-weight: normal; padding: 14px 0;}
+.answer-container-mid .check-flag-box dl dd .option-list p{ font-size: 16px; line-height: 26px; padding: 4px 0; cursor: pointer;}
+.answer-container-mid .check-flag-box dl dd .option-list p span.check, .answer-container-mid .check-flag-box dl dd .option-list p span.check-current{ background: url(../images/i-3.png) no-repeat 0 -35px; width: 21px; height: 23px; margin-right: 8px; display: inline-block; vertical-align: middle;}
+.answer-container-mid .check-flag-box dl dd .option-list p.check-current .check{ background-position: 0 0;}
+.answer-container-mid .answer-result-box{}
+.answer-container-mid .answer-result-box h2{ margin-left: 115px;}
+.answer-container-mid .answer-result-box .Conclusion{ padding: 30px 0 48px 115px;}
+.answer-container-mid .answer-result-box .Conclusion ul li{ color: #955503; font-size: 16px; line-height: 26px; padding: 6px 0;}
+.answer-container-mid .answer-result-box .time-start{ margin-left: 72px;}
+/*s-btn*/
+.s-btn{ background: url(../images/goto-back.png) no-repeat 0 0; width: 233px; height: 78px; display: inline-block;}
+.s-btn-w{ background-image: url(../images/goto-back-v1.png); float: right;}
+.s-btn:hover{ background-position: 0 -94px;}
+.s-btn:active{ background-position: 0 -187px;}
+.s-btn-gray, .s-btn-gray:hover, .s-btn-gray:active{ background: url(../images/goto-back-gray.png) no-repeat 0 0; cursor: default; margin-right: 70px !important;}
+.s-btn-green{ background-position: -277px 0;}
+.s-btn-green:hover{ background-position: -277px -94px;}
+.s-btn-green:active{ background-position: -277px -187px;}
+.s-btn-orange{ background: url(../images/submit-back.png) no-repeat 0 0; width: 257px; height: 87px;}
+.s-btn-orange:hover{ background-position: 0 -123px;}
+.s-btn-orange:active{ background-position: 0 -245px;}

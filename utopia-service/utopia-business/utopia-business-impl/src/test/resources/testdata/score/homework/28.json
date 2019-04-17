@@ -1,0 +1,57 @@
+{
+    "actualScore": 57,
+    "totalScore": 81,
+    "totalTime": 78374,
+    "version": "1.0.0.1",
+    "voiceEngineType": "internal",
+    "voiceScoringMode": "Normal",
+    "param": {
+        "userId": 30046,
+        "studyType": "homework",
+        "gameType": 28,
+        "bookId": 878,
+        "unitId": 879,
+        "lessonId": 8790001,
+        "cid": 34051,
+        "hid": "537c1339e4b07263fa69dc21",
+        "homeworkDetailId": "537c1339e4b07263fa69dc22"
+    },
+    "sentence": [
+        {
+            "sentenceId": "87900010001001",
+            "voiceId": "",
+            "score": 93,
+            "content": "hello"
+        },
+        {
+            "sentenceId": "87900010001002",
+            "voiceId": "",
+            "score": 37,
+            "content": "I"
+        },
+        {
+            "sentenceId": "87900010001003",
+            "voiceId": "",
+            "score": 66,
+            "content": "nice"
+        },
+        {
+            "sentenceId": "87900010001004",
+            "voiceId": "",
+            "score": 43,
+            "content": "meet"
+        },
+        {
+            "sentenceId": "87900010001005",
+            "voiceId": "",
+            "score": 55,
+            "content": "you"
+        },
+        {
+            "sentenceId": "87900010001006",
+            "voiceId": "",
+            "score": 43,
+            "content": "too"
+        }
+    ]
+}

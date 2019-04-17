@@ -1,0 +1,7 @@
+body { font-size: 16px; }
+a { outline: none; }
+input { outline: none; }
+select { outline: none; }
+textarea { outline: none; }
+button { outline: none; }
+table td {padding: 5px;}

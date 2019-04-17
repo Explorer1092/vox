@@ -1,0 +1,94 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+description = 'Utopia Service Business Impl'
+
+dependencies {
+    compile("com.voxlearning.alps:alps-cache-couchbase:${version_alps}")
+    compile("com.voxlearning.alps:alps-cache-redis:${version_alps}")
+    compile("com.voxlearning.alps:alps-dao-mysql:${version_alps}")
+    compile("com.voxlearning.alps:alps-dao-mongo:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-dubbo:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-hydra:${version_alps}")
+    compile("com.voxlearning.alps:alps-queue-rabbitmq:${version_alps}")
+    compile("com.voxlearning.alps:alps-queue-kafka:${version_alps}")
+    compile("com.voxlearning.alps:alps-pubsub-kafka:${version_alps}")
+    compile("com.voxlearning.alps:alps-webmvc:${version_alps}")
+    compile("com.voxlearning.alps:alps-extension-sensitive:${version_alps}")
+
+    compile("com.voxlearning.galaxy:utopia-flower-api:${version_parent}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile("com.voxlearning.galaxy:utopia-news-api:${version_parent}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+
+    compile("com.voxlearning.platform:utopia-core-lib:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+    compile("com.voxlearning.platform:utopia-payment-lib:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    compile("com.voxlearning.platform:utopia-footprint-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile("com.voxlearning.platform:utopia-advertisement-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile("com.voxlearning.platform:utopia-bizuser-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+
+    compile(project(':utopia-service:utopia-business:utopia-business-api'))
+    compile("net.sourceforge.jexcelapi:jxl:${version_jxl}")
+    compile("org.apache.poi:poi:${version_poi}") {
+        exclude(group: 'commons-codec', module: 'commons-codec')
+    }
+
+    compile(project(':utopia-service:utopia-afenti:utopia-afenti-api'))
+    compile(project(':utopia-service:utopia-ambassador:utopia-ambassador-api'))
+    compile(project(':utopia-service:utopia-campaign:utopia-campaign-api'))
+    compile(project(':utopia-service:utopia-vendor:utopia-vendor-api'))
+    compile(project(':utopia-service:utopia-wechat:utopia-wechat-api'))
+    compile(project(':utopia-service:utopia-zone:utopia-zone-api'))
+    compile(project(':utopia-service:utopia-newhomework:utopia-newhomework-api'))
+    compile(project(':utopia-service:utopia-newexam:utopia-newexam-api'))
+    compile(project(':utopia-service:utopia-psr:utopia-psr-api'))
+    compile(project(':utopia-service:utopia-action:utopia-action-api'))
+    compile(project(':utopia-service:utopia-mizar:utopia-mizar-api'))
+    compile(project(':utopia-service:utopia-rstaff:utopia-rstaff-api'))
+
+    compile("com.voxlearning.equator:equator-wonderland-api:${version_equator}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.platform')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile(project(':utopia-service:utopia-mentor:utopia-mentor-api'))
+    compile(project(':utopia-service:utopia-crm:utopia-crm-api'))
+    compile(project(':utopia-service:utopia-piclisten:utopia-piclisten-api'))
+
+    testCompile("com.voxlearning.alps:alps-test:${version_alps}")
+    testCompile("com.voxlearning.alps:alps-monitor:${version_alps}")
+    compile("org.apache.poi:poi-ooxml:${version_poi}") {
+        exclude(module: 'commons-codec')
+    }
+    compile("com.voxlearning.alps:alps-storage-aliyunoss:${version_alps}")
+
+}

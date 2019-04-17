@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--任何对此文档的修改都需改动version的value 并从新编译才能生效-->
+<users>
+    <version value="2.0"/>
+    <user userplatform="admin" account="song.wang" accountname="王松"/>
+    <!--<user userplatform="admin" account="chunlin.yu" accountname="喻春霖"/>-->
+    <user userplatform="admin" account="ziqi.feng" accountname="冯子奇"/>
+    <user userplatform="admin" account="xiaoqing.chang" accountname="常晓庆"/>
+    <user userplatform="admin" account="dongwei.xiao" accountname="肖东伟"/>
+    <user userplatform="admin" account="yaguang.wang" accountname="王亚光"/>
+    <user userplatform="admin" account="jinling.zhu" accountname="朱金玲"/>
+</users>

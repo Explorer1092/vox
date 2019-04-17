@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ VOX LEARNING TECHNOLOGY, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2015 Vox Learning Technology, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Vox Learning Technology, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Vox Learning
+  ~ Technology, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Vox Learning Technology, Inc.
+  -->
+
+<configuration scan="true">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%-5level] {%logger} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.alibaba.dubbo" level="WARN"/>
+    <logger name="org.apache.zookeeper" level="WARN"/>
+    <logger name="org.I0Itec.zkclient" level="WARN"/>
+
+    <logger name="com.voxlearning.utopia.service.user" level="INFO"/>
+
+    <root level="WARN">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

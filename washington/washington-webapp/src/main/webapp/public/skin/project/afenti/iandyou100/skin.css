@@ -1,0 +1,26 @@
+.iandyou-pf-main{ width: 856px; margin: 0 auto; overflow: hidden; font: 12px/28px "微软雅黑", regular;}
+.iandyou-pf-main .inner{ width: 854px; margin: 0 auto; }
+.iandyou-pf-main .head, .iandyou-pf-main .head .inner{ background: url("ianyou-01.jpg") no-repeat center 0; width: 100%; height: 431px;  overflow: hidden;  }
+.iandyou-pf-main .con, .iandyou-pf-main .con .inner{ background: url("ianyou-02.jpg") no-repeat center 0; width: 100%; height: 426px;  overflow: hidden; }
+.iandyou-pf-main .colum, .iandyou-pf-main .colum .inner{ background: url("ianyou-03.jpg") no-repeat center 0; width: 100%; height: 452px;  overflow: hidden; }
+.iandyou-pf-main .foot, .iandyou-pf-main .foot .inner{ background: url("ianyou-04.jpg") no-repeat center 0; width: 100%; height: 525px;  overflow: hidden; }
+.iandyou-pf-main .navfoot, .iandyou-pf-main .navfoot .inner{ background: url("ianyou-05.jpg") no-repeat center 0; width: 100%; height: 208px;  overflow: hidden; }
+/*DreamZ*/
+.ThreeAttack-pf-main{ width: 856px; margin: 0 auto; overflow: hidden; font: 12px/28px "微软雅黑", regular;}
+.ThreeAttack-pf-main .inner{ width: 854px; margin: 0 auto; }
+.ThreeAttack-pf-main .head, .ThreeAttack-pf-main .head .inner{ background: url("threeCity/threeCity-01.jpg") no-repeat center 0; width: 100%; height: 557px;  overflow: hidden;  }
+.ThreeAttack-pf-main .con, .ThreeAttack-pf-main .con .inner{ background: url("threeCity/threeCity-02.jpg") no-repeat center 0; width: 100%; height: 588px;  overflow: hidden; }
+.ThreeAttack-pf-main .colum, .ThreeAttack-pf-main .colum .inner{ background: url("threeCity/threeCity-03.jpg") no-repeat center 0; width: 100%; height: 482px;  overflow: hidden; }
+.ThreeAttack-pf-main .foot, .ThreeAttack-pf-main .foot .inner{ background: url("threeCity/threeCity-04.jpg") no-repeat center 0; width: 100%; height: 566px;  overflow: hidden; }
+/*悟空识字*/
+.wuKongPay-main{width:856px;margin:0 auto;overflow:hidden;font:12px/28px 微软雅黑,regular}
+.wuKongPay-main .payIntro{width:100%;position:relative}
+.wuKongPay-main .payIntro .text{width:100%;position:absolute;font-size:16px;color:#000;text-align:right}
+.wuKongPay-main .payIntro-01 .bg01{width:100%;height:348px;background:url(wukong-sz/wukong-01.jpg) no-repeat}
+.wuKongPay-main .payIntro-01 .bg02{width:100%;height:300px;background:url(wukong-sz/wukong-02.jpg) no-repeat}
+.wuKongPay-main .payIntro-01 .text{bottom:24px;right:40px}
+.wuKongPay-main .payIntro-02 .bg01{width:100%;height:227px;background:url(wukong-sz/wukong-03.jpg) no-repeat}
+.wuKongPay-main .payIntro-02 .text{text-align:left;bottom:30px;left:40px}
+.wuKongPay-main .payIntro-03 .bg01{width:100%;height:365px;background:url(wukong-sz/wukong-04.jpg) no-repeat}
+.wuKongPay-main .payIntro-03 .bg02{width:100%;height:290px;background:url(wukong-sz/wukong-05.jpg) no-repeat}
+.wuKongPay-main .payIntro-03 .text{top:110px;right:40px}

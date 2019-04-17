@@ -1,0 +1,58 @@
+// 老师 es  mapping
+{
+  "mappings": {
+    "main": {
+      "properties": {
+        "teacherId": {
+          "type": "long"
+        },
+        "teacherName": {
+          "type": "keyword"
+        },
+        "mobile": {
+          "type": "keyword"
+        },
+        "subject": {
+          "type": "keyword"
+        },
+        "schoolId": {
+          "type": "long"
+        },
+        "schoolName": {
+          "type": "keyword"
+        },
+        "schoolLevel": {
+          "type": "keyword"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "address": {
+          "type": "keyword"
+        },
+        "provinceCode": {
+          "type": "integer"
+        },
+        "provinceName": {
+          "type": "keyword"
+        },
+        "cityCode": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "keyword"
+        },
+        "countyCode": {
+          "type": "integer"
+        },
+        "countyName": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
+
+// 创建老师ES命令  teacher.json的内容为上面老师的es mapping
+curl -XDELETE http://192.168.100.14:9201/vox_teacher_v1/
+curl -XPUT http://192.168.100.14:9201/vox_teacher_v1/ -d @teacher.json

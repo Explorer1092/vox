@@ -1,0 +1,92 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+img{display:inherit}
+html{height:100%}
+body,html{width:100%;min-height:100%;background-color:#db514c}
+body{background:url(../images/beast/bg01.png?v=d66b15e6ed) no-repeat top,url(../images/beast/bg02.png?v=ea04c5a11a) no-repeat bottom;background-size:100% auto}
+.playTheBeast-box{position:relative;width:100%;height:100%}
+.playTheBeast-box .ptb-tips{padding:.75rem 0 0 0;text-align:center;color:#fff}
+.playTheBeast-box .ptb-tips h1{font-size:1.8rem;font-weight:400}
+.playTheBeast-box .ptb-tips p{font-size:.9rem;line-height:1.5rem}
+.ptb-main{position:relative;z-index:2}
+.ptb-main .mIcon{position:absolute;top:-2.75rem;left:50%;margin:0 0 0 -2.825rem;width:5.65rem;height:4.15rem;background:url(../images/beast/icon01.png?v=1a233395f9) no-repeat;background-size:100% 100%}
+.ptb-main .ptb-Inner{margin:3rem 1.25rem 0 1.25rem;background-color:#cd4446;border-radius:1rem;overflow:hidden}
+.ptb-main .mTitle{margin:1.375rem 1.5rem 0 1.5rem;padding:.625rem 0;text-align:center;color:#fff;font-size:.75rem;background-color:#b6393a;border-radius:2.5rem}
+.ptb-main .mTable{margin:.45rem 1.5rem;border:.05rem solid #f15b5d;border-radius:.75rem}
+.ptb-main .mTable table{width:100%;text-align:center;color:#fff;font-size:.7rem}
+.ptb-main .mTable table tr{border-bottom:.05rem solid #f15b5d}
+.ptb-main .mTable table tr td{padding:.25rem 0;vertical-align:middle;border-right:.05rem solid #f15b5d}
+.ptb-main .mTable table tr td:last-child{border:none}
+.ptb-main .mTable table tr:last-child{border:none}
+.ptb-main .mTable .symbol{font-style:normal;color:#e94d4f}
+.ptb-main .mInfo{margin:.5rem 3.5rem;padding:.675rem 0;text-align:center;font-size:.6rem;background-color:#b6393a;border-radius:2.5rem}
+.green_btn{margin:0 .75rem;padding:.5rem 0;display:block;text-align:center;font-size:.9rem;color:#fff;background-color:#8fc31f;border-radius:.5rem}
+.gray_btn{cursor:default;background-color:#a8383a}
+.ptb-footer{padding:0 0 1.25rem 0}
+.ptb-footer .ptb-arrow{position:relative;padding:.75rem 0;width:100%;text-align:center;font-size:.6rem;color:#fff}
+.ptb-footer .ptb-arrow:after{position:absolute;top:50%;left:50%;margin:-.4375rem 0 0 -5.875rem;content:'';width:.9rem;height:.875rem;background:url(../images/beast/icon02.png?v=8119d78767) no-repeat;background-size:100% 100%}
+.ptb-footer.differFooter .green_btn{position:relative}
+.ptb-footer.differFooter .green_btn:after{position:absolute;top:-1.75rem;right:0;content:'';width:3.2rem;height:3.2rem;background:url(../images/beast/icon03.png?v=7ca7cd4ca6) no-repeat;background-size:100% 100%}
+.ptb-footer .btn-box{text-align:center}
+.ptb-footer .tip_btn{padding:.5rem 0;display:inline-block;margin:0 .5rem;width:5rem;text-align:center;font-size:.7rem;color:#fff;text-decoration:underline}
+.beastHome-banner img{width:100%}
+.beastHome-box{padding:.625rem}
+.beastHome-box .beh-content{padding-bottom:.5rem;color:#fff}
+.beastHome-box .beh-content .cTitle{font-size:.75rem;line-height:1.25rem}
+.beastHome-box .beh-content p{padding:0 .85rem;font-size:.6rem;line-height:.875rem}
+.fontYellow{color:#fff269}
+.r-bg{width:100%}
+.r-bg img{width:100%}

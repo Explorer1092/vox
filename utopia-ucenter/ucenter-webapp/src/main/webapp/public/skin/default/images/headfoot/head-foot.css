@@ -1,0 +1,32 @@
+/*----------------------------------------------m-header-------------------------------------------------*/
+.m-header, .m-header .m-inner{ background-color: #fff; height: 53px;}
+.m-header{ position: relative; z-index: 99; font:14px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体"; border: 1px solid #eee;}
+.m-header .m-inner{ width: 1000px; margin: 0 auto;}
+.m-header .logo{ background: url(logo-v2.png) no-repeat; width: 160px; height: 45px; float: left; margin: 8px 0 0;}
+.m-header .logo a{ width: 100%; height: 100%; display: block;}
+.m-header .r-nav{ float: right; padding: 18px 0 0;}
+.m-header .r-nav a{ color: #667284;}
+/*m-footer*/
+.m-footer, .m-footer .m-inner{ clear: both; background-color: #fff; height: 200px;}
+.m-footer { border-top: 2px solid #189cfb; font:14px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体";}
+.m-footer .m-inner{ width: 1000px; margin: 0 auto; overflow: hidden;}
+.m-footer .copyright{ color: #b9b9b9; font-size: 12px; margin-top: 50px; line-height: 22px;;}
+.m-footer .link{ margin-top: 8px;}
+.m-footer .link .spare-icon{ background: url("m-icon-share.png") no-repeat 500px 500px; display: inline-block; width: 39px; height: 38px; margin-right:20px;}
+.m-footer .link .spare-icon:hover{ background-image: url(m-icon-share-blue.png)}
+.m-footer .link .spare-weibo{ background-position: 0 0;}
+.m-footer .link .spare-rr{background-position: -62px 0;}
+.m-footer .link .spare-qq{background-position: -124px 0;}
+.m-footer .link .spare-wx{background-position: -185px 0;}
+.m-footer .link .spare-qzone{background-position: -248px 0;}
+/*m-foot-link*/
+.m-footer .m-foot-link { margin-top: 45px; width: 330px; float: right;}
+.m-footer .m-foot-link h3{ color: #000; font-size: 16px; height: 25px; padding-left: 10px; line-height: 100%;}
+.m-footer .m-foot-link a{ display: block; color: #666; line-height: 26px; font-size: 14px;}
+.m-footer .m-foot-link a:hover{ color: #189cfb;}
+.m-footer .m-foot-link .m-left{ width: 120px;}
+.m-footer .m-foot-link .m-code { float: right;}
+.m-footer .m-foot-link .m-code .c-image{ background: url(m-code.jpg) no-repeat; width: 90px; height: 90px; margin: 0 auto;}
+.m-footer .m-foot-link .m-code .c-title{ color: #666; text-align: center; line-height: 35px; font-size: 12px;}
+.m-footer .m-left{ float: left;}
+

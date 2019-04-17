@@ -1,0 +1,133 @@
+
+body { font-size: 12px; font-family: "微软雅黑", Helvetica, Arial, sans-serif; color: #343434; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+.main { width: 100%; background: url(../images/2.jpg) no-repeat center 0; min-width: 960px; }
+.main .main_in { margin: 0 auto; overflow: hidden; }
+.main .main_in .main_in1 { width: 960px; margin: 0 auto; background: url(../images/1.jpg?1.0.1) no-repeat 0 center; overflow: hidden; height: 415px; position: relative; }
+.main .main_in .main_in1 a.a1 { position: absolute; right: 38px; bottom: 15px; background:url(../images/4.png) no-repeat; width:176px; height:49px; }
+.main .main_in .main_in1 .font { position: absolute; top: 45px; left: 90px; }
+.main .main_in .main_in1 .font_left{ height:33px; width:325px; background:url(../images/2014.png) no-repeat 0 0; display:inline-block;}
+.main .main_in .main_in1 .font_right{ background:url(../images/xiaoxue.png) no-repeat 0 0; height:33px; width:350px; display:inline-block;}
+.main .main_in .main_in1 .font .font_center { height: 33px; width: 105px; display: inline-block; vertical-align: top; background: url(../images/font.png) 0 -1047px; }
+.main .main_in .main_in1 .font .font_340000 { background-position: 0 0; }       /*安徽*/
+.main .main_in .main_in1 .font .font_350000 { background-position: 0 -65px; }   /*福建*/
+.main .main_in .main_in1 .font .font_440000 { background-position: 0 -130px; }  /*广东*/
+.main .main_in .main_in1 .font .font_130000 { background-position: 0 -195px; }  /*河北*/
+.main .main_in .main_in1 .font .font_410000 { background-position: 0 -262px; }  /*河南*/
+.main .main_in .main_in1 .font .font_420000 { background-position: 0 -325px; }  /*湖北*/
+.main .main_in .main_in1 .font .font_430000 { background-position: 0 -393px; }  /*湖南*/
+.main .main_in .main_in1 .font .font_220000 { background-position: 0 -460px; }  /*吉林*/
+.main .main_in .main_in1 .font .font_320000 { background-position: 0 -525px; }  /*江苏*/
+.main .main_in .main_in1 .font .font_360000 { background-position: 0 -589px; }  /*江西*/
+.main .main_in .main_in1 .font .font_210000 { background-position: 0 -655px; }  /*辽宁*/
+.main .main_in .main_in1 .font .font_370000 { background-position: 0 -720px; }  /*山东*/
+.main .main_in .main_in1 .font .font_510000 { background-position: 0 -785px; }  /*四川*/
+.main .main_in .main_in1 .font .font_330000 { background-position: 0 -850px; }  /*浙江*/
+.main .main_in .main_in1 .font .font_230000 { background-position: 0 -915px; width: 139px; }    /*黑龙江*/
+.main .main_in .main_in1 .font .font_500000 { background-position: 0 -982px; }  /*重庆*/
+.menu{ background: url(../images/meniu.png) repeat-x; height:74px;}
+.menu ul{ width:960px; margin:0 auto; height:74px;}
+.menu li{ float:left;}
+
+.menu li a{ display:block; background-color:#000; width:230px; height:58px; margin:0 10px;}
+.menu li a.m_1{ background:url(../images/7.png?1.0.1) no-repeat 0 0; margin-top:16px;}
+.menu li.active a.m_1{ background-position:0 -59px; margin-top:8px;}
+.menu li.active a{ margin-top:-8px; height:66px;}
+.menu li.active a.m_2{ background-position:-234px -59px; margin-top:8px; }
+.menu li.active a.m_3{background-position:-466px -59px; margin-top:8px; }
+.menu li a.m_2{ background:url(../images/7.png?1.0.1) no-repeat -234px 0px; margin-top:16px;}
+.menu li a.m_3{ background:url(../images/7.png?1.0.1) no-repeat -466px 0px; margin-top:16px;}
+
+.main .main_in .con .down { background: url(../images/bg1.png); width: 100%; padding-top: 55px; overflow: hidden; }
+.main .main_in .con .down_in { width: 960px; margin: 0 auto; overflow: hidden; }
+.main .main_in .con .down .down_in .down_left { float: left; width: 460px; }
+.main .main_in .con .down .down_in .down_left .down_01 { padding-bottom: 60px; }
+.main .main_in .con .down .down_in .down_left .down_01 h2 { font-size: 18px; line-height: 35px; background-color: #d94040; border-radius: 6px; padding-left: 25px; color: #fff; margin-bottom: 10px; }
+.main .main_in .con .down .down_in .down_left .down_01 p.p1 { line-height: 26px; font-size: 14px; }
+.main .main_in .con .down .down_in .down_left .down_01 p.teshu { padding-left: 53px; }
+.main .main_in .con .down .down_in .down_left .down_01 p.p1 span { background-color: #d95454; border-radius: 6px; color: #fff; font-weight: bold; width: 38px; height: 20px; display: inline-block; line-height: 20px; text-align: center; margin-right: 15px; }
+.main .main_in .con .down .down_in .down_left .down_01 p.p1 strong { color: #d94040; }
+.main .main_in .con .down .down_in .down_left .down_01 .shijian { padding: 20px 0 20px 25px; border: 1px solid #e0baba; line-height: 25px; font-size: 14px; border-radius: 6px; margin-bottom: 12px; }
+.main .main_in .con .down .down_in .down_left .down_01 .shijian strong { color: #d94040; }
+.main .main_in .con .down .down_in .down_right { float: right; width: 460px; }
+.main .main_in .con .down .down_in .down_right .right_up { padding-bottom: 10px; background: #FFF; border-radius: 6px; box-shadow: 0 1px 4px #CCCCCC; text-align: center; }
+.main .main_in .con .down .down_in .down_right .right_up a.a02{ margin:0 auto; margin-top: 10px; background:url(../images/3.png) no-repeat; width:166px; height:46px; display:block; }
+.main .main_in .con .down .down_in .down_right .right_up h3 { font-size: 18px; line-height: 35px; background: url(../images/anniu.png); border-radius: 6px; padding-left: 25px; color: #fff; margin-bottom: 10px; box-shadow: 0 1px 4px #CCCCCC; }
+.main .main_in .con .down .down_in .down_right .right_up ul { font-size: 14px; line-height: 28px; padding-left: 15px; overflow: hidden; }
+.main .main_in .con .down .down_in .down_right .right_up ul li { overflow: hidden; padding: 3px 0;}
+.main .main_in .con .down .down_in .down_right .right_up ul li .num { width: 19px; height: 18px; background: #fa534d; line-height: 18px; text-align: center; display: inline-block; border-radius: 6px; color: #fff; float: left; margin: 2px 15px 0 0; _display: inline; }
+.main .main_in .con .down .down_in .down_right .right_up ul li .name { float: left; width: 55px; text-align: center; }
+.main .main_in .con .down .down_in .down_right .right_up ul li .haoma { float: left; width: 55px; text-align: center; }
+.main .main_in .con .down .down_in .down_right .right_up ul li .danyuan { float: left; width: 90px; text-align: center; display: inline-block; }
+.main .main_in .con .down .down_in .down_right .right_up ul li .check { float: left; width: 160px; text-align: center; display: inline-block; }
+.main .main_in .con .down .down_in .down_right .right_up ul li .icon_exam{ background: url(../images/exam-icon.png) no-repeat 0 -81px;; width: 33px; height: 25px; display: inline-block; overflow: hidden; float: left; margin-top: -1px;}
+.main .main_in .con .down .down_in .down_right .right_up ul li .icon_exam_1{ background-position:0 3px;}
+.main .main_in .con .down .down_in .down_right .right_up ul li .icon_exam_2{ background-position:0 -26px;}
+.main .main_in .con .down .down_in .down_right .right_up ul li .icon_exam_3{ background-position:0 -55px;}
+.main .main_in .con .down .down_in .down_right .shijian2 { padding: 20px 0 20px 25px; border: 1px solid #e0baba; line-height: 25px; font-size: 14px; border-radius: 6px; margin-bottom: 55px; margin-top: 10px; }
+.main .main_in .con .down .down_in .down_right .shijian2 p.p2 { color: #e13823; }
+.main .main_in .con .down .down_in .down_right .shijian2 strong { color: #343434; font-weight: normal; }
+.main .main_in .con .match_down { background: url(../images/bg1.png); width: 100%; padding-top: 55px; overflow: hidden; }
+.main .main_in .con .match_down_in { width: 960px; margin: 0 auto; overflow: hidden; border: 1px solid #d1cfcf; background-color: #fff; border-radius: 5px; margin-bottom: 20px; }
+.main .main_in .con .match_down_in h2 { font-size: 14px; height: 50px; border-bottom: 1px solid #d1cfcf; padding-left: 40px; color: #333333; line-height: 50px; font-weight: bold; margin-bottom: 43px; }
+.main .main_in .con .match_down_in .content { padding: 0 15px 20px 40px; overflow: hidden; }
+.main .main_in .con .match_down_in .content .cl { width: 100px; float: left; font-size: 14px; font-weight: bold; margin-top: 50px; }
+.main .main_in .con .match_down_in .content .cr { width: 780px; float: right; }
+.main .main_in .con .match_down_in .content .cr ul li { width: 100px; float: left; margin-right: 55px; margin-bottom: 50px; }
+.main .main_in .con .match_down_in .content .cr ul li a.img { width: 100px; height: 122px; background: url(../images/bookbg.png); display: inline-block; margin-bottom: 17px; }
+.main .main_in .con .match_down_in .content .cr ul li a.wenzi { line-height: 20px; }
+.main .main_in .con .match_down h3 { height: 33px; font: 14px/33px; }
+.main .main_in .con .match_down h3 p { margin: 0 auto; width: 960px; padding-left: 40px; }
+.main .main_in .con .container_title h1  {  font: 12px/1.125 arial;}
+.main .main_in .con .container_title h1 .quizCountNumber{ width: 122px; height: 30px; border-radius: 6px; line-height: 30px; margin-top: 10px; background: #eaeaea; padding-left: 10px; display: inline-block;}
+.main .main_in .con .match_down_in .content .content01 { overflow: hidden; height: 50px; }
+.main .main_in .con .match_down_in .content .content01 .p02 { float: left; }
+.main .main_in .con .match_down_in .content .content01 .p03 { float: right; }
+.main .main_in .con .match_down_in .content .content01 .p03 .check { width: 14px; height: 14px; background: url(../images/btn.png) no-repeat 0 -102px; display: inline-block; vertical-align: middle; margin-right: 7px; }
+.main .main_in .con .match_down_in .content .content02 { overflow: hidden; }
+.main .main_in .con .match_down_in .content .content02 .selection_unit { width: 152px; float: left; margin: 4px; padding: 10px 5px; border: 2px solid #ccc; height: 50px; position: relative; border-radius: 6px; cursor: pointer; _display: inline; }
+.main .main_in .con .match_down_in .content .content02 .selection_unit .popcheck { position: absolute; background: url(../images/btn.png) no-repeat 0 -102px; width: 14px; height: 14px; display: inline-block; left: 10px; top: 10px; color: #020202; cursor: pointer; }
+.main .main_in .con .match_down_in .content .content02 .unitactive .popcheck { background: url(../images/btn.png) no-repeat -16px -102px; }
+.main .main_in .con .match_down_in .content .content02 .selection_unit .book { padding: 0 10px;  line-height: 26px; text-align: center; text-overflow:ellipsis; overflow:hidden; height:50px; white-space: nowrap;}
+.main .main_in .con .match_down_in .content .content02 .unitactive { color: #d94040; background-color: #ffd4d4; border-color: #d94040; }
+.main .main_in .con .match_down_in .content .content03 { width: 100%; margin-bottom: 55px; margin-top: 60px; }
+.main .main_in .con .match_down_in .content .content03_in { width: 960px; margin: 0 auto; text-align: center; }
+.main .main_in .con .match_down_in .content .content03_in .btn { background: url(../images/btn.png) no-repeat 0 0; width: 128px; height: 46px; display: inline-block; margin-right: 18px; }
+.main .main_in .con .match_down_in .content .content03_in .btn1 { background: url(../images/btn.png) no-repeat 0 -52px; width: 128px; height: 46px; display: inline-block; }
+
+.main .main_in .con .mypaper { background: url(../images/bg1.png); width: 100%; padding-top: 55px; overflow: hidden; }
+.main .main_in .con .mypaper_in { width: 960px; margin: 0 auto; overflow: hidden; }
+.main .main_in .con .mypaper_in h3 { font-size: 14px; color: #333333; padding-left: 40px; height: 35px; }
+.main .main_in .con .mypaper_in h3 span { color: #d94040; }
+.main .main_in .con .mypaper_in .mypaper_down { width: 840px; margin: 0 auto; border: 1px solid #d1cfcf; border-bottom-width: 2px; margin-bottom: 305px; background-color: #fff; border-radius: 6px; padding: 40px; }
+.main .main_in .con .mypaper_in .mypaper_down select { width: 190px; border: 1px solid #ccc; border-radius: 3px; background-color: #f7f7f7; box-shadow: 1px 1px 3px #e8e8e8; margin-bottom: 15px; padding: 8px; }
+.main .main_in .con .mypaper_in .mypaper_down select option { }
+.main .main_in .con .mypaper_in .mypaper_down .select01 { margin-right: 15px; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list { border: 1px solid #d1cfcf; border-radius: 4px; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li { height: 38px; border-bottom: 1px solid #d1cfcf; line-height: 38px; color: #999999; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span { text-align: center; color: #000; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_name { width: 100px; float: left; padding-left: 50px; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_time { width: 160px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_book { width: 95px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_style { width: 95px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_unit { width: 95px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_number { width: 95px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li span.paper_check { width: 115px; float: left; }
+.main .main_in .con .mypaper_in .mypaper_down .mypaper_list ul li.list_active { background-color: #ebf4fe; }
+/*container_title*/
+.container_title  li{ background-color: #f9f9f9; padding: 5px 20px !important; border: 1px solid #ccc; cursor: pointer;}
+.container_title  li a{ color: #666;}
+.container_title  li.active{ background-color: #eee; }
+.container_title  li.active a{color: #000;}
+.quizPage{ float: right; padding: 0 20px 20px;}
+.quizPage .total,  .quizPage .jump{ display: inline-block; vertical-align:  middle;}
+.quizPage .total{ margin-right: 10px;}
+.quizPage .jump{}
+.quizPage .jump input{width: 30px; padding:2px !important; vertical-align:middle; border: 1px solid #ddd; border-radius: 3px;}
+.quizPage a{ display: inline-block; margin: 0 2px; vertical-align: middle; border-radius: 3px; font: 12px/20px arial; padding: 0 6px; background-color: #f5f5f5; color: #666;}
+.quizPage a:hover{ background-color: #eee;}
+.quizPage a.next,  .quizPage a.back,  .quizPage a.go{background: #f9f9f9; border: 1px solid #ccc;}
+.quizPage a.null{ color: #333; margin: 0; background: none;}
+.quizPage a.disable{ color: #999; cursor: default; background: #f8f8f8; border-color: #ddd;}
+.quizPage a.active{background-color: #5c8afe; color: #fff;}

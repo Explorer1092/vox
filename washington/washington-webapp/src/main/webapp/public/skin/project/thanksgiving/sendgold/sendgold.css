@@ -1,0 +1,32 @@
+.clear{ width: 100%; height: 1px ; font: 0/0 ""; clear: both; overflow: hidden;}
+.main{ background: url(f-bg.png) repeat-x 0 0;}
+.head, .head .inner{ background: url(f-head.jpg?v=1) no-repeat center 0; height: 424px; width: 100%;}
+.head-02, .head-02 .inner{ background: url(f-head-02.jpg) no-repeat center 0; height: 424px; width: 100%;}
+
+.content-sendGold-box{ background: url(f-gold-bg.png) repeat-y center 0; width: 100%; margin-top: -28px;}
+.content-sendGold-box .send-tree-bg, .content-sendGold-box .send-tree-bg .inner{ background: url(f-foot.png) no-repeat center 0; width: 100%; height: 259px;}
+.head .inner, .content-sendGold-box .send-tree-bg .inner{ width: 1000px; margin: 0 auto;}
+.contain-box{ background-color: #fff2cf; margin: 0 auto; width: 1000px; }
+.contain-box .inner{ position: relative;}
+.contain-box .tip{ border-bottom: 1px dashed #8c6642; padding: 8px 30px 8px 25px;}
+.contain-box .tip .right{ float: right; }
+.contain-box .tip strong{ font:bold 30px/150% Arial;  color: #68533f; }
+.slide-tip-box{ padding: 60px 0 10px 75px; position: relative; margin-top: 40px;}
+.slide-tip-box h3.red-tip{ background:url("tip.png") no-repeat 0 0; width: 174px; height: 78px; position: absolute; left: -13px; *left: -86px; top: -12px; color: #4d1c29; font-size: 24px; line-height: 64px; text-indent: 28px; font-weight: normal;}
+.slide-tip-box dl{ width: 100px; margin: 10px 20px; float: left; position: relative; height: 155px;}
+.slide-tip-box dl dt{ width: 82px; height: 82px; padding: 8px; border: 1px solid #d3be87; position: relative; background-color: #fff; text-align: center;}
+.slide-tip-box dl dt .finish{ display: none;}
+.slide-tip-box dl.active dt{ border:4px solid #ff762b; padding: 5px;}
+.slide-tip-box dl.active dt .finish{ background: url("finish.png") no-repeat 0 0; display: block; width: 53px; height: 47px; position: absolute; right: -4px; bottom: -3px;}
+.slide-tip-box dl dt i{width: 82px; height: 82px; display: block;}
+.slide-tip-box dl dt i img{ width: 82px; height: 82px;}
+.slide-tip-box dl dd{}
+.slide-tip-box dl dd p{ text-align: center; padding: 12px 0 0 0;}
+body{  background:url(f-green-bg.png) repeat 0 0; font-size: 16px; color: #68533f; line-height: 28px;}
+/*content-infomercial-box*/
+.content-infomercial-box{ background: #fff2cf url(tip-repeat.png) repeat-x 0 bottom; width: 1000px; margin:-28px auto 28px;}
+.content-infomercial-box dl{ padding: 30px 30px 60px 42px;}
+.content-infomercial-box dl dd{ color: #4d1c29; font-size: 16px; width: 746px; float: left;}
+.content-infomercial-box dl dd p{ line-height: 28px; text-indent: 2em;}
+.content-infomercial-box dl dt{ margin-left: 778px; width: 130px; height: 130px;}
+.content-infomercial-box dl dt img{ width: 130px; height: 130px; display: block; border: 0;}

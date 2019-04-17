@@ -1,0 +1,124 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+body{width:100%;height:400px;background:url(../images/bg2.png?v=4a23bbe6f7) repeat}
+.banner{position:relative;width:100%;height:5.625rem;background:url(../images/banner2.png?v=e69cec1de3) no-repeat;background-size:100% 100%}
+.banner .tips{position:absolute;left:0;top:0;width:100%;line-height:2.15rem;background:rgba(0,0,0,.4);text-align:center;font-size:.75rem;color:#fff}
+.banner .tips:before{display:inline-block;vertical-align:middle;margin:0 .25rem;content:"";width:.75rem;height:.75rem;background:url(../images/icon01.png?v=175be8a6ac) no-repeat;background-size:100% 100%}
+.banner .tips:after{position:absolute;right:1rem;top:.7rem;display:block;content:"";width:.6rem;height:.75rem;background:url(../images/icon02.png?v=6803997515) no-repeat;background-size:100% 100%}
+.lotteryBox{position:relative;width:100%;height:13.7rem;background:#f6995b url(../images/lotteryBg.png?v=e58d4f85c6) no-repeat 50% 0;background-size:auto 100%}
+.lotteryBox .lotteryInner{position:relative;padding:.7rem 0 .5rem 0;margin:0 auto;width:16.35rem;height:12.525rem;overflow:hidden}
+.lotteryBox .lotteryInner div{position:absolute;width:4.2rem;height:3.425rem;margin:.375rem .625rem}
+.lotteryBox .lotteryInner div .icon{display:block;width:4.175rem;height:3.425rem;background-repeat:no-repeat;background-size:100% 100%}
+.lotteryBox .lotteryInner div .icon00{background-image:url(../images/gift00.png?v=86f77ef797)}
+.lotteryBox .lotteryInner div .icon01{background-image:url(../images/gift01.png?v=5ced75b4b5)}
+.lotteryBox .lotteryInner div .icon02{background-image:url(../images/gift02.png?v=eb06802fd0)}
+.lotteryBox .lotteryInner div .icon03{background-image:url(../images/gift03.png?v=ea17c21df4)}
+.lotteryBox .lotteryInner div .icon04{background-image:url(../images/gift04.png?v=f95937eaa2)}
+.lotteryBox .lotteryInner div .icon05{background-image:url(../images/gift05.png?v=298f83837b)}
+.lotteryBox .lotteryInner div .icon06{background-image:url(../images/gift06.png?v=f863a17221)}
+.lotteryBox .lotteryInner div .icon07{background-image:url(../images/gift07.png?v=710bb3b14e)}
+.lotteryBox .lotteryInner div.active{background:url(../images/gift-cur.png?v=8db2af1547) no-repeat;background-size:100% 100%}
+.lotteryBox .lotteryInner div.reward00{left:5.45rem;bottom:.5rem}
+.lotteryBox .lotteryInner div.reward01{left:0;bottom:.5rem}
+.lotteryBox .lotteryInner div.reward02{left:0;top:4.9rem}
+.lotteryBox .lotteryInner div.reward03{left:0;top:.7rem}
+.lotteryBox .lotteryInner div.reward04{left:5.45rem;top:.7rem}
+.lotteryBox .lotteryInner div.reward05{right:0;top:.7rem}
+.lotteryBox .lotteryInner div.reward06{right:0;top:4.9rem}
+.lotteryBox .lotteryInner div.reward07{right:0;bottom:.5rem}
+.lotteryBox .lotteryBtn{position:absolute;left:50%;top:50%;margin:-1.125rem 0 0 -3.9rem;width:7.8rem}
+.lotteryBox .lotteryBtn .btn{display:block;background:url(../images/btnBg.png?v=0b87aaada1) no-repeat;background-size:100% auto;background-position:0 0;line-height:2.25rem;text-align:center;font-weight:700;font-size:.85rem;color:#ce3147}
+.lotteryBox .lotteryBtn .btn:active{background-position:0 -2.775rem}
+.lotteryBox .lotteryBtn .btn.disabled{background-position:0 -5.575rem;color:#939393}
+.lotteryBox .lotteryBtn .remind{text-align:center;line-height:1rem;font-size:.5rem;color:#fff}
+.tipsBox{width:100%;height:5.625rem;background:url(../images/tips2.png?v=b24482896a) no-repeat;background-size:100%;text-align:center;font-size:.4rem;color:#d3374d}
+.tipsBox .font30{padding:.5rem 0;font-size:.75rem}
+.tipsBox .title{padding-top:8%;text-align:center;font-size:.85rem;color:#fffd7d}
+.rankList{margin-top:-1.7rem;width:100%;background:url(../images/listBg.png?v=551669340b) repeat-y;background-size:100% auto}
+.rankList .title{line-height:1.25rem;background:#e77851;text-align:center;font-weight:700;font-size:.75rem;color:#8a3112}
+.rankList .title02{background:0 0;padding-left:2.1rem;text-align:left}
+.rankList .rank{padding:.5rem .85rem}
+.rankList .rank li{position:relative;padding-left:1.25rem;line-height:.95rem;font-size:.6rem;color:#fff}
+.rankList .rank li .address{padding:0 .5rem}
+.rankList .rank li .yellow{color:#fcff00}
+.rankList .rank li .cup{position:absolute;left:.25rem;top:.2rem;display:inline-block;width:.7rem;height:.625rem;background:url(../images/icon.png?v=3a13745976) no-repeat;background-size:100% auto}
+.rankList .rank li .cup01{background-position:0 0}
+.rankList .rank li .cup02{background-position:0 -.9rem}
+.rankList .rank li .cup03{background-position:0 -1.8rem}
+.ruleBox{padding-bottom:1rem}
+.ruleBox .hd-bg{width:100%;height:2.125rem;background:url(../images/ruleTitle2.png?v=294bef1da6) no-repeat;background-size:100% 100%}
+.ruleBox .ruleInner{margin-top:0rem;padding:0 2rem .75rem 2rem;background:url(../images/ruleBg.png?v=40ead0e3f4) repeat-y;background-size:100% auto;color:#505083}
+.ruleBox .ruleInner .title{padding:0 0 .5rem 0;text-align:center;font-size:.75rem}
+.ruleBox .ruleInner .txt{padding-bottom:.25rem;line-height:.95rem;font-size:.6rem}
+.ruleBox .ruleInner .copy{padding:.25rem 0;font-size:.45rem}
+.informTitle{margin:2.35rem auto .95rem auto;width:14.6rem;height:2.725rem;background:url(../images/inform-title.png?v=b531c226d9) no-repeat;background-size:100% 100%;line-height:1.5rem;text-align:center;font-size:.85rem;color:#fffd7d}
+.informMain{margin:0 .85rem;padding:.75rem 1rem;background-color:#9288eb;border-radius:.25rem;line-height:1rem;font-size:.65rem;color:#fff}
+.informMain .txt{padding:.75rem 0;border-top:.1rem dashed #8076d6}
+.informMain .txt:first-child{border-top:0}
+.informMain .txtYellow{padding-bottom:.5rem;text-align:center;font-size:.55rem;color:#fffd7d}
+.informBtn{padding:1.75rem 0;text-align:center}
+.informBtn .btn{display:inline-block;width:13.5rem;height:2.25rem;line-height:2.25rem;background-color:#ffda45;box-shadow:0 .35rem 0 #e0a92d;border-radius:.35rem;text-align:center;font-weight:700;font-size:.9rem;color:#d3374d}
+.lotteryInner{width:11.85rem}
+.lotteryInner .title{position:relative;width:100%;height:1.375rem;line-height:1.375rem;text-align:center;font-size:.7rem;color:#fff;background:url(../images/lottery-t01.png?v=960f6147f6) no-repeat;background-size:100% 100%}
+.lotteryInner .title .close{cursor:pointer;position:absolute;right:0;top:0;display:block;width:1.5rem;height:1.375rem}
+.lotteryInner .btnBox{padding:24px 0 12px 0;text-align:center}
+.lotteryInner .btnBox .btn{display:inline-block;width:7.5rem;height:1.75rem;background-color:#ffda45;line-height:1.75rem;box-shadow:0 .25rem 0 #e0a92d;border-radius:.25rem;font-size:.7rem;color:#d3374d}
+.lotteryInner .lt-main{margin-top:-.025rem;padding:.925rem .5rem .3rem .5rem;background-color:#acadfd;border-radius:0 0 .25rem .25rem}
+.lotteryInner .lt-main .txt{line-height:1rem;text-align:center;font-size:.6rem;color:#5a50c0}
+.lotteryInner.tipsSuccess .title{height:2.55rem;background:url(../images/lottery-t02.png?v=b9392eac63) no-repeat;background-size:100% 100%}
+.lotteryInner.tipsSuccess .lt-main{padding-top:.1rem;background-color:#ff653c}
+.lotteryInner.tipsSuccess .lt-main .txt{color:#fff}
+.lotteryInner.tipsSuccess .lt-main .btnBox{padding-top:.6rem}

@@ -1,0 +1,63 @@
+[v-cloak] {
+    display: none !important;
+}
+.titleBox{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.titleBox .title{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+}
+.titleBox .titleContent{
+    padding: 20px;
+}
+.titleBox .title h4{
+    margin: 0;
+    line-height: 50px;
+    display: inline-block;
+}
+.titleBox .title a{
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.mainBox{
+    background-color: #ffffff;
+}
+.mainBox .title{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 0;
+}
+.mainBox .mainContent{
+    padding: 0 20px 20px;
+}
+.shortLi, .longLi{
+    margin-bottom: 10px;
+}
+.shortLi label,.longLi label{
+    display: inline-block;
+    width: 44px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.shortLi select{
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 0;
+}
+.longLi input{
+    display: inline-block;
+    width: 284px;
+    margin-bottom: 0;
+}
+.otherTip{
+    font-size: 14px;
+}

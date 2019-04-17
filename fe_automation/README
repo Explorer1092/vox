@@ -1,0 +1,16 @@
+####常见问题
+* 根目录上的`gulpsource.coffee` `gulpsource.js` 为什么不直接写成gulpfile.js?
+  因为我们服务器每次提交都要一次自动编译的过程。
+  他们之因为写成动态转换生成gulpfile.js, 是为了区分各种部署环境。 (你可以看gulpsource.js 中有一个变量 `__stage__`)
+
+* 分环境有什么好处？
+  如果不区分环境: `test`  `staging` 我都发布代码，服务器编译gulp都会在使用同一个`build_repo(gulp 缓存目录)`, 你不想把`staging`上的代码编译成`test`吧？
+  区分环境 :
+  test 的缓存目录 ===> `build_repo/build-test/`
+  staging 的缓存目录 ===> `build_repo/build-staging/`
+
+* `gulpsource.js` 和 `gulpfile.js` 有什么区别吗？
+ `gulpsource.js/coffee` 里做一些适合在服务器上自动构建的任务。 eg : 代码压缩、 代码混淆 等**统一**的操作
+ `gulpfile.js`  里做一下适合在**本地开发**的时候**实时构建**的任务。 eg: scss ==> css, js文件的jshint检查 ...
+
+

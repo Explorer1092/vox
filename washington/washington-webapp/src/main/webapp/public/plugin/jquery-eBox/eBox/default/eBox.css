@@ -1,0 +1,10 @@
+#eBoxWrap { border: 1px solid #fbc400; background-color: #fff;}
+#eBox span.eBox-close { right: 10px; top: 6px; z-index: 9999; }
+#eBox span.eBox-min { right: 36px; top: 6px; z-index: 9999; }
+#eBox span.eBox-close img, #eBox span.eBox-min img { cursor: pointer; }
+#eBox h6.eBox-title { height: 20px; padding-top: 6px; font-size: 12px; text-indent: 1em; border-bottom: 1px solid #fbc400; background: #f9d040; background: -moz-linear-gradient(top, #fae59b, #fbc504); background: -webkit-linear-gradient(top, #fae59b, #fbc504); background: -o-linear-gradient(top, #fae59b, #fbc504); background: -webkit-gradient(linear, 0 0, 0 100%, from(#fae59b), to(#fbc504)); color: #333; font-family: Tahoma; font-weight: 100; }
+#eBox h6.eBox-title a { color: #ff3300; }
+#eBox h6.eBox-title span { margin-left: 6px; margin-right: 6px; }
+#eBox div.eBox-content { padding: 6px; }
+#eBox div.eBox-content ul li { font-size: 12px; height: 16px; padding-top: 4px; color: #ddd; }
+#eBox div.eBox-content ul li a { color: #117cc0; }

@@ -1,0 +1,78 @@
+/* parentApp-winterHoliday */
+
+/*为了支持mobile端 不建议使用 background-attachment:fixed 来做背景固定效果，因此 使用一个div来模拟全局背景固定。 主要由 postion:fixed来控制
+为什么不建议使用? http://stackoverflow.com/questions/23236158/how-to-replicate-background-attachment-fixed-on-ios
+http://stackoverflow.com/questions/16009035/fixed-position-background-on-ios
+ */
+.parentApp-mock-background { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url(../images/activity/holiday/parentApp-summerHoliday-bg.png) no-repeat; background-size: cover; z-index: -1; }
+.parentApp-winterHoliday .inner { padding: 0 30px 30px; }
+.parentApp-winterHoliday .item { margin: 20px 0 0; height: 348px; background-color: #fff; }
+.parentApp-winterHoliday .canvasMod { position: relative; float: left; width: 50%; }
+.parentApp-winterHoliday .canvasMod .hd { padding: 9px 0 0; }
+.parentApp-winterHoliday .canvasMod .hd span { position: relative; float: left; margin: 0 0 0 -10px; padding: 0 10px 0 26px; color: #fff; font-size: 28px; line-height: 50px; }
+.parentApp-winterHoliday .canvasMod .hd span:after { position: absolute; top: 0; right: -20px; content: ""; width: 0; height: 0; border-top: 25px solid transparent; border-bottom: 25px solid transparent; }
+.parentApp-winterHoliday .canvasMod .hd .green { background-color: #78d5a4; }
+.parentApp-winterHoliday .canvasMod .hd .green:after { border-left: 20px #78d5a4 solid; }
+.parentApp-winterHoliday .canvasMod .hd .yellow { background-color: #ff913f; }
+.parentApp-winterHoliday .canvasMod .hd .yellow:after { border-left: 20px #ff913f solid; }
+.parentApp-winterHoliday .canvasMod .hd .blue { background-color: #5b6bd9; }
+.parentApp-winterHoliday .canvasMod .hd .blue:after { border-left: 20px #5b6bd9 solid; }
+.parentApp-winterHoliday .canvasMod .canvas { margin-top: 20px; padding: 0 26px; height: 154px; text-align: center; overflow: visible; transform: translateZ(0); -webkit-transform: translateZ(0); }
+.parentApp-winterHoliday .canvasMod .canvas canvas { display: inline-block; margin: 0 auto; width: 154px; height: 154px; }
+.parentApp-winterHoliday .canvasMod .ft { padding: 30px 0 0; text-align: center; color: #2a2a2a; font-size: 24px; line-height: 36px; }
+.parentApp-winterHoliday .canvasMod .ft span { color: #f87760; }
+.parentApp-winterHoliday .textMod { position: relative; float: right; width: 50%; text-align: center; }
+.parentApp-winterHoliday .textMod:after { position: absolute; top: -1px; left: -6px; content: ""; width: 15px; height: 350px; background: url(../images/activity/holiday/parentApp-winterHoliday-item-icon.png) no-repeat; background-size: 100% 100%; }
+.parentApp-winterHoliday .textMod .beans { padding: 190px 0 0; text-align: center; color: #818181; font-size: 22px; line-height: 56px; background: url(../images/activity/holiday/parentApp-winterHoliday-beans.png) no-repeat 58% 50%; background-size: auto auto; }
+
+.btn { display: block; margin: 0 30px; color: #fff; font-size: 24px; line-height: 70px; background-color: #5b6bd9; }
+.parentApp-winterHoliday .textMod .btn-gary { color: #797a7c; background-color: #cfcfd4; cursor: default; }
+.parentApp-winterHoliday .promModule { margin: 10px 0 0; padding: 0 0 0 14px; }
+.parentApp-winterHoliday .promMain { position: relative; padding: 23px 40px 23px 30px; background-color: rgba(255,255,255,0.8); color: #454648; font-size: 24px; line-height: 30px; }
+.parentApp-winterHoliday .promMain:after { position: absolute; top: 0; left: -14px; content: ""; width: 0; height: 0; border-top: 0; border-bottom: 20px solid transparent; border-right: 14px rgba(255,255,255,0.8) solid; }
+
+/* parentApp-homeworkComplet */
+.parentApp-homeworkComplet-hd { position: relative; padding: 30px 40px; border-bottom: 3px #d2d2d2 dashed; }
+.parentApp-homeworkComplet-hd:after,.parentApp-homeworkComplet-hd:before { position: absolute; bottom: -11px; content: ""; width: 0; height: 0; border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
+.parentApp-homeworkComplet-hd:after { left: 0; border-left: 18px #d2d2d2 solid; }
+.parentApp-homeworkComplet-hd:before { right: 0; border-right: 18px #d2d2d2 solid; }
+.parentApp-homeworkComplet-hd .state { float: left; padding: 0 20px 0 0; color: #b2b3b8; font-size: 28px; line-height: 90px; }
+.parentApp-homeworkComplet-hd .page { float: left; color: #5a70d6; font-size: 80px; line-height: 90px; }
+.parentApp-homeworkComplet-hd .btn { float: right; margin: 10px 0 0; padding: 0 20px; color: #fff; font-size: 24px; line-height: 70px; background-color: #5a70d6; }
+
+.parentApp-homeworkComplet-list { padding: 0 30px; }
+.parentApp-homeworkComplet-list li { position: relative; padding: 28px 0 24px 154px; min-height: 106px; border-bottom: 2px #c7c7c7 dotted; }
+.parentApp-homeworkComplet-list .beans { position: absolute; top: 28px; left: 0; padding: 49px 0 8px; width: 125px; text-align: center; color: #fff; font-size: 18px; line-height: 48px; background-repeat: no-repeat; background-position: 50% 0; background-size: 100% 100%; }
+.parentApp-homeworkComplet-list .beans span { display: inline-block; vertical-align: top; padding: 0 2px; font-size: 32px; font-weight: 700; }
+.parentApp-homeworkComplet-list .head { overflow: auto; }
+.parentApp-homeworkComplet-list .headFl { float: left; padding: 0 14px; color: #fff; font-size: 20px; line-height: 36px; }
+.parentApp-homeworkComplet-list .headFr { position: relative; float: right; font-size: 26px; line-height: 36px; }
+.parentApp-homeworkComplet-list .headFr:after { position: absolute; top: 50%; left: 0; margin: -15px 0 0; width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 100%; }
+.parentApp-homeworkComplet-list .middle { padding: 12px 0; color: #3b3e47; font-size: 26px; line-height: 34px; }
+.parentApp-homeworkComplet-list .foot { color: #3b3e47; font-size: 26px; line-height: 34px; }
+.parentApp-homeworkComplet-list .light .beans { background-image: url(../images/activity/holiday/parentApp-homeworkComplet-list-beansLight.png); }
+.parentApp-homeworkComplet-list .light .headFl { background-color: #798ff5; }
+.parentApp-homeworkComplet-list .light .headFr { padding: 0 0 0 40px; color: #5a70d6; }
+.parentApp-homeworkComplet-list .light .headFr:after { content: url(../images/activity/holiday/pr-right.png); background-color: #798ff5; }
+.parentApp-homeworkComplet-list .gray .beans { background-image: url(../images/activity/holiday/parentApp-homeworkComplet-list-beansGray.png); }
+.parentApp-homeworkComplet-list .gray .headFl { background-color: #adb1b7; }
+.parentApp-homeworkComplet-list .gray .headFr { color: #adb1b7; }
+.parentApp-homeworkComplet-list .gray .headFr:after { display: none; }
+
+/* 推广区域  */
+.imgtext-h{ padding : 20px 20px 0 140px; margin : 0 20px; }
+.promoteAction{ padding : 10px 20px 20px; height: 70px; overflow: hidden; }
+.promoteAction .link { float: left; margin: 45px 0 0; color: #5b6bd9; font-size: 20px; line-height: 30px; text-decoration: underline; }
+.promoteAction .btn { float: right; margin: 0; width:  230px; text-align: center; }
+.imgtext-h .text-right h3{ margin: -9px 0 0; color: #2a2a2a; font-size: 24px; line-height: 42px; }
+.imgtext-h .text-right p{ color: #818181; font-size: 22px; line-height: 30px; }
+.imgtext-h .img-left{ float:left; margin-left: -140px; width: 120px; height: 120px; overflow: hidden; }
+.imgtext-h .img-left img { display: block; }
+
+
+/* parentApp-holidayNull */
+.parentApp-holidayNull { position: relative; margin: 2rem auto; width: 82.5%; text-align: center; color: #fff; font-size: 36px; line-height: 90px; }
+.parentApp-holidayNull:after, .parentApp-holidayNull:before { position: absolute; top: 20px; content: ""; width: 90px; height: 90px; background-repeat: no-repeat; background-size: 100% 100%; z-index: 1; }
+.parentApp-holidayNull:after { left: -50px; background-image: url(../images/activity/holiday/parentApp-holidayNull-icon1.png); }
+.parentApp-holidayNull:before { right: -50px; background-image: url(../images/activity/holiday/parentApp-holidayNull-icon2.png); }
+.parentApp-holidayNull > div { position: relative; background-color: #5b6bd9; border-radius: 10px; z-index: 2; }

@@ -1,0 +1,41 @@
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+html{font-size:20px}
+body,html{width:100%;height:100%}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+body,input,option,select{color:#333;font-family:"Microsoft YaHei","Heiti SC",Rotobo,Arial;-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=phone],input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
+.knowledgeBox-header{height:5rem}
+.knowledgeBox-header .head-inner{background-color:#e33f4a;color:#fff;line-height:2.5rem;font-size:1.4rem;padding:2rem 0 .5rem;text-align:center;position:fixed;top:0;left:0;width:100%}
+.aFenTi-knowledgeBox .k-banner{height:24.25rem;background:url(../images/knowledge_banner.png) no-repeat center 0;background-size:100% 100%}
+.aFenTi-knowledgeBox .k-banner .k-title{text-align:center;color:#fff;font-size:2rem;font-weight:700;line-height:3.5rem}
+.aFenTi-knowledgeBox .k-banner .k-content{padding:9.5rem 0 0 0;text-align:center;color:#fff}
+.aFenTi-knowledgeBox .k-banner .k-content .con{font-size:2rem;font-weight:700}
+.aFenTi-knowledgeBox .k-banner .k-content .info{font-size:1rem;line-height:4rem}
+.aFenTi-knowledgeBox .k-banner .tag{padding:1.95rem 0 0 .25rem;color:#fff;font-size:1.5rem}
+.aFenTi-knowledgeBox .k-table{margin-bottom:.5rem;background-color:#fff}
+.aFenTi-knowledgeBox .k-table table{width:100%}
+.aFenTi-knowledgeBox .k-table table tr{line-height:190%}
+.aFenTi-knowledgeBox .k-table table tr td{border-bottom:.05rem solid #e33f4a;border-left:.05rem solid #e33f4a}
+.aFenTi-knowledgeBox .k-table table thead{background-color:#e33f4a}
+.aFenTi-knowledgeBox .k-table table thead tr{text-align:center;color:#fff}
+.aFenTi-knowledgeBox .k-table table tbody td{text-align:center;color:#010101}
+.aFenTi-knowledgeBox .k-table table tbody td:first-child{border-left:none}
+.aFenTi-knowledgeBox .k-table table tbody td:last-child{color:#9a0101}
+.aFenTi-knowledgeBox .k-table table tbody td:nth-child(2){color:#676767}
+.aFenTi-knowledgeBox .k-dynamic{background-color:#fff;padding-left:.5rem}
+.aFenTi-knowledgeBox .k-dynamic h3{color:#010101;font-size:1.5rem;font-weight:400}
+.aFenTi-knowledgeBox .k-dynamic li{font-size:1.1rem;line-height:2rem}
+.aFenTi-knowledgeBox .k-dynamic li .name{display:inline-block;vertical-align:top;text-align:center;width:4.25rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.knowledge-footer .k-empty{height:5rem}
+.knowledge-footer .k-btn{position:fixed;bottom:0;left:0;width:100%;background-color:#e33f4a;padding:.5rem}
+.knowledge-footer .k-btn .tip{width:70%;color:#fff;margin-right:.5rem;font-size:1rem;display:inline-block;vertical-align:middle}
+.knowledge-footer .k-btn .opened_btn, .open-btn{padding:.6rem 0;display:inline-block;color:#010100;font-size:1.5rem;text-align:center;width:8rem;font-weight:700;border-radius:.5rem;background-color:#fc0;vertical-align:middle}

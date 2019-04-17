@@ -1,0 +1,187 @@
+html,body{ width:100%;height:100%;font:14px/100% "微软雅黑","Microsoft YaHei",arial;  background: #3a0c55;}
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul,div{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,p{line-height:100%;}
+li,ol,ul{list-style:none;}
+input,select,textarea{outline:0;resize:none;}
+a{ text-decoration: none;}
+.magic-jqi-popupclose{ color: #fff; font-size: 53px; right: 0px; top: 23px; cursor: pointer; position: absolute; line-height: 50px; z-index: 22;}
+.magicSmall-jqi-popupclose{ color: #fff; font-size: 53px; right: 0px; top: -40px; cursor: pointer; position: absolute; line-height: 50px; z-index: 22;}
+.clearfix:after { content:"."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0;}
+.clearfix { *zoom: 1;}
+.special-footer, .special-footer .m-inner{ background: transparent;}
+.special-footer{ border: 0;}
+.special-footer .link,.m-footer .link{ display: none;}
+.special-footer .m-foot-link a,.m-footer .m-foot-link a{ color: #fff;}
+.special-footer .copyright,.m-footer .copyright{ color: #fff;}
+.special-footer .copyright p{ line-height: 24px;}
+.special-footer .m-foot-link .m-code .c-title,.special-footer .m-service .c-title{ color: #fff;}
+/*icon--style-start*/
+.magic-icon{ margin: 0 auto; display: block; width: 110px; height: 110px; background: url("magic-icons.png") no-repeat;}
+.magic-icon-disable{ background: url("magic-icons-disable.png") no-repeat;}
+.mcn-icon1{ background-position: 0 0;}
+.mcn-icon2{ background-position: -193px 0;}
+.mcn-icon3{ background-position: -408px 0;}
+.mcn-icon4{ background-position: -623px 0;}
+.mcn-icon8{ background-position: 0 -124px;}
+.mcn-icon7{ background-position: -194px -124px;}
+.mcn-icon6{ background-position: -409px -124px;}
+.mcn-icon5{ background-position: -624px -124px;}
+.mcn-icon9{ background-position: 0 -252px;}
+.mcn-icon10{ background-position:  -197px -252px;}
+.mcn-icon11{ background-position: -408px -252px;}
+.mcn-icon12{ background-position: -623px -252px;}
+.magic-icons{ display: inline-block; background: url("magic-icons-all.png") no-repeat;}
+.mbtn-success{ background-position: -169px 0; width: 31px; height: 31px;}
+.mbtn-hx{ width: 165px; height: 84px; background-position: 0 0;}
+.mbtn-hx-disable{ background-position: 0 -91px; cursor: default;}
+.mbtn-hx-small{ width: 165px; height: 55px; background-position: 0 -333px;}
+.mbtn-hx-small-disable{width: 165px; height: 55px; background-position: 0 -400px;}
+.mlabel-green{ width: 107px; height: 45px; background-position: 0 -234px;}
+.mlabel-green-big{ width: 182px; height: 42px; background-position: 0 -285px;}
+.mlabel-orange{ width: 107px; height: 45px; background-position: 0 -184px;}
+.li-cell-icon{ width: 28px; height: 28px;}
+.li-cell-icon01{ background-position: -170px -40px;}
+.li-cell-icon02{ background-position: -170px -74px;}
+.li-cell-icon03{ background-position: -170px -108px;}
+.li-badge-icon{ width: 46px; height: 32px;}
+.li-badge-icon01{ background-position: -114px -178px;}
+.li-badge-icon02{ background-position: -114px -212px;}
+.li-badge-icon03{ background-position: -114px -250px;}
+.arrow-icon{ display: block; width: 74px; height: 74px; background: url("arrow-icon.png") no-repeat;}
+.arrow-left{ background-position: 0 0;}
+.arrow-right{ background-position: -82px 0;}
+.arrow-left-disable{ background-position: 0 -81px;}
+.arrow-right-disable{ background-position: -82px -81px;}
+/*icon--style-end*/
+.magic{ width: 100%; position: relative;}
+.magic .bgs{ position: absolute; width: 100%; min-width: 1000px; top: 0; left: 0;}
+.magic .bgs .bg01{ width: 100%; height: 200px; background: url("magic-bg-01.jpg?1.0.1") center top no-repeat;}
+.magic .bgs .bg02{ width: 100%; height: 220px; background: url("magic-bg-02.jpg?1.0.1") center top no-repeat;}
+.magic .bgs .bg03{ width: 100%; height: 545px; background: url("magic-bg-03.jpg") center top no-repeat;}
+.magic .bgs .bg04{ width: 100%; height: 694px; background: url("magic-bg-04.jpg") center top no-repeat;}
+.magic .main{ width: 1000px; margin: 0 auto; position: relative;}
+.magic .main .m-hd{ width: 100%;}
+.magic .main .m-hd p{  height: 120px; line-height: 120px; padding: 285px 65px 12px 65px; color: #9354c4; font-size: 18px; text-align: center;}
+.magic .main .m-mn{ width: 100%;}
+.magic .main .mn-top{ width: 873px; padding-top: 43px; margin: 0 auto 78px auto;}
+.magic .main .mn-top .mnt01{ overflow: hidden; height: 205px;}
+.magic .main .mn-top .mnt01 .mnt01-left{ width: 650px;float: left;}
+.magic .main .mn-top .mnt01 .mnt01-left .intro{ overflow: hidden; *zoom: 1; }
+.magic .main .mn-top .mnt01 .mnt01-left .intro img{ width: 76px; height: 76px; float: left;  border-radius: 76px; vertical-align: middle;}
+.magic .main .mn-top .mnt01 .mnt01-left .intro p{ display:block; float: left; margin: 22px 0 0 7px; background: url("info-txt-bg.png") no-repeat; width: 251px; height: 43px; line-height: 43px; font-size: 18px; color: #feffdd;}
+.magic .main .mn-top .mnt01 .mnt01-left .intro p span{ padding:0 10px; display: inline-block;}
+.magic .main .mn-top .mnt01 .mnt01-left .intro p span.first{width: 90px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;vertical-align: middle;text-align: center;}
+.magic .main .mn-top .mnt01 .mnt01-left .info{ overflow: hidden; *zoom: 1; font-size: 18px; color: #feffdd; padding-left: 90px;}
+.magic .main .mn-top .mnt01 .mnt01-left .info p{ float: left;}
+.magic .main .mn-top .mnt01 .mnt01-left .info p .circle{ display: inline-block; background: #ad71dd; padding: 10px; border-radius: 20px;}
+.magic .main .mn-top .mnt01 .mnt01-left .info p .num{ padding:10px; position: relative;*top: -10px;}
+.magic .main .mn-top .mnt01 .mnt01-left .info .intro-link{ display: inline-block; color: #9250c6; border-bottom: 2px solid #9250c6; padding: 10px 0 5px 0; margin-left: 10px;}
+.magic .main .mn-top .mnt01 .mnt01-left .describe{ padding: 35px; color: #9250c6; font-size: 18px;}
+.magic .main .mn-top .mnt01 .mnt01-right{ width: 165px;float: right; padding-top: 95px; margin-right: 27px;}
+.magic .main .mn-top .mnt01 .mnt01-right a{ font-size: 22px; color: #feffdd; text-align: center; line-height: 24px;}
+.magic .main .mn-top .mnt01 .mnt01-right a p{ padding: 18px 0 5px 0}
+.magic .main .mn-top .mnt01 .mnt01-right a .time{ font-size: 15px; padding: 0;}
+.magic .main .mn-top .mnt02{ position: relative; overflow: hidden; *zoom: 1;}
+.magic .main .mn-top .mnt02 .hd-link{position: absolute; top: 20px; right: 10px; font-size: 18px; color: #9250c6; padding-bottom: 5px; border-bottom: 2px solid #9250c6;}
+.magic .main .mn-top .mnt02 .mnt02-box{ padding: 15px 50px 0 62px;}
+.magic .main .mn-top .mnt02 .arrow-btn{ width: 72px; padding: 50px 0; cursor: pointer;}
+.magic .main .mn-top .mnt02 .arrow-btn-l{ float: left;}
+.magic .main .mn-top .mnt02 .arrow-btn-r{ float: right;}
+.magic .main .mn-top .mnt02 .mnt02-inner{ width: 558px; float: left; margin: 0 28px;overflow: hidden;}
+.magic .main .mn-top .mnt02 .mnt02-inner ul{ }
+.magic .main .mn-top .mnt02 .mnt02-inner li{ position: relative; width: 186px; height: 110px; float: left; padding: 32px 0; text-align: center; padding: 27px 0;}
+.magic .main .mn-top .mnt02 .mnt02-inner li .tips{ position: absolute; top: 0; left: 0; width: 140px; height: 42px; padding: 0 20px; line-height: 38px; font-size: 14px; color: #586000; text-align: center;}
+.magic .main .mn-top .mnt02 .mnt02-inner li .tips span{ color: #e44000;}
+.magic .main .mn-bottom{ width: 880px; margin: 0 auto; padding-left: 12px; overflow: hidden; margin-bottom: 220px;}
+.magic .main .mn-bottom .left{ float: left;}
+.magic .main .mn-bottom .right{ width: 420px; height: 297px; float: right; background: #d8a5ff; border: 4px solid #fff; border-radius: 20px;}
+.magic .main .mn-bottom .right .hd01{ width: 100%; height: 53px; text-align: center; line-height: 53px; border-bottom: 2px solid #fff; font-size: 24px; color: #9250c6; background: url("title-bg.png") no-repeat;}
+.magic .main .mn-bottom .right .hd02{ width: 100%; height: 72px; background: #aa63e2; color: #dfb7fe;}
+.magic .main .mn-bottom .right .hd02 p{ padding-left: 70px; font-size: 14px;}
+.magic .main .mn-bottom .right .hd02 p.txt-white{ color: #fff; font-size: 16px; padding: 18px 0 10px 70px;}
+.magic .main .mn-bottom .right .mn{height: 160px; overflow: hidden; overflow-y: auto;}
+.magic .main .mn-bottom .right .mn td{ font-size: 18px; height: 40px; padding-top:11px; text-align: center;}
+.magic .main .mn-bottom .right .mn td.avatar{ padding-left: 25px;}
+.magic .main .mn-bottom .right .mn td.avatar img{ vertical-align: middle; width: 34px; height: 34px; border-radius: 34px; border: 3px solid #aa63e2;}
+.magic .main .mn-bottom .right .mn td.name{ color: #feffdd;width: 60px;}
+.magic .main .mn-bottom .right .mn td.name div{width: 60px;  height: 40px; line-height: 40px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.magic .main .mn-bottom .right .mn td.time{width: 188px;}
+.magic .main .mn-bottom .right .mn td.time p{ display: block; float: left;}
+.magic .main .mn-bottom .right .mn td.time p span{ display: inline-block; background: #000; border-radius: 3px; margin: 0 2px; width: 18px; height: 27px; text-align: center; line-height: 27px; color: #feffdd; font-size: 18px;}
+.magic .main .mn-bottom .right .mn td.state{ color: #ec1548; width: 90px;}
+.magic .main .mn-bottom .js-remindQQStudent{position:absolute;top:0;right:32px;width:88px;height:35px;margin-top:10px;text-align:center;line-height:32px;font-size:16px;color:#fff;background:url(remindQQStudentBG.png) 0 0 no-repeat;}
+/*mac-ranking*/
+.mac-ranking{ width: 420px; height: 297px; background: #d8a5ff; border: 4px solid #fff; border-radius: 20px; overflow: hidden;}
+.mac-ranking .tab{ font-size: 24px; border: 2px solid #9250c6; background: #aa63e2; border-left: 0;overflow: hidden; *zoom: 1; border-radius: 4px 4px 0 0;}
+.mac-ranking .tab li{ float: left; cursor: pointer; height: 49px; line-height: 49px; width: 207px; text-align: center; color: #8241b5; border-left: 2px solid #9250c6;}
+.mac-ranking .tab li.active{ background: #bd80ee; color: #fff;}
+.mac-ranking .main{ width: 378px;}
+.mac-ranking .main table{ width: 100%;}
+.mac-ranking .main table td{ height: 30px; padding-top: 6px; text-align: center; font-size: 18px; color: #feffdd;}
+.mac-ranking .main table td.ranking{ width: 46px; padding-right: 20px; }
+.mac-ranking .main table td.name{ width: 87px;}
+.mac-ranking .main table td.title{ width: 145px;}
+.mac-ranking .main table td.count{ width: 90px;}
+.mac-ranking .main table td div.txt-over{ width: 100%; height: 30px; line-height: 30px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.mac-ranking .main table .magic-icon{ color: transparent;}
+.mac-ranking .main table .table-hd td{ border-bottom: 1px solid #9250c6; padding: 12px 0 5px 0; color: #9250c6;}
+.mac-ranking .nobody{font-size: 18px;line-height: 34px;margin-top: 80px;color: #9250c6;margin-left: 65px;}
+.mac-ranking .magic-pro-rank{background: url("magic-pros.png") no-repeat -154px 0; width: 118px; height: 118px;display: block;position: absolute;top: -18px;right: 25px;}
+/*magic-dialog*/
+.magic-dialog{ background: #d8a5ff; border: 4px solid #fff; border-radius:0 25px 25px 25px;}
+.magic-dialog .h3-title{ width: 254px; height: 66px; line-height: 88px; background: url("dialog-title-bg.png") no-repeat;text-align: center; color: #9250c6; font-size: 24px;margin-top: -63px; margin-left: -4px;}
+.magic-dialog .hat{ display: inline-block; width: 137px; height: 106px; background: url("hat.png") no-repeat; margin-left: 455px; margin-top: -76px;}
+/*magic-dialog01*/
+.magic-dialog01{ width: 866px; padding: 0 20px; height: 544px; background: url("magic-dialog-big.png") no-repeat;}
+.magic-dialog01 h3{ padding: 40px 0 25px 0; width: 208px; text-align: center; color: #9250c6; font-size: 24px;}
+.magic-dialog01 ul li{ float: left; width: 210px; height: 110px; padding: 17px 0; position: relative; zoom: 1;}
+.magic-dialog01 ul li .tips{ position: absolute; top: -4px; left: 50%; margin-left: -53.5px; line-height: 40px; font-size: 18px; text-align: center;}
+.magic-dialog01 ul li .mlabel-green{ color: #586000;}
+.magic-dialog01 ul li .mlabel-orange{ color: #5e1800;}
+/*magic-dialog02*/
+.magic-dialog02{ width:562px;}
+.magic-dialog02 .intro{ width: 452px; height: 29px; margin-left: 30px; text-align: center; line-height: 29px; background: #cf91ff; border-radius: 15px; color: #9250c6; font-size: 18px;}
+.magic-dialog02 .intro span{ color: #ffd200;}
+.magic-dialog02 .inner{ font-size: 18px; color: #9250c6; text-align: center; padding-bottom: 30px;}
+.magic-dialog02 .inner ul{ width: 530px; margin: 20px 0 0 20px; overflow: hidden; *zoom: 1; padding-bottom: 30px;}
+.magic-dialog02 .inner li{ float: left; padding: 0 14px; margin-bottom: 15px; text-align: center;}
+.magic-dialog02 .inner li img{ width: 60px; height: 60px; border: 6px solid #fff; border-radius: 60px; margin-bottom: 10px;}
+.magic-dialog02 .inner li p{ width: 72px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.magic-dialog02 .inner .noman{ width: 100%; clear: both;}
+.magic-dialog02 .inner .noman .avatar-none{ display: inline-block; margin: 18px 0; width: 98px; height: 98px; background: url("avatar-none.png") no-repeat;}
+/*magic-dialog03*/
+.magic-dialog03{ width: 556px;position: relative;}
+.magic-dialog03 .intro{  color: #9250c6; font-size: 14px; padding: 5px 0 17px 44px;}
+.magic-dialog03 .inner{ font-size: 18px; color: #9250c6; text-align: center;position:relative;}
+.magic-dialog03 .inner h3{margin-top:18px;border-radius:10px;border-bottom-left-radius:0;position:relative;left:-4px;float:left;background:#ac5de4;line-height:52px;font-size:18px;font-weight:bold;color:#fff;padding-left:48px;padding-right:16px;}
+.magic-dialog03 .inner h3:before{position:absolute;left:0;top:5px;transform:skewY(-45deg);content:' ';display:inline-block;width:6px;height:48px;background:#ac5de4;}
+.magic-dialog03 .inner h3 var{color:#fff000;font-style:normal}
+.magic-dialog03 .inner ul{ overflow: hidden; *zoom: 1; height: 204px;overflow-y: auto;background:#d08dff;padding-top:28px;padding-left:30px;width:526px;}
+.magic-dialog03 .inner li{ float: left; padding: 0 14px; position: relative;}
+.magic-dialog03 .inner li span.mbtn-success{ display: none; position: absolute; bottom: 32px; right: 12px;}
+.magic-dialog03 .inner li.success span.mbtn-success{ display: block;}
+.magic-dialog03 .inner li img{ width: 60px; height: 60px; border: 6px solid #fff; border-radius: 60px; margin-bottom: 10px; *margin-bottom: 5px;}
+.magic-dialog03 .inner li p{ width: 60px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.magic-dialog03 .inner .describe{ font-size: 14px; text-align: left; padding: 10px 0 25px 20px;}
+.magic-dialog03 .inner .describe span{ color: #ffd200;}
+.magic-dialog03 .inner a.magic-icons{ line-height: 50px; text-align: center; color: #feffdd; font-size: 22px; margin-bottom: 14px;}
+.magic-dialog03 .nobody{font-size: 18px;line-height: 34px;margin-top: 60px; margin-bottom: 108px;color: #9250c6;margin-left: 104px;}
+.magic-dialog03 .magic-pro-wakeup{background: url("magic-pros.png") no-repeat 0 0; width: 154px; height: 202px;display: block;position: absolute;top: 42px;right: 93px;}
+/*magic-dialog04*/
+.magic-dialog04{ width: 567px;    position: absolute;top: 212px;    left: 291px; z-index: 1;}
+.magic-dialog04.d-none{display: none;}
+.magic-dialog04 .inner{ margin-top: -32px; position: relative;}
+.magic-dialog04 .inner ul{ padding: 10px 0;}
+.magic-dialog04 .inner li{ height: 38px; line-height: 38px; padding-left: 40px; font-size: 18px; color: #9250c6;}
+.magic-dialog04 .inner li.even{ background: #cf91ff;}
+.magic-dialog04 .inner .codebox{ position: absolute; top: 35px; right: 50px; width: 130px; text-align: center;}
+.magic-dialog04 .inner .codebox .code{ display: inline-block; width: 128px; height: 131px; background: url("code-bg.png") no-repeat; margin-bottom: 5px;}
+.magic-dialog04 .inner .codebox .code img{ margin: 18px 0 0 -10px; width: 107px; height: 107px;}
+.magic-dialog04 .inner .codebox .txt{ color: #9250c6; font-size: 14px; line-height: 18px;}
+/*magic-dialog06*/
+.magic-dialog06{ }
+.magic-dialog06 h3{ width: 100%; height: 53px; text-align: center; line-height: 53px; font-size: 24px; color: #9250c6; background: url("title-bg.png") no-repeat;}
+.magic-dialog06 .inner{ padding: 0 0 0 26px;}
+.magic-dialog06 .inner .cartoon{ display: block; float: left; width: 148px; height: 219px; background: url("cartoon.png") no-repeat;}
+.magic-dialog06 .inner .txt{ padding: 70px 0; }
+.magic-dialog06 .inner .txt p{ line-height: 36px; font-size: 19px; color: #9250c6;}

@@ -1,0 +1,27 @@
+.mathpractice_big,.mathpractice_small{background-repeat: no-repeat !important; display:inline-block !important;  padding:0 !important;  margin:0 !important; overflow:hidden;}
+.mathpractice_small { width: 67px !important; height: 70px !important;}
+/*46-46 small*/
+.mathpractice_small_1{ background:url(../images/mathpractice/small/1.png)}
+.mathpractice_small_2{ background:url(../images/mathpractice/small/2.png)}
+.mathpractice_small_3{ background:url(../images/mathpractice/small/3.png)}
+.mathpractice_small_4{ background:url(../images/mathpractice/small/4.png)}
+.mathpractice_small_5{ background:url(../images/mathpractice/small/5.png)}
+.mathpractice_small_6{ background:url(../images/mathpractice/small/6.png)}
+.mathpractice_small_7{ background:url(../images/mathpractice/small/7.png)}
+/*70-70 defualt*/
+.mathpractice_big { width: 103px !important; height: 109px !important;}
+.mathpractice_big_1{ background:url(../images/mathpractice/big/1.png)}
+.mathpractice_big_2{ background:url(../images/mathpractice/big/2.png)}
+.mathpractice_big_3{ background:url(../images/mathpractice/big/3.png)}
+.mathpractice_big_4{ background:url(../images/mathpractice/big/4.png)}
+.mathpractice_big_5{ background:url(../images/mathpractice/big/5.png)}
+.mathpractice_big_6{ background:url(../images/mathpractice/big/6.png)}
+.mathpractice_big_7{ background:url(../images/mathpractice/big/7.png)}
+/*70-70 gray*/
+.mathpractice_big_g_1{ background:url(../images/mathpractice/big-gray/1.png)}
+.mathpractice_big_g_2{ background:url(../images/mathpractice/big-gray/2.png)}
+.mathpractice_big_g_3{ background:url(../images/mathpractice/big-gray/3.png)}
+.mathpractice_big_g_4{ background:url(../images/mathpractice/big-gray/4.png)}
+.mathpractice_big_g_5{ background:url(../images/mathpractice/big-gray/5.png)}
+.mathpractice_big_g_6{ background:url(../images/mathpractice/big-gray/6.png)}
+.mathpractice_big_g_7{ background:url(../images/mathpractice/big-gray/7.png)}

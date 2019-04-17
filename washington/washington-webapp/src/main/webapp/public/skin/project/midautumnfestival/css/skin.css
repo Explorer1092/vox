@@ -1,0 +1,27 @@
+html, body { width: 100%; height:100%; background:#eee;}
+body, button, input, select, textarea { font: 12px/1.125 Tahoma, Geneva, sans-serif; }
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { padding: 0; margin: 0;}
+input, button, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+li { list-style: none outside; }
+fieldset, img { vertical-align: middle; border: 0 none; }
+address, caption, cite, code, dfn, em, i, s, th, var { font-style: normal; font-weight: normal; }
+s { vertical-align: middle; font: 0px/0px arial;}
+a { color: #666; text-decoration: none; }
+a:hover { color: #39f; }/*overall wrap*/
+.clear { clear: both; font: 0pt/0 Arial; height: 0px; visibility: hidden; }
+/**/
+.postnAbs{ position:absolute; display:block; overflow:hidden; text-indent:-1000px; outline:none; }
+.main{ width:960px; margin:0 auto;}
+.main .header{ background:url(../images/1.jpg) no-repeat center 0; height: 90px;}
+.main .disp p{text-indent:-10000px;}
+.main .ctn1{ background:url(../images/2.jpg) no-repeat; height:398px;}
+.main .ctn2{ background:url(../images/3.jpg) no-repeat; height:303px;}
+.main .ctn3{ background:url(../images/4.jpg) no-repeat; height:323px;}
+.main .ctn4{ background:url(../images/5.jpg) no-repeat; height:309px;}
+.main .ctn5{ background:url(../images/6.jpg) no-repeat; height: 180px; position:relative;}
+/**/
+.footer { text-align:center; padding: 0 0 20px;}
+.footer .share{ color:#333; padding:5px;}
+.footer p{ line-height:18px; color:#999;}
+.footer .tel b{ font:bold 14px/1.125 arial; color:#a99067; padding: 0 05px;}

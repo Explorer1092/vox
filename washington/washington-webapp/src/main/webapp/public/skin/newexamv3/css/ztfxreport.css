@@ -1,0 +1,90 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:rgba(0,0,0,0)}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body{background-color:#f5f5f7}
+.rp-box-tea{width:1000px;margin:0 auto;background-color:#fdfdfd}
+.rp-box-tea .left{float:left;background-color:#fdfdfd;position:fixed;top:200px;left:50%;margin-left:-500px;width:289px;overflow:hidden}
+.rp-box-tea .left .left-fix{width:289px;margin-top:40px;overflow-y:auto;overflow-x:hidden}
+.rp-box-tea .left .left-item{margin-bottom:12px}
+.rp-box-tea .left .left-item .item-h1{font-family:PingFangSC-Medium;font-size:16px;color:#383838;line-height:24px;padding:6px 0 6px 40px;cursor:pointer}
+.rp-box-tea .left .left-item .item-h1 span{
+    display:inline-block;width:170px;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;vertical-align:middle}
+.rp-box-tea .left .left-item .item-h1 .icon_a{
+    vertical-align:middle;display:inline-block;width:14px;height:14px;float:right;margin-right:40px;margin-top:2px;
+    background-image:url(/public/skin/newexamv3/images/teareport/ico_jt.png);background-position:50% 50%;background-repeat:no-repeat;padding:4px}
+.rp-box-tea .left .left-item .item-h1 .icon_x{vertical-align:middle;display:inline-block;width:14px;height:14px;float:right;margin-right:40px;margin-top:2px;
+    background-image:url(/public/skin/newexamv3/images/teareport/ico_jt_x.png);background-position:50% 50%;background-repeat:no-repeat;padding:4px}
+.rp-box-tea .left .left-item .on{font-family:PingFangSC-Semibold;font-size:16px;color:#2384ff;background-color:rgba(35,132,255,.1)}
+.rp-box-tea .left .left-item .item-p li{
+    padding-left:60px;font-family:PingFangSC-Medium;font-size:14px;color:#595959;line-height:24px;padding:10px 50px 10px 60px;cursor:pointer;width:200px;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.rp-box-tea .right{float:right;width:610px;padding:0 50px;background-color:#fff;border-left:1px solid #e5e5e5;padding-bottom:50px}
+.rp-box-tea .right .title{font-family:PingFangSC-Semibold;font-size:24px;color:rgba(0,0,0,.85);line-height:24px;margin-top:50px;margin-bottom:13px}
+.rp-box-tea .right .title-small{font-family:PingFangSC-Semibold;font-size:20px;color:rgba(0,0,0,.85);line-height:24px;margin-top:50px;margin-bottom:13px}
+.rp-box-tea .right .content{font-family:PingFangSC-Medium;font-size:14px;color:#595959;line-height:24px}
+.rp-box-tea .right .pie-chart{width:540px;height:288px;background:#fff;border:1px solid #ddd;margin:0 auto;margin-top:30px}
+.rp-box-tea .right .pie-chart #container{width:100%;height:100%}
+.rp-box-tea .right .tu{font-family:PingFangSC-Regular;font-size:14px;color:#595959;line-height:20px;text-align:center;margin-top:20px}
+.rp-box-tea .right .notice{font-family:PingFangSC-Regular;font-size:14px;color:#595959;line-height:24px;margin-top:30px}
+.rp-box-tea .right .table .head-title1{font-family:PingFangSC-Medium;font-size:14px;color:#595959;line-height:24px;margin-bottom:20px;margin-top:30px;text-align:center}
+.rp-box-tea .right .table .tab-content{
+    border: 1px solid #DDDDDD;
+    width:100%;overflow:hidden;
+    -webkit-box-shadow:0 2px 6px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 2px 6px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.1);
+    box-shadow:0 2px 6px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.04),0 1px 2px 0 rgba(0,0,0,.1)}
+.rp-box-tea .right .table1 .tab-content tr td{font-family:PingFangSC-Medium;font-size:14px;color:#595959;vertical-align:middle}
+.rp-box-tea .right .table1 .tab-content tr td:nth-of-type(1){width:6px}
+.rp-box-tea .right .table1 .tab-content tr td:nth-of-type(2){width:120px;text-align:center}
+.rp-box-tea .right .table1 .tab-content tr td:nth-of-type(3){text-align:center;padding:14px}
+.rp-box-tea .right .table1 .tab-content .tab-th td{font-family:PingFangSC-Medium;font-size:14px;color:#595959;padding:10px 0}
+.rp-box-tea .right .table2 .tab-content tr{border-bottom:1px solid #aaa}
+.rp-box-tea .right .table2 .tab-content tr td{font-family:PingFangSC-Medium;font-size:12px;color:#595959;letter-spacing:.08px;line-height:20px;text-align:center;padding:20px 0}
+.rp-box-tea .right .table2 .tab-content tr td:nth-of-type(1){width:113px;text-align:center}
+.rp-box-tea .right .table2 .tab-content tr .ico-td img{display:block;width:24px;margin:0 auto}
+.rp-box-tea .right .table2 .tab-content .tab-th td{font-family:PingFangSC-Medium;font-size:14px;color:#333;letter-spacing:.09px;text-align:center;height:62px;line-height:62px;padding:0}
+.rp-box-tea .right .table3 .tab-content tr td{font-family:PingFangSC-Medium;font-size:14px;color:rgba(0,0,0,.65);vertical-align:middle;text-align:center;height:36px}
+.rp-box-tea .right .table3 .tab-content tr td span{display:block;width:40px;height:100%;line-height:36px;margin:0 auto;color:#fff}
+.rp-box-tea .right .table3 .tab-content tr td:nth-of-type(1){width:180px}
+.rp-box-tea .right .table4 .tab-content tr td{font-family:PingFangSC-Medium;font-size:14px;color:rgba(0,0,0,.65);text-align:center;padding:10px 0}
+.rp-box-tea .right .table4 .tab-content tr td:nth-of-type(1){width:6px}
+.rp-box-tea .right .table4 .tab-content .tab-th td{padding:20px 0}
+.rp-box-tea .right .table4 .item-icon{text-align:center;font-size:0;padding-top:20px;border-top:1px solid #DDDDDD}
+.rp-box-tea .right .table4 .item-icon li{display:inline-block;margin:0 15px}
+.rp-box-tea .right .table4 .item-icon li i{display:inline-block;width:8px;height:8px;background-color:red;-moz-border-radius:50%;border-radius:50%;margin-right:7px}
+.rp-box-tea .right .table4 .item-icon li span{font-family:PingFangSC-Regular;font-size:12px;color:#383838;letter-spacing:.08px}
+.rp-box-tea .right .table5 .tab-content tr td{
+    font-family:PingFangSC-Medium;font-size:14px;text-align:center;padding:10px 0}
+.rp-box-tea .right .table5 .tab-content tr td:nth-of-type(3){width:340px}
+.rp-box-tea .right .table5 .tab-content .tab-th td{font-family:PingFangSC-Medium;font-size:14px;color:#595959;text-align:center;padding:16px 0}
+.rp-box-tea .clear{clear:both}

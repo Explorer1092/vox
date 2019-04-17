@@ -1,0 +1,9 @@
+description = 'Utopia Service Mentor API'
+
+dependencies {
+    compile("com.voxlearning.alps:alps-api:${version_alps}")
+
+    compile("com.voxlearning.platform:utopia-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+}

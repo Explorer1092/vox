@@ -1,0 +1,139 @@
+/*
+* @authors your project
+* @author: zhaoy
+* @date    2016-05-17
+*/
+
+/* touch-reset */
+html, body, form, p, h1, h2, h3, h4, h5, h6, dl, ul, ol, li, dt, dd, select { margin: 0; padding: 0; }
+body, input, select, button, textarea{ font-family: TrebuchetMS, Rotobo, "Microsoft Yahei", sans-serif; }
+body, select, input, option { -webkit-text-size-adjust: none; }
+html { color: #333; font-size: 20px; line-height: 1.5; }
+ul, ol, li { list-style-type: none; }
+em, i { font-style: normal; }
+input, button, textarea { font-size: 16px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+a, a:visited { color: #333; }
+a { text-decoration: none; }
+a img { border: 0 none; }
+input[type="button"], input[type="text"], input[type="password"], input[type="submit"], input[type="search"], input[type="email"], input[type="number"], input[type="phone"], button, textarea { -webkit-appearance: none; -moz-appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { -webkit-tap-highlight-color: transparent; background-clip: padding-box; }
+.clearfix:after,.studentJuniorSchool-exercisesList li:after,.studentJuniorSchool-mallTop-bar:after,.studentJuniorSchool-mallInfo .infoFocus .focusInner:after,.studentJuniorSchool-mallList:after,.studentJuniorSchool-modulePlay .moduleDialoge:after,.studentJuniorSchool-modulePlay .moduleGrayBar .barInner:after { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+
+/* parentGuide */
+.parentGuide-wrap {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../../images/parent/receive_login_reward/parentGuide-bg-1.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+.parentGuide-head,.parentGuide-hdbg {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	line-height: 3.2rem;
+	font-style: italic;
+}
+.parentGuide-head {
+	top: 1.2rem;
+	color: #fff;
+}
+.parentGuide-hdbg {
+	top: 1rem;
+	color: rgba(71,85,198,0.9);
+}
+
+.parentGuide-main {
+	position: relative;
+	margin: 12.3rem 1.5rem 0;
+	background-color: #fff;
+	box-shadow: 0 0 0.5rem 0.4rem rgba(0,0,0,0.08);
+}
+.parentGuide-main:before {
+	position: absolute;
+	top: 7.4rem;
+	right: -1.05rem;
+	content: "";
+	width: 2.3rem;
+	height: 2.3rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../../images/parent/receive_login_reward/parentGuide-icon-2.png);
+}
+.parentGuide-main .mainTitle {
+	position: relative;
+	padding: 1rem 0 0;
+	text-align: center;
+}
+.parentGuide-main .mainTitle .tag {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 1rem;
+	min-width: 7.3rem;
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 2.3rem;
+	background-color: #bda997;
+	border-radius: 1.15rem;
+}
+.parentGuide-main .mainLine {
+	border-top: 5px #e8e9ed dotted;
+}
+.parentGuide-main .mainLine:after,.parentGuide-main .mainLine:before {
+	position: absolute;
+	top: -0.6rem;
+	content: "";
+	width: 0.5rem;
+	height: 1rem;
+	background-color: #6d80f6;
+}
+.parentGuide-main .mainLine:after {
+	left: -0.1rem;
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+.parentGuide-main .mainLine:before {
+	right: -0.1rem;
+	border-radius: 0.5rem 0 0 0.5rem;
+}
+.parentGuide-main .mainCont {
+	padding: 0.7rem 1.5rem 1.25rem;
+}
+.parentGuide-main .mainCont > div {
+	color: #714319;
+	font-size: 1.2rem;
+	line-height: 1.9rem;
+}
+
+.parentGuide-main .mainCont .list {
+	position: relative;
+	padding: 0 0 0 2.2rem;
+}
+.parentGuide-main .mainCont .list .tag {
+	position: absolute;
+	top: 0.2rem;
+	left: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	background-color: #714319;
+	border-radius: 100%;
+}
+.parentGuide-foot {
+	padding: 0 1.5rem 1.5rem;
+}
+.parentGuide-foot .btn {
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 4.5rem;
+	background-color: #5a5fd3;
+	cursor: pointer;
+}

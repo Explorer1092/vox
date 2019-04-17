@@ -1,0 +1,65 @@
+[v-cloak] { display: none }
+iframe{
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+.watermark{
+    position: absolute;
+    width: 184px;
+    height: 200px;
+    background:url(../images/teachingresource/watermark.png) no-repeat center;
+    background-size: 50% 50%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1087px) {
+    .watermark{
+        left : calc((100% - 720px)/2);
+    }
+}
+@media screen and (min-width: 1087px) and (max-width: 1336px) {
+    .watermark{
+        left : calc((100% - 1024px)/2);
+    }
+}
+@media screen and (min-width: 1337px) {
+    .watermark{
+        left : calc((100% - 1132px)/2);
+    }
+}
+@media screen and (max-height: 620px) {
+    .watermark{
+        top:calc((100% - 540px)/2);
+    }
+}
+@media screen and (min-height: 620px) and (max-height: 786px) {
+    .watermark{
+        top:calc((100% - 668px)/2);
+    }
+}
+@media screen and (min-height: 915px) {
+    .watermark{
+        top:calc((100% - 700px)/2);
+    }
+}
+
+@media screen and (max-width: 1087px) and (min-height: 915px) {
+    .watermark{
+        left : calc((100% - 720px)/2);
+        top : calc((100% - 540px)/2);
+    }
+}
+@media screen and (max-height: 620px)  and (max-width: 1087px){
+    .watermark{
+        left:calc((100% - 1132px)/2);
+        top:calc((100% - 540px)/2);
+    }
+}

@@ -1,0 +1,90 @@
+*{ padding: 0; margin: 0; appearance: none;}
+a{ text-decoration: none;}
+a,button,input{ outline: none;}
+html,body{ background: #eff2f6; font-family: "微软雅黑";}
+.m-wrap{ max-width: 640px; margin: 0 auto; position: relative;}
+/*grade-list*/
+.grade-list-main .grade-list-info{ clear: both; font-size: 24px; color: #000; padding: 35px 45px 25px 45px; border-bottom: 1px solid #d3d8df; width: 550px;}
+.grade-list-main .grade-list-info .grede-textarea{ width: 100%; height: 130px; outline-style: none; line-height: 30px; padding: 9px 0; background: transparent; margin-bottom: 20px; border: 2px dashed #91c6f9; font-size: 20px;}
+.grade-list-main .grade-list-des .grade-list-des-l{ float: left;}
+.grade-list-main .grade-list-des .grade-list-des-m{ float: left; margin: 0 36px; width: 143px;}
+.grade-list-main .grade-list-des .grade-list-des-r{ float: right;}
+.grade-list-main .grade-list-des-l p{ text-align: left; margin-bottom: 5px; line-height: 42px;}
+.grade-list-main .grade-list-des-m p{ text-align: center; margin-bottom: 5px;}
+.grade-list-main .grade-list-des-m p span{ display: block; cursor: pointer; float: left; margin-left: 3px; width: 25px; height: 25px; background: url(../../images/parent/onlineqa/star.png) no-repeat; background-position: -29px 0;}
+.grade-list-main .grade-list-des-m p span.star-yellow{ background-position: 0 0;}
+.grade-list-main .grade-list-des-r a.evaluate-btn{display: block; width: 132px; height: 45px; border-radius: 5px; background: #3c9dfc; border: 2px solid #147fcc;}
+.grade-list-main .grade-list-des-r a.evaluate-btn-pos{ margin-top: 20px;}
+.grade-list-main .grade-list-des-r a.evaluate-btn-text{ font-size: 24px; color: #fff; line-height: 45px; text-align: center;}
+/*buy-interface*/
+.buy-interface-wrap .buy-interface-main{ width: 580px; margin: 0 auto 70px auto;}
+.buy-interface-wrap .buy-interface-info h4{ color: #464646; font-size: 28px; height: 70px; font-weight: normal; line-height: 70px;}
+.buy-interface-wrap .buy-interface-info span{ display: block; cursor: pointer; width: 176px; height: 56px; line-height: 56px; float: left; color: #464646; margin: 0 20px 20px 0; text-align: center; background: #fff; border: 2px solid #dae6ee; border-radius: 5px;}
+.buy-interface-wrap .buy-interface-info span:nth-child(3n){ margin-right: 0;}
+.buy-interface-wrap .buy-interface-info span.selected-btn{ background: url(../../images/parent/onlineqa/selected-btn.png) no-repeat; border: 0; padding: 2px;}
+
+/*modify——start*/
+.buy-interface-wrap .select-text{ width: 100%; margin: 55px 0px; padding: 10px 0; border: 2px solid #d5d5d5; background: #fff; }
+.buy-interface-wrap .select-text p{ line-height: 30px; color: #6d6d6d; font-size: 18px; text-align: center;}
+.buy-interface-wrap .select-text h2{ font-size: 32px; font-weight: normal; text-align: center; padding: 20px 0;}
+/*end*/
+
+.buy-interface-wrap .select-type{ margin-bottom: 35px; font-size: 30px;}
+.buy-interface-wrap .select-time{ clear: both; font-size: 22px;}
+
+/*add——start*/
+.buy-interface-wrap .select-period span{ line-height: 27px; font-size: 22px; height: 53px; padding: 5px 0;}
+.buy-interface-wrap .select-period .select-period-s span{ line-height:53px;}
+.buy-interface-wrap .select-period span i{ font-style: normal; display: block; font-size: 14px; color: #6d6d6d;}
+.buy-interface-wrap .select-period span.selected-btn{ padding: 7px 2px; background: url(../../images/parent/onlineqa/selected-bigbtn.png) no-repeat; color: #464646;}
+/*end*/
+
+.buy-interface-wrap .select-price{ width: 580px; padding: 0 30px; background: #fff; height: 125px; line-height: 125px; border-top: 1px solid #d6dbe1; border-bottom: 1px solid #d6dbe1;}
+.buy-interface-wrap .select-price span{ font-size: 36px; color: #fa571f;}
+.buy-interface-wrap .select-price a{ display: block; width: 300px; height: 80px; border: 2px solid #c93d0d; border-radius: 8px; background: #fa571f;}
+.buy-interface-wrap .select-price a.buy-text{ line-height: 80px; text-align: center; color: #fff; font-size: 32px;}
+.buy-interface-wrap .select-price a.buy-pos{ float: right; margin: 24px 27px 0 0;}
+/*grade-layer*/
+.mask{ width: 100%; height: 100%; position:fixed; background:rgba(0,0,0,.7); z-index:99; left: 0; top:0;}
+.grade-layer{ width: 550px; height: 500px; position: absolute; z-index: 100; left: 50%; margin-left: -275px; top: 100px; background: #edf9ff; border: 1px solid #c5e7f6; border-radius: 5px;}
+.grade-layer .gl-close{ display: block; cursor: pointer; width: 30px; height: 30px; background: url(../../images/parent/onlineqa/close-btn.png) no-repeat; position: absolute; top: 0; right: 0; border-bottom: 1px solid #dbe6ee; border-left: 1px solid #dbe6ee;}
+.grade-layer .gl-info{ width: 510px; height: 385px; border: 1px solid #ccc; background: #fff; margin: 35px auto 18px auto;}
+.grade-layer .gl-info1{ width: 100%; height: 200px; border-bottom: 1px solid #ccc; overflow: auto;}
+.grade-layer .gl-publish{ width: 510px; margin: 0 auto;}
+.grade-layer .gl-publish a{ display: block; float: right; width: 114px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-size: 24px; background: #34bb9c; border-radius: 3px; border: 1px solid #1c876e;}
+.grade-layer .gl-info1 ul li{ list-style-type: none; overflow: hidden; *zoom: 1; padding: 5px 10px 15px 10px; line-height: 26px; font-size: 20px;}
+.grade-layer .gl-info1 ul li span{ float: right;}
+.grade-layer .gl-info2{ width: 490px; padding: 10px;}
+.grade-layer .gl-info2 h3{ font-size: 22px;}
+.grade-layer .gl-info2 textarea{ width: 100%; height: 110px; padding: 15px 0; color: #adadad; font-size: 26.5px; border: 0; outline-style: none;}
+.grade-layer .gl-info2 textarea::-webkit-input-placeholder{ color: #adadad;}
+/*comment*/
+.star span{display: inline-block; cursor: pointer; margin-left: 5px; width: 40px; height: 36px; background: url(../../images/parent/onlineqa/star-big.png) no-repeat; background-position: -50px 0;}
+.star span.star-active{ background-position: 0 0;}
+.comment-box{}
+/*初次评论*/
+.comment-box .commf-mn1{padding: 45px;height: 185px;border-bottom: 1px solid #d3d8df; background: #fff; overflow: hidden;}
+.comment-box .title{ width: 95px; height: 95px; border: 2px dashed #91c6f9; float: left;}
+.comment-box .comm-content{ width: 430px;float: right;}
+.comment-box .comm-content textarea{ width: 100%; height: 185px; font-size: 22px; color: #adadad; line-height: 36px; border: 0; outline-style: none;}
+.comment-box .commf-mn2{padding: 30px 45px;height: 40px;border-bottom: 1px solid #d3d8df; background: #fff; margin-bottom: 10px;}
+.comment-box .commf-mn3{padding: 35px 45px;height: 125px;border-bottom: 1px solid #d3d8df; border-top: 1px solid #d3d8df;margin-bottom: 10px; background: #fff;}
+.comment-box .commf-mn3 .speed{ height: 40px; margin-bottom: 40px; overflow: hidden;}
+.comment-box .commf-mn3 .quality{ height: 40px;overflow: hidden;}
+.comment-box .commstar .comm-left{ float: left; width: 40%; text-align: left; font-size: 24px; color: #000; font-family: "黑体";}
+.comment-box .commstar .comm-right{ float: right; width: 60%; text-align: right;}
+/*追加评论*/
+.comment-box .comms-mn1{ padding: 37px 45px; overflow: hidden; background: #fff; border-bottom: 1px solid #d3d8df;}
+.comment-box .comms-mn1 .title{ width: 104px; height: 84px;}
+.comment-box .comms-mn1 .comm-content{ width: 100%;min-height: 60px; padding-bottom: 35px; margin-bottom: 10px; border-bottom: 1px dashed #ccc; position: relative; font-size: 22px; color: #000; line-height: 30px;}
+.comment-box .comms-mn1 .comm-content:last-child{ border-bottom: 0;}
+.comment-box .comms-mn1 .comm-content p{ width:100%;min-height: 60px;word-break: break-all;word-wrap: break-word;}
+.comment-box .comms-mn1 .comm-content span{ position: absolute; right: 0; bottom: 5px; color: #787878; font-size: 14px;}
+.comment-box .comms-mn2{ padding: 26px 45px; background: #fff; border-bottom: 1px solid #d3d8df; margin-bottom: 10px;}
+.comment-box .comms-mn2 h2{ margin-bottom: 26px; font-size: 26px; font-family: "黑体";}
+.comment-box .comms-mn2 textarea{ width: 100%; height: 285px; color: #adadad; font-size: 26.5px; line-height: 30px; outline-style: none; border: 0;}
+
+.comment-box .comm-buttons{ padding: 40px; border-bottom: 1px solid #d3d8df; border-top: 1px solid #d3d8df; background: #fff;}
+.comment-box .comm-buttons .comm-btn{ display: block; width: 167px; height: 57px; background: #fa571f; border-radius: 8px; margin:0 auto; line-height: 57px; font-size: 24px; text-align: center; color: #fff; font-weight: bold;}
+.grade-play-box{ background: url(../../images/parent/onlineqa/play-icon.png) no-repeat center center rgba(0, 0, 0, 0.5); width: 554px; height: 100%; position: absolute; cursor: pointer;}
+.grade-play-box a{ display: block; width: 100%; height: 100%;}

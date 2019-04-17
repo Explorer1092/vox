@@ -1,0 +1,71 @@
+html{font-size: 20px;}
+body,html,input {font-family: "微软雅黑","Microsoft Yahei",Arial,"黑体"; line-height: 100%;}
+a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var,input{margin:0;padding:0}
+html, body{width: 100%;height: 100%; background: #eff2f6; color: #4e5656;}
+li,ul,ol{list-style: none}
+img{border:0;vertical-align:middle}
+em,i,u{font-style:normal}
+a, input, textarea {outline: 0}
+a {text-decoration: none}
+/*icon*/
+.w-icon{ display: inline-block; background-size: 100% 100%; background-repeat: no-repeat; vertical-align: middle;}
+.w-icon-check{ width:1.2rem; height: 1.2rem;background-image: url("../../images/teacher/homework/math/icon-check.png");}
+.w-icon-check.active{ background-image: url("../../images/teacher/homework/math/icon-check-active.png");}
+.w-icon-radio{ width: 1.2rem; height: 1.2rem; background-image: url("../../images/teacher/homework/math/icon-radio.png");}
+.w-icon-radio.active{ background-image: url("../../images/teacher/homework/math/icon-radio-active.png");}
+/*浮动*/
+.fl{ float: left;}
+.fr{ float: right;}
+.clear,.clr{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+/*文字*/
+.txt-l{ text-align: left;}
+.txt-r{ text-align: right;}
+.txt-c{ text-align: center;}
+.mhw-txtOverflow{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.txt-overflow{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+/*间距*/
+.mar-tb14{ margin: 0.7rem 0;}
+.mar-tb20{ margin: 1rem 0;}
+.mar-t14{ margin-top: 0.7rem;}
+.mar-t20{ margin-top: 1rem;}
+.mar-b14{ margin-bottom: 0.7rem;}
+.mar-b20{ margin-bottom: 1rem;}
+.mar-lr14{ margin: 0 0.7rem;}
+.mar-lr20{ margin: 0 1rem;}
+.mar-l14{ margin-left: 0.7rem;}
+.mar-l20{ margin-left: 1rem;}
+.mar-r14{ margin-right: 0.7rem;}
+.mar-r20{ margin-right: 1rem;}
+.pad-b14{ margin-bottom: 0.7rem;}
+.pad-30{ padding: 1rem;}
+.pad-tb20{ padding: 1rem 0;}
+.pad-tb30{ padding: 1.5rem 0;}
+.pad-lr20{ padding: 0 1rem;}
+.pad-lr30{ padding: 0 1.5rem;}
+/*按钮*/
+.w-btn{ display: block; padding: 1.2rem 0; background-color: #3c9dfc; border: 2px solid #0979ca; text-decoration: none; text-align: center; color: #fff; font-size: 1.6rem; line-height: 1.6rem; vertical-align: middle; border-radius: 0.3rem;}
+.w-btn-s{ padding: 0.8rem 0; font-size: 1.1rem; line-height: 1.1rem;}
+.w-btn.active{background-color: #50a6fa;}
+.w-btn-lightBlue{ background-color: #e1f0fc; border: 2px solid #abc1d3; color: #2180c1;}
+.w-btn-lightBlue.active{background-color: #ebf4fb;}
+.w-btn.disabled{background-color: #cccccc; border-color: #b3b3b3; cursor: default;}
+
+.loading_ajax_module_tip{background:rgba(0, 0, 0, .7) none repeat scroll 0 0;border-radius:20px;display:block;left:50%;margin-left:-155px;margin-top:-100px;position:fixed;text-align:center;top:50%;z-index:99;color:#FFF;padding:20px;width:300px}
+
+.topBanner_text{
+    border: 1px solid #FFFFC8; background-color: #FFFFC8; font-size: 20px; line-height: 40px;
+}
+.topBanner_text a{  color: red;  display:block; padding: 0 10px;}
+
+/*reset weui*/
+.weui_loading_toast .weui_toast_content{font-size: 20px;}
+.weui_label{width: 3rem;}
+.weui_toast {  position: fixed;  z-index: 3;  width: 9.6em;  min-height: 9.6em;  top: 30%;  left: 50%;}
+.weui_dialog_title{font-size: 23px;}
+.weui_dialog_bd{font-size: 20px;}
+.weui_dialog_ft{font-size: 23px; line-height: 60px;}
+.weui_dialog_bd{padding: 20px 20px;}
+
+

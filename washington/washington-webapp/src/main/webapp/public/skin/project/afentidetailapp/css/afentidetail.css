@@ -1,0 +1,60 @@
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+html{font:20px/1.5 "Microsoft YaHei",Arial}
+body,html{width:100%;height:100%;color:#333}
+body,input,option,select{-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+.aft-btn{margin:1rem;background:#5788b3;font-size:1.7rem}
+.aft-btn .arrow{display:inline-block;width:100%;padding:.75rem 0;text-align:center;color:#fff}
+.aft-btn .arrow .arrow-icon{display:inline-block;vertical-align:middle;margin:0 .5rem;width:1.7rem;height:1.7rem;background:url(../images/arrow-details.png) no-repeat;background-size:100% 100%}
+.aft-btn .arrow-orange{background-color:#f3f3f3;color:#ff9500}
+.aft-btn .arrow-orange .arrow-icon{background-image:url(../images/arrow1-details.png)}
+.aft-banner{width:100%;height:13.7rem;background:url(../images/banner.png) no-repeat;background-size:100% 100%}
+.aft-list{padding:1rem 1rem 1rem 2.8rem;font-size:1.1rem}
+.aft-list span{display:inline-block}
+.aft-list .txtYellow{color:#ffae00}
+.aft-list .txtGrey{color:#a8a8a8}
+.aft-list .txtBlue{color:#5b64f0}
+.aft-list .txtYelloe{color:#ffae00}
+.aft-list .title{padding:.7rem 0;font-size:1.3rem}
+.aft-list .title span{display:inline-block;padding:0 1rem;font-size:1.1rem;color:#8d8d8d}
+.aft-list .title02{position:relative;display:inline-block;margin:-4rem 0 1rem 0;padding-top:5rem;height:1.5rem}
+.aft-list .title02 .tit-text{margin-top:-.15rem;line-height:1.5rem;color:#fff}
+.aft-list .title02 .tit-text .text01{position:relative;display:inline-block;vertical-align:middle;top:-.2rem;width:8.5rem;text-align:center;font-size:1.3rem;font-weight:700}
+.aft-list .title02 .tit-text .text02{display:inline-block;margin:.15rem 0 0 -.3rem;padding:0 .2rem;background:#5ef7f0;line-height:1.5rem;font-size:1.1rem;color:#3073ff}
+.aft-list .title02 .icon-l{position:absolute;left:0;bottom:0;display:block;width:8.55rem;height:6.5rem;background:url(../images/title-left.png) no-repeat;background-size:100% 100%}
+.aft-list .title02 .icon-r{position:absolute;right:-1.5rem;bottom:0;display:block;width:1.5rem;height:1.5rem;background:url(../images/title-right.png) no-repeat;background-size:100% 100%}
+.aft-list .name{position:relative;color:#393939}
+.aft-list .text{position:relative;padding-left:1.7rem}
+.aft-list .circle-icon{position:absolute;left:.5rem;top:.7rem;display:inline-block;margin:0 .5rem 0 0;width:.5rem;height:.5rem;background:#7b82f4;border-radius:.1rem}
+.aft-list .label-icon{position:absolute;left:0;top:.1rem;display:inline-block;width:1.6rem;height:1.6rem;background:url(../images/label-icon.png) no-repeat;background-size:100% 100%}
+.aft-list .tips-icon{position:absolute;display:block;left:-2.7rem;top:.2rem;width:2.4rem;height:2.4rem;background:url(../images/tips-icon.png) no-repeat;background-size:100% 100%}
+.aft-list .pic{width:19rem;background-repeat:no-repeat;background-size:100% 100%}
+.aft-list .pic01{height:12.25rem;background-image:url(../images/detail-01.png)}
+.aft-list .pic02{height:12.4rem;background-image:url(../images/detail-02.png)}
+.aft-list .pic03{height:12.7rem;background-image:url(../images/detail-03.png)}
+.aft-list02{padding:1rem 1rem 3rem 1.2rem}
+.aft-list02 .info{padding-left:2.5rem}
+.aft-footer{background:#f4f5ff;padding:1.25rem 1.5rem .75rem 1.5rem}
+.aft-footer .buyBox{overflow:hidden;height:3.5rem;border-radius:.5rem;line-height:3.5rem;font-size:1.1rem}
+.aft-footer .buyBox:first-child{margin-bottom:1.75rem}
+.aft-footer .buyBox .logo{float:left;margin:0 1rem;width:7.1rem;height:3.5rem;background:url(../images/aft-logo-3.png) no-repeat;background-size:100% 100%}
+.aft-footer .englishBox{background:#caceff;color:#6b1dc2}
+.aft-footer .englishBox .logo{background:url(../images/aft-logo-1.png) no-repeat;background-size:100% 100%}
+.aft-footer .mathBox{background:#d3e3ff;color:#424ce4}
+.aft-footer .mathBox .logo{background:url(../images/aft-logo-2.png) no-repeat;background-size:100% 100%}
+.aft-footer .text{float:left}
+.aft-footer .btns{float:right;padding:.4rem 1rem;line-height:100%}
+.aft-footer .btns a{display:inline-block;width:5.5rem;height:2.25rem;background:#ffd83e;border-bottom:.3rem solid #ffb70f;border-radius:.7rem;overflow:hidden;line-height:2rem;text-align:center;font-size:1rem;color:#ca2e2e}
+.aft-footer .btns a:active{background:#ffe16a}
+.aft-footer .empty{width:100%;height:4.5rem}
+.aft-footer .fixedFooter{position:fixed;bottom:0;left:0;width:100%;background:#f4f5ff}
+.aft-footer .fixedFooter .buyBox{margin:1rem 1.5rem;background:#ffd4d4;height:4.4rem;line-height:4.4rem;color:#5b64f0;border-radius:0}
+.aft-footer .fixedFooter .buyBox .logo{margin-top:.4rem}
+.aft-footer .fixedFooter .buyBox .btns{padding:.75rem 1rem}

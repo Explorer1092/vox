@@ -1,0 +1,23 @@
+.videoPracticeBox .h-topicPackage{position:relative;width:100%;margin-bottom:20px}
+.videoPracticeBox .topicBox{position:relative;padding:20px 18px 0}
+.videoPracticeBox .topicBox ul{overflow:hidden}
+.videoPracticeBox .topicBox li{float:left;cursor:pointer;position:relative;margin:0 20px 20px 0;width:189px;height:40px;-webkit-box-pack:center;-webkit-box-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;background:#fff;padding:20px 15px;border:1px solid #dae6ee}
+.videoPracticeBox .topicBox li p{max-height:44px;padding:0;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;color:#4e5656;line-height:20px}
+.videoPracticeBox .topicBox li.active{background:#f5fbff;border-color:#189cfb}
+.videoPracticeBox .finR-video{margin-bottom:15px;padding:0 15px}
+.videoPracticeBox .finR-video .frv-left{position:relative;float:left;width:438px;height:300px;cursor:pointer;background-color:#d7dfe3}
+.videoPracticeBox .finR-video .frv-left img{width:100%;height:100%}
+.videoPracticeBox .finR-video .frv-left i{position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:50px;height:50px;background:url(../images/teachingresource/wrongPlay.png?v=fdba7b556c) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;z-index:1}
+.videoPracticeBox .finR-video .frv-right{margin-left:440px;padding:0 20px;height:300px;overflow-y:auto;line-height:30px;font-size:14px;color:#4e5656}
+.videoPracticeBox .h-set-homework{border:1px solid #dfdfdf;font-size:16px;-moz-border-radius:3px;border-radius:3px;margin:15px}
+.videoPracticeBox .h-set-homework .seth-hd{position:relative;padding:8px 0;overflow:hidden;border-bottom:1px solid #dfdfdf}
+.videoPracticeBox .h-set-homework .seth-hd .fl{float:left}
+.videoPracticeBox .h-set-homework .seth-hd span{display:inline-block;padding:0 15px;border-right:1px solid #dfdfdf;color:#7f96a3;font-size:14px}
+.videoPracticeBox .h-set-homework .seth-hd .noBorder{border:0}
+.videoPracticeBox .h-set-homework .seth-hd .fr{float:right}
+.videoPracticeBox .h-set-homework .seth-mn{padding:5px 15px}
+.videoPracticeBox .h-set-homework .seth-mn .inner{padding:15px 10px 50px}
+.videoPracticeBox .h-set-homework .seth-mn .inner .box{position:relative}
+.videoPracticeBox .h-set-homework .testPaper-info{position:relative;width:100%}
+.videoPracticeBox .h-set-homework .testPaper-info .linkGroup{position:absolute;bottom:0;left:0}
+.videoPracticeBox .h-set-homework .testPaper-info .linkGroup a{color:#189cfb}

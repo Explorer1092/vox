@@ -1,0 +1,112 @@
+.mc-margin15{ margin-top: 15px;}
+.clear{ clear: both;}
+.textOverflow{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.wc-wrap{ max-width: 640px; margin: 0 auto;}
+.wc-bgYellow{ background: #fff4d4; min-height: 100%;}
+.wc-btn{ display: inline-block; width: 170px; height: 48px; border-radius: 6px; line-height: 48px; text-align: center; color: #fff; font-size: 24px;}
+.wc-btn-well{ width: 115px; height: 36px; line-height: 36px; font-size: 20px;}
+.wc-btn-yellow{ background: #eab754; border: 2px solid #ca9328;}
+.wc-btn-orange{ background: #ea9054; border: 2px solid #c86b2d;}
+.wc-btn-green{ background: #b4d777; border: 2px solid #87a652; color: #799746;}
+.wc-btn-grey{ background: #cdcdcd; border: 2px solid #949292;}
+.wc-btnRed{ display: block; width: 580px; height: 70px; line-height: 70px;border-radius: 5px; background: #fd6c6c;border-bottom: 5px solid #d75c5c; color: #fff; font-size: 28px; text-align: center;}
+.wc-btnRed.active{  background: #b4423c; border-bottom: 5px solid #b4423c;}
+.wc-btnRed.disabled{  background: #b2b2b2; border-bottom: 5px solid #979797;}
+.wc-btnRed-well{ display: block; width: 540px; margin: 0 auto; height: 70px; line-height: 70px;border-radius: 5px; background: #fd6c6c;border-bottom: 5px solid #d75c5c;  color: #fff; font-size: 28px; text-align: center;}
+.wc-btnRed-well.active{ background: #b4423c; border-bottom: 5px solid #b4423c;}
+.wc-btnRed-well.disabled{ background: #b2b2b2; border-bottom: 5px solid #979797;}
+.wc-btnGreen{ font-size: 20px; display: block; width: 165px; height: 60px; line-height: 60px; text-align: center; border-radius: 5px; background: #13c695;border-bottom: 5px solid #10a87f; color: #fff;}
+.wc-btnGreen.active{ background: #10a87f; border-bottom: 5px solid #10a87f;}
+.wc-btnGreen.disabled{ background: #b2b2b2; border-bottom: 6px solid #979797;}
+.wc-btnRed-s{ display: block; width: 245px; height: 70px; line-height: 70px; text-align: center; color: #fff; border-radius: 5px; background: #fc5b4f; border-bottom: 6px solid #d64d43;}
+.wc-btnRed-s.disabled{ background: #b2b2b2; border-bottom: 6px solid #979797;}
+.wc-btnBlue-s{ display: block; width: 245px; height: 70px; line-height: 70px; text-align: center; color: #fff; border-radius: 5px; background: #4f9cfc; border-bottom: 6px solid #4385d6;}
+.wc-btnBlue-s.disabled{ background: #b2b2b2; border-bottom: 6px solid #979797;}
+/*wc-detailHeader*/
+.wc-detailHeader{ position: relative;}
+.wc-detailHeader .title{ position: absolute; top: 18px; left: 0; height: 53px; line-height: 53px; font-size: 26px; color: #fff;}
+.wc-detailHeader .title span{ display: inline-block; vertical-align: middle;}
+.wc-detailHeader .title .txt{  padding: 0 20px 0 20px; background: #fc5959;}
+.wc-detailHeader .title .rbg{  width: 28px; height: 53px; background: url("../../images/parent/wintercamp/detail-title.png") left top no-repeat;}
+/*wc-detailMain*/
+.wc-detailMain{ color: #926f51; padding: 0 32px; line-height: 30px;}
+.wc-detailMain h2{ padding: 35px 0 15px 0; font-weight: normal;}
+.wc-detailMain h3{ font-weight: normal;font-size: 22px;}
+.wc-detailMain .fontSize36{ font-size: 36px;}
+.wc-detailMain .fontSize20{ font-size: 20px;}
+.wc-detailMain .txtCenter{ text-align: center;}
+.wc-detailMain .txtleft{ text-align: left;}
+.wc-detailMain .txtRight{ text-align: right;}
+.wc-detailMain .fontWeight{ font-weight: bold;}
+.wc-detailMain .margin35{ margin-bottom: 35px;}
+.wc-detailMain .article{ padding: 20px 0;}
+.wc-detailMain .article .sub{ color:#317d2e;}
+.wc-detailMain .article table{ width: 100%; margin: 10px 0; border: 1px solid #c9ad8e; border-collapse: collapse; background: #ffeabc;}
+.wc-detailMain .article table td{  border: 1px solid #c9ad8e; text-align: center; padding: 10px 5px;}
+.wc-detailMain .article table tr.odd{border: 1px solid #317d2e;  line-height: 100%;background-color: #317d2e;color:#fff;}
+.wc-detailMain .article table tr.odd td{border: 1px solid #317d2e;}
+.wc-problem{ padding: 30px 32px;}
+.wc-problem h2{ padding: 35px 0;}
+.wc-right-nav{ position: fixed; right: 15px; bottom: 200px;}
+.wc-right-nav li{ width: 175px; height: 80px; background: rgba(0,0,0,.7); margin: 0 0 4px 0; line-height: 80px; text-align: center; font-size: 24px;}
+.wc-right-nav li a{ display: block; color: #fff;}
+/*wc-payox*/
+.wc-payBox{ height: 100%; position: relative;}
+.wc-payBox .banner img{ width: 100%; }
+.wc-payBox .pdm{ padding: 5px 20px; border-bottom: 1px solid #cdcccc; overflow: hidden;}
+.wc-payBox .pdm h4{ font-weight: normal; padding: 15px 0; color: #4b8fff;}
+.wc-payBox .intro p{ font-size: 24px; color: #4d5252; line-height: 38px;}
+.wc-payBox .intro p.txtGrey{ color: #adadad; font-size: 20px;}
+.wc-payBox .child h4{ margin-bottom: 15px;}
+.wc-payBox .child ul{ overflow: hidden; margin-left: 10px;}
+.wc-payBox .child ul li{height: 138px; width: 120px; float: left; position: relative; cursor: pointer; text-align: center;}
+.wc-payBox .child ul li img{ width: 80px; height: 80px; border-radius: 80px; margin-bottom: 3px;}
+.wc-payBox .child ul li p{ width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wc-payBox .child ul li i{ position: absolute; bottom: 45px; right: 18px; display: block; width: 32px; height: 32px;}
+.wc-payBox .child ul li.active i{ background: url(../../images/parent/wintercamp/period.png) 0 -93px no-repeat;}
+.wc-payBox .child ul li.succeed i{ background: url(../../images/parent/wintercamp/payed-icon.png) no-repeat; width: 76px; height: 28px; right: -10px;}
+.wc-payBox .period{ border-bottom: 0;}
+.wc-payBox .period ul{ width: 590px;}
+.wc-payBox .period ul li{ width: 584px; cursor: pointer; padding-right: 6px; margin: 0 20px 24px 0;  background: url(../../images/parent/wintercamp/w.jpg) right top repeat-y;}
+.wc-payBox .period ul li.active{ background:url(../../images/parent/wintercamp/c.jpg) right top repeat-y;}
+.wc-payBox .period ul li.disabled{ background:url(../../images/parent/wintercamp/d.png) right top repeat-y;}
+.wc-payBox .period ul li table{ width: 585px; color: #ff9b2f; font-size: 24px; line-height: 40px; padding: 15px 10px 15px 15px; border: 1px solid #ff9b2f; border-right: 0; border-radius: 5px 0 0 5px;}
+.wc-payBox .period ul li.active table{ color: #fff; background: #ff9b2f; }
+.wc-payBox .period ul li.disabled table{ color: #979797; background: #e6e6e6; border-color: #9a9a9a;}
+.wc-payBox .period ul li table .wtxt{ width: 200px;}
+.wc-payBox .period ul li table .wprice{ width:130px; text-align: right;}
+.wc-payBox .sfooter{ width: 100%; max-width: 640px; position: fixed; bottom: 0; left: 50%; margin-left: -320px; overflow: hidden; height: 97px; line-height: 97px; text-align: center; color: #fff;}
+.wc-payBox .sfooter .pf-l{ width: 66%; float: left;  background: #333; text-align: left;}
+.wc-payBox .sfooter .pf-l span{ font-size: 26px; padding-left: 30px;}
+.wc-payBox .sfooter .pf-l span strong{ color: #ff4e1e; font-size: 42px; font-weight: normal;}
+.wc-payBox .sfooter .pf-r{ float: left; width: 34%; height: 97px; background: #ff9b2f; font-size: 36px;}
+.wc-payBox .sfooter .pf-r a{ color: #fff;}
+.wc-payBox .pay-success a{ display: block; color: #fff; font-size: 32px; background: #858585;}
+.wc-payBox .empty{ width: 100%; height: 100px;}
+/*wc-signBox*/
+.wc-signBox{ height: 100%; position: relative; padding-top: 70px;}
+.wc-signBox .header{ width: 600px; height: 135px; padding: 10px 0; background: #f3e6be; margin: 0 auto 55px auto; border-radius: 10px;}
+.wc-signBox .header .left{ width: 125px; float: left; margin-left: 20px;}
+.wc-signBox .header .left .title{ position: relative; z-index: 2; width: 140px; height: 37px; background: url("../../images/parent/wintercamp/payup-top-title.png") no-repeat; margin: 0 0 0 -10px;  line-height: 30px; text-align: center; font-size: 15px; color: #fff;}
+.wc-signBox .header .left img{ width: 118px; height: 116px; border: 2px solid #fc9e59; border-radius: 5px; margin-top: -20px;}
+.wc-signBox .header .right{ float: left; width: 440px; font-size: 20px; color: #955e28;}
+.wc-signBox .header .right .info{ padding: 0 25px; line-height: 32px;}
+.wc-signBox .header .right h1{ font-size: 30px; font-weight: normal; padding: 15px 0 10px 0;}
+.wc-signBox .main{ width: 580px; padding: 0 20px;}
+.wc-signBox .main .yx-form{ overflow: hidden; padding: 0 20px;}
+.wc-signBox .main .yx-form .left{ width: 350px; float: left;}
+.wc-signBox .main .yx-form .left input{ width: 324px; padding: 0 14px; height: 65px; outline-style: none; line-height: 65px; border: none; font-size: 22px; color: #b2b2b2; margin-bottom: 20px; background: #fff; border-radius: 5px;}
+.wc-signBox .main .yx-form .right{ float: right;}
+/*paySure-header*/
+.wc-paySure .paySure-header{ position: relative;}
+.wc-paySure .paySure-header .title{ position: absolute; top: 0; left: 0; width: 100%; height: 53px; background: url("../../images/parent/wintercamp/paySure-top-title.png") no-repeat; line-height: 44px; text-align: center; font-size: 25px; color: #fff;}
+.wc-paySure .paySure-main{ padding: 45px 15px 70px 15px;}
+.wc-paySure .paySure-main p{ margin-bottom: 28px; font-size: 22px; color: #986729; padding-left: 25px;}
+.wc-paySure .paySure-main .wc-btnRed{ margin: 75px auto;}
+/*wc-success*/
+.wc-success .successHeader{ width: 100%; height: 240px; background: url("../../images/parent/wintercamp/success-top.png") no-repeat;}
+.wc-success .successMain{ padding: 90px 30px;}
+.wc-success .successMain p{ font-size: 30px; color: #666666; text-align: center; line-height: 42px;}
+.wc-success .successMain .tips{ padding: 35px 0 ;}
+.wc-success .successMain .btns{ padding: 35px 0;}
+.wc-success .successMain .btns a{ float: left; margin-left: 33px;}

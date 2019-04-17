@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	                       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <import resource="classpath*:/config/utopia-cdn.xml"/>
+
+    <import resource="classpath*:/config/ucenter-core.xml"/>
+
+    <context:component-scan base-package="com.voxlearning"/>
+
+    <bean class="com.voxlearning.ucenter.interceptor.ControllerRequestInterceptor"
+          p:includePatterns="/**"
+          p:order="1"/>
+
+    <bean class="com.voxlearning.ucenter.support.UcenterAuthenticationHandler">
+        <property name="limitedUrls">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="/parent/" value="ROLE_PARENT"/>
+                <entry key="/student/" value="ROLE_STUDENT,ROLE_STUDENT_REP"/>
+                <entry key="/teacher/" value="ROLE_TEACHER,ROLE_TEACHER_REO"/>
+                <entry key="/ambassador/" value="ROLE_TEACHER,ROLE_TEACHER_REO"/>
+                <entry key="/rstaff/" value="ROLE_RESEARCH_STAFF"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean class="com.voxlearning.alps.webmvc.view.AlpsFreemarkerViewResolver"
+          p:name="default"
+          p:templateLoaderPaths="/WEB-INF/ftl/default"
+          p:autoImport="/common/config.ftl as app,/common/flash.ftl as flash,/common/ftlmacro.ftl as ftlmacro,/nuwa/sugar.ftl as sugar"/>
+
+</beans>

@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_yunketang",
+    "package_name": "com.yqxue.yqxue",
+    "sha256_cert_fingerprints": ["DB:42:67:EA:F7:D8:22:AF:96:11:A7:D0:DC:E1:E7:D9:DE:41:EC:42:71:CF:18:E4:06:14:9A:2A:7B:30:0D:E8"]
+  }
+}]

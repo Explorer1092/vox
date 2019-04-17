@@ -1,0 +1,1091 @@
+{
+    "startTime": "2013-07-01 00:00:00",
+    "normFinishTime": 239,
+    "homework": [
+        {
+            "lessons": [
+                {
+                    "value": "8790001",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 2,
+                            "value": "星球大战",
+                            "key": 16
+                        },
+                        {
+                            "time": 1,
+                            "value": "正义法官",
+                            "key": 17
+                        },
+                        {
+                            "time": 3,
+                            "value": "神奇树屋",
+                            "key": 30
+                        },
+                        {
+                            "time": 3,
+                            "value": "新丁厨师",
+                            "key": 32
+                        },
+                        {
+                            "time": 2,
+                            "value": "海底世界",
+                            "key": 35
+                        },
+                        {
+                            "time": 6,
+                            "value": "降龙勇士",
+                            "key": 39
+                        },
+                        {
+                            "time": 1,
+                            "value": "超级弹跳",
+                            "key": 43
+                        },
+                        {
+                            "time": 2,
+                            "value": "功夫小子",
+                            "key": 47
+                        },
+                        {
+                            "time": 1,
+                            "value": "火热节拍",
+                            "key": 48
+                        }
+                    ],
+                    "key": 8790001
+                },
+                {
+                    "value": "8790002",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "疯狂游戏机",
+                            "key": 29
+                        },
+                        {
+                            "time": 1,
+                            "value": "金手指",
+                            "key": 31
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8790002
+                },
+                {
+                    "value": "8790003",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        },
+                        {
+                            "time": 1,
+                            "value": "超级孵化室",
+                            "key": 27
+                        }
+                    ],
+                    "key": 8790003
+                }
+            ],
+            "unitName": "第879单元",
+            "bookId": 878,
+            "ptime": 32,
+            "unitId": 879,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8800004",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 2,
+                            "value": "星球大战",
+                            "key": 16
+                        },
+                        {
+                            "time": 1,
+                            "value": "正义法官",
+                            "key": 17
+                        },
+                        {
+                            "time": 3,
+                            "value": "神奇树屋",
+                            "key": 30
+                        },
+                        {
+                            "time": 3,
+                            "value": "海底世界",
+                            "key": 35
+                        },
+                        {
+                            "time": 2,
+                            "value": "降龙勇士",
+                            "key": 39
+                        },
+                        {
+                            "time": 2,
+                            "value": "超级弹跳",
+                            "key": 43
+                        },
+                        {
+                            "time": 2,
+                            "value": "功夫小子",
+                            "key": 47
+                        },
+                        {
+                            "time": 2,
+                            "value": "火热节拍",
+                            "key": 48
+                        }
+                    ],
+                    "key": 8800004
+                },
+                {
+                    "value": "8800005",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "疯狂游戏机",
+                            "key": 29
+                        },
+                        {
+                            "time": 1,
+                            "value": "金手指",
+                            "key": 31
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8800005
+                },
+                {
+                    "value": "8800006",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        },
+                        {
+                            "time": 1,
+                            "value": "超级孵化室",
+                            "key": 27
+                        }
+                    ],
+                    "key": 8800006
+                }
+            ],
+            "unitName": "第880单元",
+            "bookId": 878,
+            "ptime": 28,
+            "unitId": 880,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8800007",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 1,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 1,
+                            "value": "星球大战",
+                            "key": 16
+                        },
+                        {
+                            "time": 1,
+                            "value": "正义法官",
+                            "key": 17
+                        },
+                        {
+                            "time": 2,
+                            "value": "神奇树屋",
+                            "key": 30
+                        },
+                        {
+                            "time": 2,
+                            "value": "新丁厨师",
+                            "key": 32
+                        },
+                        {
+                            "time": 1,
+                            "value": "海底世界",
+                            "key": 35
+                        },
+                        {
+                            "time": 4,
+                            "value": "降龙勇士",
+                            "key": 39
+                        },
+                        {
+                            "time": 1,
+                            "value": "超级弹跳",
+                            "key": 43
+                        },
+                        {
+                            "time": 1,
+                            "value": "功夫小子",
+                            "key": 47
+                        },
+                        {
+                            "time": 1,
+                            "value": "火热节拍",
+                            "key": 48
+                        }
+                    ],
+                    "key": 8810007
+                },
+                {
+                    "value": "8810008",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "疯狂游戏机",
+                            "key": 29
+                        },
+                        {
+                            "time": 1,
+                            "value": "金手指",
+                            "key": 31
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8810008
+                },
+                {
+                    "value": "8800009",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        },
+                        {
+                            "time": 1,
+                            "value": "超级孵化室",
+                            "key": 27
+                        }
+                    ],
+                    "key": 8810009
+                }
+            ],
+            "unitName": "第881单元",
+            "bookId": 878,
+            "ptime": 24,
+            "unitId": 881,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8820010",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 8,
+                            "value": "降龙勇士",
+                            "key": 39
+                        },
+                        {
+                            "time": 2,
+                            "value": "火热节拍",
+                            "key": 48
+                        }
+                    ],
+                    "key": 8820010
+                },
+                {
+                    "value": "8820011",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8820011
+                },
+                {
+                    "value": "8800012",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8820012
+                }
+            ],
+            "unitName": "第882单元",
+            "bookId": 878,
+            "ptime": 18,
+            "unitId": 882,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8830013",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 6,
+                            "value": "降龙勇士",
+                            "key": 39
+                        }
+                    ],
+                    "key": 8830013
+                },
+                {
+                    "value": "8830014",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8830014
+                },
+                {
+                    "value": "8830015",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8830015
+                }
+            ],
+            "unitName": "第883单元",
+            "bookId": 878,
+            "ptime": 14,
+            "unitId": 883,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8840016",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 8,
+                            "value": "降龙勇士",
+                            "key": 39
+                        }
+                    ],
+                    "key": 8840016
+                },
+                {
+                    "value": "8840017",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8840017
+                },
+                {
+                    "value": "8840018",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8840018
+                }
+            ],
+            "unitName": "第884单元",
+            "bookId": 878,
+            "ptime": 16,
+            "unitId": 884,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8850019",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8850019
+                },
+                {
+                    "value": "8850020",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8850020
+                },
+                {
+                    "value": "8850021",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8850021
+                }
+            ],
+            "unitName": "第885单元",
+            "bookId": 878,
+            "ptime": 8,
+            "unitId": 885,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8860022",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 1,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 1,
+                            "value": "火热节拍",
+                            "key": 48
+                        }
+                    ],
+                    "key": 8860022
+                },
+                {
+                    "value": "8860023",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8860023
+                },
+                {
+                    "value": "8860024",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8860024
+                }
+            ],
+            "unitName": "第886单元",
+            "bookId": 878,
+            "ptime": 8,
+            "unitId": 886,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8870025",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 3,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8870025
+                },
+                {
+                    "value": "8870026",
+                    "childs": [
+                        {
+                            "time": 4,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 2,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 4,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8870026
+                },
+                {
+                    "value": "8870027",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8870027
+                }
+            ],
+            "unitName": "第887单元",
+            "bookId": 878,
+            "ptime": 16,
+            "unitId": 887,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8880028",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 3,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8880028
+                },
+                {
+                    "value": "8880029",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8880029
+                },
+                {
+                    "value": "8880030",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8880030
+                }
+            ],
+            "unitName": "第888单元",
+            "bookId": 878,
+            "ptime": 9,
+            "unitId": 888,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8890031",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8890031
+                },
+                {
+                    "value": "8890032",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 1,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 1,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8890032
+                },
+                {
+                    "value": "8890033",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8890033
+                }
+            ],
+            "unitName": "第889单元",
+            "bookId": 878,
+            "ptime": 8,
+            "unitId": 889,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8900034",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 3,
+                            "value": "垂钓高手",
+                            "key": 15
+                        },
+                        {
+                            "time": 3,
+                            "value": "星球大战",
+                            "key": 16
+                        },
+                        {
+                            "time": 1,
+                            "value": "正义法官",
+                            "key": 17
+                        },
+                        {
+                            "time": 4,
+                            "value": "神奇树屋",
+                            "key": 30
+                        }
+                    ],
+                    "key": 8900034
+                },
+                {
+                    "value": "8900035",
+                    "childs": [
+                        {
+                            "time": 4,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 2,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 4,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8900035
+                },
+                {
+                    "value": "8900036",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8900036
+                }
+            ],
+            "unitName": "第890单元",
+            "bookId": 878,
+            "ptime": 24,
+            "unitId": 890,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8910037",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 1,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 2,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8910037
+                },
+                {
+                    "value": "8910038",
+                    "childs": [
+                        {
+                            "time": 4,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 2,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 4,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8910038
+                },
+                {
+                    "value": "8910039",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8910039
+                }
+            ],
+            "unitName": "第891单元",
+            "bookId": 878,
+            "ptime": 15,
+            "unitId": 891,
+            "bookName": "湘少"
+        },
+        {
+            "lessons": [
+                {
+                    "value": "8920040",
+                    "childs": [
+                        {
+                            "time": 1,
+                            "value": "单词大灌篮",
+                            "key": 13
+                        },
+                        {
+                            "time": 2,
+                            "value": "打地鼠",
+                            "key": 14
+                        },
+                        {
+                            "time": 4,
+                            "value": "垂钓高手",
+                            "key": 15
+                        }
+                    ],
+                    "key": 8920040
+                },
+                {
+                    "value": "8920041",
+                    "childs": [
+                        {
+                            "time": 4,
+                            "value": "跟读练习",
+                            "key": 1
+                        },
+                        {
+                            "time": 2,
+                            "value": "背诵课文",
+                            "key": 11
+                        },
+                        {
+                            "time": 4,
+                            "value": "魔法暗语",
+                            "key": 33
+                        }
+                    ],
+                    "key": 8920041
+                },
+                {
+                    "value": "8920042",
+                    "childs": [
+                        {
+                            "time": 2,
+                            "value": "拆弹专家",
+                            "key": 12
+                        }
+                    ],
+                    "key": 8920042
+                }
+            ],
+            "unitName": "第892单元",
+            "bookId": 878,
+            "ptime": 19,
+            "unitId": 892,
+            "bookName": "湘少"
+        }
+    ],
+    "clazzIds": 10001,
+    "endTime": "2013-08-01 00:00:00"
+}

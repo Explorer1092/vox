@@ -1,0 +1,89 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body{background-color:#eff2f6}
+.termEnd-banner{width:100%;min-width:1000px;height:320px;margin-bottom:10px;background:url(../images/banner.jpg?v=8fba51d114) no-repeat 50% 50%}
+.termEnd-main{width:1000px;margin:0 auto}
+.termEnd-main .termEnd-name{padding:10px 0;font-size:28px;color:#ff613c;line-height:38px;text-align:center}
+.termEnd-main .termEnd-name .pIcon{display:inline-block;margin:0 20px;width:42px;height:19px;background-repeat:no-repeat}
+.termEnd-main .termEnd-name .pIcon.pIcon-l{background-image:url(../images/f-icon05.png?v=85f9a95ea2)}
+.termEnd-main .termEnd-name .pIcon.pIcon-r{background-image:url(../images/f-icon06.png?v=b72dc74b3b)}
+.termEnd-main .noContent{padding:40px 0;line-height:18px;text-align:center;font-size:16px;color:#7f96a3}
+.termEnd-main .noContent .emptyIcon{display:inline-block;width:70px;height:67px;background:url(../images/f-icon07.png?v=cf6cb6dc02) no-repeat}
+.termEnd-main .btnBox{padding:20px 0 40px 0;text-align:center}
+.termEnd-main .btnBox .w-btn{width:218px;padding:19px 0}
+.termEnd-section{margin-bottom:20px;padding:0 40px 20px;background-color:#fff;border:1px solid #dae6ee;border-radius:3px}
+.termEnd-section .hd{position:relative;padding:20px 0;border-bottom:1px solid #eff2f6;font-size:22px;color:#f60;line-height:22px}
+.termEnd-section .hd .label{display:inline-block;margin:0 10px 0 20px;width:106px;height:40px;background:url(../images/f-icon08.png?v=ea9720a01b) no-repeat;background-size:100% 100%;text-align:center;line-height:40px;font-size:22px;color:#fff}
+.termEnd-section .hd .clazzSelect{position:absolute;top:20px;right:0;width:170px;line-height:40px;text-align:center;font-size:20px;color:#15a6ee}
+.termEnd-section .hd .clazzSelect .arrowIcon{position:relative;top:-2px;margin:0 5px;display:inline-block;width:16px;height:9px;background:url(../images/f-icon10.png?v=17613758c8) no-repeat;transform:rotate(-180deg)}
+.termEnd-section .hd .clazzSelect .selectBox{position:relative;display:none;margin-top:10px}
+.termEnd-section .hd .clazzSelect .selectBox ul{max-height:220px;overflow-y:auto;background-color:#fff;border:1px solid #dae6ee;border-radius:3px}
+.termEnd-section .hd .clazzSelect .selectBox li{cursor:pointer;line-height:44px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#868f9c}
+.termEnd-section .hd .clazzSelect .selectBox li.active{color:#15a6ee}
+.termEnd-section .hd .clazzSelect .selectBox li:hover{color:#15a6ee}
+.termEnd-section .hd .clazzSelect .selectBox:before{position:absolute;left:50%;top:-10px;margin-left:-9px;display:block;content:"";width:18px;height:12px;background:url(../images/f-icon11.png?v=9fa7a91e7e) no-repeat}
+.termEnd-section .hd .clazzSelect.show .arrowIcon{transform:rotate(0);background:url(../images/f-icon10.png?v=17613758c8) no-repeat}
+.termEnd-section .hd .clazzSelect.show .selectBox{display:block}
+.termEnd-section .informTxt{padding:20px;line-height:36px;font-size:18px;color:#3e3e3e}
+.termEnd-section .txtRed{color:#f60}
+.termEnd-section .txtGray{font-size:14px;color:#868f9c}
+.termEnd-section .txtBlue{color:#15a6ee}
+.termEnd-section .txtGray-s{font-size:12px;color:#868f9c}
+.termEnd-section .txtOrange-s{font-size:12px;color:#f60}
+.termEnd-section .rewardList{margin:0 20px 20px;padding:25px 40px;background-color:#f3fafe;border-radius:10px;line-height:26px;font-size:18px;color:#3f3f3f}
+.termEnd-section .rewardList .info{margin-right:250px}
+.termEnd-section .rewardList .info .label{position:relative;top:-2px;margin-left:10px;display:inline-block;vertical-align:middle;background-color:#f3fafe;border:1px solid #15a6ee;border-radius:6px;width:68px;height:20px;line-height:20px;text-align:center;font-size:14px;color:#15a6ee}
+.termEnd-section .rewardList .reward{float:right;border-left:1px solid #dae6ee;padding-left:20px;width:230px;text-align:center}
+.termEnd-section .rulesBox{margin-bottom:24px;padding:0 20px;line-height:24px;font-size:16px;color:#3f3f3f}
+.termEnd-section .rankingBox .title{text-align:center;line-height:44px;font-size:28px;color:#4c5065}
+.termEnd-section .rankingBox .title .tIcon{display:inline-block;margin:0 15px;content:"";width:46px;height:20px;background:url(../images/f-icon04.png?v=2f502493a7) no-repeat}
+.termEnd-section .rankingBox .time{text-align:center;font-size:16px;color:#7f8b9f;line-height:16px}
+.termEnd-section .rankingBox .tableRank{margin:16px 10px;background:#fff;border:1px solid #dae6ee;border-radius:3px;width:100%;color:#595757}
+.termEnd-section .rankingBox .tableRank table{width:100%}
+.termEnd-section .rankingBox .tableRank thead{line-height:28px;font-size:20px}
+.termEnd-section .rankingBox .tableRank tbody{font-size:18px}
+.termEnd-section .rankingBox .tableRank .current{background-color:#f6fcff}
+.termEnd-section .rankingBox .tableRank td{border-bottom:1px solid #f5f8fa;padding:16px 0;text-align:center;vertical-align:middle}
+.termEnd-section .rankingBox .tableRank .num{font-size:22px}
+.termEnd-section .rankingBox .tableRank .num.num01,.termEnd-section .rankingBox .tableRank .num.num02,.termEnd-section .rankingBox .tableRank .num.num03{display:inline-block;width:30px;height:41px;font-size:0}
+.termEnd-section .rankingBox .tableRank .num.num01{background:url(../images/f-icon01.png?v=b25b9bf4c6) no-repeat}
+.termEnd-section .rankingBox .tableRank .num.num02{background:url(../images/f-icon02.png?v=d281e5c879) no-repeat}
+.termEnd-section .rankingBox .tableRank .num.num03{background:url(../images/f-icon03.png?v=4f57fe42e9) no-repeat}
+.termEnd-section .rankingBox .tableRank .schoolName{padding-left:70px;text-align:left}
+.termEnd-section .rankingBox .tableRank .clazz{padding-left:70px;text-align:left;font-size:14px;color:#909aaa}
+.termEnd-section .rankingBox .tableRank .count{color:#909aaa}
+.termEnd-section .rankingBox .showMore{line-height:66px;cursor:pointer;text-align:center;font-size:16px;color:#7d8a9e}
+.termEnd-section .rankingBox .showMore .arrowIcon{display:inline-block;margin:0 6px;width:13px;height:7px;background:url(../images/f-icon09.png?v=eb7eea4d1a) no-repeat}
+/*# sourceMappingURL=../_sass/skin.css.map */

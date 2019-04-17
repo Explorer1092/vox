@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr { margin: 0; padding: 0; }
+html,body{ height:100%;}
+body { font: 24px/100% Arial,"Microsoft Yahei"; color: #666; background: #eff2f6;}
+a{ text-decoration: none;}
+ul li { list-style: none;}
+
+/*mathHomework-list*/
+.mathHomework-list{ width: 1000px; background: #fafafa; padding: 30px 0; text-align: center;}
+.mathHomework-list .ml-title{ padding: 0 0 20px 0;}
+.mathHomework-list .ml-title span{ display: inline-block; font-size: 24px; line-height: 24px; color: #4e5656; padding: 8px 30px; background: #f0f0f0; border-radius: 20px;}
+.mathHomework-list .inner{ margin-bottom: 35px;}
+.mathHomework-list .inner ul{ width: 540px; margin: 0 auto;}
+.mathHomework-list .inner li{ height: 70px; padding: 0 10px; background: #fff; margin-bottom: 10px; border-bottom: 1px solid #ededed; border-radius: 5px; overflow: hidden; *zoom: 1;}
+.mathHomework-list .inner li .left{ float: left; margin: 11px 0 0 0; text-align: left;}
+.mathHomework-list .inner li .left p{ font-size: 18px; color: #333; line-height: 26px;}
+.mathHomework-list .inner li .left span{ font-size: 14px; color: #5a5a5a;}
+.mathHomework-list .inner li .right{ float: right; width: 110px; margin: 10px 0 0 0; text-align: left;}
+.mathHomework-list .inner li .right .ficon{ display: inline-block; cursor: pointer; margin: 0 0 0 10px; vertical-align: middle; width: 22px; height: 20px; background: url("../images/hk-icon.png") no-repeat;*overflow: hidden;}
+.mathHomework-list .inner li .right .ficon-correct{ width: 48px; height: 48px;}
+.mathHomework-list .inner li .right .ficon-correctGreen{ background-position: -1px -50px;}
+.mathHomework-list .inner li .right .ficon-correctYellow{ background-position: -52px -50px;}
+.mathHomework-list .inner li .right .ficon-correctGrey{ background-position: -1px -104px;}
+.mathHomework-list .inner li .right .ficon-error{ width: 46px; height: 46px; background-position: -52px -104px;}
+.mathHomework-list .fbtn{ display: inline-block; width: 225px; height: 36px; line-height: 40px; text-align: center; font-size: 16px; color: #fff; background: #75cf1c; border-bottom: 4px solid #64c206; border-radius: 10px; overflow: hidden; *zoom: 1;}
+.mathHomework-list .fbtn:hover{ color: #fff;}
+.mathHomework-list .fbtn-w{ width: 150px;}
+.mathHomework-list .fbtn.disabled{ background: #cdcdcd; border-bottom: 4px solid #adafac;}
+.mathHomework-list .inner li .right .txtGreen{ display: inline-block; vertical-align: middle; color: #5faa1e; font-size: 14px; line-height: 20px;}
+.mathHomework-list .inner li .right .txtYellow{ display: inline-block; vertical-align: middle; color: #c85e0f; font-size: 14px; line-height: 20px;}
+.mathHomework-list .inner li .right .txtGrey{ display: inline-block; vertical-align: middle; color: #cccccc; font-size: 14px; line-height: 20px;}

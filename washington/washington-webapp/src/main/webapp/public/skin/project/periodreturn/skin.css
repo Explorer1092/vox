@@ -1,0 +1,49 @@
+/*
+*命名规范：例（.main_...）
+*/
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, input, dl, dt, dd{padding: 0; margin: 0;}
+html, body{ width: 100%; }
+body{ height: 100%;}
+html, body, input{font: 12px/140% "微软雅黑", regular; color: #464646; }
+ul, li{ list-style: none; }
+a, input{ outline: none;}
+a{ text-decoration: none; }
+/*plan-head-banner*/
+.plan-head-banner, .plan-head-banner .plan-inner{background:url(plan-banner.jpg) no-repeat center 0; width: 100%; height: 283px;}
+.plan-head-banner .plan-inner .back-index{ width: 150px; height: 58px; display: block; margin: 16px 0 0 10px;}
+.plan-public-content{ font-size: 14px; padding: 16px 0 30px 20px;}
+/*.plan-public-content*/
+.plan-public-content dl{}
+.plan-public-content dl dt{ width: 204px; float: left; background: url(plan-tip.png) no-repeat 0 0; height: 60px;}
+.plan-public-content dl dd{ margin-left: 240px; padding-top: 10px; position: relative;}
+.plan-public-content dl dd.pl{margin-left: 0; text-align: center; padding-top: 30px;}
+.plan-public-content dl dd .plan-progress{ background: url(plan-progress.jpg) no-repeat; width: 838px; height: 103px; margin: 0 auto;}
+.plan-public-content dl dd .title{ font-size: 18px; padding: 5px 0;}
+.plan-public-content dl dd p{ line-height: 24px; }
+.plan-public-content dl dd p .more{color: #2674cd; text-decoration: underline;}
+.plan-public-content dl dd p.getReward{ padding-top: 24px;}
+.plan-public-content dl dd p.getReward .get-btn{ width: 206px; height: 66px; text-indent: -99999px; display: block; background: url(plan-btn.png) no-repeat 0 0;}
+.plan-public-content dl dd p.getReward .get-btn:hover{ background-position: 0 -88px;}
+.plan-public-content dl dd p.getReward .get-btn:active{ background-position: 0 -179px;}
+.plan-public-content dl dd p.getReward .get-btn-disabled{ background-position: 0 -276px !important; cursor: default;}
+/*.plan-active-content*/
+.plan-active01-content{ background-color: #88d9ff; color: #08468c;}
+.plan-active02-content{ background-color: #abf067; color: #004c1c;}
+.plan-active02-content dl dt{ background-position: 0 -64px;}
+.plan-active02-content dl dd .swap{ text-align: center; width: 208px; position: absolute; right: 70px; top: 40px;}
+.plan-active02-content dl dd .swap img{ width: 130px; height: 130px; display: block; margin: 0 auto;}
+.plan-active02-content dl dd .swap span{ display: block; padding: 8px 0;}
+.plan-information-content{ background-color: #ffe466; color: #905705;}
+.plan-information-content dl dt{ background-position: 0 -129px;}
+.plan-help-content{ background-color: #ffc477; color: #833700;}
+.plan-help-content dl dt{ background-position: 0 -195px;}
+.main{ background: url(plan-bg.png) repeat-x 0 0; width: 100%;}
+.main .plan-inner{ width: 1000px; margin: 0 auto; overflow: hidden; *zoom: 1;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+html{font-size: 20px;}
+body,html,input {font-family: "微软雅黑","Microsoft Yahei",Arial,"黑体"; line-height: 100%;}
+a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var,input{margin:0;padding:0}
+html, body{width: 100%;height: 100%; background: #eff2f6; color: #4e5656;}
+li,ul,ol{list-style: none}
+img{border:0;vertical-align:middle}
+em,i,u{font-style:normal}
+a, input, textarea {outline: 0}
+a {text-decoration: none}
+
+.t-rewardDisable-box{background-color: #f4c300;width:100%;position: relative;overflow: hidden;}
+.t-rewardDisable-box .disable-bg{background: url("../images/beanreward/disable-bg-1.png") no-repeat center center;height:20rem;background-size: 100% 100%;}
+.t-rewardDisable-box .disable-bg .d-title{font-size: 2.3rem;color: #ffda45;text-align: center;line-height:4rem;padding:3rem 0 0 0;}
+.t-rewardDisable-box .lottery-ticket{background: url("../images/beanreward/disable-bg-2.png") no-repeat center center;height:16.9rem;background-size: 100% 100%;margin: -9rem 0 0 0;}
+.t-rewardDisable-box .lottery-ticket .l-left{font-size:2rem;color:#fff;float: left;line-height: 2.2rem;padding:3.8rem 0 0 4.2rem;text-align: center;}
+.t-rewardDisable-box .lottery-ticket .l-right{font-size:1.4rem;color:#693614;line-height: 1.8rem;padding: 4rem 4rem 1rem 11rem;}
+.t-rewardDisable-box .disable-info{font-size:1.2rem;color: #693614;text-align: center;line-height: 5rem;border-bottom:0.5rem dotted #fade29;margin:0 1rem;}
+.t-rewardDisable-box .disable-column .c-title{ font-size:1.4rem;color: #7b4109;line-height: 4.5rem;padding:0 1rem;}
+.t-rewardDisable-box .disable-column .c-paragraph{ font-size:1.2rem;color: #9b622b;line-height:2.75rem;background-color: #eab601;margin:0 1rem;border-radius: 1rem;padding:1rem;}
+.t-rewardDisable-box .disable-btn .receive-btn{text-align: center;color: #693614;font-size: 2rem;background-color: #fff5b2;border:0.3rem solid #bb840d;border-radius: 3rem;box-shadow: 0 -0.35rem 0 0 #e9c249 inset;display: inline-block;width:90%;padding: 2rem 0;}
+.t-rewardDisable-box .disable-btn{text-align: center;padding:6.5rem 0 3rem 0;}
+
+.t-beanRewardCharts-box{background-color: #92d145;width:100%;position: relative;overflow: hidden;}
+.t-beanRewardCharts-box .charts-bg-1{background: url("../images/beanreward/beans-charts-bg-1.png") no-repeat center center #90d338;height:34rem;background-size: 100% 100%;}
+.t-beanRewardCharts-box .charts-bg-1 .brc-title{font-size: 2.4rem;color: #1483c4;text-align: center;line-height: 6rem;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2{background: url("../images/beanreward/beans-charts-bg-2.png") no-repeat center 0;height:25.3rem;background-size: 100% 100%;position: relative;top:3rem;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2 .c-info .num{font-size: 3.35rem;color: #fff;text-shadow:.2rem .2rem .2rem #d3251b;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2 .c-info .text{font-size: 2rem;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2 .c-tips{color: #fffcd8;font-size: 1.2rem;text-align: center;line-height: 2rem;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2 .c-info .beans-icon{background: url("../images/beanreward/beans-icon.png") no-repeat;background-size: 100% 100%;width:3.85rem;height:3.5rem;display: inline-block;vertical-align: middle;margin:-2rem 0 0 0;}
+.t-beanRewardCharts-box .charts-bg-1 .charts-bg-2 .c-info {text-align: center;padding:7rem 0 2rem 0;}
+.t-beanRewardCharts-box .mount-info{color:#fff;font-size: 1.1rem;line-height: 2rem;background-color: #70b22f;margin:1rem;padding:2rem;border-radius:1rem; }
+.t-beanRewardCharts-box .pickUp-btn{height:5.2rem;background: url("../images/beanreward/beans-charts-btn.png") no-repeat center 0;background-size: 100% 100%;text-align: center;margin:2rem 0 3rem 0;}
+.t-beanRewardCharts-box .pickUp-btn .receive-btn{color: #fff;font-size: 2rem;line-height: 5.2rem;}
+.t-beanRewardCharts-box .charts-bg-3{background: url("../images/beanreward/beans-charts-bg-3.png") no-repeat center 0;height:7.25rem;background-size: 100% 100%;}

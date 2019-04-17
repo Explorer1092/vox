@@ -1,0 +1,25 @@
+body{font: 14px/100% "微软雅黑","Microsoft YaHei",arial,"黑体";margin:0;}
+a{ text-decoration: none;}
+.t-mobileEdition-box{background: url(../images/mobileEdition-bg.jpg) no-repeat center 0;height:740px;background-color: #d1f6ff;}
+.t-mobileEdition-box .student-code,.t-mobileEdition-box .parent-code{position: relative;width:1000px;margin:0 auto;}
+.t-mobileEdition-box .student-code .content,.t-mobileEdition-box .parent-code .content{width:200px;position: absolute;top: 165px;left: 110px;text-align: center;}
+.t-mobileEdition-box .parent-code .content{left:620px;}
+.t-mobileEdition-box .student-code .content .title,.t-mobileEdition-box .parent-code .content .title{color: #0c58a4;font-size:20px;line-height: 34px;}
+.t-mobileEdition-box .student-code .content .info,.t-mobileEdition-box .parent-code .content .info{color:#fff;font-size: 18px;line-height: 34px;}
+.t-mobileEdition-box .student-code .content .s-code,.t-mobileEdition-box .parent-code .content .p-code{margin:0; width:200px;height:200px;line-height:200px;background-color: #fff;border-radius: 15px;}
+.t-mobileEdition-box .student-code .content .s-code img,.t-mobileEdition-box .parent-code .content .p-code img{vertical-align: middle;  border: none;}
+.t-mobileEdition-box .student-code .btn ,.t-mobileEdition-box .parent-code .btn {position: absolute;top: 55px;right:-185px;}
+.t-mobileEdition-box .student-code .btn a,.t-mobileEdition-box .parent-code .btn a{width:160px;border:3px solid #219104;background-color: #77de0c;border-radius: 50px;box-shadow: 0 -3px 0 0 #58be08 inset;display:block;text-align: center;color:#fff;font-size:22px;padding: 5px 0;margin:0 0 15px 0;}
+.t-mobileEdition-box .student-code .btn .a-download:active,.t-mobileEdition-box .parent-code .btn .a-download:active{background-color: #58be08;}
+.t-mobileEdition-box .student-code .btn .i-download:active,.t-mobileEdition-box .parent-code .btn .i-download:active{background-color: #f08425;}
+.t-mobileEdition-box .student-code .btn a i,.t-mobileEdition-box .parent-code .btn a i{display: inline-block;background: url(../images/app-icon.png) no-repeat 0 0;width: 25px;height:30px;vertical-align: middle;padding:0 10px 0 0;}
+.t-mobileEdition-box .student-code .btn a .i-icon{background-position: 0 -59px;}
+.t-mobileEdition-box .student-code .btn .i-download,.t-mobileEdition-box .parent-code .btn .i-download{background-color: #ffa531;border:3px solid #a25903;box-shadow: 0 -3px 0 0 #f08425 inset;}
+
+
+.header{
+    top:0;
+}
+.t-mobileEdition-box{
+    margin-top:50px;
+}

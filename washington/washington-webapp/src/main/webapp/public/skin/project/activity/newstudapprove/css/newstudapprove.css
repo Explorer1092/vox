@@ -1,0 +1,88 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body{background:#091042 url(../images/bg.png?v=17cf2e5a3a) 50% top no-repeat;background-size:1920px auto}
+.kj-wrap{margin:0 auto;width:1000px}
+.headerBox{position:relative}
+.headerBox .banner{width:1000px;height:395px;background:url(../images/banner-new.png?v=7b735d13e1) no-repeat;background-size:100% 100%}
+.headerBox .bannerenglish{background:url(../images/bannerenglish-v2.png?v=95d072e373) no-repeat;background-size:100% 100%}
+.headerBox .handIcon{position:absolute;left:-160px;top:190px;width:492px;height:268px;background:url(../images/kj-icon03.png?v=bfe1bc21f7) no-repeat;background-size:100% 100%}
+.headerBox .ruleLink{position:absolute;right:54px;top:74px;width:106px;height:30px;background:url(../images/kj-icon02.png?v=12faf0ef3c) no-repeat;background-size:100% 100%}
+.joinBtn-box{margin:-16px 0 5px 0}
+.joinBtn-box .joinBtn{display:block;margin:0 auto;width:218px;height:59px;background:url(../images/kj-icon08new.png?v=44b9d3ca33) no-repeat;background-size:100% 100%}
+.kj-title{position:relative;padding:20px 0;font-size:0}
+.kj-title img{position:relative;top:1px;display:inline-block;width:auto;height:26px}
+.kj-title .sTxt{display:inline-block;padding:0 10px;line-height:26px;font-size:18px;color:#00e4fe}
+.kj-title:after{position:absolute;left:-45px;top:-20px;content:"";width:92px;height:84px;background:url(../images/kj-icon01.png?v=46ee845e5d) no-repeat;background-size:100% 100%}
+.progressBox{margin-bottom:25px;padding:0 0 0 133px}
+.progressBox .progressMain{margin-left:80px;padding:94px 0 60px;width:606px}
+.progressBox .progressMain .column{position:relative;float:left;width:202px;height:4px;background-color:#00e4fe}
+.progressBox .progressMain .column:first-child{width:0}
+.progressBox .progressMain .column .num{position:absolute;z-index:2;right:-10px;top:-10px;width:20px;height:20px;border-radius:20px;background-color:#00e4fe;line-height:20px;text-align:center;font-size:14px;color:#091042}
+.progressBox .progressMain .column .desc{position:absolute;z-index:2;right:0;top:-44px;margin-right:-60px;width:120px;font-weight:700;text-align:center;font-size:20px;color:#00e4fe}
+.progressBox .progressMain .column .reward{position:absolute;z-index:2;right:0;top:-86px;margin-right:-47px;width:94px;height:34px;background-color:#ff7b30;border-radius:34px;line-height:34px;text-align:center;font-size:16px;color:#fff}
+.progressBox .progressMain .column .reward:after{position:absolute;left:50%;bottom:-14px;margin-left:-8px;content:"";width:0;height:0;overflow:hidden;border:8px solid transparent;border-top-color:#ff7b30}
+.progressBox .progressMain .column .state{position:absolute;z-index:2;right:0;bottom:-58px;cursor:pointer;margin-right:-55px;width:110px;height:30px;line-height:30px;border-radius:30px;border:1px solid #00e4fe;text-align:center;font-size:16px;color:#00e4fe}
+.progressBox .progressMain .column .state02{display:none;cursor:default;border:0;color:#ccc}
+.progressBox .progressMain .column .qIcon{position:relative;top:-1px;display:inline-block;margin-left:4px;vertical-align:middle;width:15px;height:15px;background:url(../images/kj-icon11.png?v=cecfaa8d57) no-repeat;background-size:100% 100%}
+.progressBox .progressMain .column.completed{background-color:#ccc}
+.progressBox .progressMain .column.completed .num{background-color:#ccc}
+.progressBox .progressMain .column.completed .state01{display:none}
+.progressBox .progressMain .column.completed .state02{display:block}
+.stateBox{margin-bottom:40px;padding:0 0 0 133px;line-height:22px;font-size:12px;color:#00e4fe}
+.rankingBox{padding:0 0 80px 133px}
+.rankingBox .rankMain{margin-top:-8px;padding:20px 0 0 32px;width:700px;height:462px;background:url(../images/rankBox.png?v=5999fc96fe) no-repeat;background-size:100% 100%}
+.rankingBox .tHead{overflow:hidden}
+.rankingBox .tHead div{font-weight:700;font-size:20px;color:#00e4fe}
+.rankingBox .tHead .column03{padding:10px 0;width:160px;text-align:center}
+.rankingBox .tMain{margin-bottom:5px;height:350px;overflow-y:auto}
+.rankingBox .tMain li{overflow:hidden}
+.rankingBox .column01,.rankingBox .column02,.rankingBox .column03,.rankingBox .column04,.rankingBox .column05{float:left;padding:10px 5px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;font-size:16px;color:#fff}
+.rankingBox .column01{width:70px}
+.rankingBox .column02{width:90px}
+.rankingBox .column03{padding:10px 0 10px 30px;width:130px;text-align:left}
+.rankingBox .column04{width:170px}
+.rankingBox .column05{width:140px}
+.rankingBox .tCount{margin:0 auto;width:595px;height:36px;background:url(../images/kj-icon04.png?v=88529c4bde) no-repeat;background-size:100% 100%;text-align:center}
+.rankingBox .tCount div{display:inline-block;margin:0 38px;line-height:36px;font-size:16px;color:#091042}
+.rulesPopup{position:fixed;z-index:100;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5)}
+.popInner{position:absolute;left:50%;top:50%;margin:-300px 0 0 -350px;width:700px;height:600px;background:url(../images/kj-icon07.png?v=c3e54af857) repeat-y;background-size:100% auto}
+.popInner .popHd{position:relative;top:-28px;width:100%;height:30px;background:url(../images/kj-icon05.png?v=e9b4d66dc7) no-repeat;background-size:100% 100%}
+.popInner .popFt{position:relative;bottom:6px;width:100%;height:30px;background:url(../images/kj-icon06.png?v=dbc6fd3dc0) no-repeat;background-size:100% 100%}
+.popInner .popClose{position:absolute;cursor:pointer;right:30px;top:0;width:40px;height:40px;line-height:30px;text-align:center;font-size:30px;color:#fff}
+.popInner .popTitle{margin-bottom:30px;line-height:20px;text-align:center;font-size:26px;color:#ff962f}
+.popInner .popMain{position:relative;z-index:1;overflow-y:auto;padding:0 60px;height:520px;line-height:22px;font-size:12px;color:#fff}
+.popInner .popMain .title{line-height:24px;font-size:14px}
+.popInner .popMain .txt{margin-bottom:20px}
+.popInner .popMain .copyRight{padding:10px 0 0;text-align:center;color:#6f6f6f}

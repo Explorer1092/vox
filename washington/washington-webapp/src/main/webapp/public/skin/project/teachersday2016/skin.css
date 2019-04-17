@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body,html{width:100%;height:100%;font:12px/100% "微软雅黑","Microsoft YaHei",arial}
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{line-height:100%}
+li,ol,ul{list-style:none}
+input,select,textarea{outline:0;resize:none;font:12px/100% "微软雅黑","Microsoft YaHei"}
+a{outline:0;cursor:pointer;text-decoration:none;color:#383a4c}
+a:hover{color:#189cfb}
+img{vertical-align:middle;border:0}
+body{background:#2e4913}
+.teaDay-bg{margin:0 auto;min-width:1004px}
+.teaDay-bg .bg{width:100%}
+.teaDay-bg .bg01{height:500px;background:url(bg01.jpg?v=58a91886fc) no-repeat 50% 50%}
+.teaDay-bg .bg02{height:324px;background:url(bg02.jpg?v=49183f348d) no-repeat 50% 50%}
+.teaDay-bg .bg03{height:356px;background:url(bg03.jpg?v=d096307189) no-repeat 50% 50%}
+.teaDay-bg .info{margin:0 auto;width:1004px;padding-top:78px}
+.teaDay-bg .info .text{padding:40px 0 0 215px;line-height:50px;font-size:30px;color:#fff}
+.teaDay-bg .info .text .yellow{color:#faf596}
+.t-avatar{margin:0 auto;width:132px}
+.t-avatar img{width:128px;height:128px;border-radius:128px;border:2px solid #fff}
+.t-avatar .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:50px;text-align:center;font-size:30px;color:#fff}
+.teaDay-bg2{margin:0 auto;min-width:1004px}
+.teaDay-bg2 .bg{width:100%}
+.teaDay-bg2 .bg01{height:537px;background:url(bg2-1.jpg?v=640ba1213d) no-repeat 50% 50%}
+.teaDay-bg2 .bg02{height:517px;background:url(bg2-2.jpg?v=2c136f647e) no-repeat 50% 50%}
+.teaDay-bg2 .bg03{height:507px;background:url(bg2-3.jpg?v=1fbbae9fb6) no-repeat 50% 50%}
+.teaDay-main{position:absolute;top:0;left:50%;margin-left:-502px;padding-top:100px;width:1004px}
+.t-btnBox{width:100%;padding:40px 0 70px 0;text-align:center}
+.t-btnBox .btn{display:inline-block;width:176px;height:42px;background:#faf596;border-radius:5px;margin:0 17px;font-size:18px;line-height:42px;text-align:center;color:#3b3b3b;cursor: default;}
+.t-btnBox .btn span{color:#d44730}
+.t-stuList{width:1004px;background:#fff;border-radius:6px;overflow:hidden}
+.t-stuList .classList{position:relative;border:5px solid #ffe9c8;background:#d95138}
+.t-stuList .classList .arrow{cursor:pointer;display:block;position:absolute;top:30px;width:24px;height:34px;background-repeat:no-repeat;background-image:url(arrow-lr.png?v=d3ad102725)}
+.t-stuList .classList .arrow:hover{background-image:url(arrow-lr-02.png?v=fc5a835cda)}
+.t-stuList .classList .arrow-l{left:20px;background-position:0 0}
+.t-stuList .classList .arrow-r{right:20px;background-position:-33px 0}
+.t-stuList .classList .inner{margin:0 65px;overflow:hidden}
+.t-stuList .classList .inner ul{overflow:hidden;*zoom:1;padding:5px 0}
+.t-stuList .classList .inner ul li{cursor:pointer;float:left;width:206px;height:80px;line-height:80px;text-align:center;font-size:24px;color:#ffe9c8}
+.t-stuList .classList .inner ul li.active{background:#c04731}
+.t-stuList .classMain{padding:20px}
+.t-stuList .classMain ul{overflow:hidden;*zoom:1}
+.t-stuList .classMain ul li{position:relative;float:left;margin:20px 17px;width:285px;height:226px}
+.t-stuList .classMain ul li .pic{width:100%;height:100%}
+.t-stuList .classMain ul li .footer{position:absolute;z-index:2;left:0;bottom:0;width:100%;height:50px;background:#2b0904;background:rgba(43,9,4,.7);filter:Alpha(opacity=70);padding:6px 0}
+.t-stuList .classMain ul li .footer img{display:inline-block;margin:0 10px;width:50px;height:50px;border-radius:50px;vertical-align:middle}
+.t-stuList .classMain ul li .footer span{vertical-align:middle;display:inline-block;width:90px;line-height:50px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:20px;color:#fff}
+.t-footer{width:100%;padding:60px 0;text-align:center}
+.t-footer .btn{display:inline-block;width:300px;height:64px;background:#fff;border-top:5px solid #ffd398;border-radius:5px;margin:0 28px;font-size:36px;line-height:64px;text-align:center;color:#802412}

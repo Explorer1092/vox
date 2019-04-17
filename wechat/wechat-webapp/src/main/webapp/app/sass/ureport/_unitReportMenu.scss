@@ -1,0 +1,17 @@
+.menuBoxContainer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 125px;
+	.menuBox{
+		.menuItem{
+		    box-sizing: border-box;
+			border: solid #d3d8df;
+			border-width: 1px 1px 0 0;
+			display: inline-block;
+			width:24%;
+			text-align: center;
+			line-height: 125px;
+		}
+	}
+}

@@ -1,0 +1,193 @@
+/**/
+.tabbox { padding:6px; background:#eaf3ff; border:solid 1px #3580dd; border-radius:6px; overflow:hidden; clear:both; margin:0 0 10px;}
+.tabbox .tabLevel{ background:#fff; border-radius:6px; padding:20px 10px;}
+.tabbox table{ border-collapse:collapse; width:95%; margin:0 auto; clear:both;}
+.tabbox table td,.tabbox table th,.tabbox table thead tr.thtitle th{ font-size:14px; padding:10px; line-height:140%; word-break:break-all; word-wrap:break-word; color:#666;  background:#fff; border-top:4px solid #eaf3ff;}
+.tabbox table thead td,.tabbox table thead th { background:#eaf3ff; color:#666; font-weight:bold; padding:5px 8px; font-size:12px; white-space:nowrap;}
+.tabbox table a{ color:#333;}
+.tabbox table thead tr.thtitle th{ color:#39f;}
+.tabbox table select{ padding:5px; border:solid 1px #ccc; font:bold 14px/1.125 arial; color:#666; }
+.tabbox .table_vox_bordered td, .tabbox .table_vox_bordered th{ border: 1px solid #ddd;}
+/*payMainBox*/
+.payMainBox{ clear:both; margin: 0 auto;}
+.payMainBox .payStep { padding: 20px 0; text-align:center; clear:both;}
+.payMainBox .payStep span{ display:inline-block; width:427px; height:40px;}
+.payMainBox .payStep .s1{ background-position: 0 0;}
+.payMainBox .payStep .s2{ background-position: 0 -61px;}
+.payMainBox .payStep .s3{ background-position: 0 -123px;}
+.payMainBox .payStep .s4{ background-position: 0 -184px;}
+.payMainBox .payBtn{ clear:both; text-align:right; height:50px; padding:15px 0; }
+.payMainBox .payTextart { color:#666; padding:10px 0;}
+.payMainBox .payTextart p{line-height:20px; padding: 0 20px;}
+.bank-box{ padding:0; overflow: hidden; zoom:1;}
+.bank-box h1{ border-bottom: solid 1px #ccc; padding-bottom:10px; margin-bottom:10px; font-size:12px; color:#666;}
+.bank-list { overflow: hidden; }
+.bank-list li { float: left; width: 140px; padding:0 10px 10px 0; }
+.bank-list li input{ margin-right:5px;}
+.bank-list li label{ display: block; border: 1px solid #ddd; padding: 4px; cursor: pointer;}
+.bank-list li.active label{ border: 2px solid #ff7d00; padding: 3px; background: url(../images/tickn.png) no-repeat right bottom #fff;}
+.icon-info { background-color: #D2EEF7; border-style: solid solid solid none; border-width: 1px 1px 1px medium; font-weight: normal; height: 30px; line-height: 15px; padding: 0 3px; top: -1px; font: 12px/1.5 tahoma, arial, 宋体; }
+.icon-bank { background: url(../images/paybank/bankicon.png) no-repeat #fff; display: inline-block; height: 30px; width: 120px; vertical-align: middle;  }
+.ICBCB2C { background-position: 0 -40px; }
+.CMB { background-position: 0 -80px; }
+.CCB { background-position: 0 -320px; }
+.BOCB2C { background-position: 0 -520px; }
+.ABC { background-position: 0 -480px; }
+.COMM { background-position: 0 -600px; }
+.PSBC-DEBIT { background-position: 0 -400px; }
+.CEBBANK { background-position: 0 -440px; }
+.SPDB { background-position: 0 -360px; }
+.GDB { background-position: 0 -280px; }
+.CITIC { background-position: 0 -200px; }
+.CIB { background-position: 0 -3365px; }
+.SDB { background-position: 0 -240px; }
+.CMBC { background-position: 0 -120px; }
+.HZCBB2C { background-position: 0 -760px; }
+.SHBANK { background-position: 0 -840px; }
+.BJRCB { background-position: 0 -2640px; }
+.SPABANK { background-position: 0 -1880px; }
+.FDB { background-position: 0 -1320px; }
+.NBBANK { background-position: 0 -1240px; }
+.BJBANK { background-position: 0 -3240px; }
+.WZCBB2C-DEBIT { background-position: 0 -1720px; }
+.ICBCBTB { background-image: url(../images/paybank/ENV_ICBC_OUT.gif); background-position: 5px 5px;}
+.CCBBTB { background-image: url(../images/paybank/ENV_CCB_OUT.gif); background-position: 5px 5px;}
+.ABCBTB { background-image: url(../images/paybank/ENV_ABC_OUT.gif); background-position: 5px 5px;}
+.SPDBB2B { background-image: url(../images/paybank/ENV_SPDB_OUT.gif); background-position: 5px 5px;}
+.ALIPAY { background: url(../images/paybank/alipay.gif) no-repeat #FFF; }
+.UMPAY { background: url(../images/paybank/UMPAY.gif) no-repeat #FFF; }
+.CHINAUNICOM { background: url(../images/paybank/CHINAUNICOM.gif) no-repeat #FFF; }
+.TELECOM { background: url(../images/paybank/TELECOM.gif) no-repeat #FFF; }
+.chinaMobileBox{ width: auto !important;}
+.chinaMobileBox .mobileLab{ display: inline-block; padding:  0 10px; color: #333;}
+.chinaMobileBox .mobileLab input{ border:1px solid #ccc; padding: 7px; border-radius: 2px; color: #666;}
+/*pay_open---------------------------20140512---*/
+.pay_link_open{ margin: 82px auto; overflow: hidden; width: 600px;}
+.pay_link_open dt{ float: left;}
+.pay_link_open dl{ overflow: hidden;}
+.pay_link_open dl dd{ font-family: "微软雅黑" regular; margin-left: 84px; font-size: 16px; line-height: 24px; width: 510px; font-weight: bold; padding-top: 6px;}
+/*pay_info*/
+.pay_link_info{ margin: 20px;}
+.pay_link_info dl dt{ float: left; position: relative;}
+.pay_link_info dl p.img{ width: 68px; height: 68px; padding: 4px; border: 1px solid #CCCCCC;}
+.pay_link_info dl dd{ margin-left:95px;}
+.pay_link_info dl dd.pay_link_info_box{ border: 1px solid #CCCCCC; border-radius: 4px; position: relative;}
+.pay_link_info dl dd.pay_link_info_box h2{text-shadow: 0 0 0 1px #b8b8b8 inset; padding: 10px 15px;  line-height: 20px; font-size:14px;font-family: "微软雅黑" regular; }
+.pay_link_info dl dd.pay_link_info_box h2 strong{ font-size: 12px;}
+.pay_link_info dl dd.pay_link_info_box .down dl{ overflow: hidden;}
+.pay_link_info dl dd.pay_link_info_box .down{ padding: 15px; background-color: #f7f7f7;}
+.pay_link_info dl dd.pay_link_info_box .down p.img{ width: 128px; height: 108px;}
+.pay_link_info dl dd.pay_link_info_box .down dd{ margin-left: 150px; font-size: 12px; color: #666666; line-height:28px; font-family: "微软雅黑" regular;}
+.pay_link_info dl dd .font-info{ font-size: 12px;  font-family: "宋体"; color: #666666; margin: 20px 0 40px 0;}
+.pay_link_info dl dd .font-info input{ border: 1px solid #CCCCCC; width: 135px; height: 25px; vertical-align: middle; margin: 0 8px; outline: none; padding: 0 5px;}
+.pay_link_info dl .pay_link_info_box .arrow{ background: url("../images/pay-arrow.png") no-repeat; width: 11px; height: 10px; position: absolute; top: 15px; left: -11px; display: block;}
+/*pay_way*/
+.pay_link_way{ margin: 24px auto;width: 800px; overflow: hidden;}
+.pay_link_way ul li.pay_link_way_top{ padding-top: 20px;}
+.pay_link_way ul li{ float: left; margin-right: 20px;}
+.pay_link_way ul li dl dt{ float: left;}
+.pay_link_way .icons, .pay_link_detail .icons{ background: url("../images/pay-way.png") no-repeat 2000px 2000px; display: inline-block;}
+.pay_link_way .icons_1{ width: 59px; height: 54px; background-position:0 0; }
+.pay_link_way .icons_2{ width: 57px; height: 18px; background-position:0 -73px; }
+.pay_link_way .icons_3{ width: 56px; height: 61px; background-position:-66px 0; }
+.pay_link_detail .icons_4{ width: 96px; height: 100px; background-position:-137px 0; }
+.pay_link_way ul li dl dd{ margin-left: 75px; font-size: 14px; font-family: "微软雅黑" regular; line-height: 26px;}
+.pay_link_way ul li dl dd h4{ font-size:14px; }
+.pay_link_way ul li dl dd p{ color: #808080;}
+/*pay_detail*/
+.pay_link_detail{ margin: 43px 70px 40px 70px;}
+.pay_link_detail dl dt{ float: left;}
+.pay_link_detail dl dd{ margin-left: 116px;}
+.pay_link_detail dl dd h3{ height: 30px; font-size: 14px; }
+.pay_link_detail dl dd p.title{ border: 1px solid #CCCCCC; padding: 5px; line-height: 25px; margin-bottom: 25px;}
+.pay_link_detail dl dd p.get_link{ margin-bottom: 40px;}
+.pay_link_link_detail p.foot{ text-align: center; padding-top: 30px; border-top: 1px solid #CCCCCC;}
+#copy_info_url{ border: none; outline: none; background: none; resize: none; width: 98%;height: 75px; overflow: hidden; line-height: 24px;}
+/*agentMobileBox*/
+.agentMobileBox{}
+.agentMobileBox dl{ overflow: hidden; height: 100%;}
+.agentMobileBox dt{ float: left; width: 250px; padding: 35px 0;}
+.agentMobileBox dt .mobile_icon{ width: 45px; height: 72px; background: url(../images/mobile.png) no-repeat; margin: 0 auto;}
+.agentMobileBox dt p{ color: #999; line-height: 20px; text-align: center;}
+.agentMobileBox dd{ margin-left: 255px; padding-top: 50px;}
+.agentMobileBox dd .info{ font-size: 14px; margin-bottom: 20px;}
+.agentMobileBox dd .info span{ color: #666;}
+.agentMobileBox dd .int_box { margin-bottom: 5px;}
+.agentMobileBox dd .submitGreenBtn{ background: url(../images/submitGreenBtn.png) no-repeat; width: 118px; height: 42px; text-align: center; color: #fff; font: bold 14px/42px ""; display: inline-block; vertical-align: middle; margin-left: 20px;}
+.agentMobileBox .int_box input{ padding: 12px 10px; width: 200px; border: 1px solid #ccc; border-radius: 5px; color: #333; font-size: 14px; outline: none; box-shadow: 1px 1px 2px #ddd inset; vertical-align: middle;}
+.agentMobileBox .init .error, .agentMobileBox .init .success{ background: url("../images/errorSuccess.png") no-repeat 0 4px; display: block; vertical-align: middle; margin-right: 5px; color: #cc0000; padding: 5px 0 5px 20px;}
+.agentMobileBox .init .success{ background-position: 0 -25px; color: #41a200;}
+.agentMobileBox h1.title{ background: url(../images/title_back.png) no-repeat; width: 154px; height: 39px; font: bold 16px/36px ""; padding: 0; margin: 0; color: #589de2; text-align: center; position: absolute; top: -36px;left: -1px;}
+.agentMobileBox ul{ margin-top: 30px;}
+.agentMobileBox li .title_name{ font: 14px/42px ""; color: #666; display: inline-block; float: left; text-align: right; padding-right: 10px; width: 180px; }
+.agentMobileBox li p, .agentMobileBox li.btn{ margin-left: 200px;}
+.agentMobileBox .agentLoginInfo{ color: #999; line-height: 24px; border: 1px dashed #ddd; background-color: #f8f8f8; padding: 10px; margin-top: 30px;}
+.agentMobileBox .agentLoginInfo p{ padding-left: 20px;}
+/*send_main_pay*/
+.send_main_pay{}
+.send_main_pay p{ margin: 12px 0 12px 10px;}
+.send_main_pay p.p_1{ color: #3778f0; font-weight: bold; cursor: pointer;}
+.send_main_pay p span{ color: #3778f0; }
+.send_main_pay p i.arrow{ background: url("../images/send_arrow.png") no-repeat 300px 300px; display: inline-block; margin-right: 5px;}
+.send_main_pay p i.arrow_down{background-position: -5px -9px; width: 10px; height: 11px;}
+.send_main_pay p i.arrow_up{ background-position: -3px 4px; }
+.send_main_pay p i.arrow_more{background-position: -3px -22px; width: 10px; height: 8px; margin-left: 5px;}
+.send_info_message{ line-height: 25px; font-size: 12px; border: 1px solid #cccccc; padding:5px 15px; color: #666; width: 540px;}
+.public_send_btn{ background:url("../images/success_bg_btn.png") repeat-x 5000px 5000px; display: inline-block; height: 40px; border-radius: 3px; line-height: 40px; padding: 0 30px; color: #fff; font-weight: bold;}
+.public_send_btn:hover{ color: #fff;}
+.public_well_btn{ padding:0 45px;}
+.public_nomal_btn{padding:0 60px;}
+.public_blue_btn{ background-position:0 -42px; border: 1px solid #007090;  }
+.public_blue_btn:hover{ background-position: 0 -209px;}
+.public_blue_btn:active{ background-position: 0 -377px;}
+.public_orange_btn{ background-position:0 -126px;border: 1px solid #007090;  }
+.public_orange_btn:hover{ background-position: 0 -293px;}
+.public_orange_btn:active{ background-position: 0 -461px;}
+.public_green_btn{ background-position:0 0; border: 1px solid #007090;  }
+.public_green_btn:hover{ background-position: 0 -167px;}
+.public_green_btn:active{ background-position: 0 -335px;}
+.public_gray_btn{ background-position:0 -84px;   border: 1px solid #007090;  }
+.public_gray_btn:hover{ background-position: 0 -251px;}
+.public_gray_btn:active{ background-position: 0 -419px;}
+/*payTypeBox*/
+.switchMenuPopUp{ float: left; width: 156px;}
+.switchMenuPopUp b{ font: bold 14px/1.125 arial; color:#666; margin-left:-20px; display:inline-block; vertical-align:middle;}
+.switchMenuPopUp span{ float: left; padding:15px 0 15px 30px; position:relative;  width: 125px; color:#666; background:#fff; border:solid #c5d9f2 1px; border-right: none; border-radius:4px 0 0 4px; cursor:pointer; margin: 0 0 5px; font: bold 14px/1.125 arial; clear: both;}
+.switchMenuPopUp span.sel{ background-color:#eaf3ff; right:-1px; border-color: #39f; color:#333; font-weight:bold; cursor:default; }
+.switchMenuPopUp span i{ background: url(/public/skin/studentv3/images/recharge-icon.gif) no-repeat; width: 32px; height: 19px; display: block; position: absolute; right: 10px; top: 10px;}
+.payTypeBox{ background-color: #fff; padding: 40px 0 ;}
+.payTypeBox dl{ clear: both;}
+.payTypeBox dt{ width: 150px; float: left; font: bold 14px/1.125 arial; color: #666; height: 30px; text-align: right; padding: 0; line-height: 42px;}
+.payTypeBox dd{ margin-left: 160px; padding: 0 0 20px; }
+.payTypeBox dd .lineHeight{ line-height: 45px;}
+.payTypeBox dd .price{ color: #333;}
+.payTypeBox dd .price span{ font: bold 24px/1.125 arial;}
+.payTypeBox dd .price strong{ font-size: 14px; color: #666;}
+.payTypeBox dd .int{ border:solid 1px #e6e6e6; padding:11px; width:250px; vertical-align:middle; outline: none; font-size: 14px; font-weight: bold; color: #333; height: 18px; margin-bottom: 10px;}
+.payTypeBox dd .int:focus{ border-color: #6496b9; background-color: #fff;}
+.payTypeBox dd .int_dis{ border-color: #e6e6e6;}
+.payTypeBox .info{ background-color: #fef6c7; color: #3a3a3a; border: 1px solid #f3b4a2; padding: 15px; margin-right: 30px;}
+.payTypeBox .info a{ color: #e20000; display: inline-block; margin: 0 10px; font-weight: bold;}
+.payTypeBox .info p{ color: #333; line-height: 22px;}
+.payTypeBox .info strong{ color: #F00;}
+.payTypeBox .priceBox{}
+.payTypeBox .priceBox a{ background-color: #f2fafd; border: 1px solid #cce1ec; padding: 5px 0; display: inline-block; text-align: center; width: 80px; margin-bottom: 5px;}
+.payTypeBox .priceBox a span{ font-size: 24px; line-height: 1.125; color: #333; display: inline-block ; margin-right: 5px; }
+.payTypeBox .priceBox a strong{ font-size: 12px; color: #666; }
+.payTypeBox .priceBox a:hover{ background-color: #edfff1; border-color: #b8e4c1;}
+.payTypeBox .priceBox a.active{ border: 2px solid #ff7d00; padding: 4px 0; width: 78px; background: url(../images/tickn.png) no-repeat right bottom #fff;}
+.payTypeBox .priceBox .actualMoney{padding: 20px 0 10px; color: #666;}
+.payTypeBox .priceBox .actualMoney strong{ color: #f00; margin: 0 2px;}
+.payTypeBox .priceBox .actualMoney .v-small{display: none; color: #f00;}
+.payTypeTitleBox { clear: both; border-bottom: 1px solid #ddd; height: 35px; margin: -10px 30px 20px; font: bold 14px/1.125 ""; color: #5b5b5b; }
+.payTypeTitleBox .title{ float: left;}
+.payTypeTitleBox .title strong{ color: #6597b8; display: inline-block; margin: 0 6px;}
+.payTypeTitleBox .balance{ float: right; margin-top: -5px;}
+.payTypeTitleBox .balance strong{ font-size: 24px; display: inline-block; margin: 0 5px; line-height: 140%; vertical-align: middle;}
+
+/*payment-code-box*/
+.payment-code-box{}
+.payment-code-box .code-img{width:200px; height: 200px; border: 1px solid #ddd; text-align: center; line-height: 200px;}
+.payment-code-box .code-info{ background:url(../images/qrcode-back.png) no-repeat 20px center #456083; padding: 15px 0 15px 80px; color: #fff; font-size: 14px;  line-height: 140%; width: 122px; border-radius: 2px; margin-top: 15px; clear: both;}
+.payment-code-box .int{ width: 180px !important;}
+.payment-code-box .editAmount{ display: inline-block; background-color: #ffdfb3; color: #d35a02; font-size: 16px; line-height: 100%; padding:13px 15px; margin: 0 0 0 -5px; vertical-align: top;}

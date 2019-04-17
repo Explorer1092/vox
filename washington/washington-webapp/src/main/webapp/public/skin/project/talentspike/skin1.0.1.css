@@ -1,0 +1,33 @@
+body{ font-size:12px; font-family: Helvetica, Arial, sans-serif; color:#ffdd48;}
+a{ text-decoration:none; color:#3e3e3e;}
+a:hover{ text-decoration:none; }
+
+.main{ width:100%; background: #eefaff url(images/bg.png) repeat-x; padding-bottom:20px;}
+.main .main_in{ width:100%; margin:0 auto; background: url(images/002.jpg) no-repeat center 0; min-width: 960px;}
+.main .main_in .main_in2{ width:960px; margin:0 auto; overflow:hidden;}
+.main .main_in .main_in1{width:872px; margin:0 auto; background: url(images/001.jpg) no-repeat 0 center;overflow:hidden; height:459px; position:relative;}
+
+.main .main_in p.p03{ margin:155px 0 0 235px; color:#fff; font-size:22px; text-align:center; height: 22px; }
+.main .main_in p.p01{ margin:20px 0 0 0; font-size:22px; color:#844b07; width:260px; float:left; _display:inline; height: 30px;text-align: center; white-space: nowrap; overflow: hidden;}
+.main .main_in p.p02{ margin:3px 0 0 42px; color:#844b07; width:345px; font-size:14px; text-align:center; line-height:16px; font-weight:bold; height: 32px; }
+.main .main_in .number{ margin:45px 0px 0 50px; height:53px;}
+.main .main_in .number .p06{ float:right; width:400px; font-weight:bold; font-size:27px; margin-right:8px; margin-top:18px; _display:inline; background: url(images/daojishi.png) no-repeat 0 center; height:32px;}
+
+.main .main_in .number .p06 span.span01{ background: url(images/number1.png) repeat-x 0 center; width:52px; height:32px; display: inline-block; line-height:32px; text-align:center; letter-spacing:10px; color:#333333;}
+.main .main_in .number .p06 span.span001{ margin-left:68px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span002{ margin-left:22px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span003{ margin-left:18px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span004{ margin-left:21px; padding-left:5px; width:47px;}
+
+.main .main_in p.p05{ color:#ffedb7; padding-left:25px; font-weight:bold; margin-top:21px; font-size:14px;}
+.main .main_in .btn{ width:326px; height:82px; display:block; background:url(images/anniu.png) no-repeat 0 -104px ; position:absolute; left:492px; bottom:93px; cursor: pointer; border: none; }
+.main .main_in .btn3{ width:321px; height:74px; display:block; background: url(images/nostart.png) no-repeat; position:absolute; left:493px; bottom:98px; display:none; cursor:default; }
+.main .main_in .btn1{ width:433px; height:112px; display:block; background: url(images/miaowan.png) no-repeat; position:absolute; left:420px; bottom:110px; display:none; cursor:default; }
+.main .main_in .btn2{ width:422px; height:101px; display:block; background: url(images/yihuo.png) no-repeat; position:absolute; left:418px; bottom:110px; display:none; cursor:default;  }
+
+.main .main_in .btn:hover{ background-position:0 0;}
+.main .main_in .btn:visited{ background-position:0 -201px;}
+.main .images{ margin:0 auto; width:872px; text-align:center;}
+.main .images .im02{ background: url(images/003.jpg) no-repeat 0 center; width:872px; height:450px;}
+.main .images .im03{ background:url(images/004.jpg) no-repeat 0 center; width:872px; height:350px;}
+.main .images .im04{ background:url(images/005.jpg) no-repeat 0 center; width:872px; height:301px;}

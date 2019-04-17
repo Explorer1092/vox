@@ -1,0 +1,17 @@
+.t-challengeMatch-box {width:100%;margin:0 auto;background-color: #fffcde;}
+.t-challengeMatch-box .banner01{height:21.8rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner01.jpg) no-repeat;}
+.t-challengeMatch-box .banner02{height:49.15rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner02.jpg) no-repeat;}
+.t-challengeMatch-box .banner03{height:19.4rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner03.jpg) no-repeat;}
+.t-challengeMatch-box .banner04{height:27.15rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner04.jpg) no-repeat;}
+.t-challengeMatch-box .banner05{height:23.6rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner05.jpg) no-repeat;}
+.t-challengeMatch-box .banner06{height:21.65rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner06.jpg) no-repeat;}
+.t-challengeMatch-box .banner07{height:21.15rem;background: url(../../images/parent/activity/globalmath/challengeMatch-banner07.jpg) no-repeat;}
+.t-challengeMatch-box .c-inner{background-color: #ff7c42;border-radius: .5rem;box-shadow: 0 .1rem .1rem #c9c7af;font-size: 1.05rem;color: #fff;text-align: center;line-height: 2.5rem;margin:0 1.75rem;}
+.t-challengeMatch-box .c-inner span{font-size: 1.4rem;}
+.t-challengeMatch-box .i-image{width:14.65rem;height:12.25rem;background: url(../../images/parent/activity/globalmath/challengeMatch-image.png) no-repeat;background-size: 100% 100%;margin:2.25rem auto 5.5rem;}
+.t-challengeMatch-box .footer{height:5.5rem;background-color: #ff773b;text-align: center;}
+.t-challengeMatch-box .footer a{color: #fff;display: inline-block;}
+.t-challengeMatch-box .footer .f-trial{font-size:1.5rem;background-color: #b5b5b5;width:12rem;float: left;line-height: 5.5rem;}
+.t-challengeMatch-box .footer .f-Standard{font-size:1.7rem;line-height: 5rem;}
+.t-challengeMatch-box .footer .f-Standard span{font-size:2.7rem;}
+.globalmath_btn-fixed{position: fixed;bottom: 0px;background-color: #ff773b;width: 100%;}

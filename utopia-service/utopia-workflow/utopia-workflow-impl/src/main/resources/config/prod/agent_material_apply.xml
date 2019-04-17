@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <status name="init"><!--专员提交初始状态，等待市经理审核-->
+        <event name="agree" status="lv2" mqmsg="agree_init"></event>
+        <event name="reject" status="reject" mqmsg="agree_init"></event>
+    </status>
+
+    <status name="init2"><!--专员提交城市费用初始状态，等待市经理审核-->
+        <event name="agree" status="lv1" mqmsg="agree_init2"></event>
+        <event name="reject" status="reject" mqmsg="agree_init2"></event>
+    </status>
+
+    <!-- 财务人员审核 -->
+    <status name="lv1" processor='{"userPlatform":"agent"@"account":"402"@"accountName":"汪晓泉"}'>
+        <event name="agree"  status="lv2" mqmsg="agree_lv1"></event> <!--一审通过 -->
+        <event name="reject" status="rejected" mqmsg="reject_lv1"></event> <!--一审拒绝 -->
+    </status>
+
+    <!-- 销运人员审核 -->
+    <status name="lv2" processor='{"userPlatform":"agent"@"account":"1665"@"accountName":"何志丽"},{"userPlatform":"agent"@"account":"2061"@"accountName":"赵宇"}'>
+    <!--<status name="lv2" processor='{"userPlatform":"agent"@"account":"179"@"accountName":"总监"}'>-->
+        <event name="agree"  status="lv3" mqmsg="agree_lv1"></event> <!--一审通过 -->
+        <event name="reject" status="rejected" mqmsg="reject_lv1"></event> <!--一审拒绝 -->
+    </status>
+
+    <status name="lv3" aftertreatment="true">
+        <event name="revoke" status="revoke"></event>
+    </status>
+
+</root>

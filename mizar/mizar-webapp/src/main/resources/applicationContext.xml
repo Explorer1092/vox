@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	                       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:property-placeholder location="classpath:config/product.properties"/>
+
+    <context:component-scan base-package="com.voxlearning.utopia">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <bean class="com.voxlearning.utopia.mizar.interceptor.MizarControllerRequestInterceptor"
+          p:includePatterns="/**"
+          p:excludePatterns="/hsb/**"
+          p:order="1"/>
+    <bean class="com.voxlearning.utopia.mizar.interceptor.HbsRequestInterceptor"
+          p:includePatterns="/hbs/**"
+          p:order="2"/>
+
+    <context:component-scan base-package="com.voxlearning.utopia.mizar"/>
+
+    <import resource="classpath*:/config/utopia-cdn.xml"/>
+
+    <import resource="classpath*:/config/mizar-core.xml"/>
+
+    <bean class="com.voxlearning.alps.webmvc.view.AlpsFreemarkerViewResolver"
+          p:name="default"
+          p:templateLoaderPaths="/WEB-INF/mizar"
+          p:autoImport="/common/config.ftl as app"
+          p:redirectContextRelative="false"
+          p:redirectHttp10Compatible="false"/>
+
+
+</beans>

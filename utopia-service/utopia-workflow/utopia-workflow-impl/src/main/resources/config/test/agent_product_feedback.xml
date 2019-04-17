@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- 销运审核 -->
+    <status name="init" processor='{"userPlatform":"admin"@"account":"ziqi.feng"@"accountName":"冯子奇"},{"userPlatform":"admin"@"account":"song.wang"@"accountName":"王松"},{"userPlatform":"admin"@"account":"dongshuang.zhao"@"accountName":"赵东双"},{"userPlatform":"admin"@"account":"chunlin.yu"@"accountName":"喻春霖"},{"userPlatform":"admin"@"account":"jingwei.qiu"@"accountName":"邱經緯"}'>
+        <event name="agree" status="lv1" mqmsg="agree_init"></event>
+        <event name="reject" status="reject_lv1" mqmsg="agree_init"></event>
+        <event name="raiseup" status="init" mqmsg="raiseup"></event>
+    </status>
+
+    <!-- PM审核 -->
+    <status name="lv1" >
+        <event name="agree"  status="lv2" mqmsg="agree_lv1"></event> <!-- 通过 -->
+        <event name="reject" status="reject_lv2" mqmsg="reject_lv1"></event> <!-- 拒绝 -->
+        <event name="raiseup" status="lv1" mqmsg="raiseup"></event> <!-- PM转发  老功能中转发会更新状态，为兼容，这块设置成和当前状态一致即可 -->
+    </status>
+
+    <!-- PM拒绝后， 销运2审核 -->
+    <status name="reject_lv2" >
+        <event name="agree"  status="lv3" mqmsg="agree_lv1"></event> <!-- 通过 -->
+        <event name="reject" status="reject_lv3" mqmsg="reject_lv1"></event> <!-- 拒绝 -->
+    </status>
+
+</root>

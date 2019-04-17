@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0" metadata-complete="true" id="ucenter">
+    <display-name>ucenter-web</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+
+    <filter>
+        <filter-name>alexanderFilter</filter-name>
+        <filter-class>com.voxlearning.alps.webmvc.filter.AlexanderFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>alexanderFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>defaultFilter</filter-name>
+        <filter-class>com.voxlearning.alps.webmvc.filter.AlpsFilter</filter-class>
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>com.voxlearning.ucenter.support.context.UcenterRequestContext</param-value>
+        </init-param>
+        <init-param>
+            <param-name>maxInMemorySize</param-name>
+            <param-value>1024000</param-value>
+        </init-param>
+        <init-param>
+            <param-name>maxUploadSize</param-name>
+            <param-value>20480000</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>defaultFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>com.voxlearning.alps.webmvc.listener.AlpsContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>app</servlet-name>
+        <servlet-class>com.voxlearning.alps.webmvc.servlet.AlpsServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>app</servlet-name>
+        <url-pattern>*.vpage</url-pattern>
+
+        <!-- 遗留的扩展名，将来不再使用，为了保证兼容性，线上环境先用一段时间 -->
+        <url-pattern>*.shtml</url-pattern>
+
+        <!-- 防止url劫持用的特殊扩展名，希望能绕过各种垃圾广告系统 -->
+        <url-pattern>*.api</url-pattern>
+
+
+        <url-pattern>/j_spring_security_check</url-pattern>
+        <url-pattern>/examrpcgateway/process</url-pattern>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index.vpage</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <error-page>
+        <error-code>501</error-code>
+        <location>/WEB-INF/ftl/default/plaza/error_501.html</location>
+    </error-page>
+
+
+    <!--陈经纶学校相关配置信息  开始-->
+    <!--陈经纶学校用户认证过滤器配置-->
+    <filter>
+        <filter-name>CJL CASFilter</filter-name>
+        <filter-class>com.voxlearning.ucenter.controller.filter.CJLAuthenticationFilter</filter-class>
+        <init-param>
+            <param-name>casServerLoginUrl</param-name>
+            <param-value>http://58.132.20.19:8089/cas/login</param-value>
+        </init-param>
+        <init-param>
+            <param-name>serverName</param-name>
+            <param-value>http://58.132.20.19:8088</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CJL CASFilter</filter-name>
+        <url-pattern>/cjlschool/ssologin.vpage</url-pattern>
+    </filter-mapping>
+
+    <!--  陈经纶学校Ticket校验过滤器配置  -->
+    <filter>
+        <filter-name>CLJ CAS Validation Filter</filter-name>
+        <filter-class>com.voxlearning.ucenter.controller.filter.CJLCas20ProxyReceivingTicketValidationFilter</filter-class>
+        <init-param>
+            <param-name>casServerUrlPrefix</param-name>
+            <param-value>http://58.132.20.19:8089/cas</param-value>
+        </init-param>
+        <init-param>
+            <param-name>serverName</param-name>
+            <param-value>http://58.132.20.19:8088</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CLJ CAS Validation Filter</filter-name>
+        <url-pattern>/cjlschool/ssologin.vpage</url-pattern>
+    </filter-mapping>
+
+    <!--  HttpServletRequest请求包裹过滤器配置  -->
+    <filter>
+        <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
+        <filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
+        <url-pattern>/cjlschool/ssologin.vpage</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>CAS Assertion Thread Local Filter</filter-name>
+        <filter-class>org.jasig.cas.client.util.AssertionThreadLocalFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CAS Assertion Thread Local Filter</filter-name>
+        <url-pattern>/cjlschool/ssologin.vpage</url-pattern>
+    </filter-mapping>
+    <!--陈经纶学校相关配置信息   结束    -->
+
+</web-app>

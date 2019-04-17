@@ -1,0 +1,22 @@
+.picaro-section { width: 855px; margin: 0 auto;}
+.picaro-section p{ margin: 0; padding: 0;}
+.picaro-section .ps-tab {}
+.picaro-section .ps-tab a{ display: block; background-color: #0b62ab; width: 427px; float: left; border-right: 1px solid #028bca; color: #fff; font: 26px/78px "微软雅黑", "Microsoft YaHei", arial; text-align: center;  text-decoration: none; position: relative; }
+.picaro-section .ps-tab .arrow{ position: absolute; bottom: -10px ; left: 50%; font-size: 50px; line-height: 22px; color: #0676ba; display: none; margin: 0 0 0 -10px}
+.picaro-section .ps-tab a.active{ background-color: #0b79bb;}
+.picaro-section .ps-tab a.active .arrow{ display: block;}
+.picaro-section .ps-content { clear: both;}
+/*product-detail*/
+.picaro-section .product-detail { /*width: 849px;*/}
+.picaro-section .product-detail p{ /*background-repeat: no-repeat;*/  background-position: center 0;}
+.picaro-section .product-detail .p-1{ background-image: url(../images/picaro_1.jpg); height: 453px;}
+.picaro-section .product-detail .p-2{ background-image: url(../images/picaro_2.jpg); height: 402px;}
+.picaro-section .product-detail .p-3{ background-image: url(../images/picaro_3.jpg); height: 504px; }
+.picaro-section .product-detail .p-4{ background-image: url(../images/picaro_4.jpg); height: 564px; }
+/*method-use*/
+.picaro-section .method-detail p{ /*background-repeat: no-repeat;*/  background-position: center 0;}
+.picaro-section .method-detail .p-1{ background-image: url(../images/picaro_5.jpg); height: 121px;}
+.picaro-section .method-detail .p-2{ background-image: url(../images/picaro_6.jpg); height: 355px;}
+.picaro-section .method-detail .p-3{ background-image: url(../images/picaro_7.jpg); height: 312px;}
+.picaro-section .method-detail .p-4{ background-image: url(../images/picaro_8.jpg); height: 326px;}
+.picaro-section .method-detail .p-5{ background-image: url(../images/picaro_9.jpg); height: 241px;}

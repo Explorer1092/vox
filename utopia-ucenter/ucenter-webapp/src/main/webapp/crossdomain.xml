@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+  <allow-access-from domain="17zuoye.com" />
+  <allow-access-from domain="*.17zuoye.com" />
+  <allow-access-from domain="17zuoye.cn" />
+  <allow-access-from domain="*.17zuoye.cn" />
+  <allow-access-from domain="17zuoye.net" />
+  <allow-access-from domain="*.17zuoye.net" />
+  <allow-access-from domain="dreamz.cn" />
+  <allow-access-from domain="*.dreamz.cn" />
+  <allow-access-from domain="*.pamakids.com" />
+  <allow-access-from domain="pet.upup100.com" />
+  <allow-access-from domain="*.just4test.net" />
+  <allow-access-from domain="drawboard.duapp-preview.com" />
+</cross-domain-policy>

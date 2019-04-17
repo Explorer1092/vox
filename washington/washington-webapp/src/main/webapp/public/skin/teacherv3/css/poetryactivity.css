@@ -1,0 +1,29 @@
+.poetry-container{clear:both}
+.poetry-container .float-left{float:left}
+.poetry-container .float-right{float:right}
+.poetry-container .title{padding:0 0 0 15px;font-size:18px;color:#4e5656;font-weight:700;height:24px;line-height:24px}
+.poetry-container .s-content-box{background-color:#fff;border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;margin-top:23px;padding:20px 0}
+.poetry-container .content-box{overflow:hidden;position:relative}
+.poetry-container .content-box:after{position:absolute;content:"";height:100%;width:1px;top:0;left:122px;background-color:#dae6ee}
+.poetry-container .content-box .content-left .left-title{padding:0 13px 0 15px;font-size:18px;color:#4e5656;font-weight:700;height:24px;line-height:24px}
+.poetry-container .content-box .content-left .clazz-list{padding-top:30px;margin:0 10px}
+.poetry-container .content-box .content-left .clazz-list .clazz-item{margin-top:15px;width:80px;height:24px;padding:0 10px;border:1px solid #dae6ee;-moz-border-radius:11.5px;border-radius:11.5px;text-align:center;line-height:24px;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;cursor:pointer;font-size:14px}
+.poetry-container .content-box .content-left .clazz-list .active{color:#189cfb;background-color:#dae6ee}
+.poetry-container .content-box .content-right{padding:0 15px;margin-left:123px}
+.poetry-container .content-box .content-right .post-tip,.poetry-container .content-box .content-right .pre-tip{font-size:12px;color:#4e5656;letter-spacing:0;text-align:center}
+.poetry-container .content-box .activities-list{padding:23px 0;overflow:hidden}
+.poetry-container .content-box .activities-list .activity-item{background:#fff;border:1px solid #dae6ee;-moz-border-radius:10px;border-radius:10px;width:300px;position:relative;overflow:hidden;margin-right:19px;margin-bottom:30px}
+.poetry-container .content-box .activities-list .activity-item:nth-child(even){margin-right:0}
+.poetry-container .content-box .activities-list .activity-item .a-left{padding:10px}
+.poetry-container .content-box .activities-list .activity-item .a-left .img-box{width:80px;height:80px}
+.poetry-container .content-box .activities-list .activity-item .a-left .img-box img{width:100%;border:1px solid #d8d8d8;-moz-border-radius:11.5px;border-radius:11.5px}
+.poetry-container .content-box .activities-list .activity-item .activity-desc{width:auto;padding-top:10px;margin:0 97px 0 90px;overflow:hidden}
+.poetry-container .content-box .activities-list .activity-item .activity-desc .a-result,.poetry-container .content-box .activities-list .activity-item .activity-desc .a-tag,.poetry-container .content-box .activities-list .activity-item .activity-desc .a-title{margin-bottom:10px}
+.poetry-container .content-box .activities-list .activity-item .activity-desc .a-title{font-size:18px;color:#4e5656;font-weight:700}
+.poetry-container .content-box .activities-list .activity-item .activity-desc .a-tag span{display:inline-block;width:30px;height:20px;background:#dae6ee;-moz-border-radius:25px;border-radius:25px;font-size:12px;color:#4e5656;letter-spacing:0;text-align:center;line-height:20px;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;margin-right: 5px;}
+.poetry-container .content-box .activities-list .activity-item .activity-desc .a-result{font-size:12px;color:#4e5656}
+.poetry-container .content-box .activities-list .activity-item .activity-desc .a-num{color:#189cfb}
+.poetry-container .content-box .activities-list .activity-item .a-right{width:88px;position:absolute;right:0;top:50%;margin-top:-20px;margin-right:10px}
+.poetry-container .content-box .activities-list .activity-item .a-right .a-btn{display:inline-block;width:100%;height:40px;-moz-border-radius:5px;border-radius:5px;font-size:14px;text-align:center;line-height:40px;color:#333;}
+.poetry-container .content-box .activities-list .activity-item .a-right .a-btn.a-btn-blue{color:#fff;background-color:#1a9bfb}
+.poetry-container .content-box .activities-list .activity-item .a-right .a-btn.a-btn-disabled{background-color:#b5b5b5!important;cursor:default;border-color:#7f8888!important}

@@ -1,0 +1,53 @@
+﻿# ==========
+# 常用配置项
+# ==========
+
+#主站url
+#product.config.main_site_base_url = http://localhost:8080
+
+#子站url
+#product.config.common.exam_url=http://localhost:8081/utopia-community-exam
+#product.config.reward_site_base_url=http://eb.local.com
+
+#本地开发各种service：
+#product.config.group.service.names=service.region
+#product.config.group.service.names=service.message
+#product.config.group.service.names=service.conversation
+#product.config.group.service.names=service.journal
+#product.config.group.service.names=service.island,service.region
+
+#product.config.group.service.names = service.user
+
+#product.config.group.service.names=service.talent
+#product.config.group.service.field=hailong.yang
+#product.config.group.service.names=homewrok.api
+
+#本地开发各种service的另一种简单写法的例子：
+#product.config.group.service.names=*:test;  business.api,service.pk,babel.api:test-dragon;
+
+#使用本地的queue（涉及到queue开发的时候防止内容被其他consumer读走）
+#product.config.rabbitmq.queue.subname=xiaoguang
+
+#二进制资源（resources）指向
+#product.development.web.replace_www_resources_url = http://cdn-static-shared.test.17zuoye.net/resources
+
+#功能配置
+com.voxlearning.alps.feature.core.DeployerNotification = false
+com.voxlearning.alps.feature.monitor.FlightPrettyPrint = true
+com.voxlearning.alps.feature.http.HttpCommandEvent = true
+com.voxlearning.alps.feature.aerospike.AerospikeCommandEvent = true
+com.voxlearning.alps.feature.memcached.MemcachedCommandEvent = true
+com.voxlearning.alps.feature.redis.RedisCommandEvent = true
+com.voxlearning.alps.feature.mongo.MongoCommandEvent = true
+com.voxlearning.alps.feature.mysql.MysqlReadWriteSplit = false
+com.voxlearning.alps.feature.mysql.MysqlCommandEvent = true
+com.voxlearning.alps.feature.zookeeper.ZookeeperCommandEvent = true
+com.voxlearning.alps.feature.hydra.InJvmServiceInvoker = true
+com.voxlearning.alps.feature.hydra.ClientWatchDog = false
+com.voxlearning.alps.feature.hydra.LocationPropagation = true
+com.voxlearning.alps.feature.bootstrap.ArgusConnection = false
+com.voxlearning.alps.feature.bootstrap.LogCollector = false
+
+#hydra 本地调试配置
+#com.voxlearning.alps.remote.CustomizeServiceExposeGroup = utopia-dubbing-provider:name
+#com.voxlearning.alps.remote.CustomizeServiceImportGroup = service.dubbing.api:name

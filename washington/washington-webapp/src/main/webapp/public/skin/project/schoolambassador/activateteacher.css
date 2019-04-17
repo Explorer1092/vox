@@ -1,0 +1,202 @@
+.icon-live{ background: url(images/icon-live.png?1.0.13) no-repeat 0 0; display: inline-block; vertical-align: middle;}
+.icon-electric, .icon-fly{ width: 58px; height: 60px; background-position: 0 0;}
+.icon-fly{ background-position: 0 -60px;}
+.icon-yes, .icon-no{ width: 16px; height: 13px; background-position: -1px -124px;}
+.icon-yes{ background-position: -19px -124px;}
+.icon-yellow-gold{ width: 14px; height: 18px; background-position: -40px -120px; margin: 0 5px;}
+.t-awake-box{ background-color: #fff; }
+.t-awake-box .ab-up{ border-bottom: 1px solid #dfdfdf; padding: 20px 0; overflow: hidden; height: 100%;}
+.t-awake-box .ab-up .picture{ float: left; width: 150px; text-align: center;}
+.t-awake-box .ab-up .picture img{ width: 90px; height: 90px; border-radius: 50%; overflow: hidden;}
+.t-awake-box .ab-up .info-detail{}
+.t-awake-box .ab-up .info-detail .tip{ padding: 0 0 16px 0; margin-left: 150px;}
+.t-awake-box .ab-up .info-detail .tip p{ font-size: 18px; color: #000; padding: 5px 0 12px 0;}
+.t-awake-box .ab-up .info-detail .live{ margin-left: 210px; }
+.t-awake-box .ab-up .info-detail .live dl{ padding: 10px; margin: 0;  background-color: #edf5fa; height: 70px;}
+.t-awake-box .ab-up .info-detail .live dl dt{ width: 70px; float: left; margin-top: 6px; text-align: right;}
+.t-awake-box .ab-up .info-detail .live dl dd{ margin-left: 90px;}
+/*info-rule*/
+.t-awake-box .ab-up .info-rule { border: 1px dashed #b3cbdc; background-color: #f4faff; margin:  0 30px 0 490px;}
+.t-awake-box .ab-up .info-rule h4{ font-size: 18px; padding: 8px; text-align: center; border-bottom: 1px dashed #b3cbdc;}
+.t-awake-box .ab-up .info-rule p{ font-size: 14px; padding: 5px 15px;}
+.t-awake-box .font-down{ overflow: hidden; *zoom: 1; padding: 10px; clear: both;}
+.t-awake-box .font-down li{ width: 50%; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 10px 0; float: left;}
+.t-awake-box .font-down li span{ margin: 0 5px;}
+.t-awake-info{ padding: 22px 0; overflow: hidden; *zoom: 1;}
+.t-awake-info dt{ float: left; width: 360px; padding: 30px 0 0 10px;}
+.t-awake-info dd{ margin-left: 367px;}
+.t-show-box .w-turn-page-list a{ display: inline-block; padding: 2px 5px;}
+.t-show-box .w-turn-page-list .active{ color: #fff; background-color: #39f; border-radius: 2px;}
+/*t-card-*/
+.t-card-SHI_XI,
+.t-card-TONG_PAI,
+.t-card-YIN_PAI,
+.t-card-JIN_PAI{ background: url(images/level-icon.png?1.0.1) no-repeat; display: inline-block; vertical-align: middle; overflow: hidden; width: 28px; height: 29px;}
+.t-card-SHI_XI{ background-position: 5px 0;}
+.t-card-TONG_PAI{background-position: -36px 0;}
+.t-card-YIN_PAI{background-position: -76px 0;}
+.t-card-JIN_PAI{background-position: -118px 0;}
+
+/* global */
+.clearfix:after { content:"."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0; }
+.clearfix { *zoom: 1; }
+.wrapper { margin: 15px auto 0; width: 998px; border: 1px #d3d8df solid; border-radius: 1px; }
+.campusAm-1 { background-color: #fffcfa; }
+.campusAm-2 { background-color: #fff; }
+.campusAm-1 .campusHd .ico-1,.campusAm-1 .campusHd .ico-2,.campusAm-1 .campusMain .mod-fl .ico-1,.campusAm-1 .campusMain .mod-fl .ico-2,.campusAm-1 .campusMain .mod-fr .top-pic .pic,.campusAm-1 .campusMain .mod-fr .top-pic .pic-gray,.campusAm-1 .campusMain .mod-fr .top-ico,.campusAm-2 .campusModule .list .mod .pic,.campusAm-2 .campusFt .prev,.campusAm-2 .campusFt .next { background: url(images/school/icon.png?1.0.2) no-repeat; }
+/* main */
+.campusAm-1 .campusHd { position: relative; zoom: 1; margin: 20px 97px 0; z-index: 1; }
+.campusAm-1 .campusHd .inner { position: relative; text-align: center; color: #fff; font-size: 28px; line-height: 62px; background-color: #29d3c1; z-index: 3; }
+.campusAm-1 .campusHd .ico-1,.campusAm-1 .campusHd .ico-2 { position: absolute; top: 9px; width: 48px; height: 62px; z-index: 2; }
+.campusAm-1 .campusHd .ico-1 { left: -41px; background-position: 0 -100px; }
+.campusAm-1 .campusHd .ico-2 { right: -41px; background-position: -50px -100px; }
+.campusAm-1 .campusMain { padding: 20px 50px 20px 66px; }
+.campusAm-1 .campusMain .mod-fl { position: relative; zoom: 1; float: left; margin: 20px 0 0; padding: 102px 26px 23px; width: 185px; border-radius: 4px; background-color: #f9f1d2; }
+.campusAm-1 .campusMain .mod-fl p { color: #4e5656; font-size: 14px; line-height: 22px; }
+.campusAm-1 .campusMain .mod-fl .ico-1,.campusAm-1 .campusMain .mod-fl .ico-2 { position: absolute; }
+.campusAm-1 .campusMain .mod-fl .ico-1 { top: 19px; left: 75px; width: 100px; height: 73px; background-position: -130px -100px; }
+.campusAm-1 .campusMain .mod-fl .ico-2 { top: 50%; right: -20px; margin: -20px 0 0; width: 20px; height: 41px; background-position: -100px -125px; }
+.campusAm-1 .campusMain .mod-fr { float: right; margin: 38px 0 0; }
+.campusAm-1 .campusMain .mod-fr .mod { float: left; padding: 0 26px; width: 230px; border-left: 1px #c0d7cf dashed; }
+.campusAm-1 .campusMain .mod-fr .first { border: 0 none; }
+.campusAm-1 .campusMain .mod-fr .top-pic { float: left; width: 101px; }
+.campusAm-1 .campusMain .mod-fr .top-pic .pic { position: relative; zoom: 1; margin: 0 25px; width: 50px; height: 50px; background-position: 0 0; }
+.campusAm-1 .campusMain .mod-fr .top-pic .pic-gray { background-position: 0 -50px; }
+.campusAm-1 .campusMain .mod-fr .top-pic .pic em { position: absolute; top: 0; right: 1px; width: 14px; height: 14px; background: url(images/school/icon-round.png) no-repeat; }
+.campusAm-1 .campusMain .mod-fr .top-pic .txt { position: relative; height: 32px; overflow: hidden; text-align: center; color: #7f96a3; font-size: 14px; line-height: 32px; }
+.campusAm-1 .campusMain .mod-fr .top-ico { float: left; margin: 14px 0 0; width: 27px; height: 22px; background-position: -100px -100px; }
+.campusAm-1 .campusMain .mod-fr .head { position: relative; height: 30px; overflow: hidden; color: #1eb8a8; font-size: 18px; line-height: 30px; }
+.campusAm-1 .campusMain .mod-fr .text { padding: 9px 0 0; color: #4e5656; font-size: 14px; line-height: 22px; }
+
+.campusAm-title{border-bottom: 1px solid #dae6ee; color: #4e5656; font-size: 18px; font-weight: normal; padding:20px 15px 20px 30px;}
+.campusAm-2 .campusHd { position: relative; padding: 1px 20px 0 15px; border-bottom: 1px #dae6ee solid; background-color: #f9fcfe; z-index: 1; }
+.campusAm-2 .campusHd .title { float: left; color: #4e5656; font-size: 18px; line-height: 44px; }
+.campusAm-2 .campusHd .text { float: right; }
+.campusAm-2 .campusHd .text span { float: left; _display: inline; margin: 0 0 0 34px; color: #4e5656; font-size: 14px; line-height: 44px; }
+.campusAm-2 .campusHd .text .blue { color: #189cfb; }
+.campusAm-2 .campusModule { position: relative; zoom: 1; padding: 10px 10px 20px 210px; border-bottom: 1px #dae6ee dashed; background-color: #f9fcfe; }
+.campusAm-2 .campusModule .hd-pro { position: absolute; top: 15px; left: 30px; width: 180px; text-align: center;}
+.campusAm-2 .campusModule .hd-pro img { border: 1px #cddfeb solid; border-radius: 10px; width: 117px; height: 120px; display: inline-block;}
+.campusAm-2 .campusModule table { width: 100%; border-collapse: collapse; border-spacing: 0; border: 1px #dae6ee solid; }
+.campusAm-2 .campusModule table td { text-align: center; color: #4e5656; font-size: 14px; }
+.campusAm-2 .campusModule table a { color: #189cfb; }
+.campusAm-2 .campusModule thead td { height: 25px; border-bottom: 1px #dae6ee solid; }
+.campusAm-2 .campusModule tbody td { height: 35px; }
+.campusAm-2 .campusModule .list { position: relative; margin: 0; }
+.campusAm-2 .campusModule .list .mod { float: left; _display: inline; margin: 0 17px 0 0; width: 64px; }
+.campusAm-2 .campusModule .list .pic { margin: 0 7px; width: 50px; height: 50px; position: relative; display: inline-block; _display: inline; _zoom: 1;}
+.campusAm-2 .campusModule .list .pic em { /*position: absolute; top: 0; right: 1px; width: 14px; height: 14px; background: url(images/school/icon-round.png) no-repeat; */}
+.campusAm-2 .campusModule .list .hd { position: relative; padding: 2px 0 0; text-align: center; color: #7f96a3; font-size: 14px; line-height: 34px; }
+.campusAm-2 .campusModule .list .mod-01 .pic { background-position: 0 0; }
+.campusAm-2 .campusModule .list .mod-02 .pic { background-position: -50px 0; }
+.campusAm-2 .campusModule .list .mod-03 .pic { background-position: -100px 0; }
+.campusAm-2 .campusModule .list .mod-04 .pic { background-position: -150px 0; }
+.campusAm-2 .campusModule .list .mod-05 .pic { background-position: -200px 0; }
+.campusAm-2 .campusModule .list .mod-06 .pic { background-position: -250px 0; }
+.campusAm-2 .campusModule .list .mod-07 .pic { background-position: -300px 0; }
+.campusAm-2 .campusModule .list .mod-08 .pic { background-position: -350px 0; }
+.campusAm-2 .campusModule .list .mod-09 .pic { background-position: -400px 0; }
+.campusAm-2 .campusModule .list .mod-10 .pic { background-position: -450px 0; }
+.campusAm-2 .campusModule .list .mod-11 .pic { background-position: -500px 0; }
+.campusAm-2 .campusModule .list .mod-01-gray .pic { background-position: 0 -50px; }
+.campusAm-2 .campusModule .list .mod-02-gray .pic { background-position: -50px -50px; }
+.campusAm-2 .campusModule .list .mod-03-gray .pic { background-position: -100px -50px; }
+.campusAm-2 .campusModule .list .mod-04-gray .pic { background-position: -150px -50px; }
+.campusAm-2 .campusModule .list .mod-05-gray .pic { background-position: -200px -50px; }
+.campusAm-2 .campusModule .list .mod-06-gray .pic { background-position: -250px -50px; }
+.campusAm-2 .campusModule .list .mod-07-gray .pic { background-position: -300px -50px; }
+.campusAm-2 .campusModule .list .mod-08-gray .pic { background-position: -350px -50px; }
+.campusAm-2 .campusModule .list .mod-09-gray .pic { background-position: -400px -50px; }
+.campusAm-2 .campusModule .list .mod-10-gray .pic { background-position: -450px -50px; }
+.campusAm-2 .campusModule .list .mod-11-gray .pic { background-position: -500px -50px; }
+.campusAm-2 .campusFt { border-top: 1px #dae6ee solid; text-align: center; color: #4e5656; line-height: 26px; }
+.campusAm-2 .campusFt div,.campusAm-2 .campusFt span,.campusAm-2 .campusFt em { display: inline-block; vertical-align: top; }
+.campusAm-2 .campusFt .prev,.campusAm-2 .campusFt .next { width: 26px; height: 26px; cursor: pointer; }
+.campusAm-2 .campusFt .prev { background-position: -230px -100px; }
+.campusAm-2 .campusFt .next { background-position: -260px -100px; }
+.campusAm-2 .campusFt span { padding: 0 10px; }
+.campusAm-2 .campusFt span em { color: #189cfb; }
+
+/*Amb-teacher-avatar*/
+.Amb-teacher-avatar{padding: 15px; }
+.Amb-teacher-avatar dl.ata-info{ float: left; width: 50%;}
+.Amb-teacher-avatar dl.ata-info .img-icon{ background: url(../ambassador/Amb-applyl.png) no-repeat 0 0;}
+.Amb-teacher-avatar dl.ata-info dt{ float: left; width: 80px; height: 80px; text-align: center;}
+.Amb-teacher-avatar dl.ata-info dt img{ border-radius: 50%; overflow: hidden; width: 70px; display: inline-block;}
+.Amb-teacher-avatar dl.ata-info dd{ margin-left: 100px;}
+.Amb-teacher-avatar dl.ata-info dd h3{ font-size: 18px; font-weight: normal; padding-top: 8px; height: 35px;}
+.Amb-teacher-avatar dl.ata-info dd p{}
+.Amb-teacher-avatar dl.ata-info dd p span.Amb-icon{ font-size: 16px; margin-right: 18px;}
+.Amb-teacher-avatar dl.ata-info-blue{ background-color: #edf5fa; padding: 16px 0;}
+.Amb-teacher-avatar dl.ata-info-blue dt{ width: 60px; height: 60px; margin-left: 16px; *display: inline;}
+.Amb-teacher-avatar dl.ata-info-blue dd{margin:0 20px;}
+.Amb-teacher-avatar .ata-arrow{ background-color: #f85e21; color: #fff; font-size: 10px; padding: 1px 4px; border-radius: 3px; display: inline-block; margin-left: 15px;}
+.Amb-teacher-avatar .ata-arrow i{ display: inline-block; border: 5px solid #fff; border-right-color: #f85e21; margin: 0 3px 0 -14px;}
+/*curmonth-box*/
+.curmonth-rule{ color: #189cfb; font-size: 16px;}
+.curmonth-rule i{ display: inline-block; width: 20px; height: 20px; position: relative; top: 5px; background: url(images/school/college_icon.png) no-repeat -3px -35px;}
+/*cur-task*/
+.cur-task{ width: 100%; height: auto;}
+.cur-task .ctask-inner{ width: 100%; height: auto;}
+.cur-task .ctask-inner .task-cell{ display: block; float: left; position: relative; width: 33.25%; padding: 34px 0 15px 0; border-right: 1px dashed #d3d8df; text-align: center; line-height: 28px;}
+.cur-task .ctask-inner .task-cell .type{ font-size: 20px; color: #189cfb;}
+.cur-task .ctask-inner .task-cell .describe{ font-size: 18px; color: #667284;}
+.cur-task .ctask-inner .task-cell .check-btn{ font-size: 12px; color: #189cfb; font-weight: bold;position: relative;}
+.cur-task .ctask-inner .task-cell.success{ background: url(images/school/complate-icon.png) right bottom no-repeat;}
+.cur-tips-main { position: relative; display: inline-block;}
+.cur-tips-main .tips-box{ position: absolute; display: none; background: #ffef94; border-radius: 3px; width: 280px; padding: 5px 10px; line-height: 18px; font-size: 12px; color: #b78133; top: 35px; left: 0;}
+.cur-tips-main .tips-box span{ display: block; width: 0; height: 0; line-height: 0; font-size: 0; border: 5px solid #fff; border-bottom-color: #ffef94; position: absolute; left: 20px; top: -10px;}
+.cur-tips-main:hover .tips-box{ display: block;}
+/*20160330*/
+.ds-icon{vertical-align:middle;display:inline-block;width:80px;height:65px;background:url(images/level/zgds-icons_01.png) no-repeat}
+.ds-icon-0{background-position:0 0}
+.ds-icon-1{background-position:-80px 0}
+.ds-icon-2{background-position:-160px 0}
+.ds-icon-3{background-position:-240px 0}
+.ds-icon-4{background-position:-320px 0}
+.ds-icon-5{background-position:-400px 0}
+.ds-icon-6{background-position:-480px 0}
+.ds-icon-7{background-position:-560px 0}
+.ds-icon-8{background-position:-640px 0}
+.medal-icon{vertical-align:middle;display:inline-block;width:25px;height:25px;background:url(images/level/medal-icon.png) no-repeat}
+.medal-icon-0{background-position:0 0}
+.medal-icon-1{background-position:-25px 0}
+.medal-icon-2{background-position:-50px 0}
+.medal-icon-3{background-position:-75px 0}
+.ambBox-inner .ambBox-hd{width:100%;padding:10px 0;background:#edf5fa;font-size:14px;color:#7e7e7e}
+.ambBox-inner .ambBox-hd .title{padding:0 15px;color:#333}
+.ambBox-inner .ambBox-mn{border-bottom:1px solid #e1ebf1}
+.ambassador-box{width:998px}
+.ambBox-rankBar{width:926px;padding:28px 0;margin:0 auto}
+.ambBox-rankBar ul{ height: 62px;}
+.ambBox-rankBar ul li{width:24%;float:left;font-size:14px;color:#4e5656}
+.ambBox-rankBar ul li .name{height:25px;line-height:25px;font-weight:700;margin-bottom:10px}
+.ambBox-rankBar ul li .enter{color:#189cfb}
+.ambBox-rankBar ul li .enter:hover{text-decoration:underline}
+.ambBox-rankBar ul li .rBar{padding:6px 5px;font-size:12px;color:#fff}
+.ambBox-rankBar ul li .rBar01{background:#75a2bf}
+.ambBox-rankBar ul li .rBar02{background:#8fb9d2}
+.ambBox-rankBar ul li .rBar03{background:#a4c8de}
+.ambBox-rankBar ul li .rBar04{background:#c3ddee}
+.ambBox-bzWork{font-size:14px;overflow:hidden;height:100px;padding:20px 0}
+.ambBox-bzWork .left{float:left;width:250px;text-align:center}
+.ambBox-bzWork .left .name{padding-top:8px;color:#7f96a3}
+.ambBox-bzWork .right{float:left;width:718px}
+.ambBox-bzWork .right ul{overflow:hidden}
+.ambBox-bzWork .right ul li{width:33%;float:left}
+.ambBox-bzWork .right .title{color:#333;padding:10px 0 10px 10px;background:url(images/level/circle.png) no-repeat left center}
+.ambBox-bzWork .tips{color:#7e7e7e;padding:10px 0}
+.ambBox-bzWork .bar{padding:6px 5px;font-size:12px;color:#fff}
+.ambBox-bzWork .bar01{background:#84d3c1}
+.ambBox-bzWork .bar02{background:#95dfd0}
+.ambBox-bzWork .bar03{background:#b1ece0}
+.ambBox-tab ul{overflow:hidden}
+.ambBox-tab ul li{float:left;width:248px;padding-top:20px;height:140px;text-align:center;font-size:14px;color:#7f96a3;border-right:1px solid #f2f2f2;border-top:1px solid #f2f2f2}
+.ambBox-tab ul li.active, .ambBox-tab ul li:hover{background:#f5f5f5}
+.ambBox-tab ul li.active .ds-icon, .ambBox-tab ul li:hover .ds-icon{background-image:url(images/level/zgds-icons_02.png);}
+.ambBox-tab ul li.noBorder{border-right:0}
+.ambBox-tab ul li .text{height:42px;overflow:hidden}
+.ambBox-tab ul li .font16{font-size:16px}
+.ambBox-tab ul li .intro{font-size:12px}
+.ambBox-tab ul li a{color:#189cfb}
+.ambBox-tab ul li a:hover{text-decoration:underline}

@@ -1,0 +1,48 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+description = 'Utopia Toolkit Voice Score'
+
+jar {
+    manifest.attributes("Main-Class": "com.voxlearning.utopia.service.voice.MainKt")
+}
+
+dependencies {
+    compile("com.voxlearning.alps:alps-bootstrap:${version_alps}")
+    compile("com.voxlearning.alps:alps-embed-jetty:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-hydra:${version_alps}")
+    compile("com.voxlearning.alps:alps-cache-couchbase:${version_alps}")
+
+    compile("com.voxlearning.raikou:raikou-system-api:${version_raikou}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    compile("com.voxlearning.platform:utopia-config-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+
+    compile("com.voxlearning.platform:utopia-footprint-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+
+    compile("com.voxlearning.platform:utopia-core-lib:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    compile(project(':utopia-service:utopia-vendor:utopia-vendor-api'))
+
+    testCompile("com.voxlearning.alps:alps-test:${version_alps}")
+}

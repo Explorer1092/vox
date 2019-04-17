@@ -1,0 +1,67 @@
+.pictureBookBox.spacingBottom{margin-bottom:30px}
+.pictureBookBox.pictureBottom{height:100%;overflow-y:hidden;padding-bottom:70px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative}
+.pictureBookBox.pictureBottom .picutreBottomCard{height:100%;overflow-y:auto}
+.pictureBookBox.pictureBottom .pictureWhole .homework_page_list{position: absolute;bottom: 0px;left: 50%;-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);width: 100%}
+.pictureBookBox .phonicsTitleCard{padding:50px 0 44px;text-align:center}
+.pictureBookBox .phonicsTitleCard div{display:inline-block;width:232px;height:80px;-moz-border-radius:10px;border-radius:10px;background:#f4f4f4;cursor:pointer}
+.pictureBookBox .phonicsTitleCard div i{display:inline-block;width:50px;height:50px;vertical-align:middle}
+.pictureBookBox .phonicsTitleCard div span{font-size:18px;line-height:80px;font-weight:700}
+.pictureBookBox .phonicsTitleCard div.active{background:#d2ecff}
+.pictureBookBox .phonicsTitleCard div.phonicsRecommend{margin-right:20px}
+.pictureBookBox .phonicsTitleCard div.phonicsRecommend i{background:url(../images/teachingresource/pictureRecommend.png?v=4b181249d1) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .phonicsTitleCard div.phonicsWhole i{background:url(../images/teachingresource/pictureWhole.png?v=4c809d9742) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureBook .pictureBookTitle{padding:25px 0 25px 30px;font-size:18px;color:#333;font-weight:700}
+.pictureBookBox .pictureBook .pictureBookTitle i{font-size:16px;font-weight:400}
+.pictureBookBox .pictureBook .pictureBookCon{position:relative;height:148px;overflow:hidden;padding-left:30px}
+.pictureBookBox .pictureBook .pictureBookCon .arrow{cursor:pointer;position:absolute;bottom:0;width:15px;height:148px;background:#7f7f7f;z-index:1}
+.pictureBookBox .pictureBook .pictureBookCon .arrow .icon{position:absolute;top:50%;left:4px;margin-top:-9px;display:inline-block;width:8px;height:18px}
+.pictureBookBox .pictureBook .pictureBookCon .arrow.arrow-l{left:0}
+.pictureBookBox .pictureBook .pictureBookCon .arrow.arrow-l .icon{background:url(../images/teachingresource/leftArrow.png?v=486ee77dfe) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureBook .pictureBookCon .arrow.arrow-r{right:0}
+.pictureBookBox .pictureBook .pictureBookCon .arrow.arrow-r .icon{background:url(../images/teachingresource/rightArrow.png?v=bab7fdd4df) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .e-pictureList{float:left;width:233px;height:146px;border:1px solid #dae6ee;-moz-border-radius:5px;border-radius:5px;margin-right:15px;cursor:pointer;overflow:hidden}
+.pictureBookBox .e-pictureList .lPic{float:left;width:94px;height:100%;margin-right:10px;background:#f8fbfa;position:relative}
+.pictureBookBox .e-pictureList .lPic img{max-width:100%;max-height:100%;width:auto;height:auto;position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}
+.pictureBookBox .e-pictureList .rInfo{margin-right:10px}
+.pictureBookBox .e-pictureList .title{margin-top:9px;font-size:16px;font-weight:700;color:#333;line-height:24px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.pictureBookBox .e-pictureList .text{margin-top:9px;font-size:12px;color:#999;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.pictureBookBox .pictureWhole .h-tab-box{padding:0 45px 0 30px;font-size:14px;margin:0}
+.pictureBookBox .pictureWhole .h-tab-box dl{border-top:1px solid rgba(0,0,0,.05)}
+.pictureBookBox .pictureWhole .h-tab-box dl.J_filter-series{border-bottom:1px solid rgba(0,0,0,.05)}
+.pictureBookBox .pictureWhole .h-tab-box dt{position:relative;width:54px;text-align:left;float:left;line-height:33px}
+.pictureBookBox .pictureWhole .h-tab-box dd{margin:0 0 0 40px;color:#333;position:relative;overflow:hidden;padding-right:25px}
+.pictureBookBox .pictureWhole .h-tab-box .theme-box{position:static;height:36px;overflow:hidden}
+.pictureBookBox .pictureWhole .h-tab-box .theme-box .arrow-show-icon{position:absolute;right:0;top:10px;display:inline-block;width:16px;height:16px;background:url(../images/teachingresource/arrow-show-icon.png?v=ddb09b88ee) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .theme-box.showAll{height:auto;overflow:visible}
+.pictureBookBox .pictureWhole .h-tab-box .theme-box.showAll .arrow-show-icon{background:url(../images/teachingresource/showAll.png?v=ede0352331) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list{margin:0;padding:1px 0 0 1px;float:left}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down{float:none;clear:both;position:relative;top:-1px;margin-top:0;overflow:hidden;zoom:1;padding:0}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down p{float:left;padding:10px 0;width:100px;text-align:left;margin:0 2px 0 10px;line-height:100%;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down p .w-icon-md{white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;width:82px}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down .label-check{width:50px}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down .label-check-current .label{padding:0 6px;background:#189cfb;-moz-border-radius:4px;border-radius:4px;color:#fff}
+.pictureBookBox .pictureWhole .h-tab-box .t-homeworkClass-list .pull-down .side{margin-left:65px;overflow:hidden}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-clazzLevels .filter-item .w-radio{display:inline-block;vertical-align:middle;width:16px;height:16px;margin-right:5px;background:url(../images/teachingresource/choice.png?v=564f74c3f6) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-clazzLevels .filter-item.w-radio-current .w-radio{background:url(../images/teachingresource/choiceSelected.png?v=b5b71a3365) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-clazzLevels .filter-item.w-radio-current .w-icon-md{color:#189cfb}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-series .filter-item .w-checkbox,.pictureBookBox .pictureWhole .h-tab-box .J_filter-topics .filter-item .w-checkbox{display:inline-block;vertical-align:middle;width:16px;height:16px;margin-right:5px;background:url(../images/teachingresource/checkboxSelect.png?v=4bd47ef8a9) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-series .filter-item.w-radio-current .w-checkbox,.pictureBookBox .pictureWhole .h-tab-box .J_filter-topics .filter-item.w-radio-current .w-checkbox{background:url(../images/teachingresource/checkboxSelected.png?v=2360f9cf7e) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.pictureBookBox .pictureWhole .h-tab-box .J_filter-series .filter-item.w-radio-current .w-icon-md,.pictureBookBox .pictureWhole .h-tab-box .J_filter-topics .filter-item.w-radio-current .w-icon-md{color:#189cfb}
+.pictureBookBox .pictureWhole .pictureWholeBook{padding:20px 0 40px 10px;overflow:hidden}
+/*.pictureBookBox .pictureWhole .pictureWholeBook{padding:20px 20px 40px 35px}*/
+.pictureBookBox .pictureWhole .pictureWholeBook ul{width:-moz-calc(6*250px);width:calc(6*250px);margin:0 auto;overflow:hidden}
+.pictureBookBox .pictureWhole .pictureWholeBook .e-pictureList{margin-top:20px}
+.pictureBookBox .pictureWhole .homework_page_list{padding:20px 0;text-align:center}
+.pictureBookBox .pictureWhole .homework_page_list a{display:inline-block;margin:0 20px;font-size:14px;color:#333;cursor:pointer}
+.pictureBookBox .pictureWhole .homework_page_list a.this{color:#189cfb}
+.pictureBookBox .pictureWhole .homework_page_list a.disable,.pictureBookBox .pictureWhole .homework_page_list a.enable{width:60px;height:28px;line-height:28px;-moz-border-radius:3px;border-radius:3px;margin:0}
+.pictureBookBox .pictureWhole .homework_page_list a.disable{border:1px solid rgba(0,0,0,.1);color:#ccc}
+.pictureBookBox .pictureWhole .homework_page_list a.enable{border:1px solid #189cfb;color:#189cfb}
+.containerBox .containerCard .tipsCard2{text-align:center;margin-top:100px}
+.containerBox .containerCard .tipsCard2 .tipsPic{display:inline-block;width:200px;height:200px}
+.containerBox .containerCard .tipsCard2 .tipsPic.noResources{background:url(../images/teachingresource/noResources.png?v=73511aa1eb) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.containerBox .containerCard .tipsCard2 .tipsCon{font-size:16px;color:#999;text-align:center;margin-top:20px}
+
+@media screen and (min-width:1580px) and (max-width:1919px){.pictureBookBox .pictureWhole .pictureWholeBook ul{width:-moz-calc(5*250px);width:calc(5*250px)}}
+@media screen and (min-width:1294px) and (max-width:1579px){.pictureBookBox .pictureWhole .pictureWholeBook ul{width:-moz-calc(4*250px);width:calc(4*250px)}}
+@media screen and (max-width:1293px){.pictureBookBox .pictureWhole .pictureWholeBook ul{width:-moz-calc(3*250px);width:calc(3*250px)}}

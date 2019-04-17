@@ -1,0 +1,41 @@
+.speakTestBox .h-topicPackage{position:relative;width:100%;margin-bottom:20px}
+.speakTestBox .h-topicPackage .line{position:relative;margin-top:-1px;width:100%;height:1px;line-height:1px;overflow:hidden;background:#dae6ee}
+.speakTestBox .topicBox{position:relative;padding:20px 18px 0}
+.speakTestBox .topicBox ul{overflow:hidden}
+.speakTestBox .topicBox li{float:left;cursor:pointer;position:relative;margin:0 20px 20px 0;width:189px;height:40px;-webkit-box-pack:center;-webkit-box-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;background:#fff;padding:20px 15px;border:1px solid #dae6ee}
+.speakTestBox .topicBox li p{max-height:44px;padding:0;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;color:#4e5656;line-height:20px}
+.speakTestBox .topicBox li.active{background:#f5fbff;border-color:#189cfb}
+.speakTestBox .h-set-homework{border:1px solid #dfdfdf;-moz-border-radius:3px;border-radius:3px;margin:15px}
+.speakTestBox .h-set-homework .seth-hd{padding:8px 0;overflow:hidden;*zoom:1;border-bottom:1px solid #dfdfdf}
+.speakTestBox .h-set-homework .seth-hd span{display:inline-block;padding:0 15px;border-right:1px solid #dfdfdf;color:#7f96a3;font-size:14px}
+.speakTestBox .h-set-homework .seth-mn{padding:5px 15px}
+.speakTestBox .h-set-homework .seth-mn .inner{padding:15px 10px 50px 10px}
+.speakTestBox .h-set-homework .testPaper-info .teachingQuestion{overflow-x:auto;overflow-y:hidden;font-size:16px;padding:16px 10px 16px 40px}
+.speakTestBox .inner .box{position:relative}
+.speakTestBox .subjectNum{position:absolute;left:10px;top:12px;width:24px;height:24px;-moz-border-radius:50%;border-radius:50%;background:#00aced;font-size:16px;color:#fff;text-align:center;line-height:24px;z-index:1}
+.speakTestBox .h-analysis-box2{margin:0 0 0 80px;padding:15px 20px;background-color:#f6f6f6}
+.speakTestBox .h-analysis-box2 li.postInfo{position:relative;padding:0 0 12px 14px;min-height:70px;border-left:2px dashed #2384ff}
+.speakTestBox .h-analysis-box2 li.postInfo i{font-style:normal}
+.speakTestBox .h-analysis-box2 .tagIcon{position:absolute;left:-7px;top:-3px;width:26px;height:26px;background:url(../images/teachingresource/buzhou.png?v=5694914f87) no-repeat;-moz-background-size:50% auto;-o-background-size:50% auto;background-size:50% auto}
+.speakTestBox .h-analysis-box2 .c-title{font-size:18px;color:#595757}
+.speakTestBox .h-analysis-box2 .c-title .tag{padding-left:20px;font-size:14px;color:#7d8694}
+.speakTestBox .h-analysis-box2 .text{padding:20px 0 40px;display:inline-block}
+.speakTestBox .h-analysis-box2 .text .coursePic{position:relative;width:200px;height:150px;-moz-border-radius:10px;border-radius:10px;background:url(../images/teachingresource/coursePic.png?v=0b4e6c07ad) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.speakTestBox .h-analysis-box2 .text .coursePic img{width:100%;height:100%}
+.speakTestBox .h-analysis-box2 .text .coursePic .playBtn{position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:44px;height:44px;background:url(../images/teachingresource/playBtn.png?v=5ad8dfc39a) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.speakTestBox .h-analysis-box2 .text .desc{margin-top:16px;font-size:14px;color:#2384ff}
+.speakTestBox .h-analysis-box2 .context{padding-top:10px;font-size:12px;color:#333}
+.speakTestBox .h-analysis-box2 .context .ques-tit{position:relative;padding-left:10px;font-size:14px;color:#333}
+.speakTestBox .h-analysis-box2 .context .ques-tit i{position:absolute;left:0;top:0;width:4px;height:14px;background-color:#189cfb}
+.speakTestBox .h-analysis-box2 .lastChild{border:0}
+.speakTestBox .h-set-homework .it-header{height:55px;padding:0;overflow:hidden;*zoom:1;border-bottom:1px solid #dfdfdf}
+.speakTestBox .h-set-homework .it-header span{vertical-align:middle}
+.speakTestBox .h-set-homework .it-header .packageTitle{border-right:none;line-height:55px;font-size:16px;color:#343333;font-weight:700}
+.speakTestBox .h-set-homework .it-header .fr{height:100%}
+.speakTestBox .h-set-homework .it-header .fr .btn,.speakTestBox .h-set-homework .it-header .fr .btn-cancel{width:42px;height:100%;-moz-border-radius:0 2px 0 0;border-radius:0 2px 0 0;text-align:center}
+.speakTestBox .h-set-homework .it-header .fr .btn{background:#189cfb}
+.speakTestBox .h-set-homework .it-header .fr .btn-cancel{background:#e1f0fc}
+.speakTestBox .h-set-homework .it-header .fr .btn-cancel .selectBtn{color:#4e5656}
+.speakTestBox .h-set-homework .it-header .fr .btn i{width:17px;height:16px;display:inline-block;margin-top:5px;background:url(../images/teachingresource/set-homework-icon.png?v=76716cfbd6) no-repeat -26px 0}
+.speakTestBox .h-set-homework .it-header .fr .btn-cancel i{width:17px;height:16px;display:inline-block;margin-top:5px;background:url(../images/teachingresource/set-homework-icon.png?v=76716cfbd6) no-repeat -3px -25px}
+.speakTestBox .h-set-homework .it-header .fr .selectBtn{display:inline-block;color:#fff}

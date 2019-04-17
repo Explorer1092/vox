@@ -1,0 +1,816 @@
+{
+  "common": {
+    "cookie_encryption_key": "1234567890123456",
+    "default_aes_key": "VoxLearningZuoye",
+    "sso_ticket_secret_key": "yfe4TvE8qHwB0zns",
+    "default_des_key": "Homework",
+    "legacy_des_key": "17zuoye.",
+    "sensitive_key_prefix": "testkey",
+    "image_url": "http://cdn.test.17zuoye.net/gridfs/",
+    "default_image_url": "http://192.168.100.2/upload/images/avatar/avatar_normal.gif",
+    "exam_url": "http://exam.test.17zuoye.net",
+    "exam_upload_resource_url": "http://192.168.100.2/examgfs/",
+    "exam_question_view_url": "http://192.168.100.2/examgfs/",
+    "payment_alipay_key": "tio6n1a0hruw9zhn8w83u44dfgk0qoct",
+    "payment_alipay_partner": "2088101461558595",
+    "payment_alipay_seller_email": "onlinepayment@voxlearning.com",
+    "payment_alipay_parentapp_partner": "2088121666702461",
+    "payment_alipay_parentapp_seller_id": "onlinepay.zfb@17zuoye.com",
+    "payment_alipay_parentapp_pubkey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB",
+    "payment_alipay_parentapp_prikey": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKE7iNibiB2+AuVHb0EGJB0chA8pq/MAO4M+aVf/v+mZy7JopfewVfMDbQdFqFa/S0XcVgpxZZjbSfwSs8j2l6SUXbgzkY1qZHUWyIliFYURt6sm5Po7u2lBgpuuiNBmAqpgHZGpTVczkjmVGdPOWmB+zCX/BtMsr9thwAJCCd0FAgMBAAECgYBs+7wNhlwkloqIhpe6ITeKAft18FoNQIv5s9crJ3GGqnGY38nHugbu49LvxnL6aAWubDgwiOP+xcOlwtKJtb1b7EtEUhYMdCDc2eyWjvarYjxOHTQPOBk3cKFwBmcAft+nDj0bKWFuD9VCWXlzrSqZuv9SzfTz8U4ngx57xL6bRQJBAM3rWqP158gPlj1yiIHW7pTud05J9sX8LaOgYoW/JKn9rrtEKXDVCV8VwOo/rkQBZgRVmS6IWaU4cT+dI9FWKWsCQQDIcfUX8p3TZf/THYR+RfWwlYl7GgsJAiw0i+B0Nsb7lLL7BIVxFR+wjo7sa7plVQDNhefgfFZMp2daI8D0dX9PAkAspfVXS8Bf7pFC7YyPqoy8miAgR4VMVGuI6QOzwEgw26KBVDwwDOElTtAvenNMp4j5M54tKr9VRbG4e1gC0c3VAkBQxmuIbQLg79e6EckUwciSkpBGhWYxCSkbO8sFyhVByNifg2DrAyI0Gh7Kc1c4AptCN1YMBs8YMNXbY1EcskTNAkAEl0qokA87kA2cm7lTF/Cy+93/Grtx75zK7AAhqNxp2FtIna3+R26l7OPyZgwofR6nEGSsJU65a9iEgeKTUZcC",
+    "payment_alipay_studentwap_appid":"2015122901051934",
+    "payment_alipay_studentwap_prikey":"MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwl31cE/BhhR8dNPxhI2bOKhb0CHhDSUsIsM4yIcSaSCBEButWRFERlyJuTunUMvvDDYkzrhm/EOUbBGM62snOYarXIEQFhcuX6SdBs1AZWOtR3MRQkqJ1PXssA5z+9/NHehTFc5Dti0czKsu/F+ESAezdJuj5Joo1uxGvcpxp12zQii2s2Dk1Rz+OA4yDpMUcqBqcOY/mHi4R0boD7NJbzaz4tz63lNBEB2iEMK7Cmp0cJTfsbrhhPxtJbla5P0CtMawPRaTFoHradYbnm/I8ZeByb19xQk3tNEgtTT+H2L/LnVED0msL7bouFq7iN+RC+sYFAIvigIMabGMqmHV5AgMBAAECggEAVREEsGBigXexH06w7NIy6clYuUGDPVaHMK6LBZdCr9diw6JZp3rNWp3lViHpffD5WmKg3yZU/LdUxgj9DBLs9+AQfgTq/4YOJyWHZZzNTwiIgyzH3NBmNffh57ft3tzuclYav2sGO4fGSp2o/GqyXwxSX84omCy6k1uED3I0ar8tliisptKNjq/0SnA+7Ax9q03cviHorPU3+vCdVlHDY8gcyzixLBp6uiSDM1dcNe54NV50BiyyX8d3RxSmPujNAY22/OgB5GpXcNPrG1YJ5k5j3XIlVp03qg6bEF89qTby259l9jJgFgEvn42UZamerKVnAVlmCmg4Gu+wvAp7oQKBgQD9AKypbfdMQAv182OG2sA0xQndNQWsSyokJtQKMXElCPfGMJbj2dFrbjb8UjkD8gBQsSylrhVL0FNW8UVp9QghXl11SOG5cVFeLIjPFccBl+Ji24FPAT3SkXSvA2ra4CkB12reyB3o03Bl3QWRUCgwJ45T9h39jit9rl5qWSZ6HQKBgQCyrxIOXJBaFAyzojXyIYbLR6WzIQ4LzXDHiWL7U0boAPSMeDFANriu7gzGXji8uaYaoU/YSKApiJYUPuSWhens9vArVhbchNju4v60SkoOTWvHUU5ol5GLDAj91io43OimbuqBwc71M+O7fTfxDvjAoA2fRIOvoFwSYxZ04zGqDQKBgQDDHnUKygsx3CcdTNLSGvym9dsQpaa1ZNagQO3A2ram2E62o5yLJt5ymvJ/EC52k3mYwbtsH2C/MnBDmhltiRL3IR60qDulV/ZnybLM+r+aw/dNRHpqYsu6DIHPw7PyD3SwveDm5bDjccW6WYXEtuv3j1od+K7ScIWsDQE1xYF+JQKBgC3i46IohzF6wKBI4c2iank9lwHfVToWsgWr9G1SP31I8YQ5QXyaEOdrXoB6pdthWZSxJE4IqIjB+LiORimZji86Ywbd/tT2kLcYOAyYn1f47dqruJUHh2rL1mtJWmJr6JsFFNfpq3owryTwzTLsg1kEQTtLXv31Em/uXk/6IEDpAoGBAO6+5stf+X/ZhMSrAexqKSZVqI2ipmJpaSzWxqGFbn9I8xoEoRdfVgKu8zD1qBIQpWzAcPSDFlxNU3qpFG3N+nEUh0FoYOUALoOe1ijwzEv96rvXNc/nd24JxFoU/YG0mI1enzSbYAOhDtOnyadqT9bn63NCaRSvn9gMzyXwtgxr",
+    "payment_alipay_studentwap_pubkey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3GzXIcwB21MAwpiXaf63BcMCn40NL9yHMcASGppOZUx6H+ryPs1bZIcLkuFrnee1dGcKz2Q6hQaYNpsDZl+VFMLe+mv6D9nExrAUUvMUPSdOcKKaayOsQaIAjHa4hKZs41DJSJ8pZGBp0ESCHZ/vbJAIoV8AsvNxD8VCS4UIn12WvfBy690dP9ZRZ3RtWKsTcoZZIPArlminq+iFrqUfeC2bMPdB3EduuOM/OjDbKUWUXb1bgpOPZOzE52apfobVIKa48sq9bHSUYy92ThtA7mr6us7/R2L9/2Z/wIFdvVc7Ti612IAd/FjgICdaf24eGUQDO11M5Nipo0bhJDn56wIDAQAB",
+    "payment_wechat_appid": "wx050577ff56b1c4a3",
+    "payment_wechat_key": "84315CDD9644DAE499E73F3658389A14",
+    "payment_wechat_mch_id": "1407325602",
+    "payment_wechat_studentapp_appid": "wxa529f8ad989497e2",
+    "payment_wechat_studentapp_key": "2epRAvOHEFdd1YEG9Cm4GhbQ8Un367nY",
+    "payment_wechat_studentapp_mch_id": "1402496302",
+    "payment_wechat_studentapp_junior_appid": "wxcb51f2688c3e42e4",
+    "payment_wechat_studentapp_junior_key": "FCHaQw0NG7LsUR7U4O1yPAppQU7CHfoE",
+    "payment_wechat_studentapp_junior_mch_id": "1514519861",
+    "payment_wechat_parentweb_appid": "wx3c30705f9f1d82d1",
+    "payment_wechat_parentweb_key": "4f5991b4540fd8270aea368eed5c65da",
+    "payment_wechat_parentweb_mch_id": "1219984501",
+    "payment_wechat_chips_appid": "wx2785e95bc961cc3d",
+    "payment_wechat_chips_key": "jAR2QMsf8eI0gyxOB5aMTFMOEu7ejzr6",
+    "payment_wechat_chips_mch_id": "1503058101",
+    "payment_wechat_piclisten_appid": "wxcd87ede06d6eb152",
+    "payment_wechat_piclisten_key": "2epRAvOHEFdd1YEG9Cm4GhbQ8Un367nY",
+    "payment_wechat_piclisten_mch_id": "1402496302",
+    "payment_wechat_studytogether_mch_id": "1409592902",
+    "payment_wechat_studytogether_key": "ETmxYsm20nftUDBt2TXEia5wYKsKRrkJ",
+    "payment_wechat_studytogether_appid": "wxffcbbd89a5d41fab",
+    "payment_qqpay_studentapp_mch_id": "1459845801",
+    "payment_qqpay_studentapp_api_key": "81CBEA76D5174A6CA3FE4647A42FD965",
+    "payment_qqpay_studentapp_app_id": "1104813248",
+    "payment_qqpay_studentapp_app_key": "mdkl2iPexsNN1TGT",
+    "session_encrypt_key": "Ndg01dxu8*xaba12",
+    "order_encrypt_key": "Ode01dxu8*xaba12",
+    "tts_url": "http://192.168.100.14:8085/tts.php",
+    "wireless_charging_submit_url": "http://test.800617.com:6001/submit.aspx",
+    "wireless_charging_query_url": "http://test.800617.com:6001/OrderQuery.aspx",
+    "wireless_charging_company_id": "1061",
+    "wireless_charging_interface_pwd": "c288g5",
+    "wireless_charging_submit_key": "asasa1",
+    "wireless_charging_callback_key": "zvzvz2",
+    "question_es_url": "http://10.0.1.159:9200/xx_questions_logic/_search",
+    "oss_aliyun_access_id": "nK3Ku8AsvmRWZvmS",
+    "oss_aliyun_access_key": "CPrtMbZHtTrlXtlebukWp9SoFM60e1",
+    "oss_homework_image_host": "https://oss-image.17zuoye.com/",
+    "oss_homework_host": "https://oss-data.17zuoye.com/",
+    "oss_homework_endpoint": "oss-cn-beijing.aliyuncs.com",
+    "oss_user_endpoint": "oss-cn-beijing.aliyuncs.com",
+    "oss_user_bucket": "17test-portrait",
+    "oss_pmc_host": "https://17-pmc-test.oss-cn-beijing.aliyuncs.com/",
+    "mobile_checking_url": "http://www.tele-spider.com",
+    "mobile_checking_user": "szsh1771",
+    "mobile_checking_secret": "szsh1771",
+    "timeep_pw_secret": "9BHjfCjXWFhSech7",
+    "timeep_loginws_url": "http://60.174.236.86:9000/services/LoginWs?wsdl",
+    "rapid_calc_url": "http://rapidcalc.test.17zuoye.net",
+    "flow_packet_request_url": "http://unify.jjliuliang.com:8099/unify-api/flowOrderT",
+    "flow_packet_search_url": "http://unify.jjliuliang.com:8099/unify-api/flowOrderSearch",
+    "flow_packet_merchant_mark": "800221",
+    "flow_packet_callback_url": "/finance/flowpacket/callback.vpage",
+    "flow_packet_req_url": "http://111.13.56.193:9001/fluxServer/Recharge",
+    "flow_packet_name": "17zyll",
+    "flow_packet_pass": "flow17",
+    "jinshan_app_key": "AKLTqxKc-Po4RMuwKWjIfX9KUA",
+    "jinshan_secret_key": "OK/f6lOETY+ZIa/9YvVMT0hKO8cZVWlRN6bDFFHPrOazL+AI2dgpX7M6+NUjBz5Urw=="
+  },
+  "couchbase": {
+    "_environment": {
+      "queryTimeout": 3000,
+      "kvTimeout": 1500
+    },
+    "_default": {
+      "bucketPassword": "",
+      "openBucketTimeoutInSeconds": 60,
+      "encoder": "hessian2"
+    },
+    "atomic": {
+      "servers": "192.168.100.67 192.168.100.73",
+      "bucketName": "atomic"
+    },
+    "utopia": {
+      "aliases": [
+        "utopia-clazz-cache",
+        "utopia-school-cache",
+        "utopia-homework-cache",
+        "utopia-user-cache",
+        "utopia-question-cache",
+        "utopia-task-cache",
+        "utopia-growth-cache",
+        "utopia-wonderland-cache",
+        "utopia-meazza-cache",
+        "columb-zone-cache",
+        "flushable",
+        "unflushable"
+      ],
+      "servers": "10.200.248.21 10.200.248.22",
+      "bucketName": "flushable",
+      "flushable": true
+    },
+    "persistence": {
+      "aliases": "storage",
+      "servers": "192.168.100.90 192.168.100.91",
+      "bucketName": "vox-persistence"
+    },
+    "psr": {
+      "servers": "192.168.100.90 192.168.100.91",
+      "bucketName": "vox-psr"
+    }
+  },
+  "ehcache": {
+    "unflushable": {
+      "aliases": "content",
+      "heapSize": 16,
+      "heapUnit": "MB",
+      "offheapSize": 256,
+      "offheapUnit": "MB",
+      "persistence": false,
+      "flushable": false
+    },
+    "flushable": {
+      "aliases": "afenti,task",
+      "heapSize": 16,
+      "heapUnit": "MB",
+      "offheapSize": 64,
+      "offheapUnit": "MB",
+      "persistence": false,
+      "flushable": true
+    }
+  },
+  "atomicLock": {
+    "cacheSystem": "CBS",
+    "cacheName": "atomic"
+  },
+  "redis": {
+    "user-easemob": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "user-klx": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "washington-redis": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "message-reminder": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "competition-redis": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "parent-app": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "group-circle": {
+      "addresses": "192.168.100.16:7013,192.168.100.16:7014,192.168.100.16:7015",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "utopia-userlevel": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "picbook-redis": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "chips-redis": {
+      "addresses": "192.168.100.16:7007,192.168.100.16:7009,192.168.100.16:7011",
+      "server": "CLUSTER",
+      "flushable": true
+    },
+    "piclisten-redis": {
+      "addresses": "10.200.3.53:6399",
+      "server": "SINGLE",
+      "flushable": true
+    },
+    "eval_data_collect": {
+      "addresses": "10.200.3.53:6407",
+      "server": "SINGLE",
+      "flushable": true
+    },
+    "mp-redis": {
+      "addresses": "10.200.3.53:6417,10.200.3.53:6418,10.200.3.53:6419",
+      "server": "CLUSTER",
+      "flushable": true
+    }
+  },
+  "aerospike": {
+    "utopia": {
+      "addresses": "10.200.2.251:3000"
+    },
+    "utopiaex": {
+      "addresses": "10.200.2.124:3000"
+    },
+    "cache": {
+      "utopia": {
+        "client": "utopia",
+        "namespace": "vox",
+        "set": "utopia.cache"
+      }
+    }
+  },
+  "hbase": {
+    "hbase-homework": {
+      "zookeeperQuorum": "10.200.2.126,10.200.2.125,10.200.2.124"
+    }
+  },
+  "elasticsearch":{
+    "vox-main": {
+      "host": "192.168.100.14",
+      "port": 9201,
+      "schema": "http"
+    }
+  },
+  "dataSource": {
+    "_default": {
+      "driverClass": "com.mysql.jdbc.Driver",
+      "autoCommit": true,
+      "connectionTimeout": 30000,
+      "idleTimeout": 600000,
+      "maxLifetime": 1800000,
+      "minimumIdle": 4,
+      "maximumPoolSize": 20,
+      "registerMbeans": true,
+      "username": "dummy",
+      "password": "dummy"
+    },
+    "main": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave2": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "order": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "fund": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "coupon": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "homework": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "content": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_UAT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "admin": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HomeworkSitter_Admin?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "agent": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/17zuoye_Agent?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "hs_user": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_USER?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_USER?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_afenti": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_AFENTI?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_AFENTI?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_vendor": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_VENDOR?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_VENDOR?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_wonderland": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_WONDERLAND?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_WONDERLAND?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_misc": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_MISC?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_MISC?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_credit": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_CREDIT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_CREDIT?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_platform": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_PLATFORM?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_PLATFORM?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "wechat": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/Vox_Wechat?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/Vox_Wechat?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "hs_activity": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HS_Activity?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HS_Activity?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "partner_hbs": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/hbs?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "17zy2015"
+      }
+    },
+    "hs_chipsenglish": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_ChipsEnglish?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3307/HS_ChipsEnglish?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "admin",
+        "password": "17zuoye"
+      }
+    },
+    "hs_reward": {
+      "master": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HS_REWARD?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "RSA:lkONeXHhlK91xWFKF4xIDXeXUKsxfj5cfBt6xYaWX7W4DQZ9InvAWHe/4sXf7Dr/YWfIHzeeaWv0rMt9i7UM74KVyYoMApBaH5NmoFDoQTlXSpw0P8jFPAGEbkEKoAe5IF4TG6F0s8jiH78aoWlQ0ZpEW3kqh3cfRWmRu8oo/3U="
+      },
+      "slave1": {
+        "jdbcUrl": "jdbc:mysql://10.200.3.251:3306/HS_REWARD?useUnicode=true&useDynamicCharsetInfo=false",
+        "username": "langkoo2015",
+        "password": "RSA:LYcsc6Fu6qRqOxdQvb6VzWa+O3VaZxsfQGMHenLswNno6nbhzryqZeJbPKJOQJuqTTwjJ1VDxrJr0adEv3Ngcs/SPwH2YqBDSg0PQaKnY+ochJFauaBnVEHPObTNPzs92XFTfpeoXELmq9FCXuWg2gQgmnO5A9+2SbSikkeJ0WQ="
+      }
+    }
+  },
+  "mongoDb": {
+    "_default": {
+      "connectionsPerHost": 100,
+      "threadsAllowedToBlockForConnectionMultiplier": 5,
+      "connectTimeout": 20000,
+      "maxWaitTime": 120000,
+      "socketKeepAlive": false,
+      "socketTimeout": 0,
+      "readPreference": "primary",
+      "writeConcern": "ACKNOWLEDGED"
+    },
+    "mongo-plat": {
+      "aliases": [
+        "mongo",
+        "mongo-app",
+        "mongo-pk",
+        "mongo-schoolmaster",
+        "mongo-middleschool",
+        "mongo-crm",
+        "mongo-agent",
+        "mongo-track",
+        "mongo-task",
+        "mongo-jxt",
+        "mongo-vendor",
+        "mongo-wonderland",
+        "mongo-newworld",
+        "mongo-misc",
+        "mongo-mexico",
+        "mongo-sochi",
+        "mongo-madrid"
+
+      ],
+      "replicaSet": "192.168.100.10:57000,192.168.100.36:57000",
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "17zuoye-user-ld",
+          "password": "office.17zuoye.2016"
+        }
+      ]
+    },
+    "mongo-question": {
+      "replicaSet": "10.7.1.56:55555,10.7.1.57:55555",
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "question_user",
+          "password": "17zy_ques#"
+        }
+      ]
+    },
+    "mongo-journal": {
+      "replicaSet": "192.168.100.101:58001,192.168.100.105:58001"
+    },
+    "mongo-gfs": {
+      "aliases": "mongo-tts,mongo-pcie-gridfs",
+      "replicaSet": "192.168.100.101:59001,192.168.100.105:59001"
+    },
+    "mongo-gossip": {
+      "replicaSet": "192.168.100.107:37201",
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "leak_user",
+          "password": "123456"
+        }
+      ]
+    },
+    "mongo-user": {
+      "replicaSet": "192.168.100.107:37201",
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "leak_user",
+          "password": "123456"
+        }
+      ]
+    },
+    "mongo-message": {
+      "replicaSet": "192.168.100.107:37201",
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "leak_user",
+          "password": "123456"
+        }
+      ]
+    },
+    "mongo-babel": {
+      "replicaSet": "192.168.100.107:37201",
+      "mongoCredentialConfigs": [
+        {
+          "database": "vox-babel",
+          "username": "babel_user",
+          "password": "123456"
+        },
+        {
+          "database": "vox-babel-logs",
+          "username": "babel.logs_user",
+          "password": "123456"
+        }
+      ]
+    }
+  },
+  "mongodb-shard":{
+    "_default":{
+      "connectTimeout": 20000,
+      "maxWaitTime": 120000,
+      "readPreference": "primary",
+      "writeConcern": "ACKNOWLEDGED",
+      "readConcern": "DEFAULT"
+    },
+    "mongo-shard":{
+      "aliases": "homework-shard,mongo,mongo-siberia,mongod-columb",
+      "shards":{
+        "0":"10.200.2.228:11001 10.200.2.229:11001 192.168.100.107:11001",
+        "1":"10.200.2.228:11002 10.200.2.229:11002 192.168.100.107:11002",
+        "2":"10.200.2.228:11003 10.200.2.229:11003 192.168.100.107:11003"
+      },
+      "mongoCredentialConfigs": [
+        {
+          "database": "admin",
+          "username": "dba",
+          "password": "dba"
+        }
+      ]
+    }
+  },
+  "derby": {
+    "utopia": {
+      "databaseName": "utopia"
+    }
+  },
+  "rabbitmq": {
+    "cluster-a": {
+      "aliases": "cluster-b,primary,secondary,main,backup,clover",
+      "addresses": "192.168.100.81:5672",
+      "username": "guest",
+      "password": "guest",
+      "virtualHost": "/"
+    }
+  },
+  "kafka": {
+    "cluster-a": {
+      "aliases": "primary,main,main-backup",
+      "addresses": "192.168.100.71:9092",
+      "producer": {
+        "asyncSend": false,
+        "batchSize": 16384,
+        "acks": "1",
+        "requestTimeout": 30000,
+        "lingerMs": 0
+      },
+      "consumer": {
+        "autoCommit": false,
+        "autoCommitInterval": "1000",
+        "maxPollRecords": 500,
+        "maxPollInterval": 300000,
+        "autoOffset": "latest",
+        "requestTimeout": 305000,
+        "bufferSize": 65536
+      }
+    },
+    "trouble-maker": {
+      "aliases": "Deadpool,Hulk",
+      "addresses": "192.168.100.81:9092",
+      "producer": {
+        "asyncSend": false,
+        "batchSize": 16384,
+        "acks": "1",
+        "requestTimeout": 30000,
+        "lingerMs": 0
+      },
+      "consumer": {
+        "autoCommit": false,
+        "autoCommitInterval": "1000",
+        "maxPollRecords": 500,
+        "maxPollInterval": 300000,
+        "autoOffset": "latest",
+        "requestTimeout": 305000,
+        "bufferSize": 65536
+      }
+    }
+  },
+  "aliyunoss": {
+    "user": {
+      "accessId": "LTAIIqTsIFaWpHM1",
+      "accessKey": "Vtsxe7KBdmKbUqPZECwVnMN2r8FIoj",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17test-portrait",
+      "host": "oss-cn-beijing.aliyuncs.com",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "homework": {
+      "accessId": "LTAIJaR6UE7ptChe",
+      "accessKey": "kVm3dGZS0zPmrRn78toYyCYyC821kV",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-homework",
+      "host": "oss-data.17zuoye.com/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "17-pmc": {
+      "accessId": "LTAIZ4iDPKJivxQU",
+      "accessKey": "UhyaHqr5wb9b6oo5Kto5kqgrqKrSAl",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17-pmc-test",
+      "host": "oss-data.17zuoye.com/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "17-facedetect": {
+      "accessId": "LTAIivsNpDqFzbAK",
+      "accessKey": "94Q1OYSxhU8WNrF9pg9DdoOTIzRqXo",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-facedetect",
+      "host": "oss-data.17zuoye.com/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/17zy-facedetect-oss-sts",
+      "stsExpiration": 900
+    },
+    "news-video-content": {
+      "accessId": "LTAIE3hkRy7RjYbh",
+      "accessKey": "nie7CetUw5e11p8VznHdwVnVM1vKHu",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint":"oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-content-video",
+      "host": "v.17zuoye.cn/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "competition-video-content": {
+      "accessId": "LTAIfnlfm5d7ltYB",
+      "accessKey": "nkmqnO3TDgQOQ0PZz5j3yz85gKtyIc",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint":"oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-content-video",
+      "host": "v.17zuoye.cn/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/new-content-video-sts",
+      "stsExpiration": 900
+    },
+    "plat-video-content": {
+      "accessId": "LTAIJ5rSsXLWfdFV",
+      "accessKey": "cBuVYVueuHpG3DsaqBiYIMyYI4ZfJe",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-content-video",
+      "host": "v.17zuoye.cn/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "plat-doc-content": {
+      "accessId": "LTAIuFaCUQ7te0xi",
+      "accessKey": "iYLbnMjNcqryuhMdhQE0EN2yYoro1C",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17xue-doc",
+      "host": "v.17xueba.com/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    },
+    "chips-content": {
+      "accessId": "LTAIUY8rQf2zCwuc",
+      "accessKey": "9aqojFSXVxQRHmB6rGcbGwulBObHHH",
+      "endpoint": "oss-cn-beijing.aliyuncs.com",
+      "publicEndpoint": "oss-cn-beijing.aliyuncs.com",
+      "bucket": "17zy-content-video",
+      "host": "v.17zuoye.cn/",
+      "stsRoleArn": "acs:ram::1040105656886013:role/aliyunosstokengeneratorrole",
+      "stsExpiration": 900
+    }
+  },
+  "gridfs": {
+    "fs-default": {
+      "client": "mongo-gfs",
+      "database": "GFSDatabase"
+    },
+    "fs-exam": {
+      "client": "mongo-gfs",
+      "database": "vox-exam-storage"
+    },
+    "fs-image": {
+      "client": "mongo-gfs",
+      "database": "vox-question-image"
+    },
+    "fs-audio": {
+      "client": "mongo-gfs",
+      "database": "vox-question-audio"
+    },
+    "fs-feedback": {
+      "client": "mongo-gfs",
+      "database": "vox-question-feedback"
+    },
+    "fs-reading-ugc": {
+      "client": "mongo-gfs",
+      "database": "vox-reading-ugc"
+    },
+    "fs-tts": {
+      "client": "mongo-tts",
+      "database": "vox-tts"
+    },
+    "fs-scquestion": {
+      "client": "mongo-gfs",
+      "database": "vox-smartclazz-question"
+    },
+    "fs-resource": {
+      "client": "mongo-pcie-gridfs",
+      "database": "vox-resource-file"
+    },
+    "fs-o2o": {
+      "client": "mongo-gfs",
+      "database": "vox-fs-o2o"
+    },
+    "fs-dubbing": {
+      "client": "mongo-gfs",
+      "database": "vox-dubbing"
+    }
+  },
+  "dubbo": {
+    "registry": {
+      "address": "zookeeper://192.168.100.10:2181"
+    },
+    "client": {
+      "threadPool": "cached",
+      "maximumPoolSize": 32,
+      "dispatcher": "threadpool"
+    },
+    "server": {
+      "threadPool": "cached",
+      "maximumPoolSize": 64,
+      "serialization": "hessian2",
+      "dispatcher": "threadpool"
+    }
+  },
+  "hydra": {
+    "agent": {
+      "host": "0.0.0.0",
+      "port": 1889
+    },
+    "registry": {
+      "addresses": "192.168.100.10"
+    }
+  },
+  "email": {
+    "smtpHost": "10.0.1.101",
+    "smtpAuth": true,
+    "smtpUsername": "service@17zuoye.com",
+    "smtpPassword": "RSA:S4JZvvmotcdWwVNrVxjgdjNuYdrdqwD91Ck2z/uc2zyJNT/F3n+HdykK0Uof5voQXj4u/mb9ecgD5FX80zTh9fHXZpwa/1BIIFdbCycz3EO3i2ikABvvDwxDv88Qwh4tPv3wTnNiwEje2EdEy4n3yjWImSjloU/HY5deUhZoIt8="
+  }
+}

@@ -1,0 +1,6 @@
+com.voxlearning.utopia.service.vendor.buffer.internal.ResetFairylandProductBuffer
+com.voxlearning.utopia.service.vendor.buffer.internal.ResetMySelfStudyEntryLabelBuffer
+com.voxlearning.utopia.service.piclisten.buffer.internal.ResetTextBookManagementBuffer
+com.voxlearning.utopia.service.vendor.buffer.internal.ResetVendorAppsBuffer
+com.voxlearning.utopia.service.vendor.buffer.internal.ResetVendorAppsResgRefBuffer
+com.voxlearning.utopia.service.vendor.buffer.internal.ResetVendorResgContentBuffer

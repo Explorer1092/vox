@@ -1,0 +1,57 @@
+/*
+*命名规范：例（.main_...）
+*/
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, input, dl, dt, dd{padding: 0; margin: 0;}
+html, body{ width: 100%; height: 100%; }
+html, body, input, select{font: 30px/180% "Droid Sans Fallback"; color: #333; }
+ul, li{ list-style: none; }
+a, input{ outline: none;}
+a{ text-decoration: underline; color: #5a82e5; }
+.d-ibm{ display: inline-block; vertical-align: middle;}
+.js-hide { display: none;}
+.info{ clear: both; color: #359bff; font-size: 24px; padding: 10px 0 0; line-height: 150%;}
+/*icon*/
+.icon { display: inline-block; vertical-align: middle; width: 32px; height: 32px; background: url(../images/icon.png) no-repeat 5000px 5000px; margin-right: 10px; overflow: hidden;}
+.icon_1 { background-position: 0 0;}
+.icon_2 { background-position: 0 -47px; width: 42px; height: 41px;}
+/*main*/
+.main{ margin: 0 20px;}
+/*.logo*/
+h1.logo{ background: url(../images/logo.jpg) no-repeat center 0; height: 110px; margin: 80px 0;}
+/*form_main*/
+.form_main { clear: both; }
+.form_main h2 { font-size: 30px; font-weight: normal; float: left; width: 122px; text-align: right; line-height: 220%;}
+.form_main h2.subject{ color: #0749d1; margin-bottom: 50px;}
+.form_main ul{ margin-left: 122px;}
+.form_main li { margin-bottom: 20px; overflow: hidden;}
+.form_main li input, .form_main li select{ padding: 10px 0; line-height: 150%; width: 99%; text-indent: 20px; display: block; background-color: #fff; border: 1px solid #c0c0c0; }
+.form_main .submit_box{ padding: 20px 0; clear: both; }
+/*btn_mark*/
+.btn_mark{ background-color: #3995ff; color: #fff; border-radius: 6px; cursor: pointer; display: inline-block; padding: 20px 0; text-align: center; text-decoration: none; font-size: 32px;}
+.btn_mark:hover, .btn_mark:focus{ background-color: #218bfc;}
+.btn_mark_green, .btn_mark_green:hover, .btn_mark_green:focus{ background-color: #bad466;}
+.btn_mark_gray, .btn_mark_gray:hover, .btn_mark_gray:focus{ background-color: #999;}
+.btn_mark_block{ display: block;}
+.btn_disable, .btn_disable:hover{ background-color: #ccc !important; cursor: default;}
+input.btn_mark_block{ width: 100%; padding-left: 0; padding-right: 0; text-align: center;}
+/*r-success*/
+.r-success{ text-align: center;}
+.r-success .info{ font-size: 50px; padding: 100px 0 50px;}
+.r-success .text{ color: #333; height: 280px;}
+.r-success .back-home{ margin-bottom: 60px;}
+.r-success .z-reg{ height: 80px;}
+/*menu-tab*/
+.subject-title{ color: #359bff; font-size: 28px; margin-bottom: 30px; text-align: center;}
+.menu-tab{ clear: both;}
+.menu-tab li{ background-color: #359bff; padding: 25px 0; margin: 0 0 20px; text-align: center; border-radius: 10px; cursor: pointer; font-size: 30px; clear: both; color: #fff;}
+.menu-tab li:focus/*, .menu-tab li:active, .menu-tab li.current*/{ background-color: #56abff; }
+/*new_reg*/
+.new_reg{ text-align: center; padding: 30px 0; color: #359bff; clear: both;}
+.new_reg strong{ color: #359bff;}
+.new_reg dl{ text-align: left;}
+.new_reg dl dt{ float: left; width: 168px; margin-top: 10px;}
+.new_reg dl dd{ margin-left: 200px; padding-top: 50px;}
+.new_reg dl dd p{ line-height: 150%; margin-bottom: 10px;}
+/*service-tab*/
+.service-tab{ font-size: 28px; color: #333; line-height: 200%; text-align: center; margin: 50px 0; clear: both;}
+.publicBtnBack{ padding-bottom: 20px;}

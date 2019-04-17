@@ -1,0 +1,3 @@
+com.voxlearning.utopia.service.zone.buffer.internal.ResetClazzZoneProductBuffer
+com.voxlearning.utopia.service.zone.buffer.internal.ResetGiftBuffer
+com.voxlearning.utopia.service.zone.buffer.internal.ResetUserMoodBuffer

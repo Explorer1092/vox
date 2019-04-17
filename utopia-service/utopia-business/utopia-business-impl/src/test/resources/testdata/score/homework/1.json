@@ -1,0 +1,89 @@
+{
+    "totalTime": 26702,
+    "score": 100,
+    "totalNum": 10,
+    "rightNum": 10,
+    "param": {
+        "studyType": "homework",
+        "gameType": "1",
+        "bookId": "52",
+        "unitId": "423",
+        "lessonId": "1409",
+        "pointId": "1",
+        "cid": "34051",
+        "hid": "1282",
+        "homeworkDetailId": null
+    },
+    "detail": [
+        {
+            "answer": "2",
+            "baseTitle": "最小的数是？",
+            "baseId": 93,
+            "rightAnswer": "2",
+            "isRight": true
+        },
+        {
+            "answer": "1",
+            "baseTitle": "2> ?",
+            "baseId": 7,
+            "rightAnswer": "1",
+            "isRight": true
+        },
+        {
+            "answer": "5",
+            "baseTitle": "最大的数是？",
+            "baseId": 37,
+            "rightAnswer": "5",
+            "isRight": true
+        },
+        {
+            "answer": "5",
+            "baseTitle": "? > 4",
+            "baseId": 40,
+            "rightAnswer": "5",
+            "isRight": true
+        },
+        {
+            "answer": "5",
+            "baseTitle": "? > 4",
+            "baseId": 130,
+            "rightAnswer": "5",
+            "isRight": true
+        },
+        {
+            "answer": ">",
+            "baseTitle": "4 ? 1",
+            "baseId": 27,
+            "rightAnswer": ">",
+            "isRight": true
+        },
+        {
+            "answer": "4",
+            "baseTitle": "最大的数是？",
+            "baseId": 83,
+            "rightAnswer": "4",
+            "isRight": true
+        },
+        {
+            "answer": "1",
+            "baseTitle": "最小的数是？",
+            "baseId": 30,
+            "rightAnswer": "1",
+            "isRight": true
+        },
+        {
+            "answer": "5",
+            "baseTitle": "4<?",
+            "baseId": 118,
+            "rightAnswer": "5",
+            "isRight": true
+        },
+        {
+            "answer": "1",
+            "baseTitle": "? <2",
+            "baseId": 19,
+            "rightAnswer": "1",
+            "isRight": true
+        }
+    ]
+}

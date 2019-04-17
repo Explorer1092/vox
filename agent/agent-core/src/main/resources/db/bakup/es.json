@@ -1,0 +1,141 @@
+{
+  "mappings": {
+    "main": {
+      "properties": {
+        "_id": {
+          "type": "integer"
+        },
+        "teacherId": {
+          "type":"integer"
+        },
+        "realName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "validationType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "registerTime": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "webSourceCategory": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "subject": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "schoolName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "authCond1Reached": {
+          "type": "boolean"
+        },
+        "authCond2Reached": {
+          "type": "boolean"
+        },
+        "authCond3Reached": {
+          "type": "boolean"
+        },
+        "provinceCode": {
+          "type": "integer"
+        },
+        "cityCode": {
+          "type": "integer"
+        },
+        "countyCode": {
+          "type": "integer"
+        },
+        "lifeCycleStatus": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "authTime": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "usageStatus": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "authStatus": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "authType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "analyzedSchoolName": {
+          "type": "string",
+          "index": "analyzed"
+        },
+        "schoolId": {
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "UNUSUALSTATUS_NOCLS_AFTER_REG_2DAYS": {
+          "type": "boolean"
+        },
+        "UNUSUALSTATUS_NOUSE_AFTER_CLS_3DAYS": {
+          "type": "boolean"
+        },
+        "UNUSUALSTATUS_NOSTU_LOGIN_AFTER_CLS_4DAYS": {
+          "type": "boolean"
+        },
+        "UNUSUALSTATUS_NOCHECK_AFTER_ASSIGNHW_3DAYS": {
+          "type": "boolean"
+        },
+        "UNUSUALSTATUS_NOAUTH_AFTER_REG_12DAYS": {
+          "type": "boolean"
+        },
+        "UNUSUALSTATUS_NO_ASSIGN_5DAYS": {
+          "type": "boolean"
+        },
+        "mobile": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "rank": {
+          "type":"integer"
+        },
+        "schoolLevel": {
+          "type":"string",
+          "index": "not_analyzed"
+        },
+        "autoAuthPostPoned":{
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
+
+
+{"delete":{"_id":"1118409"}}
+{"index":{"_id":"1118409"}}
+{"teacherId":1118409, "realName": "短信邀请", "validationType":"AUTO_VALIDATION_ONLINE", "registerTime": "2013-03-24", "webSourceCategory":"SELF_REG", "subject":"ENGLISH", "schoolName": "东城区中央工艺美院附中艺美小学", "authCond1Reached":true, "authCond2Reached":true, "authCond3Reached":false, "provinceCode":110000, "cityCode":110100, "countyCode":110101, "lifeCycleStatus":"GROW", "authTime":"2015-03-29", "usageStatus":"NOCLAZZ"}
+
+测试环境IP: 192.168.100.14
+curl -XDELETE '192.168.100.14:9200/vox_crm_teacher_summary_v5/?pretty'
+curl -XPOST 10.7.7.37:9200/vox_crm_teacher_summary_v11/ -d @teachersummary.json
+curl -XPOST '10.7.7.37:9200/vox_crm_teacher_summary_v11/main/_bulk?pretty' --data-binary @teacher_summary.json
+
+正式环境IP: 10.0.1.17
+http://10.0.1.17:9200/_cat/indices?v
+http://10.0.1.17:9200/_plugin/head/
+
+curl -XDELETE '10.0.1.17:9200/vox_crm_teacher_summary_v6/?pretty'
+curl -XPOST 10.0.1.17:9200/vox_crm_teacher_summary_v6/ -d @teachersummary.json
+
+curl -XPOST '192.168.100.14:9200/vox_crm_teacher_summary/_search?pretty' -d '
+{"query":{"bool":{"must":[{"match":{"authCond3Reached": true}},{"match":{"authCond3Reached": true}}, {"wildcard":{"schoolName": "*北京*"}}]}}, "from":0, "size":1}'
+
+
+
+
+

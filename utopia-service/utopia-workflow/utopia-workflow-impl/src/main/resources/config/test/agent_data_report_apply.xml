@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- 大数据报告（天权）
+       审核流程如下：
+       1  专员申请      - 》 市经理审核  - 》 销运审核
+       2  市经理申请    - 》 销运审核
+       3  大区经理申请  - 》 销运审核
+    -->
+
+    <!--专员申请提交初始状态，等待市经理审核-->
+    <status name="init">
+        <event name="agree" status="lv1" mqmsg="agree_init"></event>
+        <event name="reject" status="reject_init" mqmsg="reject_init"></event>
+    </status>
+
+    <!-- 市经理审核完专员的申请，或者市经理提交申请，或者大区经理提交申请， 等待销运审核 -->
+    <status name="lv1" processor='{"userPlatform":"agent"@"account":"198"@"accountName":"专员"}'>
+        <event name="agree"  status="lv2" mqmsg="agree_lv1"></event> <!--一审通过 -->
+        <event name="reject" status="reject_lv1" mqmsg="reject_lv1"></event> <!--一审拒绝 -->
+    </status>
+
+
+</root>

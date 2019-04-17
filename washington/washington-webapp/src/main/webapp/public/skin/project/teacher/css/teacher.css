@@ -1,0 +1,50 @@
+html, body { width: 100%; height: auto; _height: 100%; background:#fff; }
+body, button, input, select, textarea { font: 12px/1.125 Tahoma, Geneva, sans-serif; }
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { padding: 0; margin: 0;}
+input, button, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+li { list-style: none outside; }
+fieldset, img { vertical-align: middle; border: 0 none; }
+address, caption, cite, code, dfn, em, i, s, th, var { font-style: normal; font-weight: normal; }
+s { vertical-align: middle; font: 0px/0px arial;}
+a { color: #666; text-decoration: none; }
+a:hover { color: #39f; }/*overall wrap*/
+.clear { clear: both; font: 0pt/0 Arial; height: 0px; visibility: hidden; }
+/*overall footer*/
+.footer { clear: both; padding: 10px 0 20px; color: #999; margin:0 auto; width:956px;}
+.footer a { color: #39f; text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+.footer .navs { padding: 0px 0 12px;}
+.footer .navs span { padding: 0 5px; display: inline-block; }
+.footer .navs span.f_tel { margin-left: 20px; }
+.footer .copyright { color: #999; clear: both;}
+/*new*/
+.header{ height:77px; background:url(../images/tc_03.jpg) no-repeat center 0; width:956px; margin:20px auto 0;}
+.header .logo{ width:170px; height:77px; display:block; float:left;}
+.header .link { float:right; padding:24px 15px 0;}
+.header .link a{ display:block ; width:34px; height:34px; float:left; margin:4px; overflow:hidden; line-height:200px;}
+.main{ clear:both; width:956px; margin:0 auto; background:#fff;}
+.content{ border:solid #ddd; border-width:0 1px; padding:20px;}
+.content .inline{ border:solid 1px #b0ced6; background:#f6fbfc; border-radius:6px;}
+.content .videoBox{ float:left; width:400px; height:300px; background:#eee; border:solid 1px #ccc; margin:30px 0 30px 30px; _margin:30px 0 30px 15px; overflow:hidden;}
+.content .stepLearn{ float:right; width: 460px;}
+.content .stepLearn .s1,.content .stepLearn .s2,.content .stepLearn .s3{ width:389px; height:50px; display:block; clear:both; margin:25px 0;}
+.content .stepLearn .s1{ background:url(../images/tc_07.jpg) no-repeat;}
+.content .stepLearn .s2{ background:url(../images/tc_22.jpg) no-repeat;}
+.content .stepLearn .s3{ background:url(../images/tc_23.jpg) no-repeat;}
+.learnmore{ background:url(../images/tc_21.jpg) no-repeat; height:60px; clear:both; cursor: pointer;}
+.learnback{ background:url(../images/tc2_19.jpg) no-repeat; height:60px; clear:both; cursor: pointer;}
+.loginRegBtn{ text-align:center; padding:20px; clear:both;}
+.loginRegBtn .login,.loginRegBtn .reg{ width:120px; height:42px; display:inline-block; overflow:hidden; line-height:200px; margin:0 30px;}
+.loginRegBtn .login{ background:url(../images/tc_15.jpg?1.0.0) no-repeat;}
+.loginRegBtn .reg{background:url(../images/tc_17.jpg) no-repeat;}
+/**/
+.content .titleFea{ padding:20px; background:#d4edf2; border-bottom:solid 1px #b0ced6; color:#333; font: bold 24px/1.125 "微软雅黑", "Microsoft YaHei", Arial; text-align: center;}
+.content .titleFea .btn{ display:block; width:136px; height:38px; background: url(../images/btn.png) no-repeat; overflow:hidden; text-indent:-2000px; float:right; margin:-5px 0 0;}
+.content .features li{ width:270px; height:290px; display:block; float:left; padding: 15px 17px;}
+.content .features .u1{ background: url(../images/tc2_03.jpg) no-repeat center;}
+.content .features .u2{ background: url(../images/tc2_05.jpg) no-repeat center;}
+.content .features .u3{ background: url(../images/tc2_07.jpg) no-repeat center;}
+.content .features .u4{ background: url(../images/tc2_12.jpg) no-repeat center;}
+.content .features .u5{ background: url(../images/tc2_13.jpg) no-repeat center;}
+.content .features .u6{ background: url(../images/tc2_14.jpg) no-repeat center;}

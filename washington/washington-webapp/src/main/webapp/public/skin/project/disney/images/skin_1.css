@@ -1,0 +1,55 @@
+html, body{ background-color: #234687;}
+.btn-orange{ background-color: #fedc09; border: 1px solid #dc9600; color: #895d00; border-radius: 5px; padding: 5px; width: 70px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block;text-align: center; vertical-align: middle;}
+.btn-orange:hover{ color: #895d00; background-color: #fef04a;}
+.btn-orange:active{ background-color: #fece04;}
+.btn_disable, .btn_disable:hover, .btn_disable:active{ cursor: default; background: #eee; color: #999!important; box-shadow: none; border: 1px solid #ccc; text-shadow: none;}
+
+.back-1{ background: url(../images/disni_01_1.jpg) no-repeat center 0; width: 100%; height: 534px;}
+.back-1 .inner{ width: 980px; margin: 0 auto;}
+.back-2{ background: url(../images/disni_11.jpg) no-repeat center 0; width: 100%; height: 346px;}
+.back-3{ background: url(../images/disni_12_1.jpg) no-repeat center 0; width: 100%; height: 455px;}
+
+/*login-box*/
+.login-box{ background: url(../images/login-back.png) no-repeat; width: 334px; height: 375px; float: right; margin: 145px 10px 0;}
+.login-box .step{ margin: 0 0 0 12px; font-size: 12px;}
+.login-box .step h5{ font-size: 14px; color: #8a6626; padding: 5px 0 10px; text-align: center;}
+.login-box .step h5 strong{ color: #834318; font-size: 18px;}
+.login-box .int{ background-color: #fff; border: none; border-radius: 6px; padding: 5px; font-size: 12px; width: 150px; vertical-align: middle; outline: none;}
+.login-box .step-1 h3{ font-size: 20px; line-height: 140%; padding: 22px 0;}
+.login-box .step-1 h3 span {font-size: 16px; display: block;}
+.login-box .step-1 dl{ clear: both; }
+.login-box .step-1 dt{  width: 40px; text-align: right; line-height: 30px; float: left;}
+.login-box .step-1 dd{  height: 50px; margin: 0 0 0 45px; _margin: 0; }
+.login-box .step-1 dd .init{ color: #d45b4b;}
+.login-box .check-box{ display: inline-block; vertical-align: middle; background: url(../images/check-box.png) no-repeat 0 -25px; width:19px; height: 17px; cursor: pointer; }
+.login-box .check-box-active{ background-position: 0 0;}
+.login-box .list li{ background: url(../images/se.png) no-repeat 0 1px; line-height: 16px; padding-bottom: 10px; color: #545e69; padding-left: 24px;}
+.login-box .list li{ background: url(../images/se.png) no-repeat 0 1px; line-height: 16px; padding-bottom: 10px; color: #545e69; padding-left: 24px;}
+.login-box .btn-box{}
+.login-box .btn-box a{ background-color: #ff7d00; border-bottom: 4px solid #d93200; border-radius: 6px; display: block; margin: 0 20px; text-align: center; padding: 12px 0; font-size: 20px; color: #ffec6c;}
+.login-box .btn-box a:hover{ background-color: #ff9600; border-bottom-color: #f27300;}
+.login-box .btn-box a:active{ background-color: #ff8500; border-bottom-color: #d93200;}
+.login-box .mobile-box{ display: inline-block; *display: inline; *zoom: 1; position: relative;}
+.login-box .mobile-box .mobile-arrow{ background: url(../images/select-al.png) no-repeat; position: absolute; right: 2px; top: 2px; width: 21px ;height: 20px; display: block; cursor: pointer;}
+.login-box .mobile-box ul{ position: absolute; top: 24px; z-index: 5; left: 0; padding-top: 2px; width: 160px; display: none;}
+.login-box .mobile-box ul li{ background-color: #cfe7ff; border: none; border-radius: 6px; padding: 5px; font-size: 12px; color: #828282; cursor: pointer; margin-bottom: 2px; }
+.login-box .step-2 h1{ background: url(../images/text-back.png) no-repeat center 0; height: 81px; margin: 45px 0;}
+.login-box .step-2 h3{ font-size: 20px; color: #64381e; margin: 0 0 20px; text-align: center;}
+.login-box .code-box{ background: url(../images/code-back.png) no-repeat; width: 273px ;height: 58px; text-align: center; line-height: 58px;white-space: nowrap; font-size: 20px; color: #64381e; margin: 0 auto 15px;}
+/*popup-box*/
+.popup-box-1, .popup-box-1 .p-btn a{ background: url(../images/popup-1.png) no-repeat 5000px 5000px; overflow: hidden;}
+.popup-box-1{ background-position: 0 0; height: 550px; width: 764px;  position: relative;}
+.popup-box-1 .p-btn{ margin: 455px 0 0;}
+.popup-box-1 .p-btn a{ display: block; margin: 0 auto; width: 144px ; height: 52px; text-indent: -500px;}
+.popup-box-1 .p-btn a:hover{ background-position: -314px -585px;}
+.popup-box-1 .p-btn a:active{ background-position: -486px -585px;}
+.popup-box-2, .popup-box-2 .p-btn a{ background: url(../images/popup-2.png) no-repeat 5000px 5000px; overflow: hidden;}
+.popup-box-2{ background-position: 0 0; height: 467px; width: 714px;  position: relative;}
+.popup-box-2 .p-btn{ margin: 362px 0 0 183px; text-align: center;}
+.popup-box-2 .p-btn a{ display: inline-block; margin: 0 auto; width: 144px ; height: 52px; text-indent: -500px; float: left;}
+.popup-box-2 .p-btn a:hover{ background-position: -195px -495px;}
+.popup-box-2 .p-btn a:active{ background-position: -195px -563px;}
+.popup-box-2 .p-btn a.m-2{ margin: 0 0 0 60px;}
+.popup-box-2 .p-btn .m-2:hover{ background-position: -351px -495px;}
+.popup-box-2 .p-btn .m-2:active{ background-position: -351px -563px;}
+.promptclose-skin{ position: absolute; width: 40px ;height: 40px; right: 10px; top: 10px; cursor: pointer;}

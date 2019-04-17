@@ -1,0 +1,118 @@
+/*userListBox*/
+.userListBox { padding: 30px 0; margin: 0 25px; }
+.userListBox h4 { font: 12px/1.125 arial; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ddd; color: #999; }
+.userListBox li { float: left; padding: 0 10px; position: relative; }
+.userListBox li .avatar { background: url(../images/avatar.png) no-repeat; border: 1px solid #ccc; height: 60px; width: 60px; position: relative; cursor: pointer; }
+.userListBox li .new-icon{ background: url(../images/intive/bs-icon.png) no-repeat; position: absolute; left: 0;top: -1px; width: 44px; height: 45px; display: none;}
+.userListBox li div.avatar_active { background: #ff9000; height: 83px; margin-bottom: 4px}
+.userListBox li div.avatar_active .new-icon{ display: block;}
+.userListBox li .avatar label { position: absolute; bottom: -2px; right: -5px; }
+.userListBox li .avatar img { width: 60px; height: 60px; vertical-align: middle; }
+.userListBox li .title { width: 60px; white-space: nowrap; overflow: hidden; display: block; text-align: center; padding: 5px 0 15px; color: #666; }
+/*horizontal_vox*/
+.invite_icon { background: url(../images/intive/intive_icon.png) no-repeat; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 3px; }
+.invite_icon_blue, .intiveSelect .tab li.active span i { background: url(../images/intive/intive_icon_blue.png) no-repeat; }
+.invite_icon_app { background: url(../images/intive/app.png?1.0.1) no-repeat; width: 45px; height: 43px; }
+.invite_icon_1 { background-position: 2px 0 !important; }
+.invite_icon_2 { background-position: -31px 0 !important; }
+.invite_icon_3 { background-position: -65px 0 !important; }
+.invite_icon_4 { background-position: -99px 0 !important; }
+.invite_icon_app_1 { background-position: 0 0 }
+.invite_icon_app_2 { background-position: -59px 0 }
+.invite_icon_app_3 { background-position: -118px 0 }
+.invite_icon_app_4 { background-position: -173px 0; width: 52px; }
+.invite_icon_app_5 { background-position: -236px 0 }
+.appicon a strong { display: block; }
+.intiveBox .head { margin: 0; width: 100%; }
+.intiveBox .student_invite { background-image: url(../images/intive/student_invite.jpg); }
+.intiveBox .rule { background: url(../images/intive/intive3.png?1.1.0) repeat-y 0 0; }
+.intiveBox .rule .top { background: url(../images/intive/intive2_1.png) no-repeat; height: 70px; }
+.intiveBox .rule .student_top { background-image: url(../images/intive/intive2_s.png?1.1.0); }
+.intiveBox .rule .student_top_e { background-image: url(../images/intive/intive2_e.png?1.1.0); }
+.intiveBox .rule .student_top_st { background-image: url(../images/intive/intive2_st.png?1.1.0); height: 165px; }
+.intiveBox .rule .student_top_te { background-image: url(../images/intive/intive2_te.png?1.1.1); height: 165px; }
+.intiveBox .rule .bot { background: url(../images/intive/intive4.png) no-repeat; height: 10px; overflow: hidden; margin: 0 0 20px; clear: both; }
+.intiveBox .rule .summary { }
+.intiveBox .inrule .container_summary { padding: 30px; }
+.intiveBox .inrule p { width: 46%; color: #666; }
+.intiveBox .inrule p strong { display: block; }
+.intiveBox .inrule p.row_vox_right { border: 1px dashed #ddd; padding: 10px; background-color: #f9f9f9; border-radius: 6px; }
+.intiveBox .acti .container_summary { padding: 30px 50px; }
+.intiveBox .acti .ctn { color: #666; padding: 10px 0 0; }
+.intiveBox .acti .ctn strong { display: block; }
+.userListBox { margin: 0; padding: 20px 0 0; }
+.userListBox li { margin: 0; padding: 0 25px 0 0; }
+.userListBox li .avatar { width: 82px; height: 87px; border: none; background: url(../images/intive/avatar.png) no-repeat; }
+.userListBox li .avatar img { width: 70px; height: 70px; margin: 6px 0 0 6px; }
+.userListBox li .title { width: 82px; }
+.intiveSelect { clear: both; }
+.intiveSelect .tab { padding: 15px 0 0 0; }
+.intiveSelect .tab li { float: left; margin-right: -1px; padding: 3px 0 0; }
+.intiveSelect .tab li span { border: 1px solid #ddd; padding: 8px 30px; display: inline-block; border-radius: 4px 4px 0 0; background: #fcfcfc; cursor: pointer; box-shadow: 0 0 3px #ddd; font-size: 14px; }
+.intiveSelect .tab li span strong { font-weight: normal; display: inline-block; vertical-align: middle; }
+.intiveSelect .tab li.active { position: relative; z-index: 11; padding: 0; }
+.intiveSelect .tab li.active span i { background: url(../images/intive/intive_icon_blue.png) no-repeat; }
+.intiveSelect .tab li.active span { background-color: #fff; color: #638ce8; font-weight: inherit; border-bottom: none; box-shadow: none; padding: 10px 30px; }
+.intiveSelect .tab li.active span strong { font-weight: bold; }
+.intiveSelect .horizontal_vox { clear: both; border: 1px solid #ddd; background: #fff; position: relative; top: -1px; padding: 30px 0; border-radius: 0 6px 6px 6px; margin-bottom: 10px; position: relative; }
+.intiveSelect .horizontal_vox dt { width: 120px; color: #666; font-weight: normal; line-height: 25px; position: relative; font-size: 12px; float: left; text-align: right; }
+.intiveSelect .horizontal_vox dd { margin: 0 0 20px 120px; }
+.intiveSelect .horizontal_vox dd input { width: 160px; }
+.intiveSelect .horizontal_vox .ctn { margin: 0; clear: both; padding: 0 15px; text-align: center; }
+.intiveSelect .horizontal_vox .sms_ctn { width: 310px; position: absolute; right: 40px; top: 18px; }
+.intiveSelect .horizontal_vox .ctn h5 { color: #999; font: 12px/22px Arial, Helvetica, sans-serif; padding: 10px 0; }
+.intiveSelect .horizontal_vox .ctn p { border: 1px dashed #bfbfbf; background-color: #f6f6f6; padding: 20px; margin: 0 0 20px; clear: both; border-radius: 4px; line-height: 18px; color: #666; overflow: hidden; height: 100%; }
+.intiveSelect .horizontal_vox .ctn p textarea { background: none; }
+.tabsMain { padding: 15px 0 0 0px; height: 38px; border-bottom: 1px solid #ddd;  *height: 37px;
+    *overflow: hidden;
+    margin-bottom: 15px; }
+.tabsMain li { float: left; margin-right: -1px; }
+.tabsMain li span { padding: 8px 25px; display: inline-block; border-radius: 4px 4px 0 0; cursor: pointer; color: #666; }
+.tabsMain li span strong { display: inline-block; vertical-align: middle; }
+.tabsMain li.active { position: relative; z-index: 11; padding: 0; }
+.tabsMain li.active span { background-color: #fafafa; color: #638ce8; font-weight: inherit; border: 1px solid #ddd; border-bottom: none; box-shadow: none; padding-bottom: 9px; }
+/*copyLink*/
+.copyLink { width: 143px; margin: auto; }
+.copyLink div { top: 0 !important; left: 0 !important; ; }
+.copyLink div, .copyLink div embed { width: 139px !important; height: 36px !important; display: block; }
+/*inviteDarenlist*/
+.inviteDarenlist { clear: both; }
+.inviteDarenlist h5 { color: #333; font-size: 14px; line-height: 40px; height: 48px; padding: 0 20px; border-top: 1px solid #e1e1e1; background: url(../images/intive/darenlistTitle.png) no-repeat 0 0; margin-top: -5px; }
+.inviteDarenlist li { clear: both; border-bottom: 1px solid #ddd; margin: 0 15px; padding: 5px 0; }
+.inviteDarenlist li .no { background-color: #ccc; color: #fff; display: inline-block; padding: 0px 5px; border-radius: 3px; font-size: 12px; float: left; }
+.inviteDarenlist li.num_1 .no, .inviteDarenlist li.num_2 .no, .inviteDarenlist li.num_3 .no { background-color: #a6c8ef; }
+.inviteDarenlist li.num_1 .icon { display: inline-block; width: 18px; height: 18px; vertical-align: middle; background: url(../images/intive/guanicon.png) no-repeat center center; }
+.inviteDarenlist li.num_1 .ctn .kis { color: #ff9900; }
+.inviteDarenlist li .ctn { margin-left: 22px;  *margin-top: -20px;
+    *padding-top: 1px;
+}
+.inviteDarenlist li .ctn .tle { color: #666; float: left; }
+.inviteDarenlist li .ctn .kis { color: #77a3ef; float: right; }
+.inviteDarenlist li .ctn .scl { clear: both; color: #999; line-height: 18px; }
+.student_invite li.num_1 .no, .student_invite li.num_2 .no, .student_invite li.num_3 .no { background-color: #aadc89; }
+.student_invite li .ctn .kis { color: #5eac14; }
+/*table_vox_blue 2013-12-13 add css*/
+.table_vox_blue { border: 1px solid #c9daff; overflow: hidden; }
+.table_vox_blue .errorSuccess { position: relative; z-index: 11; float: left; width: 100%; text-align: center; _padding-bottom: 5px }
+.table_vox_blue table { margin-top: -1px; }
+.table_vox_blue tr td, .table_vox_blue tr th { border-color: #c9daff !important; border-width: 1px 0 0 !important; padding: 10px 0 !important; color: #666; }
+.table_vox_blue thead td, .table_vox_blue thead th { background-color: #e3ecff; }
+.table_vox_blue thead.title td, .table_vox_blue thead.title th { background-color: #628be8; color: #fff; font-size: 14px; text-indent: 23px; }
+/*table_vox_red*/
+.table_vox_red { border: 1px solid #fdbeb7; overflow: hidden; margin-bottom: 20px; }
+.table_vox_red table { margin-top: -1px; }
+.table_vox_red tr td, .table_vox_red tr th { border-color: #fdbeb7 !important; border-width: 1px 0 0 !important; padding: 10px 0 !important; }
+.table_vox_red thead td, .table_vox_red thead th { background-color: #ffe9e7; }
+.table_vox_red thead.title td, .table_vox_red thead.title th { background-color: #eb4a3b; color: #fff; font-size: 14px; text-indent: 23px;  .
+}
+/*inrule_box*/
+.inrule_box { }
+.inrule_box h3 { font-size: 14px; color: #666; padding: 0 20px; margin: 0; }
+.inrule_box ul, .inrule_box ul li { list-style: decimal; }
+.inrule_box ul { padding: 0 40px 10px; }
+.inrule_box ul li { padding: 1px 0; color: #666; }
+/*icon_general*/
+.icon_general { background-image: url(../images/frameIcon.png); display: inline-block; width: 24px; height: 24px; }
+.icon_general_70 { background-position: -288px -266px; }
+.icon_general_95 { background-position: -294px -103px; }
+table th, table td { font-size: 12px; }

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="Agent"
+         version="3.0">
+    <display-name>Utopia Agent Webapp</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+            classpath:/applicationContext.xml
+            classpath:/quartzJob.xml
+        </param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>com.voxlearning.alps.webmvc.listener.AlpsContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
+
+    <filter>
+        <filter-name>defaultFilter</filter-name>
+        <filter-class>com.voxlearning.alps.webmvc.filter.AlpsFilter</filter-class>
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>com.voxlearning.utopia.agent.interceptor.AgentHttpRequestContext</param-value>
+        </init-param>
+        <init-param>
+            <param-name>maxUploadSize</param-name>
+            <param-value>104857600</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>defaultFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <filter>
+        <filter-name>shallowEtagHeaderFilter</filter-name>
+        <filter-class>org.springframework.web.filter.ShallowEtagHeaderFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>shallowEtagHeaderFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>agent</servlet-name>
+        <servlet-class>com.voxlearning.alps.webmvc.servlet.AlpsServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:/agent-servlet.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>agent</servlet-name>
+        <url-pattern>*.vpage</url-pattern>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>120</session-timeout>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>index.vpage</welcome-file>
+    </welcome-file-list>
+
+    <error-page>
+        <error-code>401</error-code>
+        <location>/WEB-INF/agent/mobile/error/error_401.html</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/agent/mobile/error/error_500.html</location>
+    </error-page>
+</web-app>
+

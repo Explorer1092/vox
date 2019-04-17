@@ -1,0 +1,578 @@
+@charset "UTF-8";
+.mhw-emptyBox{height:4rem}
+.mhw-home .mh-header{background:#fff;color:#4e5656}
+.mhw-home .mh-header .list .icon{position:relative;top:.3rem;display:inline-block;width:1.7rem;height:1.7rem;background-repeat:no-repeat;background-size:100% auto}
+.mhw-home .mh-header .list .icon-class{background-image:url(../../../images/teacher/homework/math/icon-class.png?v=3325520b48)}
+.mhw-home .mh-header .list .icon-material{background-image:url(../../../images/teacher/homework/math/icon-material.png?v=6205cec98d)}
+.mhw-home .mh-header .list .icon-unit{background-image:url(../../../images/teacher/homework/math/icon-unit.png?v=6fd9f98619)}
+.mhw-home .mh-header .list .icon-subject{background-image:url(../../../images/teacher/homework/math/icon-subject.png?v=50a3ea24f6)}
+.mhw-home .mh-header .list li{position:relative;padding:1rem 3rem 1rem 1.5rem;line-height:2.5rem;font-size:1.3rem;border-bottom:1px solid #d3d8df;overflow:hidden;cursor:pointer}
+.mhw-home .mh-header .list li:after{position:absolute;right:1.5rem;top:0;content:">";color:#d3d8df;font:400 2.2rem/4.5rem consolas}
+.mhw-home .mh-header .list li .left{width:8rem;float:left}
+.mhw-home .mh-header .list li .left .icon{margin-right:1rem}
+.mhw-home .mh-header .list li .right .arrow{font:400 1.3rem consolas}
+.mhw-home .mh-content{padding:0 1.5rem;background:#fff;color:#4e5656}
+.mhw-home .mh-content .title{font-size:1.4rem;padding:1.5rem 0 .8rem 0;font-weight:400}
+.mhw-home .mh-content li{position:relative;font-size:1.3rem;padding:1rem 0;cursor:pointer}
+.mhw-home .mh-content li .w-icon{margin-right:.6rem}
+.mhw-home .mh-content li.active{color:#359bff}
+.mhw-home .mh-content li.active .w-icon{background-image:url(../../../images/teacher/homework/math/icon-check-active.png?v=ae9671ba78)}
+.mhw-home .btn-box{padding:1.5rem}
+.mhw-selected .ms-box{background:#fff;color:#4e5656;background:#fff}
+.mhw-selected .ms-box .title{overflow:hidden;line-height:4rem;padding:0 1.5rem;background:#f9fcfe;border-bottom:1px solid #d3d8df}
+.mhw-selected .ms-box .left,.mhw-selected .ms-box .right{width:50%}
+.mhw-selected .ms-box .title .left{font-size:1.5rem;font-weight:700}
+.mhw-selected .ms-box .title .right{text-align:right}
+.mhw-selected .ms-box .title .right a{font-size:1.4rem;color:#189cfb;padding:.7rem 0 .7rem 2rem}
+.mhw-selected .ms-box .list .icon{position:relative;top:.3rem;display:inline-block;width:1.7rem;height:1.7rem;background-repeat:no-repeat;background-size:100% auto}
+.mhw-selected .ms-box .list .icon-tbxt{background-image:url(../../../images/teacher/homework/math/icon-tbxt.png?v=d198d90468)}
+.mhw-selected .ms-box .list .icon-kslx{background-image:url(../../../images/teacher/homework/math/icon-kslx.png?v=ca958df69f)}
+.mhw-selected .ms-box .list .icon-cs{background-image:url(../../../images/teacher/homework/math/icon-cs.png?v=520633f80c)}
+.mhw-selected .ms-box .list .icon-scb{background-image:url(../../../images/teacher/homework/math/icon-scb.png?v=182614329f)}
+.mhw-selected .ms-box .list .icon-cfkj{background-image:url(../../../images/teacher/homework/math/icon-cfkj.png?v=e3c5a0aa70)}
+.mhw-selected .ms-box .list .icon-dszyz{background-image:url(../../../images/teacher/homework/math/icon-dszyz.png?v=6bceb31cf2)}
+.mhw-selected .ms-box .list .icon-gnsys{background-image:url(../../../images/teacher/homework/math/icon-gnsys.png?v=1878f85c0a)}
+.mhw-selected .ms-box .list .icon-kwdb{background-image:url(../../../images/teacher/homework/math/icon-kwdb.png?v=c64854f0d8)}
+.mhw-selected .ms-box .list .icon-tblx{background-image:url(../../../images/teacher/homework/math/icon-tblx.png?v=b954a9528e)}
+.mhw-selected .ms-box .list .icon-hbyd{background-image:url(../../../images/teacher/homework/math/icon-hbyd.png?v=dcbd0300f8)}
+.mhw-selected .ms-box .list .icon-kylx{background-image:url(../../../images/teacher/homework/math/icon-kylx.png?v=4aa772223f)}
+.mhw-selected .ms-box .list .icon-oral{background-image:url(../../../images/teacher/homework/math/icon-oral.png)}
+.mhw-selected .ms-box .list .icon-gpcs{background-image:url(../../../images/teacher/homework/math/icon-gpcs.png?v=5abf5c256b)}
+.mhw-selected .ms-box .list .icon-cqbl{background-image:url(../../../images/teacher/homework/math/icon-cqbl.png?v=9af5ad3b21)}
+.mhw-selected .ms-box .list li{overflow:hidden;padding:1rem 1.5rem;line-height:2.5rem;font-size:1.4rem;border-bottom:1px solid #d3d8df}
+.mhw-selected .ms-box .list li .left .icon{margin-right:1rem}
+.mhw-selected .ms-box .list li .right .text{width:40%;padding:0 5%}
+.mhw-selected .ms-box .list li .right .btn{width:50%}
+.mhw-selected .ms-box .list li .right .btn a{margin-left:1.25rem}
+.mhw-selected .btn-box{padding:1.5rem}
+.mhw-selected .btn-box a{margin:0 0 1rem 0}
+.mhw-confirm .mc-box{background:#fff;color:#4e5656;background:#fff}
+.mhw-confirm .mc-box .title{line-height:4rem;padding:0 1.5rem;font-size:1.5rem;font-weight:700;background:#f9fcfe;border-bottom:1px solid #d3d8df}
+.mhw-confirm .mc-box .list li{overflow:hidden;padding:1rem 1.5rem;line-height:2.5rem;font-size:1.4rem;border-bottom:1px solid #d3d8df}
+.mhw-confirm .mc-box .list li .left{width:7rem}
+.mhw-confirm .mc-box .list li .right{margin-left:7rem}
+.mhw-confirm .mc-box .list li .right .time{display:inline-block;cursor:pointer;width:28%;height:2.6rem;line-height:2.6rem;margin:0 .5rem 1rem 0;color:#464646;text-align:center;font-size:1.3rem;border:2px solid #d3d8df;border-radius:.25rem}
+.mhw-confirm .mc-box .list li .right .time.active{border-color:#3c9dfc;color:#3c9dfc}
+.mhw-confirm .mc-box .list li .right input.time{width:9.5rem;height:2.6rem;background:#f2f2f2}
+.mhw-confirm .mc-box .list li .right .tips{color:#afb5b7;font-size:1.1rem;line-height:1.6rem}
+.mhw-confirm .mc-box .list .rewardBeans .eb-text{float:left;color:#359bff}
+.mhw-confirm .mc-box .list .rewardBeans .eb-text .w-icon-check{cursor:pointer;margin:0 .5rem 0 0}
+.mhw-confirm .mc-box .list .rewardBeans .rb-operation{float:right}
+.mhw-confirm .mc-box .list .rewardBeans .rb-operation .operation{display:inline-block;cursor:pointer;vertical-align:middle;width:2.2rem;height:2.2rem;background:#269ef8;border:1px solid #177bc7;border-radius:.25rem;text-align:center;font:400 3rem/1.8rem consolas;color:#fff}
+.mhw-confirm .mc-box .list .rewardBeans .rb-operation .operation .icon{display:inline-block;width:2.1rem;height:1.8rem;margin:.2rem auto}
+.mhw-confirm .mc-box .list .rewardBeans .rb-operation .operation.disabled{background:#ccc;border:1px solid #b3b3b3}
+.mhw-confirm .mc-box .list .rewardBeans .rb-operation .ipt{display:inline-block;vertical-align:middle;margin:0 .35rem;width:3.2rem;height:2.2rem;border:1px solid #b3b3b3;border-radius:.25rem;line-height:2.2rem;text-align:center;font-size:1.2rem;color:#000}
+.mhw-confirm .btn-box{padding:1.5rem}
+.mhw-slideBox{position:fixed;width:100%;top:0;left:0;z-index:20}
+.mhw-slideBox .mask{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.6)}
+.mhw-slideBox .innerBox{position:relative;background:#fff;z-index:20}
+.mhw-slideBox .hd{position:relative;background:#f9fcfe;padding:1.4rem 1.5rem;border-bottom:1px solid #d3d8df;font-size:1.5rem;font-weight:700}
+.mhw-slideBox .hd .close{float:right;width:4rem;margin:-1rem -1.2rem 0 0;text-align:center;color:#4e5656;font:400 3rem/100% consolas;cursor:pointer}
+.mhw-slideBox .mn{background:#f2f4f7;border-bottom:1px solid #d3d8df}
+.mhw-slideBox .mn .infoClass{overflow:hidden}
+.mhw-slideBox .mn .infoClass .bot-cancel{text-align:right}
+.mhw-slideBox .mn .infoClass .cancel{color:#3c9dfc;font-size:1.4rem;display:inline-block;padding:1rem}
+.mhw-slideBox .mn .infoClass .left{float:left;padding-bottom:100rem;margin-bottom:-100.05rem;width:10rem;background:#fff;border-right:1px solid #d3d8df;text-align:center;font-size:1.4rem}
+.mhw-slideBox .mn .infoClass .left li{width:100%;height:4rem;line-height:4rem;border-bottom:1px solid #d3d8df;cursor:pointer}
+.mhw-slideBox .mn .infoClass .left li.active{border-right:0;background:#f2f4f7;margin-left:1px}
+.mhw-slideBox .mn .infoClass .right{padding:0 1rem}
+.mhw-slideBox .mn .infoClass .right.margin-l{margin-left:10rem}
+.mhw-slideBox .mn .infoClass .right .classInfo{overflow:hidden;position:relative;padding-bottom:.5rem}
+.mhw-slideBox .mn .infoClass .right .classInfo li{float:left;margin:.75rem 0 0 .75rem;width:42%;padding:.8rem 0;text-align:center;background:#fff;border:.1rem solid #dae6ee;border-radius:.25rem;font-size:1.3rem;color:#464646;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mhw-slideBox .mn .infoClass .right .classInfo li.active{background:#fff url(../../../images/teacher/homework/math/select-top-icon.png?v=94af0c93a9) no-repeat top right;background-size:2rem 2rem;border:.1rem solid #3c9dfc;color:#3c9dfc}
+.mhw-slideBox .mn .infoSubject{overflow:hidden}
+.mhw-slideBox .mn .infoSubject li{float:left;margin:1rem 0 1rem 3.5%;width:28%;height:2.8rem;line-height:2.8rem;border:.1rem solid #b8b8b8;border-radius:.25rem;cursor:pointer;text-align:center}
+.mhw-slideBox .mn .infoSubject li.active{border-color:#3b9efc;background:#fff url(../../../images/teacher/homework/math/select-top-icon.png?v=94af0c93a9) no-repeat top right;background-size:2rem 2rem}
+.mhw-slideBox .topicList li{cursor:pointer}
+.mhw-slideBox .topicList li .name{position:relative;padding:.9rem 1rem;background:#edf5fa;border-bottom:.05rem solid #d3d8df}
+.mhw-slideBox .topicList li .name .text{display:block;padding-right:4.5rem;line-height:1.4rem;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:1.4rem;color:#4e5656}
+.mhw-slideBox .topicList li .name .arrow{cursor:pointer;position:absolute;top:0;right:.5rem;display:inline-block;padding:1rem;width:1.6rem;height:1.3rem;background:url(../../../images/teacher/homework/math/arrow-down.png?v=6aabe577d9) no-repeat center center;background-size:50% auto;vertical-align:middle}
+.mhw-slideBox .topicList li .labelBox{display:none;padding:.5rem 1rem;border-bottom:.05rem solid #d3d8df}
+.mhw-slideBox .topicList li .labelBox span{cursor:pointer;display:inline-block;margin:0 1rem .5rem 0;padding:.6rem 1.25rem;border:.1rem solid #d3d8df;border-radius:.3rem;line-height:1.3rem;font-size:1.3rem}
+.mhw-slideBox .topicList li .labelBox span.active{border-color:#3c9dfc}
+.mhw-slideBox .topicList li.show .labelBox{display:block}
+.mhw-slideBox .topicList li.show .arrow{background:url(../../../images/teacher/homework/math/arrow-up.png?v=ec39c618e2) no-repeat center center;background-size:50% auto}
+.mhw-slideBox .topicList .unitList{padding:0 1rem;border-bottom:.05rem solid #d3d8df}
+.mhw-slideBox .topicList .unitList li{line-height:3rem;font-size:1.4rem;cursor:pointer}
+.mhw-slideBox .topicList .unitList li.active{color:#3c9dfc}
+.mhw-slideBox .topicList .unitList li .w-icon{margin-right:.5rem}
+.mhw-slideBox .topicList .unitList li.active .w-icon{background-image:url(../../../images/teacher/homework/math/icon-radio-active.png?v=dfe50a0aed)}
+.mhw-slideBox .topicTpye .ms-box li{cursor:pointer;padding:.75rem 1rem;border-bottom:.05rem solid #d3d8df;background:#fff;height:1.8rem}
+.mhw-slideBox .topicTpye .ms-box li.active{background:#eef8ff}
+.mhw-slideBox .topicTpye .ms-box li .icon{top:0;margin:0 .5rem;vertical-align:middle}
+.mhw-slideBox .topicTpye .ms-box li .text{display:inline-block;vertical-align:middle}
+.mn .infoClass .right .tabWrap{padding:.5rem 0;background:#eff2f6}
+.mn .infoClass .right .tab{background:#fff;height:2.3rem;line-height:2.3rem;text-align:center;border:2px solid #3c9dfc;overflow:hidden;border-radius:.25rem}
+.mhw-slideBox .mn .infoClass .right .tab li{float:left;cursor:pointer;width:50%;color:#3c9dfc;font-size:1.3rem}
+.mhw-slideBox .mn .infoClass .right .tab li.active{background:#3c9dfc;color:#fff}
+.mhw-slideBox .mn .infoClass .right .tab-1 li{width:100%}
+.mhw-slideBox .mn .infoClass .right .material{height:25rem;overflow:hidden;overflow-y:auto;position:relative}
+.mhw-slideBox .mn .infoClass .right .material li{height:3rem;line-height:3rem;font-size:1.4rem;cursor:pointer}
+.mhw-slideBox .mn .infoClass .right .material li.active{color:#3c9dfc}
+.mhw-slideBox .mn .infoClass .right .material li .w-icon{margin-right:.5rem}
+.mhw-slideBox .mn .infoClass .right .material li.active .w-icon{background-image:url(../../../images/teacher/homework/math/icon-radio-active.png?v=dfe50a0aed)}
+.footer-empty{width:100%;height:6rem}
+.fixFooter{width:100%;position:fixed;z-index:9;left:0;bottom:0;padding:0;background:#fff}
+.fixFooter .w-btn{margin:1rem}
+.mhw-btns{padding:1.5rem;background:#fff}
+.mhw-btns.btns-2{overflow:hidden}
+.mhw-btns.btns-2 .w-btn{width:45%;float:left;margin:0 1.5%}
+.mhw-header{width:100%;border-bottom:.05rem solid #d3d8df}
+.mhw-header .header-inner{position:relative;background:#f9fcfe;padding:0 1rem;height:4rem;line-height:4rem;font-size:1.5rem}
+.mhw-header .header-inner .fl{font-weight:700}
+.mhw-header .header-inner .switch-link{color:#3c9dfc}
+.fixTop{position:fixed;left:0;top:0;z-index:19;width:100%;border-bottom:.05rem solid #d3d8df}
+.mhw-header .title{width:92%;padding:0 4%;font-size:1.5rem;float:left}
+.mhw-header .fr-txt{float:right;margin-right:1rem;font-size:1.2rem;color:#3c9dfc}
+.mhw-tab{width:1000%}
+.mhw-tab li{float:left;margin:0 .3rem;height:3.8rem;line-height:3.8rem;font-size:1.5rem;padding:0 1.5rem;border-bottom:.2rem solid transparent;cursor:pointer}
+.mhw-tab li.active{border-bottom-color:#3c9dfc}
+.mhw-base{border-bottom:1px solid #d3d8df;border-top:1px solid #d3d8df;background:#fff}
+.mhw-base .mb-hd{font-size:1rem;border-bottom:1px solid #d3d8df}
+.mhw-base .mb-hd span{display:inline-block;padding:.7rem 1rem;border-right:1px solid #d3d8df}
+.mhw-base .mb-hd span:last-child{border:0}
+.mhw-base .mb-hd .txt-grey{color:#7f96a3}
+.mhw-base .mb-hd .txt-red{color:#fa7252}
+.mhw-footer{width:100%;height:4.5rem}
+.mhw-footer .inner-box{width:100%;position:fixed;left:0;bottom:0;background:#f9fcfe;border-top:1px solid #d3d8df;padding:.65rem 0}
+.mhw-footer .inner-box .inner{height:3.2rem;line-height:3.2rem;padding:0 1rem;font-size:1.5rem;color:#7f96a3}
+.mhw-footer .inner-box .inner .btn{float:right;width:12rem;font-size:1.5rem}
+.mhw-selectBtns{width:100%;overflow:hidden}
+.mhw-selectBtns .btn{float:right;width:6.5rem;padding:.7rem 0;font-size:1.4rem}
+.mhw-selectBtns .btn strong{font:400 2.2rem/0rem consolas;margin:0 .5rem 0 0}
+.mhw-itemSelection .top{position:relative;height:2.8rem;margin-bottom:.5rem;font-size:1.4rem}
+.mhw-itemSelection .title{margin-right:7.5rem;height:2.8rem;line-height:2.8rem;color:#464646;vertical-align:middle}
+.mhw-itemSelection .mhw-selectBtns{position:absolute;right:0;top:0;width:7rem}
+.mhw-itemSelection .info{font-size:1.1rem;color:#7f96a3;line-height:1.8rem}
+.mop-main{background:#fff;padding:0 1.5rem;border-bottom:1px solid #d3d8df;border-top:1px solid #d3d8df}
+.mop-main .describe{padding:.9rem 0}
+.mop-main .describe li{position:relative;font-size:1.2rem;height:2.7rem;line-height:2.7rem;margin-bottom:.9rem}
+.mop-main .describe li .name{margin-right:9.5rem}
+.mop-main .describe li .operation{position:absolute;right:0;top:0;width:9.5rem}
+.mop-main .describe li .operation span{display:inline-block;cursor:pointer;vertical-align:middle;width:2.2rem;height:2.2rem;background:#269ef8;border:1px solid #177bc7;border-radius:.25rem;text-align:center;font:400 3rem/1.8rem consolas;color:#fff}
+.mop-main .describe li .operation span .icon{display:inline-block;width:2.1rem;height:1.8rem;margin:.2rem auto}
+.mop-main .describe li .operation span .icon-reduce-white{background:url(../../../images/teacher/homework/math/icon-reduce-white.png?v=5c54add9a8) no-repeat;background-size:100% auto}
+.mop-main .describe li .operation span .icon-add-white{background:url(../../../images/teacher/homework/math/icon-add-white.png?v=efc5e07f44) no-repeat;background-size:100% auto}
+.mop-main .describe li .operation span.disabled{background:#ccc;border:1px solid #b3b3b3}
+.mop-main .describe li .operation input{vertical-align:middle;margin:0 .35rem;width:3.2rem;height:2.2rem;border:1px solid #b3b3b3;border-radius:.25rem;line-height:2.2rem;text-align:center;font-size:1.2rem;color:#000}
+.mhw-subject{padding-bottom:1rem;background:#fff}
+.mhw-subject table{width:100%}
+.mhw-subject td{text-align:left;font-size:1.5rem;line-height:1.8rem;padding-bottom:1rem}
+.mhw-subject td.refresh{width:2.7rem}
+.mhw-subject td .refresh-icon{cursor:pointer;display:inline-block;width:2.7rem;height:2.8rem;background:url(../../../images/teacher/homework/math/refresh-icon.png?v=5f169e5c2f) no-repeat;background-size:100% auto}
+.mhw-menuBox .slideItem{cursor:pointer;text-align:right}
+.mhw-menuBox .slideItem select{width:5rem;font-size:1.2rem;color:#4e5656;padding:0;background-color:#fff;font-family:Microsoft Yahei;outline-style:none}
+.mhw-menuBox .slideItem select option{font-size:1.2rem;color:#4e5656}
+.mhw-menuBox .arrow{display:inline-block;width:1.6rem;height:1.3rem;margin:0 .4rem;background:url(../../../images/teacher/homework/math/arrow-down-blue.png?v=bc040c9022) no-repeat;background-size:100% auto;vertical-align:middle}
+.mhw-menuBox.slideUp .arrow{background:url(../../../images/teacher/homework/math/arrow-up-blue.png?v=6896f1028c) no-repeat;background-size:100% auto}
+.mhw-menuBox .slideOverflow{position:absolute;top:2.6rem;right:0;width:100%;border:1px solid #d3d8df;border-top:0;z-index:1;max-height:12.5rem;overflow:hidden;overflow-y:auto}
+.mhw-menuBox .slideInfo{position:absolute;top:4rem;right:0;width:100%;border:1px solid #d3d8df;border-top:0;z-index:1}
+.mhw-menuBox .slideOverflow .slideInfo{border:0;position:relative}
+.mhw-menuBox .slideInfo li{height:3.5rem;line-height:3.5rem;background:#fff;border-top:1px solid #d3d8df;text-align:center;font-size:1.3rem;color:#4e5656;cursor:pointer}
+.mhw-menuBox .slideInfo li.active{background:#e1f0fc}
+.mhw-testPaper-Detail .mtd-main .title{background:#fff;padding:1rem;font-size:1.5rem;text-align:center;line-height:1.8rem}
+.mhw-testPaper-Detail .mtd-main .title .font-18{font-size:.9rem}
+.mse-main .mse-title{font-size:1.2rem;line-height:1.4rem;margin-bottom:.7rem;padding:0 .7rem}
+.mse-main .slide-top{height:2.6rem;padding:0 2%;font-size:1.2rem;line-height:2.6rem;background:#eff2f6;width:96%}
+.mse-main .item{position:relative}
+.mse-main .item-all{float:left}
+.mse-main .item-slide{float:right;width:8rem;margin:0 0 0 .2rem;text-align:right}
+.sync-flayer{height:22rem;overflow-y:scroll;-webkit-overflow-scrolling:touch}
+.sync-flayer .info{padding:1rem 1.5rem;border-bottom:1px solid #d3d8df}
+.sync-flayer .info:last-child{border-bottom:0}
+.msf-main{background:#fff}
+.msf-top{padding:1.3rem 1.5rem;border-bottom:1px solid #d3d8df}
+.msf-top ul{overflow:hidden}
+.msf-top ul li{float:left;width:21%;padding:.8rem 0;cursor:pointer;margin-right:3%;text-align:center;font-size:1.3rem;border:2px solid #d3d8df;border-radius:.3rem}
+.msf-top ul li:last-child{margin-right:0}
+.msf-top ul li.active{border-color:#3c9dfc;color:#3c9dfc}
+.msf-main .txt-tips{font-size:1.2rem;padding:1rem 0;color:#464646;text-align:center}
+.msf-feedbak{padding:1rem 1.5rem;border-bottom:1px solid #d3d8df;border-top:1px solid #d3d8df;margin-top:-1px}
+.msf-feedbak textarea{width:100%;min-height:8rem;border:0;outline-style:none;font-size:1.2rem;color:#464646;line-height:1.6rem}
+.msf-feedbak .num-tips{width:100%;height:2rem;line-height:2rem;text-align:right;margin-bottom:-1rem;font-size:1.2rem;color:#c6cbd2}
+.mhw-taskPreview .switch-box{position:absolute;top:0;right:1.5rem;width:12rem;font-size:1.4rem;color:#189cfb}
+.mhw-taskPreview .mtp-header{padding:.5rem 1.5rem;background:#fff}
+.mhw-taskPreview .mtp-header p.title{font-size:1.3rem;text-align:center;line-height:1.6rem}
+.mhw-taskPreview .mtp-list .list-hd{font-weight:400;font-size:1.3rem;padding:1rem;margin-bottom:1rem;background:#f9fcfe;border-top:1px solid #d3d8df;border-bottom:1px solid #d3d8df}
+.mhw-taskPreview .mhw-btns{background:#f9fcfe;border-top:1px solid #d3d8df}
+.mhw-taskPreview .mhw-btns .w-btn{font-size:1.8rem}
+.mhw-slideBox .mhw-picBox{width:100%;background:#fff}
+.mhw-picBox .pic-list{border-bottom:1px solid #d3d8df;padding:1rem 0}
+.mhw-picBox .pic-list ul{margin:0 1.7rem;height:16rem;overflow-y:scroll;-webkit-overflow-scrolling:touch}
+.mhw-picBox .pic-list ul li{width:100%;height:auto;margin-bottom:1.5rem}
+.mhw-picBox .pic-list ul li img{width:100%;height:auto}
+.mhw-picBox .level-lable{margin:0 1.7rem;padding:1rem 0 0 0}
+.mhw-picBox .level-lable span{display:inline-block;cursor:pointer;width:20%;margin-left:2%;height:2.6rem;border-radius:4px;margin-bottom:1rem;font-size:1.3rem;text-align:center;line-height:2.6rem;background:#fff;border:2px solid #d3d8df}
+.mhw-picBox .level-lable span.active{border-color:#3c9dfc;color:#3c9dfc}
+.mhw-picBox .level-lable span i{font-style:normal;font:400 1.8rem consolas}
+.msf-stuInfo-label{height:14.5rem;padding:1rem 0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.msf-stuInfo-label .classInfo{overflow:hidden;position:relative}
+.msf-stuInfo-label .classInfo li{position:relative;float:left;margin:.75rem 0 0 .75rem;width:28%;padding:1rem 0;text-align:center;background:#fff;border:.1rem solid #dae6ee;border-radius:.25rem;font-size:1.3rem;color:#464646;cursor:pointer}
+.msf-stuInfo-label .classInfo li.active{background:#fff url(../../../images/teacher/homework/math/select-top-icon.png?v=94af0c93a9) no-repeat top right;background-size:2rem 2rem;border:.1rem solid #3c9dfc;color:#3c9dfc}
+.msf-stuInfo-label .classInfo li .state{display:block;position:absolute;top:-.1rem;left:-.1rem;font-size:.7rem;line-height:1rem;color:#edf5fa;background:#f9a230;border:1px solid #ef7721;border-radius:.2rem;padding:0 .2rem}
+.msf-sendBean{position:relative;z-index:10;overflow:hidden;padding:1rem;height:2.5rem;line-height:2.5rem}
+.msf-sendBean .fl-txt{float:left;font-size:1.3rem;color:#464646}
+.msf-sendBean .fl-txt .bean-icon{display:inline-block;vertical-align:middle;margin-left:.5rem;width:1.35rem;height:1.25rem;background:url(../../../images/teacher/homework/math/bean-icon.png?v=6e52c45685) no-repeat;background-size:100% auto}
+.msf-sendBean .fr-btn{float:right}
+.msf-sendBean .fr-btn span{display:inline-block;cursor:pointer;vertical-align:middle;width:2.5rem;height:2.5rem;background:#269ef8;border:1px solid #177bc7;border-radius:.3rem;font:400 2.5rem/2.5rem consolas;color:#fff;text-align:center}
+.msf-sendBean .fr-btn span.disabled{background:#ccc;border-color:#b3b3b3}
+.msf-sendBean .fr-btn input{vertical-align:middle;width:4rem;height:2.5rem;margin:0 .2rem;line-height:2.5rem;border:1px solid #b3b3b3;border-radius:.3rem;text-align:center}
+.msf-sendBean .fr-btn .sendBean{display:inline-block;vertical-align:middle;width:4.5rem;height:2.5rem;margin:0 .5rem;line-height:2.5rem;font-size:1.2rem;text-align:center;background:#fff;border:1px solid #dfdfdf}
+.mhw-jobDetails .label-icon{display:inline-block;vertical-align:middle;width:1rem;height:1rem;line-height:1rem;border-radius:1rem;font-size:.8rem;text-align:center;font-style:normal;color:#eff2f6;background:#fd7761;border:1px solid #d8422a}
+.mhw-jobDetails .label-icon-red{background:#f86638;border-color:#d44100}
+.mhw-jobDetails .label-icon-yellow{background:#ffa811;border-color:#d48600}
+.mjd-detailsList{overflow:hidden}
+.mjd-detailsList .hd{position:relative;padding:1.25rem 9rem 1.25rem 1.5rem;background:#f9fcfe;border-top:1px solid #d3d8df;border-bottom:1px solid #d3d8df;font-size:1.4rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mjd-detailsList .hd .aLink{display:block;padding:0 1rem;color:#189cfb}
+.mjd-detailsList .hd .aLink span{font:400 1.5rem/0 consolas}
+.mjd-detailsList .hd .w-btn{position:absolute;right:2.6rem;top:.6rem;width:6rem;padding:.3rem 0;font-size:1.1rem}
+.mjd-detailsList .new-icon{display:inline-block;vertical-align:middle;margin-right:.5rem;width:1.3rem;height:1.3rem;background:#fd7761;border:1px solid #d8422a;border-radius:1.3rem;text-align:center;line-height:1.3rem;font-weight:400;font-size:.9rem;color:#eff2f6}
+.mjd-detailsList .mn{background:#fff;border-bottom:1px solid #d3d8df}
+.mjd-detailsList .mhw-btns{padding:0 1.5rem 1.5rem 1.5rem}
+.mjd-detailsList .mhw-btns .w-btn{padding:1rem 0;font-size:1.5rem}
+.mjd-detailsList .msf-stuInfo-label{height:auto;overflow:hidden}
+.mjd-detailsList .mhw-jobDetails .mjd-progressBar{border-bottom:1px dashed #d3d8df}
+.mjd-detailsList .table-box{border:.1rem solid #d3d8df;border-collapse:collapse;background-color:#fff;width:100%}
+.mjd-detailsList .table-box thead tr td{border:.1rem solid #d3d8df;height:5.1rem;text-align:center}
+.mjd-detailsList .table-box tbody tr{border-bottom:.1rem solid #d3d8df}
+.mjd-detailsList .table-box tbody tr td{width:7rem;height:4rem;text-align:center;font-size:1.1rem;white-space:nowrap}
+.mjd-detailsList .table-box tbody tr td .name{display:inline-block;width:5.5rem;padding:0 .5rem 0 1.5rem}
+.mjd-detailsList .table-box tbody tr td .name span{display:inline-block;width:4rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;vertical-align:middle;text-align:left;line-height:1.5rem}
+.mjd-detailsList .table-box tbody tr td .label-icon{margin-left:-1rem}
+.mjd-detailsList .table-box tbody tr td span{display:inline-block;width:7.5rem}
+.mjd-detailsList .table-box .time{width:6rem;line-height:1.5rem}
+.mjd-detailsList .table-box .time span{display:inline-block;width:5rem;white-space:normal}
+.mjd-detailsList .table-box .text-red{color:#f3744c}
+.mjd-detailsList .table-box .text-green{color:#3ec1a5}
+.mjd-detailsList .List-left{position:relative;z-index:9;width:40%;float:left}
+.mjd-detailsList .List-left .table-box{border-right:0;border-left:0}
+.mjd-detailsList .List-left thead tr td{border-left:0}
+.mjd-detailsList .List-right{width:60%;float:left;margin-left:-.1rem;overflow-x:auto}
+.mjd-detailsList .List-right .table-box,.mjd-detailsList .List-right thead tr td{height:2.5rem;border-left:0}
+.mjd-detailsList .List-right td{width:7.5rem}
+.mjd-progressBar{padding:1rem 1.5rem}
+.mjd-progressBar .txtYellow{color:#fdc067}
+.mjd-progressBar .txtGrey{color:#d1d1d1}
+.mjd-progressBar .txtGreen{color:#59d39d}
+.mjd-progressBar h2.title{font-size:1.1rem;font-weight:400;line-height:1.5rem}
+.mjd-progressBar .progressBox{padding:.5rem 0}
+.mjd-progressBar .progress{overflow:hidden;*zoom:1;margin:.5rem 0}
+.mjd-progressBar .progress .txt{float:left;width:20%}
+.mjd-progressBar .progress .proBox{float:left;margin:.2rem 0 0 0;width:60%;height:.7rem;background:#d1d1d1;border-radius:5px;overflow:hidden}
+.mjd-progressBar .progress .proCurrent{height:.7rem;float:left}
+.mjd-progressBar .progress .proCurrent.bg-yellow{background:#ffc15f}
+.mjd-progressBar .progress .proCurrent.bg-green{background:#53d49c}
+.mjd-tips{margin:1rem 0;padding:.6rem 1.5rem;background:#ffef94;font-size:1rem;color:#c60;line-height:1.6rem;border-bottom:1px solid #d3d8df}
+.mjd-tab{margin:1rem 1.5rem}
+.mjd-tab .tab{margin:.5rem 0;text-align:center;border:2px solid #3c9dfc;overflow:hidden;border-radius:.25rem}
+.mjd-tab .tab li{float:left;cursor:pointer;width:50%;height:2.6rem;line-height:2.6rem;color:#3c9dfc;font-size:1.3rem}
+.mjd-tab .tab li.active{background:#3c9dfc;color:#fff}
+.mjd-tab.tab-1 li{width:100%}
+.mjd-content{clear:both;margin:0 0 .5rem 0;border-bottom:.05rem solid #d2e4f4;border-top:.05rem solid #d2e4f4;background-color:#fff;overflow:hidden}
+.mjd-content .hl-head{padding:0 1.5rem;background:#f1f7fc;border-bottom:.05rem solid #d2e4f4;line-height:3rem}
+.mjd-content .hl-head p{font-size:1.5rem}
+.mjd-content .hl-head .hl-right{float:right;color:#189cfb;font-size:1.2rem}
+.mjd-content .hl-column{padding:.9rem 0;overflow:hidden}
+.mjd-content .hl-column li{float:left;position:relative;text-align:center;width:25%;color:#565c6f}
+.mjd-content .hl-column li:after{position:absolute;top:.25rem;right:0;content:"";width:.05rem;height:4.25rem;background:#d2e4f4;overflow:hidden}
+.mjd-content .hl-column li:last-child::after{background:0 0}
+.mjd-content .hl-column li div{line-height:2.25rem}
+.mjd-content .hl-column li div:nth-child(1){font-size:1.5rem}
+.mjd-content .hl-column li div:nth-child(1) .textRed{color:#f1754c;font-size:1.75rem}
+.mjd-content .hl-column li div:nth-child(2){font-size:1.2rem}
+.mjd-content .hl-tips{margin:0 1.5rem 1rem 1.5rem;padding:1rem;background:#f1f5f9;font-size:1.1rem;line-height:1.3rem}
+.mjd-content .hl-tips .txtRed{font-size:1.3rem;color:#f86638}
+.mjd-content .hl-graph{padding:0 .4rem}
+.mjd-content .hl-graph ul{overflow:hidden}
+.mjd-content .hl-graph ul li{float:left;width:5.2rem;margin:0 1.2rem 1.2rem 1.2rem}
+.mjd-content .hl-graph ul li .radial{position:relative}
+.mjd-content .hl-graph ul li .radial .text{position:absolute;left:0;top:0;width:5.2rem;padding:1.5rem 0;text-align:center;font-size:.8rem;line-height:1rem;color:#4e5656}
+.mjd-content .hl-graph ul li .radial .text span{display:block}
+.mjd-content .hl-graph ul li .radial canvas{width:5.2rem;height:5.2rem}
+.mjd-content .hl-graph ul li .radial-red .text{color:#f3754c}
+.mjd-content .hl-graph ul li p{padding:.4rem 0;text-align:center;font-size:1.2rem;color:#28a1fb}
+.mjd-content .hl-table{margin:0 1.2rem 1rem 1.2rem}
+.mjd-content .hl-table table{width:100%;border-collapse:collapse}
+.mjd-content .hl-table table td{padding:.6rem 0;border:.05rem solid #d2e4f4;text-align:center;font-size:1.1rem;line-height:1.1rem;color:#565c6f}
+.mjd-content .hl-table table td.describle{width:70%;text-align:left}
+.mjd-content .hl-table table td.describle span{display:block;padding:0 1.2rem;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.mjd-content .hl-table table thead td{background:#f4faff}
+.mjd-content .title-blue{height:4rem;line-height:4rem;padding:0 1rem;background:#359bff;font-size:1.8rem;text-align:center;color:#fff}
+.mjd-content .hl-scrollNav{width:100%;height:4rem;overflow-y:hidden;overflow-x:auto;border-bottom:.05rem solid #d2e4f4}
+.mjd-content .hl-scrollNav ul{overflow:hidden}
+.mjd-content .hl-scrollNav ul li{float:left;width:10.6rem;height:4rem;line-height:4rem;text-align:center;font-size:1.5rem}
+.mjd-content .hl-scrollNav ul li a{display:inline-block;max-width:8rem;height:3.8rem;color:#4e5656}
+.mjd-content .hl-scrollNav ul li .tips{vertical-align:middle;margin:0 .2rem;display:inline-block;width:2rem;padding:0 .1rem;height:1.5rem;background:#fa746a;border-radius:1rem;line-height:1.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;font-size:1.2rem;color:#fff}
+.mjd-content .hl-scrollNav ul li.active a{border-bottom:.2rem solid #3c9dfc;color:#3c9dfc}
+.mjd-content .hl-record{font-size:1.3rem}
+.mjd-content .hl-record table{width:100%;border-collapse:collapse}
+.mjd-content .hl-record table thead td{border-right:.05rem solid #d2e4f4}
+.mjd-content .hl-record table td{padding:1rem .75rem;border-bottom:.05rem solid #d2e4f4;font-size:1.1rem;line-height:1.1rem;text-align:left;color:#565c6f}
+.mjd-content .hl-record table td .name{display:inline-block;width:5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mjd-content .hl-record table td .type{display:inline-block;width:7rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mjd-content .hl-record table td .record-btn{cursor:pointer;display:inline-block;width:7rem;height:1.8rem;background:#359bff;border-radius:1.8rem;line-height:1.8rem;text-align:center;font-size:1rem;color:#fff}
+.mjd-content .hl-record table td .record-btn .icon{cursor:pointer;position:relative;top:.25rem;display:inline-block;width:1rem;height:1.2rem;background:url(../../../images/teacher/homework/math/record-play.png?v=11ecf82ce7) no-repeat;background-size:100% 100%}
+.mjd-content .hl-record table td .record-stop .icon{background:url(../../../images/teacher/homework/math/record-stop.png?v=f6dd803fdb) no-repeat;background-size:100% 100%}
+.mjd-content .hl-record table .check-icon{text-align:center;cursor:pointer}
+.mjd-content .hl-record table .check-icon .icon{display:inline-block;width:1.2rem;height:1.2rem;background:url(../../../images/teacher/homework/math/icon-check.png?v=a586a0fd42) no-repeat;background-size:100% 100%}
+.mjd-content .hl-record table .check-icon.checked .icon{background:url(../../../images/teacher/homework/math/icon-check-active.png?v=ae9671ba78) no-repeat;background-size:100% 100%}
+.mjd-content .hl-record .tips{position:relative;height:3.85rem;line-height:3.85rem;text-align:center;color:#7f96a3}
+.mjd-content .hl-record .tips .zan-icon{vertical-align:middle;margin:0 .5rem;display:inline-block;width:2.1rem;height:2.1rem;background:url(../../../images/teacher/homework/math/zan-icon.png?v=26ec251e5d) no-repeat;background-size:100% 100%}
+.mjd-content .hl-record .tips.tips-blue{color:#6088ef}
+.mjd-content .hl-record .tips .tips-inner{position:absolute;left:50%;top:-3.7rem;margin-left:-12rem;width:23.9rem;height:3.9rem;background:#feeb98;font-size:1.5rem;border:.05rem solid #fec868;color:#4e5656}
+.mjd-content .hl-record .tips .tips-inner .close{cursor:pointer;position:absolute;right:0;top:-.4rem;display:inline-block;padding:1rem;font-size:2rem;line-height:2rem}
+.mjd-content .hl-record .tips .tips-inner:after{position:absolute;left:50%;margin-left:-.7rem;bottom:-.65rem;display:block;content:"";width:1.4rem;height:.75rem;background:url(../../../images/teacher/homework/math/record-arrow.png?v=916351c718) no-repeat;background-size:100% 100%}
+.mjd-content .hl-textarea textarea{width:100%;height:11.5rem;padding:1.5rem;background:#fff;border:none;outline-style:none;font-size:1.2rem;color:#b7b9bf}
+.mhw-homeworkCorrect .switch-box{position:absolute;top:0;right:1.5rem;width:12rem;font-size:1.4rem;color:#189cfb}
+.mhw-homeworkCorrect .mhw-base{border-bottom:0}
+.mhw-homeworkCorrect .list-hd{font-weight:700;font-size:1.3rem;padding:1rem;background:#f9fcfe;border-top:1px solid #d3d8df}
+.mhw-homeworkCorrect .mb-mn{border-bottom:1px solid #d3d8df}
+.mhw-homeworkCorrect .mb-mn .innerCon{padding:.3rem 0;word-break:break-all;overflow:hidden}
+.mhw-homeworkCorrect .mark-icon{position:absolute;bottom:0;right:0;display:block;width:1.8rem;height:1.8rem;font-size:1.3rem;color:#fff;text-align:center;line-height:1.8rem;background:#2ad284}
+.mhw-homeworkCorrect .mark-icon-red{background-color:#f87357}
+.hcm-questionBox{overflow:hidden}
+.hcm-questionBox li{position:relative;float:left;width:21%;overflow:hidden;margin:0 3% .3rem 0;font-size:1.1rem;text-align:left}
+.hcm-questionBox li p.name{padding:.2rem 0}
+.hcm-questionBox li img{width:100%;height:5.25rem;background:#ccc}
+.hcm-videoBbox{float:left;width:100%;height:5.1rem;margin-bottom:1.8rem;background:#f0f7fd;border-radius:.4rem;overflow:hidden}
+.hcm-videoBbox .left{float:left;margin-right:1rem}
+.hcm-videoBbox .play{position:relative;cursor:pointer;width:5.1rem;height:5.1rem;background:url(../../../images/teacher/homework/math/video-play.png?v=c434477fe1) no-repeat;background-size:100% auto}
+.hcm-videoBbox .play.stop{background:url(../../../images/teacher/homework/math/video-stop.png?v=b0a37bce08) no-repeat;background-size:100% auto}
+.hcm-videoBbox .right{float:left;margin-left:5px;*display:inline;position:relative}
+.hcm-videoBbox .right .name{font-size:1.1rem;margin:.6rem 0 1rem 0}
+.hcm-videoBbox .right .btn{float:left;margin-right:1.5rem;width:5.8rem;padding:.4rem 0;border-radius:.3rem;font-size:1.1rem;color:#fff;text-align:center}
+.hcm-videoBbox .right .btn-blue{background:#189cfb;border:.1rem solid #0979ca}
+.hcm-videoBbox .right .btn-green{background:#1abc9c;border:.1rem solid #08977b}
+.hcm-videoBbox .right .btn-yellow{background:#fda72e;border:.1rem solid #fd8236}
+.hcm-videoBbox .right .btn-disabled{background:#d1d1d1;border:.1rem solid #bcbcbc}
+.mhw-affirm .affirm-info{padding:1.2rem 1.5rem;background:#fff;border-bottom:1px solid #d3d8df;font-size:1.3rem}
+.mhw-affirm .affirm-info .describe{padding-right:.5rem}
+.mhw-affirm .affirm-info .operation{display:inline-block;vertical-align:middle;cursor:pointer;width:2.7rem;height:2.7rem;background:#269ef8;border:1px solid #177bc7;border-radius:.3rem;color:#fff;text-align:center;font:400 2.8rem/2.7rem consolas}
+.mhw-affirm .affirm-info .operation.disabled{background:#ccc;border:1px solid #b2b2b2}
+.mhw-affirm .affirm-info .ipt{display:inline-block;vertical-align:middle;margin:0 .4rem;width:4.5rem;height:2.7rem;border-radius:.3rem;border:1px solid #dfdfdf;outline-style:none;font-size:1.2rem;text-align:center;line-height:2.7rem}
+.mhw-affirm .mhw-btns{background:0 0}
+.mhw-affirm .tips{padding:1rem 1.5rem;color:#aab1b9;font-size:1.2rem;line-height:1.8rem}
+.mhw-main .fixTop{position:fixed;left:0;top:0;z-index:19}
+.mhw-main .fixTop-4{position:fixed;left:0;top:4rem;z-index:19}
+.mhw-goWarm{width:100%;padding-top:30%;text-align:center}
+.mhw-goWarm .mgw-icon{display:inline-block;width:7.6rem;height:8rem;background:url(../../../images/teacher/homework/math/goWarn-icon.png?v=5a9ed09da4) no-repeat;background-size:100% auto}
+.mhw-goWarm .mgw-text{margin-bottom:4rem;line-height:1.5rem;font-size:1.3rem}
+.mgw-btn a{display:inline-block;width:14.5rem;padding:1rem 0;background:#eff2f6;border:.1rem solid #3683ff;border-radius:.2rem;font-size:1.4rem;color:#3683ff}
+.mhw-returnTop{position:fixed;z-index:10;bottom:9.5rem;right:1rem;width:3.4rem;height:3rem;background:url(../../../images/teacher/homework/math/return-top.png?v=6e7dee8a98) no-repeat;background-size:100% 100%}
+.mhw-kwdbaType{margin-bottom:.7rem;height:2.6rem;padding:1.1rem 1.5rem;background:#fff;border-bottom:.05rem solid #d3d8df;overflow:hidden;font-size:1.5rem;color:#4e5656;line-height:2.6rem}
+.mhw-kwdbaType .txtBlue{color:#3c9dfc}
+.mhw-kwdbaType .w-btn{width:6.5rem;padding:.7rem 0;font-size:1.4rem}
+.mhw-kwdbaType .fr{font-size:0}
+.mhw-kwdbaType .fr .label{display:inline-block;width:6.2rem;height:2.25rem;background:#e1f0fb;border-radius:.3rem;margin:0 0 0 1rem;font-size:1.2rem;text-align:center;line-height:2.25rem;color:#7f898d}
+.mhw-kwdbaType .fr .label.active{background:#269ef8;color:#fff}
+.mhw-selectBtns .kwdb-correct{float:right;background:#a3d9fe;padding:.5rem;border-radius:.5rem}
+.mhw-selectBtns .kwdb-correct .icon{display:inline-block;width:2.7rem;height:1.6rem;background:url(../../../images/teacher/homework/math/kwdb-correct.png?v=7835e2cd92) no-repeat;background-size:100% 100%}
+.mhw-selectBtns .kwdb-correct.active{background:#269ef8}
+.kwdb-title{overflow:hidden;background:#fff;height:2.2rem;line-height:2.2rem;border-top:.05rem solid #d3d8df;padding:.8rem 1.5rem;font-size:1.3rem}
+.kwdb-title .text{font-style:normal;line-height:2.2rem;vertical-align:middle;margin:0 .5rem}
+.kwdb-title .allCheck{cursor:pointer}
+.kwdb-title .active .w-icon{background-image:url(../../../images/teacher/homework/math/icon-check-active.png?v=ae9671ba78)}
+.noBorder-b{border-bottom:0}
+.topicPackage-tab{position:relative;height:7.1rem;background:#fff;padding:0 1rem;border-bottom:.2rem solid #d2e4f4}
+.topicPackage-tab .topicPackage-list{position:relative;z-index:3;float:left;width:100%;overflow-x:auto}
+.topicPackage-tab ul{padding:1.2rem 0}
+.topicPackage-tab ul li{cursor:pointer;position:relative;float:left;width:10.6rem;height:3rem;margin:0 1.2rem 0 0;padding:.9rem .5rem;border:.1rem solid #c7d9e8;border-radius:.5rem}
+.topicPackage-tab ul li .state{position:absolute;display:inline-block;right:-.05rem;bottom:-.05rem;width:2.4rem;height:1.5rem;background:url(../../../images/teacher/homework/math/topicPackage-label-blue.png?v=591979229b) no-repeat;background-size:100% 100%;font-size:.9rem;text-align:center;line-height:1.5rem;color:#fff}
+.topicPackage-tab ul li .state.state-grey{background-image:url(../../../images/teacher/homework/math/topicPackage-label-grey.png?v=32c564f259)}
+.topicPackage-tab ul li .name{width:10.6rem;height:3rem;overflow:hidden;display:-webkit-box;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;-webkit-box-align:center;-webkit-box-pack:center;line-height:1.5rem;font-size:1.2rem}
+.topicPackage-tab ul li .arrow{position:absolute;left:0;bottom:-1.3rem;display:none;width:11.9rem;height:.7rem;background:url(../../../images/teacher/homework/math/topicPackage-arrow.png?v=14b5969694) no-repeat;background-size:100% 100%}
+.topicPackage-tab ul li.active{border-color:#3c9dfc}
+.topicPackage-tab ul li.active .arrow{display:block}
+.topicPackage-tab ul:after{display:block;content:'';height:0;line-height:0;width:0;clear:both}
+.topicPackage-tab .allBtn{cursor:pointer;position:absolute;z-index:5;right:0;top:1.3rem;padding:.9rem 0;width:5rem;height:3rem;background:-webkit-linear-gradient(left,rgba(255,255,255,.4),#fff,#fff);background:-o-linear-gradient(left,rgba(255,255,255,.4),#fff,#fff);background:-moz-linear-gradient(left,rgba(255,255,255,.4),#fff,#fff);background:linear-gradient(left,rgba(255,255,255,.4),#fff,#fff);text-align:center;line-height:1.3rem;font-size:1rem;color:#3c9dfc}
+.mhw-slideOverflow{height:auto;max-height:25rem;overflow-y:auto}
+.topicPackage-slide ul li{margin-bottom:1rem}
+.knowledgePoint{overflow:hidden;background:#fff;padding:1.5rem 1rem;border-bottom:.05rem solid #d3d8df}
+.knowledgePoint .fl{width:21rem}
+.knowledgePoint .fl p.text{height:2.3rem;line-height:2.3rem;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.single-details{margin-top:-.1rem;background:#fff}
+.single-details .s-table table{width:100%;text-align:center;border-top:.1rem solid #d1e4f5;font-size:1.2rem}
+.single-details .s-table table thead{background-color:#f4faff}
+.single-details .s-table table tbody td:first-child{padding:0 0 0 .85rem;text-align:left}
+.single-details .s-table table td{height:2.2rem;border-bottom:.05rem solid #d1e4f5;border-right:.05rem solid #d1e4f5;padding:.9rem 0}
+.single-details .s-table table td:last-child{border-right:0}
+.single-details .s-table table .s-correct,.single-details .s-table table .s-switch{cursor:pointer;display:inline-block;vertical-align:middle;width:2.1rem;height:1.6rem;background:url(../../../images/teacher/homework/math/single-correct.png?v=2265aa9b44) no-repeat 0 0;background-size:100% 100%}
+.single-details .s-table table .active{background-image:url(../../../images/teacher/homework/math/single-correct-02.png?v=143f2d001a);background-size:100% 100%}
+.single-details .s-table table .s-switch{width:2.25rem;height:2.25rem;background:url(../../../images/teacher/homework/math/single-switch.png?v=f78eb7c17e) no-repeat 0 0;background-size:100% 100%}
+.single-details .s-table table .pause{background-image:url(../../../images/teacher/homework/math/single-switch-02.png?v=55e52a7744);background-size:100% 100%}
+.single-details .s-table table .disabled{background-image:url(../../../images/teacher/homework/math/single-switch-03.png?v=162bb74bf0);background-size:100% 100%;cursor:default}
+.single-details .s-table table:last-child{border-bottom:none}
+.single-details .s-table table .pointText{width:15rem}
+.single-details .s-table table .pointText a,.single-details .s-table table .pointText span{display:inline-block;width:14rem;padding:0 .5rem;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.4rem;word-wrap:break-word}
+.single-details .s-table table .pointText a{color:#3c9dfc}
+.single-details .s-table table .time{width:6.5rem}
+.single-details .s-table table .time span{display:inline-block;width:6.5rem;line-height:1.2rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ex-side{width:100%;overflow:hidden;margin:0 0 0 3.5%}
+.ex-side li{float:left;padding:1rem 0 0 0;width:25%}
+.ex-side li span{display:inline-block;vertical-align:middle}
+.ex-side li.active .ex-content{border:.1rem solid #5e89ef;border-radius:.75rem;background-color:#eaf0ff;-moz-box-shadow:-.3rem -.3rem .3rem #d2e1f5 inset;-webkit-box-shadow:-.3rem -.3rem .3rem #d2e1f5 inset;box-shadow:-.3rem -.3rem .3rem #d2e1f5 inset}
+.ex-side li.active .ex-titleBar{color:#608dec}
+.ex-side li .ex-content{position:relative;display:inline-block;width:5.5rem;height:5.5rem;border:.1rem solid #a3bac9;border-radius:.75rem;overflow:hidden;-moz-box-shadow:-.3rem -.3rem .3rem #e5eef5 inset;-webkit-box-shadow:-.3rem -.3rem .3rem #e5eef5 inset;box-shadow:-.3rem -.3rem .3rem #e5eef5 inset}
+.ex-side li .ex-content img{display:block;width:100%;height:100%}
+.ex-side li .ex-content .ex-tag{position:absolute;top:0;left:-.1rem;display:inline-block;vertical-align:middle;padding:0 4px;height:1.5rem;background:#5e89ef;line-height:1.5rem;color:#fff;font-size:.9rem;text-align:center;font-weight:400}
+.ex-side li .ex-titleBar{width:5.7rem;line-height:2.75rem;text-align:center;font-size:1.2rem}
+.exercise-box{position:relative;width:100%;overflow:hidden}
+.exercise-box .ex-column{background:#fff;margin-bottom:1rem;border-bottom:1px solid #d3d8df}
+.exercise-box .ex-column .ex-info{padding:1rem;font-size:1.1rem;color:#4e5656;word-wrap:break-word;line-height:1.5rem}
+.exercise-box .ex-view{color:#5e89ef;cursor:pointer}
+.ex-header{overflow:hidden;padding:1.5rem 1rem 1.5rem 1rem;background:#fff;line-height:1.5rem;border-top:1px solid #d3d8df;border-bottom:1px solid #d3d8df;font-size:1.4rem;color:#4e5656}
+.ex-header .ex-fLeft{float:left}
+.ex-header .ex-fRight{float:right}
+.ex-header.blue{background:#edf5fa}
+.ex-footer .emptyBtn{height:5rem}
+.ex-footer .ex-btn{position:fixed;left:0;bottom:0;width:100%;height:5rem;border-top:.05rem solid #d0e5f6;background-color:#f4faff}
+.ex-footer .ex-btn .btnLeft{position:relative;float:left;padding:.75rem 0 0 .5rem;width:50%}
+.ex-footer .ex-btn .btnLeft p{color:#545a70}
+.ex-footer .ex-btn .btnLeft p.tip{font-size:1.4rem}
+.ex-footer .ex-btn .btnLeft p.tip span{font-size:1.2rem}
+.ex-footer .ex-btn .btnLeft p.sub{font-size:1.1rem;color:#93969b;line-height:1.75rem}
+.ex-footer .ex-btn .btnLeft p.sub span{color:#6181f2}
+.ex-footer .ex-btn .btnLeft .ex-arrow{position:absolute;top:50%;right:.5rem;display:inline-block;width:.6rem;height:1rem;background:url(../../../images/teacher/homework/math/exercise-arrow.png?v=fed25378bd) no-repeat}
+.ex-footer .ex-btn .btnRight{float:right;margin:.75rem 1.5rem 0 0}
+.ex-footer .ex-btn .btnRight .ex-see{padding:.75rem 0;display:inline-block;width:13rem;font-size:1.5rem;color:#fff;text-align:center;background-color:#50c1a5;border-radius:1.75rem}
+.ex-footer div::after{position:absolute;top:0;right:0;content:"";height:5rem;border-right:.05rem solid #d2e4f4}
+.ex-footer div:last-child::after{border:none}
+.d-head{padding:0 0 0 1rem;font-size:1.5rem;color:#565c6f;line-height:4.75rem;border-bottom:.05rem solid #d2e4f4}
+.d-head span{font-size:1.1rem}
+.details-list{background:#fff;margin-bottom:1rem}
+.details-box .d-container .title{padding:1rem 0 0 1rem;font-size:1.1rem}
+.details-box .d-container .d-list{width:100%;overflow:hidden}
+.details-box .d-container .d-list li{margin:.75rem .7rem;position:relative;float:left;width:6rem;height:6rem;border:.05rem solid #6895e6;border-radius:.2rem;overflow:hidden;text-align:center}
+.details-box .d-container .d-list li .play{position:relative;cursor:pointer;width:100%;height:100%;background:url(../../../images/teacher/homework/math/video-play.png?v=c434477fe1) no-repeat;background-size:100% 100%}
+.details-box .d-container .d-list li .play.stop{background:url(../../../images/teacher/homework/math/video-stop.png?v=b0a37bce08) no-repeat;background-size:100% 100%}
+.details-box .d-container .d-list li .play.listening{background:url(../../../images/teacher/homework/math/listening-icon.png?v=4c7bdb5f5d) no-repeat;background-size:100% 100%}
+.details-box .d-container .d-list li .d-gradeIcon{position:absolute;bottom:0;right:0;display:inline-block;width:1.6rem;height:1.6rem;background-color:#5ac0a5;line-height:1.6rem;text-align:center;font-size:.9rem;color:#fff}
+.details-box .d-container .d-list li .iconGreen{background-color:#f1754c}
+.details-box .d-container .d-list li .name{position:absolute;left:0;top:0;z-index:2;width:100%;padding:.4rem 0;background:rgba(0,0,0,.6);font-size:1.2rem;color:#fff;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.d-container{overflow:hidden;background:#fff}
+.d-container .d-title{padding:0 4%;font-size:1.2rem;color:#7c7e84;line-height:3.25rem;border-bottom:.05rem solid #d2e4f4}
+.d-container .ex-side{margin:0}
+.d-container .ex-side li{width:92%;padding:1rem 4%;border-bottom:.05rem solid #d2e4f4}
+.d-container .ex-side li .ex-left{float:left;width:55%}
+.d-container .ex-side li .ex-right{float:right}
+.d-container .ex-side li .ex-right .remove-btn{margin:1.6rem 0;padding:.7rem 0;display:inline-block;vertical-align:middle;width:6rem;border:.1rem solid #abc1d3;color:#2180c1;font-size:1.3rem;text-align:center;background-color:#e1f0fc;border-radius:.3rem}
+.d-container .ex-side li .ex-right .ex-point{display:inline-block;vertical-align:middle;margin-top:.3rem;width:.65rem;height:1.15rem;background:url(../../../images/teacher/homework/math/singleNon-point.png?v=7007adffd5) no-repeat;background-size:100% 100%}
+.d-container .ex-side li span{font-size:1.5rem}
+.d-container .ex-side li span.des{width:7rem;line-height:5.7rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 0 0 .5rem;color:#7c7e84}
+.d-container .ex-side li span.des-cor{color:#52ac95}
+.d-container .ex-side li span.grade{line-height:5.7rem;padding:0 1rem;color:#5f86ef}
+.d-container .ex-side li span.det{line-height:5.7rem;color:#2180c1;cursor:pointer}
+.d-container .ex-side li span:last-child span{margin:0 0 0 1rem;width:.65rem;height:1.15rem;background:url(../../../images/teacher/homework/math/details-arrow.png?v=2c05e01fc5) no-repeat;background-size:100% 100%}
+.d-container .ex-side li:last-child{border-bottom:.05rem solid #d2e4f4}
+.homeworkView-box{background-color:#f1f7fc;overflow:hidden}
+.homeworkView-box .d-container{background-color:#fff}
+.homeworkView-box .d-container .d-title{border:none}
+.homeworkView-box .hv-top{margin:.9rem 0 0 0;font-size:1.5rem;color:#4d6fdb;line-height:4.45rem;text-align:center;border-top:.05rem solid #d2e4f4;border-bottom:.05rem solid #d2e4f4;background-color:#fff}
+.homeworkView-box .ex-side li{border-bottom:.05rem solid #d2e4f4}
+.homeworkView-box .ex-side li span{font-size:1.5rem}
+.d-answer{border-bottom:.05rem solid #d2e4f4}
+.d-answer .ex-side li{line-height:2.5rem}
+.d-answer .ex-side li .ex-right{cursor:pointer;color:#7c7e84}
+.d-answer .ex-side li:last-child{border-bottom:none}
+.book-new{display:inline-block;width:3rem;height:1.7rem;background:url(../../../images/teacher/homework/math/book-new.png?v=03f70a5e51) no-repeat;background-size:100% 100%}
+.pictureBook-list{margin-bottom:1rem;background:#fff;border-bottom:.05rem solid #d3d8df;border-top:.05rem solid #d3d8df}
+.pictureBook-list .pb-title{background:#fff;padding:1.1rem 1.5rem .1rem 1.5rem;font-size:1.5rem;line-height:1.5rem;color:#4e5656}
+.pictureBook-list .pb-title .describe{display:inline-block;width:70%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1.2rem;color:#a9a9a9}
+.pictureBook-list .pb-box{margin:.75rem}
+.pictureBook-list .pb-box .pic{width:100%;position:relative}
+.pictureBook-list .pb-box .pic img{display:block;width:100%;height:auto}
+.pictureBook-list .pb-box .pic .title{position:absolute;left:0;bottom:0;width:100%;height:2.75rem;padding:.25rem 0;background:rgba(0,0,0,.5)}
+.pictureBook-list .pb-box .pic .title span{width:90%;padding:0 5%;height:2.75rem;display:inline-block;display:-webkit-box;font-size:1.2rem;color:#fff;line-height:1.4rem;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;-webkit-box-pack:center}
+.pictureBook-list .pb-box .pic .label{position:absolute;left:0;top:0;background-color:#3c9dfc;padding:.3rem 0;font-size:0}
+.pictureBook-list .pb-box .pic .label span{display:inline-block;vertical-align:middle;padding:0 .5rem;height:1.1rem;line-height:1.1rem;font-size:1rem;color:#fff}
+.pictureBook-list .pb-box .pic .label span:nth-child(2){border-left:.05rem solid #fff}
+.pictureBook-list .pb-box .intro{position:relative;overflow:hidden;padding:.5rem;height:3.9rem}
+.pictureBook-list .pb-box .intro .pb-text{float:left;width:50%;line-height:1.3rem}
+.pictureBook-list .pb-box .intro .pb-text .text{width:100%;height:1.3rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.9rem;color:#4e5656}
+.pictureBook-list .pb-box .intro .pb-btn{position:absolute;right:.5rem;bottom:.7rem;width:40%;height:2.4rem;background:#3c9dfc;border:.1rem solid #0979ca;border-radius:.3rem;text-align:center;font-size:1.2rem;line-height:2.1rem;color:#fff}
+.pictureBook-list .pb-box .intro .pb-btn span{vertical-align:middle}
+.pictureBook-list .pb-box .intro .pb-btn i{display:inline-block;margin:0 .2rem;vertical-align:middle;font-size:2rem}
+.pictureBook-list .pb-box .intro .pb-btn.remove{background:#e1f0fc;border-color:#abc1d3;color:#2180c1}
+.pictureBook-list .pb-box li{float:left;margin:0 2% 1.5rem 2%;width:45%;border:.05rem solid #d3d8df}
+.pictureBook-list .pb-box li.active{border-color:#3c9dfc}
+.pictureBook-list .pb-search{position:relative;overflow:hidden;padding:1rem 1.5rem;background:#fff;font-size:1.2rem}
+.pictureBook-list .pb-search input.ipt{float:left;width:70%;padding:.6rem 1rem .6rem 2.5rem;border:.05rem solid #d3d8df;border-radius:.2rem;font-size:1.2rem;color:#333}
+.pictureBook-list .pb-search input.ipt ::-webkit-input-placeholder{color:#a9a9a9}
+.pictureBook-list .pb-search input.ipt ::-moz-placeholder{color:#a9a9a9}
+.pictureBook-list .pb-search input.ipt :-ms-input-placeholder{color:#a9a9a9}
+.pictureBook-list .pb-search input.ipt input:-moz-placeholder{color:#a9a9a9}
+.pictureBook-list .pb-search .link{float:right;padding:0 .5rem;line-height:2.5rem;color:#3c9dfc}
+.pictureBook-list .pb-search::after{position:absolute;left:2.25rem;top:1.7rem;display:block;content:"";width:1.4rem;height:1.4rem;background:url(../../../images/teacher/homework/math/search-icon.png?v=9789f1ccbf) no-repeat;background-size:100% 100%}
+.pictureBook-list .pb-searchTab{position:relative;background:#fff}
+.pictureBook-list .pb-searchTab .item{float:left;cursor:pointer;width:33%;height:4.5rem;border:.05rem solid #d3d8df;border-right:0;line-height:4.5rem;text-align:center;font-size:1.4rem}
+.pictureBook-list .pb-searchTab .item .label{display:inline-block;vertical-align:middle}
+.pictureBook-list .pb-searchTab .item .label::after{position:relative;display:inline-block;top:.3rem;left:.2rem;content:"";width:0;height:0;line-height:0;overflow:hidden;border:.5rem solid #fff;border-top-color:#667283}
+.pictureBook-list .pb-searchTab .item .book-new{position:absolute;top:0rem;right:1.7rem}
+.pictureBook-list .pb-searchTab .item.active{border-bottom:0;color:#3c9dfc}
+.pictureBook-list .pb-searchTab .item.active span::after{top:-.15rem;border-top-color:#fff;border-bottom-color:#3c9dfc}
+.pictureBook-list .pb-searchTab .item.selected{border-bottom:0;color:#3c9dfc}
+.pictureBook-list .pb-searchTab .item:first-child{border-left:0}
+.pictureBook-list .pb-searchItem{position:absolute;left:0;top:4.6rem;z-index:3;width:100%;max-height:20rem;overflow-y:auto;background:#fff}
+.pictureBook-list .pb-searchItem li{float:left;cursor:pointer;width:34%;padding:0 8%;height:4.5rem;line-height:4.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;font-size:1.4rem}
+.pictureBook-list .pb-searchItem li.active{color:#3c9dfc}
+.pictureBook-list:last-child{border-bottom:0}
+.pb-fixTop{position:fixed;top:0;left:0;z-index:12;width:100%;background:#fff}
+.pb-fixTop .pb-topBox{position:relative;z-index:16}
+.pb-mask{position:fixed;left:0;top:0;z-index:14;width:100%;height:100%;background:rgba(0,0,0,.7)}
+.empty-hbFixed{height:12.5rem;display:none}
+.pictureBook-details{background:#fff}
+.pictureBook-details .b-column{color:#555a6f}
+.pictureBook-details .b-column .b-info{padding:0 1.5rem;font-size:1.3rem;line-height:4rem}
+.pictureBook-details .b-column .d-main{padding:.75rem 1.5rem;border-bottom:.05rem solid #d1e4f5;border-top:.05rem solid #d1e4f5}
+.pictureBook-details .b-column .d-main span{position:relative;padding:.1rem .5rem;margin:.5rem 0;display:inline-block;font-size:1.2rem;border-right:.05rem solid #d1e4f5}
+.pictureBook-details .b-column .d-main span:last-child{border:none}
+.pictureBook-details .b-content{background:#eff2f6;padding:1.65rem 1rem 1.1rem 1rem;border-bottom:.05rem solid #d1e4f5}
+.pictureBook-details .b-content .b-list{overflow:hidden}
+.pictureBook-details .b-content .b-list .pic{float:left;width:13.7rem;height:13.7rem;overflow:hidden}
+.pictureBook-details .b-content .b-list .pic img{width:100%;height:auto}
+.pictureBook-details .b-content .b-list .info{position:relative;height:13.7rem;margin-left:14.7rem}
+.pictureBook-details .b-content .b-list .info .b-title{font-size:1.4rem;color:#555a6f;line-height:1.65rem;width:100%;overflow:hidden;text-overflow:ellipsis;word-wrap:break-word;display:-moz-box;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;-moz-box-orient:horizontal}
+.pictureBook-details .b-content .b-list .info .b-side{padding:1.2rem 0}
+.pictureBook-details .b-content .b-list .info .b-side p{font-size:1.2rem;color:#a9a9a9;line-height:1.75rem;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pictureBook-details .b-content .b-list .info .choice-btn{position:absolute;left:0;bottom:0;padding:.7rem 0;display:inline-block;width:98%;text-align:center;border-radius:.3rem;font-size:1.2rem;line-height:1.2rem;color:#fff;background-color:#3c9dfc;border:.1rem solid #0979ca}
+.pictureBook-details .b-content .b-list .info .choice-btn span{vertical-align:middle}
+.pictureBook-details .b-content .b-list .info .choice-btn i{vertical-align:middle;position:relative;display:inline-block;width:1.7rem;height:1.7rem;overflow:hidden;right:.2rem;font-size:2.1rem;line-height:1.6rem}
+.mtp-list .pictureBook-list .pb-box{margin:1.5rem .75rem 0 .75rem}
+.mtp-list .pictureBook-list .pb-box .intro .pb-text{width:100%}
+.pb-gradeDetails{width:100%;background:#fff}
+.pb-gradeDetails li{overflow:hidden;padding:1.5rem;border-bottom:.05rem solid #d3d8df;font-size:1.4rem;line-height:1.4rem;color:#4e5656}
+.pb-gradeDetails li .name{float:left;width:6rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pb-gradeDetails li .grade{float:right}
+.mhw-tipsEmpty{width:100%;height:100%}
+.mhw-tipsEmpty .innerEmpty{padding-top:5rem;text-align:center}
+.mhw-tipsEmpty .innerEmpty .text{padding:1.5rem 0;font-size:1.2rem;color:#bbd5ed}
+.mhw-tipsEmpty .innerEmpty .reload-link{line-height:2.5rem;font-size:1.5rem;color:#5f89ef}
+.beans-icon{display:inline-block;width:7.4rem;height:8.2rem;background:url(../../../images/teacher/homework/math/beans-icon.png?v=2ac4075456) no-repeat;background-size:100% 100%}
+.mhw-main .tip{font-size:.9rem;line-height:1.1rem;color:#999;padding:.75rem 1rem .85rem 2.2rem;background:url(../../../images/teacher/homework/math/tip.png?v=b312cf3769) .6rem center no-repeat;background-size:1.3rem 1.3rem;border-top:.05rem solid #ccc;border-bottom:.05rem solid #ccc;margin-top:.4rem}
+.jf-link{position:absolute;right:1.5rem;top:0;cursor:pointer;font-size:1.2rem;color:#189cfb}
+.jf-details{padding:2rem;font-size:1.3rem;collapse:#565c6f}
+.jf-details .text{padding:.6rem 0;line-height:1.8rem}
+.jf-details table{width:100%;border-collapse:collapse;border:.05rem solid #d2e4f4;background:#fff}
+.jf-details table td{padding:.9rem 0;border:.05rem solid #d2e4f4;text-align:center}
+.jf-details thead{background:#fafbff}
+.jf-details thead td{color:#7a7f8e}
+.synchroExercises-box{position:fixed;width:100%;height:100%;background-color:#eff2f6}
+.sjl-arrow{width:100%;text-align:center;font-size:1.4rem;color:#a9a9a9}
+.sjl-arrow .aInfo{line-height:3.5rem}
+.syn-top{padding:1.5rem 1.25rem;font-size:1.5rem;color:#4e5656;background-color:#fff;border-bottom:.05rem solid #c8c8c8}
+.syn-top .download_btn{float:right}
+.syn-title{padding:1rem 1.5rem;font-size:1.4rem;color:#4e5656;line-height:2rem}
+.syn-chart{position:relative;padding:1.25rem 0;margin:5rem 4.5rem 7.5rem 4.5rem;text-align:center;font-size:1.4rem;color:#4e5656;background-color:#fff;border:.05rem solid #d3d8df;border-radius:.4rem}
+.syn-chart p{position:relative;padding:1.6rem 0}
+.syn-chart p:after{position:absolute;bottom:-.8rem;left:50%;content:'';margin:0 0 0 -.8rem;width:1.6rem;height:1.7rem;background:url(../../../images/teacher/homework/math/arrow02.png?v=a64d6b79ed) no-repeat;background-size:100% 100%}
+.syn-chart p:last-child:after{background:0 0}
+.syn-chart:after{position:absolute;bottom:-3.65rem;left:50%;content:'';margin:0 0 0 -2.6rem;width:5.2rem;height:3.65rem;background:url(../../../images/teacher/homework/math/arrow01.png?v=5a6fe2f838) no-repeat;background-size:100% 100%}
+.sjl-btn{padding:2rem 0 0 0;text-align:center}
+.blue_btn{padding:1.25rem 1.75rem;display:inline-block;text-align:center;font-size:1.6rem;color:#fff;background-color:#359bff;border:.05rem solid #0979ca;border-radius:.2rem}
+.blue_btn.maxWidth{width:80%}
+.download_btn{font-size:1.4rem;color:#189cfb}
+.syn-content{padding:1.5rem}
+.syn-content div{font-size:1.4rem;color:#4e5656;line-height:2.5rem;overflow:hidden}
+.syn-content div .num{margin:.4rem .8rem 0 0;float:left;width:1.6rem;height:1.6rem;text-align:center;font-size:1rem;color:#fff;line-height:1.6rem;background-color:#c4c8ca;border-radius:100%}
+.syn-content div.per{padding-left:2.4rem}
+.syn-content div.cTitle{line-height:3.5rem}

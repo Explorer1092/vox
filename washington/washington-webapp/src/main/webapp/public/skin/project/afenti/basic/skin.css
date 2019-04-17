@@ -1,0 +1,20 @@
+.header{ background: url(bg.png) repeat-x; height: 430px; width: 100%;}
+.header .inner{ width: 980px; margin: 0 auto; overflow: hidden; position:relative; background:url(head.jpg); height:430px;}
+.inner a.btnOpening{ background:url(anniu.png) no-repeat 0 -1px; width:172px; height:69px; display:block; position: absolute; top: 245px; right: 85px;}
+.inner a.btnOpening:hover{ background-position:0 -82px;}
+.inner a.btnOpening:active{ background-position:0 -165px;}
+.inner a.btnTry{ background-position:-211px 0; width: 180px; right: 270px;}
+.inner a.btnTry:hover{ background-position:-211px -82px;}
+.inner a.btnTry:active{ background-position:-211px -165px;}
+.inner span{ font-size:14px; color:#ffd909; position:absolute; height:20px; width:300px; left:202px; bottom:113px; font-weight:bold; }
+.Enjoy{width:960px; height:210px; margin:0 auto; background: url(01.jpg?1.0.1);}
+.Game{width:960px; height:294px; margin:0 auto; background: url(04.jpg);}
+.Excitation{width:960px; height:416px; margin:0 auto; background: url(05.jpg);}
+.Reform{width:960px; height:354px; margin:0 auto; background: url(06.jpg);}
+.Foot{width:960px; height:174px; margin:0 auto; background: url(07.jpg); margin-bottom:70px; position: relative;}
+.Foot a.btnOpening{ background:url(anniu_foot.png) no-repeat -194px 0px; width:172px; height:76px; display:block; position: absolute; top: 5px; right: 260px;}
+.Foot a.btnOpening:hover{ background-position:-194px -78px;}
+.Foot a.btnOpening:active{ background-position:-194px -155px;}
+.Foot a.btnTry{ background-position: 0 0; right: 460px;}
+.Foot a.btnTry:hover{ background-position: 0 -78px;}
+.Foot a.btnTry:active{ background-position: 0 -155px;}

@@ -1,0 +1,22 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+description = 'User Center Webapp Dev'
+
+dependencies {
+    //注意，这里只需要依赖core即可。如果错误的依赖了webapp，会导致每次编译都把静态资源拷贝一遍，很慢。
+    compile(project(':utopia-ucenter:ucenter-core'))
+    compile("com.voxlearning.alps:alps-bootstrap:${version_alps}")
+    compile("com.voxlearning.alps:alps-embed-jetty:${version_alps}")
+}

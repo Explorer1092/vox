@@ -1,0 +1,49 @@
+/**字词讲练题包**/
+.wordBox{padding:25px 20px;background:#fff}
+.wordTitle{font-size:16px;font-weight:700;color:#575f5f}
+.packet .packetTitle{position:relative;padding:18px 0;overflow:hidden}
+.packet .packetName{float:left;position:relative;line-height:30px;padding-left:16px;font-size:12px;color:#575f5f}
+.packet .packetName:before{content:"";position:absolute;top:50%;left:0;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);width:6px;height:6px;-moz-border-radius:50%;border-radius:50%;background:#575f5f}
+.packet .select{cursor:pointer;float:right;width:100px;height:30px;line-height:30px;background:#189cfb;border:1px solid #0979ca;-moz-border-radius:2px;border-radius:2px;font-size:14px;color:#fff;text-align:center}
+.packet .select i{display:inline-block;margin-right:10px;width:14px;height:14px;background:url(../images/homework/removeBtn.png?v=2b1298bf59) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;vertical-align:middle}
+.packet .select.remove{background:#edf5fa;border:1px solid #dae6ee;-moz-border-radius:2px;border-radius:2px;color:#535b5b}
+.packet .select.remove i{background:url(../images/homework/selectBtn.png?v=cfc27b031f) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.packet .packetBox{overflow:hidden}
+.packet .singlePacket{cursor:pointer;position:relative;float:left;padding:18px 20px;width:31%;border:1px solid #dae6ee;-moz-border-radius:2px;border-radius:2px;margin-right:3.5%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.packet .singlePacket:nth-child(3){margin-right:0}
+.packet .singlePacket .recommended{position:absolute;top:0;right:0;width:40px;height:24px;background:url(../images/homework/recommended.png?v=7b6f81c67b) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.packet .singlePacket .signlePacketTitle{margin-bottom:5px;font-size:14px;color:#535b5b}
+.packet .singlePacket .signlePacketTitle i{display:inline-block;width:8px;height:8px;background:url(../images/homework/arrow2.png?v=3d6b0ed47d) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;vertical-align:middle}
+.packet .singlePacket .packetCon{font-size:12px;color:#667284}
+.packet .singlePacket .prohibitBtn,.packet .singlePacket .removeBtn,.packet .singlePacket .selectBtn{cursor:pointer;position:absolute;right:20px;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-o-transform:translateY(-50%);width:20px;height:20px}
+.packet .singlePacket .prohibitBtn{background:url(../images/homework/prohibitBtn2.png?v=111fbd66fb) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.packet .singlePacket .removeBtn{background:#fff;border:1px solid #c5cdd1;-moz-border-radius:2px;border-radius:2px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:url(../images/homework/removeBtn.png?v=2b1298bf59) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.packet .singlePacket .selectBtn{background:url(../images/homework/selectBtn.png?v=cfc27b031f) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordInfoBox .packetTitle{position:relative;padding:0 0 25px;overflow:hidden}
+.wordInfoBox .packetName{float:left;line-height:30px;font-size:16px;font-weight:700;color:#575f5f}
+.wordInfoBox .select{cursor:pointer;float:right;width:100px;height:30px;line-height:30px;background:#189cfb;border:1px solid #0979ca;-moz-border-radius:2px;border-radius:2px;font-size:14px;color:#fff;text-align:center}
+.wordInfoBox .select i{display:inline-block;margin-right:10px;width:14px;height:14px;background:url(../images/homework/removeBtn.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;vertical-align:middle}
+.wordInfoBox .select.remove{background:#edf5fa;border:1px solid #dae6ee;-moz-border-radius:2px;border-radius:2px;color:#535b5b}
+.wordInfoBox .select.remove i{background:url(../images/homework/selectBtn.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordInfoBox .wordInfoCard{overflow:hidden}
+.wordInfoBox .wordInfoCard li{position:relative;width:410px;height:100px;border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;margin-bottom:20px}
+.wordInfoBox .wordInfoCard li:nth-child(odd){float:left}
+.wordInfoBox .wordInfoCard li:nth-child(even){float:right}
+.wordInfoBox .wordInfoCard li .recommended{position:absolute;top:0;right:0;width:40px;height:24px;background:url(../images/homework/recommended.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordInfoBox .wordInfoCard li .wordPic{cursor:pointer;float:left;display:inline-block;width:134px;height:100%;-moz-border-radius:3px;border-radius:3px;overflow:hidden;margin-right:10px}
+.wordInfoBox .wordInfoCard li .wordPic img{display:inline-block;width:100%;height:100%}
+.wordInfoBox .wordInfoCard li .wordContent{display:inline-block;padding:26px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:top;max-width:265px}
+.wordInfoBox .wordInfoCard li .wordContent .wordContentTitle{font-size:14px;font-weight:700;color:#535b5b;margin-bottom:10px;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.wordInfoBox .wordInfoCard li .wordContent .wordConTime{font-size:12px;color:#999;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.wordInfoBox .wordInfoCard2{overflow:hidden}
+.wordInfoBox .wordInfoCard2 li{position:relative;width:266px;height:134px;border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;float:left;margin:0 22px 20px 0}
+.wordInfoBox .wordInfoCard2 li:nth-child(3){margin-right:0}
+.wordInfoBox .wordInfoCard2 li .recommended{position:absolute;top:0;right:0;width:40px;height:24px;background:url(../images/homework/recommended.png) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordInfoBox .wordInfoCard2 li .wordPic{cursor:pointer;float:left;display:inline-block;width:99px;height:100%;-moz-border-radius:3px;border-radius:3px;overflow:hidden;background:red;margin-right:10px}
+.wordInfoBox .wordInfoCard2 li .wordPic img{display:inline-block;width:100%;height:100%}
+.wordInfoBox .wordInfoCard2 li .wordContent{display:inline-block;padding:30px 20px 30px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:top;max-width:136px}
+.wordInfoBox .wordInfoCard2 li .wordContent .wordContentTitle{max-height:42px;font-size:14px;font-weight:700;color:#535b5b;margin-bottom:14px;overflow:hidden;text-overflow: ellipsis;-o-text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.wordInfoBox .wordInfoCard2 li .wordContent .wordConTime{font-size:12px;color:#999;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.wordInfoBox .container-dialog{max-height: 400px; overflow: hidden; overflow-y: auto;background: #fff;}
+.popupTitle{padding:0 0 15px;font-size:16px;color:#230000;font-weight:700}
+.popupTitle .speColor{cursor:pointer;color:#189cfb;font-style: normal;}

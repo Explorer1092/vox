@@ -1,0 +1,95 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+img{display:inherit}
+.bgf1{background-color:#f1f2f5}
+.sce-time{padding-left:1rem;height:1.5rem;line-height:1.5rem;font-size:.65rem;color:#9199bb;background-color:#f1f2f5}
+.sce-main{background-color:#fff}
+.sec-head{padding:0 1rem;height:2rem;line-height:2rem;background-color:#fff}
+.sec-head .title{font-size:.9rem;color:#636880}
+.sec-head .title a{color:#636880}
+.sec-head .right{float:right;font-size:.55rem;color:#9199bb}
+.sec-head .right .con{color:#FF7D5A}
+.sce-content{padding:.625rem 1rem 0 1rem;background-color:#f9f9fa}
+.sce-content .title{font-size:.75rem;color:#636880}
+.sce-content .side{padding:0 0 .25rem 0}
+.sce-content .side .points{font-size:.65rem;color:#636880}
+.sce-content .info{padding:0 0 .5rem 0;font-size:.55rem;color:#9199bb}
+.sce-content .down{height:1.8rem;line-height:1.8rem;font-size:.65rem;color:#636880}
+.line{padding-left:1rem;border:.025rem dashed #cdd3dc}
+.sce-column{padding:.75rem 0;background-color:#fff;overflow:hidden}
+.sce-column .subTitle{padding-left:1rem;font-size:.65rem;color:#636880}
+.sce-column .colList-1{margin:.5rem 1rem;overflow:hidden}
+.sce-column .colList-1 li{float:left;width:33.33%;text-align:center;font-size:.65rem;color:#636880}
+.sce-column .colList-1 li span{display:inline-block;vertical-align:middle}
+.sce-column .colList-1 li .num{font-size:.88925rem}
+.sce-column .colList-1 li .sub{padding-left:.175rem}
+.sce-column .colList-2{margin:.5rem 1rem 0 1rem;overflow:hidden}
+.sce-column .colList-2 li{float:left;width:25%;text-align:center;font-size:.65rem;color:#636880}
+.sce-column .colList-2 li span{display:inline-block;vertical-align:middle}
+.sce-column .colList-2 li .num{font-size:.88925rem}
+.sce-column .colList-2 li .con{font-size:.88925rem;color:#ff7d5a}
+.sce-foot{height:2rem;line-height:2rem;text-align:center;font-size:.65rem;color:#9199bb}
+.footIco{margin-right:.25rem;display:inline-block;vertical-align:middle;width:.6rem;height:.65rem;background:url(/public/rebuildRes/image/mobile/intoSchool/icon_title-visit.png) no-repeat;background-size:100% 100%}
+.borderDown{margin-bottom:.5rem}
+.nonInfo{padding:2rem 0;text-align: center;font-size:.75rem;color:#636880;}
+.res-top {position: relative;padding: .375rem 0 0 3.75rem;line-height: 2.25rem;background-color: #fff;}
+.return {position: absolute;left: 0;top: .5rem;padding: 0 .25rem 0 .625rem;cursor: pointer;font-size: .9rem;}
+.return .return-icon {margin-right: .25rem;display: inline-block;width: .4rem;height: .7rem;background: url(/public/rebuildRes/image/mobile/researchers/arrow_left_01.png) no-repeat;background-size: 100% 100%;}
+.res-top .return-line {position: absolute;top: 50%;margin: -.375rem 0 0 0;content: "";height: 1.25rem;border-right: 1px solid #979797;}
+.res-top .res-title {padding: 0 0 0 .625rem;}
+.res-top span {display: inline-block;vertical-align: middle;font-size: .9rem;color: #898c91;}
+.res-top .nameInfo {text-align:right;padding: .125rem .35rem 0 0;float: right;width: 3.55rem;font-size: .75rem;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.icoPersonal{float: right;margin:.5rem 1rem 0 0;display:block;width: 1.25rem;height:1.275rem;background: url(/public/rebuildRes/image/mobile/intoSchool/icon_personal.png) no-repeat;background-size: 100% 100%}

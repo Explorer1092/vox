@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.pagger {
+    width: 100%;
+    /*height: 30px;*/
+    /*line-height: 40px;*/
+    padding-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: #303133;
+}
+button{
+    font-size: inherit;
+}
+.tableBox{
+    padding-bottom: 0px;
+}
+.pagger-box{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.pagger button {
+    padding: 0 5px;
+    margin: 0 10px;
+    /*height: 18px;*/
+    float: left;
+    cursor: pointer;
+    border: 0px solid #ebebeb;
+    background-color: #ffffff;
+}
+.pagger .first-page,
+.pagger .last-page {
+    margin: 0;
+}
+.pagger .pageWrap {
+    height: 40px;
+    float: left;
+    overflow: hidden;
+}
+.pagger .pageWrap ul {
+    width: 999999999px;
+    height: 40px;
+    float: left;
+}
+.pagger .pageWrap ul li {
+    float: left;
+    margin: 0 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    pagger-sizing: border-pagger;
+    cursor: pointer;
+}
+.pagger .pageWrap ul .sel-page {
+    background-color: #535353;
+    color: #fff;
+    /*padding: 0 4px;*/
+}
+.pagger .jump-text {
+    display: none;
+    width: 30px;
+    height: 20px;
+    border:1px solid #E5E6E7;
+    text-align: center;
+    margin: 0 5px;
+    float: left;
+}
+.pagger .jump-button {
+    display: none;
+    margin: 0;
+    float: left;
+}
+.pagger .total-pages,
+.pagger .total-count {
+    margin-left: 10px;
+    float: left;
+}
+.pagger .total-count{
+    margin-left: 60px;
+}
+.pagger .total-pages{
+    display: none;
+}

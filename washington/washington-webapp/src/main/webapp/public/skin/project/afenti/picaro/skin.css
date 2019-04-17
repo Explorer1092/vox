@@ -1,0 +1,41 @@
+.m-footer{ margin: -50px 0 0;}
+.picaro-main{ background-color: #0a202b;}
+.picaro-main .inner{ width: 1000px; margin: 0 auto; overflow: hidden; height: 741px; }
+.picaro-main .bar, .picaro-main .head, .picaro-main .con, .picaro-main .intro-me, .picaro-main .back{ width: 100%;}
+.bar, .bar .inner{ background: url("picaro01.jpg") no-repeat center 0;}
+.bar .inner{position: relative;}
+.bar .inner .logo{ position: absolute; top: 3px; left: 3px; }
+.bar .inner .logo a{ display: inline-block; width: 132px; height: 55px;}
+.productView .revealCtn{ position: absolute; top: 220px; right: 19px; width:284px; color:#666; padding: 0;}
+.productView .revealCtn h1, .productView .revealCtn .intro{ font: 22px/120% "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #333; margin-bottom:14px; border: none;}
+.productView .revealCtn .info{ font:bold 14px/24px arial; display:block; color:#333; padding-bottom:14px;}
+.productView .revealCtn .info strong{ color:#f00; display:block;}
+.productView .revealCtn .price,
+.productView .revealCtn .gift,
+.productView .revealCtn .priceOriginal,
+.productView .revealCtn .period{ padding: 0 0 12px;}
+.productView .revealCtn .priceOriginal span{ font: 14px/1.125 arial; text-decoration: line-through;}
+.productView .revealCtn .priceOriginal span b{ font-size: 24px; }
+.productView .revealCtn .price span{ font:bold 14px/1.125 arial;}
+.productView .revealCtn .price span b{ font-size:30px; font-weight: normal; color: #fa7251;}
+.productView .revealCtn .gift span{font:bold 14px/1.125 arial;}
+.productView .revealCtn .btn{ margin: 0;}
+.productView .revealCtn .btn .getOrange{ background: url(picaro-btn.png) no-repeat 0 0;  width: 169px; height: 55px; display: inline-block; overflow: hidden; text-indent: -500px;}
+.productView .revealCtn .btn .getOrange:hover{ background-position: 0 -70px;}
+.productView .revealCtn .btn .getOrange:active{ background-position: 0 -139px;}
+.getOrange_gray, .getOrange_gray:hover, .getOrange_gray:active{ background-image: url(picaro-btn-gray.png) !important;}
+.productView .revealCtn .infoLine b{color:#e00; }
+.productView .revealCtn .period .wrapLevel{ display: block; padding: 0 0 0 40px;}
+.productView .revealCtn .period i{ display:inline-block; vertical-align:middle; width: 52px; text-align: center; border:solid 1px #ccc; margin:0 3px 5px 0 ; padding:8px 14px 8px 6px; cursor:pointer; font:bold 14px/1.125 arial; border-radius:8px; background-color: #fff;}
+.productView .revealCtn .period i b{ font-size:22px; font-weight: normal;}
+.productView .revealCtn .period i.hover{ border:solid 3px #3580dd; background-color: #cde2ff; padding:6px 12px 6px 4px;  color: #3580dd;}
+.productView .revealCtn .period i.sel{ border:solid 3px #fa7251; background-color: #fff; padding:6px 12px 6px 4px; vertical-align:middle; color: #fa7251;}
+.productView .revealCtn .period i.gray{ cursor: default;  background-color: #ccc;}
+.productView .revealCtn .period span em{ font: 14px/25px arial; font-style: normal;}
+.head, .head .inner{ background: url("picaro02.jpg") no-repeat center 0;}
+.con, .con .inner{ background: url("picaro03.jpg") no-repeat center 0;}
+.intro-me, .intro-me .inner{ background: url("picaro04.jpg") no-repeat center 0;}
+.back, .back .inner{ background: url("picaro05.jpg") no-repeat center 0;}
+.back .inner{ position: relative;}
+.back .inner .back-top{ position: absolute; bottom: 96px; left: 60%; margin-left: -220px; width: 220px; height: 52px;}
+.back .inner .back-top a{ display: inline-block;  width: 220px; height: 52px;}

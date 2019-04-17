@@ -1,0 +1,20 @@
+.Preferential-recharge-main{ background:#fedb39 url(../image/prefer-bg.png) repeat-x 0 0;}
+.Preferential-recharge-main .head-box, .Preferential-recharge-main .head-box .inner{ background: url("../image/Prefer-01-v1.jpg") no-repeat center 0; width: 100%; height: 410px;}
+.Preferential-recharge-main .content-box, .Preferential-recharge-main .content-box .inner{ background: url("../image/Prefer-02-v1.jpg") no-repeat center 0; width: 100%; height: 650px;}
+.Preferential-recharge-main .content-box .inner, .Preferential-recharge-main .head-box .inner{ position: relative;}
+.Preferential-recharge-main .head-box .inner .logo{ width: 152px; height: 71px; display: block;}
+.Preferential-recharge-main .head-box .inner .back-index{ width: 72px; height: 35px; display: block; right: 20px; top: 15px; position: absolute;}
+.Preferential-recharge-main .now-recharge-btn{ padding: 20px 35px; color: #fff; background-color: #ff7256; border-radius: 10px; display: inline-block; right: 70px; position: absolute; font-size: 23px; top: 120px;}
+.Preferential-recharge-main .now-recharge-btn:hover{ background-color: #ff8870;}
+.Preferential-recharge-main .content-box .inner .num{ position: absolute; color: #ff7256; font-size: 28px; width: 128px; display: block; right: 0; top: 76px; height: 27px; line-height: 27px;}
+.Preferential-recharge-main .colum-box, .Preferential-recharge-main .colum-box .inner{ background: url("../image/Prefer-03.jpg") no-repeat center 0; width: 100%; height: 617px;}
+.Preferential-recharge-main .colum-box .inner{ height: 710px; background-position: center bottom;}
+.Preferential-recharge-main .colum-box .inner ul{ padding:28px 0 0 35px; }
+.Preferential-recharge-main .colum-box .inner ul li{ color: #bc6b02; font-size: 16px; padding: 7px 0;}
+.Preferential-recharge-main .foot-box{ background: url(../image/prefer-foot.png) repeat-x 0 0; width: 100%; height: 38px;}
+.Preferential-recharge-main .inner{ width: 1000px!important; margin: 0 auto; overflow: hidden; *zoom: 1;}
+.special-footer{ border-top: 0;}
+.special-footer, .special-footer .m-inner{ background-color: #ff7256;}
+.special-footer .link{ display: none;}
+.special-footer .copyright, .special-footer .m-foot-link a, .special-footer .m-foot-link a:hover, .special-footer .m-foot-link .m-code .c-title{ color: #fff;}
+.special-footer .m-service .c-title{ color: #fff;}

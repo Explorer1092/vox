@@ -1,0 +1,43 @@
+.paperWorkBox .paperWorkCard{padding:25px 21px 21px 26px;background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.paperWorkBox .paperWork{margin-top:30px}
+.paperWorkBox .paperWork:first-child{margin-top:0}
+.paperWorkBox .paperWork .choiceSub{display:inline-block;width:148px;height:50px;font-size:14px;line-height:50px;text-align:center;color:#fff;background-color:#489bf4;-moz-border-radius:2px;border-radius:2px;border:solid 2px #3579c4;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:bottom;cursor:pointer}
+.paperBox{font-size:18px;color:#333}
+.outInput{margin-top:14px}
+.paperInput,.paperInput2{height:50px;line-height:50px;-moz-border-radius:2px;border-radius:2px;border:solid 2px #e6eef4;font-size:14px;text-indent:20px;color:#595757;outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.paperInput{width:-moz-calc(100% - 158px);width:calc(100% - 158px)}
+.paperInput2{width:100%}
+.paperWorkBox input::-webkit-input-placeholder{color:#d8d8d8}
+.paperCard{margin-top:10px;overflow:hidden}
+.paperCard .arran{font-size:12px;color:#333}
+.paperCard .lookSup{display:inline-block;margin-left:12px;color:#489bf4;font-size:14px;border-bottom:2px solid #489bf4;cursor:pointer}
+.explainBox{margin-top:40px;padding:36px 40px;background:#f8fafb;-moz-border-radius:10px;border-radius:10px}
+.explainBox .explainTitle2{font-size:18px;color:#595757}
+.explainBox .step{margin:30px 0 54px}
+.explainBox .step .stepSign{display:inline-block}
+.explainBox .step .stepSign .stepPic1, .explainBox .step .stepSign .stepPic2,.explainBox .step .stepSign .stepPic3{display:inline-block;width:80px;height:80px}
+.explainBox .step .stepSign .stepPic1{background:url(../images/homework/step1.png?v=cebe04c2ce) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.explainBox .step .stepSign .stepPic2{background:url(../images/homework/step2.png?v=297320e202) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.explainBox .step .stepSign .stepPic3{background:url(../images/homework/step3.png?v=55da1664ac) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.explainBox .step .stepSign p{font-size:16px;margin-top:10px;color:#595757}
+.explainBox .step .arrow{display:inline-block;width:73px;height:32px;background:url(../images/homework/arrow.png?v=b71957a365) no-repeat right;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;margin:40px 6px 0;vertical-align:top}
+.explainBox .paperTitle{display:inline-block;font-size:16px;color:#2384ff}
+.explainBox .paperTitle i{display:inline-block;margin-right:3px;width:15px;height:15px;vertical-align:top;background:url(../images/homework/wenhao.png?v=08a2f4c843) no-repeat right;-moz-background-size:100%;-o-background-size:100%;background-size:100%}
+.addBtn{width:148px;height:50px;background-color:#489bf4;-moz-border-radius:2px;border-radius:2px;border:solid 2px #3579c4;margin:41px auto 0;line-height:50px;font-size:14px;text-align:center;color:#fff;cursor:pointer}
+.exerciseBox{position:absolute;width:654px;height:647px;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);background:#fff}
+.tips{font-size:12px;color:#333}
+.subPic{width:100%;height:1500px;background:url(../images/homework/sub2-new.png?v=586a41e4ec) no-repeat center;-moz-background-size:100% auto;-o-background-size:100% auto;background-size:100% auto}
+.unitInfo{margin-top:-20px;max-width:575px;max-height:440px;padding:0 39px;background:#fff;overflow-y:auto}
+.exerCard{float:left;width:100px;margin:0 14px 40px 0}
+.exerCard:nth-child(5n){margin-right:0}
+.exerCard .exerPic{width:100px;height:147px;-moz-border-radius:10px;border-radius:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer;overflow:hidden}
+.exerCard>.active{border:solid 2px #489bf4}
+.exerCard .exerPic img{display:inline-block;width:100%;height:100%;background:red}
+.exerCard .exerInfo{margin-top:8px;min-height:40px;font-size:14px;color:#595757;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.paperInfoBox{padding:25px 15px 21px 26px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.paperInfoBox .paperTop{margin-bottom:30px}
+.paperInfoBox .paperTop .exerBook .exerTitle,.paperInfoBox .paperTop .exerBook2 .exerTitle{font-size:18px;margin-bottom:13px;color:#333}
+.paperInfoBox .paperTop .exerBook .exerCon,.paperInfoBox .paperTop .exerBook2 .exerCon{font-size:18px;color:#333;word-break: break-word;}
+.paperInfoBox .paperTop .exerBook{display:inline-block;margin-right:12px;width:-moz-calc(100% - 180px);width:calc(100% - 180px);overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.paperInfoBox .paperTop .edit{float:right;width:148px;height:50px;line-height:50px;text-align:center;font-size:14px;color:#fff;background-color:#489bf4;-moz-border-radius:2px;border-radius:2px;border:solid 2px #3579c4;cursor:pointer}
+.paperInfo{padding:0 21px 0 26px;font-size:14px;color:#d8d8d8}

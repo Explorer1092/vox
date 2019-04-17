@@ -1,0 +1,100 @@
+/*.choose-teacherUsed-box*/
+/*.choose-teacherUsed-box{ color: #383a4b; margin: 0 25px 0 0; }*/
+.choose-teacherUsed-box{ color: #383a4b; padding-bottom: 20px; }
+.choose-teacherUsed-box .ra_list{ position: relative; overflow: hidden; *zoom: 1; }
+.choose-teacherUsed-box .ra_list .title{ font-size: 14px; color: #4e5656; line-height: 24px;}
+.choose-teacherUsed-box .icon_arrow_before, .choose-teacherUsed-box .icon_arrow_back{width: 32px; height: 32px; position: absolute; color: #fff; top: 90px; text-align: center; line-height: 32px; font-size: 18px; font-family: arial, sans-serif; cursor: pointer; background-position: 0 0; background-color: #189cfb; border-radius: 3px;}
+.choose-teacherUsed-box .icon_arrow_back{ background-position: 0 -47px; right: 20px; }
+.choose-teacherUsed-box .icon_arrow_before{ left: 20px;}
+.choose-teacherUsed-box .icon_disable{background-color: #e1e1e1; cursor: default;}
+.choose-teacherUsed-box .dialog{width: 169px; left: 405px; position: absolute; background-color: #ddedfa; padding: 6px 15px; top: 40px;}
+.choose-teacherUsed-box .dialog span.arrow, .choose-teacherHelp-alert .choose-teacherList-con dl dd span.arrow-in{ font: 16px/100% arial, sans-serif;  left: -9px; top: 25px; position: absolute; color: #ddedfa;}
+.choose-teacherUsed-box .dialog span.arrow-in{ position: absolute; left: 1px; top: 0;}
+.js-chooseAutoList{border-bottom: 1px solid #dae6ee;}
+.js-chooseAutoList li.click-select-mentor-teacher{width: 82px !important; padding: 0 10px; position: relative;}
+.js-chooseAutoList li .selected-box{position: relative;  top: -116px; display: none;}
+.js-chooseAutoList li.active .selected-box{display: block;}
+.js-chooseAutoList li .amb-icon{ background: url(../images/amb-icon.png) no-repeat; width: 20px; height: 20px; display: block; position: absolute; top: 60px; right: 20px; z-index: 2;}
+.js-chooseAutoList .selected-box .back{background-color: #000; filter:alpha(opacity=50);  -moz-opacity:0.5;  -khtml-opacity: 0.5;  opacity: 0.5; width: 80px; height: 80px; border-radius: 40px; }
+.js-chooseAutoList .selected-box .selected{background: url("../images/mentor/selected.png") no-repeat 0 0; width: 80px;  height: 80px;  display: block;  position: relative;  top: -80px;}
+.js-chooseAutoList .flex-control-nav{ display: none;}
+.js-chooseAutoList .flex-direction-nav a{ background-image: url(../images/mentor/arr.png); width: 50px;}
+.js-chooseAutoList .flex-direction-nav .flex-prev{ left:20px;}
+.js-chooseAutoList .flex-direction-nav .flex-next{ right:20px;}
+/* .choose-teacherList-con*/
+.choose-teacherList-con{ text-align: center; padding: 30px 0;  margin: 0 auto;  overflow: hidden; position: relative;}
+.choose-teacherList-con .flex-viewport{    width: 510px;height: 120px; margin: auto;}
+/*.choose-teacherList-con{ text-align: center; padding: 20px 0;  margin: 0 auto; width: 500px; overflow: hidden; height: 100px; position: relative;}*/
+/*.choose-teacherList-con .actor{ width: 100px; text-align: center; float: left; overflow: hidden; cursor: pointer;}*/
+.choose-teacherList-con .actor{ width: 100px; text-align: center; overflow: hidden; cursor: pointer;}
+.choose-teacherList-con .actor i{ width: 80px; height: 80px;}
+.choose-teacherList-con .actor i img{ width: 80px; height: 80px; border-radius: 50%; overflow: hidden; display: inline-block; vertical-align: middle; border:1px solid #cdd4d9;}
+.choose-teacherList-con .actor strong{ display:block; margin-top: 30px; font-size: 16px; font-weight: normal; overflow: hidden; width: 100%; white-space: nowrap; text-overflow: ellipsis;}
+/*.choose-teacherList-con dl{}*/
+/*.choose-teacherList-con dl dt{ width: 110px; float: left;}*/
+.choose-teacherList-con dl dd{ margin-left: 80px;  text-align: left;}
+.choose-teacherList-con dl dd p{ padding: 5px 0;}
+.choose-teacherHelp-alert{}
+.choose-teacherHelp-alert .choose-teacherList-con{ width: auto;}
+.choose-teacherHelp-alert .choose-teacherList-con .actor {width: 80px;}
+.choose-teacherHelp-alert .choose-teacherList-con .actor i img{ width: 80px; height: 80px;}
+.choose-teacherHelp-alert .choose-teacherList-con .actor strong{ padding-top: 10px;}
+/*.choose-teacherHelp-alert .choose-teacherList-con dl dd{ margin-left: 110px; position: relative; background-color: #fff6d3; border: 1px solid #fce194; padding:0 15px; margin-bottom: 15px;}*/
+.choose-teacherHelp-alert .choose-teacherList-con dl dd{ width: 168px; top: -124px; left: 206px; position: relative; background-color: #fff6d3; border: 1px solid #fce194; padding:0 15px;}
+.choose-teacherHelp-alert .choose-teacherList-con dl dd p{padding: 2px 0;}
+.choose-teacherHelp-alert .choose-teacherList-con dl dd p.num{ padding-left: 20px;}
+.choose-teacherHelp-alert .choose-teacherList-con dl dd span.arrow, .choose-teacherHelp-alert .choose-teacherList-con dl dd span.arrow-in{ font: 16px/100% arial, sans-serif;  left: -9px; top: 25px; position: absolute; color: #fce194;}
+.choose-teacherHelp-alert .choose-teacherList-con dl dd span.arrow-in{ position: absolute; color: #fff6d3; left: 1px; top: 0;}
+/*helped-teacher-box*/
+.helped-teacher-box{padding: 15px 0 15px 8px; background-color: #fff; overflow: hidden; *zoom: 1; }
+.helped-teacher-box ul li{ background-color: #fff; border: 1px solid #dae6ee; width: 230px; height: 198px; float: left; margin: 0 7px; _display: inline;}
+.helped-teacher-box ul li .ht-info{ padding: 12px 0 12px 15px; position: relative;}
+.helped-teacher-box ul li .ht-info span.im{ position: absolute; top: 15px; left: 15px; width: 40px; height: 40px; overflow: hidden; border-radius: 100%;}
+.helped-teacher-box ul li .ht-info span.im img{ width: 40px; height: 40px;}
+.helped-teacher-box ul li .ht-info p{ font-size: 14px; padding:0 0 2px 50px; _padding-left: 70px;}
+.helped-teacher-box ul li .ht-btn{ padding: 15px 0 15px 15px; text-align: center;}
+.helped-teacher-box ul li .ht-btn a{ margin-right: 12px; width: auto; padding:4px 10px;}
+.helped-teacher-box ul li .add-new-icon{ background: url(../images/mentor/progress-add.png?1.0.1) no-repeat center 0; height: 80px; margin: 30px 0 15px 0;}
+.helped-teacher-box ul li .add-new-font{ font-size: 14px; line-height: 20px; text-align: center; color: #848d8d;}
+/*.helpedStep-teacher-progress*/
+.helpedStep-teacher-progress{}
+.helpedStep-teacher-progress .stepflex{overflow: hidden; *zoom: 1; background-color: #edf5fa; padding: 20px 0 27px 30px;}
+.helpedStep-teacher-progress .sf-icon{ background: url(../images/mentor/progress-step.png) no-repeat -81px 0; width: 22px; height: 22px; display: inline-block;vertical-align: middle;}
+.helpedStep-teacher-progress .stepflex dl{ border-top: 2px solid #667284; width: 42px; float: left; position: relative;}
+.helpedStep-teacher-progress .stepflexSmall .s-text{ display: none;}
+.helpedStep-teacher-progress .stepflex dl.done .sf-icon{ background-position: 0 0; }
+.helpedStep-teacher-progress .stepflex dl.error .sf-icon{background-position: -43px 0; }
+.helpedStep-teacher-progress .stepflex dl.error .s-text{display: block;}
+.helpedStep-teacher-progress .stepflex dl dt{ position: relative; top: -12px;left: -10px; }
+.helpedStep-teacher-progress .stepflex dl dd{ font-size: 12px;color: #cfcfcf; text-align: center; position: absolute; left: -36px; width: 75px;}
+.helpedStep-teacher-progress .stepflex dl.error dd{ color: #fa7252;}
+.helpedStep-teacher-progress .stepflex dl.done dd{ color: #667284;}
+.helpedStep-teacher-progress .stepflex dl.last{border-top-color: #f8f8f8; width: 22px;}
+/*helpTa-step-alert*/
+.helpTa-step-alert{ margin: -15px 0 0;}
+.helpTa-step-alert .hs-info{ font-size: 14px;}
+.helpTa-step-alert .hs-info span.h-img{ width: 40px; height: 40px; display: inline-block; vertical-align: middle; border-radius: 100%; overflow: hidden;}
+.helpTa-step-alert .hs-info span.h-img img{ width: 40px; height: 40px;}
+.helpTa-step-alert .hs-info span{ margin-left:10px;}
+.helpTa-step-alert .hs-schedule{margin: 10px 0; position: relative;}
+.helpTa-step-alert .hs-schedule .title{ color: #383a4c; font-size: 14px; position: absolute; top: 15px; left: 20px;}
+.helpTa-step-alert .helpedStep-teacher-progress .stepflex{ padding-left: 120px;}
+.helpTa-step-alert .helpedStep-teacher-progress .stepflex dl{width: 82px;}
+.helpTa-step-alert .helpedStep-teacher-progress .stepflex dl.last{width: 7px;}
+.helpTa-step-alert .hs-do{ padding-left: 14px; font-size: 12px; overflow: hidden; height: 100%;}
+.helpTa-step-alert .hs-do ul{}
+.helpTa-step-alert .hs-do ul li{ float: left; width: auto; padding: 0 5px; _display: inline; text-align: center; position: relative;}
+.helpTa-step-alert .hs-do ul li .tips{ position: absolute; left: 0; top: 100px;  width: 248px;}
+.helpTa-step-alert .hs-do ul li .tips span{ color: #888e96; font-size: 12px; padding: 5px ;}
+.helpTa-step-alert .hs-do ul li p{padding: 6px 0;}
+.helpTa-step-alert .hs-do ul li p span.info{ padding:2px 4px; border: 1px dashed #d9d9d9; color: #888e96; display: inline-block;}
+.helpTa-step-alert .hs-do ul li p a{ width: 75px;}
+/*help*/
+.right-consult-default{position: fixed; bottom: 40px; right: 20px; _position: absolute; width: 80px; height: 200px;}
+.right-consult-default .zx-teacher{background: url("../images/mentor/right-consult.png") no-repeat 0 0;width: 80px; height: 118px; display: inline-block; _position: absolute; _top: expression(documentElement.scrollTop); _left: expression(documentElement.scrollLeft); left: 0; top:0;}
+.right-consult-default .zx-teacher:hover{background-position: -80px 0;}
+.yesMentor-box{ border: 1px solid #d3d8df; background-color: #fff; border-radius: 5px; text-align: center;}
+.yesMentor-box dt {padding: 10px 0 0;}
+.yesMentor-box dt img{ width: 65px; height: 65px; border-radius: 100px; overflow: hidden;}
+.yesMentor-box dd{ color: #4e5656; text-align: center; padding: 6px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.yesMentor-box a{ margin-bottom: 4px; width: 70px;}

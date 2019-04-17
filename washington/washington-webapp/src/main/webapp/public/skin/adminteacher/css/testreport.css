@@ -1,0 +1,136 @@
+/*
+* 注：样式文件中 images/download-logo.png、images/download-logo02.png 后被移至 public/resource 目录下，该目录已由运维配置成可跨域
+* 替换静态文件时需要注意这几个文件的路径（更换成 ../../../resource/adminteacher/images/***.png）
+*/
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body,html{width:100%;height:100%;background-color:#ebe9e4}
+*{margin:0;padding:0}
+.outercontainer{min-width:1100px}
+.container{width:1100px;margin:20px auto 0;background:#fafafa}
+.mainBox{width:1100px;min-height:100%}
+.mainInner{width:1100px;height:auto}
+.mainInner .topTitle{padding:15px 0;line-height:12px;font-size:12px;color:#999;display:none}
+.mainInner .topTitle a{color:#999;cursor:pointer}
+.operateBox{padding:20px 30px;background:#fff;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);-moz-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 4px 0 rgba(0,0,0,.1);-moz-border-radius:2px;border-radius:2px;overflow:hidden}
+.operateBox .unloadBtn{position:relative;float:right;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-left:50px;width:140px;height:40px;background:#1b92ff;-moz-border-radius:2px;border-radius:2px;line-height:40px;font-size:16px;color:#fff;cursor:pointer}
+.operateBox .unloadBtn:before{position:absolute;content:"";left:26px;top:50%;margin-top:-8px;width:16px;height:16px;background:url(../images/download-icon00.png?v=a4410cb555) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;background:0 0\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/download-icon00.png?v=a4410cb555', sizingMethod='scale')}
+.downloadBox{padding:10px 30px 100px}
+.downloadBox .loadSection{position:relative;padding:50px 100px 120px;margin-bottom:10px;min-height:580px;background:#fff;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);-moz-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 4px 0 rgba(0,0,0,.1);filter:progid:DXImageTransform.Microsoft.Shadow(color='#eeeeee', Direction=125, Strength=8);-moz-border-radius:2px;border-radius:2px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.downloadBox .loadSection.l-section03{padding-bottom:74px}
+.downloadBox .loadSection.l-section04{padding-bottom:160px}
+.downloadBox .loadSection.l-section05{padding-bottom:230px}
+.downloadBox .loadSection.l-section06{padding-bottom:185px}
+.downloadBox .loadSection .fileLogo{position:absolute;z-index:10;right:31px;bottom:21px;width:128px;height:42px;background-image:url(../../../resource/adminteacher/images/download-logo.png?v=142a213bce);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;background:0 0\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../../../resource/adminteacher/images/download-logo.png?v=142a213bce', sizingMethod='scale')}
+.downloadBox .loadSection .pageNum{position:absolute;z-index:10;right:35px;bottom:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.downloadBox .loadSection .pageNum .pageLogo{display:inline-block;vertical-align:middle;margin-right:5px;width:38px;height:42px;background-image:url(../../../resource/adminteacher/images/download-logo02.png?v=ac99538296);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;background:0 0\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../../../resource/adminteacher/images/download-logo02.png?v=ac99538296', sizingMethod='scale')}
+.downloadBox .loadSection .pageNum .num{display:inline-block;vertical-align:middle;font-size:20px;color:#58595e;font-weight:700}
+.downloadBox .loadSection .smallTitle{font-size:18px;color:#555;line-height:18px;font-weight:600}
+.downloadBox .loadSection .endLogo{display:block;position:absolute;top:50%;left:50%;-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%);-ms-transform:translate(0,-50%);-o-transform:translate(0,-50%);transform:translate(0,-50%);margin-left:-128px;width:256px;height:84px;background-image:url(../../../resource/adminteacher/images/download-logo.png?v=142a213bce);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.fileBox{width:840px;position:absolute;top:50%;-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%);-ms-transform:translate(0,-50%);-o-transform:translate(0,-50%);transform:translate(0,-50%);margin:0 auto;text-align:center}
+.fileBox .fileName{font-size:48px;color:#555;line-height:48px;font-weight:600;width:650px;margin:0 auto;line-height:1.2em}
+.fileBox .fileText{margin-top:20px;font-size:28px;color:#58595e;line-height:28px}
+.l-section01 .l-section01-img1{width:240px;height:100%;position:absolute;left:0;top:0}
+.l-section01 .l-section01-img2{width:240px;height:100%;position:absolute;right:0;top:0}
+.l-section02 .l-section02-img1{width:546px;height:190px;position:absolute;left:0;top:0}
+.l-section02 .l-section02-img2{width:550px;height:73px;position:absolute;right:0;bottom:0}
+.l-section02 .catalogTitle{position:absolute;top:50px;left:100px;color:#fff}
+.l-section02 .catalogTitle .chinese{line-height:50px;font-size:36px;font-weight:600}
+.l-section02 .catalogTitle .english{margin-top:10px;line-height:33px;font-size:24px}
+.l-section02 .catalogList{position:absolute;left:100px;top:200px;color:#1b92ff}
+.l-section02 .catalogList li{margin-bottom:17px;font-size:0}
+.l-section02 .catalogList li>span{display:inline-block;vertical-align:middle;font-size:24px}
+.l-section02 .catalogList li .dot{width:10px;height:10px;border:2px solid #1b92ff;-moz-border-radius:50%;border-radius:50%}
+.l-section02 .catalogList li .line{margin-right:20px;width:100px;border:.5px dashed #1b92ff}
+.l-section02 .catalogList li .line.line02{width:150px}
+.l-section02 .catalogList li .line.line03{width:200px}
+.l-section02 .catalogList li .line.line04{width:250px}
+.l-section02 .catalogList li .line.line05{width:300px}
+.l-section02 .catalogList li .line.line06{width:350px}
+.prefaceTitle{margin-bottom:40px;line-height:40px;font-size:28px;color:#555;font-weight:600}
+.prefaceText{font-size:16px;color:#58595e;text-align:justify;line-height:28px}
+.prefaceText>p{text-indent:30px}
+.surveyBox{margin-top:40px}
+.surveyBox li{margin-bottom:20px}
+.surveyBox li:last-child{margin-bottom:0}
+.surveyBox li>span{font-size:18px;line-height:24px}
+.surveyBox li>span.s-title{color:#58595e}
+.blueTxt{font-weight:600;color:#1b92ff}
+.redTxt{font-weight:600;color:#eb642c}
+table{width:100%;-moz-border-radius:18px;border-radius:18px;border-collapse:collapse}
+table th{height:50px;line-height:50px;background:#fafafa;border:1px solid #e5e5e5;border-top:none;border-bottom:none;-moz-border-radius:2px;border-radius:2px;vertical-align:middle;text-align:center;font-size:16px;color:#555;font-weight:600}
+table tr:first-child td{border-top:none}
+table td{height:30px;line-height:30px;border:1px solid #e5e5e5;vertical-align:middle;text-align:center;font-size:14px;color:#58595e}
+table td.active{background:#a6e4ff}
+.canvasBox{position:relative;margin-bottom:10px;height:270px}
+.canvasBox.canvasBox02{height:320px}
+.canvasBox.canvasBox03{height:220px}
+.noData{width:100%;position:absolute;top:50%;left:0;-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%);-ms-transform:translate(0,-50%);-o-transform:translate(0,-50%);transform:translate(0,-50%);text-align:center;font-size:16px;color:#e5e5e5}
+.tipsBox{position:absolute;bottom:50px;width:80%;color:#58595e}
+.tipsBox .tipsText{font-size:18px;line-height:24px}
+.tipsBox .noteText{font-size:14px;line-height:22px}
+.tipsBox .smallText{font-size:12px;line-height:18px}
+.margin-t{margin-top:20px}
+.margin-b{margin-bottom:20px}
+.tableBox{position:relative}
+.tableBox .leftTable{float:left;width:365px;background:#fff;-webkit-box-shadow:0 2px 4px 2px rgba(0,0,0,.1);-moz-box-shadow:0 2px 4px 2px rgba(0,0,0,.1);box-shadow:0 2px 4px 2px rgba(0,0,0,.1);-moz-border-radius:2px;border-radius:2px}
+.tableBox .leftTable th{height:40px;line-height:40px;border:none}
+.tableBox .leftTable tbody tr{border-bottom:1px solid #e5e5e5;text-align:center}
+.tableBox .leftTable tbody tr:last-child{border-bottom:none}
+.tableBox .leftTable td{height:40px;line-height:40px;border:none;font-size:16px}
+.tableBox .leftTable .emptyTr{height:80px;line-height:80px;border:none}
+.tableBox .rightTable{float:right;width:365px}
+.subjectTable th,.subjectTable tr{height:34px;line-height:34px}
+.subjectTable tr{font-size:14px}
+.subjectTable .firstTr th{border-bottom:1px solid #e5e5e5}
+.subjectTable .firstTr .b-bottom{border-bottom:none}
+.knowledgeTable th{font-size:14px}
+.totop-btn{width:50px;height:50px;background:url(../images/totop-icon.png?v=098aefeaea) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;position:fixed;right:10px;bottom:212px;cursor:pointer;z-index:100}
+.change-browser-box{width:460px;background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px 10px 0;margin:0 auto -10px}
+.change-browser-box .sorry-tip{font-size:18px;color:#58595e;text-align:center;line-height:28px;margin-bottom:40px}
+.change-browser-box .browser-box{text-align:center;margin-bottom:50px}
+.change-browser-box .browser-box a{width:80px;display:inline-block;margin-right:6px;cursor:pointer;padding:10px}
+.change-browser-box .browser-box a:last-child{margin-right:0}
+.change-browser-box .browser-box a .browser-icon{display:block;width:36px;height:36px;margin:0 auto 10px}
+.change-browser-box .browser-box a .liebao-icon{background:url(../images/browser-liebao.png?v=7e4cc6b454);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.change-browser-box .browser-box a .chrome-icon{background:url(../images/browser-chrome.png?v=c582cdb5a1);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.change-browser-box .browser-box a .firefox-icon{background:url(../images/browser-firefox.png?v=742bd928be);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.change-browser-box .browser-box a .qihu-icon{background:url(../images/browser-360.png?v=cca333d481);-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.change-browser-box .browser-box a p{font-size:14px;color:#58595e;line-height:22px}
+.change-browser-box .other-tip{font-size:11px;color:#999;letter-spacing:0;text-align:justify;line-height:18px}
+.change-browser-box .other-tip i{display:inline-block;width:16px;height:16px;background:url(../images/browser-360-icon.png?v=f175a43506) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;vertical-align:middle}
+.convert-report-box{width:320px;height:160px;background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:18px 0 5px;margin:0 auto}
+.convert-report-box .loading-icon{display:block;width:48px;height:48px;background:url(../images/loading.gif?v=49cf1be209) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;margin:0 auto 20px}
+.convert-report-box p{font-size:14px;color:#999;line-height:24px;text-align:center}

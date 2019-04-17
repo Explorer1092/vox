@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+img{display:inherit}
+.selfScholarship-box img{width:100%}
+.ssp-content{height:10rem;background:url(../images/scholarship/bg_02.jpg?v=dabade93da) no-repeat;background-size:100% 100%}
+.ssp-content .info{padding:7.25rem 0 0 0;float:left;width:50%;text-align:center;font-size:.6rem;color:#fff}
+.ssp-content .info .num{font-size:.8rem;color:#ffed23}
+.ssp-content .info .sub{padding-left:.75rem;font-size:.65rem}
+.ssp-footer{clear: both;height:3rem;background:url(../images/scholarship/bg_05.jpg?v=cfd0311de6) no-repeat;background-size:100% 100%}
+.ssp-footer .inner{position:fixed;left:0;right:0;bottom:0;display:-webkit-box;display:-moz-box;width:100%;height:3rem}
+.ssp-footer .inner.bg{background-color:rgba(85,45,159,.6)}
+.ssp-footer .inner.toast{bottom:3.5rem;height:2rem;background:rgba(0,0,0,.75);line-height:2rem;font-size:.8rem;color:#fff;left:2rem;right:2rem;width:auto;-webkit-border-radius:1rem;-moz-border-radius:1rem;border-radius:1rem;}
+.ssp-slider{background:url(../images/scholarship/bg_07.jpg?v=5cd955ee3d) no-repeat;background-size:100% 100%}
+.ssp-slider ul{padding:.75rem}
+.ssp-slider ul li{margin:0 0 .625rem 0;font-size:.7rem;color:#ffed23;overflow:hidden}
+.ssp-slider ul li .title{padding:.375rem 0 .5rem 0;float:left;width:3.75rem;text-align:right}
+.ssp-slider ul li .title.titleBar{padding-top:.125rem;width:11.625rem;text-align:left}
+.ssp-slider ul li .sel{margin-left:.625rem;padding:.375rem .5rem;width:8.5rem;font-size:.65rem;color:#aa70e0;background-color:#822bc4;border:.025rem solid #cea6f2;border-radius:.1rem;outline:0}
+.ssp-slider ul li .sel option{color:#9d32f4;background-color:#fff}
+.ssp-slider ul li .txt{color:#fff}
+.ssp-slider ul li .txt::-webkit-input-placeholder{color:#aa63e9}
+.ssp-slider ul li .txt:-moz-placeholder{color:#aa63e9}
+.ssp-slider ul li .txt::-moz-placeholder{color:#aa63e9}
+.ssp-slider ul li .txt:-ms-input-placeholder{color:#aa63e9}
+.ssp-slider ul li.active .sel{color:#fff}
+.ssp-slider ul li textarea{padding:.375rem .5rem;display:block;width:100%;height:6.95rem;font-size:.65rem;color:#fff;line-height:.95rem;background-color:#822bc4;border:.025rem solid #cea6f2;border-radius:.1rem;resize:none;outline:0}
+.ssp-slider ul li textarea::-webkit-input-placeholder{color:#aa63e9}
+.ssp-slider ul li textarea:-moz-placeholder{color:#aa63e9}
+.ssp-slider ul li textarea::-moz-placeholder{color:#aa63e9}
+.ssp-slider ul li textarea:-ms-input-placeholder{color:#aa63e9}
+.ssp-slider .upload_btn{margin:0;padding:0 .875rem;float:right;display:inline-block;height:1.15rem;line-height:1.15rem}
+.ssp-slider .image{clear:both;width:3.75rem;overflow:hidden}
+.default_btn{margin:.7rem 1rem;padding:0 1.875rem;-webkit-box-flex:1;display:block;height:1.625rem;line-height:1.55rem;text-align:center;font-size:.7rem;color:#fff;background-color:#f99e1b;border-radius:2.5rem}
+.default_btn:active{background-color:#df6e00}
+.default_btn.red_btn{background-color:#ee3c62}
+.default_btn.red_btn:active{background-color:#bc0a30}
+.error, .readonly, .disabled{background:darkgrey !important;}
+.error:hover, .readonly:hover, .disabled:hover{background:darkgrey !important;}
+select.disabled, input.disabled, .js-upload.disabled{pointer-events: none !important;;}
+.noneEvents, .noEvents{pointer-events: none !important;}

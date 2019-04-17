@@ -1,0 +1,55 @@
+html, body { background: #fefcf6; color:#666;}
+/*main*/
+.header { width: 960px; margin: 0 auto; height: 100px; }
+.header .logo { background: url(../images/logo.png?1.0.0) no-repeat 0 0; width: 130px; height: 50px; margin: 25px 0 0; float: left; }
+.header .navs, .header .navs ul { background: url(../images/topnavs.png) no-repeat ;}
+.header .navs { background-position: 0 0; margin: 35px 0 0; float: right; }
+.header .navs ul { background-position: right 0; margin: 0 0 0 15px; padding: 0 15px 0 0; height: 27px; float: left; }
+.header .navs ul li { float: left; padding: 0 20px; }
+.header .navs ul li.down{ position:relative;}
+.header .navs ul li.down:hover .plug_in_menu { display: block;}
+.header .navs ul li a { color: #999; text-decoration: none; display: inline-block; line-height: 24px; }
+.header .navs ul li a:hover { color: #c00; }
+.header .navs .plug_in_menu{ width:94px; position:absolute; left:0px; top:28px; display: none; z-index:111; background:#fff; border:solid 1px #ccc; border-radius:3px; padding:5px 0; box-shadow:1px 2px 2px rgb(204,204,204);}
+.header .navs .plug_in_menu .assing_jian{ background:url(../images/arrow.png) no-repeat center top; font:1px/1.125 arial; height:6px; position:absolute; width:100%; top:-6px; }
+.header .navs .plug_in_menu a{ display:block; text-align:center;}
+.header .navs .plug_in_menu a:hover{ background:#c52000; color:#fff;}
+/*main*/
+.main { clear: both; margin: 0 auto; width: 960px; }
+.main .mainnavs { padding:0 5px; clear:both; position:relative; z-index:1; height:39px;}
+.main .mainnavs li{ position:relative; width:128px; float:left; height:39px;}
+.main .mainnavs li a{ background:url(../images/mainnavs.png) no-repeat;  _background: url(../images/png8/mainnavs.png) no-repeat ; display:block; width:120px; height:39px;  padding:0 0 0 30px; font: bold 14px/39px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#fff; position:absolute; outline:none;  }
+.main .mainnavs li.sel { z-index:99;}
+.main .mainnavs li.sel a{ height:40px;}
+.main .article{ float:left; width:720px;}
+.main .article .arttop ,.main .article .artctn,.main .article .artbot{ background:url(../images/articlebg.png) no-repeat; }
+.main .article .arttop { background-position: 0 0; height:12px;}
+.main .article .artctn { background-position:-721px 0; background-repeat:repeat-y; padding:0 10px;}
+.main .article .artbot { background-position: -1442px bottom; height:12px;}
+.main .canvas,.main .canvas .cvtop,.main .canvas .cvbot{ background:url(../images/rightback.png) no-repeat; }
+.main .canvas{ float:right; width:240px; background-position:-240px 0; background-repeat:repeat-y;}
+.main .canvas .cvtop{ background-position: 0 0; height:30px;}
+.main .canvas .cvbot{ background-position: -480px bottom; height:50px;clear:both;}
+.main .canvas .time{ color:#bf9e76; text-align:center; font-weight:bold; padding:30px 0;}
+.main .canvas .information { width:210px; margin:0 auto; display:block;}
+.main .canvas .information dt{ float:left; background:url(../images/avatarback.png) no-repeat; width:102px; height:97px; display:block;}
+.main .canvas .information dt img{ width:84px; height:84px; margin:2px 0 0 9px; display:block;}
+.main .canvas .information dd{ float:right; width:100px;}
+.main .canvas .information dd p{ padding:8px 0; line-height:18px;}
+.main .canvas .information dd p b{ color:#bf9e76;}
+.main .canvas .information dd p .parentid { display:inline-block;}
+.main .canvas .information dd.btn{ clear:both; float:none; width:auto; padding:10px;}
+/**/
+.adlist{ width:190px; margin:0 auto; padding:20px 0; clear:both;}
+.adlist li{ height: 250px;}
+.adlist .tab .prve{ background:url(../images/swback.png) no-repeat -32px 2px;}
+.adlist .tab .even{ background-position: 1px 2px;}
+.adlist .pic img{ width:190px; height:250px;}
+/*footer*/
+.footer { width: 960px; margin: 0 auto; color: #eb7254; clear:both; padding: 20px 0;}
+.footer a { color: #eb7254; }
+.footer p { clear: both; padding: 2px 0; }
+.footer ul { padding: 0 0 30px; }
+.footer li { float: left; padding: 0 10px 0 0; }
+.footer .tel { float: right; }
+.footer .tel b { font: bold 16px/1.125 arial; display: inline-block; vertical-align: middle; }

@@ -1,0 +1,83 @@
+/*
+*命名规范：例（.main_...）
+*/
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, input, dl, dt, dd{padding: 0; margin: 0;}
+html, body{ width: 100%; }
+body{ height: 100%;}
+html, body, input{font: 12px/140% "微软雅黑", regular; color: #464646; }
+ul, li{ list-style: none; }
+a, input{ outline: none;}
+a{ text-decoration: none; color: #6691fe; }
+.w-clear {clear: both; font: 0px/0 ""; height: 1px; overflow: hidden; width: 100%;}
+/*.school-am-main*/
+.school-am-main{ background: #f3f3f3 url(am-bg.png) no-repeat 0 0;}
+.school-am-main .am-inner{ width: 980px; margin: 0 auto;}
+.am-head, .am-head .am-inner{ background: url(am-hander.jpg?1.0.11) no-repeat center 0; width: 100%; height: 523px;}
+.am-content .am-inner{}
+.am-contentBg-box{ width: 960px; margin: 0 auto; background-color: #fff;}
+.partake-font-box{ margin: 0 60px; background: url(am-introduce.png) no-repeat left top; padding:0 0 20px 115px;}
+.partake-font-box ul{ padding-top: 10px;}
+.partake-font-box ul li{ font-size: 14px; color: #000; padding: 8px 0;}
+/*partake-progress-box*/
+.am-icon{ background: url(am-icon.png) no-repeat 5000px 5000px; display: inline-block; vertical-align: middle;}
+.am-icon-greenRight{ width: 16px; height: 12px; background-position: -274px -28px;}
+.am-icon-gray{ width: 32px; height: 32px; background-position: -340px -159px;}
+.am-icon-right{ width: 75px; height: 67px; background-position: -229px -277px;}
+.am-icon-wrong{ width: 75px; height: 67px; background-position: -323px -277px;}
+.am-icon-tips{ width: 128px; height: 48px; background-position: -84px -301px;}
+.am-icon-radio{ width: 15px; height: 15px; background-position: -8px -310px;}
+.am-icon-greenRadio{background-position: -28px -310px;}
+.am-icon-radioCurrent{background-position: -48px -310px;}
+.am-icon-close{ width: 56px; height: 56px; background-position: -1px 0;}
+.am-icon-close:hover{ background-position: -68px 0;}
+.am-icon-close:active{ background-position: -144px 0;}
+.am-icon-btn{ width: 125px; height: 58px; background-position: -5px -68px; color: #fff; font-size: 22px; text-align: center; line-height: 58px;}
+.am-icon-btn:hover{ background-position: -135px -68px;}
+.am-icon-btn:active{ background-position: -265px -68px;}
+.w-info-small { background-color: #fff; border: 1px solid #ccc; border-radius: 4px; color: #333; display: inline-block; font-size: 14px; font-weight: 400; line-height: 18px; margin-top: -6px; padding: 5px 10px; position: relative;}
+.w-info-small .small-arrow {color: #666;font: 14px/100% "微软雅黑","Microsoft YaHei",arial;left: -8px;position: absolute;top: 2px;}
+.w-info-small .small-arrow-bot {left: 20px; top: 15px;}
+/*stepflex*/
+.partake-progress-box{ padding:130px 0 0 85px; overflow: hidden;}
+.stepflex{}
+.stepflex dl{ border-top: 5px solid #e6e6e6; width: 175px; float: left;}
+.stepflex dl.last{ border-top-color: #fff;}
+.stepflex dl.done .am-icon-gray{  width: 62px; height: 76px; background-position: -254px -142px; }
+.stepflex dl.start { }
+.stepflex dl.start .am-icon-gray{width: 72px; height: 72px; background-position: -4px -137px; cursor: pointer;}
+.stepflex dl.start .am-icon-gray-hover{ background-position: -84px -137px;}
+.stepflex dl.start .am-icon-gray-active{ background-position: -164px -137px;}
+.stepflex dl dt{ position: relative; top: -18px; }
+.stepflex dl dd{ font-size: 14px; position: relative; top: -105px; left: -25px;}
+.stepflex dl.done dt{top: -32px;}
+.stepflex dl.done dd{top: -32px;}
+.stepflex dl.start dt{ top: -32px;}
+.stepflex dl.start dd{ top: -148px; left: -12px;}
+.stepflex dl dd .tips{ background: url(am-tips.png) no-repeat 0 -41px; width: 80px; height: 40px; display: block; text-align: center; font-size: 14px; color: #666; line-height: 28px;}
+.stepflex dl.start dd .tips{ background-position: 0 0; width: 100px; color: #000; font-size: 16px;}
+.stepflex dl.done dd .tips{ background-position: 0 -89px; width: 100px; color: #000; font-size: 13px;}
+.stepflex dl.done dd .tips .font{ display: inline-block; vertical-align: middle;}
+/*school-am-alert*/
+.school-am-alert{ width: 600px; margin: 10px 0;}
+.school-am-alert .am-inner-alert{ background-color:#fff; position: relative;}
+.school-am-alert .alert-title{ font-size: 24px; color: #010101; position: relative; padding: 20px 0; border-bottom: 1px solid #ccc; padding-left: 28px; margin-bottom: 2px;}
+.school-am-alert .alert-title .am-icon-close{ position: absolute; right: 2px; top: 0;  _right: 5px; _top: 9px;}
+.school-am-alert .alert-con{ font-size: 14px; color: #333; padding: 0 30px; border-top: 1px solid #ccc;}
+.school-am-alert .alert-con .a-title{ font-size: 16px;  color: #010101; overflow: hidden; *zoom: 1; line-height: 60px;}
+.school-am-alert .alert-con .a-title span{ font-size: 18px; color: #010101;}
+.school-am-alert .alert-con .a-title span.am-num{ width: 405px; float: left; font-size: 16px; line-height: 26px; padding-top: 12px;}
+.school-am-alert .alert-con .a-title span.am-icon-tips{ float: right; text-align: center;  line-height: 48px;}
+.school-am-alert .alert-con .a-con-box{ padding: 0 30px; line-height: 30px;}
+.school-am-alert .alert-con .a-con-box .answer-box .ab{ width: 127px; font-size: 14px; display: inline-block; cursor: pointer;}
+.school-am-alert .alert-con .a-con-box .answer-block-box .ab{ width: auto; display: block;}
+.school-am-alert .alert-con .a-con-box .answer-box .ab em{ font-style: normal;}
+.school-am-alert .alert-con .a-con-box .alert-int{ border: 1px solid #ccc; padding: 10px; margin: 45px 0; width: 96%;}
+.school-am-alert .alert-con .a-con-box .swap{ background-color: #ccc; width: 120px; height: 120px; margin: 10px auto; display: block;}
+.school-am-alert .alert-con .a-con-box .success{ font-size: 18px; text-align: center; padding: 50px 0 20px 0; color: #000;}
+.school-am-alert .alert-con .a-con-lastBox{ padding-top: 20px;}
+.school-am-alert .alert-con .a-con-lastBox p{ font-size: 14px; padding: 5px 0;}
+.school-am-alert .am-btn{ padding: 20px 0; text-align: center;}
+.school-am-alert .am-bottom{ background: url(arrow-repeat.png) repeat-x 0 0; height: 6px; width: 100%;}
+.school-am-alert .am-inner-alert .judge-box{ position: absolute; bottom: 0; right: 0;}
+
+

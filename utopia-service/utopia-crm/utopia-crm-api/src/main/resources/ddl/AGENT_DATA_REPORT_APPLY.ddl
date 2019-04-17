@@ -1,0 +1,35 @@
+CREATE TABLE `AGENT_DATA_REPORT_APPLY` (
+`ID`  bigint NOT NULL AUTO_INCREMENT ,
+`SUBJECT`  tinyint NOT NULL COMMENT '学科 1: 小学英语  2：小学数学' ,
+`REPORT_LEVEL`  tinyint NOT NULL COMMENT '报告级别   1:市级 2:区级 3:校级' ,
+`CITY_CODE`  int NULL ,
+`CITY_NAME`  varchar(20) NULL ,
+`COUNTY_CODE`  int NULL ,
+`COUNTY_NAME`  varchar(20) NULL ,
+`SCHOOL_ID`  bigint NULL ,
+`SCHOOL_NAME`  varchar(30) NULL ,
+`ENG_START_GRADE`  tinyint NULL COMMENT '英语起始年级' ,
+`REPORT_TYPE`  tinyint NOT NULL COMMENT '报告类型 1：学期报告   2：月度报告' ,
+`REPORT_TERM`  tinyint NULL COMMENT '学期  1:上学期  2：下学期' ,
+`REPORT_MONTH`  int NULL COMMENT '月份 201706' ,
+`SAMPLE_SCHOOL_ID`  bigint NULL COMMENT '样本校ID' ,
+`SAMPLE_SCHOOL_NAME`  varchar(30) NULL ,
+`COMMENT`  varchar(150) NULL ,
+`FIRST_DOCUMENT`  varchar(100) NULL ,
+`SECOND_DOCUMENT`  varchar(100) NULL ,
+`APPLY_TYPE`  varchar(30) NOT NULL COMMENT '申请类型：大数据报告申请' ,
+`USER_PLATFORM`  varchar(20) NOT NULL ,
+`ACCOUNT`  varchar(20) NOT NULL ,
+`ACCOUNT_NAME`  varchar(50) NOT NULL ,
+`STATUS`  varchar(20) NOT NULL ,
+`WORKFLOW_ID`  bigint NULL COMMENT '对应的工作流ID' ,
+`CREATE_DATETIME`  datetime NOT NULL ,
+`UPDATE_DATETIME`  datetime NOT NULL ,
+PRIMARY KEY (`ID`),
+INDEX `WID_INDEX` (`WORKFLOW_ID`) ,
+INDEX `USER_INDEX` (`USER_PLATFORM`, `ACCOUNT`) ,
+INDEX `CREATE_TIME` (`CREATE_DATETIME`)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8
+;

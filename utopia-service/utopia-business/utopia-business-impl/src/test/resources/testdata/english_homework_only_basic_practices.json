@@ -1,0 +1,55 @@
+{
+    "disabled": false,
+    "classId": null,
+    "startTime": "2013-02-05",
+    "endTime": "2013-02-08 23:00:00",
+    "normFinishTime": "3",
+    "homework": [
+        {
+            "disabled": false,
+            "bookId": 878,
+            "bookName": "湘少版-小学英语 - 三年级（上）",
+            "unitId": 879,
+            "unitName": "1. 你好！",
+            "ptime": 2,
+            "lessons": [
+                {
+                    "disabled": false,
+                    "childs": [
+                        {
+                            "childs": [
+                                {
+                                    "childs": [ ],
+                                    "key": "time",
+                                    "value": 1
+                                }
+                            ],
+                            "key": "13",
+                            "value": "单词大灌篮"
+                        },
+                        {
+                            "childs": [
+                                {
+                                    "childs": [ ],
+                                    "key": "time",
+                                    "value": 1
+                                }
+                            ],
+                            "key": "14",
+                            "value": "打地鼠"
+                        }
+                    ],
+                    "key": "8790001",
+                    "value": "词汇练习"
+                }
+            ]
+        }
+    ],
+    "homeWorkJson": null,
+    "homeWorkId": null,
+    "clazzIds": "10001",
+    "homeworkTime": null,
+    "paper": [],
+    "paperJson": null,
+    "isMobile": "0"
+}

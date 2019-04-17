@@ -1,0 +1,506 @@
+/*
+* @Description: Your Project Name
+* @author: zhaoy
+* @date: 2015-10-08 18:46:26
+*/
+
+/* touch-reset */
+html,body { color: #000; font: 15px/1.3 Arial,"Microsoft YaHei"; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li { margin: 0; padding: 0; }
+body { overflow: auto; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+ul,li { list-style: none; }
+* { -webkit-tap-highlight-color: transparent; background-clip: padding-box; }
+.clearfix:after,.clearfix:before { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+select,input[type=text],input[type=submit],input[type=password],input[type=date],input[type=tel],input[type=number] { -webkit-appearance: none; -moz-appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0; }
+
+/* global */
+body { background-color: #f0eff5; }
+a { color: #000; text-decoration: none; }
+.mobileCRM-V2-mt { margin-top: 1rem; }
+.mobileCRM-V2-box { padding: 1rem 0; background-color: #fff; }
+a.mobileCRM-V2-box { display: block; }
+.mobileCRM-V2-info { padding: 0 0 1rem 1rem; }
+
+/* tab necessary style */
+.mobileCRM-V2-footer .inner,.mobileCRM-V2-tab,.mobileCRM-V2-info .list,.mobileCRM-V2-rankInfo .infoBox,.mobileCRM-V2-searchTop { display: box; display: -moz-box; display: -webkit-box; box-orient: horizontal; -moz-box-orient: horizontal; -webkit-box-orient: horizontal; }
+.mobileCRM-V2-footer .inner > div,.mobileCRM-V2-tab > div,.mobileCRM-V2-info .list > div,.mobileCRM-V2-rankInfo .infoBox > div,.mobileCRM-V2-rankInfo .infoBox > a,.mobileCRM-V2-searchTop > a { box-flex: 1; -moz-box-flex: 1; -webkit-box-flex: 1; cursor: pointer; }
+
+/* mobileCRM-V2-header */
+.mobileCRM-V2-header,.mobileCRM-V2-header a { color: #fff; }
+.mobileCRM-V2-header,.mobileCRM-V2-header .inner,.mobileCRM-V2-header .inner .box { height: 3rem; }
+.mobileCRM-V2-header .inner .box { position: relative; padding: 0 1rem; line-height: 3rem; background-color: #2a2a2a; overflow: hidden; }
+.mobileCRM-V2-header .inner { position: fixed; top: 0; left: 0; width: 100%; z-index: 5; }
+.mobileCRM-V2-header .headerBack,.mobileCRM-V2-header .headerBtn,.mobileCRM-V2-header .headerMore,.mobileCRM-V2-header .headerSave { position: absolute; top: 0; font-size: 1rem; z-index: 2; }
+.mobileCRM-V2-header .headerBack { left: 1rem; }
+.mobileCRM-V2-header .headerBtn,.mobileCRM-V2-header .headerMore { right: 1rem; }
+.mobileCRM-V2-header .headerMore { padding: 0 0 0 1rem; height: 3rem; font: 2rem/2rem "Microsoft YaHei"; vertical-align: top; }
+.mobileCRM-V2-header .headerText { text-align: center; font-size: 1.2rem; }
+
+.mobileCRM-V2-header .headerPage,.mobileCRM-V2-header .headMessage { color: #919191; font-size: 1.2rem; line-height: 2rem; overflow: hidden; }
+.mobileCRM-V2-header .headerPage { text-align: center; }
+.mobileCRM-V2-header .headerPage .fl,.mobileCRM-V2-header .headMessage .fl { float: left; }
+.mobileCRM-V2-header .headerPage .fr,.mobileCRM-V2-header .headMessage .fr { float: right; }
+.mobileCRM-V2-header .headerPage .fl,.mobileCRM-V2-header .headerPage .fr { font-size: 0.8rem; }
+.mobileCRM-V2-header .headMessage .fr { font-size: 1rem; }
+.mobileCRM-V2-header .headerSearch { position: relative; margin: 0.5rem 0 0; border-radius: 0.4rem; height: 2rem; overflow: hidden; background-color: #fff; }
+.mobileCRM-V2-header .headerSearch select,.mobileCRM-V2-header .headerSearch input[type=text] { outline: none; height: 2rem; color: #666; font-size: 0.9rem; font-family: "Microsoft YaHei"; }
+.mobileCRM-V2-header .headerSearch .select,.mobileCRM-V2-header .headerSearch select { float: left; }
+.mobileCRM-V2-header .headerSearch .select { position: relative; }
+.mobileCRM-V2-header .headerSearch .select:after { position: absolute; top: 50%; right: -8px; content: ""; margin: -3px 0 0; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 6px #666 solid; }
+.mobileCRM-V2-header .headerSearch select { padding: 0 0 0 0.5rem; border: 0 none; }
+.mobileCRM-V2-header .headerSearch input[type=text] { display: block; padding: 0 0.5rem; width: 94%; border: 0 none; }
+.mobileCRM-V2-header .headerSearch .delete { position: absolute; top: 0; right: 0; width: 2rem; height: 2rem; background: url(../images/mobileCRM-V2-header-delete.png) no-repeat 50% 50%; background-size: 50% 50%; }
+.mobileCRM-V2-header .margin-l { margin-left: 3.5rem; }
+.mobileCRM-V2-header .margin-r { margin-right: 3.5rem; }
+
+.mobileCRM-V2-header .headerSelect { text-align: center; }
+.mobileCRM-V2-header .headerSelect span,.mobileCRM-V2-header .headerSelect select { color: #fff;  }
+.mobileCRM-V2-header .headerSelect span { position: relative; display: inline-block; font-size: 1.2rem; line-height: 3rem; }
+.mobileCRM-V2-header .headerSelect span:after { position: absolute; top: 50%; right: -18px; content: ""; margin: -4px 0 0; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 8px #fff solid; }
+.mobileCRM-V2-header .headerSelect span.active:after { border-top: 0 none; border-bottom: 10px #fff solid; }
+.mobileCRM-V2-header .headerSelect select { position: absolute; top: 0; left: 0; width: 100%; height: 3rem; opacity: 0; background: none; border: 0 none; outline: none; z-index: 1; }
+.mobileCRM-V2-header .headerSelect option { color: #333; font: 1rem/2rem "Microsoft YaHei"; }
+
+.mobileCRM-V2-header .headerSave { right: 1rem; color: #999; }
+.mobileCRM-V2-header .headerSave.blue { color: #117ca8; cursor: pointer; }
+
+/* mobileCRM-V2-list */
+.mobileCRM-V2-list { background-color: #fff; }
+.mobileCRM-V2-list li,.mobileCRM-V2-list .box,.mobileCRM-V2-list .link { position: relative; }
+.mobileCRM-V2-list .box,.mobileCRM-V2-list .link { overflow: hidden; }
+.mobileCRM-V2-list li { padding: 0.5rem 1rem; border-bottom: 1px #f0eff5 solid; line-height: 2rem; }
+.mobileCRM-V2-list li:last-child { border: 0 none; }
+.mobileCRM-V2-list li:after,.mobileCRM-V2-list li:before { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+.mobileCRM-V2-list a.box { display: block; }
+.mobileCRM-V2-list .side-box { width: 60%; height: 2rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #8a8a8a; font-size: 0.9rem; }
+.mobileCRM-V2-list .side-box span { color: #000; font-size: 1rem; }
+.mobileCRM-V2-list .side-fl,.mobileCRM-V2-list .state-box { float: left; }
+.mobileCRM-V2-list .side-fr { float: right; white-space: nowrap; }
+.mobileCRM-V2-list .side-name { color: #8a8a8a; font-size: 0.9rem; }
+.mobileCRM-V2-list .side-history { padding: 0 0 0 2rem; background: url(../images/mobileCRM-V2-list-icon1.png) no-repeat 0 50%; background-size: auto 70%; }
+.mobileCRM-V2-list .side-mode { max-width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.mobileCRM-V2-list .side-info,.mobileCRM-V2-list .side-num { color: #a2a2a2; }
+.mobileCRM-V2-list .side-num { font-size: 0.8rem; }
+.mobileCRM-V2-list .side-num .num { display: inline-block; padding: 0 0.4rem; min-width: 2.5rem; text-align: right; font-size: 1.4rem; color: #ff8260; vertical-align: top; }
+.mobileCRM-V2-list .side-tel { padding: 0 1.4rem 0 0; color: #a2a2a2; background: url(../images/mobileCRM-V2-list-icon2.png) no-repeat 100% 50%; background-size: auto 70%; }
+.mobileCRM-V2-list .side-table { width: 30%; }
+.mobileCRM-V2-list .side-td { text-align: center; color: #a2a2a2; font-size: 1.4rem; }
+.mobileCRM-V2-list .side-red { color: #f00; }
+.mobileCRM-V2-list .side-new { margin: 0 0.2rem; width: 2rem; height: 2rem; background: url(../images/mobileCRM-V2-list-icon6.png) no-repeat 50% 50%; background-size: auto 28%; }
+.mobileCRM-V2-list .side-green { color: #5bd267; }
+.mobileCRM-V2-list .side-orange { color: #ff8562; }
+.mobileCRM-V2-list .link-ico .side-fr,.mobileCRM-V2-list .link-ico .textDate,.mobileCRM-V2-list .link .side-width { padding: 0 1.0rem 0 0; }
+.mobileCRM-V2-list .link-ico .textDate { width: 7.6rem; }
+.mobileCRM-V2-list .side-green { color: #379e61; }
+.mobileCRM-V2-list .side-orange { color: #ff8260; }
+.mobileCRM-V2-list .side-gray { color: #666; }
+.mobileCRM-V2-list .side-time,.mobileCRM-V2-list .side-total { color: #999; }
+.mobileCRM-V2-list .side-small { color: #999; font-size: 0.8rem; }
+.mobileCRM-V2-list .side-width { width: 17%; text-align: right; }
+.mobileCRM-V2-list .side-sWidth { width: 13%; text-align: right; padding: 0 1.0rem 0 0; }
+.mobileCRM-V2-list .side-bWidth { width: 21%; text-align: right; }
+.mobileCRM-V2-list .side-other { position: relative; padding: 0 1rem 0 0; }
+.mobileCRM-V2-list .side-other:after { position: absolute; top: 50%; right: 0; margin: -0.8rem 0.2rem 0 0; content: ""; width: 0.625rem; height: 0.625rem; background: -webkit-gradient(linear, 0 0, 0 100%, from(#dd7f2a), to(#b43c16)); border: 1px #b95030 solid; border-radius: 100%; }
+.mobileCRM-V2-list .state-box { padding: 0 0 0 0.5rem; }
+.mobileCRM-V2-list .state-box > div { float: left; margin: 0 0 0 0.5rem; width: 3.5rem; text-align: center; font-size: 0.8rem; line-height: 1.9rem; }
+.mobileCRM-V2-list .state-box > .green { border: 1px #05873a solid; color: #05873a; }
+.mobileCRM-V2-list .state-box > .blue { border: 1px #189cfb solid; color: #189cfb; }
+.mobileCRM-V2-list p { padding: 0.5rem 0; color: #a0a0a0; font-size: 0.8rem; line-height: 0.8rem; }
+.mobileCRM-V2-list p span { padding: 0 0.2rem; font-size: 1.4rem; color: #ff8260; }
+.mobileCRM-V2-list .link { display: block; }
+.mobileCRM-V2-list .link-ico { position: relative; }
+.mobileCRM-V2-list .link-ico:after { position: absolute; top: 50%; right: 0; content: ">"; margin: -1rem 0 0; color: #a2a2a2; z-index: 2; }
+.mobileCRM-V2-list .linkNo-ico:after { position: absolute; top: 50%; right: 0;  margin: -1rem 0 0; color: #a2a2a2; z-index: 2; }
+.mobileCRM-V2-list .box.link-ico:after { display: none; }
+.mobileCRM-V2-list .textDate { position: absolute; top: 0; right: 0; z-index: 1; width: 9rem; }
+.mobileCRM-V2-list select,.mobileCRM-V2-list .photoClick { position: absolute; border: 0 none;  }
+.mobileCRM-V2-list select { left: 0; top: 0.5rem; width: 100%; height: 2rem; opacity: 0; }
+.mobileCRM-V2-list select option { white-space: normal; }
+.mobileCRM-V2-list .photoClick { left: -100rem; top: 3px; height: 6.267rem; }
+.mobileCRM-V2-list .branch-school { color: white; background-color: #ef784e; margin: 0 0 0 10px; padding: 6px; }
+
+.mobileCRM-V2-list .completion-before { color: #ccc; }
+.mobileCRM-V2-list .completion-after { color: #666; background: url(../images/mobileCRM-V2-list-icon3.png) no-repeat 100% 50%; background-size: auto 50%; }
+
+.mobileCRM-V2-list .qa { color: #666; font-size: 0.8rem; }
+.mobileCRM-V2-list .qa span { padding: 0 1rem 0 0; color: #fd815f; }
+.mobileCRM-V2-list .qa.red { color: #fc0000; }
+.mobileCRM-V2-list .text { margin: 0.5rem -1rem 0 0; padding: 0 1rem 0 0; border-top: 1px #f0eff5 solid; }
+.mobileCRM-V2-list .text textarea { display: block; width: 100%; height: 10.8rem; border: 0 none; resize: none; outline: none; font: 1rem/1.8rem "Microsoft YaHei"; }
+.mobileCRM-V2-list .textNote { margin: -0.5rem -1rem; padding: 0 0 0 1rem; border-top: 1px #cdcdce solid; border-bottom: 1px #cdcdce solid; }
+.mobileCRM-V2-list input { text-align: right; margin: 0; padding: 0; border: 0 none; outline: none; font: 1rem/2rem "Microsoft YaHei"; background: none; }
+.mobileCRM-V2-list input[type=password] { text-align: left; display: block; width: 100%; }
+.mobileCRM-V2-list .user-name,.mobileCRM-V2-list .user-pass { position: relative; }
+.mobileCRM-V2-list .user-name input[type=text],.mobileCRM-V2-list .user-pass input[type=password] { padding: 0 0 0 2rem; text-align: left; }
+.mobileCRM-V2-list .user-name:after,.mobileCRM-V2-list .user-pass:after { position: absolute; top: 0.5rem; left: 0; content: ""; width: 1.4rem; height: 1.9rem; background-position: 50% 50%; background-repeat: no-repeat; background-size: auto 70%; }
+.mobileCRM-V2-list .user-name:after { background-image: url(../images/mobileCRM-V2-list-icon4.png); }
+.mobileCRM-V2-list .user-pass:after { background-image: url(../images/mobileCRM-V2-list-icon5.png); }
+
+.mobileCRM-V2-info .mobileCRM-V2-list { margin: 0 0 -1rem; }
+.mobileCRM-V2-info .mobileCRM-V2-list li { padding: 0.5rem 1rem 0.5rem 0; }
+.mobileCRM-V2-info .mobileCRM-V2-list .link { margin: 0; border: 0 none; }
+
+.mobileCRM-V2-list .exit { display: block; text-align: center; color: #dc1d1d; }
+
+.mobileCRM-V2-list .photoShow { width: 6.267rem; height: 6.267rem; border: 3px #cbcbcb solid; background: url(../images/mobileCRM-V2-add.png) no-repeat 50% 50%; background-size: auto auto; cursor: pointer; }
+.mobileCRM-V2-list .photoShow img { display: block; width: 100%; height: 100%; }
+
+.mobileCRM-V2-list .photoSchoolShortIcon { width: 48px; height: 48px;background: url(../images/mobileCRM-V2-info-message.png) no-repeat 50% 50%; background-size: 100% 100%; cursor: pointer; }
+.mobileCRM-V2-list .photoSchoolShortIcon img { display: block; width: 100%; height: 100%; }
+.mobileCRM-V2-list .side-amount { position: relative; padding: 0 0 0 1.3rem; width: 20%; }
+.mobileCRM-V2-list .side-amount:after { position: absolute; top: 50%; right: 0; content: ""; margin: -0.75rem 0 0; width: 1px; height: 1.5rem; background-color: #b3b3b3; display: none; }
+.mobileCRM-V2-list .side-amount:last-child { padding: 0 1.3rem; }
+.mobileCRM-V2-list .side-amount:last-child:after { display: block; }
+.mobileCRM-V2-list .side-amount input { display: block; width: 100%; text-align: center; }
+
+.mobileCRM-V2-list .side-after,.mobileCRM-V2-list .side-before { position: relative; margin: 0 0 0 1rem; padding: 0 0 0 3rem; }
+.mobileCRM-V2-list .side-after:after,.mobileCRM-V2-list .side-before:after { position: absolute; top: 50%; left: 0; content: ""; margin: -0.15rem 0 0; width: 2.5rem; height: 0.3rem; }
+.mobileCRM-V2-list .teacher .side-after,.mobileCRM-V2-list .teacher .mobileCRM-V2-data .dataNum-after { color: #38ad6a; }
+.mobileCRM-V2-list .teacher .side-after:after,.mobileCRM-V2-list .teacher .mobileCRM-V2-data .dataLine .after { background-color: #38ad6a; }
+.mobileCRM-V2-list .teacher .side-before,.mobileCRM-V2-list .student .side-before,.mobileCRM-V2-list .teacher .mobileCRM-V2-data .dataNum-before,.mobileCRM-V2-list .student .mobileCRM-V2-data .dataNum-before { color: #b3b3b3; }
+.mobileCRM-V2-list .teacher .side-before:after,.mobileCRM-V2-list .student .side-before:after,.mobileCRM-V2-list .teacher .mobileCRM-V2-data .dataLine .before,.mobileCRM-V2-list .student .mobileCRM-V2-data .dataLine .before { background-color: #b3b3b3; }
+.mobileCRM-V2-list .student .side-after,.mobileCRM-V2-list .student .mobileCRM-V2-data .dataNum-after { color: #ff8360; }
+.mobileCRM-V2-list .student .side-after:after,.mobileCRM-V2-list .student .mobileCRM-V2-data .dataLine .after { background-color: #ff8360; }
+
+.mobileCRM-V2-list .side-modLevel { display: inline-block; margin: 0 0 0 0.2rem; width: 1.6rem; height: 1.6rem; text-align: center; color: #fff; font-size: 1rem; line-height: 1.6rem; }
+.mobileCRM-V2-list .side-levelGreen { background-color: #6c6; }
+.mobileCRM-V2-list .side-levelRed { background-color: #ff8260; }
+
+.mobileCRM-V2-list .dialogOK { background: url(../images/mobileCRM-V2-list-icon7.png) no-repeat 100% 50%; background-size: auto 60%; }
+
+.mobileCRM-V2-list .taskTable { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.mobileCRM-V2-list .taskTable td { height: 1.8rem; color: #999; font-size: 0.8rem; line-height: 1.4rem; }
+.mobileCRM-V2-list .taskTable tr td:first-child { width: 22%; }
+.mobileCRM-V2-list .taskTable .black { color: #333; }
+.mobileCRM-V2-list .taskTable .orange { color: #ff8260; }
+
+.mobileCRM-V2-nobg,.mobileCRM-V2-nobg .mobileCRM-V2-list { background: none; }
+.mobileCRM-V2-nobg .mobileCRM-V2-list li { margin-left: -1rem; padding-left: 1rem; background-color: #fff; }
+.mobileCRM-V2-nobg .mobileCRM-V2-list .link { padding-top: 0.5rem; border-top: 1px #b2b2b2 solid; }
+.mobileCRM-V2-nobg .mobileCRM-V2-list .link-ico:after { margin: -0.75rem 0 0; }
+
+/* mobileCRM-V2-footer */
+.mobileCRM-V2-footer { height: 4rem; }
+.mobileCRM-V2-footer .inner { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #383838; z-index: 5; }
+.mobileCRM-V2-footer .inner > div { height: 3rem; }
+.mobileCRM-V2-footer .inner > div a { position: relative; display: block; text-align: center; color: #999; line-height: 3rem; }
+.mobileCRM-V2-footer .inner > div .active { color: #fff; line-height: 2.9rem; background-color: #252525; border-bottom: 2px #189cfb solid; }
+.mobileCRM-V2-footer .inner > div .new:after { position: absolute; top: 50%; right: 0; margin: -0.8rem 1.0rem 0 0; content: ""; width: 0.5rem; height: 0.5rem; background: -webkit-gradient(linear, 0 0, 0 100%, from(#dd7f2a), to(#b43c16)); border: 1px #b95030 solid; border-radius: 100%; }
+
+/* mobileCRM-V2-delete */
+.mobileCRM-V2-delete,.mobileCRM-V2-delete a { text-align: center; color: #999; line-height: 2.4rem; cursor: pointer; }
+.mobileCRM-V2-delete a { display: block; }
+
+/* mobileCRM-V2-info */
+.mobileCRM-V2-info .message { position: relative; padding: 1rem 0 0 4.4rem; }
+.mobileCRM-V2-info .message .build,.mobileCRM-V2-info .message .head,.mobileCRM-V2-info .message .class,.mobileCRM-V2-info .message .group { position: absolute; top: 1.1rem; left: 0; width: 3.7rem; height: 3.7rem; background-repeat: no-repeat; background-size: 100% 100%; }
+.mobileCRM-V2-info .message .build { background-image: url(../images/mobileCRM-V2-info-message.png); }
+.mobileCRM-V2-info .message .head { background-image: url(../images/mobileCRM-V2-info-headPor.png); }
+.mobileCRM-V2-info .message .class { background-image: url(../images/mobileCRM-V2-info-class.png); }
+.mobileCRM-V2-info .message .group { background-image: url(../images/mobileCRM-V2-info-group.png); }
+.mobileCRM-V2-info .message .name,.mobileCRM-V2-info .message .id,.mobileCRM-V2-info .message .school { padding: 0.1rem 0; font-size: 0.9rem; line-height: 1.2rem; }
+.mobileCRM-V2-info .message .name { overflow: hidden; color: #333; white-space: nowrap; text-overflow: ellipsis; }
+.mobileCRM-V2-info .message .id { color: #999; }
+.mobileCRM-V2-info .message .school { height: 1.2rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #a2a2a2; }
+.mobileCRM-V2-info .message .school a { color: #39c; }
+.mobileCRM-V2-info .message-link { display: block; padding-right: 2rem; }
+.mobileCRM-V2-info .message-link:after { position: absolute; top: 50%; right: 1rem; content: ">"; margin: -0.6rem 0 0; height: 2rem; color:#a2a2a2; line-height: 2rem; }
+.mobileCRM-V2-info .message .mobileCRM-V2-globalTag { vertical-align: top; }
+
+.mobileCRM-V2-info .list { margin: 0 0 0 -1rem; padding: 1rem 0 0; overflow: hidden; }
+.mobileCRM-V2-info .list > div { position: relative; text-align: center; color: #a2a2a2; }
+.mobileCRM-V2-info .list > div:after { position: absolute; top: 50%; right: 0; content: ""; margin: -0.75rem 0 0; width: 1px; height: 1.5rem; background-color: #b2b2b2; }
+.mobileCRM-V2-info .list > div:last-child:after { display: none; }
+.mobileCRM-V2-info .list > div .hd { font-size: 1.2rem; line-height: 2rem; }
+.mobileCRM-V2-info .list > div .ft { font-size: 0.8rem; line-height: 1.4rem; }
+.mobileCRM-V2-info .list > div .hd.red { color: #ff8260; }
+
+.mobileCRM-V2-info .info { padding: 0.75rem 0 0; color: #a2a2a2; line-height: 1.5rem; }
+
+.mobileCRM-V2-info .hdLink,.mobileCRM-V2-info .hdText { position: relative; display: block; font-size: 1rem; line-height: 2.4rem; border-bottom: 1px #b2b2b2 solid; overflow: hidden; }
+.mobileCRM-V2-info .hdLink .side-fl { float: left; }
+.mobileCRM-V2-info .hdLink .side-fr { float: right; }
+.mobileCRM-V2-info .hdLink .side-time { color: #999; }
+.mobileCRM-V2-info .hdLink .side-nums { position: relative; padding: 0 2rem 0 1rem; color: #666; font-size: 1rem; }
+.mobileCRM-V2-info .hdLink .side-nums:after { position: absolute; top: 0; right: 1rem; content: ">"; height: 2.4rem; color: #a2a2a2; line-height: 2.4rem; }
+
+.mobileCRM-V2-info .side { float: left; padding: 1rem 0 0; color: #a2a2a2; font-size: 0.8rem; line-height: 3.4rem; }
+/* mobileCRM-V2-tab */
+.mobileCRM-V2-tab { background-color: #fff; }
+.mobileCRM-V2-tab > div { position: relative; padding: 0.5rem 0; width: 50%; border-bottom: 1px #b2b2b2 solid; text-align: center; color: #a2a2a2; font-size: 0.8rem; line-height: 2rem; }
+.mobileCRM-V2-tab > div:after { position: absolute; top: 50%; right: 0; content: ""; margin: -0.5rem 0 0; width: 1px; height: 1rem; background-color: #b2b2b2; }
+.mobileCRM-V2-tab > div:last-child:after { display: none; }
+.mobileCRM-V2-tab > div.active { border-bottom: 2px #39c solid; color: #333; line-height: 1.94rem; }
+
+/* mobileCRM-V2-submit */
+.mobileCRM-V2-submit { padding: 2rem; }
+.mobileCRM-V2-submit input { margin: 1.5rem 0 0; }
+.mobileCRM-V2-submit input:first-child { margin: 0; }
+.mobileCRM-V2-submit input[type=submit] { display: block; width: 100%; border: 0 none; background-color: #6c6; color: #fff; font: 1.2rem/2.4rem "Microsoft YaHei"; outline: none; border-radius: 0.3rem; }
+.mobileCRM-V2-submit  input[type=submit].white { color: #333; background-color: #fff; box-shadow: 0 0 0 1px #ccc inset; }
+
+/* mobileCRM-V2-layer */
+.mobileCRM-V2-layer { position: fixed; bottom: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.45); z-index: 10; }
+.mobileCRM-V2-layer .module { position: absolute; bottom: 0; left: 0; width: 100%; background-color: #f0eff5; }
+.mobileCRM-V2-layer .module li { border-top: 1px #b3b3b3 solid; }
+.mobileCRM-V2-layer .module li:first-child,.mobileCRM-V2-layer .module li:last-child { border: 0 none; }
+.mobileCRM-V2-layer .module li:last-child { margin: 1rem 0 0; }
+.mobileCRM-V2-layer .module li a { display: block; padding: 0.5rem 0; text-align: center; color: #333; line-height: 2rem; background-color: #fff; }
+.mobileCRM-V2-layer .module li .red { color: #d36972; }
+.mobileCRM-V2-layer .module li .orange { color: #ff3200; }
+
+.mobileCRM-V2-layer .dateBox { position: absolute; top: 26%; left: 0; width: 100%; }
+.mobileCRM-V2-layer .dateBox .boxInner { margin: 0 1.4rem; padding: 1rem 1.5rem; background-color: #fff; border: 1px rgba(0,0,0,0.5) solid; border-radius: 1rem; }
+.mobileCRM-V2-layer .dateBox .mobileCRM-V2-list li { padding: 0.5rem 0; }
+.mobileCRM-V2-layer .dateBox .boxFoot { padding: 1rem 0 0; overflow: auto; }
+.mobileCRM-V2-layer .dateBox .boxFoot > div { width: 45%; text-align: center; font-size: 1rem; line-height: 2.6rem; border-radius: 0.4rem; }
+.mobileCRM-V2-layer .dateBox .boxFoot .side-fl { float: left; color: #333; border: 1px #999 solid; }
+.mobileCRM-V2-layer .dateBox .boxFoot .side-fr { float: right; color: #fff; border: 1px #189cfb solid; background-color: #189cfb; }
+
+/* mobileCRM-V2-page */
+.mobileCRM-V2-page { position: relative; padding: 1rem; text-align: center; color: #a2a2a2; font-size: 1.4rem; line-height: 2rem; overflow: auto; }
+.mobileCRM-V2-page .prev,.mobileCRM-V2-page .next { position: absolute; top: 1rem; color: #a1a1a1; font-size: 1rem; cursor: default; }
+.mobileCRM-V2-page .prev { left: 1rem; }
+.mobileCRM-V2-page .next { right: 1rem; }
+.mobileCRM-V2-page .side-fl { float: left; font-size: 1.3rem; }
+.mobileCRM-V2-page .side-fr { float: right; font-size: 1rem; }
+.mobileCRM-V2-page .blue { color: #189cfb; cursor: pointer; }
+
+/* mobileCRM-V2-rankInfo */
+.mobileCRM-V2-rankInfo { background-color: #fff; }
+.mobileCRM-V2-rankInfo .infoTitle { text-align: center; color: #a2a2a2; font-size: 1.6rem; line-height: 2rem; }
+.mobileCRM-V2-rankInfo .infoBox > div,.mobileCRM-V2-rankInfo .infoBox > a { position: relative; display: block; text-align: center; }
+.mobileCRM-V2-rankInfo .infoBox > div:after,.mobileCRM-V2-rankInfo .infoBox > a:after { position: absolute; top: 50%; right: 0; content: ""; margin: -0.75rem 0 0; width: 1px; height: 1.5rem; background-color: #b2b2b2; }
+.mobileCRM-V2-rankInfo .infoBox { padding: 1rem 0 0; }
+.mobileCRM-V2-rankInfo .infoBox > div:last-child:after,.mobileCRM-V2-rankInfo .infoBox > a:last-child:after { display: none; }
+.mobileCRM-V2-rankInfo .infoBox .boxTitle { color: #999; font-size: 0.7rem; line-height: 2rem; }
+.mobileCRM-V2-rankInfo .infoBox .boxNum { color: #ff8260; font-size: 1.8rem; line-height: 2rem; }
+.mobileCRM-V2-rankInfo .infoBox .boxNum-green { color: #39ac6a; }
+.mobileCRM-V2-rankInfo .infoBox .boxFoot { color: #999; font-size: 0.7rem; line-height: 1.8rem; }
+.mobileCRM-V2-rankInfo .infoBox .boxFoot span { display: inline-block; padding: 0 0.5rem; color: #39aa69; font-weight: 700; }
+.mobileCRM-V2-rankInfo .infoBox .boxProm { padding: 2rem 0 1.8rem; text-align: center; color: #9a9a9a; font-size: 1.2rem; line-height: 2rem; }
+.mobileCRM-V2-rankInfo .infoBox .boxProm span { padding: 0 0.2rem; color: #f86; }
+.mobileCRM-V2-rankInfo .infoBox2 { padding: 1rem 0 1rem; }
+.mobileCRM-V2-rankInfo .infoTab > div { padding: 0 0 0.5rem; border-bottom: 1px #f0eff5 solid; }
+
+.mobileCRM-V2-rankInfo .infoTab > div.active { padding: 0 0 0.4rem; border-bottom: 2px #39c solid; }
+
+.mobileCRM-V2-info .mobileCRM-V2-rankInfo { margin: 0 0 0 -1rem; }
+
+/* mobileCRM-V2-layerProm */
+.mobileCRM-V2-layerProm { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+.mobileCRM-V2-layerProm .prom { position: absolute; top: 40%; left: 0; width: 100%; text-align: center; color: #999; font-size: 1.6rem; line-height: 2rem; }
+
+/* mobileCRM-V2-date */
+.mobileCRM-V2-date { padding: 0.5rem 0; text-align: center; }
+.mobileCRM-V2-date .date,.mobileCRM-V2-date .date span { display: inline-block; }
+.mobileCRM-V2-date .date { margin: 0 auto; padding: 0 0.75rem; border: 1px #ccc solid; border-radius: 10px; background-color: #fff; }
+.mobileCRM-V2-date .date span { position: relative; padding: 0 0.2rem 0 1.9rem; color: #189cfb; font-size: 1.2rem; line-height: 2.5rem; }
+.mobileCRM-V2-date .date span em { position: absolute; top: 50%; left: 0; margin: -0.8rem 0 0; width: 1.4rem; height: 1.6rem; background: url(../images/mobileCRM-V2-date-ico.png) no-repeat; background-size: 100% 100%; }
+
+/* mobileCRM-V2-searchTop */
+.mobileCRM-V2-searchTop { border-top: 1px #b5b5b5 solid; border-bottom: 1px #b5b5b5 solid; background-color: #fff; }
+.mobileCRM-V2-searchTop > a { display: block; padding: 1rem 0; text-align: center; border-right: 1px #b5b5b5 solid; }
+.mobileCRM-V2-searchTop > a:last-child { border: 0 none; }
+.mobileCRM-V2-searchTop > a span { display: inline-block; padding: 0 0 0 3rem; color: #323232; font-size: 1.2rem; line-height: 3rem; background-repeat: no-repeat; background-position: 0 50%; background-size: auto 80%; }
+.mobileCRM-V2-searchTop > a .school { background-image: url(../images/mobileCRM-V2-info-message.png); }
+.mobileCRM-V2-searchTop > a .teacher { background-image: url(../images/mobileCRM-V2-info-headPor.png); }
+
+/* mobileCRM-V2-link */
+.mobileCRM-V2-link { display: block; text-align: center; color: #3299cb; font-size: 1rem; line-height: 3rem; }
+
+/* mobileCRM-V2-data */
+.mobileCRM-V2-data { margin: 0 -1rem 0 0; padding: 0 1rem 0 0; border-top: 1px #b3b3b3 solid; }
+.mobileCRM-V2-data .dataBox,.mobileCRM-V2-data .dataCont { overflow: auto; }
+.mobileCRM-V2-data .dataBox { padding: 0.5rem 0; border-bottom: 1px #d7d7d7 dotted; }
+.mobileCRM-V2-data .dataBox:last-child { border: 0 none; }
+.mobileCRM-V2-data .dataTitle { float: left; width: 5.25rem; height: 2.75rem; color: #656565; font-size: 1rem; line-height: 2.75rem; font-style: italic; }
+.mobileCRM-V2-data .dataCont { line-height: 1.375rem; }
+.mobileCRM-V2-data .dataNum-after,.mobileCRM-V2-data .dataNum-before { float: right; margin: 0 0 0 0.5rem; width: 3rem; text-align: right; }
+.mobileCRM-V2-data .dataLine { margin: 0.375rem 0; height: 0.625rem; overflow: hidden; }
+.mobileCRM-V2-data .dataLine span { float: left; width: auto; height: 0.625rem; }
+
+/* mobileCRM-V2-title */
+.mobileCRM-V2-title { padding: 0.5rem 1rem; line-height: 2rem; }
+
+/* mobileCRM-V2-table */
+.mobileCRM-V2-table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.mobileCRM-V2-table td { padding: 0.8rem 0.5rem; text-align: right; line-height: 1.4rem; background-color: #fff; }
+.mobileCRM-V2-table td:first-child { text-align: left; font-size: 0.8rem; white-space: nowrap; }
+.mobileCRM-V2-table thead td { color: #999; font-size: 0.8rem; }
+.mobileCRM-V2-table tbody td { border-top: 1px #f0eff5 solid; }
+.mobileCRM-V2-table .orange { color: #ff8260; }
+.mobileCRM-V2-table .green { color: #39ac6a; }
+.mobileCRM-V2-table .gray { color: #999; }
+
+/* mobileCRM-V2-message */
+.mobileCRM-V2-message { padding: 0; }
+.mobileCRM-V2-message .list { margin: 0; padding: 0; border-bottom: 1px #b3b3b3 solid; overflow: visible; }
+.mobileCRM-V2-message .list > div { cursor: pointer; padding: 1rem 0; }
+.mobileCRM-V2-message .list > div:after { margin: -1.5rem 0 0; height: 3rem; }
+.mobileCRM-V2-message .list > .active:before { position: absolute; bottom: -1px; left: 0; content: ""; width: 100%; height: 2px; background-color: #4790b9; z-index: 111; }
+.mobileCRM-V2-message .list > .active .ft { color: #030303; }
+
+/* mobileCRM-V2-dropDown */
+.mobileCRM-V2-dropDown .dropDown { position: relative; margin: 0.5rem -1rem -0.5rem -1rem; padding: 0.5rem 1rem; min-height: 3rem; background-color: #fafafa; }
+.mobileCRM-V2-dropDown .dropDown div { color: #29282e; line-height: 1.625rem; }
+.mobileCRM-V2-dropDown .dropDown div span { color: #6b6a6f; }
+.mobileCRM-V2-dropDown .dropDown div img { display: inline-block; width: 1.625rem; height: 1.625rem; vertical-align: top; cursor: pointer; }
+.mobileCRM-V2-dropDown .dropDown p { padding: 0; color: #6b6a6f; font-size: 1rem; line-height: 1.625rem; }
+.mobileCRM-V2-dropDown .dropDown .reapply { position: absolute; top: 0.5rem; right: 1rem; background-color: #6B7CE2;color: white;padding: 0 0.5rem;}
+.mobileCRM-V2-dropDown .dropDown .gray { color: #666; }
+.mobileCRM-V2-dropDown .dropDown ul li { padding: 0.1rem 0; border: 0 none; font-size: 0.8rem; line-height: 1rem; }
+.mobileCRM-V2-dropDown .dropDown .text { position: relative; margin: 0; padding: 0.375rem; border: 1px #797979 solid; background-color: #fff; }
+.mobileCRM-V2-dropDown .dropDown .text textarea { height: 13.8rem; }
+.mobileCRM-V2-dropDown .dropDown .text .prom { position: absolute; top: 0.375rem; left: 0.375rem; width: 97%; color: #c9c9c9; line-height: 1.4rem; }
+.mobileCRM-V2-dropDown .dropDown .foot { padding: 0.875rem 0.5rem 0; text-align: center; }
+.mobileCRM-V2-dropDown .dropDown .foot .btn-green { display: inline-block; padding: 0 0.5rem; width: auto; min-width: 5rem; color: #fff; font-size: 1rem; line-height: 2rem; background-color: #329900; border-radius: 5px; border: 1px #628e43 solid; vertical-align: top; letter-spacing: 0.2rem; }
+
+.mobileCRM-V2-dropDown .spacing { padding-right: 6rem; }
+
+.mobileCRM-V2-dropDown .personalInfo { color: #666; font-size: 0.8rem; line-height: 1rem; vertical-align: middle; }
+.mobileCRM-V2-dropDown .personalInfo span,.mobileCRM-V2-dropDown .personalInfo img { display: inline-block; vertical-align: middle; }
+.mobileCRM-V2-dropDown .personalInfo .red { color: #a82020; }
+.mobileCRM-V2-dropDown .personalInfo .black { color: #000; }
+.mobileCRM-V2-dropDown .personalInfo img { margin: 0 0.1rem; width: 20px; height: 20px; }
+
+.mobileCRM-V2-dropDown .box a { color: #0103e4; }
+
+/* mobileCRM-V2-timeBar */
+.mobileCRM-V2-timeBar { text-align: center; color: #666; font-size: 0.7rem; line-height: 2.3rem; }
+
+/* mobileCRM-V2-noteBar */
+.mobileCRM-V2-noteBar { padding: 0 1rem; color: #999; font-size: 0.8rem; line-height: 2rem; }
+
+/* mobileCRM-V2-globalTag */
+.mobileCRM-V2-globalTag { display: inline-block; vertical-align: middle; padding: 0 0.2rem; color: #fff; font-size: 0.8rem; line-height: 1.2rem; }
+.mobileCRM-V2-globalTag-green { background-color: #67cd67; }
+.mobileCRM-V2-globalTag-orange { background-color: #ff8260; }
+
+.gateImage { width: 100px;height: 100px;border:none;background:none;}
+.gateImage.noImage {background: url(../images/mobileCRM-V2-add.png) no-repeat 50% 50%; background-size: auto auto; cursor: pointer;border: 2px solid #A99090;}
+
+.schooleClueBackOverLay{position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.schoolFinalInfo{
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    width: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+}
+.schoolFinalInfoContent{
+    padding: 20px 0 20px 0;
+}
+.schoolFinalBtnGroup{
+    margin-top: 24px;
+}
+.schoolFinalInfoBtn{
+    background-color: #1E8FCE;
+    color: white;
+    padding: 10px;
+}
+
+.schoolCluePhotoFooter{position: fixed;bottom: 0px;width: 100%;}
+.schoolCluePhotoFooter .takePhoto{background-color: #fff;text-align: center;margin-top: 10px;padding: 15px 0 15px 0;color: red;}
+
+.schooleImageDetail{
+    background-image: url("../images/aaIcon.png");
+    background-position: 0 0;
+    height: 16px;
+    width: 16px;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*照片说明*/
+.pdHeader{
+    color:blue;
+    font-size: 19px;
+    margin: 15px 0 15px 0;
+}
+.pdivs{
+    margin-top: 20px;
+}
+.photoImageDiv{
+    margin: 0 auto 15px auto;
+    display: block;
+}
+.link .side-noneGrade{
+    height: 28px;
+    width: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.link .side-noneGrade.done{
+    background: url("../images/mobileCRM-V2-list-icon7.png") no-repeat 100% 50%;
+    background-size: auto 60%;
+}
+
+.branchSchoolDelBtn{
+    text-decoration:none;
+    color: white;
+    background-color: #FF8360;
+    width: 100%;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    margin-left: -0.5rem;
+    text-align: center;
+}
+
+.add_branch_school_icon{
+    background-image: url("../images/add_branch_school_plus.png");
+    background-position: 0 0;
+    height: 17px;
+    width: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.branch_school_searchBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 34px;
+    width: 56px;
+    color: #FFF;
+    background-color: #2D9CDA;
+    text-align: center;
+    margin-left: -4px;
+    display: inline-block;
+    line-height: 34px;
+}
+.branch_school_box {
+    padding: 0 0 0 5px;
+    border: 1px solid #ccc;
+}
+.branch_school_input{
+    margin: 0;
+    padding: 0;
+    height: 32px;
+    width: 100%;
+    font-family: "微软雅黑";
+    border: 0 none;
+}
+
+.branch_school_headerSearch {
+    position: relative;
+    padding: 15px 71px 0 0;
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+html {
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 21px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 22px !important;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 23px !important;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  html {
+    font-size: 26px !important;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 36px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 46px !important;
+  }
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #FAE100;
+	position: absolute;
+}
+.notify-label {
+	background-color: #F4511E;color: #fff;display: inline-block;padding: 0.3rem 0.5rem;font-size: 0.6rem;border-radius: 1rem;margin-left: 1.2rem;margin-top: 1rem;
+}
+.text {
+	color: #4A4A4A;
+  margin: 0.5rem 1.5rem;
+	font-size: 0.6rem;
+}
+.white-wrapper {
+	width: 90%;
+	margin: 0.5rem auto;
+	background-color: #fff;
+	border-radius: 0.5rem;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 11px 15px 0px rgba(30,60,48,0.16);
+	text-align: center;
+	padding: 2rem 0;
+}
+.partner-item {
+  display: inline-block;
+  position: relative;
+}
+.partner-avatar {
+  width: 3rem;
+  height: 3rem;
+  border: 1px #f1f1f1 solid;
+  border-radius: 100%;
+}
+.partner-label {
+  background: rgb(253, 240, 0);
+  font-size: 0.6rem;
+  padding: 0.1rem 0.3rem;
+  position: absolute;
+  bottom: 1.2rem;
+  transform: translateX(-50%);
+  left: 50%;
+  white-space: nowrap;
+  border-radius: 0.5rem;
+}
+.waiting-avatar {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-color: #efefef;
+  border-radius: 50%;
+  border: 1px dashed rgba(212,212,212,1);
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgba(212,212,212,1);
+}
+.invite-btn {
+  background:rgba(250,225,0,1);
+  box-shadow:0px 6px 20px 0px rgba(217,165,80,0.36);
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+.sharePopup{position:fixed;z-index:10;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6)}
+.sharePopup .shareInner{position:absolute;top:.45rem;right:1.5rem;width:7rem;height:6.575rem;background:url(../../images/parent/chips/shareTextIcon.png?v=8f1159b337) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}

@@ -1,0 +1,19 @@
+html,body,div,ul,li,p,dl,dd,a,span,table,tr,td,input,textarea,img,select,ol,h1,h2,h3,h4,h5,h6{ padding: 0; margin: 0;}
+a{ text-decoration: none;}
+html,body{ font-family: "微软雅黑"; }
+/*tea-stuapp*/
+.tea-stuapp{ width: 100%; background: #51d3d0 url(../images/tea-stuapp-bg.png) top center no-repeat; }
+.tea-stuapp .btn{display: inline-block; cursor: pointer; color: #fff;}
+.tea-stuapp .ts-main{ width: 1024px; margin: 0 auto; padding-bottom: 50px; position: relative; }
+.tea-stuapp .return-home{ position: absolute; z-index: 99; top: 15px; right: 30px; color: #fff; font-size: 12px; overflow: hidden;}
+.tea-stuapp .main-left{ margin-top: 345px; float: left; display: inline; margin-left: 35px; text-align: center;}
+.tea-stuapp .ts-main .tips{ font-size: 16px; color: #2d3b3b; padding: 15px 0; text-align: left;}
+.tea-stuapp .ts-main .tips span{ color: #ff3737;}
+.tea-stuapp .copy-text{ width: 610px; height: 156px; padding: 15px; margin-bottom: 22px; background: #fff; border: 1px solid #979b9b; box-shadow: -1px 2px 2px #ccc inset;}
+.tea-stuapp .copy-text textarea{ width: 610px; height: 156px; line-height: 20px; border: 0; outline-style: none; font-family: "微软雅黑"; color: #4e5656; font-size: 13px;  overflow: hidden; resize: none;}
+.tea-stuapp .copy-btn{  background: #189cfb; border-radius: 3px; font-size: 18px; border: 1px solid #0979ca; display: inline-block;}
+.tea-stuapp .copy-btn span{display: inline-block; padding: 10px 25px;}
+.tea-stuapp .main-right{ width: 180px; display: inline; text-align: center; margin-top: 190px; float: right; font-size: 14px; color: #fff;}
+.tea-stuapp .main-right h4{ font-size: 14px; font-weight: normal;}
+.tea-stuapp .main-right img{ width: 143px; height: 143px; padding: 5px; border: 2px dashed #fff; margin: 5px;}
+.tea-stuapp .main-right .c-load{ background: #1ab4fa; border: 1px solid #0d85bc; padding: 7px 27px; margin-top: 10px;}

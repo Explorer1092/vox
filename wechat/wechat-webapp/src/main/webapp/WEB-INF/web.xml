@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0" metadata-complete="true" id="wechat">
+    <display-name>wechat-web</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+
+    <filter>
+        <filter-name>alexanderFilter</filter-name>
+        <filter-class>com.voxlearning.alps.webmvc.filter.AlexanderFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>alexanderFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>defaultFilter</filter-name>
+        <filter-class>com.voxlearning.alps.webmvc.filter.AlpsFilter</filter-class>
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>com.voxlearning.wechat.context.WechatRequestContext</param-value>
+        </init-param>
+        <init-param>
+            <param-name>maxInMemorySize</param-name>
+            <param-value>1024000</param-value>
+        </init-param>
+        <init-param>
+            <param-name>maxUploadSize</param-name>
+            <param-value>20480000</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>defaultFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>com.voxlearning.alps.webmvc.listener.AlpsContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>app</servlet-name>
+        <servlet-class>com.voxlearning.alps.webmvc.servlet.AlpsServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>app</servlet-name>
+        <url-pattern>*.vpage</url-pattern>
+
+        <!-- 遗留的扩展名，将来不再使用，为了保证兼容性，线上环境先用一段时间 -->
+        <url-pattern>*.shtml</url-pattern>
+
+        <!-- 防止url劫持用的特殊扩展名，希望能绕过各种垃圾广告系统 -->
+        <url-pattern>*.api</url-pattern>
+
+
+        <url-pattern>/j_spring_security_check</url-pattern>
+        <url-pattern>/examrpcgateway/process</url-pattern>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/signup/chips/verifiedlogin.vpage</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

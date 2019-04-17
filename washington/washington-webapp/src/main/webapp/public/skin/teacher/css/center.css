@@ -1,0 +1,26 @@
+/*security center*/
+.securityList li { margin:10px; clear:both; border:solid 1px #ccc; background:#f8f8f8; border-radius:6px; overflow: hidden;}
+.securityList li .ion { float:left; width:100px; text-align:center; padding:15px 0;}
+.securityList li .ctn { float:left; width:350px; color:#666; overflow:hidden;  padding:15px 0;}
+.securityList li .ctn b{ font: bold 14px/32px arial; color:#64a61e; display:block; clear:both;  }
+.securityList li.err .ctn b{ color:#c00;}
+.securityList li .btn { float: right; padding:30px 10px;}
+.securityEdit .form_wrap .avatar{ width:188px; height:188px; background:url(../images/avatarSystem.png) no-repeat -113px -6px;  display:inline-block; vertical-align:top;}
+.securityEdit .form_wrap .avatar img { margin:3px 0 0 4px; width:180px; height:180px;}
+.securityEdit .sAvatar .sar{ float:left; padding:10px;border:solid 1px #dadada; background:#fcfcfd; width:260px; border-radius:8px;}
+.securityEdit .form_wrap .sAvatar .sar .avatar{ background:url(../images/avatarSystem.png) no-repeat 0 -5px;  display:inline-block; width:100px; height:100px; vertical-align:top; float:left;}
+.securityEdit .form_wrap .sAvatar .sar .avatar img {  width:90px; height:90px;}
+.securityEdit .sAvatar .sar .ctn{ float:left; padding: 0 8px;}
+.securityEdit .sAvatar .sar .ctn b { display:block; font: bold 16px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#999; padding:10px 0;}
+.securityEdit .sAvatar .sar .ctn b i{ color:#39f; font-size:20px;}
+.securityEdit .sAvatar .sar .ctn strong{ color:#666; font: bold 18px/1.125 arial;}
+.securityEdit .sAvatar .public_x_b{ float: left; margin:0 20px 0;}
+.v_icon { background: url(../images/v_icon.png?1.1.6) no-repeat; display: inline-block; width: 45px; height: 45px; vertical-align: middle; }
+.v_icon_cg { background-position: 0 -50px; }
+.v_icon_tg { background-position: 0 -98px; width:62px; height:62px;}
+.v_icon_cw { background-position: 0 -161px; width:62px; height:62px;}
+.v_icon_wh { background-position: 0 -225px; width:62px; height:62px;}
+.msginfo{ padding:40px 20px; text-align:center;}
+.msginfo .text{ font: bold 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial; margin:5px 10px; vertical-align: middle; color:#66a129; display:inline-block; text-align:left;}
+.msginfo .text i{ color:#666; line-height:24px; }
+.msginfo p{ padding:20px 0; color:#666; line-height:24px;}

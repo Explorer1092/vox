@@ -1,0 +1,66 @@
+{
+    "totalScore": 100,
+    "totalTime": 34537,
+    "version": "1.0.0.1",
+    "param": {
+        "userId": 30046,
+        "studyType": "homework",
+        "gameType": 81,
+        "bookId": 878,
+        "unitId": 879,
+        "lessonId": 8790001,
+        "cid": 34051,
+        "hid": "537c1a0ce4b015cd2fa557c7",
+        "homeworkDetailId": "537c1a0ce4b015cd2fa557c8"
+    },
+    "sentence": [
+        {
+            "sentenceId": "87900010001001",
+            "duration": 1482,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "hello"
+        },
+        {
+            "sentenceId": "87900010001002",
+            "duration": 1260,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "I"
+        },
+        {
+            "sentenceId": "87900010001003",
+            "duration": 1884,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "nice"
+        },
+        {
+            "sentenceId": "87900010001004",
+            "duration": 1630,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "meet"
+        },
+        {
+            "sentenceId": "87900010001005",
+            "duration": 1385,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "you"
+        },
+        {
+            "sentenceId": "87900010001006",
+            "duration": 1152,
+            "score": 16,
+            "correct": true,
+            "isDo": true,
+            "content": "too"
+        }
+    ]
+}

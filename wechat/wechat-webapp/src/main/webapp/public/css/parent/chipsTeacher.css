@@ -1,0 +1,92 @@
+@charset "UTF-8";html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}}
+@media only screen and (min-width:375px){html{font-size:21px!important}}
+@media only screen and (min-width:400px){html{font-size:22px!important}}
+@media only screen and (min-width:414px){html{font-size:23px!important}}
+@media only screen and (min-width:480px){html{font-size:24px!important}}
+@media only screen and (min-width:540px){html{font-size:26px!important}}
+@media only screen and (min-width:640px){html{font-size:28px!important}}
+@media only screen and (min-width:768px){html{font-size:32px!important}}
+@media only screen and (min-width:960px){html{font-size:36px!important}}
+@media only screen and (min-width:1024px){html{font-size:46px!important}}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,html{-webkit-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;tap-highlight-color:transparent}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+[v-clock]{display:none}
+body,html{width:100%;height:100%}
+.teacherWrap{position:relative;width:100%;height:100%;background:#fff}
+.teacherWrap .teacherHead{position:relative;box-sizing:border-box;padding:3.425rem .5rem 1.5rem 1.55rem;height:6.7rem;background:url(../../images/parent/chips/teacherTitle-bg.png?v=ac465b1342) no-repeat;background-size:100% 100%}
+.teacherWrap .teacherHead .returnBtn{position:absolute;left:1.3rem;top:1.3rem;width:.475rem;height:.775rem;background:url(../../images/parent/chips/returnBtn.png?v=c30e486a11) no-repeat;background-size:100% 100%}
+.teacherWrap .teacherHead .titleText{line-height:1.75rem;font-size:1.25rem;color:#fff;font-weight:700}
+.teacherMain{position:relative;margin:0 1.1rem 0 1.55rem;padding:1.525rem 0;background:#fff;color:#464646}
+.teacherMain.courseMain{padding:1.35rem 1.325rem 1.375rem 0}
+.teacherMain .addTeacher{padding:0 0 .6rem;font-size:.75rem;font-weight:700}
+.teacherMain .method{line-height:1rem;font-size:.7rem;color:#8b9098}
+.codeBox{margin:.825rem auto 2.1rem;width:10.55rem}
+.codeBox .codeImg{position:relative;display:block;width:6.9rem;height:6.9rem;background:url(../../images/parent/chips/teacher-code.png?v=f6372d420b) no-repeat;background-size:100% 100%}
+.codeBox .codeImg:after{position:absolute;content:"";top:1.375rem;right:-2.5rem;width:2.125rem;height:4.225rem;background:url(../../images/parent/chips/teacherIcon.png?v=10071e1438) no-repeat;background-size:100% 100%}
+.codeBox .codeBtn{margin:.475rem auto 0;width:6.25rem;height:1.875rem;border:.05rem solid #979797;border-radius:.225rem;font-size:.75rem;line-height:1.875rem;text-align:center;font-weight:700}
+.wxBox{margin:.35rem 0 2.75rem;padding:.25rem 0}
+.wxBox .wxNumber{display:inline-block;font-size:.75rem;line-height:1.05rem;font-weight:700}
+.wxBox .wxNumber>span{color:#00c3ff}
+.wxBox .copyBtn{float:right;margin-right:1.375rem;display:inline-block;width:3.275rem;height:1.25rem;border:1px solid #979797;border-radius:.25rem;font-size:.7rem;line-height:1.25rem;text-align:center}
+.goBtn{margin:0 auto;width:6.875rem;height:2rem;background-image:linear-gradient(-138deg,#ffe54e 0,#ffdc5e 100%);box-shadow:0 .15rem .5rem 0 #ffda8f;border-radius:2.5rem;line-height:2rem;text-align:center;font-size:.75rem;color:#464646;font-weight:700}
+.courseTitle{margin-bottom:1.5rem;font-size:1rem;font-weight:700;line-height:1.4rem;text-align:center}
+.stepTitle>span{display:inline-block;vertical-align:middle}
+.stepTitle>span.num{width:.85rem;height:.85rem;background:#00c3ff;border-radius:.425rem;font-size:.65rem;color:#fff;text-align:center}
+.stepTitle>span.title{padding-left:.5rem;font-size:.75rem;font-weight:700}
+.stepDetail{margin:.5rem 0 .5rem .375rem;padding:.25rem 0 .375rem 1.075rem;border-left:.05rem solid #d8d8d8;line-height:.925rem;font-size:.65rem;color:#8b9098}
+.stepDetail>p{margin-bottom:.2rem}
+.stepDetail>p .appTxt{color:#000}
+.expectWrap{position:relative;width:100%;min-height:100%;background:url(../../images/parent/chips/expectBanner.jpg?v=47e42fb6aa) no-repeat;background-size:100% 100%}
+.expectWrap .expectIcon{position:absolute;top:4.5rem;left:50%;margin-left:-5.8rem;width:11.6rem;height:6.575rem;background:url(../../images/parent/chips/expectIcon.png?v=57850777dd) no-repeat;background-size:100% 100%}
+.expectMain{position:relative;top:12rem;margin:0 1.875rem;padding:.5rem;background:#fff;border-radius:.6rem;box-shadow:0 .25rem .45rem #f4d23f;text-align:center;font-size:.85rem;color:#464646}
+.expectMain:before{position:absolute;top:1.5rem;left:50%;margin-left:-1.25rem;content:"";width:2.525rem;height:2.45rem;background:url(../../images/parent/chips/expectIcon02.png?v=25d3f31bee) no-repeat;background-size:100% 100%}
+.expectMain .test{padding:5rem 0 1.5rem}
+.expectMain .hope{padding-bottom:1.5rem;color:#8b9098}
+.expectFooter{position:absolute;bottom:.5rem;width:100%;text-align:center;font-size:.6rem;color:#c09a45}
+.paymentWrap{position:relative;width:100%;min-height:100%;background-color:#f8f8f8}
+.paymentWrap .paymentHead{width:100%;height:8.75rem;background:url(../../images/parent/chips/successIcon.png?v=23b968f2e8) no-repeat;background-size:100% 100%}
+.paymentMain{margin:0 .75rem}
+.paymentMain .paymentTitle{padding:1.325rem 0 1.75rem;font-size:.75rem;line-height:1.2rem;color:#383838}
+.paymentMain .paymentTitle>span{color:#ff693b}
+.paymentMain .paymentImg{width:100%;height:2.675rem;background:url(../../images/parent/chips/get.png?v=e78e68a250) no-repeat;background-size:100% 100%}
+.concernBox{margin-top:.875rem;font-size:.75rem;color:#383838}
+.concernWay{margin:.875rem 0 1.375rem .625rem}
+.concernWay .wayTitle{line-height:1.2rem}
+.concernWay .wayTitle .num{display:inline-block;width:1.2rem;height:1.2rem;border-radius:.6rem;background-color:#ffd131;box-shadow:0 .1rem .4rem 0 rgba(255,242,102,.61);text-align:center;line-height:1.2rem;color:#fff}
+.concernWay .wayTitle .detail{margin-left:.625rem;font-weight:700}
+.concernWay .wayImg{margin:.5rem 0 0 .625rem;width:14.95rem;height:9.275rem;background:url(../../images/parent/chips/concern01.png?v=14c8d6dce4) no-repeat;background-size:100% 100%}
+.concernWay .wayImg.wayImg02{width:14.2rem;height:7.15rem;background-image:url(../../images/parent/chips/concern02.png?v=05216d0f55)}

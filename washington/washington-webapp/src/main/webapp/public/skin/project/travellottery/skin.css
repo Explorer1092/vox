@@ -1,0 +1,77 @@
+html, body{ background-color: #351043;}
+.w-hide{ display: none !important;}
+.main{background-color: #4a2358; width: 100%;}
+.main .inner{ width: 980px; margin: 0 auto; position: relative; overflow: hidden;}
+.main .tl-1, .main .tl-1 .inner{ background: url(tl_1_v1.jpg) no-repeat center 0; height: 357px;}
+.main .tl-2, .main .tl-2 .inner{ background: url(tl_2_v1.jpg) no-repeat center 0; height: 180px;}
+.main .tl-3, .main .tl-3 .inner{ background: url(tl_3.jpg) no-repeat center 0; height: 560px;}
+.main .tl-4, .main .tl-4 .inner{ background: url(tl_4_v1.jpg) no-repeat center 0; height: 260px;}
+.main .tl-4 .inner{ background-position: -300px 0; }
+/*main*/
+.main .tl-1 .logo{ width: 145px; height: 70px; display: block; margin: 20px 0 0 9px;}
+.main .tl-2 .btn{ float: right; padding: 35px 49px 0;}
+.main .tl-2 .btn a{ background: url(reservation-btn.png) no-repeat 0 0; width: 272px; height: 90px; display: block;}
+.main .tl-2 .btn a:hover{ background-position: 0 -100px;}
+.main .tl-2 .btn a:active{ background-position: 0 -201px;}
+.main .tl-2 .btn .success, .main .tl-2 .btn .success:hover, .main .tl-2 .btn .success:active{ background: url(reservation-success.png) no-repeat center 0; cursor: default; width: 240px; height: 34px; margin: 0 auto;}
+.main .tl-2 .btn .game-enter-btn{ background: url(reservation-btn-enter.png) no-repeat; width: 222px; height: 50px; margin-top: 15px;}
+.main .tl-2 .btn .game-enter-btn:hover{ background-position: 0 -75px;}
+.main .tl-2 .btn .game-enter-btn:active{ background-position: 0 -149px;}
+.main .tl-3 .flash-box{ width: 550px; height: 510px; margin: 0 0 0 260px;}
+.main .tl-4 .btn { float: left; width: 300px; padding: 126px 0 0 122px;}
+.main .tl-4 .btn a{ display: block; width: 180px; height: 45px; background: url(share-btn.png) no-repeat 0 0; }
+.main .tl-4 .btn a:hover{ background-position: 0 -64px;}
+.main .tl-4 .btn a:active{ background-position: 0 -127px;}
+.main .tl-4 .lottery-list{ float:right; width: 300px; margin: 67px 0 0 0; height: 90px; overflow: hidden; padding-right: 190px;}
+.main .tl-4 .lottery-list li{ color: #fff; line-height: 1.125; font-size: 14px; height: 30px;}
+.main .tl-4 .lottery-list li span{ display: inline-block;  width: 100px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+/*special-footer*/
+.special-footer, .special-footer .m-inner{ background-color: #351043; height: auto;}
+.special-footer { border-top:none; padding: 20px 0;}
+.special-footer .copyright{ color: #fff; margin: 0;}
+.special-footer .m-foot-link {margin: 0;}
+.special-footer .m-foot-link a{ color: #fff; }
+.special-footer .m-service .c-title{ color: #fff;}
+.special-footer .link{ display: none;}
+/*popup*/
+.travelLottery-popup{ position: relative;}
+.travelLottery-popup, .travelLottery-popup .btn a{ background: url(r-popup-2-v1.png) no-repeat 0 0; width: 601px; height: 480px; width: 650px; height: 423px;}
+.travelLottery-popup .close{ width: 41px; height: 36px; position: absolute; top: 159px; right: 48px;}
+.travelLottery-popup .close a{ width: 41px; height: 36px; background: url(close.png) no-repeat; display: block;}
+.travelLottery-popup .close a:hover{ background-position: -51px 0;}
+.travelLottery-popup .close a:active{ background-position: -101px 0;}
+.travelLottery-popup .btn{ float: right; padding: 363px 80px  0 0;}
+.travelLottery-popup .btn a{ display: block; width: 185px; height: 56px; background-position: -385px -363px;}
+.travelLottery-popup .btn a:hover{ background-position: -179px -432px;}
+.travelLottery-popup .btn a:active{ background-position: -379px -432px;}
+.travelLottery-popup .content{ color: #fff; font-size: 14px; position: absolute; top: 85px; left: 75px; line-height: 110%;}
+/*.travelLottery-popup-2*/
+.travelLottery-popup-2, .travelLottery-popup-2 .btn a{ background-image: url(r-popup-1-v1.png); width: 601px; height: 480px; ;}
+.travelLottery-popup-2 .btn{  padding: 425px 101px 0 0;}
+.travelLottery-popup-2 .btn a{ width: 159px; height: 48px; background-position: -341px -425px;}
+.travelLottery-popup-2 .btn a:hover{ background-position: -154px -487px;}
+.travelLottery-popup-2 .btn a:active{ background-position: -324px -487px;}
+/*.travelLottery-popup-3*/
+.travelLottery-popup-3, .travelLottery-popup-3 .btn a{ background-image: url(r-popup-3.png); width: 777px; height: 237px;}
+.travelLottery-popup-3 .close { top: 29px; right: 0;}
+.travelLottery-popup-3 .btn { padding: 186px 32px 0 0;}
+.travelLottery-popup-3 .btn a{ width: 103px; height: 48px; background-position: -642px -186px;}
+.travelLottery-popup-3 .btn a:hover{ background-position: -518px -247px;}
+.travelLottery-popup-3 .btn a:active{ background-position: -633px -247px;}
+.travelLottery-popup-3 .content{ width: 610px; height: 76px; line-height: 25px;}
+/*.travelLottery-popup-4*/
+.travelLottery-popup-4, .travelLottery-popup-4 .btn a{ background-image: url(r-popup-4.png); width: 641px; height: 195px;}
+.travelLottery-popup-4 .close { top: 29px; right: 0;}
+.travelLottery-popup-4 .btn { padding: 144px 20px 0 0;}
+.travelLottery-popup-4 .btn a{ width: 103px; height: 48px; background-position: -518px -144px;}
+.travelLottery-popup-4 .btn a:hover{ background-position: -394px -207px;}
+.travelLottery-popup-4 .btn a:active{ background-position: -509px -207px;}
+.travelLottery-popup-4 .content{ font-size: 18px;}
+/*.travelLottery-popup-5*/
+.travelLottery-popup-5, .travelLottery-popup-5 .btn a{ background-image: url(r-popup-5.png); width: 441px; height: 180px;}
+.travelLottery-popup-5 .close { top: 18px; right: 0;}
+.travelLottery-popup-5 .btn { padding: 132px 21px 0 0;}
+.travelLottery-popup-5 .btn a{ width: 103px; height: 48px; background-position: -317px -132px; float: left;}
+.travelLottery-popup-5 .btn a:hover{ background-position: -193px -195px;}
+.travelLottery-popup-5 .btn a:active{ background-position: -308px -195;}
+.travelLottery-popup-5 .content{ font-size: 14px; width: 300px; top: 75px; line-height: 25px;}

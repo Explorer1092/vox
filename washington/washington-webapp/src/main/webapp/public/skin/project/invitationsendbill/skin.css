@@ -1,0 +1,40 @@
+.clear{ width: 100%; height: 1px ; font: 0/0 ""; clear: both; overflow: hidden;}
+.red{ color: #e8482c!important;}
+.orange{ color: #ff8400;}
+.blue{ color: #269ef9;}
+.blue-tip{ background-color: #269ef9; color: #fff; padding: 2px; vertical-align: middle;}
+.gray-tip{ background-color: #b2b6b9;}
+.head, .head .inner{ background:#e8482c url("headbg.jpg") no-repeat center 0; width: 100%; height: 181px;}
+.head .inner{ width: 1000px; margin: 0 auto; position: relative; overflow: hidden;}
+.head .inner .logo{ position: absolute; top: 18px; left: 0;}
+.head .inner .logo a{ background: url("logo-white.png") no-repeat 0 0; width: 96px; height: 37px; display: inline-block;}
+.send-call-con{ background-color: #fff; width: 1000px; margin: 0 auto;}
+.send-call-con .sc-box{ margin: 0 0 25px 0;}
+.send-call-con .sc-box .title{ background:#ffa200 url("title-bg.png") no-repeat 0 0; height: 45px; width: 100%; line-height: 45px; font-size: 18px;}
+.send-call-con .sc-box .title em{ margin: 0 10px 0 25px; color: #fff; vertical-align: top; font-style: normal; display: inline-block; }
+.send-call-con .sc-box .title .tip{ background-color: #ff8400; display: inline-block; *display: inline; *zoom: 1;}
+.send-call-con .sc-box .title .tip span{ float: left; color: #fff;}
+.send-call-con .sc-box .title .tip .lf{ background: url("tip.png") no-repeat 0 0; width: 20px; height: 45px;}
+.send-call-con .sc-box .title .tip .lr{ background-position: 0 -50px;}
+.send-call-con .sc-box .title .tip .lc{ padding: 0 10px; font-style: italic;}
+.send-call-con .sc-box .detail{ padding: 0 0 30px 0; border: 1px solid #dfdfdf; border-top: 0; overflow: hidden; *zoom: 1;}
+.send-call-con .sc-box .detail .font{ overflow: hidden; padding: 10px 0;}
+.send-call-con .sc-box .detail .font .mg{ margin: 0 25px;}
+.send-call-con .sc-box .detail .font .btn{ background: url("btn-invite.png") no-repeat 0 0; width: 249px; height: 58px; text-align:center; font-size: 20px; color: #fff; display: inline-block; line-height: 50px;}
+.send-call-con .sc-box .detail .font .btn:hover{ background-position: 0 -82px;}
+.send-call-con .sc-box .detail .font .btn:active{ background-position: 0 -160px;}
+.send-call-con .sc-box .detail h3{ background: url("sendarrow.png") no-repeat left 0; padding: 2px 0 0 25px; margin: 24px 0 0 12px; font-weight: normal; color: #000; height: 19px;}
+.send-call-con .sc-box .detail ul{ padding: 8px 0 0 40px;}
+.send-call-con .sc-box .detail ul li{ font-size: 14px; padding: 4px 0; color: #383a4c; line-height: 150%;}
+.send-call-con .sc-box .detail ul li span.circle{ padding: 0 18px 0 5px; width: 16px; display: inline-block;}
+.send-call-con .sc-box .detail ul li span.blue-tip{ margin: 0 10px;}
+.send-call-con .sc-box .detail ul li.info{ color: #383a4c; font-weight: bold;}
+/*w-table*/
+.w-table{ margin: -1px 0 -2px 0; overflow: hidden; clear: both; border: 1px solid #dfdfdf;}
+.w-table table{ border-collapse: collapse; margin: 0 0 0 -1px; padding: 0; background-color: #fff; width: 100%;}
+.w-table table td, .w-table table th{ padding: 10px 5px; }
+.w-table table thead th{ background-color: #f8f8f8;}
+.w-table table thead td, .w-table table thead th{ color: #000; text-align: center; border: solid #dfdfdf; border-width: 0 0 1px 1px; text-align: left; font-weight: bold;}
+.w-table table tbody td, .w-table table tbody th{ color: #383a4b; text-align: center; font-weight: normal; font-size: 14px; line-height: 150%; border-top: 1px solid #dfdfdf;}
+.w-table table th{ font-weight: normal;}
+.w-table table tbody tr.yellow td{ background-color: #ffffcc; color: #996633;}

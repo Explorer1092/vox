@@ -1,0 +1,82 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:rgba(0,0,0,0)}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body,html{height:100%;background-color:#eff2f6;font:14px/100% "微软雅黑","Microsoft YaHei"}
+.wordContainerBox{width:100%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;background:#fff}
+.wordContainerCard{height:100%;position:relative;padding-bottom:51px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-color:#eff2f6}
+.wordContainerCard .dropDown{cursor:pointer;position:absolute;right:100px;bottom:5px;background:#189cfb;border:1px solid #0979ca;-moz-border-radius:6px;border-radius:6px;height:40px;width:122px;font-size:14px;color:#fff;text-align:center;line-height:40px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.wordReadingDetail{height:100%;padding:20px;background:#fff;border:1px solid #dae6ee;-moz-border-radius:3px;border-radius:3px;overflow-y:scroll;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.wordReadingDetail .readingTitle{padding-bottom:35px}
+.wordReadingDetail .titleInfo{margin-bottom:16px;font-size:26px;font-weight:700;color:#333}
+.wordReadingDetail .readingCon{font-size:20px;color:#333}
+.wordReadingDetail .readingBox{position:relative;padding:40px 3.15rem 47px;background:#f9f9f9;-moz-border-radius:2px;border-radius:2px;text-align:center;min-width:1024px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.wordReadingDetail .readingCard{padding:91px 61px;background:#fff}
+.wordReadingDetail .wordCard{display:inline-block;width:200px;height:251px;padding:10px;background:#fff;-webkit-box-shadow:0 1px 21px 0 rgba(0,0,0,.1);-moz-box-shadow:0 1px 21px 0 rgba(0,0,0,.1);box-shadow:0 1px 21px 0 rgba(0,0,0,.1);-moz-border-radius:7px;border-radius:7px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:top}
+.wordReadingDetail .wordCard .sz-box{display:inline-block;width:181px;height:232px;border:1px solid #2384ff;position:relative;overflow:hidden}
+.wordReadingDetail .wordCard .sz-box .top{height:51px;border-bottom:1px solid #2384ff;overflow:hidden}
+.wordReadingDetail .wordCard .sz-box .top .top_bg{width:159px;height:17px;border-top:1px solid #2384ff;border-bottom:1px solid #2384ff;margin-top:17px;opacity:.5}
+.wordReadingDetail .wordCard .sz-box .bottom{height:181px;position:relative;overflow:hidden}
+.wordReadingDetail .wordCard .sz-box .bottom .li-1{position:absolute;top:89px;left:0;width:100%;height:0;border-bottom:1px dashed #2384ff}
+.wordReadingDetail .wordCard .sz-box .bottom .li-2{position:absolute;top:88px;left:-39px;width:256px;height:0;border-bottom:1px dashed #2384ff;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
+.wordReadingDetail .wordCard .sz-box .bottom .li-3{position:absolute;top:88px;left:-36px;width:256px;height:0;border-bottom:1px dashed #2384ff;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
+.wordReadingDetail .wordCard .sz-box .bottom .li-4{position:absolute;top:90px;right:0;width:100%;height:0;border-bottom:1px dashed #2384ff;transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg)}
+.wordReadingDetail .wordCard .sz-box .sz-content .c-li1{display:block;width:100%;position:absolute;top:10px;left:0;text-align:center;font-size:27px;color:#595757;line-height:100%}
+.wordReadingDetail .wordCard .sz-box .sz-content .c-li2{display:block;position:absolute;top:53px;left:50%;-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);width:181px;height:181px;line-height:151px;color:#595757}
+.wordReadingDetail .wordCard .sz-box .sz-content .c-li2 div{font-size:138px}
+.wordReadingDetail .wordCard .sz-box .sz-content .audioPlay{display:block;position:absolute;top:12px;right:10px;width:25px;height:25px;background:url(../images/teachingresource/audioPlay.png?v=191bae77bb) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordReadingDetail .wordCard .sz-box .sz-content .audioPause{display:block;position:absolute;top:12px;right:10px;width:25px;height:25px;background:url(../images/teachingresource/audioPause.png?v=cde27b02c7) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordReadingDetail .readinfInfoCard{display:inline-block;width:280px;margin-left:44px;vertical-align:top;text-align:left}
+.wordReadingDetail .readinfInfoCard .readingInfo{margin-bottom:20px}
+.wordReadingDetail .readinfInfoCard .readingInfo .interpre{margin-bottom:5px;font-size:20px;font-weight:700;color:#333;line-height:30px}
+.wordReadingDetail .readinfInfoCard .readingInfo .interpreCon{font-size:16px;color:#333;word-break:break-all;line-height:25px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.wordReadingDetail .wordListCard{position:relative;width:906px;height: 125px;padding:0 92px 0 102px;margin-top:40px;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;text-align:center}
+.wordReadingDetail .wordListCard .wordScroll{width:714px;overflow:hidden;height: 82px;position:relative}
+.wordReadingDetail .singleWord{cursor: pointer;margin-right:10px;width:80px;height:80px;background:#fff;border:1px solid #bababa}
+.wordReadingDetail .singleWord.arrowLeft{position:absolute;background:url(../images/teachingresource/arrowLeft.png?v=73d89792c2) no-repeat center;-moz-background-size:50px 50px;-o-background-size:50px 50px;background-size:50px 50px;left:0;top:0px}
+.wordReadingDetail .singleWord.arrowRight{position:absolute;background:url(../images/teachingresource/arrowRight.png?v=34de6d69ef) no-repeat center;-moz-background-size:50px 50px;-o-background-size:50px 50px;background-size:50px 50px;right:0;top:0px}
+.wordReadingDetail .wordList{overflow:hidden;cursor:pointer}
+.wordReadingDetail .wordList .singleWord{float:left;margin-right:20px;width:80px;height:80px;background:#fff;border:1px solid #bababa}
+.wordReadingDetail .wordList .singleWord .sz-box{display:inline-block;position:relative;overflow:hidden}
+.wordReadingDetail .wordList .singleWord .sz-box .bottom{width:80px;height:80px;position:relative;overflow:hidden;opacity:.3}
+.wordReadingDetail .wordList .singleWord .sz-box .bottom .li-1{position:absolute;top:40px;left:0;width:100%;height:0;border-bottom:1px dashed #2384ff}
+.wordReadingDetail .wordList .singleWord .sz-box .bottom .li-2{position:absolute;top:40px;left:-15px;width:110px;height:0;border-bottom:1px dashed #2384ff;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
+.wordReadingDetail .wordList .singleWord .sz-box .bottom .li-3{position:absolute;top:40px;left:-15px;width:110px;height:0;border-bottom:1px dashed #2384ff;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
+.wordReadingDetail .wordList .singleWord .sz-box .bottom .li-4{position:absolute;top:163px;right:0;width:100%;height:0;border-bottom:1px dashed #2384ff;transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg)}
+.wordReadingDetail .wordList .singleWord .sz-box .sz-content .c-li2{display:block;position:absolute;top:5px;left:50%;-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);width:60px;height:66px;line-height:66px;color:#595757}
+.wordReadingDetail .wordList .singleWord .sz-box .sz-content .c-li2 div{font-size:60px}
+.wordReadingDetail .wordList .singleWord.active{border:1px solid #2384ff;background:rgba(35,132,255,.1)}
+.wordReadingDetail .wordList .singleWord.active .sz-box .sz-content .c-li2{color:#2384ff}
+.wordReadingDetail .turnLeft,.wordReadingDetail .turnRight{position:absolute;top:190px;width:87px;height:87px;border:1px solid #dfdfdf;-moz-border-radius:50%;border-radius:50%;cursor:pointer}
+.wordReadingDetail .turnLeft{left:20px;background:#fff url(../images/teachingresource/turnLeft.png?v=52187e4552) no-repeat center;-moz-background-size:42px 40px;-o-background-size:42px 40px;background-size:42px 40px}
+.wordReadingDetail .turnRight{right:20px;background:#fff url(../images/teachingresource/turnRight.png?v=e7faf35a03) no-repeat center;-moz-background-size:42px 40px;-o-background-size:42px 40px;background-size:42px 40px}

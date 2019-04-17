@@ -1,0 +1,34 @@
+.lya-body-back{background: url(../images/koloalegend/lya-background.png) center 0 no-repeat fixed;}
+.t-lya-container{position:relative;margin-top:10px;width:100%; min-width:1000px;*+width:expression(this.offsetWidth > 1000 ? '1000px' : 'auto');_width:expression((documentElement.clientWidth < 1000) ? "1000px" : "auto" ); overflow: hidden; display:inline-block;}
+/*t-lya-inner*/
+.t-lya-inner{width: 1000px;margin: 0 auto; position:relative;}
+.t-lya-inner .lya-head .lya-area{margin: 33px 120px 0 205px;font-size: 18px;line-height: 150%;padding-top: 10px;}
+.t-lya-inner .lya-head .lya-area .lya-info{position:relative;line-height:170%;width:100%;height:30px;overflow:hidden;color:#01bbee;}
+.t-lya-inner .lya-charts .top{background: url(../images/koloalegend/lya-right-bg-01.png) no-repeat;height:140px;}
+.t-lya-inner .lya-charts .mid{background: url(../images/koloalegend/lya-right-bg-03.png) repeat-y;margin-left:6px;padding-top:1px;}
+.t-lya-inner .lya-charts .mid li{height:70px;line-height: 70px;width:183px;text-align: center;background: url(../images/koloalegend/border-line.png) no-repeat bottom center;}
+.t-lya-inner .lya-charts .mid li a{font-size: 30px;color:#6aefff;font-weight: 700;}
+.t-lya-inner .lya-charts .mid li a:hover{color:#fff66a;text-shadow: 1px 1px black;}
+.t-lya-inner .lya-charts .bot{position:relative;background: url(../images/koloalegend/lya-right-bg-02.png) no-repeat;height:71px;}
+.t-lya-inner .lya-charts .bot a.change-btn{position:absolute;top:10px;background: url(../images/koloalegend/tab-btn.png) no-repeat;width:60px;height: 45px;left:68px;background-position: 0 -238px;}
+.t-lya-inner .lya-charts .bot a.change-btn:hover{background-position: 0 -153px;}
+.t-lya-inner .lya-charts .bot a.lya-back-dis{background-position: 0 -194px;}
+.t-lya-inner .lya-charts{width:205px;position: absolute;right:-280px;top:144px;overflow: hidden;}
+.t-lya-inner .lya-game-box{width:985px;height:623px;background: url(../images/koloalegend/game-box.png) no-repeat;overflow: hidden;position: relative;}
+.t-lya-inner .lya-head{background: url(../images/koloalegend/luoya-title-2.png) no-repeat;width:984px;height:110px;overflow: hidden;position: relative;margin:0 0 15px 0;}
+.t-lya-inner .lya-banner-left{width:565px;height:133px;float:left;background: url(../images/koloalegend/luoya-banner-bg-01.png) no-repeat;}
+.t-lya-inner .lya-banner-right{width:400px;height:133px;float:left;background: url(../images/koloalegend/luoya-banner-bg-02.png) no-repeat;margin:0 0 0 20px;position: relative;}
+.t-lya-inner .lya-banner-left ul{height:97px;overflow: hidden;margin:18px 0 0 5px;}
+.t-lya-inner .lya-banner-right ul{width:900px;}
+.t-lya-inner .lya-banner-left li{width:258px;height:97px;float: left;overflow: hidden;margin:0 0 0 13px;display: inline;}
+.t-lya-inner .lya-banner-right li{width:81px;float: left;overflow: hidden;margin:0 0 0 13px;display: inline;}
+.t-lya-inner .lya-banner-right li h5{color:#fff;line-height: 22px;text-shadow: 1px 1px black;font-size:14px;text-align: center;}
+.t-lya-inner .lya-banner{margin-top:15px;}
+.lya-banner-right .tab-btn-box a{position: absolute;width:45px;height:38px;display: block;background: url(../images/koloalegend/tab-btn.png) no-repeat;top:45px;}
+.lya-banner-right .tab-btn-box a:hover.lya-next{background-position: 0 -37px;}
+.lya-banner-right .tab-btn-box a:hover.lya-back{background-position: 0 -280px;}
+.lya-banner-right .tab-btn-box a.lya-back{left:43px;background-position: 0 0;}
+.lya-banner-right .tab-btn-box a.lya-next{right:10px;background-position: 0 -110px;}
+.lya-banner-right .tab-btn-box a.lya-next.lya-back-dis{ background-position: 0 -74px!important;cursor: default;}
+.lya-banner-right .tab-btn-box a.lya-back.lya-back-dis{ background-position: 0 -317px!important;cursor: default;}
+.lya-banner-right .lya-block{width:290px;overflow: hidden;padding:17px 0 0 0;margin:0 0 0 77px;position: relative}

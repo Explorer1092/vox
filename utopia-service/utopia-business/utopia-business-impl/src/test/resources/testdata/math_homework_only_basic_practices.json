@@ -1,0 +1,74 @@
+{
+    "clazzIds": "10001",
+    "startTime": "2013-07-30",
+    "endTime": "2013-07-31 23:00:00",
+    "normFinishTime": "3",
+    "homework": [
+        {
+            "bookId": "16",
+            "bookName": "北师版二年级下",
+            "unitId": "137",
+            "unitName": "除法",
+            "lessons": [
+                {
+                    "id": "408",
+                    "name": "分苹果",
+                    "points": [
+                        {
+                            "id": "67",
+                            "name": "用2~5的乘法口诀求商",
+                            "time": 0.05,
+                            "questionNum": "10",
+                            "practices": [
+                                {
+                                    "id": "1",
+                                    "name": "熊出没",
+                                    "type": "速算练习"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "409",
+                    "name": "分橘子",
+                    "points": [
+                        {
+                            "id": "86",
+                            "name": "有余数的除法的计算",
+                            "time": 0.06666666666666667,
+                            "questionNum": "10",
+                            "practices": [
+                                {
+                                    "id": "2",
+                                    "name": "捣蛋猪",
+                                    "type": "速算练习"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "410",
+                    "name": "分草莓",
+                    "points": [
+                        {
+                            "id": "86",
+                            "name": "有余数的除法的计算",
+                            "time": 0.06666666666666667,
+                            "questionNum": "10",
+                            "practices": [
+                                {
+                                    "id": "1",
+                                    "name": "熊出没",
+                                    "type": "速算练习"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ptime": 3
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <status name="init"><!--新建状态-->
+        <event name="agree" status="lv1" mqmsg="agree_init"></event> <!--自动处理 -->
+    </status>
+
+    <status name="lv1" processor="admin:shan.wang.a,admin:jiamin.lin,admin:jiechun.xiao,admin:xu.yan,admin:fang.zhang,admin:wenbin.tao,admin:han.yao,admin:qiaoyun.liu,admin:caijuan.gao,admin:zhilong.hu,admin:hang.li,admin:hongyan.wei"><!--一级审核状态  processor为空时默认处理人是提交用户  processor例子:admin:fugui.chang,admin:wei.feng -->
+        <event name="agree"  status="processed" mqmsg="agree_lv1"></event> <!--一审通过 -->
+        <event name="reject" status="rejected" mqmsg="reject_lv1"></event> <!--一审拒绝 -->
+        <event name="raiseup"  status="lv2" mqmsg="raiseup_lv1"></event> <!--一审上传 -->
+    </status>1
+
+    <status name="lv2" processor="admin:xin.zhang"><!--二级审核状态 processor为空时默认处理人是提交用户 processor例子:admin:fugui.chang,admin:wei.feng -->
+        <event name="agree" status="processed" mqmsg="agree_lv2"></event> <!--二审通过 -->
+        <event name="reject" status="rejected" mqmsg="reject_lv2"></event> <!--二审拒绝 -->
+    </status>
+</root>

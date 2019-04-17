@@ -1,0 +1,773 @@
+span strong{ font-weight: normal;}
+.h-set-icon{ display: inline-block; width: 18px; height: 18px; margin:-5px 5px 0 0; * margin:-2px 5px 0 0;  _margin:2px 5px 0 0; vertical-align: middle; *vertical-align: baseline; background: url("../images/set-homework-icon.png?v=1.0") no-repeat;}
+.h-set-icon-add{ background-position: -24px 0; * margin:10px 5px 0 0;}
+.h-set-icon-addBlue{ background-position: -77px 0;}
+.h-set-icon-cancel{ background-position: 0 -26px; * margin:10px 5px 0 0;}
+.h-set-icon-del{ background-position: 0 0;}
+.h-set-icon-delete{ display: inline-block; width: 15px; height: 15px; overflow: hidden; vertical-align: middle; margin: -5px 0 0 0; _margin: -25px 0 0 0; +margin: 0 0 0 0; cursor: pointer; background: url("../images/set-homework-icon.png?v=1.0") no-repeat;}
+.h-set-icon-deleteRed{ background-position: -102px 0;}
+.h-set-icon-deleteGrey{ background-position: -102px -16px;}
+.h-set-icon-fire{ background-position: -50px 0; width: 23px; height: 23px;}
+.t-homeworkClass-list .pull-down p{ *display: inline;}
+.t-homeworkClass-list .pull-down p.marginL26{ margin-left: 36px; width: 76px; *display: inline;}
+.t-homeworkClass-list .pull-down p.marginL26 .textWidth{ width: 58px;}
+.h-set-homework{ border: 1px solid #dfdfdf; border-radius: 3px; margin: 15px;}
+#UNIT_QUIZ .h-set-homework:hover{background-color: #f7f7f7}
+.h-set-homework .t-homework-form dl{ border-bottom: 1px solid #dfdfdf;}
+.h-set-homework .t-homework-form dl.dl-cell01 .pull-down p{ width: 150px;}
+.h-set-homework .t-homework-form dl.dl-cell01 .pull-down p .w-icon-md{  width: 130px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.h-set-homework .t-homework-form dl.dl-cell03{ border-bottom: 0;}
+.h-set-homework .t-homework-form dl dt{ font-weight: bold; line-height: 34px;}
+.h-set-homework .t-homework-form dl dd{ margin-bottom: 5px;}
+.h-set-homework.active{ border-color: #189cfb; background: #edf5fa;}
+.h-set-homework.hover{ background: #f7f7f7;}
+.h-set-homework.current{ border-color: #189cfb;}
+.h-set-homework .txt-green{ color: #16d381;}
+.h-set-homework .txt-red{ color: #fa7252;}
+.h-set-homework .seth-hd{ padding: 8px 0; overflow: hidden; *zoom: 1; border-bottom: 1px  solid #dfdfdf;}
+.h-set-homework .seth-hd .fl{ float: left;}
+.h-set-homework .seth-hd .fr{ float: right;}
+.h-set-homework .seth-hd .fr .txtYellow{  color: #fdc642;}
+.h-set-homework .seth-hd .fr span{ border-right: 0;}
+.h-set-homework .seth-hd span{ display: inline-block; padding: 0 15px; border-right: 1px solid  #dfdfdf; color: #7f96a3; font-size: 14px;}
+.h-set-homework .seth-hd .noBorder{ border: 0;}
+.h-set-homework .seth-hd span.border-none{ border-right: 0;}
+.h-set-homework .seth-hd a.w-btn{ width: 108px; padding: 5px 0;}
+.h-set-homework .seth-mn{ padding: 5px 15px;}
+.h-set-homework .seth-mn .inner{ padding: 15px 10px 50px 10px;}
+.h-set-homework .seth-mn .innerBox{ padding: 10px 0;}
+.h-set-homework .seth-mn img{ margin: 10px 0; max-width: 600px;}
+.h-set-homework .seth-more{ cursor: pointer; padding: 10px 0; text-align: center; background: #f9fcfe; border-top: 1px solid  #dfdfdf; color: #189cfb;}
+.h-set-homework.supper{ background: #eef8ff;}
+.h-set-homework.supper .seth-hd{ border-bottom: 0;}
+.h-set-homework.supper .seth-mn .inner{ padding: 10px 0;}
+.h-set-homework.supper .seth-mn .inner h3{ color: #4e5656;}
+.h-set-homework .noBorder{ border: 0;}
+.h-set-homework .testPaper-info{ position: relative; width: 100%;}
+.h-set-homework .testPaper-info .title{ font-size: 14px; color: #4e5656; margin-bottom: 5px;}
+.h-set-homework .testPaper-info .intro{ color: #848d8d;}
+.h-set-homework .testPaper-info .btnGroup{ position: absolute; bottom: -5px; right: -15px;}
+.h-set-homework .testPaper-info .btnGroup a,.ste-dialogTbxt .btnGroup a.btn{ display: block; float: left; margin-left: 15px; height: 38px; line-height: 38px; text-align: center; color: #189cfb;}
+.h-set-homework .testPaper-info .btnGroup a.btn,.ste-dialogTbxt .btnGroup a.btn{ background: #189cfb; color: #fff; width: 60px; border: 1px solid #189cfb;}
+.h-set-homework .testPaper-info .btnGroup a.btn.cancel,.ste-dialogTbxt .btnGroup a.btn.cancel{ background: #e1f0fc; border: 1px solid #abc1d3; color: #2180c1;}
+.h-set-homework .testPaper-info .linkGroup{ position: absolute; bottom: -5px; left: -15px;}
+.h-set-homework .testPaper-info .linkGroup a{ display: block; float: left; margin-left: 15px; height: 38px; line-height: 38px; text-align: center; color: #189cfb;}
+.h-set-homework-bot{ background: #476785; overflow: hidden; *zoom: 1; color: #fff; clear: both; zoom: 1;  position: fixed;  bottom: 0; _position: absolute; _bottom: auto; _top: expression(documentElement.scrollTop); _left: 0; width: 780px; z-index: 152;}
+.h-set-homework-bot table{ width: 100%;}
+.h-set-homework-bot td{ padding: 15px; vertical-align: middle;}
+.h-set-homework-bot td p{ margin-bottom: 5px;}
+.h-set-homework-bot td p .num{ color: #ffd200;}
+.h-set-homework-bot td p a{ color: #9fe6ff; margin: 0 0 0 20px;}
+.h-set-homework-bot td p a:hover{ color: #dbf6ff; text-decoration: underline;}
+.h-set-homework-bot td.sb-right{ width: 302px; border-left: 1px solid #fff;}
+.h-set-homework-bot td.sb-right div p{ float: left;height: 40px; line-height: 40px;}
+.h-set-homework-bot td.sb-right a.btn-set{ display:block; position: relative; float: right; width: 130px; height: 38px; line-height: 38px; background: #189cfb; text-align: center; color: #fff; border: 1px solid #0979ca; border-radius: 3px;}
+.h-set-homework-bot td.sb-right a.btn-set:hover{ background: #52b4fb;}
+.h-set-homework-bot td.sb-right a.btn-set span{ display: inline-block; position: absolute; top: -6px; right: -6px; width: 24px; height: 24px; font-size: 10px; text-align: center; border-radius: 24px; line-height: 24px; background: #fa7252; color: #fff;}
+.t-homework-form dd{ margin-bottom: 10px;}
+.t-homework-form .h-set-tips{ background: #fff; position: absolute; display: none; border-radius: 3px; min-width: 130px; padding: 4px 10px; color: #4e5656; border: 1px solid #dae6ee; left: 3px; top: -40px; white-space: nowrap;}
+.t-homework-form .h-set-tips i{ position: absolute; width: 14px; height: 8px; background: url("../images/h-triggle.png") no-repeat; left: 30px; bottom: -8px;}
+.t-homework-form .h-set-link{ margin: 10px; color: #189cfb; position: relative;}
+.t-homework-form .h-set-link .aLeft{ background-position: 0 -23px;width: 6px; height: 10px;}
+.t-homework-form .h-set-link .aRight{ background-position: -8px -23px;width: 6px; height: 10px;}
+.t-homework-form .h-set-link.disabled{ color: #667284; cursor: default;}
+.t-homework-form .h-set-link.disabled .aLeft{  background-position: -23px -23px;}
+.t-homework-form .h-set-link.disabled .aRight{ background-position: -31px -23px;}
+.t-homework-form .h-set-link:hover .h-set-tips{ display: block;}
+.t-homework-form .h-set-link.disabled:hover .h-set-tips{ display: none;}
+.t-knowledge-info{background-color: #edf5fa;overflow: hidden;padding:14px;_padding:14px 0 80px 14px;}
+.t-knowledge-info dt{width:85px;float: left;line-height:35px;}
+.t-knowledge-info dd{float: left;color: #4e5656;padding:0 25px 0 0;}
+.t-knowledge-info dd p{font-size: 14px;line-height:35px;}
+.t-knowledge-info .time{float: right;margin:0 40px 0 0;line-height: 64px;}
+.t-knowledge-info .time span{font-size: 28px;font-weight: bold;}
+.t-homework-total .t-btn a{ position: relative;}
+.t-homework-total .t-btn a span{ display: inline-block; position: absolute; top: -6px; right: -6px; width: 24px; height: 24px; font-size: 10px; text-align: center; border-radius: 24px; line-height: 24px; background: #fa7252; color: #fff;}
+.h-fixHeader{ width: 778px; height: 94px;  position: fixed;  top: 0;  z-index: 5;_position: absolute; _top: expression(documentElement.scrollTop);}
+/*h-homework-dialog*/
+.h-homework-dialog{ width: 460px; font-size: 14px; color: #4e5656; background: #fff; margin: -30px 0 -10px 0;}
+.h-homework-dialog .inner .list{ margin-bottom: 10px; overflow: hidden; *zoom: 1;}
+.h-homework-dialog .inner .list .name{ float: left;}
+.h-homework-dialog .inner .list .info{ float: left; width: 510px;}
+.h-homework-dialog .inner .list .info .tj{ display: inline-block; margin-right: 15px;}
+.h-homework-dialog .inner .list .grade span{ display: inline-block; margin-right: 15px;}
+.h-homework-dialog .inner .list label{ padding-right: 25px;}
+.h-homework-dialog .tips-grey{ text-align: left; color: #8e9696; padding-left:75px;}
+.h-homework-dialog .inner .btn-box{ padding: 20px 0; text-align: center; color: #4e5656;}
+/*h-homework-dialog02*/
+.h-homework-dialog02 textarea{ width: 98%; height: 90px; border: 1px solid #dedede; outline-style: none; font-size: 14px; line-height: 20px;}
+.h-homework-dialog02 .btn-box{ padding: 20px 0; text-align: center; color: #4e5656;}
+/*h-homework-dialog03*/
+.h-homework-dialog03{ width: 550px;}
+.h-homework-dialog03 p span.tj{ margin-right: 20px; display: inline-block;}
+.h-homework-dialog03 p .c-ipt{ width: 80px; padding: 3px 5px; margin-left: 5px; background: #fff; border: 1px solid #dedede; vertical-align: middle;}
+/*h-homework-dialog04-06-23update*/
+.h-homework-dialog04{ width: 650px;}
+.h-homework-dialog04 .inner p .iname{ width: 56px; text-align: right; display: inline-block;}
+.h-homework-dialog04 .list-box .list-hd{ overflow: hidden; *zoom: 1; border-bottom: 1px solid #dae6ee; padding: 10px 0; margin-bottom: 10px;}
+.h-homework-dialog04 .list-box .list-hd .hdl{ float: left; font-size: 16px; font-weight: bold;}
+.h-homework-dialog04 .list-box .list-hd .hdr{ float: right;}
+.h-homework-dialog04 .list-box .list-hd p{ margin: 0; height: 25px; line-height: 25px;}
+.h-homework-dialog04 .list-box .list-hd .hdr input{ width: 210px; padding:0 0 0 20px; background: #fff url("../images/ipt-search.png") 3px no-repeat; border: 1px solid #dedede; vertical-align: middle; height: 25px; line-height: 24px; margin-right: 10px; font-size: 14px; color: #8e9696; outline-style: none;}
+.h-homework-dialog04 .list-box .list-hd .hdr a{ width: 63px; padding: 5px 0; font-size: 14px; line-height: 17px;}
+.h-homework-dialog04 .list-box .list-mn{ overflow: hidden; *zoom: 1; height: 120px; overflow: auto; margin-bottom: 10px;}
+.h-homework-dialog04 .list-box .list-mn a{ display: inline-block; width: 120px; color: #4e5656; overflow:  hidden; text-overflow: ellipsis; white-space: nowrap;  padding: 4px 9px; margin: 0 13px 8px 0; border-radius: 3px; background: #e1f0fc; border: 1px solid #abc1d3;line-height: 14px;}
+.h-homework-dialog04 .list-box .list-mn a.active{ background: #476785; color: #fff;}
+.h-homework-dialog04 .list-box .list-mn a:hover{ border: 1px solid #476785;}
+.h-homework-dialog04 .list-box .tips-grey{ text-align: left; line-height: 24px;}
+.h-homework-dialog04 .bottom{  background: #edf5fa; height: 40px; padding: 16px 20px; overflow: hidden; *zoom: 1;}
+.h-homework-dialog04 .bottom .bot-left{ float: left; width: 450px; height: 40px;;}
+.h-homework-dialog04 .bottom .bot-left p{ margin-bottom: 0;}
+.h-homework-dialog04 .bottom .btn{ width: 118px; height: 40px; padding: 0; line-height: 40px; float: right;}
+/*h-homework-dialog05*/
+.h-homework-dialog05 .btn-box .w-btn{ margin: 0 15px;}
+/*h-homework-dialog06*/
+.h-homework-dialog06{ width: 660px;}
+.h-homework-dialog06 .inner .intro span{ display: inline-block; margin: 10px 0; padding: 0 15px; border-right: 1px solid #dedede; color: #7f96a3;}
+.h-homework-dialog06 .inner .intro span.none{ border: 0;}
+.h-homework-dialog06 .inner .content p{ margin: 0;}
+.h-homework-dialog06 .question{ background: #f9fcff; margin: 10px 0; padding: 10px 15px;}
+.h-homework-dialog06 .question .list{ overflow: hidden; *zoom: 1; padding: 2px 0;}
+.h-homework-dialog06 .question .list .title{ float: left; font-weight: bold;}
+.h-homework-dialog06 .question .list .info{ float: left; }
+.h-homework-dialog06 .question .list .proAnalysis{ width: 518px; height: 126px; border: 1px dashed #a3d9fe;}
+/*h-homework-dialog07*/
+.h-homework-dialog07 .upflie-box .upflie-btn{ padding: 80px 0; width: 100%;}
+.h-homework-dialog07 .upflie-box .upflie-btn span{ display: block; cursor: pointer; margin: 0 auto; width: 144px; height: 40px; background: #e1f0fc; text-align: center; line-height: 40px; font-size: 16px; color: #2180c1;}
+.h-homework-dialog07 .upflie-box .upfile-con{ padding: 15px 0;}
+.h-homework-dialog07 .upflie-box .upfile-con img{ display: block; margin: 0 auto; width: 236px; height: 154px; border: 1px solid #abc1d3; border-radius: 3px;}
+.h-homework-dialog07 .upflie-box .upfile-con .txt-center{ text-align: center;}
+.h-homework-dialog07 .upflie-box .upfile-con .txt-center a{ color: #189cfb; font-size: 12px;}
+.h-homework-dialog07 .btn-box .w-btn{ margin: 0 15px;}
+/*h-floatLaye-Rr*/
+.h-floatLayer-R{ position: fixed; _position: absolute; top: 75px; _top: expression(documentElement.scrollTop + 110); _bottom: auto; right: 0; *top: 107px; width: 138px; background: #fff; border: 1px solid #d3d8df; z-index: 98;}
+.h-floatLayer-R .fl-hd{ background: #e9f6fc; height: 38px; line-height: 38px; text-align: center; color: #189cfb;}
+.h-floatLayer-R .fl-mn p{ width: 110px; margin: 1px 0; padding: 0 18px 0 10px; *height: 22px; *line-height: 22px; overflow: hidden; *zoom: 1; cursor: pointer;}
+.h-floatLayer-R .fl-mn p .name{ display:block; float: left; width: 70px; text-align: left; padding: 5px 0;}
+.h-floatLayer-R .fl-mn p.hover .name{ text-decoration: underline;}
+.h-floatLayer-R .fl-mn p .count{ display:block; float: right; width: 35px; text-align: right; padding: 5px 0;}
+.h-floatLayer-R .fl-mn p .icon{ display:none; float: right; width: 35px; text-align: right; padding: 5px 0;}
+.h-floatLayer-R .fl-mn p.hover .count{ display: none;}
+.h-floatLayer-R .fl-mn p.hover .icon{ display: block;}
+.h-floatLayer-R .fl-bot a{ display: block; margin: 8px auto;}
+/*h-slide-box*/
+.h-slide{ position: relative; float: left; margin-left: 50px; margin-top: -5px; width: 120px;}
+.h-slide:hover{ background: #fff; border-radius: 3px; border: 1px solid #ccc; border-bottom: 0;}
+.h-slide:hover .h-slide-box{display: block;}
+.h-slide:hover .w-icon-arrow-blue{background-position: 0 0;}
+.h-slide .slideText { display: block; text-align: center; color: #189cfb; overflow: hidden; padding: 5px 0;}
+.h-slide-box{display: none; width: 238px; border: 1px solid #d3d8df; background: #fff; padding: 15px; position: absolute; top: 34px;left: -1px; }
+.h-slide-box label{ display: block; width: 100%;text-align: left; line-height: 26px;}
+.h-slide-box label .w-radio{ margin-right: 5px;}
+.seth-num{ position: relative; margin: 0 5px;}
+.seth-num .tip{ position: absolute; top: -5px; right: -5px; width: 20px; height: 20px; line-height: 20px; border-radius: 20px; display: inline-block; background: #fa7252; color: #fff;}
+
+.t-choose-Knowledge{line-height: 40px;overflow: hidden;font-size: 14px;border-bottom:1px solid #dae6ee;}
+.t-choose-Knowledge .int{width:25px;height:25px;border:0;}
+.t-choose-Knowledge .int-1{border-bottom: 1px solid #828b8b;border-top:none;border-left:none;border-right:none;width:35px;}
+.t-choose-Knowledge .left{float: left; color:#4e5656;padding: 0 0 0 14px;_padding:10px 0 10px 14px;}
+.t-choose-Knowledge .left .circle{display: inline-block;width:20px;height:20px;border-radius: 100px;vertical-align: middle;border:1px solid #4e5656;}
+.t-choose-Knowledge .left .answer{padding:0 0 0 20px;}
+.t-choose-Knowledge .right{text-align: right;padding: 0 14px 0 0;_padding:10px 14px 10px 14px;}
+.t-choose-Knowledge .right a{font-size: 22px; line-height: 20px; width: 22px; height: 22px;}
+.t-choose-Knowledge li{float:left;width:31.5%;padding:0 0 0 10px;}
+.t-choose-Knowledge li .t-question{ float: left; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.t-choose-Knowledge li img{max-width: 130px; height: 50px;}
+.t-choose-Knowledge .t-questionBox{ width: 100%;}
+.t-choose-Knowledge .t-questionBox td{ width: 245px;}
+.t-choose-Knowledge .t-questionBox .t-question{ width: 60%; height: 50px; line-height: 50px; float: left; margin-left: 10px;}
+.t-choose-Knowledge .t-questionBox .t-question p{ line-height: 50px;}
+.t-choose-Knowledge .t-questionBox .w-blue{ line-height: 50px;}
+.t-choose-Knowledge .t-questionBox img{max-width: 130px; height: 50px;}
+
+
+.h-tab-box{ padding: 0px 8px; margin: 15px;}
+.h-tab-box .t-tab-box dl{ margin: 0;}
+.h-tab-box .t-tab-box dl dd{ margin: 0 0 0 40px; color: #4e5656;}
+.h-tab-box .t-tab-box dl .pull-down{ background: #fff;}
+.h-tab-box .t-tab-box dl .pull-down p{ cursor: pointer; padding: 5px 0; width: 85px;}
+.h-tab-box .t-tab-box dl .pull-down p .w-icon-md{ width: 65px;}
+
+.h-unit-box .unit-info{ border-left: 1px dashed #ccc; margin-left: 6px; padding-left: 20px;}
+.h-unit-box .unit-info li{ margin-bottom: 18px;}
+.h-unit-box .unit-info li span.project-name{ cursor: pointer; display: inline-block; vertical-align: middle; width: 310px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 18px;}
+.h-unit-box .unit-info li span.w-checkbox{ margin: 0 9px 0 -26px; cursor: pointer;}
+.h-unit-box .course-info{ font-size: 14px; padding: 8px 10px; margin-right: 16px; background: #edf5fa; border: 1px solid #dae6ee; border-radius: 3px; overflow: hidden;}
+.h-unit-box .course-info .tit{ margin-bottom: 10px;}
+.h-unit-box .course-info ul{ overflow: hidden; *zoom: 1;}
+.h-unit-box .course-info ul li{ margin:0 5px 10px 0; background: #8accf9; color: #fff; border-radius: 3px;  padding: 5px 8px; float: left;}
+
+.t-count-detail .fl-txt{ float: left;}
+.t-count-detail .fr-txt{ float: right; color: #16b495; font-weight: normal;}
+.t-count-detail .fr-txt-red{ color: #fa7252;}
+.t-count-detail .t-error-title{ padding: 26px 30px; background: #e1f0fc; color: #4e5656;  font-size: 16px; font-weight: bold; overflow: hidden; *zoom: 1;}
+.t-error-box{ margin: 15px; border: 1px solid #dfdfdf;}
+.t-error-box .tit{ padding: 25px 15px; color: #4e5656; font-size: 14px; overflow: hidden; *zoom: 1;}
+.t-error-box .tit .ipt{ width: 25px; height: 18px; background: transparent; border: 0; border-bottom: 1px solid #4e5656; line-height: 18px; font-size: 14px;}
+.t-error-info table{ border-bottom: 0;}
+.t-error-info table thead tr td{ padding: 5px 0 5px 15px;}
+.t-error-info table tr td{ padding-left: 15px;}
+.t-error-info table tr.odd td{ background: #f9fcfe;}
+
+
+.homeworkData{overflow: hidden;padding:25px 0 0 0;}
+.homeworkData .inner_2{width:250px;}
+
+.t-situation-tree ul { position: relative; background-color: #fff; width: 700px;height: 112px; margin-top:20px;}
+.t-situation-tree ul li { width: 100px;height: 0; position: absolute; background-color: #a7c1d9; bottom: 0; text-align: center; }
+.t-situation-tree ul li p{ margin:-30px 0 0 0; position: relative;}
+.t-situation-tree ul li.s-1 {background-color: #5a8aa7;left:17px;}
+.t-situation-tree ul li.s-2 {background-color: #75a2be;left:117px;}
+.t-situation-tree ul li.s-3 {background-color: #8eb8d2;left:217px;}
+.t-situation-tree ul li.s-4 {background-color: #a4c8de;left:317px;}
+.t-situation-tree ul li.s-5 {background-color: #c3dded;left:417px;}
+.t-situation-tree ul li.s-6 {background-color: #d7e9f4;left:517px;}
+.t-situation-tree ul li.s-7 {background-color: #edf5fa;left:617px;}
+.t-situation-tree .si-foot { padding-left: 17px; overflow: hidden; }
+.t-situation-tree .si-foot p { width: 100px;  float: left; text-align: center; font-size: 18px; }
+.t-situation-tree .si-foot p strong { line-height: 40px; font-size: 14px;font-weight: 400;}
+.t-situation-tree .si-title{ line-height:50px; font-size: 14px;text-align: center;}
+.t-situation-tree .si-title span{ font-size: 18px;}
+.t-situation-tree .si-title-left{text-align: left;padding-left:14px;line-height: 60px;font-size: 14px;}
+.t-situation-content .w-base{margin:15px;}
+.t-situation-content .w-base .w-base-title .w-base-right{padding:15px 15px 0 0;}
+.t-situation-content .w-base .w-base-title h3{font-size: 14px;font-weight: normal;}
+.t-situation-content .w-base .w-base-title{background-color: #edf5fa;}
+.t-situation-content .w-base .w-base-title .w-base-right .view-btn{color:#189cfb;}
+
+.test-paper-box ul{ overflow: hidden;}
+.test-paper-box ul li{ position: relative; float: left; margin: 0 10px 10px 0; text-align: center;cursor: pointer;}
+.test-paper-box ul li img{ width: 100px; height: 80px;}
+.test-paper-box ul li .name{ line-height: 24px; padding: 5px 0;}
+.test-paper-box ul li .icon{ display: none; position: absolute; right: 0; bottom: 34px; width: 23px; height: 23px; background: url("../images/h-icon.png") no-repeat;}
+.test-paper-box ul li.correct .icon{ display: block; background-position: -226px -34px;}
+.test-paper-box ul li.error .icon{ display: block; background-position: -226px 0; }
+.icon-box{ position: relative; width: 100%;}
+.icon-box .icon-b{ position: absolute; right: -15px; bottom: -34px; width: 62px; height: 43px; padding: 20px 10px 20px 20px; background: url("../images/h-icon.png") no-repeat; overflow: hidden;}
+.icon-box .inner{ transform:rotate(-25deg); text-align: center;}
+.icon-box .icon-error-b{ background-position: -116px 0;}
+.icon-box .icon-error-b .sub{ color:#fa7252;font-size:18px;line-height: 26px;}
+.icon-box .icon-correct-b .sub{color: #16d381;font-size: 18px;line-height: 30px;}
+.icon-box .icon-correct-b{ background-position: 0 0;}
+.icon-box .inner .text{ font-size: 14px; padding: 10px 0;}
+.icon-box .inner .item{ font-size: 24px; color: #fa7252;}
+.icon-box .icon-correct-s,.icon-box .icon-correct-b .icon-checkMark{ width: 33px; height: 20px; display: inline-block; background: url("../images/corrrect-icon-s.png") no-repeat;}
+.icon-box .icon-error-b .icon-checkMark{ width: 36px; height: 35px; display: inline-block; background: url("../images/wrong-icon.png") no-repeat;}
+
+.h-set-homework .iconWrapper{ min-height: 45px; position: relative; padding:20px 95px 20px 15px; zoom:1;}
+.h-set-homework .iconWrapper.line{ border-bottom: 1px solid #d3d8df}
+.h-set-homework .iconWrapper .inner{ transform:rotate(-25deg); text-align: center; padding: 0px 0px 32px 6px;}
+.iconWrapper .icon-b{ position: absolute; right: 0px; bottom: 0px; width: 62px; height: 43px; padding: 20px 10px 20px 20px; background: url("../images/h-icon.png") no-repeat; overflow: hidden;}
+.iconWrapper .icon-error-b{ background-position: -116px 0;}
+.iconWrapper .icon-error-b .sub{ color:#fa7252;font-size:18px;line-height: 26px;}
+.iconWrapper .icon-correct-b .sub{color: #16d381;font-size: 18px;line-height: 30px;}
+.iconWrapper .icon-correct-b{ background-position: 0 0;}
+.iconWrapper .inner .text{ font-size: 14px; padding: 10px 0;}
+.iconWrapper .inner .item{ font-size: 24px; color: #fa7252;}
+.iconWrapper .icon-correct-s,.iconWrapper .icon-correct-b .icon-checkMark{ width: 33px; height: 20px; display: inline-block; background: url("../images/corrrect-icon-s.png") no-repeat;}
+.iconWrapper .icon-error-b .icon-checkMark{ width: 36px; height: 35px; display: inline-block; background: url("../images/wrong-icon.png") no-repeat;}
+
+
+.tab-icon{ display: inline-block; width: 52px; height: 44px; background-repeat: no-repeat; background-position: 0 0;}
+.active .tab-icon{ background-position: 0 -58px;}
+.h-arrow-icon{ display: block; width: 8px; height: 18px; background: url("../images/h-arrow.png") no-repeat;}
+.h-arrow-iconL{ background-position: 0 0;}
+.h-arrow-iconR{ background-position: -29px 0;}
+.h-arrow-iconLhover{ background-position: 0 -23px;}
+.h-arrow-iconRhover{ background-position: -29px -23px;}
+.h-switch{ position: relative;}
+.h-switch .h-arrow{ position: absolute; width: 22px; height: 94px; background: #eef8ff; cursor: pointer;}
+.h-switch .h-arrow-L{ left: 0; top: 0px;}
+.h-switch .h-arrow-R{ right: 0; top: 0px;}
+.h-switch .h-arrow .h-arrow-icon{ position: absolute; left:6px; top: 38px;}
+.h-baseTab .w-base-two-switch li{ width: 153px; height: 94px; text-align: center; line-height: 30px; background: transparent; border-left: 0; border-right: 1px solid #dfdfdf; margin-left: 0;}
+.h-baseTab .w-base-switch li a{ padding: 12px 0;}
+
+.paperName,.volumePeople{color:#4e5656;font-size:18px;text-align: center;line-height: 47px;}
+.volumePeople{font-size:14px;line-height: 27px;}
+.w-base .w-base-title h3 .sub{color:#7f96a3;font-size:14px;padding:0 10px;border-right:1px solid #dae6ee;font-weight: normal;}
+.w-base .hidden{display:none;}
+
+.h-synExercise{ width: 1000px; margin: 15px auto;}
+.h-synExercise .link{ line-height: 40px; font-weight: normal;}
+.h-synExercise .link a{ color: #189cfb;}
+.h-synExercise-header{ padding: 25px 15px;}
+.h-synExercise-header h2{ font-size: 20px; color: #189cfb; font-weight: normal; text-align: center; margin-bottom: 15px;}
+.h-synExercise-header p{ font-size: 14px; color: #4e5656; text-align: center;}
+.h-synExercise-main{ margin: 0 0 15px 0;}
+.h-synExercise-main .h-title{ font-weight: bold; padding: 7px 15px;}
+.h-synExercise-main .h-title span{ font-weight: normal;}
+.h-synExercise-main .h-set-homework{ margin: 10px 15px 10px 15px;}
+.h-synExercise-main .h-set-homework .btnGroup{ right: 0;}
+
+.h-floatLayer-L{ position: fixed; _position: absolute; top: 75px; _top: expression(documentElement.scrollTop); _bottom: auto;left: 30px; width: 138px; z-index: 100;}
+.h-floatLayer-L ul{ border: 1px solid #d3d8df; margin-bottom: 20px;}
+.h-floatLayer-L li{ width: 100%; text-align: center; background: #fff; }
+.h-floatLayer-L li a{ display: block; height: 45px; line-height: 45px; border-bottom: 1px solid #f0f0f0; color: #5f5f5f;}
+.h-floatLayer-L li.active a{ color: #fff; background: #8accf9;}
+.h-floatLayer-L li a:hover{ background: #e9f6fc; color: #5f5f5f;}
+
+.homeworkBox{padding:0 15px;}
+.homeworkBox .title{font-size: 16px;color:#4e5656;font-weight: bold;line-height: 38px;}
+.homeworkBox .txt p{font-size: 14px;color:#4e5656;}
+.homeworkBox .content{ margin-bottom: 15px;}
+.homeworkBox .content .btnSub{border:none;width:auto;color:#4e5656;}
+.homeworkBox .content .btnSub .w-icon-sub{background: url(../images/homeBox-subBtn-icon.png) no-repeat;height:19px;background-position: 0 0;}
+.homeworkBox .content .btnSub .icon-2{height:24px;background-position: 0 -28px;}
+.homeworkBox .content .image{width:325px;height:210px;border-radius: 4px;background-color: #e1f0fc;border:1px solid #abc1d3;position: relative;}
+.homeworkBox .content .image .prompt{position: absolute;_position:relative;background-color: #615866;opacity: 0.5;color:#fff;text-align: center;bottom: 0;width: 325px;height:33px;line-height: 33px;}
+.homeworkBox .content .image img{width:100%;height:100%;text-align: center;}
+.homeworkBox .content .image img:hover{background-color: #655e6e;opacity: 0.5;}
+.homeworkBox .content .upload{width:140px;border:2px dashed #bcbcbc;text-align: center;padding:30px 0;cursor: pointer;margin:25px 0 0 0;}
+.homeworkBox .content .upload .upload-icon{background: url(../images/hand-copy-upload-icon.png) no-repeat;width:57px;height:57px;display: inline-block;}
+.homeworkBox .content .active .upload-icon{background-position: 0 -69px;}
+.homeworkBox .content .active{border:2px dashed #959595;}
+.homeworkBox .content .upload.active .con{color:#959595;}
+.homeworkBox .content .upload .con{color:#bcbcbc;font-size: 12px;}
+.homeworkBox .content .submission-mode{background: url(../images/submission-mode.png) no-repeat;width:12px;height:12px;display: inline-block;vertical-align: middle;overflow: hidden;}
+.homeworkBox .content .mode-1{background-position: 0 -16px;}
+
+.usePrompt .title .info{font-size:14px;color:#4e5656;line-height: 36px;}
+.usePrompt .title{padding: 0 4%;}
+.usePrompt .title .close{float:right;}
+.usePrompt .title .close a{color:#189cfb;font-size:14px;line-height: 36px;}
+.usePrompt li{width:27.3%; float:left;margin: 0 3% 2% 3%; *display: inline;}
+.usePrompt li .step i{font-size:20px;color: #fff;display: block;text-align: center;line-height: 30px;background-color: #8accf9;}
+.usePrompt li .step{background-color: #edf5fa;height:130px;}
+.usePrompt li .step p{font-size:14px;color:#4e5656;padding:6px 27px;}
+.usePrompt li .step .btn-upload{color:#189cfb;float: right;padding:0 27px;}
+.usePrompt li .arrow{background: url(../images/hand-copy-arrow.png) no-repeat;width:33px;height:36px;position: relative;margin-top:-75px;left:105%;}
+
+.h-set-homework .newBuild .btn-newBuild{color:#189cfb;text-decoration: underline;}
+.h-set-homework .newBuild .btn-newBuild:hover{color:#0979ca;}
+
+/*2016-01-26*/
+/*h-homeworkCorrect*/
+.h-homeworkCorrect{ width: 1000px; margin: 0 auto;}
+.h-homeworkCorrect .icon{ position: absolute; right: 1px; bottom: 1px; width: 20px; height: 20px;}
+.h-homeworkCorrect .icon-success{ background: url("../images/icon-success.jpg") no-repeat;}
+.h-homeworkCorrect .icon-error{ background: url("../images/icon-error.jpg") no-repeat;}
+.h-homeworkCorrect .icon-cha{ background: url("../images/icon-cha.jpg") no-repeat;}
+.h-homeworkCorrect .icon-zhong{ background: url("../images/icon-zhong.jpg") no-repeat;}
+.h-homeworkCorrect .icon-liang{ background: url("../images/icon-liang.jpg") no-repeat;}
+.h-homeworkCorrect .icon-you{ background: url("../images/icon-you.jpg") no-repeat;}
+.h-homeworkCorrect .icon-yue{ background: url("../images/icon-yue.jpg") no-repeat;}
+.h-homeworkCorrect .link{ line-height: 40px; font-weight: normal;}
+.h-homeworkCorrect .link a{ color: #189cfb;}
+.h-homeworkCorrect .h-floatLayer-L .correct-btn{ position: relative; display: inline-block; width: 136px; height: 55px; line-height: 55px; text-align: center; color: #fff; font-size: 18px; background: #ffa811; border: 1px solid #ff8227;}
+.h-homeworkCorrect .h-floatLayer-L .correct-btn .correct-flyaer{ display: none; width: 149px; height: 50px; position: absolute; top: 60px; left: -5px; background: url("../images/correct-flayer.png") no-repeat;}
+.h-homeworkCorrect .h-floatLayer-L .correct-btn:hover .correct-flyaer{ display: block;}
+.h-homeworkCorrect .hc-main{ margin: 0 0 15px 0;}
+.h-homeworkCorrect .hc-main .h-set-homework{ margin: 10px 15px 10px 15px;}
+.h-homeworkCorrect .hc-main .h-set-homework .btnGroup{ right: 0;}
+.h-homeworkCorrect .t-error-info table tr td{ padding-left: 15px;}
+.h-homeworkCorrect .questionBox{ margin: 0 15px; *padding-bottom: 10px;}
+.h-homeworkCorrect .questionBox ul{ overflow: hidden; *zoom: 1;}
+.h-homeworkCorrect .questionBox ul li{ position: relative; float: left; margin: 0 10px 10px 0; cursor: pointer;}
+.h-homeworkCorrect .questionBox ul li img{ width: 100px; height: 80px;}
+.h-homeworkCorrect .questionBox ul li .name{ height: 24px; line-height: 24px; text-align: left;}
+.h-homeworkCorrect .questionBox ul li .icon{ position: absolute; right: 0px; bottom: 0px;}
+.h-homeworkCorrect .questionBox table{ border-bottom: 0;}
+.h-homeworkCorrect .questionBox table thead tr td{ padding: 5px 0 5px 15px;}
+.h-homeworkCorrect .questionBox table tr td{ padding-left: 15px;}
+.h-homeworkCorrect .questionBox table tr.odd td{ background: #f9fcfe;}
+.h-homeworkCorrect .w-base-title{ border-top: 1px solid #dfdfdf;}
+.h-homeworkCorrect .w-base-title h3{ font-size: 16px;}
+/*h-voiceBox*/
+.h-voiceBox{ *zoom:1; *padding-bottom: 10px;}
+.h-voiceBox:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.h-voiceBox .h-voice-list{ float: left; background: #f0f7fd; padding: 5px; width: 200px; margin: 10px 12px;}
+.h-voiceBox .h-voice-list .left { float: left;background: url("../images/videoPlay-bg-active.png?1.0.1") no-repeat; position: relative; width: 65px; height: 54px;cursor: pointer;}
+.h-voiceBox .h-voice-list .left.play{ position: relative; width: 65px; height: 54px; background: url("../images/videoPlay-bg.png?1.0.1") no-repeat;}
+.h-voiceBox .h-voice-list .left.pause{ position: relative; width: 65px; height: 54px; background: url("../images/videoPlay-bg-pause.png?1.0.1") no-repeat;}
+.h-voiceBox .h-voice-list .play .icon{ position: absolute; right: 1px; bottom: 1px;}
+.h-voiceBox .h-voice-list .right{ margin-left: 69px; *display: inline; position: relative;}
+.h-voiceBox .h-voice-list .right .name{ font-size: 12px;}
+.h-voiceBox .h-voice-list .right .btn{ float: left; margin-right: 5px; width: 58px; height: 28px; line-height: 28px; font-size: 16px; color: #fff; text-align: center;}
+.h-voiceBox .h-voice-list .right .btn-blue{ background: #189cfb; border: 1px solid #0979ca;}
+.h-voiceBox .h-voice-list .right .btn-yellow{ background: #ffa811; border: 1px solid #ff8227;}
+.h-voiceBox .h-voice-list .right .btn-disabled{ background: #d1d1d1; border: 1px solid #bcbcbc;}
+.h-voiceBox .h-voice-list .right .gradeBox{ position: absolute; right: 5px; *right: 2px; bottom: 30px; width: 58px; border: 1px solid #dfdfdf; border-bottom: 0;}
+.h-voiceBox .h-voice-list .right .gradeBox.hidden{display:none;}
+.h-voiceBox .h-voice-list .right .gradeBox li{ height: 32px; line-height: 32px; text-align: center; background: #fff;cursor: pointer;}
+.h-voiceBox .h-voice-list .right .gradeBox li.active{ background: #e1f0fc;}
+/*h-homeworkList-06-23update*/
+.h-homeworkList .t-homework-form dl{ margin: 0; padding: 3px 0; border-bottom: 1px dashed #dae6ee; overflow: hidden; *zoom: 1;}
+.h-homeworkList .t-homework-form dl:last-child{ border-bottom: 0;}
+.h-homeworkList .t-homework-form dl dt{ margin-top: 5px;}
+.h-homeworkList .t-homework-form dl dd{ margin: 0 0 0 50px; color: #4e5656;}
+.h-homeworkList .t-homework-form dl .pull-down{ background: #fff;}
+.h-homeworkList .t-homework-form dl .pull-down p{ cursor: pointer;}
+.h-homeworkList .txt-yellow{ color: #ffc15f;}
+.h-homeworkList .txt-red{ color: #ff775c;}
+.h-homeworkList .txt-green{ color: #16b495;}
+.h-homeworkList .txt-grey{ color: #a3a2a2;}
+.h-homeworkList .font-b{ font-size: 20px;}
+.h-homeworkList .link{ color: #189cfb;}
+.h-homeworkList .h-workList-box{ border: 1px solid #dfdfdf; background: #fff; margin-bottom: 15px;}
+.h-homeworkList .hwl-header{ border-bottom: 1px solid #dfdfdf; padding: 10px 15px;}
+.h-homeworkList .hwl-header .state{ display: inline-block; margin-right: 10px;}
+.h-homeworkList .hwl-main{ padding: 10px;}
+.h-homeworkList .hwl-main .hwl-table{ width: 100%;}
+.h-homeworkList .hwl-main .hwl-table .td-cell01{ width: 230px;}
+.h-homeworkList .hwl-main .hwl-table .td-cell01 .title{ width: 230px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 30px; padding: 5px 0; font-size: 14px; color: #a3a2a2;}
+.h-homeworkList .hwl-main .hwl-table .td-cell02{width: 80px; text-align: center;}
+.h-homeworkList .hwl-main .hwl-table .td-cell03{ text-align: right;}
+.h-homeworkList .hwl-main .hwl-table .w-btn-well{ width: 80px; margin-left: 15px; font-size: 14px;}
+/*h-workPaper*/
+.h-workPaper .topTips{ background: #ffef94; padding: 10px 15px; font-size: 14px; line-height: 34px; color: #cc6600; overflow: hidden; *zoom: 1;}
+.h-workPaper .topTips span.txt{ float: left;}
+.h-workPaper .topTips .btn{ float: right; width: 102px; padding: 8px 0; background: #ffa811; border: 1px solid #ff8227; border-radius: 3px; text-align: center; color: #fff; line-height: 16px;}
+.h-workPaper .topTips .btn-green{ background: #1abc9c; border-color: #08977b;}
+.h-workPaper .topTips .btn .write-icon{ display: inline-block; width: 16px; height: 16px; background: url("../images/write-iocn.png") no-repeat; vertical-align: middle; margin-right: 5px;}
+.h-workPaper .hwp-main{ margin:15px; border: 1px solid #dfdfdf; border-bottom: 0;}
+.h-workPaper .summary-list{ margin-bottom: 15px; border-top:1px solid #dfdfdf;}
+.h-workPaper .summary-list .sl-title{ padding: 0 15px; background-color: #e1f0fc; overflow: hidden; *zoom: 1; border-bottom: 1px solid #dfdfdf;}
+.h-workPaper .summary-list .sl-title h2{ float: left; height: 40px; line-height: 40px; font-size: 14px; color: #4e5656;}
+.h-workPaper .summary-list .sl-title a{ float: right; height: 40px; line-height: 40px; color: #189cfb;}
+.h-workPaper .summary-list table{ width: 100%;}
+.h-workPaper .summary-list table td{ padding: 10px; text-align: center; border-bottom: 1px solid #dfdfdf; }
+.h-workPaper .summary-list table .td-cell01{ width: 230px; border-right: 1px solid #dfdfdf;}
+.h-workPaper .summary-list .progress{ overflow: hidden; *zoom: 1; margin: 5px 0;}
+.h-workPaper .summary-list .txt{ float: left;}
+.h-workPaper .summary-list .txt-grey{ color: #bfbfbf;}
+.h-workPaper .summary-list .proBox{ float: left; margin: 4px 5px 0 5px; width: 120px; height: 6px; background: #d1d1d1; border-radius: 5px; overflow: hidden;}
+.h-workPaper .summary-list .proCurrent{ height: 6px; float: left;}
+.h-workPaper .summary-list .proCurrent.bg-yellow{ background: #ffc15f;}
+.h-workPaper .summary-list .proCurrent.bg-green{ background: #53d49c;}
+.h-workPaper .summary-list .t-barGraph{ float: left; width: 470px;}
+.h-workPaper .summary-list .t-barGraph ul { position: relative; background-color: #fff; width: 470px;height: 112px;}
+.h-workPaper .summary-list .t-barGraph ul li { width: 75px;height: 0; position: absolute; background-color: #a7c1d9; bottom: 0; text-align: center; }
+.h-workPaper .summary-list .t-barGraph ul li p{ margin:-30px 0 0 0; position: relative;}
+.h-workPaper .summary-list .t-barGraph ul li.s-1 {background-color: #5a8aa7;left:10px;}
+.h-workPaper .summary-list .t-barGraph ul li.s-2 {background-color: #75a2be;left:85px;}
+.h-workPaper .summary-list .t-barGraph ul li.s-3 {background-color: #8eb8d2;left:160px;}
+.h-workPaper .summary-list .t-barGraph ul li.s-4 {background-color: #a4c8de;left:235px;}
+.h-workPaper .summary-list .t-barGraph ul li.s-5 {background-color: #c3dded;left:310px;}
+.h-workPaper .summary-list .t-barGraph ul li.s-6 {background-color: #d7e9f4;left:385px;}
+.h-workPaper .summary-list .t-barGraph .tb-foot { padding-left: 17px; overflow: hidden;*zoom: 1;}
+.h-workPaper .summary-list .t-barGraph .tb-foot p { width: 75px;  float: left; text-align: center; font-size: 18px; }
+.h-workPaper .summary-list .t-barGraph .tb-foot p strong { line-height: 40px; font-size: 10px;font-weight: 400;}
+.h-workPaper .summary-list .t-barGraph .tb-title{padding-left: 10px; line-height:35px; font-size: 12px;text-align: left;}
+.h-workPaper .summary-list .t-barGraph .tb-title span{ font-size: 20px; color: #fdad00;}
+.h-workPaper .summary-list-s table .td-cell01{ width: 230px; border-right: 0;}
+.h-workPaper .hwp-main .summary-box{ margin-bottom: 15px;}
+.h-workPaper .hwp-main .w-base-title{ margin-bottom: 20px;}
+.h-workPaper .hwp-main .w-base-title ul li{ border-bottom: 0; border-left: 0; border-right: 1px solid #dfdfdf;}
+
+.h-workPaper .summary-table{}
+.h-workPaper .summary-table .st-title{ padding: 0 15px; background-color: #e1f0fc; font-weight: normal; height: 40px; line-height: 40px; font-size: 14px; color: #4e5656; border-bottom:1px solid #dfdfdf;  border-top:1px solid #dfdfdf;overflow: hidden; *zoom: 1;}
+.h-workPaper .summary-table .st-title div{ float: left; margin-right: 20px;}
+.h-workPaper .summary-table table{ width: 100%;}
+.h-workPaper .summary-table table tr td{ width: 80px; height: 35px; line-height: 35px; text-align: center;}
+.h-workPaper .summary-table table thead td{ padding: 8px 0; border-right: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf;}
+.h-workPaper .summary-table table tr td.noBorder{ border-right: 0;}
+.h-workPaper .summary-table table tr td.widthFix{ width: 120px;}
+.h-workPaper .summary-table table tr span.widthFix{ display: inline-block; width: 100px; padding: 0 5px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.h-workPaper .summary-table table tr .widthFix120{ display: inline-block; width: 120px;}
+.h-workPaper .summary-table table tr span.widthFix80{ width: 80px; display: inline-block;}
+.h-workPaper .summary-table table tr td.name{padding-left: 35px;}
+.h-workPaper .summary-table table tr.odd{ background: #f9fcfe;}
+.h-workPaper .summary-table table .txt-blue{ color: #4dabfc;}
+.h-workPaper .summary-table table .txt-red{ color: #f86638;}
+.h-workPaper .summary-table table .txt-yellow{ color: #ffa811;}
+.h-workPaper .summary-table table .txt-grey{ color: #bfbfbf;}
+.h-workPaper .summary-table table a.txt-blue{ margin: 0 5px;}
+.h-workPaper .summary-table table .icon{ display: inline-block; width: 14px; height: 14px; vertical-align: middle; margin: 0 0 0 -20px;}
+.h-workPaper .summary-table table .icon-differ{ background: url("../images/icon-bu.png") no-repeat;}
+.h-workPaper .summary-table table .icon-unfinished{ background: url("../images/icon-wei.png") no-repeat;}
+
+.h-workPaper .summary-list .numCollect{ border-bottom: 1px solid #dfdfdf; font-size: 14px;}
+.h-workPaper .summary-list .numCollect ul{ overflow: hidden; _overflow: hidden; *zoom: 1; padding: 20px;}
+.h-workPaper .summary-list .numCollect ul li{ float: left; padding-right: 36px; line-height: 20px; font-size: 20px; color: #5f6666;}
+.h-workPaper .summary-list .numCollect ul li .text{ font-size: 12px;}
+.h-workPaper .summary-list .numCollect ul li .yellow{ color: #fdad00;}
+.h-workPaper .summary-list .errorCollect .title{ padding: 5px 10px; background: #fff7eb; color: #4e5656; border-bottom: 1px solid #dfdfdf;}
+.h-workPaper .summary-list .errorCollect .title p{ display: inline-block; *display: inline;  margin-right: 10px;}
+.h-workPaper .summary-list .errorCollect .errorList{ border-bottom: 1px solid #dfdfdf;}
+.h-workPaper .summary-list .errorCollect li{ overflow: hidden; height: 21px; line-height: 21px; padding: 7px 10px;}
+.h-workPaper .summary-list .errorCollect li.odd{ background: #f9fcfe;}
+.h-workPaper .summary-list .errorCollect li .li-cell{ float: left; padding: 0 10px;}
+.h-workPaper .summary-list .errorCollect li .li-cell01{ width: 60px;}
+.h-workPaper .summary-list .errorCollect li .li-cell02{ width: 480px;}
+.h-workPaper .summary-list .errorCollect li .li-cell03{ width: 120px;}
+.h-workPaper .summary-list .errorCollect li .li-cell03 a{ color: #189cfb;}
+.h-workPaper .summary-list .errorCollect li.header{ border-bottom: 1px solid #dfdfdf;}
+.h-workPaper .summary-list .errorCollect li.header .li-cell02{ text-align: center;}
+.h-workPaper .summary-list .errorCollect .proBox{ margin: 0 10px 0 0; width: 402px; height: 21px; background: #f3f4f5; border-radius: 2px;}
+.h-workPaper .summary-list .errorCollect .proCurrent{ float: left; height: 21px; background: #e1f0fc;}
+.h-workPaper .summary-list .errorCollect .proCurrent-red{ background: #f9c9c9;}
+.h-workPaper .summary-list .errorCollect .allCorrect{ position: absolute; top: 0px; right: 5px; color: #fff;}
+.errorItem-dialog{ width: 730px; background: #fff;}
+.errorItem-dialog .tips{ padding: 8px; background: #fff7eb; color: #7f96a3;}
+.errorItem-dialog .h-set-homework{ margin: 10px 0;}
+
+.t-viewPicture-box-mask {position:fixed;width:100%;height:100%;left:0;top:0;bottom:0;right:0;opacity:0.7;background-color:#1c1c1c;}
+.t-viewPicture-box-mask-text {position: fixed;top: 40%;left: 40%;color: #fff;font-size: 28px;}
+.t-viewPicture-box .flex-viewport {position:fixed;top:11%;left:50%;width:460px;margin-left:-230px;background-color: #fff;_position:absolute;_top:20px;}
+.t-viewPicture-box .flex-viewport .head {height:50px;line-height:50;}
+.t-viewPicture-box .flex-viewport .list .rotation{background: url(../images/correcting-icon.png?1.0.1) no-repeat -311px -73px;width:19px;height: 19px;display: inline-block;vertical-align: middle;position: absolute;top: 10px;right: 10px;cursor: pointer;}
+.t-viewPicture-box .flex-viewport .list .rotation:hover{background-position: -287px -73px;}
+.t-viewPicture-box .flex-viewport .head .title {font-size:18px;color:#444444;line-height:50px;padding:0 0 0 20px;}
+.t-viewPicture-box .flex-viewport .head .title span {font-size:16px;}
+.t-viewPicture-box .flex-viewport .head .close {width:30px;height:30px;font-size:40px;color:#444444;background-color: #fff;border-radius:4px;line-height:27px;position:absolute;top:0;right:-40px;cursor:pointer;}
+.t-viewPicture-box .flex-viewport .list { position: relative;width:410px;height: 410px;text-align: center;margin: 0 auto;overflow: hidden;}
+.t-viewPicture-box .flex-viewport .list li{width:410px;height:410px;float:left;border-radius: 6px;position: relative;left:0;overflow: hidden;}
+.t-viewPicture-box .flex-viewport .list .grouper,.t-viewPicture-box .flex-viewport .list .g-vertical {width:410px;height:410px;border-radius:6px;background-color:#808080;text-align:center;*display: block;display: table-cell;vertical-align: middle;}
+.t-viewPicture-box .flex-viewport .list .g-vertical img{border-radius: 6px;height:100%;width:auto;transition:transform .2s linear;-ms-transition:transform .2s linear;-moz-transition:transform .2s linear;-webkit-transition:transform .2s linear;-o-transition:transform .2s linear;}
+.t-viewPicture-box .flex-viewport .list .grouper img {border-radius: 6px;width:auto;transition:transform .2s linear;-ms-transition:transform .2s linear;-moz-transition:transform .2s linear;-webkit-transition:transform .2s linear;-o-transition:transform .2s linear; *margin-top:expression((400 - this.height )/2); }
+.t-viewPicture-box .flex-viewport .column {padding:10px 26px;overflow:hidden;float:right;}
+.t-viewPicture-box .flex-viewport .column a{background: url(../images/correcting-icon.png?1.0.1) no-repeat 0 0;display: inline-block;vertical-align: middle;width: 60px;height:30px;}
+.t-viewPicture-box .flex-viewport .column .btn-right{background-position: -142px -68px;}
+.t-viewPicture-box .flex-viewport .column .btn-error{background-position: -211px -68px;}
+.t-viewPicture-box .flex-viewport .column .btn-excellent{background-position: -71px 0;}
+.t-viewPicture-box .flex-viewport .column .btn-good{background-position: -142px 0;}
+.t-viewPicture-box .flex-viewport .column .btn-mid{background-position: -213px 0;}
+.t-viewPicture-box .flex-viewport .column .btn-differ{background-position: -284px 0;}
+.t-viewPicture-box .flex-viewport .column .active .btn-error{background-position: -69px -68px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-right{background-position: 0 -68px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-read{background-position: 0 -33px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-excellent{background-position: -71px -33px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-good{background-position: -142px -33px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-mid{background-position: -213px -33px;}
+.t-viewPicture-box .flex-viewport .column .active .btn-differ{background-position: -284px -33px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav li a{background: url(../images/correcting-btn.png) no-repeat 0 0;width:50px;height:160px;display: inline-block;position:absolute;top:160px;cursor: pointer;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-prev {left:-61px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-prev:hover {background-position: 0 -172px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-next:hover {background-position: -72px -172px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-prev:active {background-position: 0 -339px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-next:active {background-position: -72px -339px;}
+.t-viewPicture-box .flex-viewport .flex-direction-nav .flex-next {right:-61px;background-position: -72px 0;}
+.t-viewPicture-box .flex-viewport-twoImg,.t-viewPicture-box .flex-viewport-threeImg{width:870px;margin-left:-435px;}
+.t-viewPicture-box .flex-viewport-twoImg .list{width:870px;}
+.t-viewPicture-box .flex-viewport-threeImg .list{width:870px;}
+.t-viewPicture-box .flex-viewport-twoImg .list li,.t-viewPicture-box .flex-viewport-threeImg .list li{margin:0 10px;*margin:0 10px 0 7px;}
+.t-viewPicture-box .flex-viewport-twoImg .flex-viewport,.t-viewPicture-box .flex-viewport-threeImg .flex-viewport{width: 460px;margin-left: -417px;}
+.t-viewPicture-box .flex-viewport-twoImg .column {float:none;text-align: center;}
+.t-viewPicture-box .flex-viewport-threeImg .list{height:270px;}
+.t-viewPicture-box .flex-viewport-threeImg .list li{width:270px;height:270px;overflow: hidden;}
+.t-viewPicture-box .flex-viewport-threeImg .list .grouper{width:270px;height:270px;*display: block;display: table-cell;vertical-align: middle;}
+
+/*h-comment-box*/
+.h-comment-box{ margin: -30px 0;}
+.h-comment-box .t-changeclass-alert .check .info .left{ float: left; margin-left: 5px; line-height: 25px;}
+.h-comment-box .h-checkList .list-cell{ overflow: hidden; *zoom: 1; margin-bottom: 5px;}
+.h-comment-box .h-checkList .list-cell p{ float: left; padding: 10px 30px 0 0; text-align: left; margin: 0 2px 0 10px; line-height: 100%; cursor: pointer;}
+.h-comment-box .h-checkList .list-cell p .tips{ display: inline-block; vertical-align: middle; padding: 0 3px; text-align: center; background: #fba318; border: 1px solid #f17700; border-radius: 2px; font-size: 12px; color: #edf5fa;}
+
+.tabs-empty{ width: 100%; height: 100%; line-height: 92px; text-align: center;}
+/*page list*/
+.homework_page_list { text-align:right; padding:15px 10px; clear:both;}
+.homework_page_list a{ display: inline-block; padding: 4px 8px; margin: 0 2px; font: 14px/1.125 Arial, Helvetica, sans-serif; border-radius: 2px; color: #4e5656;}
+.homework_page_list a.this { background-color: #189cfb; color: #fff; font-weight: bold; border: 1px solid #0979ca;}
+.homework_page_list a.enable{ padding: 4px 12px; background: #e1f0fc; border:1px solid #abc1d3; color: #2180c1;}
+.homework_page_list a.disable{ padding: 4px 12px;  background: #f5f5f5; border:1px solid #dadada; color: #a9a9a9; cursor: default;}
+.homework_page_list a.enable:hover{ background-color:#f0f0f0;}
+.homework_page_list a.enable:active{ background-color:#eee;}
+.homework_page_list .pageGo{ display: inline-block; *display: inline; *zoom: 1; font: 14px/1.125 Arial, Helvetica, sans-serif; width: 78px; height: 23px; margin: -1px 0 0 36px;  *margin: -3px 0 0 36px;  vertical-align: middle; overflow: hidden;background: #fff; border: 1px solid #dfdfdf; border-radius: 2px;}
+.homework_page_list .pageGo input{ width: 42px; height: 23px; line-height: 23px; margin-top: -1px; border: 0; color: #4e5656; background-color: transparent; text-align: center; display: inline-block; outline-style: none;}
+.homework_page_list .pageGo .goBtn{ width: 36px; height: 23px; line-height: 23px; text-align: center; display: inline-block;  background: #189cfb; color: #fff; cursor: pointer;}
+
+/*2016-3-21-add*/
+.h-homeworkCorrect .questionBox .show-jobGrade{ border: 1px solid #dae6ee; border-radius: 4px; overflow: hidden;}
+.h-homeworkCorrect .questionBox .show-jobGrade .enterGrade{ width: 90px; padding: 0 5px; height: 26px; background: #e1f0fc; font-size: 14px; line-height: 26px; color: #7f96a3;}
+.h-homeworkCorrect .questionBox .show-jobGrade .enterGrade .ipt{ width: 43px; height: 18px;text-align: center; font-size: 14px; background: #ffffff; border: 1px solid #dfdfdf;}
+.h-voiceBox .h-voice-list .enterGrade{ width: 100px; padding: 0 5px; height: 30px; background: #e1f0fc; font-size: 14px; line-height: 30px; color: #7f96a3;}
+.h-voiceBox .h-voice-list .enterGrade .ipt{ width: 46px; height: 18px; text-align: center; font-size: 14px; background: #ffffff; border: 1px solid #dfdfdf;}
+.t-viewPicture-box .flex-viewport .enterGrade{display: inline-block; *display: inline; *zoom: 1;  padding: 0 5px; height: 30px; font-size: 18px; line-height: 30px; color: #7f96a3;}
+.t-viewPicture-box .flex-viewport .enterGrade .ipt{ width: 78px; height: 28px; text-align: center; vertical-align: middle; line-height: 28px; font-size: 18px; background: #ffffff; border: 1px solid #dfdfdf; border-radius: 3px;}
+
+/*2016-5-11-add*/
+.w-base-switch li{ position: relative;}
+.w-base-switch li .w-icon-new{ position: absolute; right: 9px; top: 17px;}
+.w-base .w-base-switch li{ overflow: visible;}
+.w-base-switch li .w-icon-final{ position: absolute; z-index: 2; right: -6px; top: 52px; width: 44px; height: 18px; background: url("../images/final-icon.png?1.0.1") no-repeat;}
+.h-readIntro{ margin: 15px; }
+.h-readIntro .hr-intro{ padding: 4px 0;}
+.hr-intro .text{ font-weight: bold;}
+.hr-intro .option{ cursor: pointer; display: inline-block; padding: 8px 0; margin: 0 12px; width: 78px; background: #e1f0fc; border-radius: 4px; text-align: center; font-size: 14px; color: #31a2fb;}
+.hr-intro .active{ background: #189cfb; color: #fff;}
+.hr-intro .hr-check{ cursor: pointer; display: inline-block; *display: inline; *zoom: 1; margin-left: 10px; padding: 5px 0; width: 50px; text-align: left; line-height: 100%;}
+.h-set-homework .seth-hd{ position: relative;}
+.h-set-homework .seth-hd .label{ position: absolute; top: 0; right: 0; display: block; background: #a3d9fe; width: 50px; height: 20px; padding: 9px 0; text-align: center;}
+.h-set-homework .seth-hd .label.active{ background: #189cfb;}
+.h-set-homework .seth-hd .label .icon-xr{ display: inline-block; width: 32px; height: 20px; background: url("../images/icon-xr.png") no-repeat;}
+/*2016-5-26*/
+.ste-Banner{position:relative;margin-bottom:15px;width:100%;height:109px;background:url(../images/setTask-Ebanner.png) no-repeat}
+.ste-Banner .viewRule-btn{position:absolute;bottom:10px;left:50%;margin-left:-72px;display:inline-block;width:144px;padding:5px 0;background:#fff47d;border-radius:12px;text-align:center;font-size:12px;color:#bf3435}
+.ste-unitContainer{padding:0 15px}
+.ste-unitContainer .unitTitle{padding-bottom:20px;font-size:18px;color:#484848}
+.ste-unitContainer .unitTitle .name{padding:0 22px;font-size:14px;color:#8a8a8a}
+.ste-unitContainer .unitInner .unitName{margin-bottom:18px;font-size:14px;color:#4e5656;font-weight:700;background:#edf5fa}
+.ste-unitContainer .unitInner .unitName .name{display:inline-block;padding:12px 15px}
+.ste-unitContainer .unitInner .unitList{overflow:hidden}
+.ste-unitContainer .unitInner .unitList li{position:relative;cursor:pointer;float:left;margin:0 5px 15px 0;width:220px;padding:0 8px;border:1px solid #dae6ee;font-size:14px;color:#4e5656}
+.ste-unitContainer .unitInner .unitList li table{width:100%}
+.ste-unitContainer .unitInner .unitList li table td{height:53px}
+.ste-unitContainer .unitInner .unitList li table .td-cell01{width:170px}
+.ste-unitContainer .unitInner .unitList li .name{width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ste-unitContainer .unitInner .unitList li .link{display:inline-block;padding:0 6px;color:#269ff8}
+.ste-unitContainer .unitInner .unitList li .count{font-size:12px}
+.ste-unitContainer .unitInner .unitList li:hover{background-color:#f5fbff;border:1px solid #269ff8;color:#269ff8}
+.ste-unitContainer .unitInner .unitList li.active{background-color:#f5fbff;border:1px solid #269ff8;color:#269ff8}
+.ste-unitContainer .unitInner .unitList li.active .selected-icon{position:absolute;z-index:4;right:0;bottom:0;display:inline-block;width:24px;height:24px;background:url(../images/selected-icon.png) no-repeat}
+.ste-unitContainer .unitInner .unitList:after{content:".";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
+.ste-dialogDetail{width:730px;background:#fff;color:#4e5656}
+.ste-dialogDetail .d-icon{display:inline-block;width:80px;height:80px;background:url(../images/ep-icons.png) no-repeat}
+.ste-dialogDetail .d-icon01{background-position:0 0}
+.ste-dialogDetail .d-icon02{background-position:-87px 0}
+.ste-dialogDetail .d-icon03{background-position:-176px 0}
+.ste-dialogDetail .detail{overflow:hidden}
+.ste-dialogDetail .detail li{float:left;width:250px}
+.ste-dialogDetail .detail li .iconBox{width:230px;padding:15px 0;text-align:center}
+.ste-dialogDetail .detail li .info{position:relative;display:inline-block;width:198px;height:135px;padding:20px 16px;background:#f5f7f8}
+.ste-dialogDetail .detail li .info .name{text-align:center;font-size:18px;line-height:20px;margin-bottom:25px}
+.ste-dialogDetail .detail li .info .intro{font-size:14px;line-height:20px;padding-left:15px;background:url(../images/circle.png) no-repeat left top}
+.ste-dialogDetail .detail li .info .arrow-icon{position:absolute;right:-22px;top:70px;display:inline-block;width:0;height:0;line-height:0;overflow:hidden;border:8px solid #fff;border-left-color:#dadada}
+.ste-dialogDetail .btns{width:100%;padding:20px 0;text-align:center}
+.ste-dialogContent{margin:-35px 0 0 -20px;width:760px;background:#fff}
+.ste-dialogContent .btns{width:100%;padding:20px 0;text-align:center}
+.ste-dialogEmpty{width:720px;background:#fff}
+.ste-dialogEmpty .icon{margin:0 auto;width:240px;height:182px;background:url(../images/icon-cartoon01.png) no-repeat}
+.ste-dialogEmpty .icon01{margin:0 auto;width:144px;height:147px;background:url(../images/loading.gif) no-repeat}
+.ste-dialogEmpty .text{padding:40px 0;width:100%;text-align:center;font-size:18px;color:#4e5656}
+.ste-dialogTbxt{width:720px;margin-top:-35px;background:#fff}
+.ste-dialogTbxt .btn-Rbox{padding:0 40px;text-align:right}
+.ste-dialogTbxt .tbxtList{max-height:500px;overflow-y:auto;padding:5px;}
+.ste-dialogTbxt .tbxtList .tbxtInner{ margin: 0 0 10px 0;position: relative;}
+.ste-dialogTbxt .tbxtList .btns{width:100%;padding:10px 0 0 0;text-align:right}
+.ste-dialogTbxt .tbxtList .btns .w-btn-well{width:90px}
+.ste-dialogTbxt .tbxtHeader{ overflow: hidden; padding: 5px;}
+.ste-dialogTbxt .tbxtHeader .title{ float: left; padding: 10px 0; font-size: 18px;}
+.t-newHomework-content .w-base{margin:0 10px}
+.t-newHomework-content .w-table{background-color:#cfdbe3}
+.t-newHomework-content .w-table table{width:99%;margin:7px auto;border-radius:3px}
+.t-newHomework-content .w-table table td{border:1px solid #dae6ee;text-align:right}
+.t-newHomework-content .w-table table tr{border:1px solid #dae6ee;text-align:right}
+.t-newHomework-content .w-table table tr span{display:block;text-align:center}
+.t-newHomework-content .w-table table tr .number{color:#189cfb}
+.t-newHomework-content .rule{padding:10px}
+.t-newHomework-content .rule p{line-height:24px;font-size:14px;color:#7f8888}
+/*2016-6-1*/
+.h-set-homework .testPaper-info .btnGroup a.btn-diff{ width: auto; height: 30px; padding: 5px 15px;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff p{ line-height: 16px;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff .small{ font-size: 12px; color: #def1ff;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff .h-set-icon-add{ margin: 0; width: 14px; height: 14px; background: none; font-style: normal; line-height: 8px; font-size: 20px;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff{ width: auto; height: 30px; padding: 4px 15px;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff p{ line-height: 16px;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff .small{ font-size: 12px; color: #def1ff;}
+.h-set-homework .testPaper-info .btnGroup a.btn-diff .h-set-icon-add{ margin: 0; width: 14px; height: 14px; background: none; font-style: normal; line-height: 8px; font-size: 20px;}
+.allCheck-btn{ overflow: hidden; float: right;}
+.allCheck-btn .txt-left{ float: left; padding: 10px;}
+.allCheck-btn .txt-left i{ font-style: normal; color: #189cfb;}
+.allCheck-btn .check-btn{ cursor: pointer; float: left; padding: 5px 15px; height: 30px; line-height: 30px; background: #189cfb; color: #fff;}
+.allCheck-btn .w-checkbox-current{ background: #a3d9fe; color: #fff;}
+/*2016-06-06*/
+.ste-dialogTbxt .tbxtList .tbxtInner:hover{border-color: #189cfb;}
+.ste-dialogTbxt .tbxtList .btnGroup{position: absolute;bottom: 0;right: 0;}
+/*06-23add-english*/
+.h-btnGroup{ overflow: hidden;}
+.h-btnGroup a{ display: block; float: left; margin-left: 15px; height: 38px; line-height: 38px; text-align: center; color: #189cfb;}
+.h-btnGroup a.btn{ background: #189cfb; color: #fff; width: 62px; border: 1px solid #189cfb; border-radius: 2px;}
+.h-btnGroup a.btn.cancel{ background: #a3d9fe; border: 1px solid #abc1d3;}
+/*Ӣ��γ��б�*/
+.e-icons{ display: inline-block; vertical-align: middle; width: 40px; height: 40px; margin: 6px; background: url("../images/e-icons.png") no-repeat;}
+.e-icon-puzzle{ background-position: 0 0;}
+.e-icon-dcbs{ background-position: -50px 0;}
+.e-icon-dcgc{ background-position: -100px 0;}
+.e-icon-dcgd{ background-position: -150px 0;}
+.e-icon-dcpx{ background-position: -200px 0;}
+.e-icon-dcpx2{ background-position: 0 -50px;}
+.e-icon-yyjs{ background-position: -50px -50px;}
+.e-icon-gdxl{ background-position: -100px -50px;}
+.e-icon-ktsc{ background-position: -150px -50px;}
+.e-icon-tyxc{ background-position: -200px -50px;}
+.e-icon-yhjs{ background-position: 0 -100px;}
+.e-icon-qwbs{ background-position: -50px -100px;}
+.e-icon-qwgd{ background-position: -100px -100px;}
+.e-icon-qwld{ background-position: -150px -100px;}
+.e-icon-jztl{ background-position: -200px -100px;}
+.e-icon-lccj{ background-position: 0 -150px;}
+.e-icon-gdxl2{ background-position: -50px -150px;}
+.e-lessonsList{ border: 1px solid #dae6ee; margin: 15px; line-height: 20px;}
+.e-lessonsList .el-title{ padding: 10px; border-bottom: 1px solid #dae6ee; font-size: 16px; color: #4e5656;}
+.e-lessonsList .el-name{ padding: 10px; font-size: 14px; color: #4e5656;}
+.e-lessonsList .el-list{ overflow: hidden; *overflow: hidden; *zoom: 1; padding: 14px 10px;}
+.e-lessonsList .el-list li{ position: relative; cursor: pointer; float: left; margin: 0 8px 8px 0; width: 172px; height: 52px; border: 1px solid #dae6ee; border-radius: 2px; font-size: 14px;}
+.e-lessonsList .el-list li .lessons-text{ display: inline-block; vertical-align: middle; width: 72px; height: 52px; line-height: 52px;}
+.e-lessonsList .el-list li .lessons-btn{ position: absolute; z-index: 2; right: 0; top: 0; cursor: pointer; width: 42px; height: 52px; *overflow: hidden; background: #189cfb; border-radius: 2px; color: #fff;}
+.e-lessonsList .el-list li .lessons-btn div{ display: table-cell; width: 42px; height: 52px; *height: 20px; *padding: 10px 0; vertical-align: middle; text-align: center;}
+.e-lessonsList .el-list li .lessons-mask{ display: none; position: absolute; left: 0; top: 0; width: 120px; height: 52px; border-radius: 2px; padding-left: 52px; background: rgba(0,0,0,.7); *background-color: #000; *opacity: .7; filter: alpha(opacity=70); line-height: 52px; color: #fff; font-size: 16px;}
+.e-lessonsList .el-list li.remove{ border: 1px solid #189cfb;}
+.e-lessonsList .el-list li .remove-btn{ margin: -1px -1px 0 0; background: #a6dafc; border: 1px solid #abc1d3;}
+.e-lessonsList .el-list li .h-set-icon{ margin: -5px auto 0 auto;}
+/*Ӣ���ͼ�б�*/
+.e-pictureList{ position: relative; overflow: hidden; *overflow: hidden; *zoom: 1; margin: 15px; height: 100px; line-height: 22px; font-size: 14px; color: #4e5656; border: 1px solid #dae6ee;}
+.e-pictureList .lPic{ float: left; width:132px; height: 98px;}
+.e-pictureList .lPic img{ width: 100%; height: 98px;}
+.e-pictureList .rInfo{ float: left; width: 460px; padding: 16px 20px;}
+.e-pictureList .rInfo .name{ width: 100%; overflow: hidden; *overflow: hidden; *zoom: 1; text-overflow: ellipsis; white-space: nowrap;}
+.e-pictureList .rInfo .count{ overflow: hidden; *overflow: hidden; *zoom: 1; color: #7f96a3;}
+.e-pictureList .rInfo .count .label{ float: left; padding: 0 16px 0 0;}
+.e-pictureList .rInfo .count .label:after{ display: inline-block; content: ""; width: 1px; height: 14px; background: #dae6ee; margin-left: 10px;}
+.e-pictureList .rInfo .count .last:after{ display: none;}
+.e-pictureList .remove{ background: #eef8ff;}
+.e-pictureList .h-btnGroup{ position: absolute; bottom: 0; right: 0;}
+.e-pictureSearch{ position: relative; z-index: 3; padding: 20px 0 5px 0;}
+.e-pictureSearch .ipt-name{ display: inline-block; vertical-align: middle; width: 108px; padding: 0 10px; border: 1px solid #dedede; background-color: #fff; height: 24px; line-height: 24px;}
+.e-pictureSearch .search-btn{ float: right; margin-right: 15px; width: 62px; height: 26px;}
+.e-pictureSearch .search-btn a{ display: block; background: #189cfb; color: #fff; font-size: 14px; text-align: center; line-height: 26px;}
+.e-pictureSearch .w-select .name{ margin-left: 10px; display: inline-block; vertical-align: middle;}
+.e-pictureSearch .w-select .current{ width: 114px; display: inline-block; vertical-align: middle; *display: inline; *zoom: 1;}
+.e-pictureSearch .w-select ul{ width: 128px; height: auto; right: 0; left: auto;}
+/*Ӣ��֪ʶ���б�*/
+.e-knowledgePoint{ margin: 0 15px; padding: 8px 8px 0px 8px; background: #f9fcfe;}
+.e-knowledgePoint .tips{ padding-bottom: 10px; font-size: 12px; color: #fdad00;}
+.e-knowledgePoint .kpBox{ height: 28px; overflow: hidden; padding: 10px 0; line-height: 14px;}
+.e-knowledgePoint .kpBox-show{ height: auto;}
+.e-knowledgePoint .kpList{ overflow: hidden; *overflow: hidden; *zoom: 1;}
+.e-knowledgePoint .kpList .left{ float: left; width: 55px; text-align: left;}
+.e-knowledgePoint .kpList .left .name{ display: inline-block; padding: 7px 0;}
+.e-knowledgePoint .kpList .right{ float: left; width: 660px; text-align: left;}
+.e-knowledgePoint .kpList .right .label{ cursor: pointer; display: inline-block; margin: 0 10px 10px 0; padding: 6px 10px; background: #e2f0fc; border: 1px solid #b8cee0;}
+.e-knowledgePoint .kpList .right .active{ background: #466785; color: #fff;}
+.e-knowledgePoint .kpMore{ cursor: pointer; padding: 10px 0; text-align: center; line-height: 20px;}
+.e-knowledgePoint .kpMore span{ display: inline-block; vertical-align: middle;}
+
+.h-homeworkPreview .h2-title{ padding: 14px; font-size: 18px; color: #4e5656;}
+.h-homeworkPreview .hPreview-main{ margin: 0 0 15px 0; border-top: 1px solid #dae6ee;}
+.h-homeworkPreview .hPreview-main .hp-title{ padding: 12px; background: #edf5fa;}
+.h-homeworkPreview .testPaper-info{ position: relative; width: 100%; padding: 15px 0; text-align: center; font-size: 14px;}
+.h-homeworkPreview .testPaper-info .title{ font-size: 18px; font-weight: bold; margin-bottom: 5px;}
+.h-homeworkPreview .testPaper-info .h-btnGroup{ position: absolute; right: 15px; top: 15px;}
+.h-homeworkPreview .testPaper-info .h-btnGroup a.btn{ width: auto; padding: 0 15px;}
+.h-homeworkPreview .seth-mn{ position: relative;}
+.h-homeworkPreview .seth-mn .h-btnGroup{ position: absolute; right: 0; bottom: 0;}
+/*�����*/
+.h-topicPackage{ position: relative; width: 770px; margin-bottom: 20px;}
+.h-topicPackage .line{ position: relative; z-index: 1; margin-top: -1px; width: 100%; height: 1px; line-height: 1px; overflow: hidden; background: #dae6ee;}
+.h-topicPackage .topicBox{ position: relative; z-index: 3; margin: 0 auto; width: 738px; height: 82px; padding: 20px 0; overflow: hidden;}
+.h-topicPackage .topicBox ul{ width: 100%; height: 82px;}
+.h-topicPackage .topicBox ul:after{ display: block; content: ""; clear: both; width: 0; height: 0; line-height: 0; overflow: hidden;}
+.h-topicPackage .topicBox li{ float: left; cursor: pointer; position: relative; margin: 0 10px 20px 0; width: 164px; height: 40px; background: #ffffff; padding: 20px 15px; border: 1px solid #dae6ee;}
+.h-topicPackage .topicBox li p{ width: 100%; height: 44px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: #4e5656;}
+.h-topicPackage .topicBox li .triggle-icon{ position: absolute; z-index: 3; bottom: -21px; _bottom: -31px; left: 50%; margin-left: -7px; display: inline-block; width: 14px; height: 6px; background: url("../images/topicPackage-triggle.png") no-repeat;}
+.h-topicPackage .topicBox li .label{ color: #189cfb;}
+.h-topicPackage .topicBox li .state{ position: absolute; right: 0; bottom: 0; display: inline-block; overflow: hidden; width: 25px; height: 35px; padding-left: 11px; background: url("../images/topicPackage-label.png") no-repeat; background-position: 0 -120px; line-height: 52px; text-align: center; font-size: 10px; color: #fff;}
+.h-topicPackage .topicBox li.active{  background: #f5fbff; border-color: #189cfb;}
+.h-topicPackage .topicBox li.active .state{ background-position: 0 0;}
+.h-topicPackage .topicBox li.hover{ border-color: #189cfb;}
+.h-topicPackage .topicBox li.used .label{ color: #fa7252;}
+.h-topicPackage .topicBox li.used .state{  background-position: 0 -58px;}
+.h-topicPackage .arrow{ position: relative; cursor: pointer; width: 16px; height: 82px; background: #e1f0fc;}
+.h-topicPackage .disabled{ background: #eee;}
+.h-topicPackage .arrow-l{ position: absolute; left: 0; top: 20px;}
+.h-topicPackage .arrow-r{ position: absolute; right: 0; top: 20px;}
+.h-topicPackage .arrow .icon{ position: absolute; top: 50%; left: 4px; margin-top: -9px; display: inline-block; width: 8px; height: 18px; background: url("../images/h-arrow.png") no-repeat;}
+.h-topicPackage .arrow-l .icon{ background-position: 0 0;}
+.h-topicPackage .arrow-r .icon{ background-position: -29px 0;}
+/*2016-07-04*/
+.homeCode-flayer{position:fixed;z-index:101;top:420px;right:0px;width:160px;height:150px;padding:10px;font-size:14px;color:#4e5656}
+.homeCode-flayer .code{margin:0 auto 10px auto;width:100px;height:100px}
+.homeCode-flayer .code img{width:100px;height:100px}
+.homeCode-flayer .tips{width:100%;text-align:center;line-height:18px}

@@ -1,0 +1,27 @@
+
+.icon{ width:320px; height:300px; display: inline-block; background-repeat:no-repeat; background-position:center center; vertical-align:middle;}
+.icon.s1{ background-image:url(../images/in_2.png);}
+.icon.s2{ background-image:url(../images/in_4.png);}
+.icon.s3{ background-image:url(../images/in_5.png?1.0.1);}
+.icon.s4{ background-image:url(../images/in_6.png?1.0.1); width:55px; height:55px;}
+/**/
+.postnAbs{ position:absolute; display:block; overflow:hidden; text-indent:-1000px; outline:none; }
+.main {  margin:0 30px;}
+.main .bot{ clear:both; height:50px;}
+.leftBox{ float:left;}
+.rightBox{ float:right;}
+.tableall{ width:540px; padding:50px 0 0;}
+.tableall h4{ clear:both; width:100%; font: bold 22px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#333; padding:10px 0;}
+.tableall h4 span.l{ float:left; display:block; font:35px/1.125 arial; color:#ff9000; margin:-20px 0 0;}
+.tableall h4 span.r{ float:right;}
+.tableall h4 span .t{ font:14px/1.125 arial; color:#999;}
+.tableall h4 .b{ color:#00c0ff;}
+.tableall table{ width:100%; border-collapse:collapse; clear:both;}
+.tableall table td,.tableall table th{ border-bottom:solid 1px #ebebeb; padding:8px 15px;color:#666;}
+.tableall table thead td,.tableall table thead th{ background:#ebebeb; font:bold 12px/1.125 Arial;}
+.tableall table thead th,.tableall table tbody th{ text-align:center;}
+.tableall table tbody td,.tableall table tbody th{ word-break:break-all; word-wrap:break-word;}
+.tableall table tr.even td,.tableall table tr.even th{ background:#fafafa;}
+.tableall .content { color:#999;}
+.tableall .content p{ padding: 5px; line-height:20px;}
+.bottomLine{ background:url(../images/in_3.png) no-repeat center center; width:100%; height:50px; clear:both;}

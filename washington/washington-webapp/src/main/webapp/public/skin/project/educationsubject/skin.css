@@ -1,0 +1,91 @@
+/*
+*命名规范：例（.main_...）
+*/
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, input, dl, dt, dd{padding: 0; margin: 0;}
+html, body{ width: 100%; }
+body{ height: 100%;}
+html, body, input{font: 12px/140% "微软雅黑", regular; color: #464646; }
+ul, li{ list-style: none; }
+a, input{ outline: none;}
+a{ text-decoration: none; color: #6691fe; }
+.w-clear {clear: both; font: 0/0 ""; height: 1px; overflow: hidden; width: 100%;}
+.subject-head-banner, .subject-head-banner .subject-inner{ background:url(clazz-bannner-v2new.jpg) no-repeat center 0; width: 100%; height: 397px; }
+.subject-head-banner .subject-inner{ width: 980px; margin: 0 auto;}
+.subject-inner{ width: 980px!important; margin: 0 auto; position: relative; z-index: 111;}
+.subject-wj-logo{ background: url(fw-logo.png?1.0.1) no-repeat 0 0; width:185px; height: 44px; position: absolute; top: -47px; left: 0; border-right: 1px solid #ddd; }
+.subject-wj-logo a{ width: 100%; height: 100%; display: block;}
+.special-header .logo{  *display:inline;}
+/*subject-head-banner*/
+.subject-navBar-list {background-color: #323543; height: 70px;}
+.subject-navBar-list ul {margin: 0 auto; width: 980px; overflow: hidden; *zoom: 1;}
+.subject-navBar-list ul li {float: left; }
+.subject-navBar-list ul li a {color: #fff;display: inline-block; font: 24px/70px "微软雅黑"; height: 70px; width: 196px; text-align: center;}
+.subject-navBar-list ul li a:hover {background-color: #222530}
+.subject-navBar-list ul li.active a{background-color: #1cb3fc !important;}
+.subject-navBar-list-popup{ position: fixed; width: 100%; z-index: 120; top: 0; left: 0; _position: absolute; _top: expression(documentElement.scrollTop);}
+/*subject-introduction-box*/
+.subject-introduction-box{ background-color: #c9baab; padding: 50px 0;}
+.subject-introduction-box .sub-in-box{}
+.subject-introduction-box .sub-in-box dl{ position: relative;}
+.subject-introduction-box .sub-in-box dl dt{ float: left; width: 110px; background: url(clazz-info-tips.jpg) no-repeat 0 0; height: 280px;}
+.subject-introduction-box .sub-in-box dl dd{ margin-left: 110px; background-color: #fff; height: 280px; overflow: hidden; *zoom: 1;}
+.subject-introduction-box .sub-in-box dl dd p{ font-size: 16px; color: #323543; line-height: 28px;}
+.subject-introduction-box .sub-in-box dl dd p.about{ font-size: 12px; color: #666; margin-top: 30px;}
+.subject-introduction-box .sub-in-box dl dd p.about a:hover{ text-decoration: underline;}
+.subject-introduction-box .sub-in-box dl dd .sub-font{ margin: 40px 0 0 40px; width: 585px;}
+.subject-introduction-box .sub-in-box dl dd.pr{ position: absolute; left: 765px; _left: 670px; top: 0; margin-left: 0!important; width: 178px;}
+.subject-introduction-box .sub-in-box dl dd.pr .sub-font{ margin: 40px 40px 0 0; width: 178px;}
+.subject-introduction-box .sub-in-box dl dd .sub-font .c-title{ font-size: 24px; color: #1cb3fc; padding-bottom: 18px;}
+.subject-introduction-box .sub-in-box dl dd .sub-font .more-btn{ font-size: 16px; color: #fff; background-color: #1cb3fc; padding: 4px 10px;}
+/*subject-personal-box*/
+.subject-personal-box{ background-color: #eee; padding: 50px 0;}
+.subject-personal-box .subject-inner{ position: relative; }
+.subject-personal-box .subject-inner .slide-info-box{ background: url(clazz-person.jpg) no-repeat 0 0; width: 110px; height: 540px; position: absolute; top: 0; right: 0;}
+.subject-personal-box .sub-person{ width: 870px; overflow: hidden; *zoom: 1;}
+.subject-personal-box .sub-person dl{ width: 405px; float: left; margin: 0 30px 30px 0; background-color: #fff; }
+.subject-personal-box .sub-person dl dt{ width: 140px; float: left; height: 160px;}
+.subject-personal-box .sub-person dl dd{ margin-left: 155px; padding: 20px 30px 0 0;}
+.subject-personal-box .sub-person dl dd p.title{ font-size: 18px; color: #1cb3fc;}
+.subject-personal-box .sub-person dl dd p.more{ font-size: 14px; color: #323543;}
+.subject-personal-box .sub-person dl dd p{ padding-bottom: 10px; font-size: 12px; color: #a1a1a1;}
+/*subject-before-box*/
+.subject-before-box{ background: url(clazz-intruduce-tips.jpg) no-repeat center 0; height: 421px; width: 100%;}
+.subject-before-box .sub-in-box dl dt{ width: 110px; background: url(clazz-info-before.jpg) no-repeat 0 0; height: 420px;}
+.subject-before-box .sub-in-box dl dd{ height: 420px; background: none;}
+.subject-before-box .sub-in-box dl dd .sub-font{ margin: 0 0 20px 38px; width: auto;}
+.subject-before-box .sub-in-box dl dd .sub-font .sf .pf{ font-size: 24px; color: #323543;}
+.subject-before-box .sub-in-box dl dd .sub-font .sf .pfe{ font-size: 20px; color: #636572; padding: 5px 0;}
+.subject-before-box .sub-in-box dl dd .sub-font .sf .pf span{ font-size: 16px;}
+.subject-before-box .sub-in-box dl dd .sub-font .sf p{ font-size: 14px; color: #636572;}
+.special-footer, .special-footer .m-inner{ background-color: #323543; border: 0;}
+.special-footer .link{ display: none;}
+.special-footer .copyright, .special-footer .m-foot-link .m-code .c-title, .special-footer .m-foot-link a, .special-footer .m-foot-link a:hover, .special-footer .m-service .c-title{ color: #fff;}
+/*subject-active-box*/
+.subject-active-box{ background: none;}
+.subject-active-box .sub-in-box dl dt{ background: url(clazz-info-active.jpg) no-repeat 0 0;}
+.new-switch-box{position: relative; margin-left: 30px; height: 420px; *zoom: 1; overflow: hidden;}
+.new-switch-box .new-switch-content{ overflow: hidden; *zoom: 1; width: 660px;}
+.new-switch-box .new-switch-content .ns-box{width: 660px; height: 420px; position: relative; float: left;}
+.new-switch-box .new-switch-content .ns-box a img{width: 660px; height: 420px;}
+.new-switch-box .new-switch-content .ns-box .cz-title{ position: absolute; width: 660px; bottom: 0; left: 0; height: 100px; background-color: #0a0d14; filter:alpha(opacity=70); opacity:0.7;  color: #fff;}
+.new-switch-box .new-switch-content .ns-box .cz-title p{ color: #fff; font-size: 14px; line-height: 26px; margin: 0 0 0 25px;}
+.new-switch-box .new-switch-content .ns-box .cz-title h4{ font-size: 18px; margin: 15px 0 10px 25px;}
+.new-switch-box .new-switch-list{ position: absolute; right: 0; top: 0; width: 173px; height: 420px;}
+.new-switch-box .new-switch-list li{  height: 94px; margin-bottom: 16px; width: 173px;}
+.new-switch-box .new-switch-list li.active a{ background: url(img-bg.png) no-repeat 0 0; height: 94px;}
+.new-switch-box .new-switch-list li.active a img{ margin:2px 1px 3px 12px; }
+.new-switch-box .new-switch-list li a{ display: inline-block; text-align: center; width: 173px;}
+.new-switch-box .new-switch-list li a img{ width: 158px; height: 90px; display: block; margin-left: 12px;}
+.subject-application-process, .subject-application-process .subject-inner{ background: url(unload-v2new.jpg) no-repeat center 0; width: 100%; height: 844px;}
+.apply-now-btn{ width: 220px; height: 75px; position: absolute; bottom: 50px; left: 0;}
+.download-clazz-btn{ width: 160px; height: 45px; position: absolute; top: 160px; left: 214px;}
+.download-test-btn{ width: 182px; height: 45px; position: absolute; top: 160px; right: 270px;}
+/*subject-topic-content*/
+.subject-conHead-banner{ background: url(clazz-explain.jpg?1.0.1) no-repeat center 0; width: 100%; height: 141px; }
+.subject-topic-content{ font-size: 14px;color: #323543;line-height: 180%; padding-bottom: 80px;}
+.subject-topic-content .st-topic-font{ padding-top: 25px;}
+.subject-topic-content .st-topic-font h2{ font-size: 36px; color: #323543; padding: 20px 0 30px 0; font-weight: normal;}
+.subject-topic-content .st-topic-font h3{color: #1cb3fc; padding: 6px 0;font-weight: normal;}
+.subject-topic-content .st-topic-font div.tf strong{ color: #323543;}
+.subject-topic-content .st-topic-font p{ text-indent: 2em; line-height: 180%;}
+.subject-topic-content .st-topic-font p.pl{ text-align: center; padding: 40px 0;}

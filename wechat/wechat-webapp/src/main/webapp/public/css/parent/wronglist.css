@@ -1,0 +1,12 @@
+/*wrong-topic*/
+.wrong-topic{ width: 100%; background: #eff2f6;}
+.wrong-topic .wt-list li{ padding: 0 30px; border-bottom: 1px solid #d3d8df;}
+.wrong-topic .wt-list li .list-inner{ border-left: 4px solid #b5bbc3; padding: 10px 0;}
+.wrong-topic .wt-list h3{ font-size: 26px; color: #adb3b5; text-align: left; position: relative; padding: 20px 0 0 25px;}
+.wrong-topic .wt-list h3 i{ display: inline-block; width: 24px; height: 24px; background: url(../../images/parent/homework/icon.png) -3px -70px no-repeat; position: absolute; left: -14px;}
+.wrong-topic .wt-list .list-info a{ display: block; border-bottom: 1px dashed #c7c6c6;}
+.wrong-topic .wt-list .list-info a:last-child{ border-bottom: 0;}
+.wrong-topic .wt-list .list-info li{ padding: 40px 0; border-bottom: 0;}
+.wrong-topic .wt-list .list-info li .type{ width: 170px; display: inline-block; padding-left: 30px; font-size: 26px; color: #4E5656;}
+.wrong-topic .wt-list .list-info li .num{ padding: 1px 12px; border-radius: 25px; font-size: 18px; color: #fff; background: #c7c6c6;}
+.wrong-topic .wt-list .list-info li .arrow-icon{ display: block; float: right; width: 26px; height: 26px; background: url(../../images/parent/homework/icon.png) 0 -4px no-repeat;}

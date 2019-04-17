@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="agentGroupRegionServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentGroupRegionServiceClient"/>
+    <bean id="agentGroupServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentGroupServiceClient"/>
+    <bean id="agentGroupUserServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentGroupUserServiceClient"/>
+    <bean id="agentUserSchoolServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentUserSchoolServiceClient"/>
+    <bean id="agentUserServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentUserServiceClient"/>
+    <bean id="agentModifyDictSchoolApplyServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentModifyDictSchoolApplyServiceClient"/>
+    <bean id="agentOrderServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentOrderServiceClient"/>
+    <bean id="agentProductFeedbackServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentProductFeedbackServiceClient"/>
+    <bean id="crmProductFeedbackRecordServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.crm.CrmProductFeedbackRecordServiceClient"/>
+    <bean id="crmAppPushServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.crm.CrmAppPushServiceClient"/>
+    <bean id="crmSimilarSchoolServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.CrmSimilarSchoolServiceClient"/>
+    <bean id="crmWechatMessageServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.crm.CrmWechatMessageServiceClient"/>
+    <bean id="dataReportApplyServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.DataReportApplyServiceClient"/>
+    <bean id="agentGroupSchoolServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentGroupSchoolServiceClient"/>
+    <bean id="crmWorkRecordServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.CrmWorkRecordServiceClient"/>
+    <bean id="crmTeacherClueServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.crm.CrmTeacherClueServiceClient"/>
+
+    <bean id="agentGroupLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentGroupLoaderClient"/>
+    <bean id="agentGroupRegionLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentGroupRegionLoaderClient"/>
+    <bean id="agentGroupUserLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentGroupUserLoaderClient"/>
+    <bean id="agentUserLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentUserLoaderClient"/>
+    <bean id="agentUserSchoolLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentUserSchoolLoaderClient"/>
+    <bean id="agentOrgLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentOrgLoaderClient"/>
+    <bean id="teacherAgentLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.TeacherAgentLoaderClient"/>
+    <bean id="crmAppPushLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.crm.CrmAppPushLoaderClient"/>
+    <bean id="agentModifyDictSchoolApplyLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentModifyDictSchoolApplyLoaderClient"/>
+    <bean id="applyManagementLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.ApplyManagementLoaderClient"/>
+    <bean id="agentOrderLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentOrderLoaderClient"/>
+    <bean id="agentProductFeedbackLoadClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentProductFeedbackLoadClient"/>
+    <bean id="crmProductFeedbackRecordLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.crm.CrmProductFeedbackRecordLoaderClient"/>
+    <bean id="crmWechatMessageLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.crm.CrmWechatMessageLoaderClient"/>
+    <bean id="dataReportApplyLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.DataReportApplyLoaderClient"/>
+    <bean id="agentGroupSchoolLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentGroupSchoolLoaderClient"/>
+    <bean id="crmWorkRecordLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.CrmWorkRecordLoaderClient"/>
+    <bean id="crmTeacherClueLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.crm.CrmTeacherClueLoaderClient"/>
+
+    <bean id="importKLXStudentsRecordLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.ImportKLXStudentsRecordLoaderClient"/>
+    <bean id="unifiedExamApplyServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.UnifiedExamApplyServiceClient"/>
+    <bean id="unifiedExamApplyLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.UnifiedExamApplyLoaderClient"/>
+    <bean id="agentDictSchoolLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentDictSchoolLoaderClient"/>
+    <bean id="agentSchoolBudgetLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentSchoolBudgetLoaderClient"/>
+    <bean id="agentPerformanceGoalLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentPerformanceGoalLoaderClient"/>
+    <bean id="agentPerformanceServiceRecordLoderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.AgentPerformanceServiceRecordLoderClient"/>
+
+    <bean id="com.voxlearning.utopia.service.crm.client.AdminAppSystemServiceClient" class="com.voxlearning.utopia.service.crm.client.AdminAppSystemServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.client.AdminLogServiceClient" class="com.voxlearning.utopia.service.crm.client.AdminLogServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.client.AdminRoleServiceClient" class="com.voxlearning.utopia.service.crm.client.AdminRoleServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.client.AdminUserServiceClient" class="com.voxlearning.utopia.service.crm.client.AdminUserServiceClient"/>
+    <bean id="agentDictSchoolServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentDictSchoolServiceClient"/>
+    <bean id="agentSchoolBudgetServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentSchoolBudgetServiceClient"/>
+    <bean id="crmSchoolExtInfoCheckServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.crm.CrmSchoolExtInfoCheckServiceClient"/>
+    <bean id="agentPerformanceGoalServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentPerformanceGoalServiceClient"/>
+    <bean id="agentPerformanceServiceRecordServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.AgentPerformanceServiceRecordServiceClient"/>
+
+    <bean id="com.voxlearning.utopia.service.user.consumer.CrmSummaryLoaderClient" class="com.voxlearning.utopia.service.user.consumer.CrmSummaryLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.user.consumer.CrmSummaryServiceClient" class="com.voxlearning.utopia.service.user.consumer.CrmSummaryServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.client.ActivityConfigServiceClient" class="com.voxlearning.utopia.service.crm.client.ActivityConfigServiceClient"/>
+
+    <bean id="com.voxlearning.utopia.service.crm.client.QiYuMobileRecordServiceClient" class="com.voxlearning.utopia.service.crm.client.QiYuMobileRecordServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.client.QiYuSessionRecordServiceClient" class="com.voxlearning.utopia.service.crm.client.QiYuSessionRecordServiceClient"/>
+
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.evaluate.EvaluateRecordLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.evaluate.EvaluationRecordLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.signin.SignInRecordLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.signin.SignInRecordLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordAccompanyLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordAccompanyLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordMeetingLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordMeetingLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordOuterResourceLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordOuterResourceLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordResourceExtensionLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordResourceExtensionLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordSchoolLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordSchoolLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordTeacherLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkRecordTeacherLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkSupporterLoaderClient" class="com.voxlearning.utopia.service.crm.consumer.loader.agent.work.WorkSupporterLoaderClient"/>
+
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.evaluate.EvaluateRecordServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.evaluate.EvaluationRecordServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.signin.SignInRecordServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.signin.SignInRecordServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordAccompanyServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordAccompanyServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordMeetingServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordMeetingServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordOuterResourceServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordOuterResourceServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordResourceExtensionServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordResourceExtensionServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordSchoolServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordSchoolServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordTeacherServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkRecordTeacherServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkSupporterServiceClient" class="com.voxlearning.utopia.service.crm.consumer.service.agent.work.WorkSupporterServiceClient"/>
+
+</beans>

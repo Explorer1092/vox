@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2015 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!--&lt;!&ndash; 要调用的工作类 &ndash;&gt;
+    <bean id="quartzJob" class="com.voxlearning.utopia.agent.job.CalSalaryJob"></bean>
+    &lt;!&ndash; 定义调用对象和调用对象的方法 &ndash;&gt;
+    <bean id="jobtask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        &lt;!&ndash; 调用的类 &ndash;&gt;
+        <property name="targetObject">
+            <ref bean="quartzJob"/>
+        </property>
+        &lt;!&ndash; 调用类中的方法 &ndash;&gt;
+        <property name="targetMethod">
+            <value>execute</value>
+        </property>
+    </bean>
+    &lt;!&ndash; 定义触发时间 &ndash;&gt;
+    <bean id="doTime" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail">
+            <ref bean="jobtask"/>
+        </property>
+        &lt;!&ndash; cron表达式 &ndash;&gt;
+        <property name="cronExpression">
+            &lt;!&ndash; <value>*/30 * * * * ?</value> &ndash;&gt;
+
+            &lt;!&ndash;每天早上4点跑任务 &ndash;&gt;
+            <value>0 0 4 * * ?</value>
+
+        </property>
+    </bean>
+    &lt;!&ndash; 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序  &ndash;&gt;
+    <bean id="startQuertz" lazy-init="false" autowire="no"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="doTime"/>
+            </list>
+        </property>
+    </bean>-->
+</beans>

@@ -1,0 +1,16 @@
+/*popup - box*/
+div.jqi{ border-radius: 5px; padding: 0; border: none; font: 14px/100% "微软雅黑", "Microsoft YaHei", arial;}
+div.jqi .jqiclose { font-size: 28px; font-weight: normal; color: #000; border-left: 1px solid #dae6ee; padding: 0; height: 46px; line-height: 40px; width: 46px; text-align: center; position: absolute; top: 0; right: 0; _line-height: 48px; overflow: hidden; z-index: auto;}
+div.jqi .jqistates{ float: none;}
+div.jqi .jqititle { color: #383a4b; padding: 13px 0 13px 20px; font-size:18px; border-color: #dae6ee;}
+div.jqi .jqimessage{ margin: 40px 20px 20px; padding: 0;}
+div.jqi .jqimessage .w-ag-center{ word-break: break-all;}
+div.jqi .jqimessage .jqicontent{ margin: 40px 20px; clear: both; line-height: 180%;}
+div.jqi .jqibuttons{ border: none; background: none; text-align: center; padding: 20px 0 30px;}
+div.jqiwarning div.jqi .jqibuttons{background-color: transparent;}
+div.jqi .jqibuttons button{ background-color: #1abc9c; color: #fff; display: inline-block; padding: 12px 35px; _padding: 12px 10px; border: 1px solid #08977b; border-radius: 4px; text-decoration: none; text-align: center; font: 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial; vertical-align: middle; outline: none; cursor: pointer;}
+div.jqi .jqibuttons button:hover{background-color: #16b495; color: #fff;}
+div.jqi .jqibuttons button:active{background-color: #10ac8d;}
+div.jqi .jqibuttons .jqidefaultbutton{ background-color: #189cfb; border: 1px solid #0979ca; border-radius: 4px;}
+div.jqi .jqibuttons .jqidefaultbutton:hover{ background-color: #52b4fb;}
+.jqi-default-btn{ cursor: default !important;}

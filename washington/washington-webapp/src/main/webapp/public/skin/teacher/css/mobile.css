@@ -1,0 +1,45 @@
+/*original*/
+html, body{ font-size: 16px !important;}
+.section { margin:0 30px 0 150px; overflow: inherit; width: auto;}
+.section .articleSide{ width: auto; float: none; }
+.homeWorkExtBox{ width: auto; float: none; }
+.clazzDynamic{ width: auto; float: none; clear: both; }
+.blackboardBox{ width: auto;}
+.bookListBox_1 dd,.questionsListBox dd,.homeWorkUfo .ufoInline{ width: auto; min-width: 100%;}
+.tagListBox p a{ font-size: 16px;}
+.btn_mark_small strong, .message_page_list a, .sysmsg dt .title, .bookCoverBox h5{ font-size: 14px;}
+/*mobile*/
+.mobile_side .m_icon{ width:32px; height:32px; background:url(../images/mobile/m_icon.png) no-repeat -5000px -5000px; display: inline-block; margin:0 5px; vertical-align: middle;}
+.mobile_side .m_icon_1{ background-position: 0 0;}
+.mobile_side .m_icon_2{ background-position: -51px 0;}
+.mobile_side .m_icon_3{ background-position: -101px 0;}
+.mobile_side .m_icon_4{ background-position: -152px 0;}
+.mobile_side .m_icon_5{ background-position: -202px 0;}
+.mobile_side .m_icon_6{ background-position: -253px 0;}
+.mobile_side .m_icon_7{ background-position: 2px -41px;}
+.mobile_side .m_icon_8{ background-position: -44px -41px;}
+.mobile_side .m_icon_9{ background-position: -301px 0;}
+/*side*/
+.mobile_side{ background-color:#5c8afe; width:117px; height:100%; border:solid #215ffc; border-width: 0 1px ; position: fixed; z-index:3; top:0;  font:18px/1.125 "Droid Sans Fallback";}
+.mobile_side .logo{ background:url(../images/mobile/m_logo.png) no-repeat; height:63px; border-bottom:2px solid #2c5ddc; box-shadow: 0 1px 5px #7da1fe;}
+.mobile_side .logo a{ width:100%; height:100%; display:block;}
+.mobile_side .indiv_info{border-bottom:1px solid #2c5ddc; box-shadow: 0 1px 0 #7da1fe; height:100px; position:relative;}
+.mobile_side .indiv_info .info_box{ padding:12px 0 0; position:absolute; top:0; left:0; width:118px;}
+.mobile_side .indiv_info .active{ border:3px solid #ccc; border-right:none; height:82px; background-color:#fff;}
+.mobile_side .indiv_info .info_box .avatar{ display:block; background:url(../images/mobile/m_avatar.png) no-repeat; width:74px; height:76px; margin:0 auto; padding: 6px 0 0 7px;}
+.mobile_side .indiv_info .info_box .avatar img{ width:60px; height:60px;}
+.mobile_side .indiv_info .info_box .menu{ display:none; padding:5px; width:320px;}
+.mobile_side .indiv_info .info_box .menu .info{ background-color:#edecec; padding:10px; text-align:center;}
+.mobile_side .indiv_info .info_box .menu .info { color:#666; line-height:200%;}
+.mobile_side .indiv_info .info_box .menu .info .name{ border-bottom:1px solid #ccc; padding:0 0 5px; margin:0 0 5px; color:#333;}
+.mobile_side .indiv_info .info_box .menu .link{ text-align:center;}
+.mobile_side .indiv_info .info_box .menu .link a{ display:inline-block; margin:10px; color:#666;}
+.mobile_side .indiv_info .active .menu{display:block; background-color:#fff; border:3px solid #ccc; position:absolute; top:-3px; left:115px; z-index:-1; box-shadow: 0 1px 5px #aaa;}
+.mobile_side .main_nav a{ color:#fff; display:block; text-align:center; padding:20px 0; border-bottom:1px solid #2c5ddc; box-shadow: 0 1px 0 #7da1fe; position:relative;}
+.mobile_side .main_nav a .arrow{ display:none;}
+.mobile_side .main_nav a strong{ display: inline-block; vertical-align: middle;}
+.mobile_side .main_nav a.active{ background-color:#3f6ee5;}
+.mobile_side .main_nav a.active .arrow{ display: block; position:absolute; color:#f9f9f9; font:50px/1.125 "Droid Sans Fallback"; right:-1px; top:10px; width: 15px; overflow: hidden;}
+.mobile_side .aid_nav{ padding:10px 0 0;}
+.mobile_side .aid_nav a{ color:#fff; display:block; text-align:center; padding:5px 0;}
+.mobile_home_banner{ width: auto;}

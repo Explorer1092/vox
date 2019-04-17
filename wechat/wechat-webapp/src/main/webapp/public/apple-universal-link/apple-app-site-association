@@ -1,0 +1,91 @@
+{
+	"applinks": {
+		"apps"    : [],
+		"details" : [
+			{
+				"appID": "Y5M3NQEF2X.com.17zuoye.homework",
+				"paths": ["/s/student/*","/"]
+			},
+			{
+				"appID": "BHP6Y47TXF.com.17zuoye.homework1",
+				"paths": ["/s/student/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.homework",
+				"paths": ["/s/student/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.17zuoye.zjt",
+				"paths": ["/j/jzt/*","/"]
+			},
+			{
+				"appID": "VGZ5HSBHWT.com.17zuoye.jzt.a",
+				"paths": ["/j/jzt/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.jzt",
+				"paths": [ "/j/jzt/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.17zuoye.teacherClient",
+				"paths": ["/t/teacher/*","/"]
+			},
+			{
+				"appID": "VGZ5HSBHWT.com.17zuoye.teacherClient.a",
+				"paths": ["/t/teacher/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.teacherClient",
+				"paths": [ "/t/teacher/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.shensz.ssz-teacher",
+				"paths": [ "/mst/msteacher/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.shensz.ssz-teacher-dev",
+				"paths": [ "/mst/msteacher/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.shensz.ssz-student",
+				"paths": [ "/mss/msstudent/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.shensz.ssz-student-dev",
+				"paths": [ "/mss/msstudent/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.shensz.ssz-parent",
+				"paths": [ "/msp/msparent/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.shensz.ssz-parent-dev",
+				"paths": [ "/msp/msparent/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.17xue.17xue",
+				"paths": [ "/zb/yke/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.17xue.17xue",
+				"paths": [ "/zb/yke/*","/"]
+			},
+			{
+				"appID": "Y5M3NQEF2X.com.17xue.teacher",
+				"paths": [ "/zb/teacher/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.17xue.teacher",
+				"paths": [ "/zb/teacher/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.Market",
+				"paths": [ "/market/phecda/*","/"]
+			},
+			{
+				"appID": "KW39Y2BN9G.com.test.Market-dev",
+				"paths": [ "/market/phecda/*","/"]
+			}
+		]
+	}
+}

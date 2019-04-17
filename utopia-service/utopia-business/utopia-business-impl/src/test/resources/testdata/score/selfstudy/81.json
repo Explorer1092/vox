@@ -1,0 +1,63 @@
+{
+    "totalScore": 100,
+    "totalTime": 35854,
+    "version": "1.0.0.1",
+    "param": {
+        "userId": 30046,
+        "studyType": "selfstudy",
+        "gameType": 81,
+        "bookId": 878,
+        "unitId": 879,
+        "lessonId": 8790001
+    },
+    "sentence": [
+        {
+            "duration": 1882,
+            "sentenceId": "87900010001001",
+            "correct": true,
+            "isDo": true,
+            "content": "hello",
+            "score": 16
+        },
+        {
+            "duration": 1260,
+            "sentenceId": "87900010001002",
+            "correct": true,
+            "isDo": true,
+            "content": "I",
+            "score": 16
+        },
+        {
+            "duration": 1435,
+            "sentenceId": "87900010001003",
+            "correct": true,
+            "isDo": true,
+            "content": "nice",
+            "score": 16
+        },
+        {
+            "duration": 1258,
+            "sentenceId": "87900010001004",
+            "correct": true,
+            "isDo": true,
+            "content": "meet",
+            "score": 16
+        },
+        {
+            "duration": 1344,
+            "sentenceId": "87900010001005",
+            "correct": true,
+            "isDo": true,
+            "content": "you",
+            "score": 16
+        },
+        {
+            "duration": 2346,
+            "sentenceId": "87900010001006",
+            "correct": true,
+            "isDo": true,
+            "content": "too",
+            "score": 16
+        }
+    ]
+}

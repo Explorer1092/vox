@@ -1,0 +1,28 @@
+html, body{ background-color: #ebe9e4;}
+.main{ background-color: #fff; width: 1000px; margin: 15px auto 0; clear: both;}
+.main .banner{ background: url(kp_1.png) no-repeat center 0; height: 120px; text-indent: -5000px; width: 100%; border-bottom: 5px solid #0088ea;}
+.main .content { margin: 0 60px;}
+.main .content h1{ font-size: 18px; color: #189cfb; padding: 40px 0;}
+.bind-fun-box{ margin-bottom: 30px;}
+.bind-fun-box dl{ overflow: hidden; _zoom: 1;}
+.bind-fun-box dt{ font-size: 20px; color: #383a4c; margin-bottom: 20px; line-height: 120%; font-weight: bold;}
+.bind-fun-box dd{ font-size: 16px; color: #667284; line-height: 26px; margin-bottom: 20px; clear: both;}
+.bind-fun-box dd span{ width: 26px; height: 26px; display: inline-block; vertical-align: middle; line-height: 26px; text-align: center; background-color: #189cfb; color: #fff; font-size: 20px; border-radius: 100px; margin-right: 10px;}
+.bind-fun-box .bindCode{ float: right; padding: 15px 150px 0 0; width: 220px;}
+.bind-fun-box .bindCode p{ line-height: 50px; color: #494751;}
+.bind-fun-box .bindCode .code{ width: 144px; height: 144px; background-color: #f8f8f8; margin: 0 auto; text-align: center; line-height: 144px;}
+/*bind-reward-box*/
+.bind-reward-box{}
+.bind-reward-box dd { line-height: 20px;}
+.bind-reward-box dd span{ background: none; color:#189cfb; line-height: 18px; }
+.bind-reward-box .bindReward { background: url(kp_2.png) no-repeat; width: 450px; height: 143px; float: right; margin: 40px 0 0;}
+/*bind-reward-box*/
+.bind-reward-box{ padding-bottom: 40px;}
+.bind-reward-box h4{ font-size: 20px; color: #383a4c; margin-bottom: 20px; line-height: 120%;}
+.bind-reward-box ul{ overflow: hidden; height: 100%; border: 1px dashed #bfbfbf; background-color: #f6f6f6; padding: 15px;}
+.bind-reward-box li{ float: left; font-size: 16px; color: #667284; line-height: 26px; width: 200px;}
+.bind-reward-box li span{ width: 26px; height: 26px; display: inline-block; vertical-align: middle; line-height: 26px; text-align: center; background-color: #189cfb; color: #fff; font-size: 20px; border-radius: 100px; margin-right: 10px;}
+
+
+.bind-fun-box .bindCode{ float: none; padding: 15px 0 0; width: auto;}
+.bind-fun-box .bindCode p{ text-align: center;}

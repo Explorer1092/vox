@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+<title>一起教育科技</title>
+<style>
+html, body { background-color: #f1f1f1; }
+html, body, p, h1 { padding: 0; margin: 0; }
+a { outline: none; blr:expression(this.onFocus=this.blur()); text-decoration:none;}
+.header { background: url(//cdn.17zuoye.com/static/error/images/head.png) repeat-x 0 0; height: 100px; }
+.header p { margin: 0 auto; width: 960px; }
+.header .logo { width: 160px; height: 60px; background: url(//cdn.17zuoye.com/static/error/images/logo.png) no-repeat 0 0; display: block; }
+.section { background: url(//cdn.17zuoye.com/static/error/images/back_white.png) no-repeat; width: 701px; height: 434px; margin: 0 auto; position: relative; }
+
+.section p {color: #999; font: 12px/1.125 arial; display: inline-block; width: 335px; text-align: center; margin-left: 200px; margin-bottom: 20px;}
+.section p.autoText { color: #41a5e9; margin-top: 120px; font-size: 16px;  color: black; background-color: white;}
+.section p.autoLine { color: #41a5e9; margin-top: 20px; font-size: 14px; }
+.section p.autoGoto a {color:#41a5e9; }
+
+.footer { width: 660px; margin: 0 auto; text-align: right; font: 12px/1.125 arial; color: #999; }
+.footer span { color: #09f; }
+/*serviec*/
+.serviecBtnBox { display: inline-block; *display: inline;*zoom:1;position: relative; *margin:0 5px 0 0; vertical-align: middle;}
+.serviecBtnBox a, .serviecBtnBox .time { background: url(//cdn.17zuoye.com/static/error/images/btn_service.png) no-repeat; display: inline-block; text-align: center; }
+.serviecBtnBox .time { display: none; font: 12px/1.125 arial; position: absolute; background-position: 0 -60px; width: 115px; padding: 5px 0; z-index: 1; top: -20px; left: 0; color: #fff; }
+.serviecBtnBox a { font: 12px/1.125 "宋体"; color: #879cb7; text-shadow: 1px 1px 0 #fff; width: 100px; padding: 8px 0 8px 15px; outline: none; blr:expression(this.onFocus=this.blur());z-index: 2; position: relative; }
+.serviecBtnBox a:hover { color: #5fbeff; text-decoration: none;}
+.serviecBtnBox a:active { color: #4b95c8; }
+.serviecBtnBox a.off { background-position: 0 -30px; }
+.serviecBtnBox a.off:hover, .serviecBtnBox a.off:active { color: #879cb7; }
+.serviecBtnBox.sap a { width: 130px; background-position: -116px 0; }
+.serviecBtnBox.sap .time { width: 145px; background-position: -116px -60px; }
+.serviecBtnBox.sap a.off { background-position: -116px -30px; }
+</style>
+<script type="text/javascript">
+	window.onload = function(){
+		var count = 30;
+		var timer = setInterval(function(){
+			if(count == 1){
+				clearInterval(timer);
+				top.location.href = '/';
+			}
+			count--;
+			document.getElementById("timer").innerHTML = count;
+		}, 1000);
+	};
+</script>
+</head>
+<body>
+	<div class="header">
+		<p><a href="/" title="一起教育科技" class="logo"></a></p>
+	</div>
+	<div class="section">
+		<h1></h1>
+        <p class="autoText">服务器太忙了，请稍后再试</p>
+		<p class="autoLine"><span id="timer">30</span> 秒后自动跳转到首页</p>
+		<p class="autoGoto">如未跳转请点这里 <a href="/" title="返回首页" class="back">返回首页 &raquo;</a></p>
+	</div>
+	<div class="footer">
+		客服电话：<span>400-160-1717</span>
+	</div>
+	<script type="text/javascript">
+		currentPage = "system_busy";
+	</script>
+	<script src='//cdn.17zuoye.com/static/error/error_v1.1.js' type='text/javascript' charset='utf-8'></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2006-2015 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description>APP Tag Library</description>
+	<display-name>APP Tag Library</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>APP</short-name>
+	<uri>http://www.homeworksitter.com/tags</uri>
+	<tag>
+		<name>css</name>
+		<tag-class>com.voxlearning.utopia.core.tag.CssTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>href</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>version</name>
+			<fragment>true</fragment>
+		</attribute>
+	</tag>
+	<tag>
+		<name>script</name>
+		<tag-class>com.voxlearning.utopia.core.tag.ScriptTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>context</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>href</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>version</name>
+			<fragment>true</fragment>
+		</attribute>
+        <attribute>
+            <name>cdnTypeFtl</name>
+            <fragment>true</fragment>
+        </attribute>
+	</tag>
+	<tag>
+		<name>link</name>
+		<tag-class>com.voxlearning.utopia.core.tag.LinkTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>href</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>location</name>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>gridfs</name>
+			<fragment>true</fragment>
+		</attribute>
+        <attribute>
+            <name>cdnTypeFtl</name>
+            <fragment>true</fragment>
+        </attribute>
+	</tag>
+	<tag>
+		<name>versionedUrl</name>
+		<tag-class>com.voxlearning.utopia.core.tag.VersionedUrlTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>href</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>version</name>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>cdnTypeFtl</name>
+			<fragment>true</fragment>
+		</attribute>
+	</tag>
+</taglib>

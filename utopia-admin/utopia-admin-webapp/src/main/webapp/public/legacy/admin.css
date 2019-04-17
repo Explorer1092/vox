@@ -1,0 +1,15 @@
+a.app_menu {
+	display:block;
+	padding: 3px 0;
+	text-decoration: none;
+}
+
+a.app_menu:hover {
+	text-decoration: underline;
+}
+
+span.required, span.error {
+	color: #CC0000;
+	font-weight: 700;
+	margin: 0 5px;
+}

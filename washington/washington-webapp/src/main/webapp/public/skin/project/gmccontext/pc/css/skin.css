@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body,html{width:100%;height:100%;font:12px/100% "微软雅黑","Microsoft YaHei",arial}
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{line-height:100%}
+li,ol,ul{list-style:none}
+input,select,textarea{outline:0;resize:none;font:12px/100% "微软雅黑","Microsoft YaHei"}
+a{outline:0;cursor:pointer;text-decoration:none;color:#383a4c}
+a:hover{color:#189cfb}
+img{vertical-align:middle;border:0}
+.bgMain{position:absolute;left:0;top:30px;width:100%}
+.bgMain .bg{width:100%;background-repeat:no-repeat;background-position:50% 0}
+.bgMain .bg01{height:771px;background-image:url(../images/bg01.png?v=13312b72ac)}
+.bgMain .bg02{height:683px;background-image:url(../images/bg02.png?v=b1d95b5467)}
+.bgMain .bg03{height:732px;background-image:url(../images/bg03.png?v=c779cd994e)}
+.bgMain .bg04{height:707px;background-image:url(../images/bg04.png?v=2e8c5fbd7b)}
+.bgMain .bg05{height:800px;background-image:url(../images/bg05.png?v=68e492d517)}
+.snMain{width:100%;min-width:1000px;height:auto}
+.snMain .banner{position:relative;z-index:2;margin-bottom:30px;width:100%;height:574px;background:url(../images/banner.png?v=6ac0f219a4) no-repeat 50% 0;background-size:auto 100%}
+.snMain .container{position:relative;z-index:2;margin:0 auto;width:840px}
+.snMain .container .main{position:relative;margin-bottom:30px;width:100%}
+.snMain .container .btnBox{position:absolute;left:0;bottom:36px;width:100%;text-align:center}
+.snMain .container .btn{display:inline-block;margin:0 18px;width:304px;height:68px}
+.snMain .main01{height:592px;background:url(../images/snGame01.png?v=ed081a5bdf) no-repeat}
+.snMain .main01 .btnBox .btn01{background:url(../images/btn01.png?v=45dd941369) no-repeat}
+.snMain .main01 .btnBox .btn02{background:url(../images/btn02.png?v=78b61b92d7) no-repeat}
+.snMain .main02{height:601px;background:url(../images/snGame02.png?v=14ee402a5c) no-repeat}
+.snMain .main03{height:773px;background:url(../images/snGame03.png?v=8da98ad22f) no-repeat}
+.snMain .main03 .btn03{background:url(../images/btn03.png?v=468a039f8f) no-repeat}
+.snMain .main04 .bg01{width:100%;height:316px;background:url(../images/snGame04-1.png?v=1d6f6afb23) no-repeat}
+.snMain .main04 .bg02{width:100%;height:354px;background:url(../images/snGame04-2.png?v=b7f09a3f40) no-repeat}
+.snMain .main04 .btnBox{bottom:68px}
+.snMain .main04 .btnBox .btn04{width:152px;height:64px;background:url(../images/btn04.png?v=b7607f6129) no-repeat}
+.snMain .footer{width:100%;height:356px;background:url(../images/snGame05.png?v=0fd03c91cb) no-repeat}

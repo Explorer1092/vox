@@ -1,0 +1,33 @@
+@charset "utf-8";
+.banner_cont, .dir, .cont { margin: 0px auto }
+.banner_cont { position: relative; width: 1061px; height: 370px; z-index:9999999997}
+.dir { padding-left: 13px; width: 1048px; height: 30px; line-height: 30px; background: #76aed9; color: #FFF }
+.dir a, .dir span { color: #FFF; margin: 0 3px }
+.cont { width: 1060px; height: auto; margin:0 auto; }
+/*****about*****/
+
+.about_video { width: 1060px; height: 404px; position: relative; z-index:1;}
+.about_ban1, .about_ban2, .about_ban3 { width: 1060px; height: 318px; position: relative }
+.about_ban1_Pop { padding: 45px 50px 0 200px; position: absolute; left: 0px; top: 0px; width: 810px; height: 273px; background: url(../images/about_ban1_bg.png); color: #FFF }
+.about_ban1_Pop p { text-align: center; line-height: 24px; color:#fff;}
+.about_bear { position: absolute; left: 0px; bottom: 0px }
+.about_ban2 { height: 265px }
+.about_ban2_Pop { position: absolute; right: 32px; top: 35px; width: 496px; height: 265px; color: #FFF; line-height: 18px }
+.about_ban2 h3, .about_ban3 h3 { color: #FFF; text-align: right }
+.about_ban2 h3 p, .about_ban3 h3 p { color: #FFF }
+.about_ban3 { height: 313px; }
+.about_ban3 img { margin-top: -46px }
+.about_ban3_Pop { padding-left: 38px; position: absolute; left: 0px; top: 0px; width: 1022px; height: 313px; }
+.about_ban3 h3 { margin-top: 38px; text-align: left }
+.about_ban3_txt { margin-top: 105px; padding: 12px; width: 390px; height: 96px; background: url(../images/about_ban3_bg.png); color: #FFF; line-height: 18px }
+/*****about*****/
+
+
+
+.top { display: none; position: fixed; top: 50%; right: 50%; width: 37px; margin-right: -580px; height: 35px; background: url(../images/top.png) no-repeat; cursor: pointer }
+.close { cursor: pointer; margin-top: 20px; width: 76px; height: 22px; background: #616161; color: #FFF; text-align: center; line-height: 22px; float: right }
+.zt_cont { position: relative; }
+.zt_cont img { max-width: 100%; width: 100%; }
+.video_preview_image { position: relative; height: 404px; cursor: pointer }
+.video_preview_image .ico { position: absolute; top: 50%; left: 50%; width: 38px; height: 38px; margin: -21px 0 0 -19px; background: url(../images/video_preview_ico.png) no-repeat }
+/* video pop box */

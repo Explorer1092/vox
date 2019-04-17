@@ -1,0 +1,22 @@
+/**
+  语文生字认读应试题结构样式
+ */
+.characterBox{padding:16px 14px 26px 9px;-moz-border-radius:2px;border-radius:2px;overflow:hidden}
+.characterBox .characterTitle{font-size:14px;color:#333}
+.characterBox .characterLeft{float:left;width:-moz-calc(100% - 304px);width:calc(100% - 304px);height:289px;text-align:center}
+.characterBox .characterLeft .subCard{display:inline-block;width:194px;height:192px;margin-bottom:20px;border:3px solid #489bf4}
+.characterBox .characterLeft .subCard img{width:100%;height:100%}
+.characterBox .characterLeft .pinyin{font-size:22px;margin-bottom:20px;color:#333}
+.characterBox .characterLeft .pinyin i{display:inline-block;width:28px;height:28px;vertical-align:middle;margin-right:7px}
+.characterBox .characterLeft .pinyin .play{background:url(../images/audio-icon/play.png?v=5ad8dfc39a) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.characterBox .characterLeft .pinyin .suspend{background:url(../images/audio-icon/suspend.png?v=b9fa6464d1) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.characterBox .characterLeft .subCon{font-size:14px;text-align:center;color:#333;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.characterBox .characterRight{float:right;padding:21px 21px 0;width:304px;background-color:#f0f2f6;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;color:#333}
+.characterBox .characterRight .charaTotal{font-size:14px;margin-bottom:31px}
+.characterBox .characterRight .charaInter{margin-bottom:28px}
+.characterBox .characterRight .interTitle{font-size:18px;font-weight:700}
+.characterBox .characterRight .interCon{font-size:14px}
+.sink-student .characterLeft .subCard{border-color:#7ccc32}
+.sink-student .characterLeft .pinyin .play{background:url(../images/audio-icon/play2.png?v=d975f279ab) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.sink-student .characterLeft .pinyin .suspend{background:url(../images/audio-icon/pause2.png?v=ec93b00bce) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.characters{display:inline-block;margin-left:8px;font-size:14px;text-align:center;vertical-align:middle}

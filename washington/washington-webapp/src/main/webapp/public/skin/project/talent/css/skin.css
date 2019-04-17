@@ -1,0 +1,88 @@
+html, body { width: 100%; height: 100%; background: url(../images/talent_1.jpg) repeat-x 0 48px #f1f2f2; }
+body, button, p, ul, li, dl, dt, dd, h1, h2, h3, h4 { padding: 0; margin: 0; }
+ul, li, dl, dt, dd { list-style: none; }
+a { outline: none; }
+/*overall wrap*/
+.jiathis_box { clear: both; padding: 20px; border-width: 0 1px; }
+.jiathis_box .jiathis_style { width: 540px; float: right; padding-right: 40px; }
+.jiathis_box .jiathis_style span { font-weight: normal; }
+.postnAbs { position: absolute; display: block; overflow: hidden; text-indent: -1000px; height: 48px; }
+.clear { clear: both; font: 0pt/0 Arial; height: 0px !important; visibility: hidden; padding: 0 !important; margin: 0 !important; width: 96%; float: none !important; }
+.clrOrange { color: #ff9703; font-size: 14px; }
+/*header*/
+.header { width: 1000px; height: 323px; background: url(../images/talent_2.jpg?1.0.1) no-repeat; margin: 0 auto; position: relative; }
+.header_third {background-image: url(http://www.17zuoye.com/static/project/talent/images/bar_darenword_third_header.jpg);}
+.header .myParticipate { display: block; background: url(../images/myParticipate.png) no-repeat -10000px 0; position: absolute; width: 288px; height: 75px; right: 69px; top: 218px; }
+.header .myParticipate:hover { background-position: -9px -9px; }
+.header .myParticipate:active { background-position: -9px -99px; }
+/*main*/
+.main { width: 1000px; margin: 0 auto; background: url(../images/talent_6.png) repeat-y 0 0; }
+.main .processOne, .main .processTwo, .main .foot { display: block; clear: both; font: 12px/24px arial; color: #333; }
+.main .processOne { background: url(../images/talent_3.png?1.0.1) no-repeat; height: 375px; padding: 60px 160px 0 180px; }
+.main .processOne li, .main .processTwo li{ padding: 3px; list-style: decimal;}
+.main .processTwo { background: url(../images/talent_4.png?1.0.2) no-repeat; height: 120px; padding: 70px 180px 0; }
+.main .processThree { background: url(../images/talent_5.png) no-repeat 0 0 ; height: 87px; padding: 0; margin: 0;}
+.main .learnMore{ background:#ffa609; border:1px solid #da8b00; border-radius:6px; padding:6px 20px; display: inline-block; vertical-align:middle; color:#fff; font: bold 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; text-decoration:none;}
+.main .learnMore:hover{ background-color:#f99f00;}
+.main .foot { background: url(../images/talent_20.jpg) no-repeat; height: 270px; position: relative; }
+/*listBox*/
+.billboardMain { }
+.billboardMain .schoolyard { background: url(../images/picThree.png) no-repeat 1px 0; height: 80px; }
+.billboardMain .levelYard { background: url(../images/title_1.png) no-repeat; margin: 0 40px 20px; border-bottom: 4px solid #1a82ba; height: 50px; clear: both; }
+.billboardMain .level_1 { background: url(../images/title_2.png?1.0.2) no-repeat; }
+.billboardMain .level_2 { background: url(../images/title_3.png?1.0.2) no-repeat; }
+.billboardMain .billInfo { background: url(../images/billInfo.png); width: 759px; height: 75px; margin: 0 auto; font: bold 20px/70px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #fff; text-align: center; }
+.billboardMain .billInfo b { color: #f8e223; display: inline-block; margin: 0 5px }
+.listBox { float: left; width: 275px; padding: 30px 10px 30px 34px; }
+.listBox .picture { display: none; }
+.listBox li { border-bottom: 1px solid #c3d5e7; background: #edf5fb; padding: 10px 0; clear: both; height: 100%; *float:left;
+*width:275px;
+}
+.listBox li.title { background: url(../images/talent_7.png) no-repeat 0 bottom; height: 37px; border: none; padding: 0; overflow: hidden; color: #ff6500; text-align: right; line-height: 35px;}
+.listBox li.title_1 { background-image: url(../images/talent_8.png); }
+.listBox li.title_2 { background-image: url(../images/talent_9.png?1.0.0); }
+.listBox dt { background: url(../images/talent_11.png) no-repeat center 0; float: left; width: 50px; height: 60px; overflow: hidden; text-indent: -1000px; }
+.listBox .rank_1 { height: 101px; padding: 0; }
+.listBox .rank_1 .picture { display: block; width: 50px; height: 50px; float: left; padding: 12px 9px 10px; }
+.listBox .rank_1 .picture img { width: 50px; height: 50px; border: none; vertical-align: middle; }
+.listBox .rank_1 .statis { clear: both; text-align: right; padding: 9px 0 0; *padding:4px 0 0;
+}
+.listBox .rank_1 .names { padding-top: 10px; }
+.listBox .rank_1 .names, .listBox .rank_1 .school { color: #fff; }
+.listBox .rank_1 .school span { width: 110px; }
+.listBox .rank_1 dl { background: url(../images/talent_10.png) no-repeat; position: absolute; height: 101px; width: 312px; }
+.listBox .rank_1 dd { width: 220px; }
+.listBox .rank_1 dt { background: none; }
+.listBox .rank_2 dt { background-image: url(../images/talent_11.png); }
+.listBox .rank_3 dt { background-image: url(../images/talent_12.png); }
+.listBox .rank_4 dt { background-image: url(../images/talent_13.png); }
+.listBox .rank_5 dt { background-image: url(../images/talent_14.png); }
+.listBox .rank_6 dt { background-image: url(../images/talent_15.png); }
+.listBox .rank_7 dt { background-image: url(../images/talent_16.png); }
+.listBox .rank_8 dt { background-image: url(../images/talent_17.png); }
+.listBox .rank_9 dt { background-image: url(../images/talent_18.png); }
+.listBox .rank_10 dt { background-image: url(../images/talent_19.png); }
+.listBox dd { width: 210px; float: left; }
+.listBox dd p { font: 12px/1.125 arial; }
+.listBox .names { padding: 5px 0; }
+.listBox .school { padding: 5px 0; }
+.listBox .school span { width: 170px; display: inline-block; vertical-align: top; }
+.listBox .statis { padding: 5px 0; }
+.listBox .statis .word, .listBox .statis .exact { color: #017cb8; }
+.listBox .statis .exact { display: inline-block; padding: 0 0 0 15px; }
+/*footer*/
+.footer { color: #999; font: 12px/1.125 arial; padding: 20px; clear: both; text-align: center; }
+/*reviewBox*/
+.reviewHeader{ background-color: #0f0b26; border-bottom: 9px solid #0194e0;}
+.reviewHeader .inner{ background: url(../images/review_1.jpg) no-repeat; width: 1000px; margin: 0 auto; height: 218px;}
+.reviewBanner{ background: url(../images/review_2.jpg) repeat-x 0 -10px; height: 314px;}
+.reviewBanner .inner{ background: url(../images/review_3.jpg) no-repeat 0 -10px; height: 314px; margin: 0 auto; width: 1000px; position: relative;}
+.reviewBanner .inner p{ position: absolute; font: 22px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; text-align: center;}
+.reviewBanner #schoolName{ font-size: 14px; color: #ce4100;}
+.reviewBanner .rorange{ color: #ffff66; font-size: 14px;}
+/**/
+.reviewBox{ background: url(../images/review_4.jpg) no-repeat center bottom; padding: 0 0 24px; clear: both;}
+.reviewBox .inner{ background-color: #f0f3f8; border: solid #c0d1ed; border-width: 1px 1px 0; margin: 0 9px 0 12px; padding: 20px 100px;}
+.reviewBox .inner h1{ color: #1b9bda; font: bold 30px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; padding: 0 0 10px; border-bottom: 3px solid #1a82ba; margin-bottom: 10px;}
+.reviewBox .inner ol{ clear: both;}
+.reviewBox .inner ol li{ color: #333;  margin: 0 100px 10px; padding: 10px 0 10px 0; border-bottom: 1px solid #afd2e5; line-height: 26px; list-style: decimal;}

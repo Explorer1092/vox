@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.voxlearning.utopia">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <import resource="classpath*:/config/agent-core.xml"/>
+
+    <bean class="com.voxlearning.utopia.agent.interceptor.ControllerRequestInterceptor"
+          p:includePatterns="/**"
+          p:excludePatterns="/mobile/**,/v1/**,/mockexam/paper/notify.vpage"
+          p:order="1"/>
+
+    <bean class="com.voxlearning.utopia.agent.interceptor.ControllerRequestMobileInterceptor"
+          p:includePatterns="/mobile/**"
+          p:order="2"/>
+
+    <bean class="com.voxlearning.utopia.agent.interceptor.AgentApiRequestInterceptor"
+          p:includePatterns="/v1/**"
+          p:order="3"/>
+
+    <context:component-scan base-package="com.voxlearning.utopia.agent.controller"/>
+    <context:component-scan base-package="com.voxlearning.utopia.agent.mockexam"/>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <bean class="com.voxlearning.alps.webmvc.view.AlpsFreemarkerViewResolver"
+          p:name="default"
+          p:templateLoaderPaths="/WEB-INF/agent"
+          p:redirectContextRelative="false"
+          p:redirectHttp10Compatible="false"
+          p:autoImport="/common/sugar.ftl as sugar"
+          p:autoInclude="/common/apptag.ftl"
+    />
+
+</beans>

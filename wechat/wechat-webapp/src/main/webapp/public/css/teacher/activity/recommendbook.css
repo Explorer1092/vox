@@ -1,0 +1,83 @@
+@charset "UTF-8";
+html{font-size:20px}
+@media only screen and (min-width:400px){html{font-size:21.33px!important}
+}
+@media only screen and (min-width:414px){html{font-size:22.08px!important}
+}
+@media only screen and (min-width:480px){html{font-size:25.6px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{font-size:20px}
+@media only screen and (min-width:400px){html{font-size:21.33px!important}
+}
+@media only screen and (min-width:414px){html{font-size:22.08px!important}
+}
+@media only screen and (min-width:480px){html{font-size:25.6px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+.textbookPush{font-size:.75rem;color:#565b70}
+.tb-tips{padding:.5rem .75rem;line-height:1.3rem}
+.tb-searchBox{position:relative;padding:0 .75rem .7rem .75rem}
+.tb-searchBox .search-icon{position:absolute;left:1.25rem;top:.4rem;display:inline-block;width:.925rem;height:.925rem;background:url(../../../images/teacher/activity/search-icon.png?v=1f94285aa1) no-repeat;background-size:100% 100%}
+.tb-searchBox input{display:block;width:100%;padding:.35rem .5rem .35rem 2.1rem;background:#fff;border:.05rem solid #5e89ef;border-radius:1rem;outline-style:none;font-size:.75rem;color:#565c6f}
+.tb-iptBox{padding:0 .75rem .7rem .75rem}
+.tb-iptBox input{display:block;width:100%;padding:.35rem .5rem;background:#fff;border:.05rem solid #5e89ef;border-radius:.25rem;outline-style:none;font-size:.75rem;color:#565c6f}
+.tb-bookBox .tips{padding:5rem 0;text-align:center;color:#b6b8bf}
+.tb-bookList li{padding:.55rem .75rem;background:#fff;border-top:.025rem solid #d2e4f4;clear:both;overflow:hidden}
+.tb-bookList li .pic{float:left;width:3.65rem;height:5.25rem;border-radius:.1rem;overflow:hidden}
+.tb-bookList li .pic img{display:block;width:100%;height:100%}
+.tb-bookList li .info{padding:1.45rem 0;margin-left:4.4rem;color:#5a617d}
+.tb-bookList li .info .text{line-height:1.15rem}
+.tb-bookList li.active{background:#eef4f9}
+.tb-bookList li.active .info{color:#5e89ef}
+.uploadBox{position:absolute;top:50%;margin-top:-1.25rem;width:100%;cursor:pointer;text-align:center;font-size:.75rem;color:#5f8dec}
+.uploadBox .icon{display:block;margin:.5rem auto;width:2.625rem;height:2rem;background:url(../../../images/teacher/activity/upfile-icon.png?v=9db29f7ebf) no-repeat;background-size:100% 100%}
+.uploadPic{margin:1.75rem 1.9rem 0 1.9rem;border:.25rem solid #f0f0f0}
+.uploadPic img{display:block;width:100%}
+.uploadPic .deletePic{display:block;width:100%;height:1rem;margin-top:.375rem}
+.tb-footer .empty{width:100%;height:3rem}
+.tb-footer .tb-fixFooter{position:fixed;left:0;bottom:0;width:100%;padding:.25rem 0;background:#fff;border-top:.025rem solid #d2e4f4}
+.tb-footer .tb-fixFooter .btn{display:inline-block;width:41%;margin:0 4%;padding:.55rem 0;background:#5f8dec;border-radius:1.25rem;font-size:.85rem;text-decoration:none;text-align:center;color:#fff}
+.tb-footer .tb-fixFooter .btn-green{background:#50c2a5}
+.tb-footer .tb-fixFooter .btn-disabled{cursor:default;background:#c9cacf}

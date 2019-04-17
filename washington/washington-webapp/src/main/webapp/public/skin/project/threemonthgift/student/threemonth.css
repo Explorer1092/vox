@@ -1,0 +1,55 @@
+.t-ycMarchSpree-box{clear: both;width:100%;background: url(images/ycMatchSpree-bg.jpg) no-repeat center 0;}
+.t-ycMarchSpree-inner{position: relative;height:935px;width:950px;margin:0 auto;}
+.t-ycMarchSpree-inner .header{height:40px;}
+.t-ycMarchSpree-inner .header .logo{background: url(images/17zuoyeLogo.png) no-repeat center 0;width:134px;height:51px;float: left;}
+.t-ycMarchSpree-inner .header .return{float: right;}
+.t-ycMarchSpree-inner .header .return a{color: #fff;font-size: 14px;line-height: 50px;}
+/*********content*********/
+.t-ycMarchSpree-content{width:950px;height:677px;background: url(images/ycMarchSpree-content.png) no-repeat center 0;position: relative;}
+.t-ycMarchSpree-content .yc-title{text-align: center;font-size: 18px;color:#782a04;padding:255px 0 0 0;}
+.t-ycMarchSpree-content .yc-triangle{position: absolute;top:140px;right:-30px;background: url(images/ycMarchSpree-triangle.png) no-repeat center 0;width:190px;height:130px;}
+.t-ycMarchSpree-content .yc-triangle p{font-size: 14px;line-height: 19px;color: #a64812;padding:24px;}
+.t-ycMarchSpree-content .yc-column .yc-left{width:440px;float: left;}
+.t-ycMarchSpree-content .yc-column .yc-left .yc-info{padding:5px 0;}
+.t-ycMarchSpree-content .yc-column .yc-tag{color: #792a03;font-size: 18px;background-color: #eed093;line-height: 25px;border-radius: 20px;width:76px;text-align: center;}
+.t-ycMarchSpree-content .yc-column .yc-tips1{color: #946b56;font-size: 18px;line-height: 24px;}
+.t-ycMarchSpree-content .yc-column .yc-tips2{color: #946b56;font-size: 16px;line-height: 24px;}
+.t-ycMarchSpree-content .yc-column .yc-tips2 span{color: #ff616c;}
+.t-ycMarchSpree-content .yc-column .view_btn{color: #009ce5;text-decoration:underline; }
+.t-ycMarchSpree-content .yc-column .yc-tips3{color: #8c8368;font-size: 14px;line-height: 24px;}
+.t-ycMarchSpree-content .yc-column .yc-right .info_btn,.t-ycMarchSpree-content .yc-column .yc-right .disabled{display: inline-block;vertical-align: middle;background-color: #78daff;color: #307994;font-size: 18px;line-height: 25px;border: 2px solid #845239;box-shadow: 0 -6px 0 #5aa3bf inset;width:180px;text-align: center;width:120px;padding: 5px 35px;border-radius: 20px;}
+.t-ycMarchSpree-content .yc-column .yc-right .info_btn:active{background-color: #46bce8;box-shadow: 0 -4px 0 #348dae inset;}
+.t-ycMarchSpree-content .yc-column .yc-right .info_btn_1{width:126px;line-height: 50px;height:50px;padding:0 31px;}
+.t-ycMarchSpree-content .yc-column .yc-right .disabled,.t-ycMarchSpree-content .yc-column .yc-right .disabled:active{background-color: #e6e6e6;border:2px solid #a2a2a2;color:#727272;cursor: default;box-shadow: 0 -6px 0 #c4c4c4 inset;}
+.t-ycMarchSpree-content .yc-column{clear: both;border-bottom: 2px solid #eed093;margin:0 115px 0 194px;overflow: hidden;padding:9px 0 0 0;position: relative;}
+.t-ycMarchSpree-content .yc-differ{padding: 30px 0;}
+.t-ycMarchSpree-content .yc-column .yc-right{margin:8px 0 0 0;}
+.t-ycMarchSpree-content .bgNone{border-bottom: none;}
+/*********footer*********/
+.special-footer{
+    position: absolute;
+    width: 100%;
+    margin-top: -200px;
+    background: none;
+    border: none;
+}
+.special-footer .m-inner{
+    background: none;
+}
+.special-footer .link{display: none;}
+.special-footer .copyright,.special-footer .m-foot-link a,.special-footer .m-foot-link a:hover{ color: #fff;}
+/*********pop*********/
+.ycMarchSpree-popup{ width: 480px; height: 218px; position: relative; background: url(images/ycMarchSpree-pop.png) no-repeat center 0;}
+.ycMarchSpree-popup .hp-btn,.ycMarchSpree-popup2 .hp-btn{width:430px;text-align: center;position: absolute;bottom:30px;}
+.ycMarchSpree-popup .hp-btn a,.ycMarchSpree-popup2 .hp-btn a{display: inline-block;width:180px;padding:15px 0;vertical-align: middle;background-color: #78daff;color: #307994;font-size: 18px;line-height: 25px;border: 2px solid #845239;box-shadow: 0 -6px 0 #5aa3bf inset;text-align: center;border-radius: 20px;}
+.ycMarchSpree-popup .hp-close,.ycMarchSpree-popup2 .hp-close{ position: absolute;top: 1px;right: 0;}
+.ycMarchSpree-popup .hp-close a,.ycMarchSpree-popup2 .hp-close a{ width: 43px; height: 43px; display: inline-block;}
+.ycMarchSpree-popup .hp-content{width:430px;padding:60px 0 0 0;color: #792a03;font-size: 18px;line-height: 22px;text-align: center;}
+.ycMarchSpree-popup .hp-info{width:430px;font-size: 14px;color: #aa8248;padding: 15px 0 0 0;text-align: center;}
+
+.ycMarchSpree-popup2{width: 480px; height: 328px; position: relative; background: url(images/ycMarchSpree-pop-2.png) no-repeat center 0;}
+.ycMarchSpree-popup2 .hp-title{text-align: center;font-size: 18px;color: #792a03;width: 430px;line-height: 56px;padding:10px 0 0 0;}
+.ycMarchSpree-popup2 .hp-list ul{width:402px;border-top:1px solid #cfbd84;margin:0 0 0 15px;height:150px;overflow: auto;}
+.ycMarchSpree-popup2 .hp-list li .l-left{width:170px;float: left;border-right:1px solid #cfbd84;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.ycMarchSpree-popup2 .hp-list li{text-align: center;color: #aa8248;font-size: 14px;line-height: 36px;border-bottom:1px solid #cfbd84;}
+.ycMarchSpree-popup2 .hp-list .l-head{font-size: 18px;}

@@ -1,0 +1,206 @@
+/*定义class*/
+
+.canclick {
+    color: #0088cc;
+    cursor: pointer;
+}
+
+.notclick {
+    cursor: auto;
+}
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.vertical-t {
+    vertical-align: top;
+}
+
+.vertical-m {
+    vertical-align: middle;
+}
+
+.display-none {
+    display: none;
+}
+
+
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h2 a {
+    font-size: 21px;
+    font-weight: normal;
+}
+h2{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+/*主体*/
+
+#classgo {
+    min-width: 320px;
+}
+
+.s-title-teacher {
+    width: 34%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.s-title-group {
+    width: 65%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.main-container,
+.single-container {
+    overflow: hidden;
+}
+
+.single-container {
+    padding: 0 0;
+    background-color: #ecf0f7;
+    border-top: 1px solid #ffffff;
+}
+.single-container:first-child{
+    border-top: 1px solid transparent;
+}
+.single-container:nth-child(even) {
+    background-color: #e7ecec;
+}
+
+.left-teacher {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.right-student {
+    border-left: 1px solid #ffffff;
+    width: 69%;
+    min-height: 42px;
+    box-sizing: border-box;
+}
+
+.checkbox{
+    margin: 10px 0 0 10px;
+}
+
+
+.student-list{
+    width: 28%;
+}
+
+
+/*新增*/
+
+.add-data {
+    padding: 10px 0;
+}
+
+.add-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.add-span {
+    width: auto !important;
+    min-height: 16px !important;
+    float: none !important;
+    margin-left: 0 !important;
+}
+
+.add-input {
+    width: 100px;
+    margin-bottom: 0 !important;
+}
+
+
+/*提交信息弹窗*/
+#alert_dialog, #alert_dialog3{
+    display: none;
+}
+#alert_dialog2{
+    width: 780px;
+    margin-left: -390px;
+    display: none;
+}
+.single-data-box {
+    margin-bottom: 5px;
+}
+.single-data-box label {
+    width: 140px;
+    background-color: transparent;
+    text-align: right;
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2em;
+    padding: 0;
+    margin-top: 8px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.single-data-box .show-text{
+    text-align: left;
+    width: 280px;
+}
+.single-data-box input {
+    width: 280px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.single-data-box textarea {
+    width: 280px;
+    height: 80px;
+    resize: vertical;
+}
+
+/*错误弹窗新增列表*/
+.errordata-box{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+.errordata-table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.errordata-table tr:nth-child(odd){
+    border-bottom: 1px solid #ffffff;
+    background-color: #e9e8ea;
+}
+.errordata-table tr:nth-child(even){
+    border-bottom: 1px solid #ffffff;
+    background-color: #f6f9f6;
+}
+.errordata-table tr:first-child{
+    background-color: #926f73;
+    color: #ffffff;
+}
+.teacher-info{
+    width: 34%;
+    border-right: 1px solid #ffffff;
+    padding: 10px;
+}
+.students-info{
+    width: 65%;
+    padding: 10px;
+}

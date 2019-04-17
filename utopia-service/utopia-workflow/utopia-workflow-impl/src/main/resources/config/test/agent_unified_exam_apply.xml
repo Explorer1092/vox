@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--销运审核 -->
+    <status name="lv1" processor='{"userPlatform":"agent"@"account":"191"@"accountName":"王松市经理"}'>
+        <event name="agree"  status="lv2" mqmsg="agree_lv1"></event> <!--通过 -->
+        <event name="reject" status="reject_lv1" mqmsg="reject_lv1"></event> <!--一审拒绝 -->
+    </status>
+    <!--内容库审核 -->
+    <status name="lv2" processor='{"userPlatform":"agent"@"account":"cr"@"accountName":"内容库"}'>
+        <event name="agree" status="processed" mqmsg="agree_lv2"></event> <!--审通过 -->
+        <event name="reject" status="reject_lv2" mqmsg="reject_lv2"></event> <!--拒绝 -->
+    </status>
+</root>

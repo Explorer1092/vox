@@ -1,0 +1,37 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2006-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+description = 'Utopia Service Reward API'
+
+dependencies {
+    // ========================================================================
+    // ALPS
+    // ========================================================================
+    compile("com.voxlearning.alps:alps-api:${version_alps}")
+
+    // ========================================================================
+    // RAIKOU
+    // ========================================================================
+    compile("com.voxlearning.raikou:raikou-system-api:${version_raikou}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    // ========================================================================
+    // PLATFORM
+    // ========================================================================
+    compile("com.voxlearning.platform:utopia-user-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+}

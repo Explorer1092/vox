@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="com.voxlearning.utopia.service.business.client.AsyncBusinessCacheServiceClient" class="com.voxlearning.utopia.service.business.client.AsyncBusinessCacheServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.AgentManagerClient" class="com.voxlearning.utopia.service.business.consumer.AgentManagerClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.AmbassadorManagementClient" class="com.voxlearning.utopia.service.business.consumer.AmbassadorManagementClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessClazzIntegralServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessClazzIntegralServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessFinanceServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessFinanceServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessHomeworkServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessHomeworkServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessManagementClient" class="com.voxlearning.utopia.service.business.consumer.BusinessManagementClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessStudentServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessStudentServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessTeacherServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessTeacherServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessUserOrderServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessUserOrderServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.BusinessVendorServiceClient" class="com.voxlearning.utopia.service.business.consumer.BusinessVendorServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.CertificationManagementClient" class="com.voxlearning.utopia.service.business.consumer.CertificationManagementClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.MiscLoaderClient" class="com.voxlearning.utopia.service.business.consumer.MiscLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.MiscServiceClient" class="com.voxlearning.utopia.service.business.consumer.MiscServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.MissionLoaderClient" class="com.voxlearning.utopia.service.business.consumer.MissionLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.PaymentServiceClient" class="com.voxlearning.utopia.service.business.consumer.PaymentServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.ResearchStaffManagementClient" class="com.voxlearning.utopia.service.business.consumer.ResearchStaffManagementClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.ResearchStaffServiceClient" class="com.voxlearning.utopia.service.business.consumer.ResearchStaffServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.SchoolMasterDataLoaderClient" class="com.voxlearning.utopia.service.business.consumer.SchoolMasterDataLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.StudentAdvertisementInfoLoaderClient" class="com.voxlearning.utopia.service.business.consumer.StudentAdvertisementInfoLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.StudentMagicCastleServiceClient" class="com.voxlearning.utopia.service.business.consumer.StudentMagicCastleServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeacherActivityServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeacherActivityServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeacherClazzServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeacherClazzServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeachingDiagnosisServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeachingDiagnosisServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeachingResourceLoaderClient" class="com.voxlearning.utopia.service.business.consumer.TeachingResourceLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeachingResourceServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeachingResourceServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TtsListeningServiceClient" class="com.voxlearning.utopia.service.business.consumer.TtsListeningServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeacherTaskLoaderClient" class="com.voxlearning.utopia.service.business.consumer.TeacherTaskLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeacherTaskServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeacherTaskServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.TeacherTaskPrivilegeServiceClient" class="com.voxlearning.utopia.service.business.consumer.TeacherTaskPrivilegeServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.business.consumer.NewTeacherResourceServiceClient" class="com.voxlearning.utopia.service.business.consumer.NewTeacherResourceServiceClient"/>
+</beans>

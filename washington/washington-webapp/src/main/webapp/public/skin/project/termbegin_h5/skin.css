@@ -1,0 +1,101 @@
+.t-schoolSpree-box,.t-schoolSpree-box .banner {width:100%;clear:both;background: url(schoolSpree-bg-1.jpg) no-repeat center 0;overflow: hidden;}
+.t-schoolSpree-box .return-btn{font-size: 14px;color: #fff;position: absolute;left:150px;top:20px;}
+.t-schoolSpree-box .banner{width:1000px;height:177px;margin:0 auto;position: relative;padding: 295px 0 0 285px;}
+.t-schoolSpree-box .banner p{font-size:18px;color: #99592f;line-height: 33px;}
+.t-schoolSpree-box .container{width:1000px;margin:0 auto; background-color: #8cd150;}
+.t-schoolSpree-box .container .column-1{background: url(schoolSpree-column-1.png) no-repeat center 0;height:182px;}
+.t-schoolSpree-box .container .column-1 .c-title,.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-head{font-size:22px;color:#fff;line-height: 40px;padding:23px 0 0 100px;}
+.t-schoolSpree-box .container .column-1 .c-info .c-txt{font-size:20px;color:#fff;line-height: 100px;padding:0 0 0 55px;}
+.t-schoolSpree-box .container .column-1 .c-info .c-txt span{font-size:24px;color:#fffc00;}
+.t-schoolSpree-box .container .column-1 .c-info .c-btn{float:right;margin:27px 50px 0 0;}
+.t-schoolSpree-box .container .column-1 .c-info .c-btn .open-btn,.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-content .l-btn a{background: url(schoolSpree-btn.png) no-repeat 0 0;display:inline-block;width:155px;height:54px;line-height:54px;cursor: default;text-align: center;font-size:20px;color: #968d8d;}
+.t-schoolSpree-box .container .column-1 .c-info .c-btn .receive-btn{background-position: 0 -123px;color: #63100a;text-align: center;width:132px;cursor: pointer;}
+.t-schoolSpree-box .container .column-2 {margin:7px 0 0 0;}
+.t-schoolSpree-box .container .column-2 .luck-draw{float: left;width:504px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up{background: url(schoolSpree-column-2.png) no-repeat;width:504px;height:276px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-head{padding:26px 0 0 100px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-tip{font-size: 20px;color:#fff;background-color: #ce540a;border:2px solid #ffd181;border-radius: 10px;line-height: 40px;margin:15px 30px 0 60px;padding: 0 8px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-tip span{font-size: 14px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-content p{font-size: 18px;color:#fff;line-height: 70px;padding:0 0 0 21px;*padding:0 0 0 16px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-content p span{font-size: 22px;color:#fffc00;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-content .l-btn{float: right;margin:10px 18px 0 0;*margin:10px 8px 0 0;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-up .l-content .l-btn a{width:132px;height:54px;background-position: 0 -65px;color: #63100a;cursor: pointer;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down{background: url(schoolSpree-column-3.png) no-repeat;width:484px;height:234px;margin:5px 0 0 10px;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down .l-left .h1{font-size: 18px;color: #fff; line-height: 44px;text-align: center; }
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down .l-left{width:238px; float: left; }
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down .l-left ul{ overflow: hidden; overflow-y: auto; height: 140px; width: 100%;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down li{width:240px;height: 45px;line-height: 45px;text-align: center;font-size: 18px;color: #63100a;}
+.t-schoolSpree-box .container .column-2 .luck-draw .l-down li span{width:90px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;float: left;text-align: center;padding-left:14px;}
+.t-schoolSpree-box .container .column-2 .side-lottery { background: url(schoolSpree-turntable.png) no-repeat; width: 470px; height: 473px; float: right; padding: 117px 0 0 22px; position: relative; margin-top: -76px;}
+.t-schoolSpree-box .container .column-2 .side-lottery .noticed{ color: #4a960f; padding: 20px 0 0; text-align: center; font-size: 14px;}
+/*lottery*/
+.lottery-container{ position: relative; width: 460px; height: 460px;}
+.lottery-container .btn-luck{width:150px;height:150px;position:absolute; top: 150px; left: 148px; z-index: 3;}
+.lottery-container .btn-luck a{ width: 138px; height: 138px; display: block; background: url(schoolSpree-turntable-item.png) no-repeat center center #ff5331; border: 3px solid #720014; border-radius: 4px; margin: 3px;}
+.lottery-container .btn-luck a:hover{ background-color: #fc320a;}
+.lottery-container .btn-luck a:active{ background-color: #d32807;}
+.lottery-container .btn-luck a.dis{ cursor: default; background-color: #7a7a7a !important;}
+.lottery-container ul{ position: relative; height: 460px;}
+.lottery-container li{ position: absolute; top: 0; left: 0; width: 150px; height: 150px; }
+.lottery-container li .winning-inner{margin: 3px;}
+.lottery-container li .winning-inner div{ width: 138px; height: 138px; border: 3px solid #720014; border-radius: 4px;  background: no-repeat center center #73b3c6;}
+.lottery-container li.active .winning-inner{ border: 3px solid #ffff10; margin: 0; border-radius: 4px; box-shadow: 0 0 10px #ffff10;}
+.lottery-container li.turntable-unit-1{position:absolute; top: 0;left: -2px;}
+.lottery-container li.turntable-unit-2{position:absolute; top: 0;left: 148px;}
+.lottery-container li.turntable-unit-3{position:absolute; top: 0;left: 298px;}
+.lottery-container li.turntable-unit-4{position:absolute; top: 150px;left:298px;}
+.lottery-container li.turntable-unit-5{position:absolute; top: 300px;left: 298px;}
+.lottery-container li.turntable-unit-6{position:absolute; top: 300px;left: 148px;}
+.lottery-container li.turntable-unit-7{position:absolute; top: 300px;left: -2px;}
+.lottery-container li.turntable-unit-8{position:absolute; top: 150px;left: -2px;}
+/*icon-image*/
+.lottery-container .winning-inner .winning-img-1{ background-image: url(schoolSpree-winning-image1.png); background-color: #7bcbb4; }
+.lottery-container .winning-inner .winning-img-2{ background-image: url(schoolSpree-winning-image2.png); background-color: #73b3c6;}
+.lottery-container .winning-inner .winning-img-3{ background-image: url(schoolSpree-winning-image3.png); background-color: #99c880;}
+.lottery-container .winning-inner .winning-img-4{ background-image: url(schoolSpree-winning-image4.png); background-color: #f4cf1e;}
+.lottery-container .winning-inner .winning-img-5{ background-image: url(schoolSpree-winning-image5.png); background-color: #f4cf1e;}
+.lottery-container .winning-inner .winning-img-6{ background-image: url(schoolSpree-winning-image6.png); background-color: #99c880;}
+.lottery-container .winning-inner .winning-img-7{ background-image: url(schoolSpree-winning-image7.png); background-color: #bcbcbc;}
+/*column-3*/
+.t-schoolSpree-box .container .column-3{clear: both;padding:20px 0 60px 0;overflow: hidden;}
+.t-schoolSpree-box .container .column-3 .lottery-table .record{font-size: 16px;line-height: 45px;color: #4a960f;}
+.t-schoolSpree-box .container .column-3 .lottery-table .record span{color: #fffc00;}
+.t-schoolSpree-box .container .column-3 .lottery-table{width:476px;color: #fffc00;text-align: center;margin:0 0 0 5px;float: left;}
+.t-schoolSpree-box .container .column-3 .lottery-table table {border-collapse: collapse;width: 100%;border:2px solid #4f9f10;border-radius: 3px;}
+.t-schoolSpree-box .container .column-3 .lottery-table table thead {background-color: #58b700;border-bottom: 1px solid #4ca100;line-height: 50px;}
+.t-schoolSpree-box .container .column-3 .lottery-table table thead tr td {font-size: 20px;color: #d8fca5;}
+.t-schoolSpree-box .container .column-3 .lottery-table table tbody {background-color: #fff;line-height: 48px; }
+.t-schoolSpree-box .container .column-3 .lottery-table table tbody tr td:nth-child(2),.t-schoolSpree-box .container .column-3 .lottery-table table tbody tr td:nth-child(3) {border-right:none;}
+.t-schoolSpree-box .container .column-3 .lottery-table table tbody tr td {border-right: 2px solid #c4e0ab;color: #58b700;font-size: 18px;}
+.t-schoolSpree-box .container .column-3 .lottery-table table tbody .odd {background-color: #f3f3f3;}
+.t-schoolSpree-box .container .column-3 .award-dynamic {width:504px;margin-top:15px; float: right;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .top {height: 23px;background: url(schoolSpree-column-4.png) no-repeat center 0;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid{background-color: #fbf4ce;  margin: 0 11px 0 9px;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .bot{height: 10px;background: url(schoolSpree-column-5.png) no-repeat center 0;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .title {font-size: 22px;color: #da7b00;border-bottom: 3px dotted #d3be81;margin: 0 10px;line-height: 40px;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .title span{font-size:16px;padding: 0 0 0 10px;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .title span b {font-size: 20px;color: #db373f;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .list {font-size: 16px;line-height: 50px;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .list span{color: #da7b00; display: inline-block; text-align: center; vertical-align: middle; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.t-schoolSpree-box .container .column-3 .award-dynamic .mid .list .area{color: #000000; width: 250px ; margin-right: 10px;}
+.special-footer, .special-footer .m-inner{ height: 120px;}
+.special-footer{background: url(schoolSpree-bg-2.jpg) no-repeat center 0;padding:100px 0 0 0; border: none; height: auto; }
+.special-footer p{text-align: center;font-size: 14px;color:#fff;line-height: 30px;}
+.special-footer .m-inner{ background: none;}
+.special-footer .m-foot-link {display: none;}
+.special-footer .w-fl-left{ float: none;}
+.special-footer .copyright{ margin: 0;}
+.special-footer .link{ display: none;}
+
+.t-winning-pop{background: url(schoolSpree-winning-pop.png) no-repeat center 0;width:560px;height:403px;text-align: center;}
+.t-winning-pop .winning-title{padding:135px 0 0 0;}
+.t-winning-pop .winning-title,.t-winning-pop .winning-info,.t-notWinning-pop .tip{font-size: 30px;color:#fff;line-height: 80px;} 
+.t-winning-pop .winning-info span{color:#fed644;} 
+.t-winning-pop .btn .sure-btn,.t-notWinning-pop .btn .sure-btn{font-size: 30px;display: inline-block;color: #d85f43;width: 300px;text-align: center;letter-spacing: 8px;background-color: #fee13f;border-radius: 10px;padding:27px 0;} 
+.t-winning-pop .notice{font-size: 20px;color:#fff; line-height: 25px;padding: 20px 120px;} 
+
+.t-notWinning-pop{background-color: #fdb42c;width: 560px;height:280px;border-radius: 10px;text-align: center;}
+.t-notWinning-pop .notWinning-title{font-size: 40px;color: #fff;padding:50px 0 0 0;}
+.t-notWinning-pop .notWinning-title .icon{display: inline-block;background: url(schoolSpree-noWinning-icon.png) no-repeat;width: 53px;height:53px;vertical-align: middle;}
+.t-notWinning-pop .notice{font-size: 18px;background-color: #eea419;border-radius: 10px;line-height: 28px;color: #fff;padding: 0 20px; margin: 10px 120px 35px 120px;}
+.t-notWinning-pop .tip{padding:15px 0 0 0;}

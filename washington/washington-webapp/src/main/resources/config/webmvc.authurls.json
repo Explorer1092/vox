@@ -1,0 +1,11 @@
+[
+  {
+    "handler":"sessionAuthenticationHandler",
+    "urls": [
+      {
+        "url": "/livecast",
+        "roleTypes": "ROLE_STUDENT"
+      }
+    ]
+  }
+]

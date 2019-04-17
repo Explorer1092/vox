@@ -1,0 +1,170 @@
+@charset "UTF-8";html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}}
+@media only screen and (min-width:375px){html{font-size:21px!important}}
+@media only screen and (min-width:400px){html{font-size:22px!important}}
+@media only screen and (min-width:414px){html{font-size:23px!important}}
+@media only screen and (min-width:480px){html{font-size:24px!important}}
+@media only screen and (min-width:540px){html{font-size:26px!important}}
+@media only screen and (min-width:640px){html{font-size:28px!important}}
+@media only screen and (min-width:768px){html{font-size:32px!important}}
+@media only screen and (min-width:960px){html{font-size:36px!important}}
+@media only screen and (min-width:1024px){html{font-size:46px!important}}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,html{-webkit-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;tap-highlight-color:transparent}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+  a,a:visited{text-decoration:underline}
+  a[href]:after{content:" (" attr(href) ")"}
+  abbr[title]:after{content:" (" attr(title) ")"}
+  .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+  blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+  thead{display:table-header-group}
+  img,tr{page-break-inside:avoid}
+  img{max-width:100%!important}
+  @page{margin:.5cm}
+  h2,h3,p{orphans:3;widows:3}
+  h2,h3{page-break-after:avoid}}
+[v-cloak]{display:none}
+body,html{width:100%;height:100%}
+body {
+  background-image: url(../../images/parent/chips/payment_success/bg.png?v=213213);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-wrapper {
+  text-align: center;
+  background: #FFDE3D;
+  font-size: 0.63rem;
+}
+.header-wrapper img {
+  margin-top: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.header-wrapper .notify-text-wrapper {
+  background: #49424B;
+  text-align: left;
+  padding: 0.65rem 1rem;
+  color: #fff;
+  margin-top: 0.3rem;
+}
+.notify-title {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.notify-title:before {
+  content: '';
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../../images/parent/chips/payment_success/ic_purchase_notice.png?v=213213) no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  margin-right: 0.3rem;
+}
+.step-wrapper {
+  margin-top: 1.6rem;
+}
+.step-title {
+  margin: 0 0.75rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+}
+.step-name {
+  background: #FFDE3D;
+  border-radius: 49px;
+  padding: 0.15rem 0.5rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  width: 3rem;
+  min-width: 3rem;
+}
+.step-content { margin-top: 0.2rem; line-height: 1.5; }
+.first-step-wrapper {
+  text-align: center;
+  background-image: url(../../images/parent/chips/payment_success/top_bg.png?v=213213);
+  background-repeat:  no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 85%;
+  margin: 1.5rem auto;
+  background-color: #FFFFFA;
+  box-shadow: 0 4px 11px 0 rgba(186,161,43,0.30);
+  border-radius: 23px;
+  padding-bottom: 1.5rem;
+}
+.first-step-wrapper img {
+  border: 2px #fff solid;
+  box-shadow: 0 4px 24px 0 rgba(238,238,239,0.50);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.teacher-name {
+  font-size: 0.85rem;color: #333333;text-align: center;
+}
+.teacher-said {
+  font-size: 0.7rem;
+  color: #4A4A4A;
+  width: 80%;
+  text-align: left;
+  margin: 0.45rem auto;
+  line-height: 1.8;
+}
+.copy-wechat-code {
+  margin-top: 0.3rem;
+  background-color: #FFDE3D;
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+}
+.wechat-wrapper {
+  position: relative;
+  height: 12rem;
+  width: 80%;
+  margin: 1rem auto;
+  background-image: url(../../images/parent/chips/payment_success/wechat_bg.png?v=213213);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0.7rem;
+}
+.wechat-qrcode {
+  width: 6rem;
+  height: 6rem;
+}
+.save-qrcode {
+  background: #FFDE3D;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.2rem;
+}

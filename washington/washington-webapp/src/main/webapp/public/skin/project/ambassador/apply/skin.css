@@ -1,0 +1,37 @@
+html, body{ width: 100%; font:14px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体";}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd, input{ margin: 0; padding: 0; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none;  cursor:pointer; text-decoration:none}
+img{ vertical-align:middle; border:none;}
+
+.m-main{ width: 100%;}
+.apply .banner{ width: 100%; min-width: 1000px; height: 531px; background: url(apply-banner.png) center top no-repeat;}
+.apply .banner .banner-inner{ width: 1000px; height: 531px; margin: 0 auto; position: relative;}
+.apply .banner .banner-inner a{ display: block; width: 220px; height: 65px; position: absolute; bottom: 140px; left: 25px;}
+.apply .main .main-inner{ width: 1000px; margin: 0 auto;}
+.apply .main .main-inner h2{ font-size: 36px; line-height: 36px; font-weight: normal; color: #6f7172; padding: 50px 0 25px 70px;}
+.apply .main .main-inner h2 i{ display: block; float: left; margin-top: 2px; _margin-top: 0px; margin-left: -70px; _margin-left: -35px;  width: 31px; height: 31px; background: url(apply-title-icon.png) no-repeat; background-position: -4px 0px; _background-position: -4px 3px;}
+.apply .main .m-do{ width: 100%; min-width: 1000px; height: 380px; background: #fafafa;}
+.apply .main .m-do li{ width: 138px; float: left; height: auto; margin-left: 240px; _display: inline; _zoom: 1; text-align: center; color: #636363;}
+.apply .main .m-do li .pic{ width: 138px; height: 138px; background: url(apply-do-icon.png) no-repeat;}
+.apply .main .m-do li .pic01{ background-position: 0 0;}
+.apply .main .m-do li .pic02{ background-position: -141px 0;}
+.apply .main .m-do li h3{ font-size: 22px; padding: 15px 0; font-weight: normal;}
+.apply .main .m-do li p{ font-size: 18px;}
+.apply .main .m-get{ width: 100%; min-width: 1000px; height: 383px; background: #fff;}
+.apply .main .m-get li{ width: 250px; float: left; height: auto; text-align: center; color: #636363;}
+.apply .main .m-get li .pic{ width: 115px; height: 115px; margin: 0 auto; background: url(apply-get-icon.png) no-repeat;}
+.apply .main .m-get li .pic01{ background-position: 0 0;}
+.apply .main .m-get li .pic02{ background-position: -132px 0;}
+.apply .main .m-get li .pic03{ background-position: -264px 0;}
+.apply .main .m-get li .pic04{ background-position: -396px 0;}
+.apply .main .m-get li h3{ font-size: 22px; padding: 15px 0; font-weight: normal;}
+.apply .main .m-get li p{ font-size: 18px;}
+.apply .main .m-condition{ width: 100%; min-width: 1000px; height: 310px; background: #fafafa;}
+.apply .main .m-condition li{ font-size: 18px; line-height: 18px; color: #6f7172; padding: 10px 0 10px 70px;}
+.apply .main .m-condition li i{ display: block; float: left; margin-right: 4px; width: 22px; height: 22px; background: url(apply-title-icon.png) no-repeat; background-position: -9px -45px;}
+.apply .main .m-condition li a{ color: #3ca2db;}
+.apply .main .m-condition li .txt-red{ color: #f8391f;}

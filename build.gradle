@@ -1,0 +1,257 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+buildscript {
+  repositories {
+    maven { url maven_repo_public }
+  }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
+  }
+}
+
+plugins {
+  id 'java'
+}
+
+def writeBuildProperties(project, productPropertiesFile, buildFile) {
+  def f = file(productPropertiesFile)
+  f.parentFile.mkdirs()
+
+  String content = ""
+  content += "product.development.app_name=${project.name}\r\n"
+  content += "product.development.stage=${project.ext.stage}\r\n"
+  content += "product.development.build_version=${project.ext.vcsRevision}\r\n"
+
+  f.text = content
+
+  f = file(buildFile)
+  f.text = project.ext.vcsRevision
+}
+
+def vcsVersion = 'NO_VCS_VERSION'
+if (project.ext.has('stage')) {
+  ByteArrayOutputStream os = new ByteArrayOutputStream()
+  exec {
+    executable = 'git'
+    args = ['log',
+            '--max-count=1',
+            '--pretty=format:%ad-%H',
+            '--date=format-local:%Y%m%d-%H%M%S']
+    standardOutput = os
+  }
+  vcsVersion = os.toString('UTF-8').trim()
+}
+
+allprojects {
+  apply plugin: 'maven'
+
+  if (!project.ext.has('stage') || !project.ext.stage) {
+    project.ext.stage = 'dev'
+  }
+  project.ext.outputDirName = 'build-' + stage
+  project.ext.vcsRevision = vcsVersion
+}
+
+
+subprojects {
+  apply plugin: 'kotlin'
+
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+
+  repositories {
+    maven { url maven_repo_public }
+  }
+
+  compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+  }
+  compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+  }
+
+  def compilerArgs = ['-Xlint:-options', '-g'] //'-Xlint:unchecked', '-Xlint:deprecation'
+  compileJava.options.compilerArgs = compilerArgs
+  compileTestJava.options.compilerArgs = compilerArgs
+
+  def sourceEncoding = 'UTF-8'
+  compileJava.options.encoding = sourceEncoding
+  compileTestJava.options.encoding = sourceEncoding
+
+  dependencies {
+    compileOnly(group: 'org.projectlombok', name: 'lombok', version: "${version_lombok}")
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$version_kotlin"
+    compile "org.jetbrains.kotlin:kotlin-reflect:$version_kotlin"
+  }
+
+  jar {
+    manifest {
+      attributes 'Specification-Vendor': vendor,
+          'Implementation-Vendor': vendor,
+          'Implementation-Title': project.name,
+          'Implementation-Version': vcsVersion,
+          'Voxlearning-Component-Id': "UTOPIA:${project.name}:${version}",
+          'url': url
+    }
+  }
+
+  if (project.name.endsWith("-webapp")) {
+
+    apply plugin: 'war'
+
+    task explodedWar(type: Sync) {
+      into "$rootDir/build-repo/${outputDirName}/${project.name}/webroot"
+      with war
+    }
+
+    task postProcess {
+      doLast {
+        writeBuildProperties(project,
+            "$rootDir/build-repo/${outputDirName}/${project.name}/webroot/WEB-INF/classes/config/product.properties",
+            "$rootDir/build-repo/${outputDirName}/${project.name}/webroot/BUILD.txt")
+      }
+    }
+    postProcess.dependsOn explodedWar
+    assemble.dependsOn postProcess
+
+    war.enabled = false
+
+  }
+
+  // daemon 和 provider 都用同样的方式编译成 jar
+  if (project.name == 'utopia-schedule'
+          || project.name == 'utopia-dubbo-proxy'
+          || project.name == 'utopia-hydra-agent'
+          || project.name == 'utopia-hydra-agent-http2'
+          || project.name == 'utopia-surl'
+          || project.name == 'utopia-voice-score'
+          || project.name.endsWith('-provider')) {
+    def outputPath = "$rootDir/build-repo/${outputDirName}/${project.name}"
+    def libPath = "$outputPath/lib"
+    jar {
+      destinationDir = file("$outputPath")
+      exclude 'config/product.properties'
+    }
+
+    task cleanJar(type: Delete) {
+      def jarFiles = fileTree(file("$outputPath")).include('**/*.jar').findAll()
+      jarFiles.forEach({
+        ((File) it).delete()
+      })
+    }
+
+    //for multiproject builds on gradle 2+, use:
+    //This assures addDependToManifest is called after the configuration phase,
+    //when all dependencies are calculated. (it also avoids an empty classpath line).
+    task addDependToManifest {
+      doLast {
+        if (!configurations.runtime.isEmpty()) {
+          jar.manifest.attributes('Class-Path': '. ' + configurations.runtime.collect {
+            "lib/" + it.name
+          }.join(' '))
+        }
+      }
+    }
+
+    task syncLibs(dependsOn: classes, type: Sync) {
+      into "$libPath"
+      from configurations.runtime
+    }
+
+    task postProcess {
+      doLast {
+        writeBuildProperties(project,
+            "$outputPath/config/product.properties",
+            "$outputPath/BUILD.txt")
+      }
+    }
+
+    jar.dependsOn cleanJar, addDependToManifest
+    syncLibs.dependsOn jar
+    postProcess.dependsOn syncLibs
+    assemble.dependsOn postProcess
+  }
+
+  // publish utopia api jars to maven
+  String groupPath = "${group}".replace('.', '/')
+  String checkPath = "${maven_repo_releases}/${groupPath}/${project.name}/${version}/${project.name}-${version}.jar"
+  tasks.matching { it.name == "publishMavenJavaPublicationToMavenRepository" }.all {
+    onlyIf {
+      try {
+        new URL(checkPath).bytes
+        false
+      } catch (FileNotFoundException ignore) {
+        true
+      }
+    }
+  }
+  def publishCandidates = [
+      "utopia-action-api",
+      "utopia-afenti-api",
+      "utopia-ai-api",
+      "utopia-ambassador-api",
+      "utopia-business-api",
+      "utopia-campaign-api",
+      "utopia-crm-api",
+      "utopia-dubbing-api",
+      "utopia-feedback-api",
+      "utopia-guest-api",
+      "utopia-mentor-api",
+      "utopia-mizar-api",
+      "utopia-nekketsu-api",
+      "utopia-newexam-api",
+      "utopia-newhomework-api",
+      "utopia-piclisten-api",
+      "utopia-psr-api",
+      "utopia-push-api",
+      "utopia-reminder-api",
+      "utopia-rstaff-api",
+      "utopia-vendor-api",
+      "utopia-wechat-api",
+      "utopia-workflow-api",
+      "utopia-zone-api",
+      "utopia-parenthomework-api"
+  ] as Set
+  if (publishCandidates.contains(project.name)) {
+    apply plugin: 'maven-publish'
+
+    task sourceJar(type: Jar) {
+      from sourceSets.main.allSource
+    }
+    publishing {
+      publications {
+        mavenJava(MavenPublication) {
+          groupId group
+          artifactId project.name
+          version version
+          from components.java
+          artifact sourceJar {
+            classifier "sources"
+          }
+        }
+      }
+      repositories {
+        maven {
+          url maven_repo_releases
+          credentials {
+            //make sure mavenUser, mavenPassword defined in ~/.gradle/gradle.properties  or  C:\Users\currentUser\.gradle\gradle.properties
+            username project.hasProperty('mavenUser') ? mavenUser : "admin"
+            password project.hasProperty('mavenPassword') ? mavenPassword : "admin123"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+.scholarship-box{width:100%;height:2300px;background:url(../images/scholarship/bg01-1.jpg?v=8c5f396e04) no-repeat center top #fff6f7}
+.scholarship-box .scholarship-header{padding:350px 0 0 0;text-align:center;font-size:30px;color:#383838;line-height:40px}
+.scholarship-box .inner{margin:0 auto;width:1000px}
+.scholarship-box .scholarship-main{padding: 20px 0 0 0}
+.ssn-side{padding:12px 22px;background-color:#fff9fa;border-radius:10px}
+.ssn-side p{font-size:14px;color:#333;line-height:34px}
+.ssn-side p span{margin:0 10px 0 0;display:inline-block;width:18px;height:18px;text-align:center;font-size:14px;color:#fff;line-height:19px;background:url(../images/scholarship/icon01.png?v=a0bab8b469) no-repeat}
+.ssn-column{margin:22px 0}
+.ssn-column .sLeft{padding:100px 0 0 0;float:left;width:359px;height:210px;text-align:center;background:url(../images/scholarship/bg03.png?v=4560423c05) no-repeat #fff}
+.ssn-column .sLeft p{font-size:20px;color:#474747;line-height:40px}
+.ssn-column .sLeft p span{color:#ec5977}
+.ssn-column .sLeft p i{margin-right:5px;display:inline-block;vertical-align:middle;width:21px;height:27px;background:url(../images/scholarship/icon02.png?v=91581e19c7) no-repeat}
+.ssn-column .sLeft a{margin:15px 0 0 0;padding:9px 42px;display:inline-block;font-size:20px;color:#fff;background-color:#ec5977;border-radius:5px}
+.ssn-column .sRight{overflow:hidden}
+.ssn-column .sRight li{position:relative;margin-left:12px;float:left;width:195px;height:230px;background-color:#fff;border-radius:10px;overflow:hidden}
+.ssn-column .sRight li img{margin:17px auto;display:block}
+.ssn-column .sRight li em{position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(255,255,255,.6);border-radius:10px}
+.ssn-column .sRight li .tag{text-align:center;background-color:#ec5977}
+.ssn-column .sRight li .tag.tagGray{background-color:#b2b5b7}
+.ssn-column .sRight li .tag span{display:inline-block;width:170px;height:45px}
+.ssn-column .sRight li .tag span.tag50{background:url(../images/scholarship/words01.png?v=08f2595f43) no-repeat center}
+.ssn-column .sRight li .tag span.tag25{background:url(../images/scholarship/words02.png?v=fd524a6dfc) no-repeat center}
+.ssn-column .sRight li .tag span.tag10{background:url(../images/scholarship/words03.png?v=f78e4cacc5) no-repeat center}
+.ssn-column .sRight li.active{cursor:pointer;border:3px solid #ec5977;height:224px}
+.ssn-column .sRight li.active img{margin:16px auto}
+.ssn-column .sRight li.show{cursor:pointer;background-color:#f798ab}
+.ssn-column .sRight .prize-pool .pool{margin:0 0 15px 13px;float:left;width:200px;height:66px;background:url(../images/scholarship/bg07.png?v=8ba18f674d) no-repeat 0 0}
+.ssn-column .sRight .prize-pool .pool.pool-2{background-position:-214px 0}
+.ssn-column .sRight .prize-pool .pool.pool-3{background-position:-427px 0}
+.ssn-content{clear:both;overflow: hidden}
+.ssn-content .cLeft{float:left;width:368px}
+.ssn-content .cLeft .top{height:28px;background:url(../images/scholarship/bg04.png?v=89cc0e4040) no-repeat center 0}
+.ssn-content .cLeft .mid{padding:0 10px;background-color:#fffeee;margin:-15px 12px 0 12px;height:597px}
+.ssn-content .cLeft .mid h1{padding:8px 0 0 0;font-size:22px;color:#3e1b1b;font-weight:400;line-height:40px;border-bottom:1px dashed #fad49d;overflow:hidden}
+.ssn-content .cLeft .mid h1 span{float:right;font-size:16px;color:#3a3536}
+.ssn-content .cLeft .mid h1 i{font-size:20px;color:#ec5977}
+.ssn-content .cLeft .mid ul{margin:15px 0;overflow:auto}
+.ssn-content .cLeft .mid ul.list-1{max-height:210px;padding-bottom:15px;border-bottom:1px dashed #fad49d}
+.ssn-content .cLeft .mid ul.list-2{height:300px}
+.ssn-content .cLeft .mid li{font-size:14px;line-height:25px;overflow:hidden}
+.ssn-content .cLeft .mid li div{float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.ssn-content .cLeft .mid li div.name{width:25%;color:#ff7b41}
+.ssn-content .cLeft .mid li div.city{width:40%;color:#333}
+.ssn-content .cLeft .mid li div.prize{width:32%;color:#f25253;padding-left:3%;text-align:right}
+.ssn-content .cLeft .dot{margin-top:-15px;height:8px;background:url(../images/scholarship/bg05.png?v=f604e20f07) no-repeat center 0}
+.scholarship-rule{clear:both; margin-top: 30px}
+.scholarship-rule h2{margin-bottom:26px;height:27px;background:url(../images/scholarship/bg02.png?v=026795e358) no-repeat center 0}
+.scholarship-rule .rule-box{background-color:#fff;overflow:hidden;border-radius:10px}
+.scholarship-rule .rule-box .ssn-side{float:left;width:520px;background:0 0}
+.scholarship-rule .rule-box .ssn-side p{padding:9px 0;line-height:25px}
+.scholarship-rule .rule-box .ssn-side p span{float:left;margin-top:5px}
+.scholarship-rule .rule-box .ssn-side p i{margin-left:28px;display:block}
+.ssn-side-title{margin-bottom:26px;height:27px;background:url(../images/scholarship/bg02-1.png?v=027795e330) no-repeat center 0}
+.scholarship-rule .rule-box .ssn-picture{margin:14px 0 0 0}
+.scholarship-rule .rule-box .ssn-picture img{margin-right:15px;width:200px;height:200px;background-color:#f1f1f1;border-radius:10px;overflow:hidden}
+.scholarship-rule .rule-btn{padding:45px 0 0 0;text-align:center}
+.scholarship-rule .rule-btn a{margin:0 30px;padding:8px 22px;display:inline-block;text-align:center;font-size:18px;color:#fff;line-height:22px;background-color:#ec5977;border-radius:10px}
+.scholarship-rule .rule-btn a span{font-size:12px;line-height:20px}
+.scholarship-rule .rule-btn a .yellow{color:#ffefa3}
+.side-lottery{position:relative;margin-bottom:46px;float:right;width:626px;height:610px;background:url(../images/scholarship/bg06.png?v=fadae100ca) no-repeat}
+.side-lottery .btn{position:absolute;top:227px;left:235px}
+.side-lottery .btn .turntable-btn{padding:115px 0 0 0;display:block;width:157px;height:42px;text-align:center;font-size:16px;color:#404040;background:url(../images/scholarship/btn01.png?v=1bb1908ce8) no-repeat}
+.side-lottery .btn .turntable-btn.gray{background:url(../images/scholarship/btn02.png?v=7b88d55613) no-repeat;cursor:default}
+.side-lottery .container{position:relative}
+.side-lottery .container .icon{position:absolute;top:60px;left:62px;width:157px;height:148px;border-radius:10px;background-color:#fff;box-shadow:0 -9px 0 #fca3af}
+.side-lottery .container .icon.icon-01{left:235px}
+.side-lottery .container .icon.icon-02{left:408px}
+.side-lottery .container .icon.icon-03{top:235px;left:408px}
+.side-lottery .container .icon.icon-04{top:407px;left:408px}
+.side-lottery .container .icon.icon-05{top:407px;left:235px}
+.side-lottery .container .icon.icon-06{top:407px}
+.side-lottery .container .icon.icon-07{top:235px}
+.side-lottery .container .icon.active{background-color:#ffb0c0}
+.keyRecords-pop{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.6);z-index:1}
+.keyRecords-pop.bg-1 .inner{margin:-334.5px 0 0 -256px;width:512px;height:669px;background:url(../images/scholarship/pop-bg01.png?v=463f912505) no-repeat}
+.keyRecords-pop.bg-1 .inner .close{width:30px;height:30px}
+.keyRecords-pop.bg-2 .inner{margin:-393px 0 0 -415.5px;width:831px;height:786px;background:url(../images/scholarship/pop-bg02.png?v=27cf852071) no-repeat}
+.keyRecords-pop.bg-2 .inner .close{top:49px;right:117px;width:50px;height:50px}
+.keyRecords-pop.bg-3 .inner{margin:-179px 0 0 -256px;width:512px;height:358px;background:url(../images/scholarship/pop-bg03.png?v=69f13d991d) no-repeat}
+.keyRecords-pop.bg-3 .inner .close{width:30px;height:30px}
+.keyRecords-pop.bg-3 .keyRecords-main{height:auto}
+.keyRecords-pop.bg-4 .inner{margin:-149px 0 0 -256px;width:512px;height:298px;background:url(../images/scholarship/pop-bg04.png?v=3ca28f5908) no-repeat}
+.keyRecords-pop.bg-4 .inner .close{width:30px;height:30px}
+.keyRecords-pop.bg-4 .keyRecords-main{margin-top:60px;height:auto}
+.keyRecords-pop.bg-4 .keyRecords-main .item{padding-bottom:8px}
+.keyRecords-pop .inner{position:absolute;top:50%;left:50%}
+.keyRecords-pop .close{position:absolute;top:0;right:0;display:block}
+.keyRecords-pop .keyRecords-main{position:relative;padding:35px 0;margin:190px 45px 0 30px;height:350px;color:#333;background-color:#fff;border-radius:10px;overflow:hidden}
+.keyRecords-pop .keyRecords-main .column{padding:0 43px}
+.keyRecords-pop .keyRecords-main .column .title{font-size:18px;line-height:30px}
+.keyRecords-pop .keyRecords-main .column ul{margin:14px 0 0 0;height:240px;overflow:auto}
+.keyRecords-pop .keyRecords-main .column ul li{font-size:16px;line-height:26px}
+.keyRecords-pop .keyRecords-main .pink{color:#ed6380}
+.keyRecords-pop .keyRecords-main .content{position:absolute;bottom:0}
+.keyRecords-pop .keyRecords-main .content .arrow{padding:0 0 0 14px;font-size:14px;color:#525252;line-height:32px}
+.keyRecords-pop .keyRecords-main .content .info{padding:8px 14px;font-size:12px;color:#cb8d11;line-height:20px;background-color:#fff3c0}
+.keyRecords-pop .keyRecords-main .item{text-align:center;font-size:18px;color:#333;line-height:30px}
+.keyRecords-pop .keyRecords-main .sub{padding:0 27px;font-size:18px;color:#333;line-height:25px}
+.keyRecords-pop .keyRecords-main .btn{padding:25px 0 0 0;text-align:center}
+.keyRecords-pop .keyRecords-main .btn .pink_btn{padding:13px 54px;display:inline-block;text-align:center;font-size:20px;color:#fff;background-color:#ec5977;border-radius:10px}

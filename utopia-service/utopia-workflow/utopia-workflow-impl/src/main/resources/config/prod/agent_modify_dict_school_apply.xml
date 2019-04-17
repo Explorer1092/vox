@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- 字典表申请（天权，天玑）：
+        审核流程如下（20170616）：
+        1  专员申请    -》  市经理审核  -》  风控审核
+        2  市经理申请  -》  风控审核
+        注：如果是学前学校，风控不进行人工审核， 系统自动审核通过，  系统账号 {"userPlatform":"agent"@"account":"system"@"accountName":"系统"}
+    -->
+
+    <!--专员创建申请，等待市经理审核-->
+    <status name="init">
+        <event name="agree" status="lv1" mqmsg="agree_init"></event>              <!--市经理通过-->
+        <event name="reject" status="reject_init" mqmsg="reject_init"></event>     <!--市经理拒绝-->
+    </status>
+
+    <!-- 市经理创建申请，或者市经理同意专员提交的申请， 转至 admin, 等待风控审核 -->
+    <status name="lv1" processor='{"userPlatform":"admin"@"account":"yanpei.fang"@"accountName":"方炎培"}'>
+        <event name="agree"  status="lv2" mqmsg="agree_lv1"></event> <!--风控通过 -->
+        <event name="reject" status="reject_lv1" mqmsg="reject_lv1"></event> <!--风控拒绝 -->
+    </status>
+
+    <!-- 风控审核审核完毕，等待审核团队审核 -->
+    <!-- 取消二审审核 -->
+    <!--<status name="lv2" processor='{"userPlatform":"admin"@"account":"lining.zhang"@"accountName":"张立宁"},{"userPlatform":"admin"@"account":"yidong.yin"@"accountName":"殷祎东"}'>-->
+    <!--<event name="agree" status="processed" mqmsg="agree_lv2"></event> &lt;!&ndash;二审通过 &ndash;&gt;-->
+    <!--<event name="reject" status="rejected" mqmsg="reject_lv2"></event> &lt;!&ndash;二审拒绝 &ndash;&gt;-->
+    <!--</status>-->
+
+</root>

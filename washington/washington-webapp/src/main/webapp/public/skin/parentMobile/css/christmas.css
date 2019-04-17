@@ -1,0 +1,72 @@
+/*
+* @authors your project
+* @author: zhaoy
+* @date    2015-12-14 15:05:34
+*/
+
+/* touch-reset */
+html,body { color: #333; font: 16px/1.125 Arial,"Microsoft YaHei"; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li { margin: 0; padding: 0; }
+body { overflow: auto; -webkit-user-select:none; user-select:none; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+ul,li { list-style: none; }
+* { -webkit-tap-highlight-color: transparent; background-clip: padding-box; }
+
+.projectChristmas-bg-1,.projectChristmas-bg-2,.projectChristmas-bg-3 { background-repeat: no-repeat; background-size: 100% 100%; }
+.projectChristmas-bg-2,.projectChristmas-bg-3 { margin: -1px 0 0; }
+
+.projectChristmas-bg-1 { padding: 463px 0 0; text-align: center; background-image: url(../images/activity/christmas/projectChristmas-bg-1.png); }
+.projectChristmas-bg-1 .module-1 { color: #144320; font-size: 24px; line-height: 34px; }
+.projectChristmas-bg-1 .module-2 { padding: 16px 0 37px; color: #8f755f; font-size: 20px; line-height: 30px; }
+
+.projectChristmas-bg-2 { padding: 44px 82px 0 34px; background-image: url(../images/activity/christmas/projectChristmas-bg-2.png); }
+.projectChristmas-bg-2 .module-box { position: relative; padding: 4px; border: 4px #bf222c solid; border-radius: 48px; background-color: #d2e982; }
+.projectChristmas-bg-2 .module-box:after { position: absolute; top: -21px; right: 24px; content: ""; width: 90px; height: 26px; background: url(../images/activity/christmas/projectChristmas-icon-1.png) no-repeat; background-size: 100% 100%; }
+.projectChristmas-bg-2 .module-inner { padding: 0 16px 16px; border: 2px #a4b665 dashed; border-radius: 40px; }
+.projectChristmas-bg-2 .module-head { color: #7e9235; font-size: 20px; line-height: 46px; font-weight: 700; }
+.projectChristmas-bg-2 .module-cont { padding: 0 10px; border-radius: 28px; background-color: #ebffa7; }
+.projectChristmas-bg-2 .module-cont .list li { padding: 8px 0; border-top: 1px #d2e982 solid; }
+.projectChristmas-bg-2 .module-cont .list li:first-child { border: 0 none; }
+.projectChristmas-bg-2 .module-cont .list .hd { position: relative; padding: 10px 0 10px 51px; }
+.projectChristmas-bg-2 .module-cont .list .hd .portrait { position: absolute; top: 0; left: 0; width: 49px; height: 49px; background-repeat: no-repeat; background-size: 100% 100%; }
+.projectChristmas-bg-2 .module-cont .list .hd .box { position: relative; display: inline-block; padding: 1px 13px 0 7px; vertical-align: top; color: #fff; font-size: 16px; line-height: 28px; border-radius: 0 14px 14px 0; }
+.projectChristmas-bg-2 .module-cont .list .hd .box:after { position: absolute; top: 0; left: -5px; content: ""; width: 5px; height: 29px; }
+.projectChristmas-bg-2 .module-cont .list .teacher .hd .portrait { background-image: url(../images/activity/christmas/projectChristmas-icon-2.png); }
+.projectChristmas-bg-2 .module-cont .list .student .hd .portrait { background-image: url(../images/activity/christmas/projectChristmas-icon-3.png); }
+.projectChristmas-bg-2 .module-cont .list .teacher .hd .box { background-color: #ffb33a; }
+.projectChristmas-bg-2 .module-cont .list .student .hd .box { background-color: #75db57; }
+.projectChristmas-bg-2 .module-cont .list .teacher .hd .box:after { background-image: url(../images/activity/christmas/projectChristmas-icon-4.png); }
+.projectChristmas-bg-2 .module-cont .list .student .hd .box:after { background-image: url(../images/activity/christmas/projectChristmas-icon-5.png); }
+.projectChristmas-bg-2 .module-cont .list .txt { padding: 8px 0 0; }
+.projectChristmas-bg-2 .module-cont .list .txt .box { display: inline-block; vertical-align: top; width: 49%; color: #7e9235; font-size: 18px; line-height: 28px; }
+.projectChristmas-bg-2 .module-cont .gift li { padding: 26px 0; border-top: 1px #d2e982 solid; }
+.projectChristmas-bg-2 .module-cont .gift li:first-child { border: 0 none; }
+.projectChristmas-bg-2 .module-cont .gift .box { position: relative; padding: 0 144px 0 104px; }
+.projectChristmas-bg-2 .module-cont .gift .box .ico-flower,.projectChristmas-bg-2 .module-cont .gift .box .ico-beans { position: absolute; top: 50%; left: 19px; margin: -28px 0 0; width: 50px; height: 55px; background-repeat: no-repeat; background-size: 100% 100%; }
+.projectChristmas-bg-2 .module-cont .gift .box .ico-flower { background: url(../images/activity/christmas/projectChristmas-icon-6.png); }
+.projectChristmas-bg-2 .module-cont .gift .box .ico-beans { background: url(../images/activity/christmas/projectChristmas-icon-7.png); }
+.projectChristmas-bg-2 .module-cont .gift .box .btn { position: absolute; top: 50%; right: 0; margin: -22px 0 0; width: 124px; text-align: center; color: #fff; font-size: 16px; line-height: 40px; font-weight: 700; border: 2px #9b6105 solid; border-radius: 22px; background-color: #ffb33a; box-shadow: 0 -5px 0 #cc8f2e inset; }
+.projectChristmas-bg-2 .module-cont .gift .box .txt { color: #7e9235; font-size: 16px; line-height: 26px; }
+.projectChristmas-bg-2 .module-cont .gift .box .txt span { color: #f41827; font-size: 20px; }
+
+.projectChristmas-bg-3 { padding: 30px 20px 80px 44px; background-image: url(../images/activity/christmas/projectChristmas-bg-3.png); height: 550px; background-size: 100% auto; }
+.projectChristmas-bg-3 .table-head { position: relative; display: inline-block; padding: 6px 20px 4px; width: 74%; border: 4px #bf222c solid; border-bottom: 0 none; border-radius: 28px 28px 0 0; background-color: #ffc675; }
+.projectChristmas-bg-3 .table-head .box { border-radius: 23px; background-color: #dca65a; overflow: auto; }
+.projectChristmas-bg-3 .table-head .box select { float: left; padding: 12px; width: 206px; border: 0 none; color: #fff; font-size: 18px; background: #dca65a;  appearance: none;  -webkit-appearance: none;}
+.projectChristmas-bg-3 .table-head .box .num-beans,.projectChristmas-bg-3 .table-head .box .num-gift { float: right; color: #7e3d03; font-size: 18px; line-height: 26px; font-weight: 700; background-repeat: no-repeat; background-size: auto auto; }
+.projectChristmas-bg-3 .table-head .box .num-beans { padding: 20px 26px 0 46px; background-image: url(../images/activity/christmas/projectChristmas-icon-9.png); background-position: 10px 50%; }
+.projectChristmas-bg-3 .table-head .box .num-gift { padding: 20px 10px 0 30px; background-image: url(../images/activity/christmas/projectChristmas-icon-8.png); background-position: 0 4px; }
+.projectChristmas-bg-3 .table-main { margin: -4px 0 0; padding: 6px; border: 4px #bf222c solid; border-radius: 0 58px 58px 58px; background-color: #ffc675; }
+.projectChristmas-bg-3 .table-main .inner { border: 2px #d49053 dashed; border-radius: 50px; overflow: hidden; }
+.projectChristmas-bg-3 .table-main table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.projectChristmas-bg-3 .table-main table td { border: 2px #d49053 dashed; height: 32px; text-align: center; font-size: 18px; }
+.projectChristmas-bg-3 .table-main table thead td { color: #cc3942; font-weight: 700; }
+.projectChristmas-bg-3 .table-main table thead, .projectChristmas-bg-3 .table-main table tr{ display: table;width: 100%;table-layout: fixed;}
+.projectChristmas-bg-3 .table-main table tbody { overflow: hidden; height: 170px; overflow-y: auto; position: relative; display: block; width: 100%;}
+.projectChristmas-bg-3 .table-main table tbody td { color: #13849c; }
+.projectChristmas-bg-3 .table-main table thead td { border-top: 0 none; }
+.projectChristmas-bg-3 .table-main table thead td:first-child { border-left: 0 none; }
+.projectChristmas-bg-3 .table-main table thead td:last-child { border-right: 0 none; }
+.projectChristmas-bg-3 .table-main table tbody tr td:first-child { border-left: 0 none; }
+.projectChristmas-bg-3 .table-main table tbody tr td:last-child { border-right: 0 none; }
+.projectChristmas-bg-3 .table-main table tbody tr:last-child td { border-bottom: 0 none; }

@@ -1,0 +1,45 @@
+html, body{ padding: 0; margin: 0; background-color: #f1f2f2;}
+ul, li, dl, dt, dd, p{ list-style: none; padding: 0; margin: 0;}
+.header{ background: url(backPicture.jpg) repeat-x 0 0; }
+.header .inner{ background: url(ranking_1_1.jpg) no-repeat; width: 1000px; height: 427px; margin: 0 auto; overflow: hidden; position: relative;}
+.header .inner .btnOpening{ background: url(btn_small.png) no-repeat 0 0; width: 118px; height:42px; position: absolute; top: 350px; left: 620px; overflow: hidden; line-height: 2500px;}
+.main{ width: 1000px; margin: 0 auto; background: url(ranking_5.jpg) repeat-y;}
+.main .info_1{ background: url(ranking_2.jpg?1.0.1) no-repeat; height: 231px; line-height: 22px;}
+.main .info_2{ background: url(ranking_3.jpg?1.0.1) no-repeat; height: 249px; line-height: 22px;}
+.main .bottom_footer{ background: url(ranking_8.jpg) no-repeat; height: 20px; clear: both;}
+.main .myranking{ background: url(ranking_4.jpg) no-repeat; width: 739px; padding: 20px 60px 0; height: 106px; margin: 0 auto; font: bold 20px/30px "微软雅黑", "Microsoft YaHei", Arial; color: #fff;}
+.main .myranking .autoor{ color: #ffdd3d; padding: 0 10px; display: inline-block;}
+.main .particiBtn{ padding: 20px; text-align: center;}
+.main .particiBtn a{ background: url(btn_big.png) no-repeat; width: 307px; height: 121px; display: block; margin: 0 auto; overflow: hidden;}
+.main .particiBtn a span{ margin: 12px 0 0 12px;}
+.main .particiBtn a:hover span{ background: url(btn_big_hover.png) no-repeat 0 0; width: 282px; height: 69px; display: block;}
+.main .particiBtn a:active span{ background: url(btn_big_hover.png) no-repeat 0 -88px; width: 282px; height: 69px; display: block;}
+.orange{ color: #ff9001;}
+/*listBox*/
+.listBox li { border-bottom: 1px solid #c3d5e7; background: #edf5fb; clear: both; height: 100%; overflow: hidden;}
+.listBox li.title { background: url(ranking_6.jpg?1.0.3) no-repeat 0 top; height: 50px; border: none; padding: 0; text-indent: -1000px; overflow: hidden; }
+.listBox li.title_1 { background-image: url(ranking_7.jpg?1.0.3); }
+.listBox dl{ padding: 12px 0 0; height: 90px;}
+.listBox dt { background-repeat: no-repeat; background-position: center center; padding: 5px 0 0 10px; float: left; width: 50px; height: 60px; overflow: hidden; text-indent: -1000px; }
+.listBox dd { font-size: 12px; }
+.listBox dd p{ padding: 3px 0 0;}
+.listBox dd .picture { display: block; width: 50px; height: 50px; float: left; padding: 11px 8px;}
+.listBox dd .picture img { width: 50px; height: 50px; border: none; vertical-align: middle;  border: 1px solid #ccc;}
+.listBox dd .integ{ color: #017cb8;}
+.listBox dd .pction {float: right; width: 160px; line-height: 20px;}
+.listBox .rank_1 dl { background: url(talent_10.png) no-repeat;  height: 88px; }
+.listBox .rank_1 dd { color: #fff;}
+.listBox .rank_1 dd .integ{ color: #fff;}
+.listBox .rank_1 dt { background-image: url(talent_10_1.png); }
+.listBox .rank_2 dt { background-image: url(talent_11.png); }
+.listBox .rank_3 dt { background-image: url(talent_12.png); }
+.listBox .rank_4 dt { background-image: url(talent_13.png); }
+.listBox .rank_5 dt { background-image: url(talent_14.png); }
+.listBox .rank_6 dt { background-image: url(talent_15.png); }
+.listBox .rank_7 dt { background-image: url(talent_16.png); }
+.listBox .rank_8 dt { background-image: url(talent_17.png); }
+.listBox .rank_9 dt { background-image: url(talent_18.png); }
+.listBox .rank_10 dt { background-image: url(talent_19.png); }
+.header .luckbont{ position: absolute; top:343px; left: 260px;}
+.header .luckbont span{ display: inline-block; background: url(luck_back.png) repeat-x; height: 33px; font: bold 24px/33px arial; color: #ff6000; text-align: center; width: 29px; margin-right: 2px;}
+.header .luckbont b{ font: bold 20px/30px "微软雅黑", "Microsoft YaHei", Arial; color: #fff;}

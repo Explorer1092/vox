@@ -1,0 +1,10 @@
+description = 'Utopia Service Mentor Provider'
+
+jar {
+    manifest.attributes("Main-Class": "com.voxlearning.utopia.service.mentor.provider.Server")
+}
+
+dependencies {
+    compile("com.voxlearning.alps:alps-bootstrap:${version_alps}")
+    compile(project(':utopia-service:utopia-mentor:utopia-mentor-impl'))
+}

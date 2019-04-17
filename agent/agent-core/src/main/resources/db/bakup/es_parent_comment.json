@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "main": {
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "missionId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "userId": {
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "createTime": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "commentUserName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "analyzedCommentUserName": {
+          "type": "string",
+          "index_analyzer": "ik",
+          "search_analyzer": "ik_smart"
+        },
+        "userName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "analyzedUserName": {
+          "type": "string",
+          "index_analyzer": "ik",
+          "search_analyzer": "ik_smart"
+        },
+        "content": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "analyzedContent": {
+          "type": "string",
+          "index_analyzer": "ik",
+          "search_analyzer": "ik_smart"
+        },
+        "contentLength": {
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "commentType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "recommended": {
+          "type": "boolean"
+        },
+        "disabled": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

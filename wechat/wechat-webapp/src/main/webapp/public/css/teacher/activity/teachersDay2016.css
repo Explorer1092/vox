@@ -1,0 +1,97 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+body,html{width:100%;height:100%;background-color:#f2f5f6;font-family:"微软雅黑","Microsoft YaHei",arial,sans-serif}
+.yellow-color{color:#faf39b}
+.my-wrapper{height:100%;background:url(../../../images/teacher/activity/teachersDay2016/bg_top.jpg?v=c32e84b5d9) 0 top no-repeat,url(../../../images/teacher/activity/teachersDay2016/bg_bottom.jpg?v=bd35b5eca1) 0 bottom no-repeat,#304817;background-size:100% auto}
+.my-data{color:#fff;font-size:1rem;line-height:1.5rem;font-weight:700;padding-top:5rem;padding-left:3.75rem}
+.wishes-wrapper{padding:1.65rem .7rem 0;background:url(../../../images/teacher/activity/teachersDay2016/bg_top2.jpg?v=07201d3b18) no-repeat #3c5a1d;background-size:100%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.wishes-box{position:relative}
+.wishes{padding:0 .125rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:1;width:100%;background:url(../../../images/teacher/activity/teachersDay2016/bg_left.png?v=f06b755af8) no-repeat,url(../../../images/teacher/activity/teachersDay2016/bg_right.png?v=3ccc31846a) right 0 no-repeat,url(../../../images/teacher/activity/teachersDay2016/bg_middle.png?v=3d39f8021f) repeat-x,#fff;background-size:auto 2.8rem}
+.classes-wrapper{position:relative;height:2.8rem;overflow:auto}
+.classes{min-width:100%;height:100%;-webkit-border-radius:.05rem;-moz-border-radius:.05rem;border-radius:.05rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.classes .item{float:left;font-size:.6rem;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-top:.3rem;overflow:hidden;position:relative}
+.classes .item>a{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;position:relative;width:4.05rem;height:2rem;overflow:hidden;text-align:center;color:#fee8ca;font-weight:700}
+.classes .item>a>span{position:absolute;top:50%;left:50%;width:2.3rem;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.classes .the{background:url(../../../images/teacher/activity/teachersDay2016/the.png?v=1fa23a49fc) center bottom no-repeat;background-size:auto .4rem}
+.classes .the a{background:#bd4836;-webkit-border-radius:.15rem;-moz-border-radius:.15rem;border-radius:.15rem}
+.gifts-info{color:#424242;font-size:.6rem;line-height:1.25rem;height:1.25rem;text-indent:1.6rem}
+.gifts-info>span{color:#d5533e}
+.students{height:100%;overflow:auto;background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:4.05rem 0 2.7rem}
+.students table{width:100%}
+.students table td{padding:.25rem}
+.students .picItem{position:relative}
+.students .picItem img{display:block}
+.students .item{float:left;width:50%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:.25rem .5rem;overflow:hidden}
+.students .item .image{height:4.575rem;overflow:hidden}
+.students .item>div{position:relative}
+.students .item>div>img{float:left}
+.students .s-name{position:absolute;bottom:0;left:0;height:1.325rem;width:100%;line-height:1.325rem;background:rgba(42,10,5,.7);font-size:.8rem;color:#fff;text-align:center}
+.btn-box{width:100%;height:2.7rem;position:fixed;bottom:0;background:url(../../../images/teacher/activity/teachersDay2016/bottom_btn_box_bg.png?v=51f8311d25) repeat-x;background-size:auto 100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 .5rem}
+.btn-box>div{float:left;position:relative;width:50%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.btn-box>div>a{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:.9rem;color:#7e2517;line-height:1.7rem;height:1.7rem;text-align:center;background:url(../../../images/teacher/activity/teachersDay2016/bottom_btn_bg.png?v=008253ce7d) no-repeat;background-size:100% 100%;-webkit-border-radius:.15rem;-moz-border-radius:.15rem;border-radius:.15rem;width:86%}
+.teaDay-share{min-height:100%;padding:.75rem;background:#bd4836 url(../../../images/teacher/activity/teachersDay2016/bg.png?v=77f14ab3f1) repeat;background-size:100% auto}
+.shareMain{position:relative;background:#fffdf5;padding:0 .25rem}
+.shareMain .shareTitle{margin:0 1.25rem;padding:1rem 0}
+.shareMain .shareTitle img{display:block;width:100%;height:auto}
+.shareMain .shareVideo{width:100%;border-radius:.25rem;}
+.shareMain .tips{padding:.25rem 0;text-align:center;font-size:.6rem;color:#383838}
+.shareMain .students{padding:0;height:auto;background:0 0}
+.shareFooter{width:100%;height:3rem}
+.shareFooter .footerInner{width:100%;padding:.65rem 0;text-align:center}
+.shareFooter .footerInner .btn{display:inline-block;width:6.5rem;height:1.7rem;background:#fff;box-shadow:inset -.125rem .125rem .125rem #ffd5a3;border-radius:.25rem;line-height:1.7rem;font-size:.9rem;color:#7e2517}
+.shareFooter .footerInner .website-btn{padding:.5rem 0;display:inline-block;width:100%;font-size:.75rem;color:#fff}
+.wechat-shareBg{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background-color:rgba(0,0,0,.7)}
+.wechat-shareBg .bg{margin:2.5rem auto;height:4.275rem;background:url(../../../images/teacher/activity/teachersDay2016/wechat-share.png?v=3aa2421d7f) no-repeat center center;background-size:80% 80%;cursor:pointer}

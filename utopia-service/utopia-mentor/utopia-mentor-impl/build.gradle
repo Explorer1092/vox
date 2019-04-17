@@ -1,0 +1,12 @@
+description = 'Utopia Service Mentor Impl'
+
+dependencies {
+    compile("com.voxlearning.alps:alps-cache-couchbase:${version_alps}")
+    compile("com.voxlearning.alps:alps-dao-mysql:${version_alps}")
+    compile("com.voxlearning.alps:alps-dao-mongo:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-hydra:${version_alps}")
+    compile(project(':utopia-service:utopia-mentor:utopia-mentor-api'))
+
+    testCompile("com.voxlearning.alps:alps-test:${version_alps}")
+    testCompile("com.voxlearning.alps:alps-monitor:${version_alps}")
+}

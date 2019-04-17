@@ -1,0 +1,15 @@
+lowirttheta=0.0
+highirttheta=1.5
+eidcountrateperek=0.4
+downsetrange=0.85
+basenumberforweight=100
+minnotaboveleveleids=5
+maxeidcount=50
+usedefaultminpmaxp=1
+minp=0.80
+maxp=0.99
+eidpsrdays=1
+minpdown=0.05
+gpredictweight=0.7
+isexamination=1
+examinationgroup=20141128

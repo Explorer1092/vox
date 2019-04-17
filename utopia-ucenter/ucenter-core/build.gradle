@@ -1,0 +1,85 @@
+/*
+ * SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+ *
+ * Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Shanghai Sunny
+ * Education, Inc. and its suppliers and may be covered by patents, patents
+ * in process, and are protected by trade secret or copyright law. Dissemination
+ * of this information or reproduction of this material is strictly forbidden
+ * unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+ */
+
+description = 'User Center Core'
+
+dependencies {
+    compile("com.voxlearning.alps:alps-cache-couchbase:${version_alps}")
+    compile("com.voxlearning.alps:alps-dao-mongo:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-dubbo:${version_alps}")
+    compile("com.voxlearning.alps:alps-remote-hydra:${version_alps}")
+    compile("com.voxlearning.alps:alps-queue-rabbitmq:${version_alps}")
+    compile("com.voxlearning.alps:alps-queue-kafka:${version_alps}")
+    compile("com.voxlearning.alps:alps-pubsub-core:${version_alps}")
+    compile("com.voxlearning.alps:alps-storage-aliyunoss:${version_alps}")
+    compile("com.voxlearning.alps:alps-storage-gridfs:${version_alps}")
+    compile("com.voxlearning.alps:alps-webmvc:${version_alps}")
+    compile("com.voxlearning.alps:alps-extension-sensitive:${version_alps}")
+
+    compile("com.voxlearning.raikou:raikou-system-api:${version_raikou}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    compile("com.voxlearning.platform:utopia-core-lib:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+    compile("com.voxlearning.platform:utopia-payment-lib:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+    }
+
+    compile("com.voxlearning.platform:utopia-conversation-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile("com.voxlearning.platform:utopia-footprint-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+    compile("com.voxlearning.platform:utopia-bizuser-api:${version_platform}") {
+        exclude(group: 'com.voxlearning.alps')
+        exclude(group: 'com.voxlearning.raikou')
+    }
+
+    compile(project(':utopia-service:utopia-guest:utopia-guest-api'))
+    compile(project(':utopia-service:utopia-wechat:utopia-wechat-api'))
+    compile(project(':utopia-service:utopia-feedback:utopia-feedback-api'))
+    compile(project(':utopia-service:utopia-vendor:utopia-vendor-api'))
+    compile(project(':utopia-service:utopia-mizar:utopia-mizar-api'))
+
+    compile("net.sourceforge.pinyin4j:pinyin4j:${version_pinyin4j}")
+
+    compile(project(':utopia-service:utopia-zone:utopia-zone-api'))
+
+    compile("com.aliyun.oss:aliyun-sdk-oss:${version_aliyun_sdk_oss}") {
+        exclude(module: 'jdom')
+        exclude(module: 'httpclient')
+        exclude(module: 'json-lib')
+    }
+    compile("org.apache.poi:poi:${version_poi}") {
+        exclude(module: 'commons-codec')
+    }
+    compile("org.apache.poi:poi-ooxml:${version_poi}") {
+        exclude(module: 'commons-codec')
+    }
+    compile("aspose:aspose.words:${version_aspose_words}")
+    compile("com.google.zxing:core:${version_zxing}")
+    compile("com.google.zxing:javase:${version_zxing}")
+    compile("com.itextpdf:itextpdf:${version_itext}")
+    compile("com.itextpdf:itext-asian:${version_asian}")
+
+    compile("commons-httpclient:commons-httpclient:3.1")
+    compile("org.jasig.cas:cas-client-core:${version_cas}")
+    compile("com.unitever.common.cif:dip-sdk:1.0.0.develop")
+    compile("com.i7ops:ucenter-ipdb:ucenter-1.0.0")
+}

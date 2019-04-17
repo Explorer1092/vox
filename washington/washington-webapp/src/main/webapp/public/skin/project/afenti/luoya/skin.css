@@ -1,0 +1,6 @@
+.luoya-pf-main{ width: 856px; margin: 0 auto; overflow: hidden; font: 12px/28px "微软雅黑", regular;}
+.luoya-pf-main .inner{ width: 854px; margin: 0 auto; }
+.luoya-pf-main .con, .luoya-pf-main .colum ,.luoya-pf-main .foot{margin:19px auto;}
+.luoya-pf-main .head, .luoya-pf-main .head .inner{ background: url("luoya-1.jpg?1.0.1") no-repeat center 0; width: 100%; height: 462px;  overflow: hidden;  }
+.luoya-pf-main .con, .luoya-pf-main .con .inner{ background: url("luoya-2.jpg?1.0.1") no-repeat center 0; width: 100%; height: 462px;  overflow: hidden; }
+.luoya-pf-main .colum, .luoya-pf-main .colum .inner{ background: url("luoya-3.jpg?1.0.1") no-repeat center 0; width: 100%; height: 462px;  overflow: hidden; }

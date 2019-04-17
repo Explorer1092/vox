@@ -1,0 +1,101 @@
+<response>
+  <fromTo>category</fromTo>
+  <isOver>0</isOver>
+  <next>1871</next>
+  <previous>0</previous>
+  <totalCountOfModel>5</totalCountOfModel>
+  <indexOfModel>1-2</indexOfModel>
+  <category>
+    <categoryId>259</categoryId>
+    <waveUrl/>
+    <imgUrl>/toeic/img/bp4_u1_l5_1.jpg</imgUrl>
+    <title>Backpack4-Unit1-Reading1</title>
+    <description>Dear Friends Forever, 
+Here is a photo of my best friend, Mariko, and me. Can you guess who is who? Mariko is taller than I am, and her hair is shorter than I am, and she can run faster than I can. She is very friendly and nice. I help her with her homework sometimes, because I am better at math and science than she is. On weekends, we love to ride our bikes in the park, and sometimes we go shopping together. We talk on the phone every day. I am so happy Mariko is my best friend! I want to surprise her with our picture in your magazine!
+Your reader,
+Ayumi Otaka</description>
+    <newWord/>
+    <type>0</type>
+    <modelId>7</modelId>
+    <items>
+      <item>
+        <options>
+          <option>
+            <optId>4975</optId>
+            <title>They are sisters.</title>
+            <waveUrl/>
+            <optNum>A</optNum>
+          </option>
+          <option>
+            <optId>4976</optId>
+            <title>They are friends.</title>
+            <waveUrl/>
+            <optNum>B</optNum>
+          </option>
+          <option>
+            <optId>4977</optId>
+            <title>They are strangers.</title>
+            <waveUrl/>
+            <optNum>C</optNum>
+          </option>
+        </options>
+        <itemId>1392</itemId>
+        <title>1. What's the relationship between the two girls?</title>
+        <type>0</type>
+        <imgUrl/>
+        <waveUrl/>
+        <score>0</score>
+        <level>0</level>
+        <parse/>
+        <optId>4976</optId>
+        <newWord/>
+        <modelId>7</modelId>
+        <treiId>1869</treiId>
+        <itemIndex>18</itemIndex>
+        <examIndex>8</examIndex>
+        <example>0</example>
+        <lessonId>4450005</lessonId>
+        <isOptTitle>0</isOptTitle>
+      </item>
+      <item>
+        <options>
+          <option>
+            <optId>4978</optId>
+            <title>Chinese.</title>
+            <waveUrl/>
+            <optNum>A</optNum>
+          </option>
+          <option>
+            <optId>4979</optId>
+            <title>Math.</title>
+            <waveUrl/>
+            <optNum>B</optNum>
+          </option>
+          <option>
+            <optId>4980</optId>
+            <title>English.</title>
+            <waveUrl/>
+            <optNum>C</optNum>
+          </option>
+        </options>
+        <itemId>1393</itemId>
+        <title>2. What subject is Ayumi better at?</title>
+        <type>0</type>
+        <imgUrl/>
+        <waveUrl/>
+        <score>0</score>
+        <level>0</level>
+        <parse/>
+        <optId>4979</optId>
+        <newWord/>
+        <modelId>7</modelId>
+        <treiId>1870</treiId>
+        <itemIndex>19</itemIndex>
+        <examIndex>8</examIndex>
+        <example>0</example>
+        <lessonId>4450005</lessonId>
+        <isOptTitle>0</isOptTitle>
+      </item>
+    </items>
+  </category>
+</response>

@@ -1,0 +1,51 @@
+html, body, form, p, h1, h2, h3, h4, h5, h6, dl, ul, ol, li, dt, dd, select {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  color: #333;
+  font: 20px/1.5 "Microsoft YaHei", Arial; }
+
+body, select, input, option {
+  -webkit-text-size-adjust: none; }
+
+ul, ol, li {
+  list-style-type: none; }
+
+em, i {
+  font-style: normal; }
+
+input, button, textarea {
+  font-size: 16px; }
+
+a, a:visited {
+  color: #333; }
+
+a {
+  text-decoration: none; }
+
+a img {
+  border: 0 none; }
+
+input[type="button"], input[type="text"], input[type="password"], input[type="submit"], input[type="search"], input[type="email"], input[type="number"], input[type="phone"], button, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-image: none;
+  -moz-border-image: none;
+  border-image: none;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  visibility: hidden; }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  background-clip: padding-box; }

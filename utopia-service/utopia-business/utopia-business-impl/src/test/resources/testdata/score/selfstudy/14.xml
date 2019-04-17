@@ -1,0 +1,45 @@
+<!--suppress XmlUnboundNsPrefix -->
+<tns:EvaluationResult>
+    <ST>
+        <WD>morning</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>2451</FT>
+    </ST>
+    <ST>
+        <WD>head teacher</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>3124</FT>
+    </ST>
+    <ST>
+        <WD>evening</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>2181</FT>
+    </ST>
+    <ST>
+        <WD>again</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>1147</FT>
+    </ST>
+    <ST>
+        <WD>say hello to</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>1593</FT>
+    </ST>
+    <ST>
+        <WD>afternoon</WD>
+        <RW>1</RW>
+        <ISDO>1</ISDO>
+        <SCORE>17</SCORE>
+        <FT>1695</FT>
+    </ST>
+</tns:EvaluationResult>

@@ -1,0 +1,29 @@
+body{background-color:#fff}
+.switch-inner{background-color:#fff}
+.clazz-info{margin:10px 12px 0;padding:12px;font-size:16px;color:#333;background-color:#eef5f9}
+.switch-box{padding-top:20px}
+.switch-box .txt{padding-left:20px;font-size:18px}
+.switch-box .txt span{font-size:14px;color:#a2a2a2}
+.switch-list-box,.switch-list-box-2{margin-top:15px;padding-left:20px;overflow:hidden}
+.switch-list-box .item,.switch-list-box-2 .item{position:relative;float:left;margin-right:30px;width:322px;height:96px;text-align:center;border:1px solid #b1bcc5;border-radius:2px;cursor:pointer}
+.switch-list-box .item p,.switch-list-box-2 .item p{line-height:24px;font-size:14px;color:#a2a2a2}
+.switch-list-box .item .sub-txt,.switch-list-box-2 .item .sub-txt{padding-top:10px;font-size:16px;color:#333}
+.switch-list-box .active,.switch-list-box-2 .active{border:1px solid #189cfb}
+.switch-list-box .active .i-checkbox,.switch-list-box-2 .active .i-checkbox{position:absolute;left:2px;top:2px;width:18px;height:18px;background:#189cfb url(../images/i-check.png?v=4e11170ab0) no-repeat center;background-size:60% auto;border-radius:2px}
+.switch-list-box-2 .item{width:204px;height:80px}
+.switch-list-box-2 .item .sub-txt{padding-top:16px;font-size:20px}
+.switch-list-box-2 .active{width:202px;height:78px}
+.arrang-btn{margin:70px auto 50px;width:130px;height:50px;line-height:50px;text-align:center;font-size:16px;color:#fff;background-color:#489bf4;border-radius:4px;cursor:pointer}
+.swch-tab{margin-left:12px;padding:20px 0 10px;overflow:hidden}
+.swch-tab a{position:relative;float:left;font-size:16px;color:#333;width:100px}
+.swch-tab a i{position:absolute;right:0;top:0;height:100%;border-right:1px solid #ebe9e4}
+.swch-tab .rt{text-align:right}
+.swch-tab .active{color:#499bf4}
+.text-tit{padding:20px 0 0 12px;font-size:16px}
+.tab-box,.tab-box-2{margin:10px 12px;font-size:14px;color:#666;border:1px solid #ebe9e4;border-radius:6px;overflow:hidden}
+.tab-box table,.tab-box-2 table{width:100%;text-align:center;border-collapse:collapse}
+.tab-box table td,.tab-box-2 table td{width:20%;border-right:1px solid #ebe9e4}
+.tab-box table td:last-child,.tab-box-2 table td:last-child{border:none}
+.tab-box table td .wid-1,.tab-box-2 table td .wid-1{display:inline-block;padding:20px 0;width:300px;line-height:normal}
+.tab-box table thead tr,.tab-box-2 table thead tr{height:50px;line-height:50px;background-color:#f6f6f6}
+.tab-box table tbody tr:nth-child(even),.tab-box-2 table tbody tr:nth-child(even){background-color:#f7fcfd}

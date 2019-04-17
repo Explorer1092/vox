@@ -1,0 +1,29 @@
+html, body{ background-color: #3e99ff;}
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+.mask{ background: rgba(0,0,0,.7); position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 99;}
+/*4year_btn*/
+.btn_4year{ display: block; font-family: "微软雅黑"; color: #cf642c; font-size: 18px; text-align: center; line-height: 58px; width: 167px; height: 63px; background: url(../images/btns_4year.png) no-repeat;}
+.btn_4year_position{ position: absolute; bottom: 65px; left: 50%; margin-left:-82px;}
+.btn_4year_link{ background-position: 0 0;}
+.btn_4year_cover,.btn_4year:hover{ background-position: 0 -71px;}
+.btn_4year_press,.btn_4year:active{ background-position: 0 -143px;}
+/*dialog_4year*/
+.dialog_4year{ z-index: 100; width: 428px; height: 320px; position: relative; margin: 105px auto 0 auto; background: url(../images/dialog01_4year.png) no-repeat top left;}
+/*4year_container*/
+.stu_4year_container{ position: relative; width: 100%; height: 1023px; background: url(../images/4year_bg.png) top center;}
+.stu_4year_main{ width: 770px; height: 320px; position: absolute; font-family: "微软雅黑"; font-size: 16px; color: #fff; line-height: 26px; left: 50%; margin-left: -385px; top: 375px;}
+.stu_4year_main .stu_4year_main01{ width: 340px; position: absolute; left: 5px; top: 0;}
+.stu_4year_main .stu_4year_main02{ width: 400px; position: absolute; left: 18px; top: 215px;}
+.stu_4year_main .stu_4year_main03{ width: 365px; position: absolute; right: 0; top: 10px;}
+.stu_4year_main02 div span{ float: left;}
+.stu_4year_main02 div p{ width: 260px; float: left;}
+.stu_4year_main02 div p i{ font-style: normal; font-size: 21px; color: #ffdd21;}
+.stu_4year_logo{ width: 1000px; margin: 0 auto; position: relative; z-index: 3;}
+.stu_4year_logo a{ position: absolute; left: 0; width: 125px; height: 55px; }
+/*special-footer*/
+.special-footer{ margin:-240px 0 0; position: relative; z-index: 2;  border: none;}
+.special-footer, .special-footer .m-inner{ background: none;}
+.special-footer .link{ display: none;}
+.special-footer .copyright,.special-footer .m-foot-link .m-code .c-title,.special-footer .m-foot-link a,.special-footer .m-foot-link a:hover,.special-footer .m-service .c-title{ color: #fff;}
+.special-header{ display: none;}

@@ -1,0 +1,38 @@
+.special-footer, .special-footer .m-inner{ background: #e6e6e6;}
+.special-footer{ border-top: 0;}
+.special-footer .copyright{ color: #666;}
+
+.inner-wrap{ width: 980px; margin: 0 auto; position: relative;}
+.cfd-header{ position: relative;}
+.cfd-header .bgs{ width: 100%; height: 610px; background: url("top-bg.png") top center no-repeat;}
+.cfd-header .tips{ position: absolute; right: 475px; top: -275px; width: 253px; height: 90px; padding: 33px 85px 30px 45px; background: url("top-tips-bg.png") no-repeat; font-size: 16px; color: #fff; text-indent: 2rem; line-height: 25px;}
+.cfd-header .get-btn{ position: absolute; left: 50%; margin-left: -160px; bottom: 0; display: inline-block; width: 320px; height: 90px; background: url("btn-red.png") no-repeat; background-position: 0 0; font-size: 30px; text-align: center; color: #fff; line-height: 80px;}
+.cfd-header .get-btn:hover{ background-position: 0 -100px;}
+.cfd-header .get-btn:active{ background-position: 0 -200px;}
+.cdf-main .inner-main{ width: 978px; border-left: 2px solid #efefef;}
+.cdf-main .selectBox{ position: relative; z-index: 12; width: 220px; height: 50px; background: url("selectBox-bg.jpg") no-repeat; background-position: 0 0; margin: 0 0 20px  -20px;}
+.cdf-main .selectBox-active{ background-position: 0 -60px;}
+.cdf-main .selectBox .select{ width: 160px; height: 50px; padding-left: 10px;line-height: 50px; font-size: 18px; color: #684038; outline-style: none; border: 0; background-color: transparent; cursor: pointer;}
+.cdf-main .selectBox .arrow{ position: absolute; right: 0; top: 0; width: 40px; height: 50px; cursor: pointer;}
+.cdf-main .selectBox .selectInfo{ position: absolute; top: 50px; left: 0; width: 214px; height: 120px; border-radius: 20px; overflow-y: scroll; border: 3px solid #b4b4b4; cursor: pointer;}
+.cdf-main .selectBox .selectInfo li{ height: 40px; line-height: 40px; padding-left: 20px; background: #fff; font-size: 18px; color: #684038;}
+.cdf-main .selectBox .selectInfo li.active{ background: #3eb050; color: #fff;}
+.cdf-main .selectBox .selectInfo li:hover{ background: #3eb050; color: #fff;}
+.cdf-main .cm-hd{ overflow: hidden; *zoom: 1; margin-bottom: 30px; margin-left: -2px;}
+.cdf-main .cm-hd .txt-yellow{ color: #ffdd3c;}
+.cdf-main .cm-hd .label{ position: relative; z-index: 10; float: left; height: 50px; line-height: 50px; padding: 0 20px; border-radius: 0 50px 50px 0; font-size: 20px; color: #fff;}
+.cdf-main .cm-hd .bgYellow{  background: #ffcc00;}
+.cdf-main .cm-hd .bgRed{  background: #ef5733;}
+.cdf-main .cm-hd .bgBlue{  background: #4ad1f2;}
+.cdf-main .cm-hd .bgGreen{ background: #3eb050;}
+.cdf-main .cm-hd .txt{ float: left; margin-left: -40px; height: 50px; line-height: 50px; padding: 0 20px 0 50px; border-radius: 0 50px 50px 0; background: #f1f1f1; font-size: 14px; color: #666666;}
+.cdf-main .cm-mn ul{ overflow: hidden; *zoom: 1;}
+.cdf-main .cm-mn li{ float: left; width: 138px; text-align: center; margin-bottom: 30px;}
+.cdf-main .cm-mn li img{ width: 110px; height: 110px; background: #ccc; border-radius: 110px;}
+.cdf-main .cm-mn li .name{ padding: 10px 0; font-size: 14px; color: #684038; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block;}
+.cdf-main .cm-mn .proBox{ position: relative; width: 890px; height: 20px; margin: 0 auto 50px 30px; background: #e6e6e6; border-radius: 20px;}
+.cdf-main .cm-mn .proTips{ position: absolute; top: -135px; right: -50px; width: 120px; height: 131px; background: url("bean-tips.png") no-repeat;}
+.cdf-main .cm-mn .proTips p{ font-size: 14px; color: #fff; margin: 40px 0 0 52px;}
+.cdf-main .cm-mn .proTips p .count{ font-size: 18px;}
+.cdf-main .cm-mn .curBox{ position: relative; height: 20px; background: #ffa140; border-radius: 20px;}
+.cdf-main .cm-mn .curBox .num{ position: absolute; display: inline-block; height: 20px; line-height: 20px; right: 10px; font-size: 14px; color: #fff;}

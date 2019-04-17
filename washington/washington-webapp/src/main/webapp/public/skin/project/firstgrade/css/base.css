@@ -1,0 +1,71 @@
+.head, .head .inner{ background: url(../images/head-class.jpg) no-repeat center 0; width: 100%; height: 671px;}
+.head .inner{ position: relative;}
+.head .inner .logo a{ width: 148px; height: 58px; display: inline-block;}
+.head .inner .num{ position: absolute; top: 325px; left: 320px; width: 300px; height: 50px;}
+.head .inner .num p{ font-size: 24px; color: #fff; text-align: center;}
+.head .inner .num p.count{ margin: 10px 0 0 0; line-height: 150%;}
+.head .inner .num p .yellow{ font-size: 36px; color: #f7ff58;}
+.head .inner .btn{ position: absolute; top: 328px; left: 360px;}
+.head .inner .play-btn{ background: url(../images/play-btn.png) no-repeat 0 0; width: 32px; height: 32px; position: absolute; top: 238px; right: 291px; display: inline-block;}
+.head .inner .play-btn:hover{ background-position: -32px 0;}
+.head .inner .play-btn:active{ background-position: -64px 0;}
+.spot-btn{ background: url("../images/btn-spot.png") no-repeat 500px 500px; display: inline-block; vertical-align: middle;}
+.spot-btn-s{ background-position: 0 -16px; width: 260px; height: 125px;}
+.spot-btn-s:hover{ background-position: 0 -146px;}
+.spot-btn-s:active{ background-position: 0 -276px;}
+.spot-btn-l{ background-position: -312px -148px; width: 52px; height: 22px;}
+.spot-btn-l:hover{ background-position: -312px -183px;}
+.spot-btn-l:active{ background-position: -312px -218px;}
+.slide, .slide .inner{ background: url(../images/slide-class.jpg?1.0.1) no-repeat center 0; width: 100%; height: 632px;}
+.slide .inner .share{ padding: 120px 0 0 462px; color: #fff;}
+.slide .inner .share-inner{ width: 155px; background-color: #2dc3ee; border-radius: 20px; padding:5px; height: 17px;}
+/*.content*/
+.content, .content .inner{ background: url(../images/con-class.jpg?1.0.1) no-repeat center 0; width: 100%; height: 710px;}
+.content .inner{ position: relative;}
+.content .inner .support{ position: absolute; width: 136px; height: 176px; cursor: pointer;}
+.content .inner .support .support-inner{ position: relative; height: 176px;}
+.content .inner .support .support-inner p{ color: #000; font-size: 14px; position: absolute; width: 210px; text-align: center; cursor: default}
+.content .inner .support1 .support-inner p{ left: -68px; top: 190px;}
+.content .inner .support2 .support-inner p{ left: -153px; top: 186px;}
+.content .inner .support3 .support-inner p{ left: -72px; top: 190px;}
+.content .inner .support4 .support-inner p{ left: -52px; top: -100px;}
+.content .inner .support5 .support-inner p{ left: -220px; top: 8px;}
+.content .inner .support6 .support-inner p{ left: 170px; top: 42px;}
+.content .inner .support7 .support-inner p{ left: 26px; bottom: -30px;}
+.content .inner .support .support-inner a{ position: absolute; right: 14px; bottom: 5px;}
+.content .inner .support1{ top: 383px; right: 258px;}
+.content .inner .support2{ top: 284px; left: 86px;}
+.content .inner .support3{ top: 383px; left: 258px;}
+.content .inner .support4{ top: 284px; right: 429px;}
+.content .inner .support5{ top: 184px; left: 261px;}
+.content .inner .support6{ top: 184px; right: 258px;}
+.content .inner .support7{ top: 284px; right: 86px;}
+/*.messages-box*/
+.footer-class, .footer-class .inner{ background: url("../images/footer-bg.jpg") no-repeat center 0; width: 100%; height: 832px; overflow: hidden;}
+.footer-class .inner .tip-num{ width: 188px; height: 34px; border:  solid #6a750a; border-width: 2px 2px 0 2px; line-height: 34px; color: #fff; margin: 20px 0 0 722px; background-color: #93a214; border-radius: 10px 10px 0 0; text-align: center;}
+.messages-box{ width: 880px; height: 745px; border: 2px solid #666; background-color: #fff; margin: 0 auto; border-radius: 10px;}
+.messages-box-inner{ margin: 20px 40px;}
+.messages-box-inner .meg-up{}
+.messages-box-inner .meg-up textarea{ display: block; width: 95%; border: 1px solid #cdcccc; border-radius: 5px; padding: 12px 16px; color: #999; padding-bottom: 10px; height: 45px;}
+.messages-box-inner .meg-up p{ text-align: right; padding-top: 10px;}
+.messages-box-inner .meg-up p a{ width: 65px; height: 30px;  vertical-align: middle; background-color: #0faee8; display: inline-block; margin: 0 5px 0 25px; background: url(../images/send-btn.png?1.0.2) no-repeat 0 0;}
+.messages-box-inner .meg-up p a:hover{ background-position: 0 -30px;}
+.messages-box-inner .meg-up p a:active{ background-position: 0 -60px;}
+.messages-box-inner .meg-up p a.disabled{background-position: 0 -90px; cursor: default;}
+.messages-box-inner .meg-down ul li{ padding:16px 0 10px 0; border-bottom: 1px dashed #999;}
+.messages-box-inner .meg-down ul li p{ padding: 0 0 10px 0; line-height: 120%; word-break:break-all; word-wrap:break-word;}
+.messages-box-inner .meg-down ul li p span{ margin: 0 14px 0 0;}
+.messages-box-inner .meg-down ul li p span.time{ color: #ccc;}
+.inner{ width: 1000px!important; margin: 0 auto;}
+.special-footer{ border: 0; }
+.special-footer, .special-footer .m-inner{ background-color: #76aa18;}
+.special-footer .link{ display: none;}
+.special-footer .copyright, .special-footer .m-foot-link a, .special-footer .m-foot-link .m-code .c-title{ color: #fff;}
+body{ font-size: 14px; color: #666;}
+
+/*page*/
+
+.page_btn{padding-top:20px;}
+.page_btn a{cursor:pointer;padding:5px;border:solid 1px #ccc;font-size:12px;}
+.page_box{float:right;}
+.num{padding:0 10px;}

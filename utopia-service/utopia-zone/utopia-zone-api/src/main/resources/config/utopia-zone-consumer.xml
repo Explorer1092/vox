@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="com.voxlearning.utopia.service.zone.client.AsyncClazzRecordServiceClient" class="com.voxlearning.utopia.service.zone.client.AsyncClazzRecordServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzJournalLoaderClient" class="com.voxlearning.utopia.service.zone.client.ClazzJournalLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzJournalManagerClient" class="com.voxlearning.utopia.service.zone.client.ClazzJournalManagerClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzJournalServiceClient" class="com.voxlearning.utopia.service.zone.client.ClazzJournalServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzRankServiceClient" class="com.voxlearning.utopia.service.zone.client.ClazzRankServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzRecordServiceClient" class="com.voxlearning.utopia.service.zone.client.ClazzRecordServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClazzZoneServiceClient" class="com.voxlearning.utopia.service.zone.client.ClazzZoneServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.GiftLoaderClient" class="com.voxlearning.utopia.service.zone.client.GiftLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.GiftServiceClient" class="com.voxlearning.utopia.service.zone.client.GiftServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.PersonalZoneLoaderClient" class="com.voxlearning.utopia.service.zone.client.PersonalZoneLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.PersonalZoneServiceClient" class="com.voxlearning.utopia.service.zone.client.PersonalZoneServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.UserMoodServiceClient" class="com.voxlearning.utopia.service.zone.client.UserMoodServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.UserRecordEchoServiceClient" class="com.voxlearning.utopia.service.zone.client.UserRecordEchoServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.UserLikeServiceClient" class="com.voxlearning.utopia.service.zone.client.UserLikeServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneBagServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneBagServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneConfigServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneConfigServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneGiftServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneGiftServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneLikeServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneLikeServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneLoaderClient" class="com.voxlearning.utopia.service.zone.client.ZoneLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZonePhotoServiceClient" class="com.voxlearning.utopia.service.zone.client.ZonePhotoServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneProductServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneProductServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneQueueServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneQueueServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneSignInServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneSignInServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ZoneStudyMasterServiceClient" class="com.voxlearning.utopia.service.zone.client.ZoneStudyMasterServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.zone.client.ClassCircleServiceClient" class="com.voxlearning.utopia.service.zone.client.ClassCircleServiceClient"/>
+
+</beans>

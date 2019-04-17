@@ -1,0 +1,24 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr { margin: 0; padding: 0; }
+body { font: 12px/1.5 "Microsoft YaHei"; color: #333; }
+select,input,button { vertical-align: middle; font-size: 100%; }
+ul,ol,li { list-style: none; }
+fieldset,img { border: 0; }
+em { font-style: normal; }
+.parentPCDownload-mod1,.parentPCDownload-mod2 { position: absolute; left: 0; width: 100%; height: 50%; }
+.parentPCDownload-mod1 { top: 0; background-color: #fff; }
+.parentPCDownload-mod2 { top: 50%; background-color: #675dbe; }
+.parentPCDownload-btn { position: absolute; top: 60px; right: 60px; text-decoration: none; width: 160px; height: 48px; text-align: center; color: #fff; font-size: 20px; line-height: 48px; font: 20px/48px "Microsoft Yahei"; border: 0 none; background-color: #4e42a0; border-radius: 4px; cursor: pointer;  }
+.parentPCDownload-btn:hover { background-color: #675dbe; }
+.parentPCDownload-btn:active { background-color: #715cef; }
+.parentPCDownload-text { position: absolute; top: 28%; left: 0; width: 100%; text-align: center; }
+.parentPCDownload-text .textHD { color: #000; font-size: 24px; line-height: 32px; }
+.parentPCDownload-text .textCode { padding: 22px 0 36px; }
+.parentPCDownload-text .textCode .code { display: inline-block; vertical-align: top; width: 300px; height: 300px; }
+.parentPCDownload-text .textCode .code img { display: block; width: 100%; height: 100%; }
+.parentPCDownload-text .textFT { color: #fff; font-size: 20px; line-height: 30px; }
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .parentPCDownload-text .textCode .code { width: 200px; height: 200px; }
+}

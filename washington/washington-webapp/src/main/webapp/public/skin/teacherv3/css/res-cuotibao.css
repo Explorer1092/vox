@@ -1,0 +1,11 @@
+.wrongTopicBox .explainTips{font-size:18px;color:#fff;line-height:28px;overflow:hidden;margin:0 auto;width:-moz-calc(6*250px);width:calc(6*250px)}
+.wrongTopicBox .explainTips .explainCon{padding:23px 75px 23px 35px;margin-top:20px;width:-moz-calc(100% - 15px);width:calc(100% - 15px);background:#ffab00;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-moz-border-radius:6px;border-radius:6px}
+.wrongTopicBox ul{/*padding:20px 23px 0 38px;*/padding-top:20px;width:-moz-calc(6*250px);width:calc(6*250px);overflow:hidden;margin:0 auto}
+.wrongTopicBox .wrong-pictureList{float:left;margin:0 15px 20px 0;width:235px;height:220px;border:1px solid #dae6ee;-moz-border-radius:5px;border-radius:5px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer}
+.wrongTopicBox .wrong-pictureList .wrongPic{width:100%;height:130px;position:relative}
+.wrongTopicBox .wrong-pictureList .wrongPic .wrongPlay{position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:50px;height:50px;background:url(../images/teachingresource/wrongPlay.png?v=fdba7b556c) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;z-index:1}
+.wrongTopicBox .wrong-pictureList .wrongPic img{max-width:100%;max-height:100%;width:auto;height:auto;position:absolute;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}
+.wrongTopicBox .wrong-pictureList .wrongInfo{margin:20px;font-size:16px;font-weight:700;color:#333;line-height:24px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+@media screen and (min-width:1580px) and (max-width:1919px){.wrongTopicBox ul,.wrongTopicBox .explainTips{width:-moz-calc(5*250px);width:calc(5*250px)}}
+@media screen and (min-width:1294px) and (max-width:1579px){.wrongTopicBox ul,.wrongTopicBox .explainTips{width:-moz-calc(4*250px);width:calc(4*250px)}}
+@media screen and (max-width:1293px){.wrongTopicBox ul,.wrongTopicBox .explainTips{width:-moz-calc(3*250px);width:calc(3*250px)}}

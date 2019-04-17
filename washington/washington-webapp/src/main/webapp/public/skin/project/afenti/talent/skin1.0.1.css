@@ -1,0 +1,50 @@
+html, body { width: 100%; height: 100%; font: 12px/1.125 "微软雅黑", "Microsoft YaHei", Arial; color: #666;  background: url(body_back.jpg) repeat-x 0 0 ;}
+html, body, p, dl, dt, dd, h1, h2, ul, li { margin: 0; padding: 0; }
+ul, li { list-style: none; }
+.head,.head_inner{ background: url("master_01_1.jpg") no-repeat center center; height: 817px; width: 100%;}
+.head_inner{ margin: 0 auto; overflow: hidden; width: 960px; position: relative;}
+.head_inner .Mast_btn{ background: url("btn.png") no-repeat;width: 264px; height: 100px; display: inline-block; position: absolute; bottom: 365px; left: 660px;}
+.head_inner .Mast_btn_free{ background-position: 0 -100px; left: 370px;}
+.head_inner .back_index{ position: absolute; top: 42px; right: 6px; text-decoration: none; color:#808080; font-size: 14px; font-family: "微软雅黑" }
+.head_inner .content{ position: absolute; width: 245px; bottom: 185px; right:37px; font-size: 12px; font-family: "微软雅黑"; height: 100px; overflow: hidden;}
+.head_inner .content ul li {height: 25px;}
+.head_inner .content ul li span{ float: left; width: 70px; color: #563106; display: inline-block; line-height: 25px; white-space: nowrap; overflow: hidden;}
+.head_inner .content ul li span.name{ width: 85px; text-overflow: ellipsis; }
+.head_inner .content ul li span.time{ width: 75px;}
+.main{ background-color:#fff4d3; padding-bottom: 45px; }
+.main_inner{ margin: 0 auto; overflow: hidden; width: 974px;}
+.main_inner .head{background: url("master_02.jpg") no-repeat; height: 272px; }
+.main_inner .content{background: url("master_03.jpg") no-repeat; height: 464px; }
+.foot, .foot_inner{background: url("master_04.jpg") no-repeat center center; height: 300px;}
+.foot_inner{ margin: 0 auto; width: 960px; position: relative;}
+.foot_inner .Mast_btn_foot_free{ background: url("btn03.png") no-repeat; width: 265px; height: 101px; display: inline-block; position: absolute; top: -34px; left: 60px;}
+.foot_inner .Mast_btn_foot{ background-position: 0 -101px; left: 640px;}
+
+.foot_inner .Mast_btn_foot_free span, .head_inner .Mast_btn span{ background: url(btn_hover.png) no-repeat 5000px 5000px; display: block; width: 100%; height: 100px;}
+
+.foot_inner .Mast_btn_foot_free:hover span{ background-position: -337px -285px ;}
+.foot_inner .Mast_btn_foot_free:active span{ background-position: -647px -285px ;}
+.foot_inner .Mast_btn_foot:hover span{ background-position: -338px -413px ;}
+.foot_inner .Mast_btn_foot:active span{ background-position: -648px -413px ;}
+
+.head_inner .Mast_btn:hover span{background-position: -335px -155px ;}
+.head_inner .Mast_btn:active span{background-position: -645px -155px ;}
+.head_inner .Mast_btn_free:hover span{background-position: -325px -31px ;}
+.head_inner .Mast_btn_free:active span{background-position: -635px -31px ;}
+
+
+
+
+/*footer*/
+.footer { clear: both; padding: 160px 0 0; }
+.footer .nav { border:  solid #fff; border-width: 1px 0; height: 34px;}
+.footer .nav ul { width: 960px; margin: 0 auto; }
+.footer .nav ul li, .footer .nav ul li a { color: #fff; }
+.footer .nav ul li { float: left; font: 12px/1.125 arial; }
+.footer .nav ul li a { margin: 10px 30px; display: inline-block; vertical-align:middle; text-decoration: none;}
+.footer .nav ul li a:hover { text-decoration: underline; }
+.footer .nav ul li .line { font-weight: normal; color: #dbdbdb; display:inline-block; vertical-align:middle;}
+.footer .nav ul li.service { float: right; padding: 4px 15px; line-height: 22px;}
+.footer .nav ul li.service span { color: #fff; }
+.footer .copyright { clear: both; padding: 20px 0; }
+.footer .copyright p { text-align: center; color: #fff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 22px;}

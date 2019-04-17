@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="com.voxlearning.utopia.service.piclisten.client.AsyncVendorCacheServiceClient" class="com.voxlearning.utopia.service.vendor.client.AsyncVendorCacheServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.vendor.client.AsyncVendorServiceClient" class="com.voxlearning.utopia.service.vendor.client.AsyncVendorServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.vendor.client.FairylandProductServiceClient" class="com.voxlearning.utopia.service.vendor.client.FairylandProductServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.vendor.client.VendorAppsResgRefServiceClient" class="com.voxlearning.utopia.service.vendor.client.VendorAppsResgRefServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.vendor.client.VendorAppsServiceClient" class="com.voxlearning.utopia.service.vendor.client.VendorAppsServiceClient"/>
+    <bean id="com.voxlearning.utopia.service.vendor.client.VendorResgContentServiceClient" class="com.voxlearning.utopia.service.vendor.client.VendorResgContentServiceClient"/>
+
+    <bean id="vendorAppMessageServiceClient" class="com.voxlearning.utopia.service.vendor.consumer.AppMessageServiceClient"/>
+    <bean id="parentMessageServiceClient" class="com.voxlearning.utopia.service.vendor.consumer.ParentMessageServiceClient"/>
+    <bean id="vendorLoaderClient" class="com.voxlearning.utopia.service.vendor.consumer.VendorLoaderClient"/>
+    <bean id="vendorManagementClient" class="com.voxlearning.utopia.service.vendor.consumer.VendorManagementClient"/>
+    <bean id="vendorServiceClient" class="com.voxlearning.utopia.service.vendor.consumer.VendorServiceClient"/>
+    <bean id="fairylandServiceClient" class="com.voxlearning.utopia.service.vendor.consumer.FairylandServiceClient"/>
+    <bean id="fairylandLoaderClient" class="com.voxlearning.utopia.service.vendor.consumer.FairylandLoaderClient"/>
+    <bean id="mySelfStudyGlobalMsgServiceClient" class="com.voxlearning.utopia.service.vendor.consumer.MySelfStudyGlobalMsgServiceClient"/>
+
+    <bean id="thirdPartLoginServiceClient" class="com.voxlearning.utopia.service.vendor.client.ThirdPartLoginServiceClient"/>
+</beans>

@@ -1,0 +1,65 @@
+/*overall wrap*/
+.clear { clear: both; font: 0pt/0 Arial; height: 0px; visibility: hidden; }
+.postnAbs{ position:absolute; display:block; overflow:hidden; text-indent:-1000px; outline:none; }
+.font14{ font-size:14px;}
+.clrorange{ color:#39f;}
+.clrblue{ color:#39f;}
+.clrgray{ color:#666;}
+.clrred{ color:#f00;}
+.clrredt{ color:#c62705;}
+.clrwhite{ color:#fff;}
+.alicenter{ text-align:center;}
+.aliright{ text-align:right;}
+.padfive{ padding:5px;}
+.padten{ padding:10px;}
+.alpha_back { width: 100%; height: 100%; position: fixed; z-index: 2000; left: 0px; top: 0px; opacity:.70; background: black; }
+.alpha_back { _position: absolute; _top: expression(documentElement.scrollTop); _left: expression(documentElement.scrollLeft); filter: alpha(opacity=70); }
+.alpha_content_layer{ z-index: 3000; top: 50%; left: 50%; margin: -15% 0 0 -17%; position: fixed; _position:absolute; }
+.alpha_layer_ie{_top: expression(documentElement.scrollTop);_left: expression(documentElement.scrollLeft); _position:absolute;}
+/**/
+.publicBtn { display: inline-block; *display:inline;*zoom:1;cursor: pointer; outline:none;  }
+.publicBtn i ,.getGreen{ background: url(../images/btnall.png?1.0.0) no-repeat center 0; display: inline-block; height: 36px; *zoom:1; vertical-align: middle; font: bold 14px/1.125 arial; }
+.publicBtn span{ vertical-align:middle; height:36px; padding: 0 10px; display:inline-block; line-height:36px;}
+.publicBtn i.lB, .publicBtn i.rB { width: 10px;}
+.publicBtn i.tB { color: #fff; padding: 0 15px;}
+.publicBtn i.lB { background-position: left 0 ;}
+.publicBtn i.rB { background-position: right 0; }
+.blueBtn i.tB ,.blueBtn:hover i.tB{ background-position: center -37px;}
+.blueBtn i.lB ,.blueBtn:hover i.lB{ background-position: left -37px; }
+.blueBtn i.rB ,.blueBtn:hover i.rB { background-position: right -37px; }
+.orangeBtn i.tB ,.orangeBtn:hover i.tB{ background-position: center -146px;}
+.orangeBtn i.lB ,.orangeBtn:hover i.lB{ background-position: left -146px; }
+.orangeBtn i.rB ,.orangeBtn:hover i.rB { background-position: right -146px; }
+.grayBtn i.tB ,.grayBtn:hover i.tB{ background-position: center -74px; color:#ccc; padding:0;}
+.grayBtn i.lB ,.grayBtn:hover i.lB{ background-position: left -74px; }
+.grayBtn i.rB ,.grayBtn:hover i.rB { background-position: right -74px; }
+.bluexBtn i{ background-position: 0 -111px; width:50px; height:25px; color:#fff; font:12px/1.125 arial; text-align:center; line-height:24px;}
+.getGreen{ width:102px; height:35px; background-position: 0 -182px; font-size:12px; color:#6dab18 !important; outline:none; font:12px/35px arial; text-decoration:none !important;}
+/**/
+/*New Skin*/
+.main{  margin:0 30px;}
+.main .curaddress{ color:#589de2; font: bold 14px/1.125 arial; padding:8px 12px; border-radius:5px; background:#eaf3ff; margin: 15px 0;}
+/**/
+.tabbox { padding:6px; background:#eaf3ff; border:solid 1px #3580dd; border-radius:6px; overflow:hidden; clear:both; margin:0 0 10px;}
+.tabbox .tabLevel{ background:#fff; border-radius:6px; padding:20px 10px;}
+.tabbox table{ border-collapse:collapse; width:95%; margin:0 auto; clear:both;}
+.tabbox table td,.tabbox table th,.tabbox table thead tr.thtitle th{ font-size:14px; padding:10px; line-height:140%; word-break:break-all; word-wrap:break-word; color:#666;  background:#fff; border-top:4px solid #eaf3ff; font-weight: normal;}
+.tabbox table thead td,.tabbox table thead th { background:#eaf3ff; color:#666; font-weight:bold; padding:5px 8px; font-size:12px; white-space:nowrap;}
+.tabbox table a{ color:#333;}
+.tabbox table thead tr.thtitle th{ color:#39f;}
+.tabbox table select{ padding:5px; border:solid 1px #ccc; font:bold 14px/1.125 arial; color:#666; }
+/*payMainBox*/
+.payMainBox{ clear:both;}
+.payMainBox .payStep { padding: 20px 0; text-align:center; clear:both;}
+.payMainBox .payStep span{ display:inline-block; width:427px; height:40px;}
+.payMainBox .payStep .s1{ background-position: 0 0;}
+.payMainBox .payStep .s2{ background-position: 0 -61px;}
+.payMainBox .payStep .s3{ background-position: 0 -123px;}
+.payMainBox .payStep .s4{ background-position: 0 -184px;}
+.payMainBox .payBtn{ clear:both; text-align:right; height:50px; padding:15px 0; }
+.payMainBox .payTextart { color:#666; padding:10px 0;}
+.payMainBox .payTextart p{padding:8px 0; line-height:20px; padding: 0 20px;}
+.switchMenuPopUp{ clear:both; text-align:center;}
+.switchMenuPopUp b{ font: bold 14px/1.125 arial; color:#666; margin-left:-20px; display:inline-block; vertical-align:middle;}
+.switchMenuPopUp span{ display:inline-block; padding:8px 30px; color:#fff; background:#39f; border:solid #39f 1px; border-radius:4px 4px 0 0; cursor:pointer;}
+.switchMenuPopUp span.sel{ background-color:#eaf3ff; border-bottom-color: #eaf3ff; position:relative; bottom:-1px; color:#666; font-weight:bold; cursor:default;}

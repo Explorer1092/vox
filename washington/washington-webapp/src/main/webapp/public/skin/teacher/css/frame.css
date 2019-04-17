@@ -1,0 +1,144 @@
+html, body{ width: 100%; _height: 100%; font:12px/1.125 Arial, Helvetica, sans-serif,SimSun;}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+body { background-color: #fafafa; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none; cursor:pointer;}
+img{ vertical-align:middle; border:none;}
+/*header*/
+.header .menu, .section { width: 960px; margin: 0 auto; }
+.header, .header .menu ,.header .logo a, .header .nav li a:hover, .header .nav li.active a, .header .navSet .btn_prize,.header .navSet li a:hover { background: url(../images/headerBack.png) repeat-x 0 -162px;}
+.header, .header .menu{ height:52px;}
+.header{ position:relative; z-index:11;}
+.header .logo { float: left; width: 206px; height: 52px;}
+.header .logo a { background-position:0 -104px; background-repeat:no-repeat; width: 206px; height: 52px; display: block; }
+.header .logoback{ background:url(../images/sideBack.png) no-repeat 0 48px;}
+.header .logoTheHoliday a{ background:url(../images/t_logo_61.png) no-repeat 0 0;}
+.header .logo_text a{ background:url(../images/logo1.png) no-repeat; width:304px;}
+.header .nav, .header .nav li, .header .navSet li { float: left; }
+.header .nav{ margin-left:-2px;}
+.header .nav li { text-align: center; width: 74px; }
+.header .nav li a { display: block; height: 46px; font: bold 14px/46px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #fff; cursor: pointer; position: relative;}
+.header .nav li a i { margin: 0 5px 0 0; }
+.header .nav li a span { vertical-align: middle; display: inline-block; }
+.header .nav li a:hover { background-position: 0 -48px; }
+.header .nav li.active a { background-position: 0 0 !important; }
+.header .nav li.active .smartMenu span{ color: #fffc00;}
+.header .navSet { float: right; }
+.header .navSet li { padding: 10px 0 0; position: relative;}
+.header .navSet li a{  display: block;}
+.header .navSet li a:hover{ border-radius: 4px; background-position: -138px -235px; background-repeat: no-repeat;}
+.header .navSet li a i { margin: 8px 10px; }
+.header .navSet li .popupBox { display: none; }
+.header .navSet li a .popinfo{position:absolute; right:10px; top:16px; margin:0;}
+.header .navSet li.active a { display: inline-block; background: #fff !important; border-radius: 5px 5px 0 0; height: 38px }
+.header .navSet li.active .popupBox { border: solid #666; display: block; border-width: 0 1px 1px; font: 12px/1.125 arial; width: 210px; position: absolute; top: 48px; right: -1px; background: #fff; border-radius: 0 0 5px 5px; box-shadow: 2px 2px 2px #aaa; overflow: hidden; }
+.header .navSet li.active .popupBox p { border-bottom: 1px solid #ccc; padding: 10px;}
+.header .navSet li.active .popupBox .info { display: inline-block; width: 100px; text-align:right; padding: 0 20px 0 0; white-space:nowrap;}
+.header .navSet li.active .popupBox a { height: auto; }
+.header .navSet li.active .popupBox_large{ width:140px; text-align:center;}
+.header .navSet .btn_prize { background-position: 0 -237px; width: 67px; height: 31px; display: inline-block; margin-right:8px;}
+.header .navSet .btn_prize:hover { background-position: 0 -268px; }
+.header .navSet .btn_prize:active { background-position: 0 -299px; }
+.header .navSet .btn_invite{ padding:0 10px 0 0;}
+.header .navSet .btn_invite a{ background:url(../images/inviteBtn.png) no-repeat 0 0; width:78px; height:46px; display: inline-block;}
+.header .navSet .btn_invite a:hover { background:url(../images/inviteBtn.png) no-repeat 0 -46px; }
+.header .navSet .quit {}
+.header .navSet .quit a{ font: bold 12px/1.125 arial; color: #fff; padding: 8px 5px;}
+.header .navSet .quit a:hover{ background: none; color: #dfeaff;}
+/*footer*/
+.footer { border-top: 3px solid #636870; background-color: #fafafa; clear: both; z-index: 7; position: relative; }
+.footer .nav { border-bottom: 1px solid #ddd; clear: both; }
+.footer .nav ul { width: 960px; margin: 0 auto; }
+.footer .nav ul li, .footer .nav ul li a { color: #636870; }
+.footer .nav ul li { float: left; font: bold 12px/1.125 arial; }
+.footer .nav ul li a { margin: 10px 15px;  display: inline-block; vertical-align:middle;}
+.footer .nav ul li a:hover { color: #5c8afe; }
+.footer .nav ul li .line { font-weight: normal; color: #dbdbdb; display: inline-block; vertical-align:middle; }
+.footer .nav ul li.service { float: right; padding: 4px 15px; line-height: 22px; position: static;}
+.footer .nav ul li.service span { color: #5c8afe; }
+.footer .copyright { clear: both; padding: 20px 0; }
+.footer .copyright p { text-align: center; color: #b1b5bb; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+/*section*/
+.section { clear: both; overflow:hidden;}
+.section .navSide ,.sectionSideBack{ background: url(../images/sideBack.png) repeat-y  -214px 0; }
+.section .navSide { width: 206px; float: left;}
+.navSide .userInfo { padding: 20px 0 20px 20px; margin: 0; }
+.navSide .userInfo dt { float: left; background: url(../images/avatarBack.png) no-repeat; width: 70px; height: 76px; position:relative;}
+.navSide .userInfo dt img { width: 60px; height: 60px; margin: 5px 0 0 5px; }
+.navSide .userInfo dt .vip, .currentVip{ background:url(../images/vip.png) no-repeat; height:21px; width:29px; display:block; right:-8px; bottom:6px; position:absolute;}
+.navSide .userInfo dt .vip_red, .currentVipRed{ background-image: url(../images/vip_red.png);}
+.navSide .userInfo dd { margin: 0 0 0 80px; font: 12px/1.125 arial; }
+.navSide .userInfo dd p { padding: 0 0 2px; }
+.navSide .userInfo dd p.username .name { display: inline-block; margin: 0 5px 0 0;}
+.navSide .userInfo dd p.userid { color: #999; font-size: 11px; }
+.navSide .schoolName { color: #666; font: 12px/20px arial; border: solid #e1e1e1; border-width: 1px 0; padding: 6px 20px; margin: 0 1px 5px 0; }
+.navSide .newActivities { border: 1px solid #e1e1e1; margin: 0 5px 10px; background: #fff; border-radius: 4px; }
+.navSide .newActivities h3 { font-size: 12px; color: #666; padding: 12px 10px; line-height: 1.125; }
+.navSide .newActivities li { border: 1px solid #ddd; background: #f8f8f8; height: 90px; width: 176px; margin: 0 auto 10px; padding: 1px; overflow: hidden; border-radius: 3px;}
+.navSide .newActivities li img{ width: 176px; height: 90px; vertical-align: middle;}
+.navSide .newActivities li a { display: block; width: 100%; height: 100%; }
+.navSide .newActivities li p{  margin: 6px; color: #666; clear: both;  height: 22px;}
+.navSide .newActivities li p a{ color: #39f; float: right; width: auto;}
+.navSide .newActivities li p span{ float: left;text-overflow: ellipsis; width: 85%; white-space: nowrap; overflow: hidden;}
+.navSide .newActivities .btnactive { text-align: center; padding: 0 0 10px; }
+.navSide .newActivities .btnactive a { background-color: #fff; color: #333; border-radius: 3px; border: 1px solid #ddd; display: inline-block; font: 12px/18px arial; width: 140px; }
+.navSide .newActivities .btnactive a:hover { border-color: #94bdf0; box-shadow: 0 0 4px #b9d8ff; }
+.navSide .synList h5{ font-size: 12px; color: #999; line-height: 20px; border-bottom: 1px solid #9b9b9b; padding: 10px 10px 5px; position: relative;}
+.navSide .synList li { border-bottom: 1px solid #e1e1e1; color: #5c8afe; padding: 5px 10px; }
+.navSide .synList li a{white-space: nowrap; overflow: hidden; text-overflow:ellipsis; display: block; width: 180px;color: #5c8afe; cursor: default;}
+.navSide .synList li a:hover{ white-space: normal;color: #5c8afe;}
+.navSide .synList span.arrow{ position: absolute; top:30px; *top:26px; _top:27px; left:40px; font: 12px/100% Arial, Helvetica, sans-serif; color:#9b9b9b;}
+.navSide .synList span.arrow span.inArrow{ color: #ececec; position:absolute; left:0; top:2px;}
+.switchOver{ position: relative;}
+.switchOver .tabArray i { border-radius: 10px 10px 10px 10px; opacity: 0.6; color: #666; cursor: pointer; display: inline-block; width: 10px; height: 10px; margin: 0 2px; overflow: hidden; background-color: #aaa; }
+.switchOver .tabArray i.active { background-color: #666; }
+/*original*/
+.switchBox li { display: none; }
+.switchBox .tab { font: 12px/20px arial; padding: 8px 0; text-align: center; }
+.switchBox .tab .prve { border-radius: 10px 10px 10px 10px; color: #666; cursor: pointer; display: inline-block; height: 20px; margin: 0 2px; overflow: hidden; width: 20px; background-color: #ddd; }
+.switchBox .tab .even { background-color: #999; }
+.switchBox .back, .switchBox .next { border-radius: 5px 5px 5px 5px; cursor: pointer; display: inline-block; font: 1px/0px arial; margin-top: -22px; padding: 6px; }
+.switchBox .back { float: left; }
+.switchBox .next { float: right; }
+/*original fix*/
+.navSide .switchBox { width: 204px; padding: 20px 0 0; overflow: hidden; }
+.navSide .switchBox li { height: 215px; }
+.navSide .switchBox li img { width: 204px; height: 215px; vertical-align: middle; border: none; }
+.navSide .switchBox .tab { font: 0px/0px arial; }
+.navSide .switchBox .tab .prve { width: 8px; height: 8px; }
+/*attenMe*/
+.navSide .attenMe { clear: both; padding: 60px 0 100px; text-align: center; position: relative; }
+.navSide .attenMe h4 { font-size: 12px; color: #333; padding: 0 0 10px; }
+.navSide .attenMe ul{background: url(../images/app.png) no-repeat; width: 160px; height: 32px; margin: 0 auto; }
+.navSide .attenMe li { float: left; }
+.navSide .attenMe li a { display: inline-block; width: 32px; height: 32px; }
+.navSide .attenMe li.qq{ position: relative;}
+.navSide .attenMe .qqh{ position:absolute; background:url(../images/sns_footer.png) no-repeat 0 0px; width:100px; height:35px; bottom:38px; left:-34px;overflow: hidden;}
+.navSide .attenMe .qqh p{ color:#405c71; font:11px/1.125 arial; padding:8px 0 0 18px;}
+.navSide .attenMe .qqh p.s{ padding-top:14px;}
+/*articleSide*/
+.section .articleSide { width: 730px; float: right; padding: 20px 0 0; }
+.articleSide .breadcrumb_vox{ margin-top:0; padding-top:0;}
+.generalTitle { border-bottom: 2px solid #e2e3e3; height: 26px; padding: 0 0 5px; }
+.generalTitle h1 { font: 12px/1.125 arial; color: #9297a0; float: left; }
+.generalTitle h1 strong { display: inline-block; margin: 0 10px; font-size: 14px; vertical-align: middle; }
+.generalTitle .enter { float: right; font: 12px/20px arial; padding: 0 0 1px; }
+.homeWorkBox .workListBox { clear:both;}
+.homeWorkBox .workListBox li { height: 168px; width: 730px; background: url(../images/workBack.png) no-repeat 0 0; margin: 20px 0; clear: both; }
+/*.homeWorkBox .workListMathBox li{ background-image: url(../images/workBackMath.png); }*/
+.homeWorkBox .workListBox li.complete { background-position: 0 -178px; }
+.homeWorkBox .workListBox li.complete .daytime { color: #76b841; padding: 50px 40px 0; }
+.homeWorkBox .workListBox li.complete .daytime p { padding: 75px 0 0; }
+.homeWorkBox .workListBox li.complete .daytime .progressBar { width: 120px; margin: 0 0 0 48px; }
+.homeWorkBox .workListBox li.totime { background-position: 0 -353px; }
+.homeWorkBox .workListBox li.totime .daytime { color: #ffa200; }
+.homeWorkBox .workListBox li .daytime { color: #ced2d7; font: 12px/1.125 arial; padding: 142px 40px 0; float: left; width: 200px; }
+.homeWorkBox .workListBox li .article { float: right; width: 400px; text-align: center; position: relative;}
+.homeWorkBox .workListBox li .article .clazzWrap { font: bold 16px/1.125 arial; padding: 18px 15px 0 ; height: 50px; text-align: left;}
+.homeWorkBox .workListBox li .article .clazzWrap .clazzId { color: #666; font: 12px/1.125 arial; }
+.homeWorkBox .workListBox li .article .clazzWrap .clazzName { color: #0094fc; }
+.homeWorkBox .workListBox li .nav { float: right; width: 35px; position: relative;}
+.homeWorkBox .workListBox li .nav a { display: block; margin: 20px 6px; }

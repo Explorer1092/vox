@@ -1,0 +1,73 @@
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+html{font:20px/1.5 "Microsoft YaHei",Arial}
+body,html{width:100%;height:100%;color:#333}
+body,input,option,select{-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+
+.payFlow{padding:2rem 1.5rem;font-size:1.3rem}
+.payFlow-list{padding:1rem 0;border-bottom:.05rem solid #ccc;overflow:hidden}
+.payFlow-list .childBox{overflow:hidden;padding-top:1rem}
+.payFlow-list .childBox li{cursor:pointer;position:relative;float:left;margin:0 .5rem 1rem 0;width:9rem}
+.payFlow-list .childBox li img{display:inline-block;vertical-align:middle;width:3rem;height:3rem;border-radius:3rem}
+.payFlow-list .childBox li .icon{position:absolute;left:2.1rem;bottom:0;display:none;width:1.3rem;height:1.3rem;background:url(../images/success-icon.png?v=774ec3e5c3) no-repeat;background-size:100% 100%}
+.payFlow-list .childBox li .name{display:inline-block;vertical-align:middle;width:5.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1.2rem;color:#7b8188}
+.payFlow-list .childBox li.success .icon{display:block}
+.payFlow-list .label{color:#5c6fd6}
+.payFlow-list .info{float:right;width:70%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;color:#464646}
+.payFlow-list .info .op{display:inline-block;vertical-align:middle;cursor:pointer;margin:0 .1rem;width:1.8rem;height:1.8rem;background:#e4e4e4;line-height:1.3rem;font-size:1.6rem;text-align:center}
+.payFlow-list .info .disabled{cursor:default;background:#f4f4f4}
+.payFlow-list .info .num{display:inline-block;font-size:1.2rem;line-height:1.6rem}
+.payFlow-list .ipt{display:inline-block;width:80%}
+.payFlow-list .ipt input{width:100%;padding:.5rem;border:0;font-size:1.3rem}
+.payFlow-list .ipt input::-webkit-input-placeholder{color:#e4e4e4}
+.payFlow-count{width:100%;padding:1rem 0;text-align:right}
+.red{color:#fc5127}
+.payFlow-submit{width:100%;padding:1rem 0}
+.payFlow-submit a{display:block;background:#5c6fd6;padding:.8rem 0;font-size:1.6rem;text-align:center;color:#fff}
+.apply-success{padding:9.3rem 0;text-align:center}
+.apply-success h2{font-size:2.7rem;color:#5c6fd6}
+.apply-success p{font-size:1.3rem}
+.applyBox .detail{padding:2.2rem 0}
+.applyBox .tel{width:100%;margin-bottom:1rem}
+.applyBox .tel input{display:block;width:100%;padding:1rem;font-size:1.3rem;border:.05rem solid #bbb}
+.applyBox .code{width:100%;overflow:hidden}
+.applyBox .code input{float:left;width:60%;padding:1rem;font-size:1.3rem;border:.05rem solid #bbb}
+.applyBox .code .btn{cursor:pointer;float:right;width:34%;margin-left:5%;padding:.8rem 0;text-align:center;color:#5c6ed6;border:.05rem solid #5c6fd6}
+.applyBox .code .disabled{cursor:pointer;color:#666;border-color:#666;}
+.payFlow-footer .empty{height:5rem}
+.payFlow-footer .payFlow-fixed{position:fixed;left:0;bottom:0;width:100%;border-top:.05rem solid #ccc;background-color:#fff;}
+.payFlow-footer .payFlow-fixed .left{float:left;width:60%;height:3.7rem;padding:.6rem 3%;font-size:1rem;text-align:center}
+.payFlow-footer .payFlow-fixed .left .price{font-size:1.4rem;color:#464646;line-height:3.7rem;}
+.payFlow-footer .payFlow-fixed .left .price .red{color:#fc5127}
+.payFlow-footer .payFlow-fixed .btn{cursor:pointer;float:left;width:34%;height:4.9rem;line-height:4.9rem;background:#fc5127;font-size:1.5rem;text-align:center;color:#fff}
+.payFlow-footer .payFlow-fixed.yellow .left{color:silver}
+.payFlow-footer .payFlow-fixed.yellow .left .price .red{color:#ff9400}
+.payFlow-footer .payFlow-fixed.yellow .btn{background:#ff9400}
+
+.done,.undone{display:none;}
+
+.globalTopbar{height:5.2rem}
+.globalTopbar.globalTopbar-nospacing{height:3.6rem}
+.globalTopbar.globalTopbar-nospacing .inner{padding:0}
+.globalTopbar .inner{position:fixed;top:0;left:0;right:0;padding:1.6rem 0 0;background-color:#fff;z-index:100}
+.globalTopbar .inner .box{position:relative;padding:.8rem 1.2rem;height:2rem;text-align:center;color:#555b6e;font-size:1.44rem;line-height:2rem;border-bottom:1px #d2e4f4 solid}
+.globalTopbar .inner .box .btn,.globalTopbar .inner .box .cancel{font-size:1.2rem}
+.globalTopbar .inner .box .back,.globalTopbar .inner .box .btn,.globalTopbar .inner .box .cancel,.globalTopbar .inner .box .restar,.globalTopbar .inner .box .share{position:absolute;top:.8rem}
+.globalTopbar .inner .box .btn,.globalTopbar .inner .box .restar,.globalTopbar .inner .box .share{right:1.2rem}
+.globalTopbar .inner .box .back,.globalTopbar .inner .box .cancel{left:1.2rem}
+.globalTopbar .inner .box .back,.globalTopbar .inner .box .share{width:2rem;height:2rem;background-repeat:no-repeat;background-position:0 50%}
+.globalTopbar .inner .box .back{background-image:url(images/notice/topbar-back.png);background-size:auto auto}
+.globalTopbar .inner .box .blue{color:#5e89ef}
+.globalTopbar .inner .box .restar{width:5.2rem;height:2rem;text-align:center;color:#fff;font-size:.96rem;line-height:2rem;background-color:#27d0e2}
+.globalTopbar .inner .box .share{background-image:url(images/notice/topbar-share.png);background-size:auto 100%}
+.globalTopbar .inner.purple{background-color:#5a70d6}
+.globalTopbar .inner.purple .box{color:#fff}
+.globalTopbar .inner.purple .box .blue,.globalTopbar .inner.purple .box .cancel{color:#fff}
+.globalTopbar .inner.purple .box .back{background-image:url(images/topbar-backWhite.png)}
+.globalTopbar .inner.purple .box .share{background-image:url(images/topbar-shareWhite.png)}

@@ -1,0 +1,75 @@
+.uploader {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+
+.uploader input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.uploader:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+.table td, .table th {
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #dddddd;
+}
+
+.inline table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inline table td {
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.inline table td div, ul.inline table td input {
+    display: inline-block;
+}
+
+.inline table td input {
+    margin: 0 auto;
+    width: 7em;
+}
+
+.inline table .info_td {
+    text-align: left;
+    width: 25%;
+}
+
+.legend_title {
+    margin-bottom: 0;
+    border-color: #ccc;
+}
+
+.info_td {
+    width: 7em;
+    font-size: 14px;
+}
+
+.info_td_txt {
+    width: 13em;
+    font-weight: 600;
+}

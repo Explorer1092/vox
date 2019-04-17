@@ -1,0 +1,124 @@
+* { padding: 0; margin: 0; list-style: none; border: 0; -webkit-appearance: none; -moz-appearance: none;}
+body { font: 24px/100% "微软雅黑", regular; color: #666;}
+html,body{ height: 100%; position: relative; background: #dff4fd; }
+a { text-decoration: none;}
+ul li { list-style: none;}
+/*active-page*/
+.train-wrap{ margin: 0 auto; }
+.train-wrap .main{ width: auto;}
+.bg-bgpink{ background: #fff4d4;}
+.bg-blue{ background: #dff4fd;}
+.footer{ height: 120px; width: 100%; margin-top: 50px;}
+.footer a{ margin:0 auto;}
+/*.fix-footer{  position: fixed; bottom: 20px; left: 50%; margin-left: -290px;}*/
+.btn-red{ display: block; width: 580px; height: 75px; line-height: 70px; background: url("../../images/parent/openclass/btn-red.png") no-repeat; background-position: 0 0; color: #fff; font-size: 28px; text-align: center;}
+.btn-red.active{ background-position: 0 -95px;}
+.btn-green{ display: block; width: 165px; height: 65px; line-height: 60px; font-size: 20px; text-align: center; background: url("../../images/parent/openclass/btn-green.png") no-repeat; background-position: 0 0; color: #fff;}
+.btn-green.active{ background-position: -196px 0;}
+.btn-green.disabled{ background-position: -389px 0;}
+.btn-red-well{ display: block; width: 540px; margin: 0 auto; height: 75px; line-height: 70px; background: url("../../images/parent/openclass/btn-red-well.png") no-repeat; background-position: 0 0; color: #fff; font-size: 28px; text-align: center;}
+.btn-red-well.active{ background-position: 0 -95px;}
+/*index01-box*/
+.bg-pattern{ background: url("../../images/parent/openclass/active-a01-bgs.png") repeat-y;}
+.train01-box{ height: 100%; position: relative;}
+.train01-box .inner01 { position: relative; height: 354px; background: url(../../images/parent/openclass/active-a02-bg.png) no-repeat; background-size: 100% 100%; }
+.train01-box .inner01 .btn { position: absolute; top: 257px; left: 149px; width: 211px; height: 68px; background-size: 100% 100%;}
+.train01-box .inner01 .txt { position: absolute; top: 214px; width: auto; left: 149px; color: #fff; font-size: 22px; line-height: 36px; }
+.train01-box .inner02 { padding: 15px 35px 0; color: #545454; font-size: 26px; line-height: 36px;}
+.train01-box .inner02 h2{ width: 100%; height: 32px; padding: 10px 0; background: url("../../images/parent/openclass/intro-title01.png") no-repeat; background-position: 0 0;}
+.train01-box .inner03 { padding: 25px 35px 0 30px;  font-size: 24px;}
+.train01-box .inner03 h2{ width: 100%; height: 32px; color: #545454; padding: 10px 0; background: url("../../images/parent/openclass/intro-title01.png") no-repeat; background-position: 0 -60px;}
+.train01-box .inner03 p{ line-height: 40px;}
+.train01-box .inner03 p.count{ text-align: center; font-size: 28px; margin-bottom: 5px;}
+.train01-box .inner03 p.count span{ font-size: 32px; color: #fd6c6c;}
+.train01-box .inner03 .link { display: block; margin: 0 20px 0 0; text-align: right; color: #959dfe; font-size: 25px; line-height: 34px; text-decoration: underline; }
+/*index02-box*/
+.train02-box{ height: 100%; position: relative; padding-top: 20px;}
+.train02-box .inner{ padding: 0 58px;}
+.train02-box .inner h2{ width: 443px; height: 32px; padding: 30px 0; margin: 0 auto; background: url("../../images/parent/openclass/intro-title02.png") no-repeat;}
+.train02-box .inner h2.tit01{ background-position: 0 20px;}
+.train02-box .inner h2.tit02{ background-position: 0 -70px;}
+.train02-box .inner h2.tit03{ background-position: 0 -150px;}
+.train02-box .inner p{ font-size: 24px; color: #545454; line-height: 34px; margin-bottom: 10px;}
+.train02-box .inner p span{ display: inline-block; width: 27px; height: 27px; border-radius: 27px; line-height: 27px; margin-right: 15px; text-align: center; color: #fff; font-size: 22px; background: #81c4f4;}
+.train02-box .inner ul{ overflow: hidden;}
+.train02-box .inner ul li{ float: left; margin: 3px;}
+.train02-box .inner ul li img{ width: 117px; height: 167px; border: 3px solid #cde6f0; border-radius: 10px;}
+.train02-box .num .txt{ text-align: center; font-size: 28px; color: #545454; line-height: 120px;}
+.train02-box .num .txt span{  font-size: 32px; color: #fd6c6c;}
+/*index03-box*/
+.train03-box{ height: 100%; position: relative;}
+.train03-box .header{ width: 100%; height: 250px; padding-top: 50px; background: url(../../images/parent/openclass/banner-act04.png) center 50px no-repeat;}
+.train03-box .main{ width: 580px; padding: 0 20px;}
+.train03-box .main h2{ font-weight: normal; font-size: 28px; color: #545454; padding: 40px 20px 30px;}
+.train03-box .main .yx-form{ overflow: hidden; padding: 0 20px;}
+.train03-box .main .yx-form .left{ width: 350px; float: left;}
+.train03-box .main .yx-form .left input{ width: 320px; padding: 0 15px; height: 65px; outline-style: none; line-height: 65px; font-size: 26px; color: #b2b2b2; margin-bottom: 20px; background: #fff; border-radius: 5px;}
+.train03-box .main .yx-form .right{ float: right;}
+.train03-box .main .tips{ position: fixed; bottom: 0; left: 0; width: 100%; font-size: 22px; color: #545454; padding: 18px 0; text-align: center;}
+.train03-box .main .tips a{ color: #959dfe; text-decoration: underline;}
+/*index04-box*/
+.train04-box{ padding: 50px 30px; height: 100%; position: relative;}
+.train04-box .inner{ margin-bottom: 25px; line-height: 38px;}
+.train04-box .inner h3{ font-size: 28px; color: #333333; padding-bottom: 5px;}
+.train04-box .inner p{ font-size: 26px; color: #666666;}
+/*index05-box*/
+.train05-box .header{ width: 100%; height: 360px; background: url(../../images/parent/openclass/banner-act02.png) no-repeat; background-size: 100% auto;}
+.train05-box .main{ color: #4c4c4c; margin-bottom: 40px; padding: 0 35px;}
+.train05-box .main h2{ width: 443px; height: 74px; margin: 0 auto; background: url("../../images/parent/openclass/intro-title02.png") no-repeat top center; background-position: 0 -228px;}
+.train05-box .main p{ line-height: 46px; font-size: 24px;}
+.train05-box .main .link { display: block; margin: 20px 80px 0 0; text-align: right; color: #959dfe; font-size: 25px; line-height: 34px; text-decoration: underline; }
+/*index06-box*/
+.train06-box{ position: relative; padding: 0 20px; height: 100%; color: #545454;}
+.train06-box .header{ overflow: hidden; padding: 22px 0; border-bottom: 2px solid #b6d6e3;}
+.train06-box .header img{ width: 135px; height: 135px; border-radius: 135px; display: block; float: left; border: 4px solid #9bd1c8;}
+.train06-box .header .r-info{ float: left; width: 430px; margin: 30px 0 0 20px; line-height: 36px;}
+.train06-box .header .r-info p{ font-size: 24px;}
+.train06-box .header .r-info p.describe{ font-size: 20px; height: 77px; overflow: hidden;}
+.train06-box .header .r-info p i.sex{ display: inline-block; vertical-align: middle; margin: 0 5px; width: 24px; height: 24px; background: url("../../images/parent/openclass/sex-icon.png?v=1.0.1") no-repeat;}
+.train06-box .header .r-info p i.man{ background-position: 0 0;}
+.train06-box .header .r-info p i.woman{ background-position: -38px 0;}
+.train06-box .main .inner{ padding: 22px 0;}
+.train06-box .main .inner h2{ font-size: 28px; margin-bottom: 15px;}
+.train06-box .main .inner p{ font-size: 26px; line-height: 36px;}
+.train06-box .main .inner ul{ overflow: hidden;}
+.train06-box .main .inner ul li{ float: left; margin: 0 8px;}
+.train06-box .main .inner ul li p{ text-align: center; font-size: 22px; padding: 5px 0;}
+.train06-box .main .inner ul li img{  width: 280px; height: 175px; border: 1px solid #42a0c8; border-radius: 8px;}
+/*index07-box*/
+.train07-box{ height: 100%; position: relative;}
+.train07-box .banner img{ width: 100%; }
+.train07-box .pdm{ padding: 10px 20px; border-bottom: 1px solid #cdcccc; overflow: hidden;}
+.train07-box .pdm h4{ font-weight: normal; padding: 15px 0;}
+.train07-box .intro p{ font-size: 22px; color: #4d5252; line-height: 38px;}
+.train07-box .child h4{ margin-bottom: 15px;}
+.train07-box .child ul{ overflow: hidden; margin-left: 10px;}
+.train07-box .child ul li{height: 130px; width: 120px; float: left; position: relative; cursor: pointer; text-align: center;}
+.train07-box .child ul li img{ width: 80px; height: 80px; border-radius: 80px; margin-bottom: 3px;}
+.train07-box .child ul li p{ width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.train07-box .child ul li i{ position: absolute; bottom: 45px; right: 18px; display: block; width: 32px; height: 32px;}
+.train07-box .child ul li.active i{ background: url(../../images/parent/openclass/period.png) 0 -93px no-repeat;}
+.train07-box .child ul li.succeed i{ background: url(../../images/parent/openclass/payed-icon.png) no-repeat; width: 76px; height: 28px; right: -10px;}
+.train07-box .period{ border-bottom: 0;}
+.train07-box .period ul{ width: 590px;}
+.train07-box .period ul li{ width: 584px; cursor: pointer; padding-right: 6px; margin: 0 20px 24px 0px;  background: url(../../images/parent/openclass/w.png) right top repeat-y;}
+.train07-box .period ul li.active{ background:url(../../images/parent/openclass/c.png) right top repeat-y;}
+.train07-box .period ul li.disabled{ background:url(../../images/parent/openclass/d.png) right top repeat-y; cursor: auto;}
+.train07-box .period ul li table{ width: 585px; color: #26c6c2; font-size: 24px; line-height: 40px; padding: 8px 10px 8px 15px; border: 1px solid #26c6c2; border-right: 0; border-radius: 5px 0 0 5px;}
+.train07-box .period ul li.active table{ color: #fff; background: #26c6c2; line-height: 38px;}
+.train07-box .period ul li.disabled table{ color: #979797; background: #e6e6e6; border-color: #9a9a9a;}
+.train07-box .period ul li table .wtxt{ width: 200px;}
+.train07-box .period ul li table .wprice{ width:130px; text-align: right;}
+.train07-box .sfooter{ width: 100%; max-width: 640px; position: fixed; bottom: 0; left: 50%; margin-left: -320px; overflow: hidden; height: 97px; line-height: 97px; text-align: center; color: #fff;}
+.train07-box .sfooter .pf-l{ width: 66%; float: left;  background: #333; text-align: left;}
+.train07-box .sfooter .pf-l del{ font-size: 22px; color: #7f7f7f; padding: 0 15px;}
+.train07-box .sfooter .pf-l span{ font-size: 26px;}
+.train07-box .sfooter .pf-l span strong{ color: #fd6c6c; font-size: 42px; font-weight: normal;}
+.train07-box .sfooter .pf-r{ float: left; width: 34%; height: 97px; background: #fd6c6c; font-size: 36px;}
+.train07-box .sfooter .pf-r a{ color: #fff;}
+.train07-box .pay-success a{ display: block; color: #fff; font-size: 32px; background: #858585;}
+.train07-box .empty{ width: 100%; height: 100px;}
+/*success-box*/
+.success-box .bg{ width: 100%; height: 165px; padding-top: 90px; background: url("../../images/parent/openclass/success-tip-icon.png") bottom center no-repeat; margin-bottom: 50px;}
+.success-box h1{ font-size: 48px; color: #545454; font-weight: normal; text-align: center; margin-bottom: 65px;}
+.success-box h1 span.icon{ width: 54px; height: 54px; display: inline-block; vertical-align: middle; margin-right: 20px; margin-top: -4px; background: url("../../images/parent/openclass/success-icon.png") no-repeat;}

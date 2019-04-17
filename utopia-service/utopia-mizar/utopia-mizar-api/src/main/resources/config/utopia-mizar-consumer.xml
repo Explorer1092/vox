@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2017 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="com.voxlearning.utopia.service.mizar.client.AsyncMizarCacheServiceClient" class="com.voxlearning.utopia.service.mizar.client.AsyncMizarCacheServiceClient"/>
+
+    <bean id="com.voxlearning.utopia.service.mizar.consumer.loader.HbsLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.HbsLoaderClient"/>
+    <bean id="com.voxlearning.utopia.service.mizar.consumer.service.HbsServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.HbsServiceClient"/>
+
+    <!--LoaderClient-->
+    <bean id="mizarLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarLoaderClient"/>
+    <bean id="mizarUserLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarUserLoaderClient"/>
+    <bean id="mizarRatingLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarRatingLoaderClient"/>
+    <bean id="mizarSystemConfigLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarSystemConfigLoaderClient"/>
+    <bean id="mizarChangeRecordLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarChangeRecordLoaderClient"/>
+    <bean id="grouponGoodsLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.GrouponGoodsLoaderClient"/>
+    <bean id="specialTopicLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.SpecialTopicLoaderClient"/>
+    <bean id="mizarNotifyLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarNotifyLoaderClient"/>
+    <bean id="microCourseLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MicroCourseLoaderClient"/>
+    <bean id="mizarUserSchoolLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.MizarUserSchoolLoaderClient"/>
+    <bean id="schoolSettlementLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.SchoolSettlementLoaderClient"/>
+    <bean id="schoolRefundAmortizeDataLoaderClient" class="com.voxlearning.utopia.service.mizar.consumer.loader.SchoolRefundAmortizeDataLoaderClient"/>
+
+    <!--ServiceClient-->
+    <bean id="mizarServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarServiceClient"/>
+    <bean id="mizarUserServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarUserServiceClient"/>
+    <bean id="mizarRatingServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarRatingServiceClient"/>
+    <bean id="mizarSystemConfigServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarSystemConfigServiceClient"/>
+    <bean id="mizarChangeRecordServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarChangeRecordServiceClient"/>
+    <bean id="officialAccountsServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.OfficialAccountsServiceClient"/>
+    <bean id="specialTopicServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.SpecialTopicServiceClient"/>
+    <bean id="grouponGoodsServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.GrouponGoodsServiceClient"/>
+    <bean id="mizarNotifyServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarNotifyServiceClient"/>
+    <bean id="microCourseServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MicroCourseServiceClient"/>
+    <bean id="mizarUserSchoolServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.MizarUserSchoolServiceClient"/>
+    <bean id="schoolSettlementServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.SchoolSettlementServiceClient"/>
+    <bean id="schoolRefundAmortizeDataServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.SchoolRefundAmortizeDataServiceClient"/>
+    <bean id="cjlSyncDataServiceClient" class="com.voxlearning.utopia.service.mizar.consumer.service.CJLSyncDataServiceClient"/>
+
+</beans>

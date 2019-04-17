@@ -1,0 +1,57 @@
+{
+    "actualScore": 68,
+    "totalScore": 86,
+    "totalTime": 83105,
+    "voiceEngineType": "internal",
+    "voiceScoringMode": "Normal",
+    "version": "1.0.0.1",
+    "param": {
+        "userId": 30046,
+        "studyType": "homework",
+        "gameType": 33,
+        "bookId": 878,
+        "unitId": 879,
+        "lessonId": 8790002,
+        "cid": 34051,
+        "hid": "537c16d8e4b015cd2fa557a8",
+        "homeworkDetailId": "537c16d8e4b015cd2fa557a9"
+    },
+    "sentence": [
+        {
+            "score": 69,
+            "voiceId": "voice-frag-1400641274.88103329496688.wav",
+            "sentenceId": "87900020001007",
+            "content": "Hello , I'm Peter ."
+        },
+        {
+            "score": 72,
+            "voiceId": "voice-frag-1400641288.04768020068913.wav",
+            "sentenceId": "87900020001008",
+            "content": "Hello , I'm Lingling ."
+        },
+        {
+            "score": 71,
+            "voiceId": "voice-frag-1400641299.12898121393095.wav",
+            "sentenceId": "87900020001009",
+            "content": "Nice to meet you !"
+        },
+        {
+            "score": 76,
+            "voiceId": "voice-frag-1400641312.46281952490393.wav",
+            "sentenceId": "87900020001010",
+            "content": "Hello , I'm Mingming ."
+        },
+        {
+            "score": 64,
+            "voiceId": "voice-frag-1400641325.56000633205563.wav",
+            "sentenceId": "87900020001011",
+            "content": "Hello , I'm Anne ."
+        },
+        {
+            "score": 54,
+            "voiceId": "voice-frag-1400641337.70646258688367.wav",
+            "sentenceId": "87900020001012",
+            "content": "Nice to meet you too !"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+body{ font-size:12px; font-family: Helvetica, Arial, sans-serif; color:#ffdd48;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none; }
+.main{ width:100%; background: #07a593 url(images/bg.png) repeat-x; padding-bottom:20px; overflow: hidden;}
+.main .main_in{ width:100%; margin:0 auto; background: url(images/001.jpg) no-repeat center 0;min-width: 960px;}
+.main .main_in .main_in2{ width:960px; margin:0 auto; overflow:hidden;}
+.main .main_in .main_in1{width:925px; margin:0 auto; background: url(images/002.jpg) no-repeat 0 0;overflow:hidden; height:476px; position:relative;}
+
+.main .main_in p.p01{ margin:85px 0 0 655px; font-size:26px; color:#fff; }
+.main .main_in p.p02{ margin:17px 0 0 655px; color:#ffdd48; width:225px; font-size:14px; text-align:center; line-height:16px; font-weight:bold; height: 32px; }
+.main .main_in p.p03{ margin:25px 0 0 100px; color:#fcff00; font-size:18px; text-align:center; height: 25px; }
+.main .main_in p.p04{ margin:19px 0 27px 340px; color:#fff ; font-size:18px; text-align:center; font-family:"微软雅黑"; height:20px; text-indent:-9999px; }
+.main .main_in a.unstart{ height:74px; width:321px; background:url(images/unfinish.png) no-repeat; display:inline-block;  margin:0px 0 1px 510px;  display:none; cursor:default; }
+.main .main_in .start{ height:74px; width:321px; background: url(images/miaosha.png) no-repeat 0 0; display:inline-block;  margin:0px 0 1px 510px; border:none; cursor: pointer; }
+.main .main_in a.btn1{ height:73px; width:295px; background: url(images/miaowan.png) no-repeat; display:inline-block;  margin:2px 0 0 510px;  display:none;  cursor:default; }
+.main .main_in a.btn2{ height:75px; width:304px; background: url(images/yihuo.png) no-repeat; display:inline-block;  margin:-1px 0 0 510px;  display:none;  cursor:default; }
+
+.main .main_in a.start:hover{ background-position:0 -101px;}
+.main .main_in a.start:visited{ background-position:0 -191px;}
+.main .main_in p.p05{ color:#95c3c7; padding-left:65px; font-weight:bold; font-size:14px;margin-top: -10px;   height: 15px}
+.main .main_in .number{ margin:52px 0px 0 35px; overflow:hidden;}
+.main .main_in .number .p06{ float:left; width:400px; height:32px; font-weight:bold; background:url(images/daojishi1.png) no-repeat 0 center; font-size:27px; margin-left:3px; _display:inline;}
+.main .main_in .number .p06 span.span01{ background:url(images/number1.png) repeat-x 0 center; width:52px; height:32px; display: inline-block; line-height:32px; text-align:center; letter-spacing:10px; color:#333333;}
+.main .main_in .number .p06 span.span001{ margin-left:68px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span002{ margin-left:22px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span003{ margin-left:18px; padding-left:5px; width:47px;}
+.main .main_in .number .p06 span.span004{ margin-left:21px; padding-left:5px; width:47px;}
+
+.main .main_in .number .p07{ float:right; margin-right:192px; font-size:18px; font-weight:bold; margin-top: 8px; _display:inline;}
+.main .images{overflow:hidden;  text-align:center; width:925px; margin:0 auto;}
+.main .images .im02{ width:925px; height:271px; background: url(images/003.jpg) no-repeat 0 center;}
+.main .images .im03{ width:925px; height:271px; background: url(images/004.jpg) no-repeat 0 center;}
+.main .images .im04{ width:925px; height:271px; background: url(images/005.jpg) no-repeat 0 center;}
+.main .images .im05{ width:925px; height:109px; background: url(images/006.jpg) no-repeat 0 center;}
+/*btnBoxMiaosha*/
+.btnBoxMiaosha{ height: 85px; overflow: hidden; clear: both;}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath*:/config/raikou-sdk.xml"/>
+    <import resource="classpath*:/config/raikou-system.xml"/>
+
+    <import resource="classpath*:/config/utopia-content-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-sms-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-vendor-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-user-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-question-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-order-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-coupon-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-wechat-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-email-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-config-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-message-consumer.xml"/>
+    <import resource="classpath*:/config/utopia-clazz-consumer.xml"/>
+</beans>

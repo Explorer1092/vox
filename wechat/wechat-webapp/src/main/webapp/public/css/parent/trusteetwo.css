@@ -1,0 +1,135 @@
+* { padding: 0; margin: 0; list-style: none; border: 0; -webkit-appearance: none; -moz-appearance: none;}
+body { font: 24px/100% "微软雅黑", regular; color: #666;}
+html,body{ height: 100%; position: relative; background: #fff4d4;}
+a { text-decoration: none;}
+ul li { list-style-type: none; list-style: none;}
+/*active-page*/
+.active-wrap{ margin: 0 auto; max-width: 640px;}
+.order_icon{ background: url(../../images/parent/trusteetwo/order_icon.png) no-repeat;}
+.active-spacing { padding-left: 30px; padding-right: 30px;}
+.active-bgyellow{ background: #ffcb3e; height: 100%;}
+.active-bgpink{ background: #fff4d4;}
+.footer{ height: 120px; width: 100%; margin-top: 50px;}
+.active-bottom-know{ display: block; width: 540px; height: 75px; line-height: 65px; text-align: center; color: #fff; font-size: 28px; background-position: -32px -728px; margin: 0 auto;}
+.active-bottom-know.active{ background-position: -32px -820px;}
+.active-btn-well{ display: block; width: 340px; margin: 0 auto; height: 75px; line-height: 70px; background: url("../../images/parent/trusteetwo/w-btn-well.png") no-repeat; color: #fff; font-size: 28px; text-align: center;}
+.active-btn-well.disabled{ background: url("../../images/parent/trusteetwo/w-btn-wells.png") no-repeat;}
+/*active01-box*/
+.active03-box{ height: 100%; position: relative;}
+.active03-box .ab01-box-1 { position: relative; height: 354px; background: url(../../images/parent/trusteetwo/active-a01-bg.jpg) no-repeat; background-size: 100% 100%; }
+.active03-box .ab01-box-1 .btn { position: absolute; top: 175px; left: 50%; margin-left: -132.5px; width: 265px; height: 85px; text-align: center; color: #fff; font-size: 36px; line-height: 85px; background: url(../../images/parent/trusteetwo/active-a01-ico-5.png) no-repeat; background-size: 100% 100%; }
+.active03-box .ab01-box-1 .btn.active { background-size: 100% 100%; background: url("../../images/parent/trusteetwo/active-a01-ico-6.png") no-repeat;}
+.active03-box .ab01-box-1 .txt { position: absolute; top: 130px; left: 355px; color: #fff; font-size: 24px; line-height: 36px; }
+/*add-cc*/
+.active03-box .ab01-box-add{ height: 370px; background: url(../../images/parent/trusteetwo/active-a02-bg.jpg) no-repeat;}
+.active03-box .ab01-box-add .btn{ top: 205px;}
+
+.active03-box .ab01-box-2 { padding: 25px 30px 0; color: #955e28; font-size: 26px; line-height: 36px;}
+.active03-box .ab01-box-2 h2{ width: 119px; height: 38px; padding: 5px 0; background: url("../../images/parent/trusteetwo/active-intro-title.png") no-repeat; border-bottom: 0;}
+.active03-box .ab01-box-3 { padding: 58px 30px 0 30px; }
+.active03-box .ab01-box-3 .box { position: relative; padding: 14px; border-radius: 6px; background: #fdf9ed; border: 6px solid #f9da80; position: relative;}
+.active03-box .ab01-box-3 .box h1{ background: url("../../images/parent/trusteetwo/box-h2-title.png") no-repeat; font-weight: normal; margin: -40px auto 25px auto; width: 450px; height: 48px; line-height: 48px; text-align: center; color: #fff; font-size: 24px;}
+.active03-box .ab01-box-3 .box .inner h2{ color: #333333; font-size: 28px; text-align: center; font-weight: normal; margin-bottom: 10px;}
+.active03-box .ab01-box-3 .box .inner h2 span{ color: #da8d07; font-size: 36px;}
+.active03-box .ab01-box-3 .box .inner .item{ line-height: 36px; padding: 10px 0 10px 60px; color: #955e28;}
+.active03-box .ab01-box-3 .box .inner .item-1 { background: url("../../images/parent/trusteetwo/active-a01-ico-3.png") no-repeat;}
+.active03-box .ab01-box-3 .box .inner .item-2 { background: url(../../images/parent/trusteetwo/active-a01-ico-4.png) no-repeat;}
+.active03-box .ab01-box-3 .link { display: block; margin: 0 20px 0 0; text-align: right; color: #409af6; font-size: 25px; line-height: 34px; text-decoration: underline; }
+/*active02-box*/
+.active03-box .ab02-box-1 { padding: 22px 0 10px 0; text-align: center; color: #e78a3f; font-size: 35px; line-height: 54px; }
+.active03-box .ab02-box-2 { text-align: center; color: #e78a3f; font-size: 28px; line-height: 48px; }
+.active03-box .ab02-box-2 span { display: inline-block; margin: 0 12px; background-position: 0 50%; background-size: auto 90%; }
+.active03-box .ab02-box-2 .add { padding: 0 0 0 32px; background: url(../../images/parent/trusteetwo/active-a02-ico-1.png) left center no-repeat;}
+.active03-box .ab02-box-2 .tel { padding: 0 0 0 38px; background: url(../../images/parent/trusteetwo/active-a02-ico-2.png) left center no-repeat;}
+.active03-box .ab02-box-3 { padding: 18px 0 10px 0; color: #955e28; font-size: 21px; line-height: 34px; }
+.active03-box .ab02-box-4 { padding: 20px 0 0; overflow: auto; }
+.active03-box .ab02-box-4 h2{ font-size: 26px; color: #955e28; font-weight: normal; padding-bottom: 24px;}
+.active03-box .ab02-box-4 h2 span{ display: inline-block; margin-right: 10px; width: 32px; height: 32px; border-radius: 32px; line-height: 32px; text-align: center; color: #fff; font-size: 26px; background: #955e28;}
+.active03-box .ab02-box-4 .box { position: relative; font-size: 20px; color: #955e28; border-radius: 6px; overflow: hidden; line-height: 30px;}
+.active03-box .ab02-box-4 .box img { display: block; width: 99%; margin-bottom: 10px; border: 1px solid #f9da80; border-radius: 6px;}
+.active03-box .ab02-box-4 .box-fl,.active03-box .ab02-box-4 .box-fr{ width: 47%; }
+.active03-box .ab02-box-4 .box-fl { float: left;}
+.active03-box .ab02-box-4 .box-fr { float: right;}
+.active03-box .ab02-box-4b .box p{ text-align: center;}
+/*active03-box*/
+.active03-box .ab03-hd{ width: 100%; height: 260px; padding-top: 33px; background: url(../../images/parent/trusteetwo/active03-top.png) 0 33px no-repeat; background-size: 100% auto;}
+.active03-box .ab03-hd-one{ background: url(../../images/parent/trusteetwo/active03-top-1.png) 0 33px no-repeat;}
+.active03-box .ab03-hd-two{ background: url(../../images/parent/trusteetwo/active03-top-2.png) 0 33px no-repeat;}
+.active03-box .ab03-mn{ width: 580px; padding: 0 20px;}
+.active03-box .ab03-mn h2{ font-weight: normal; font-size: 28px; color: #a76003; padding: 40px 20px 30px;}
+.active03-box .ab03-mn .yx-form{ overflow: hidden; padding: 0 20px;}
+.active03-box .ab03-mn .yx-form .left{ width: 350px; float: left;}
+.active03-box .ab03-mn .yx-form .left input{ width: 320px; padding: 0 15px; height: 65px; outline-style: none; line-height: 65px; font-size: 26px; color: #b2b2b2; margin-bottom: 20px; background: #fff; border-radius: 5px;}
+.active03-box .ab03-mn .yx-form .right{ float: right;}
+.active03-box .ab03-mn .yx-form .right a.getcode{ display: block; width: 165px; height: 65px; text-align: center; line-height: 60px; font-size: 20px; color: #fff; background-position: -32px -233px;}
+.active03-box .ab03-mn .yx-form .right a.getcode.active{ background-position: -225px -233px;}
+.active03-box .ab03-mn .yx-form .right a.getcode.disabled{ background-position: -421px -233px;}
+.active03-box .ab03-mn .tips{ font-size: 22px; color: #955e28; padding: 18px 0; text-align: center;}
+.active03-box .ab03-mn .tips a{ color: #147dff; text-decoration: underline;}
+/*active04-box*/
+.active04-box{ background: url(../../images/parent/trusteetwo/tx_intro_bg.png) no-repeat; background-size: 100% auto; padding: 235px 0 340px 0;}
+.active04-box .list{ font-size: 28px; color: #4e4e4e; line-height: 30px; padding: 0 57px 35px 46px; overflow: hidden;}
+.active04-box .list span{ display: block; float: left; width: 38px; height: 38px; border-radius: 38px; background: #20b3f7; color: #fff; text-align: center; line-height: 38px;}
+.active04-box .list p{ width: 480px; float: right; text-align: left; line-height: 38px;}
+/*active05-box*/
+.active05-box .ab05-top{ width: 100%; height: 240px; padding: 25px 0;  font-family: "黑体"; line-height: 50px; background: url(../../images/parent/trusteetwo/yx_top_bg.png) no-repeat; background-size: 100% auto; color: #fff; text-align: center;}
+.active05-box .ab05-top h2{ font-size: 38px; font-weight: normal;}
+.active05-box .ab05-top h3{ font-size: 28px; font-weight: normal;}
+.active05-box .ab05-inner{ color: #4c4c4c; margin-bottom: 40px;}
+.active05-box .ab05-inner h2{ width: 100%; height: 54px;}
+.active05-box .inner01 h2{ background: url("../../images/parent/trusteetwo/yy-title01.png") no-repeat top center;}
+.active05-box .inner02 h2{ background: url("../../images/parent/trusteetwo/yy-title02.png") no-repeat top center;}
+.active05-box .ab05-inner p{ line-height: 46px;}
+.active05-box .inner01 p{ padding-left: 100px;padding-right: 50px;}
+.active05-box .inner02 p{ padding-left: 58px;}
+.active05-box .inner02 p span{  display: inline-block; margin-right: 10px; width: 26px; height: 26px; border-radius: 26px; line-height: 26px; text-align: center; color: #fff; font-size: 22px; background: #ffc015;}
+.active05-box .link { display: block; margin: 0 80px 0 0; text-align: right; color: #409af6; font-size: 25px; line-height: 34px; text-decoration: underline; }
+.active05-box .ab05-footer{ margin: 50px auto;}
+/*disclaimer*/
+.disclaimer{ padding: 50px 30px;}
+.disclaimer .d-list{ margin-bottom: 25px; line-height: 38px;}
+.disclaimer .d-list h3{ font-size: 28px; color: #333333; padding-bottom: 5px;}
+.disclaimer .d-list p{ font-size: 26px; color: #666666;}
+/*product-detail*/
+.pro-detail .banner img{ width: 100%; }
+.pro-detail .pdm{ padding: 30px 20px; border-bottom: 1px solid #cdcccc; overflow: hidden;}
+.pro-detail .pdm h4{ font-size: 24px; color: #4B8FFF; font-weight: normal; float: left;}
+.pro-detail .intro p{ clear: left; font-size: 24px; color: #4d5252; padding: 15px 0; line-height: 30px;}
+.pro-detail .intro p.remark{ font-size: 18px; color: #aaaaaa; padding: 0;}
+.pro-detail .period{ border-bottom: 0;}
+.pro-detail .period .right{ float: right; margin-right: 15px;}
+.pro-detail .period ul{ width: 490px;}
+/*.pro-detail .period ul li{ width: 484px; padding-right: 5px; margin: 0 20px 24px 0px;  background: url(../../images/parent/trusteetwo/w.jpg) right top repeat-y;}*/
+/*.pro-detail .period ul li.active{ background:url(../../images/parent/trusteetwo/c.jpg) right top repeat-y;}
+.pro-detail .period ul li table{ width: 485px; color: #ff9b2f; font-size: 24px; line-height: 40px; padding: 8px 10px 8px 15px; border: 1px solid #ff9b2f; border-right: 0; border-radius: 5px 0 0 5px;}
+.pro-detail .period ul li.active table{ color: #fff; background: #ff9b2f; line-height: 38px;}*/
+.pro-detail .period ul li{ width: 484px; padding-right: 5px; margin: 0 20px 24px 0px;  background: url(../../images/parent/trusteetwo/w.jpg) right top repeat-y;}
+.pro-detail .period ul li.active{ background:url(../../images/parent/trusteetwo/c.jpg) right top repeat-y;}
+.pro-detail .period ul li.disabled{ background:url(../../images/parent/trusteetwo/d.png) right top repeat-y; cursor: auto;}
+.pro-detail .period ul li table{ width: 485px; color: #ff9b2f; font-size: 24px; line-height: 40px; padding: 8px 10px 8px 15px; border: 1px solid #ff9b2f; border-right: 0; border-radius: 5px 0 0 5px;}
+.pro-detail .period ul li.active table{ color: #fff; background: #ff9b2f; line-height: 38px;}
+.pro-detail .period ul li.disabled table{ color: #979797; background: #e6e6e6; border-color: #9a9a9a;}
+
+.pro-detail .period ul li table .wtxt{ width: 320px;}
+.pro-detail .period ul li table .wprice{ width:130px; text-align: right;}
+.pro-detail .child h4{ margin-bottom: 15px;}
+.pro-detail .child ul{ overflow: hidden; margin-left: 10px;}
+.pro-detail .child ul li{height: 130px; width: 120px; float: left; position: relative; cursor: pointer; text-align: center;}
+.pro-detail .child ul li img{ width: 80px; height: 80px; border-radius: 80px; margin-bottom: 3px;}
+.pro-detail .child ul li p{ width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.pro-detail .child ul li i{ position: absolute; bottom: 45px; right: 18px; display: block; width: 32px; height: 32px;}
+.pro-detail .child ul li.active i{ background: url(../../images/parent/trusteetwo/period.png) 0 -93px no-repeat;}
+.pro-detail .child ul li.succeed i{ background: url(../../images/parent/trusteetwo/payed-icon.png) no-repeat; width: 76px; height: 28px; right: -10px;}
+.pro-detail .pro-footer{ width: 100%; max-width: 640px; position: fixed; bottom: 0; left: 50%; margin-left: -320px; overflow: hidden; height: 97px; line-height: 97px; text-align: center; color: #fff;}
+.pro-detail .pay-success a{ display: block; color: #fff; font-size: 32px; background: #858585;}
+.pro-detail .pro-footer .pf-l{ width: 66%; float: left;  background: #333; text-align: left;}
+.pro-detail .pro-footer .pf-l del{ font-size: 22px; color: #7f7f7f; padding: 0 15px;}
+.pro-detail .pro-footer .pf-l span{ font-size: 26px;}
+.pro-detail .pro-footer .pf-l span strong{ color: #ff4e1e; font-size: 42px; font-weight: normal;}
+.pro-detail .pro-footer .pf-r{ float: left; width: 34%; height: 97px; background: #ff9b2f; font-size: 36px;}
+.pro-detail .pro-footer .pf-r a{ color: #fff;}
+.pro-detail .empty{ width: 100%; height: 100px;}
+/*success-box*/
+.success-box .bg{ width: 100%; height: 165px; padding-top: 90px; background: url("../../images/parent/trusteetwo/success-tip-icon.png") bottom center no-repeat; margin-bottom: 50px;}
+.success-box h1{ font-size: 48px; color: #955e28; font-weight: normal; text-align: center; margin-bottom: 65px;}
+.success-box h1 span.icon{ width: 54px; height: 54px; display: inline-block; vertical-align: middle; margin-right: 20px; margin-top: -4px; background: url("../../images/parent/trusteetwo/success-icon.png") no-repeat;}

@@ -1,0 +1,113 @@
+html, body,form{ width: 100%; font-size: 12px; font-family:"微软雅黑", "Microsoft YaHei"; color: #333;}
+html, body,div, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+body { background-color: #fff; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 1.125; }
+a { text-decoration: none;}
+img{ vertical-align:middle; border:none;}
+.clearfix{zoom:1;}
+.clearfix:after{content: ""; display: block; clear: both;}
+table,th,td{border-collapse: collapse;}
+body { background:url(../images/background.jpg) repeat-x;  color: #000; line-height: 1.2;  }
+
+.beile_sprites{display:inline-block; background: url(../images/beile_sprites.png) no-repeat; _background: url(../images/beile_sprites8.png) no-repeat;}
+.best {background:url(../images/best.png) no-repeat;}
+.header,.banner,.mainbody{width:1061px;margin:0 auto;}
+
+.header{height:114px; margin-bottom:20px; background: url(../images/top_text_24.png) no-repeat right bottom; _background: url(../images/top_text_24.png) no-repeat right bottom;}
+
+/* free_experience begin */
+.free_experience_title{height:66px; background: url(../images/free_experience_title.png) no-repeat;}
+.free_experience_box{height:650px;}
+.free_experience_box .free_experience{float:left; width:700px; height: 650px; border-left:1px solid #4286c1;}
+.sign_up_title{height:68px; text-indent: 52px; color:#1a79c0; font:bold 16px/68px "";}
+.sign_up_title span{color:#ff9100; font-size: 20px;}
+.free_experience_box .free_experience .already_bind,.free_experience_box .free_experience .not_bind,.free_experience_box .free_experience .sign_success{height:277px; width:667px; background: url(../images/free_coupon.png) no-repeat; margin:0 0 20px 34px;}
+.free_experience_box .free_experience .not_bind{background: url(../images/beile_not_bind.png) no-repeat;}
+.free_experience_box .free_experience .sign_success{background: url(../images/beile_sign_success.png) no-repeat;}
+.form_box1{padding: 100px 0 0 265px;}
+.form_box2 dl{margin:18px 0 0 10px;}
+.form_box1 dl dt,.form_box1 dl dd{float:left; height:34px;}
+.form_box1 dl dt{width:60px; font:16px/34px ""; color:#fff;}
+.form_box2{padding:82px 0 0 212px;}
+.form_box2 dl dt{width:86px; text-align: right; margin-right:6px;}
+.form_box1 dl dd.beile_fix_number{width:66px; margin-left:14px;}
+.form_box2 dl dd.get_free_code{width:122px; height:39px; margin-left:14px;}
+.form_box2 dl dd.get_free_code a,.form_box2 dl dd.get_free_code span{ font:12px/39px ""; color:#633821; text-align: center;}
+.form_box2 dl dd.get_free_code a{display:block; width:122px; height:39px; background-position: -129px -91px;}
+.form_box2 dl dd.get_free_code a:hover{background-position: -129px -130px;}
+.form_box2 dl dd.get_free_code a:visited{background-position: -129px -169px;}
+.form_box2 dl dd.get_free_code span{display:block; height:38px; width:123px; background-position: 0 -161px; cursor: default;}
+
+
+.form_box1 dl dd p{width:66px; color:#633821; font:12px/16px ""; text-align: left; padding-top:2px;}
+.form_box1 dl dd p a{text-decoration:underline; color:#1069c9;}
+.form_box1 dl dd .input_box{background:#fff; height:34px; width:228px; border-radius:10px; position:relative;}
+.form_box2 dl dd .input_box{width: 188px;}
+.form_box1 dl dd .cx_input_arrow{height:26px; width:28px; background-position:-44px -133px; position:absolute; top:4px; right:4px; z-index:2;}
+.form_box1 dl dd .input_box label{font:16px/34px ""; color:#633821; padding:0 8px;}
+.form_box1 dl dd .input_box label span{font:14px/34px ""; color:#999;}
+.form_box1 dl dd .input_box input{color:#633821; width:180px; padding:8px 40px 8px 8px; font:16px/18px ""; border:none; background:transparent; position:absolute; top:0; left:0; z-index:1; cursor: pointer;}
+.form_box2 dl dd .input_box input{cursor: text; width:180px; padding:8px 0px 8px 8px;}
+.form_box1 dl dd .input_box ul li{width:228px; height:34px; margin-top:3px; border-radius:10px; cursor:pointer; background:#caeffe; text-indent:10px; font:16px/34px ""; color:#64381e;}
+.form_box1 dl dd .input_box ul li span{font:14px/34px ""; color:#999;}
+.form_box1 .cx_coupon_submit{height:54px; padding-top:18px;}
+.form_box2 .cx_coupon_submit{padding-top:12px;}
+.form_box1 .cx_coupon_submit a,.form_box1 .cx_coupon_submit span{float:left; height:34px; font:14px/34px ""; color:#633821;}
+.form_box2 .cx_coupon_submit a,.form_box2 .cx_coupon_submit span{line-height: 45px;}
+.form_box1 .cx_coupon_submit .cx_checkbox_a{height:17px; width:20px; background-position:0 -133px; margin:10px 2px 0 80px;}
+.form_box2 .cx_coupon_submit .cx_checkbox_a{margin-top:14px;}
+.form_box2 .cx_coupon_submit .cx_checkbox_a{margin-left:0;}
+.form_box1 .cx_coupon_submit .cx_checkbox_a.active{background-position:-22px -133px;}
+.form_box1 .cx_coupon_submit .cx_200{height:19px; width:59px; background-position:0 -112px; margin-top:8px;}
+.form_box2 .cx_coupon_submit .cx_200{margin-top:14px;}
+.form_box1 .cx_coupon_submit .cx_exchange{width:215px; height:45px; background-position:0 0; margin:4px 0 0 60px;}
+.form_box2 .cx_coupon_submit .cx_exchange{margin-left:14px;}
+.form_box1 .cx_coupon_submit .cx_exchange:hover{background-position:0 -45px;}
+.form_box1 p{text-align:center;}
+.free_experience_box .free_experience .sign_success .form_box3{padding:108px 0 0 286px;}
+.free_experience_box .free_experience .sign_success .form_box3 p{font:bold 16px/46px ""; color: #633821; text-indent: 16px;}
+
+
+
+
+.reward_remind{height:21px; color:#003366; width:; padding-left:194px; margin-bottom:12px;}
+.reward_remind span{float:left; font:14.73px/21px ""; word-break:keep-all; white-space:nowrap;}
+.i_1000{height:21px; width:77px; background-position:0 -90px; margin:0 2px 0 6px; }
+.friendly_remind{color:#003366; font:12px/12px "宋体"; text-indent: 194px;}
+
+.primary_school_USA{padding-top:28px;}
+.primary_school_USA img{float:left; height:156px; width:129px; margin-left:22px;}
+.primary_school_USA .primary_school_box{float:right; width:520px;}
+.primary_school_USA .primary_school_box .sign_up_title{height:20px; text-indent: 0; line-height: 20px;}
+.primary_school_USA .primary_school_box ul li{margin-top: 20px;}
+.primary_school_USA .primary_school_box ul li i,.primary_school_USA .primary_school_box ul li p{float:left; color:#333; font:12px/12px "微软雅黑"; line-height: 12px;}
+.primary_school_USA .primary_school_box ul li i{width:8px; height:9px; background-position:-119px -91px; margin:2px 8px 0 0;}
+
+
+.free_experience_box .school_area{float:right; width:326px; height:650px; border:1px solid #a6d7f1;}
+.free_experience_box .school_area .title{height:66px; margin-bottom: 30px;}
+.free_experience_box .school_area .title i{float:right; height:66px; width:30px; background-position: -82px -90px;}
+.free_experience_box .school_area .title p{float:right; height:66px; width:206px; font:bold 24px/66px "hyk1gi"; color:#fff; text-indent: 48px; background: #1a79c0;}
+.free_experience_box .school_area .train_agency{width:302px; margin:0 auto;}
+.free_experience_box .school_area .train_agency li{height:44px; border-bottom:1px dotted #d2d2d2; padding:0 0 0 30px;}
+.free_experience_box .school_area .train_agency li.last{border-bottom:none;}
+.free_experience_box .school_area .train_agency li span{float:left; color: #0068b0; font:bold 20px/44px "黑体";}
+.free_experience_box .school_area .train_agency li a{float:right; width:178px; color:#a8a8a8; font:16px/44px "黑体";}
+.free_experience_box .school_area .train_agency li a:hover{text-decoration: underline;}
+
+/* footor */
+.footer {width:100%; clear: both; background-color: #ffa80a; margin-top:50px;}
+.footer .nav {}
+.footer .nav ul { width: 1060px; margin: 0 auto; }
+.footer .nav ul li, .footer .nav ul li a { color: #fff; }
+.footer .nav ul li { float: left; font:bold 12px/1.125 arial; }
+.footer .nav ul li a { margin: 10px 20px; display: inline-block; vertical-align:middle;}
+.footer .nav ul li a:hover { color: #690; }
+.footer .nav ul li .line { font-weight: normal; color: #dbdbdb; display:inline-block; vertical-align:middle;}
+.footer .nav ul li.service { float: right; padding: 4px 15px; line-height: 22px;}
+.footer .nav ul li.service span { color: #fff; font-weight: bold; }
+.footer .copyright { clear: both; padding: 20px 0; }
+.footer .copyright p { text-align: center; color: #fff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 22px; }

@@ -1,0 +1,140 @@
+body {
+	background-color: #dde2e8;
+}
+
+/* parentApp-mall-banner */
+.parentApp-mall-banner {
+	height: 200px;
+	background: url(../images/mall/banner-bg.png) no-repeat 50% 0;
+	background-size: auto 100%;
+}
+
+/* parentApp-mall-tab */
+.parentApp-mall-tab {
+	display: -webkit-box;
+	background-color: #fff;
+	border-bottom: 1px #d8d8dc solid;
+}
+.parentApp-mall-tab > a,.parentApp-mall-tab > div {
+	display: block;
+	-webkit-box-flex: 1;
+	text-align: center;
+	color: #3b3e47;
+	font-size: 30px;
+	line-height: 88px;
+}
+.parentApp-mall-tabNull {
+	text-align: center;
+	color: #7d7e84;
+	font-size: 20px;
+	line-height: 62px;
+	background-color: #fff;
+}
+.parentApp-mall-tab > a.active,.parentApp-mall-tab > div.active {
+	color: #5b6cd8;
+	box-shadow: 0 -2px 0 #5c6fd6 inset;
+}
+
+/* parentApp-mall-list */
+.parentApp-mall-list {
+	padding: 4px 30px 16px;
+}
+.parentApp-mall-list .box {
+	margin: 16px 0 0;
+	padding: 20px 25px 0;
+	background-color: #fff;
+}
+.parentApp-mall-list .info {
+	position: relative;
+	padding: 0 0 20px 0;
+	overflow: hidden;
+}
+.parentApp-mall-list .info-pic {
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 8px;
+	float: left;;
+}
+
+
+.parentApp-mall-list .info-ctn {
+	margin-left: 160px;
+}
+
+
+.parentApp-mall-list .info-pic img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+.parentApp-mall-list .info-hd {
+	height: 40px;
+	overflow: hidden;
+	color: #323232;
+	font-size: 25px;
+	line-height: 40px;
+}
+.parentApp-mall-list .info-hd span {
+	display: inline-block;
+	vertical-align: top;
+}
+.parentApp-mall-list .info-hd .tag {
+	margin: 9px 0 0 12px;
+	padding: 0 6px;
+	color: #74787e;
+	font-size: 14px;
+	line-height: 20px;
+	border: 1px #c9c9c9 solid;
+	border-radius: 4px;
+}
+.parentApp-mall-list .info-txt {
+	white-space: normal;
+	display: -webkit-box;
+	padding: 6px 0 0;
+	color: #74787e;
+	font-size: 20px;
+	line-height: 28px;
+}
+.parentApp-mall-list .info-foot {
+	padding: 4px 0 0;
+	height: 34px;
+	text-align: right;
+}
+.parentApp-mall-list .info-foot .price {
+	float: left;
+	color: #f57d33;
+	font-size: 20px;
+	line-height: 34px;
+}
+.parentApp-mall-list .info-foot .price span {
+	font-size: 24px;
+}
+.parentApp-mall-list .info-foot .btn {
+	display: inline-block;
+	margin: -16px 0 0;
+	width: 134px;
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	line-height: 45px;
+	background-color: #f57d33;
+	border-radius: 4px;
+}
+.parentApp-mall-list .foot {
+	padding: 0 0 4px;
+	border-top: 1px #d8d8dc solid;
+	font-size: 20px;
+	line-height: 44px;
+	clear: both;
+}
+.parentApp-mall-list .foot-time {
+	float: left;
+	color: #5c6fd6;
+}
+.parentApp-mall-list .foot-num {
+	float: right;
+	color: #989a9c;
+}

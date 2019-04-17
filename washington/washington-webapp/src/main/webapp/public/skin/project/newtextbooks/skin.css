@@ -1,0 +1,10 @@
+html, body{ background: url(images/books.jpg) repeat-x 0 48px;}
+.main{ width: 960px; margin: 0 auto;}
+.main h1{ background: url(images/books-02.jpg) no-repeat center center; height: 200px; width: 620px; margin: 0 auto; padding: 0; text-indent: -10000px;}
+.booksTable{ width: 708px; margin: 0 auto; padding: 0 0 50px;}
+.booksTable table{ border-collapse: collapse; background-color: #fff; border-radius: 5px; border: 1px solid #d7d7d7; overflow: hidden; width: 100%;}
+.booksTable table tr td,.booksTable table tr th{ border: 1px solid #d7d7d7; padding: 12px 0; text-align: center; }
+.booksTable table thead td{ background-color: #efeeee; font-weight: bold; border: none; }
+.booksTable table tbody tr.even td{ background-color: #f5f8fe;}
+.jiathis_box{ padding: 30px 0; border-top: 1px solid #ddd; overflow: hidden; height: 100%;}
+.jiathis_style{ width:500px; margin:0 auto ; }

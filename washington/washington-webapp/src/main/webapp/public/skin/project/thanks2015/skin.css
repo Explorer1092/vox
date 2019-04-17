@@ -1,0 +1,73 @@
+.thanksgiving { width: 100%; height: 100%; min-width: 900px; margin: 0; padding: 0; background-color: #9bddff; }
+.thanksgiving p { margin: 0; }
+.thanksgiving .container { padding-bottom: 137px; }
+.thanksgiving .container .header { width: 100%; height: 740px; background: url("header-back.png") no-repeat center 0; overflow: hidden; }
+.thanksgiving .container .header .main { width: 813px; margin: 367px auto; overflow: hidden; padding-left: 50px; }
+.thanksgiving .container .header .main-selected { width: 813px; margin: 367px auto; }
+.goal-dialog { width: 450px; height: 300px; background-color: #fff; border-radius: 10px; font-size: 20px; color: #61390e; text-align: center; font-weight: bold; overflow: hidden; margin: 15px auto; }
+.goal-dialog .pro { margin-top: 28px; text-align: center;}
+.goal-dialog .pro span { margin: auto; }
+.goal-dialog .btn { width: 120px; display: inline-block; height: 52px; color: #fff; text-align: center; line-height: 52px; border-radius: 10px; cursor: pointer; }
+.goal-dialog .reset { background-color: #26d7ec; border: 1px solid #0bafc3; }
+.goal-dialog .submit { background-color: #ffba00; border: 1px solid #f29400; }
+.thanksgiving .title { font-size: 30px; font-weight: bolder; color: #ffef84; font-style: italic; margin-left: 20px; margin-bottom: 5px; line-height: 130%; }
+.thanksgiving .goal-selected { background: url("selected-back.png") no-repeat 0 0; width: 940px; height: 432px; margin-left: -44px; margin-top: -58px; overflow: hidden; }
+.thanksgiving .selected { background: url("selected.png") no-repeat; margin: 50px auto; }
+.thanksgiving .selected-rald { background-position: 0 0; width: 156px; height: 196px; }
+.thanksgiving .selected-jjfy { background-position: -184px 0; width: 156px; height: 196px; }
+.thanksgiving .selected-zsjl { background-position: -370px 0; width: 156px; height: 196px; }
+.thanksgiving .selected-tjya { background-position: -567px 0; width: 156px; height: 196px; }
+.thanksgiving .icons { background: url("icons.png") no-repeat; display: inline-block; vertical-align: middle; margin-left: 10px; }
+.thanksgiving .chicken-small { width: 48px; height: 36px; background-position: 0 0; }
+.thanksgiving .bean-small { width: 34px; height: 36px; background-position: -48px 0; }
+.thanksgiving .chicken-big { width: 61px; height: 45px; background-position: -83px 0; }
+.thanksgiving .bean-big { width: 42px; height: 45px; background-position: -145px 0; }
+.button { background: url("btns.png") no-repeat center 0; display: block; float: left; }
+.thanksgiving .target .button { float: left; }
+.thanksgiving .btn-rald { background-position: 0 0; width: 392px; height: 144px; }
+.thanksgiving .btn-jjfy { background-position: 0 -149px; width: 392px; height: 144px; }
+.thanksgiving .btn-zsjl { background-position: 0 -294px; width: 392px; height: 144px; }
+.thanksgiving .btn-tjya { background-position: 0 -449px; width: 392px; height: 144px; }
+.thanksgiving .btn-rald:hover { background-position: -427px 0; width: 392px; height: 144px; }
+.thanksgiving .btn-jjfy:hover { background-position: -427px -149px; width: 392px; height: 144px; }
+.thanksgiving .btn-zsjl:hover { background-position: -427px -294px; width: 392px; height: 144px; }
+.thanksgiving .btn-tjya:hover { background-position: -427px -449px; width: 392px; height: 144px; }
+.thanksgiving .btn-rald:active { background-position: -894px 0; width: 392px; height: 144px; }
+.thanksgiving .btn-jjfy:active { background-position: -894px -149px; width: 392px; height: 144px; }
+.thanksgiving .btn-zsjl:active { background-position: -894px -294px; width: 392px; height: 144px; }
+.thanksgiving .btn-tjya:active { background-position: -894px -449px; width: 392px; height: 144px; }
+.goal-dialog .pro span { float: none; display: inline-block; }
+.goal-dialog .goal-text { display: none; }
+.goal-dialog .btn-rald-pro { background-position: -1327px -11px; width: 122px; height: 120px; display: block !important; }
+.goal-dialog .btn-jjfy-pro { background-position: -1327px -163px; width: 132px; height: 120px; display: block; }
+.goal-dialog .btn-zsjl-pro { background-position: -1327px -309px; width: 122px; height: 128px; display: block; }
+.goal-dialog .btn-tjya-pro { background-position: -1327px -466px; width: 122px; height: 120px; display: block; }
+.thanksgiving .container .thsgiv-popup { background: url("thsgiv-dialog.png") no-repeat 0 0; width: 773px; height: 390px; }
+.thanksgiving .container .joinBtn { background: url("thsgiv-dialog.png") no-repeat 772px 164px; width: 241px; height: 60px; display: block; }
+.thanksgiving .container .joinBtn:hover { background: url("thsgiv-dialog.png") no-repeat 772px 244px; width: 241px; height: 60px; display: block; }
+.thanksgiving .container .joinBtn:active { background: url("thsgiv-dialog.png") no-repeat 772px 326px; width: 241px; height: 60px; display: block; }
+.thanksgiving .container .center { width: 100%; height: auto; min-width: 900px; background: url("center-back.png") repeat center 0; overflow: hidden; }
+.thanksgiving .container .center .main { width: 800px; height: auto; margin: auto; padding-left: 40px; margin-top: 15px; }
+.thanksgiving .container .center .main .con { font-size: 18px; color: #fff; line-height: 36px; }
+.thanksgiving .container .center .main>div { overflow: hidden; margin-bottom: 25px; position: relative; z-index: 2; }
+.thanksgiving .reach table { color: #fff; border: 6px solid #446de9; font-size: 16px; width: 758px; text-align: center; }
+.thanksgiving .reach table tr td { border-color: #4380ed; padding: 10px 0; }
+.thanksgiving .container .footer { width: 100%; height: 459px; background: url("footer-back.png") no-repeat center 0; margin-top: -459px; margin-top: -370px; }
+.thanksgiving .footer { width: 100%; height: 180px; background-color: #1a67c4; min-width: 900px; }
+.thanksgiving .footer .container { color: #fff; width: 986px; font-size: 12px; margin: auto; padding-top: 35px; }
+.thanksgiving .footer .container div { float: left; }
+.thanksgiving .footer .ul a { display: list-item; text-decoration: none; list-style-type: none; color: #fff; font-size: 14px; margin-top: 12px; }
+.thanksgiving .footer .call { background: url("call.png") no-repeat center 0; display: inline-block; width: 135px; height: 35px; margin: 12px 0px; }
+.thanksgiving .footer .btn { display: inline-block; width: 63px; height: 37px; text-align: center; line-height: 37px; border-radius: 5px; }
+.special-footer { background-color: #1a67c4; }
+.special-footer,
+.special-footer .m-inner { height: 180px; background-color: #1a67c4; }
+.special-footer .copyright { color: #fff; margin-top: 40px; }
+.special-footer .copyright p { line-height: 36px !important; }
+.special-footer .m-foot-link a { color: #fff; }
+.special-footer .m-service .c-title { color: #fff; }
+.special-footer .m-foot-link { margin-top: 40px; }
+.link { display: none; }
+.selectReward-popupclose,
+.rewardSuccess-popupclose { font-size: 30px; color: #fff; cursor: pointer; width: 32px; line-height: 32px; text-align: center; position: absolute; right: 10px; top: 10px; }
+.rewardSuccess-popupclose { color: #333; }

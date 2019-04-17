@@ -1,0 +1,66 @@
+.sms_info_box .sms_us_list li b input { display: none; }
+.teacher_ms .select_be .sector_box span { display: inline-block; color: #666; }
+.sms_info_box { width: 640px; clear: both; }
+.sms_info_box .sms_us_list { border: solid 1px #ddd; width: 280px; float: left; background: #fff; border-radius: 5px; height: 100%; overflow: hidden; }
+.sms_info_box .sms_us_list .check_box { margin: 1px; padding: 6px 5px; }
+.sms_info_box .sms_us_list input { vertical-align: middle; }
+.sms_info_box .sms_us_list ul { height: 265px; overflow-x: hidden; overflow-y: auto; position: relative; }
+.sms_info_box .sms_us_list li { float: left; padding: 5px; text-align: center; width: 55px; }
+.sms_info_box .sms_us_list li b { cursor: pointer; clear: both; display: block; margin: 0 auto; border: solid 2px #ddd; padding: 1px; background: #fff; width: 48px; height: 48px; position: relative; }
+.sms_info_box .sms_us_list li b .checkboxs { display: none; }
+.sms_info_box .sms_us_list li b.selected .checkboxs { bottom: -8px; display: block !important; right: -8px; position: absolute; }
+.sms_info_box .sms_us_list li b img { width: 48px; height: 48px; }
+.sms_info_box .sms_us_list li b input { position: absolute; bottom: 0px; right: 0px; width: 15px; height: 15px; }
+.sms_info_box .sms_us_list li span { cursor: pointer; color: #F60; line-height: 20px; height: 20px; width: 60px; overflow: hidden; display: block; clear: both; margin: 2px 0; }
+.sms_info_box .sms_reviews { float: left; margin-left: 12px; width: 320px; }
+.sms_info_box .sms_reviews .s_custom .info { font: 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; text-align: center; padding: 30% 0 0; width: 100%; color: #666; }
+.sms_info_box .sms_reviews .s_custom h4 { height: 22px; font: 12px/1.125 arial; color: #999; }
+.sms_info_box .sms_reviews .s_custom h4 b { color: #333; }
+.sms_info_box .sms_reviews .s_custom h4 span { float: right; font-weight: normal; color: #bbb; margin-right: 30px; cursor: pointer; }
+.sms_info_box .sms_reviews .s_custom textarea { height: 100%; width: 100%; border: solid 1px #ddd; background: #fff; line-height: 20px; border-radius: 6px; }
+.sms_info_box .sms_reviews .s_default { border-radius: 6px; border: solid 3px #bfcde5; background: #fff; margin-bottom: 10px; height: 140px; overflow: auto; display: block; padding: 5px; }
+.sms_info_box .sms_reviews .s_default a { border-bottom: dashed 1px #ddd; line-height: 24px; padding: 2px; color: #999; display: block; }
+.sms_info_box .sms_reviews .s_default a:hover { background: #eee; border-bottom: dashed 1px #ccc; color: #333; text-decoration: none; }
+.teacher_ms { font-family: "微软雅黑", "Microsoft YaHei", Arial; }
+.teacher_ms .select_in { float: left; width: 150px; }
+.teacher_ms .select_in p select { width: 140px; border: solid 1px #ccc; padding: 5px; }
+.teacher_ms .select_be { float: left; width: 330px; }
+.teacher_ms .select_be .sector_box { border: 1px solid #ddd; height: 80px; background: #fff; margin: 5px 0 0; overflow: auto; padding: 5px; color: #333; font: 12px/18px arial; }
+.teacher_ms .select_be .sector_box a { display: inline-block; padding: 2px 4px; border-radius: 3px; color: #999; text-decoration: none; }
+.teacher_ms .select_be .sector_box a:hover { background: #eee; color: #333; }
+.teacher_ms .select_be .content_ms p { padding: 14px 0 0; }
+.teacher_ms .select_be .content_ms textarea { width: 240px; height: 125px; border: solid 1px #ccc; line-height: 24px; }
+.teacher_ms .select_be .select_une select { border: solid 1px #ccc; padding: 5px; }
+/*teacher_new_ms*/
+.teacher_new_ms { width: 100%; }
+.teacher_new_ms .select_in { float: none; }
+.teacher_new_ms .sms_us_list { float: none; margin-bottom: 20px; border: none; }
+.teacher_new_ms .select_ne_box { height: 200px; overflow-y: auto; overflow-x: hidden; margin-bottom: 20px; position: relative;}
+.teacher_new_ms .sms_us_list ul { width: 100%; height: auto; }
+.teacher_new_ms .sms_us_list .v-students li label b i{ position:absolute; bottom:3px ; right: 3px;}
+/*megListDetail-box*/
+.megListDetail-box{}
+.megListDetail-box .meg-list{}
+.megListDetail-box .meg-list ul{}
+.megListDetail-box .meg-list ul li{ padding: 15px 0; list-style: none; overflow: hidden; *zoom: 1; color: #484846;}
+.megListDetail-box .meg-list ul li.title{ font-size: 18px;}
+.megListDetail-box .meg-list ul li span{ float: left; overflow: hidden; line-height: 150%; white-space: nowrap; text-overflow: ellipsis; font-size: 14px;color: #484846;}
+.megListDetail-box .meg-list ul li .meg-check{ margin: 5px 5px 0 0;}
+.megListDetail-box .meg-list ul li span.name{ width: 150px;}
+.megListDetail-box .meg-list ul li span.time{ width: 300px;}
+.megListDetail-box .meg-list ul li span.mun{ width: 146px;}
+.megListDetail-box .mge-btn{ text-align: center; margin-top: 30px;}
+.megListDetail-box .mge-btn a{ background-color: #33b8f3; padding: 20px 50px; color: #fff; text-decoration: none; font-size: 18px;}
+
+/*h-homework-dialog*/
+.h-homework-dialog{ width: 460px; font-size: 14px; color: #4e5656; background: #fff;}
+.h-homework-dialog .inner{ padding: 0 15px;}
+.h-homework-dialog .inner p{ margin-bottom: 10px;}
+.h-homework-dialog .inner p label{ padding-right: 25px;}
+.h-homework-dialog p.tips-grey{ text-align: center; color: #8e9696;}
+.h-homework-dialog .inner .btn-box{ padding: 20px 0; text-align: center; color: #4e5656;}
+
+/*h-homework-dialog03*/
+.h-homework-dialog03{ width: 550px;}
+.h-homework-dialog03 p span.tj{ margin-right: 20px; display: inline-block;}
+.h-homework-dialog03 p .c-ipt{ width: 80px; padding: 3px 5px; margin-left: 5px; background: #fff; border: 1px solid #dedede; vertical-align: middle;}

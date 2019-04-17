@@ -1,0 +1,37 @@
+.wordTeachBox .h-topicPackage{position:relative;width:100%}
+.wordTeachBox .topicBox{position:relative;padding:40px 50px}
+.wordTeachBox .topicBox ul{overflow:hidden}
+.wordTeachBox .topicBox li{float:left;cursor:pointer;position:relative;margin-right:20px;width:200px;height:80px;padding:15px 34px;-webkit-box-pack:center;-webkit-box-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;background:#f4f4f4;-moz-border-radius:10px;border-radius:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.wordTeachBox .topicBox li i{display:inline-block;width:50px;height:50px;vertical-align:middle}
+.wordTeachBox .topicBox li i.wordIcon{background:url(../images/teachingresource/wordExercise.png?v=5c2ce7da26) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordTeachBox .topicBox li i.imgIcon{background:url(../images/teachingresource/imageText.png?v=e308179e05) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordTeachBox .topicBox li i.chineseIcon{background:url(../images/teachingresource/chineseCharacterCulture.png?v=d2abfc3171) no-repeat center;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.wordTeachBox .topicBox li span{line-height:50px;font-size:18px;color:#333;font-weight:700}
+.wordTeachBox .topicBox li.active{background:#d2ecff}
+.wordTeachBox .topicBox li.active span{color:#189cfb}
+.wordTeachBox .wordTeachInfo{font-size:18px;color:#333}
+.wordTeachBox .wordExercise{padding:0 25px}
+.wordTeachBox .wordExercise .h-set-homework{border:1px solid #dfdfdf;-moz-border-radius:3px;border-radius:3px;font-size:16px;margin-top:20px}
+.wordTeachBox .wordExercise .h-set-homework .seth-hd{position:relative;padding:8px 0;overflow:hidden;border-bottom:1px solid #dfdfdf}
+.wordTeachBox .wordExercise .h-set-homework .seth-hd .fl{float:left}
+.wordTeachBox .wordExercise .h-set-homework .seth-hd span{display:inline-block;padding:0 15px;border-right:1px solid #dfdfdf;color:#7f96a3;font-size:14px}
+.wordTeachBox .wordExercise .h-set-homework .seth-hd .noBorder{border:0}
+.wordTeachBox .wordExercise .h-set-homework .seth-hd .fr{float:right}
+.wordTeachBox .wordExercise .h-set-homework .seth-mn{padding:5px 15px}
+.wordTeachBox .wordExercise .h-set-homework .seth-mn .inner{padding:15px 10px 50px}
+.wordTeachBox .wordExercise .h-set-homework .seth-mn .inner .box{position:relative}
+.wordTeachBox .wordExercise .h-set-homework .testPaper-info{position:relative;width:100%}
+.wordTeachBox .imageText{padding:0 0 0 15px;overflow:hidden}
+.wordTeachBox .imageText li{float:left;margin:20px 15px 0 0;width:233px;height:146px;border:1px solid #dae6ee;-moz-border-radius:5px;border-radius:5px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer;overflow:hidden}
+.wordTeachBox .imageText li .imageTextPic{width:94px;height:100%;margin-right:10px;float:left}
+.wordTeachBox .imageText li .imageTextPic img{width:100%;height:100%}
+.wordTeachBox .imageText li .imageTextCon{padding:9px 10px 17px 0}
+.wordTeachBox .imageText li .imageTextCon .imageTextTitle{font-size:16px;color:#333;height:48px;line-height:24px;font-weight:700;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.wordTeachBox .imageText li .imageTextCon .imageTextTime{font-size:12px;color:#999;line-height:16px;margin-top:55px}
+.wordTeachBox .chineseCharacterCulture{padding:0 0 0 15px;overflow:hidden}
+.wordTeachBox .chineseCharacterCulture li{float:left;margin:20px 13px 0 0;width:235px;height:286px;border:1px solid #dae6ee;-moz-border-radius:5px;border-radius:5px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer;overflow:hidden}
+.wordTeachBox .chineseCharacterCulture li .imageTextPic{width:100%;height:172px}
+.wordTeachBox .chineseCharacterCulture li .imageTextPic img{width:100%;height:100%}
+.wordTeachBox .chineseCharacterCulture li .imageTextCon{padding:15px 20px}
+.wordTeachBox .chineseCharacterCulture li .imageTextCon .imageTextTitle{font-size:16px;color:#333;height:48px;line-height:24px;font-weight:700;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.wordTeachBox .chineseCharacterCulture li .imageTextCon .imageTextTime{font-size:12px;color:#999;line-height:16px;margin-top:15px;text-align:center}

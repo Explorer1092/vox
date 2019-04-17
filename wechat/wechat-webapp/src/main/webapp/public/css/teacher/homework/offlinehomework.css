@@ -1,0 +1,143 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+body{background:#eff2f6}
+.w-btn{display:block;padding:.6rem 0;background-color:#3c9dfc;border:.05rem solid #0979ca;text-decoration:none;text-align:center;color:#fff;font-size:.8rem;line-height:.8rem;vertical-align:middle;border-radius:.15rem}
+.w-btn-s{padding:.4rem 0;font-size:.55rem;line-height:.55rem}
+.w-btn.active{background-color:#50a6fa}
+.w-btn-lightBlue{background-color:#e1f0fc;border-color:#abc1d3;color:#2180c1}
+.w-btn-lightBlue.active{background-color:#ebf4fb}
+.w-btn.disabled{background-color:#ccc;border-color:#b3b3b3}
+.jc-footer{width:100%;height:3.75rem}
+.jc-footer .innerBox{position:fixed;left:0;bottom:0;width:100%;height:3.75rem;background:#f9fcfe;border-top:.025rem solid #d2e4f4}
+.jc-footer .innerBox .inner{overflow:hidden;padding:.75rem .75rem}
+.jc-footer .innerBox .inner.inner-2 .w-btn{float:left;width:47%}
+.jc-footer .innerBox .inner.inner-2 .w-btn:last-child{float:right}
+.jc-tips{margin-bottom:.5rem;background:#f9fcfe;padding:.75rem 0;border-bottom:.05rem solid #d2e4f4;font-size:.65rem;line-height:.9rem;text-align:center;color:#565c6f}
+.jc-tips .blue{padding:0 0 .25rem 0;font-size:.75rem;color:#3c9dfc}
+.jc-tips .blue span{display:inline-block;vertical-align:middle}
+.jc-tips .icon{display:inline-block;vertical-align:middle;width:1.35rem;height:1.15rem;background:url(../../../images/teacher/homework/math/tips-iconBlue.png?v=d226a0e964) no-repeat;background-size:100% 100%}
+.jc-tips.bg-none{padding:2.25rem 0 1.25rem 0rem;background-color:transparent;border-bottom:0}
+.jc-tips.bg-none .blue{margin-bottom:.5rem}
+.jc-tips-yellow{padding:.5rem .7rem;background:#ffef94;font-size:.5rem;line-height:.95rem;color:#c60}
+.jc-list{cursor:pointer;margin-bottom:.5rem;padding:.675rem .75rem;background:#fff;border-top:.025rem solid #d2e4f4;border-bottom:.025rem solid #d2e4f4;font-size:.7rem;color:#565c6f}
+.jc-list .info{position:relative;padding:0 1.05rem}
+.jc-list .info .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:.9rem}
+.jc-list .info .txtGrey{color:#a8afbf}
+.jc-list .info .icon{position:absolute;top:.15rem;display:block;width:.6rem;height:.6rem}
+.jc-list .info .icon-l{left:0;background:url(../../../images/teacher/homework/math/icon-check.png?v=a586a0fd42) no-repeat;background-size:100% 100%}
+.jc-list .info .icon-r{height:.75rem;top:.05rem;right:0;background:url(../../../images/teacher/homework/math/arrow-r.png?v=9a434da56f) no-repeat;background-size:100% 100%}
+.jc-list.title{font-weight:700;margin-bottom:-.025rem;font-size:.75rem}
+.jc-list.active .info .icon-l{background:url(../../../images/teacher/homework/math/icon-check-active.png?v=ae9671ba78) no-repeat;background-size:100% 100%}
+.jc-list.disabled .info .icon-l{background:url(../../../images/teacher/homework/math/icon-check-disabled.png?v=f2f8fe4bda) no-repeat;background-size:100% 100%}
+.jc-list.unit{display:none;margin-top:-.55rem}
+.jc-listTime{overflow:hidden;margin-bottom:.5rem;padding:.25rem .75rem;line-height:1.25rem;font-size:.55rem;color:#afb5b7}
+.jc-listTime .left{float:left}
+.jc-listTime .right{float:right}
+.jc-listTime .time{cursor:pointer;display:inline-block;width:6.5rem;height:1.25rem;background:0 0;border:0;font-size:.55rem;outline-style:none}
+.jc-listTime .label{display:inline-block;vertical-align:middle}
+.jc-listTime .check{vertical-align:middle;display:inline-block;margin-left:.25rem;width:.6rem;height:.6rem;background:url(../../../images/teacher/homework/math/icon-check.png?v=a586a0fd42) no-repeat;background-size:100% 100%}
+.jc-listTime .check.checked{background:url(../../../images/teacher/homework/math/icon-check-active.png?v=ae9671ba78) no-repeat;background-size:100% 100%}
+.jc-flayer{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.6)}
+.flayerBox{position:absolute;left:0;top:0;z-index:99;width:100%;background:#f5f7f7;color:#464646}
+.flayerBox .flayerHeader{position:relative;padding:0 .7rem;line-height:2rem;background:#fff;border-bottom:.025rem solid #d2e4f4}
+.flayerBox .flayerHeader .name{font-size:.7rem}
+.flayerBox .flayerHeader .close{position:absolute;top:.15rem;right:.2rem;display:block;cursor:pointer;padding:.5rem;color:#4e5656;font:400 1.5rem/.75rem consolas;cursor:pointer}
+.flayerBox .jc-tips-yellow{border-bottom:.025rem solid #d2e4f4}
+.flayerBox .jc-footer .innerBox{position:absolute}
+.jc-unit{max-height:12.175rem;overflow-y:auto}
+.jc-unit li{cursor:pointer;display:block;padding:0 .6rem 0 1.5rem;line-height:2rem;border-bottom:.025rem solid #d2e4f4;background:url(../../../images/teacher/homework/math/icon-radio.png?v=6f4a7a71ca) no-repeat .7rem center;background-size:.6rem .6rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.7rem;color:#565c6f}
+.jc-unit li.active{background:url(../../../images/teacher/homework/math/icon-radio-active.png?v=dfe50a0aed) no-repeat .7rem center;background-size:.6rem .6rem;color:#3c9dfc}
+.jc-operation{position:relative;padding:.6rem .7rem;background:#fff;border-bottom:.025rem solid #d2e4f4}
+.jc-operation .name{padding-right:5rem;font-size:.7rem;line-height:1rem}
+.jc-operation .operation{position:absolute;right:.375rem;top:0rem}
+.jc-operation .operation .label-op{display:inline-block;padding:.375rem .25rem;cursor:pointer}
+.jc-operation .operation .label-op .label{background-color:#269ef8;background-repeat:no-repeat;background-position:50% 50%;background-size:1.05rem .9rem;border:.025rem solid #177bc7}
+.jc-operation .operation .label-op .reduce{background-image:url(../../../images/teacher/homework/math/icon-reduce-white.png?v=5c54add9a8)}
+.jc-operation .operation .label-op .add{background-image:url(../../../images/teacher/homework/math/icon-add-white.png?v=efc5e07f44)}
+.jc-operation .operation .label-op.disabled .label{background-color:#ccc;border-color:#b2b2b2}
+.jc-operation .operation .label{display:inline-block;vertical-align:middle;min-width:1.3rem;height:1.3rem;border-radius:.15rem;line-height:1.3rem;text-align:center;font-size:.75rem}
+.jc-detailsMain{width:100%;min-height:100%;background:#eef4f9}
+.jc-details{margin-top:-.025rem;margin-bottom:.5rem;border-bottom:.025rem solid #d2e4f4;background:#fff;font-size:.55rem;color:#565c6f}
+.jc-details .details-hd{padding:.55rem .75rem;line-height:.75rem;background:#f9fcfe;border-top:.025rem solid #d2e4f4;border-bottom:.025rem solid #d2e4f4;font-size:.65rem;color:#565c6f}
+.jc-details .details-mn{position:relative;padding:.5rem .75rem}
+.jc-details .details-mn .textBox{display:inline-block}
+.jc-details .details-mn .text{margin-bottom:.25rem;padding-left:.75rem;line-height:.9rem}
+.jc-details .details-mn .text .num{display:inline-block;width:.75rem;text-align:left;margin-left:-.75rem;font-size:.55rem}
+.jc-details .details-mn .time{line-height:.9rem;margin-bottom:.25rem;color:#afb5b7}
+.jc-details .details-mn .checkBtn{position:absolute;right:.75rem;top:50%;margin-top:-.65rem;width:5.4rem;height:1.3rem;background:#5e89ef;border-radius:1.3rem;line-height:1.3rem;font-size:.7rem}
+.jc-details .details-mn.pad0{padding-left:0;font-size:.65rem}
+.jc-details .details-tool{position:relative;padding:.7rem;height:3.75rem;border-top:.025rem solid #d2e4f4}
+.jc-details .details-tool .toolBox{position:absolute;top:.75rem;right:.5rem;overflow:hidden}
+.jc-details .details-tool .toolBox li{cursor:pointer;float:left;padding:0 .5rem;line-height:1rem;font-size:.65rem;text-align:center;color:#3c9dfc}
+.jc-details .details-tool .toolBox li .tool{display:inline-block;width:2.5rem;height:2.5rem;background-repeat:no-repeat;background-size:100% 100%}
+.jc-details .details-tool .toolBox li .tool01{background-image:url(../../../images/teacher/homework/math/tool-icon01.png?v=ded36fd2eb)}
+.jc-details .details-tool .toolBox li .tool02{background-image:url(../../../images/teacher/homework/math/tool-icon02.png?v=684bdba3d1)}
+.jc-signMain{width:100%;background:#fff;margin-bottom:.5rem;border-top:.025rem solid #d2e4f4;color:#565c6f}
+.jc-signMain .signNav{height:2.45rem;border-bottom:.025rem solid #d2e4f4}
+.jc-signMain .signNav li{cursor:pointer;position:relative;float:left;width:50%;line-height:2.35rem;text-align:center;font-size:.7rem}
+.jc-signMain .signNav li.active{color:#3c9dfc;border-bottom:.125rem solid #3c9dfc}
+.jc-signMain .signNav li:first-child:after{position:absolute;right:.025rem;top:.375rem;content:"";width:.05rem;height:1.75rem;background:#d2e4f4}
+.jc-signMain .signInner{width:100%}
+.jc-signMain .signInner li{overflow:hidden;padding:.45rem .75rem;border-bottom:.025rem solid #d2e4f4}
+.jc-signMain .signInner li .cell{float:left;width:50%;line-height:1.55rem;font-size:.6rem}
+.jc-signMain .signInner li .avatar{display:inline-block;vertical-align:middle;margin-right:.4rem;width:1.25rem;height:1.25rem;border-radius:1.25rem;background-color:#dfe7fc}
+.jc-signMain .signInner li .name{display:inline-block;vertical-align:middle;width:3rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.jc-signMain .signInner li .playBtn{cursor:pointer;display:block;margin:.15rem auto;width:6.3rem;height:1.25rem;background-size:100% 100%;background-image:url(../../../images/teacher/homework/math/audio-icon.png?v=990c04b6c5)}
+.jc-signMain .signInner li .playBtn.active{background-size:100% 100%;background-image:url(../../../images/teacher/homework/math/audio-icon.gif?v=f04ec6b03f)}
+.jc-share{display:none;position:fixed;left:0;top:0;width:100%;height:100%;cursor:pointer;background:rgba(0,0,0,.7) url(../../../images/teacher/homework/math/share-layer.png?v=b70740c0e7) no-repeat top right;background-size:75% auto}
+.jc-loadTips{background-color:#fff;margin:0 .75rem;padding:1.25rem .75rem;border:.025rem solid #d3d8df;text-align:center}
+.jc-loadTips .txt{line-height:1.5rem;font-size:.75rem;color:#565c6f}
+.jc-loadTips .btnBox{padding:.75rem 1rem 0 1rem}

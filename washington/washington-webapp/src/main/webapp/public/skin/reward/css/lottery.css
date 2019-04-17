@@ -1,0 +1,34 @@
+/*header*/
+.g-hd,.g-bd,.m-hd-box{ margin: 0 auto;}
+.m-hd-box{ position:relative;}
+.g-bd,.m-hd-box{ width:1000px;}
+.m-hd{ background:#ffcf7c;}
+body {font: 12px/1.5 Arial,"Microsoft Yahei","\5FAE\8F6F\96C5\9ED1";}
+<!-- .p_center{margin: 0 auto;width: 1000px;height: 100%;} -->
+.p_header{ height: 276px; background:url("../imagesV1/lottery/p_header.png") no-repeat;}
+.p_header img.img1{margin-left: 32px;margin-top: 105px;position: absolute;z-index: 8; _position:absolute;}
+.p_header img.img2{margin-left: 258px;margin-top: 181px;position: absolute;z-index: 5; _position:absolute;}
+.p_ss{width: 410px;height: 120px;margin-top: -100px;background: url("../imagesV1/lottery/p_ss.png") no-repeat;margin-top: -61px;margin-left: -3px;}
+.P_ma{width: 90px;height: 88px;border: solid 1px #cccccc;margin-left: 15px;margin-top: 15px;display: inline-block;}
+.p_ph{width: 30px;height: 44px;display: inline-block;background: url("../imagesV1/lottery/p_ph.png")no-repeat;}
+.p_span1{width: 100px;height: 35px;display: inline-block;font-size: 14px;color: #ffffff;font-weight: bolder;margin-left: 10px;line-height: 25px;}
+.p_s_cen{width: 165px;height: 44px;margin-left: 115px;margin-top: -100px;}
+.p_cen_p{font-size: 14px;font-weight:bolder;color: #ffffff;width: 160px;height: 35px;margin-left: 120px;}
+.span_5{font-size: 16px;}
+.p_info{width:430px; margin-left: 10px;color:#73b8f4;font-size: 16px;margin-top: 10px;}
+/*大转盘*/
+.p_dzp{ position: absolute; right:0; width:480px;height: 480px;background: url("../imagesV1/lottery/p_dzp.png") no-repeat;z-index:9999;margin-top: 15px;}
+/*内容左边部分*/
+.g-bdc{ margin-top:60px;}
+.p_con_l{width: 718px; float:left; display:inline-block;}
+.p_con_l table{border: solid 1px #ff8e42;font-size: 18px;width: 685px;height: 100px;border-radius: 3px;text-align:center;}
+
+.p_tr_1{background: #ffa650;color: #ffffff;}
+.p_tr_2{color: #5e5e5e;}
+.p_big{font-size: 24px;color: #ff8e42;}
+.p_small{font-size: 16px;color: #6e6e6e;}
+/*内容右边部分*/
+.p_con_r{width: 282px;height: 428px;float: right; display:inline-block; margin-top:84px; *margin-top:56px;}
+.p_con_r_t{width: 282px;height:40px;background: url("../imagesV1/lottery/p_prizing.png") no-repeat;}
+.p_con_r_b{height:387px;width: 282px;background:#ffea78;border-radius: 0 0 10px 10px;}
+.p_con_r_b_p{font-size: 14px;color: #924c00;width: 195px;margin-left: 18px;display: block;padding-top:30px;}

@@ -1,0 +1,1189 @@
+[
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && createTime > 1534694400000 && createTime < 1551110400000 && is_authentication == 0 && main_teacher_subject eq 'MATH' && rookieReward > 0;",
+    "activeTime": 15,
+    "name": "新手任务",
+    "buttonName": "去完成",
+    "sort": 1,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每周第一次、第二次、第三次对一个班级推荐并检查练习后，可对应获得20积分、10积分、5积分和园丁豆，完成学生越多可获得的园丁豆越多。</li><li class=\"taskExplain\">2.若同一个班级一天内检查多次练习，只第一次检查练习时获得奖励。</li><li class=\"taskExplain\">3.推荐并检查练习的班级越多，可获得的积分和园丁豆越多。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分计入等级积分。</li><li class=\"taskExplain\">2.学科推广期间，语文老师和数学老师限时享1.5倍积分。</li><li class=\"taskExplain\">3.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">4.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "rewards": [
+      {
+        "expression": "return 100;",
+        "id": 1,
+        "unit": "integral"
+      }
+    ],
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 50;",
+            "id": 1,
+            "unit": "exp"
+          },
+          {
+            "expression": "return 10;",
+            "id": 2,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if (assignNum >= 1) {curr = 1;}else{curr = 0;}"
+        },
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "result = assignNum > 0;",
+        "id": 1,
+        "desc": "推荐练习"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 50;",
+            "id": 1,
+            "unit": "exp"
+          },
+          {
+            "expression": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; if(maxFinishNum > 0){num = maxFinishNum*3 + 1;return num;}else{num = 0;return 0;}}",
+            "id": 3,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "人",
+          "rewards": [],
+          "targetExpr": "return 20;",
+          "proExpr": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; if(maxFinishNum >= 20){curr = 20;}else{curr = maxFinishNum;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; result = maxFinishNum >= 20;}",
+        "id": 2,
+        "desc": "检查练习"
+      }
+    ],
+    "id": 1,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "cycleUnit": "W",
+    "rewards": [],
+    "name": "唤醒老师",
+    "sort": 2,
+    "buttonName": "去唤醒",
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.选择待唤醒的老师，发起唤醒，被唤醒的老师为任意班级推荐并检查练习，即认为完成唤醒任务。</li><li class=\"taskExplain\">2.成功唤醒一位老师即可获得30个园丁豆。</li><li class=\"taskExplain\">3.每周成功唤醒5位老师，均可获得园丁豆奖励，超过后不再奖励。</li><li class=\"taskExplain\">4.您最多可同时唤醒3位老师，也可取消唤醒。唤醒成功后可继续唤醒其他老师。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.累计唤醒人数会在8月31日23:59和12月31日23:59清零。</li><li class=\"taskExplain\">2.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">3.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "/view/mobile/teacher/activity2018/primary/task_system/waketeacher",
+          "type": "h5"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "人",
+          "rewards": [
+            {
+              "expression": "return 30;",
+              "id": 1,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return 5;",
+          "proExpr": "if (activeNum >= 5) {curr = 5;} else {curr = activeNum;}"
+        },
+        "calType": "USER_AWAKE",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "唤醒老师"
+      }
+    ],
+    "id": 2,
+    "type": "Special",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [],
+    "name": "布置寒假作业",
+    "buttonName": "去推荐",
+    "sort": 1,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.对班级推荐“寒假作业”练习，即可获得园丁豆奖励。</li><li class=\"taskExplain\">2.该任务只奖励一次，超过后不再有园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return winterWorkReward;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "SET_WINTERVACATION_HOMEWORK",
+          "type": "native"
+        },
+        "showProgress": false,
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "{var success = false; for (var hw : hwList) { if (hw.homeworkType eq 'WinterVacation') { success = true; } } result = assignNum > 0 && success; }",
+        "id": 1,
+        "desc": "布置寒假作业"
+      }
+    ],
+    "id": 18,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [],
+    "name": "期末复习-基础必过",
+    "buttonName": "去推荐",
+    "sort": 2,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.对班级推荐“期末复习-基础必过”练习，即可获得园丁豆奖励。</li><li class=\"taskExplain\">2.该任务只奖励一次，超过后不再有园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return basicReviewReward;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "SET_FINALEXAM_HOMEWORK",
+          "type": "native"
+        },
+        "showProgress": false,
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "{var success = false; for (var hw : hwList) { if (hw.homeworkType eq 'BasicReview') { success = true; } } result = assignNum > 0 && success; }",
+        "id": 1,
+        "desc": "期末复习-基础必过"
+      }
+    ],
+    "id": 16,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [],
+    "name": "期末复习-重点复习",
+    "buttonName": "去推荐",
+    "sort": 3,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.对班级推荐“期末复习-重点复习”练习，即可获得园丁豆奖励。</li><li class=\"taskExplain\">2.该任务只奖励一次，超过后不再有园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return termReviewReward;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "SET_FINALEXAM_HOMEWORK",
+          "type": "native"
+        },
+        "showProgress": false,
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "{var success = false; for (var hw : hwList) { if (hw.homeworkType eq 'TermReview') { success = true; } } result = assignNum > 0 && success; }",
+        "id": 1,
+        "desc": "期末复习-基础必过"
+      }
+    ],
+    "id": 17,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [
+      {
+        "expression": "return 0;",
+        "id": 1,
+        "unit": "cash"
+      }
+    ],
+    "name": "邀请新老师",
+    "buttonName": "去邀请",
+    "sort": 4,
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return rookieReward;",
+            "id": 1,
+            "unit": "cash"
+          }
+        ],
+        "skip": {
+          "url": "/view/mobile/teacher/activity2018/invite_teacher/index",
+          "type": "h5"
+        },
+        "showProgress": false,
+        "calType": "USER_INVITATION",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "邀请新老师"
+      }
+    ],
+    "id": 3,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [],
+    "name": "邀请新老师",
+    "buttonName": "去邀请",
+    "sort": 4,
+    "subTaskList": [
+      {
+        "rewards": [
+        ],
+        "skip": {
+          "url": "/view/mobile/teacher/activity2018/invite_teacher/index",
+          "type": "h5"
+        },
+        "showProgress": false,
+        "calType": "DEFAULT",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "邀请新老师"
+      }
+    ],
+    "id": 19,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "activeTime": 15,
+    "name": "3次练习奖励",
+    "buttonName": "去完成",
+    "type": "Deprecated",
+    "sort": 4,
+    "instruction": " <ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.自领取任务起，15天内给名下任意班级推荐且检查3次练习，且每次都有20人以上完成，若同一天检查多个班级的练习只记为1次，满足条件即视为完成该任务。</li><li class=\"taskExplain\">2.完成任务后获取300园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "rewards": [
+      {
+        "expression": "return 300;",
+        "id": 1,
+        "unit": "integral"
+      }
+    ],
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [],
+          "targetExpr": "return 3;",
+          "proExpr": "{var max = 0;for(var ghw : groupHwView){var n = 0;for(var fNum : ghw.finishNum){if(fNum >= 20){n = n + 1;}}if (n > max) {max = n;}}if (max >= 3) {curr = 3;} else {curr = max;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{var max = 0;for(var ghw : groupHwView){var n = 0;for(var fNum : ghw.finishNum){if(fNum >= 20){n = n + 1;}}if (n > max) {max = n;}}if (max >= 3) {result = true;} else {result = false;}}",
+        "id": 1,
+        "desc": "3次练习奖励"
+      }
+    ],
+    "id": 4,
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "activeTime": 15,
+    "name": "新手任务",
+    "buttonName": "去完成",
+    "sort": 2,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.新手任务共分3个小任务，即创建班级，为班级推荐练习，一份练习有相应人数完成，完成所有任务后获得教学流量奖励。</li><li class=\"taskExplain\">2.完成新手任务后，教学流量奖励将在任务完成后的72小时内，发送到您的账户。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分将计入等级积分。</li><li class=\"taskExplain\">2.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">3.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "rewards": [
+      {
+        "expression": "return rookieReward;",
+        "id": 1,
+        "unit": "cash"
+      }
+    ],
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goClazzManage",
+          "type": "native"
+        },
+        "showProgress": false,
+        "calType": "CREATE_CLAZZ",
+        "expression": "result = updateGroup > 0;",
+        "id": 1,
+        "desc": "建班"
+      },
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if (hwList.size() >= 1) {curr = 1;} else {curr = 0;}"
+        },
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "result = hwList.size() > 0;",
+        "id": 2,
+        "desc": "推荐练习"
+      },
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "人",
+          "rewards": [],
+          "targetExpr": "if(cityLevel eq 'S' || cityLevel eq 'A'){return 10;}else{return 20;}",
+          "proExpr": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; target = 0; if(cityLevel eq 'S' || cityLevel eq 'A'){target = 10;}else{target = 20;} if(maxFinishNum > target){curr = target;}else{curr = maxFinishNum;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; if(cityLevel eq 'S' || cityLevel eq 'A'){result = maxFinishNum >= 10;}else{result = maxFinishNum >= 20;}}",
+        "id": 3,
+        "desc": "检查练习"
+      }
+    ],
+    "id": 5,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [],
+    "name": "邀请新老师",
+    "buttonName": "去邀请",
+    "sort": 5,
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return rookieReward;",
+            "id": 1,
+            "unit": "cash"
+          }
+        ],
+        "skip": {
+          "url": "/view/mobile/teacher/activity2018/invite_teacher/index",
+          "type": "h5"
+        },
+        "showProgress": false,
+        "calType": "USER_INVITATION",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "邀请新老师"
+      }
+    ],
+    "id": 6,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "cycleUnit": "O",
+    "activeTime": 7,
+    "name": "签到",
+    "buttonName": "签到",
+    "sort": 1,
+    "rewards": [],
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 1;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 1,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 2;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 2,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 3;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 3,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 1;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 4,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 2;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 5,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 2;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 6,
+        "desc": "签到"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 3;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "progress": {
+          "quantifier": "天",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if(signIn){curr=1;}else{curr=0;}"
+        },
+        "calType": "USER_SIGN_IN",
+        "expression": "result = signIn;",
+        "id": 7,
+        "desc": "签到"
+      }
+    ],
+    "id": 7,
+    "type": "Top",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "cycleUnit": "W",
+    "rewards": [],
+    "name": "推荐检查练习",
+    "buttonName": "去推荐",
+    "sort": 1,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每周第一次、第二次、第三次对一个班级推荐并检查练习后，可对应获得20积分、10积分、5积分和园丁豆，完成学生越多可获得的园丁豆越多。</li><li class=\"taskExplain\">2.若同一个班级一天内检查多次练习，只第一次检查练习时获得奖励。</li><li class=\"taskExplain\">3.推荐并检查练习的班级越多，可获得的积分和园丁豆越多。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分计入等级积分。</li><li class=\"taskExplain\">2.学科推广期间，语文老师和数学老师限时享1.5倍积分。</li><li class=\"taskExplain\">3.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">4.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "班",
+          "rewards": [
+            {
+              "expression": "{if(main_teacher_subject eq 'ENGLISH'){num = 20;return 0;}else if(main_teacher_subject eq 'MATH' || main_teacher_subject eq 'CHINESE'){num = 30;return 0;}else{return 0;}}",
+              "id": 1,
+              "unit": "exp"
+            },
+            {
+              "expression": "{num = currFinishNum * 1.5 + 1;return 0;}",
+              "id": 2,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return groupNum;",
+          "proExpr": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 1){num = num + 1;}}if (num >= groupNum){curr = groupNum;}else{curr = num;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 1){num = num + 1;} if (num >= groupNum){result = true;}else{result = false;}}}",
+        "id": 1,
+        "desc": "推荐检查练习一次"
+      },
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "班",
+          "rewards": [
+            {
+              "expression": "{if(main_teacher_subject eq 'ENGLISH'){num= 10;return 0;}else if(main_teacher_subject eq 'MATH' || main_teacher_subject eq 'CHINESE'){num= 15;return 0;}else{return 0;}}",
+              "id": 1,
+              "unit": "exp"
+            },
+            {
+              "expression": "{num = currFinishNum * 0.3 + 1;return 0;}",
+              "id": 2,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return groupNum;",
+          "proExpr": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 2){num = num + 1;}}if (num >= groupNum){curr = groupNum;}else{curr = num;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 2){num = num + 1;} if (num >= groupNum){result = true;}else{result = false;}}}",
+        "id": 2,
+        "desc": "推荐检查练习二次"
+      },
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "班",
+          "rewards": [
+            {
+              "expression": "{if(main_teacher_subject eq 'ENGLISH'){num = 5;return 0;}else if(main_teacher_subject eq 'MATH' || main_teacher_subject eq 'CHINESE'){num = 7.5;return 0;}else{return 0;}}",
+              "id": 1,
+              "unit": "exp"
+            },
+            {
+              "expression": "{num = currFinishNum * 0.2 + 1;return 0;}",
+              "id": 2,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return groupNum;",
+          "proExpr": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 3){num = num + 1;}}if (num >= groupNum){curr = groupNum;}else{curr = num;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{var num = 0;for (var ghw : groupHwFirstView){if (ghw.hwIds.size() >= 3){num = num + 1;} if (num >= groupNum){result = true;}else{result = false;}}}",
+        "id": 3,
+        "desc": "推荐检查练习三次"
+      }
+    ],
+    "id": 8,
+    "type": "Deprecated",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "cycleUnit": "W",
+    "rewards": [],
+    "name": "点评奖励学生",
+    "buttonName": "去点评",
+    "sort": 2,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每次练习点评并奖励学生，即可获得5积分和1个园丁豆。</li><li class=\"taskExplain\">2.一份练习点评或奖励多次只计算为一次。</li><li class=\"taskExplain\">3.每周最多奖励3次，超过后无积分和园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分计入等级积分。</li><li class=\"taskExplain\">2.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">3.已点评次数会在8月31日23:59和12月31日23:59清零。</li><li class=\"taskExplain\">4.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+            {
+              "expression": "return 5;",
+              "id": 1,
+              "unit": "exp"
+            },
+            {
+              "expression": "return 1;",
+              "id": 2,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return 3;",
+          "proExpr": "curr = commentAndAwardNum;"
+        },
+        "calType": "COMMENT_AND_AWARD_HOMEWORK",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "点评奖励学生"
+      }
+    ],
+    "id": 9,
+    "type": "Deprecated",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [
+      {
+        "expression": "return 0;",
+        "id": 1,
+        "unit": "integral"
+      },
+      {
+        "expression": "return 5;",
+        "id": 2,
+        "unit": "integral"
+      }
+    ],
+    "name": "题目报错",
+    "buttonName": "去了解",
+    "sort": 3,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.给一道题目报错成功后即可获得5个园丁豆。</li><li class=\"taskExplain\">2.园丁豆会由系统自动发放。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "showProgress": false,
+        "calType": "DEFAULT",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "题目报错"
+      }
+    ],
+    "id": 10,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [
+      {
+        "expression": "return 0;",
+        "id": 1,
+        "unit": "integral"
+      },
+      {
+        "expression": "return 50;",
+        "id": 2,
+        "unit": "integral"
+      }
+    ],
+    "name": "替学生接收奖品",
+    "buttonName": "去了解",
+    "sort": 4,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每次替学生接收奖品后即可获得50个园丁豆。</li><li class=\"taskExplain\">2.园丁豆会由系统自动发放。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "showProgress": false,
+        "calType": "DEFAULT",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "替学生接收奖品"
+      }
+    ],
+    "id": 11,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "cycleUnit": "W",
+    "rewards": [],
+    "name": "分享达人",
+    "buttonName": "去分享",
+    "sort": 1,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每次分享教学助手栏目内任意文章成功即可获得1个园丁豆。</li><li class=\"taskExplain\">2.每周最多奖励5次，超过后不再有园丁豆奖励。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.已分享次数会在8月31日23:59和12月31日23:59清零。</li><li class=\"taskExplain\">3.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+            {
+              "expression": "return 1;",
+              "id": 1,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return 5;",
+          "proExpr": "curr = shareArticle.size();"
+        },
+        "skip": {
+          "url": "/view/mobile/teacher/teaching_assistant/index",
+          "type": "h5"
+        },
+        "calType": "SHARE_ARTICLE",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "分享达人"
+      }
+    ],
+    "id": 12,
+    "type": "Deprecated",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "rewards": [],
+    "name": "完善个人信息",
+    "buttonName": "去完善",
+    "sort": 5,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.完善您的个人信息，包括但不限于性别、年龄、实际教龄、职位即可获得10个园丁豆。</li><li class=\"taskExplain\">2.完成任务后系统自动发放园丁豆。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">2.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 10;",
+            "id": 1,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "goPersonalCenter",
+          "type": "native"
+        },
+        "showProgress": false,
+        "calType": "USER_INFO_CHANGED",
+        "expression": "result = isUserInfoFull;",
+        "id": 1,
+        "desc": "完善个人信息"
+      }
+    ],
+    "id": 13,
+    "type": "Special",
+    "loop": false,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && createTime > 1534694400000 && createTime < 1551110400000 && is_authentication == 0 && (main_teacher_subject eq 'CHINESE' || main_teacher_subject eq 'ENGLISH') && rookieReward > 0;",
+    "activeTime": 15,
+    "name": "新手任务",
+    "buttonName": "去完成",
+    "sort": 3,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.新手任务共分2个小任务，每个小任务完成后均有积分和园丁豆奖励，完成所有任务后获得额外的100园丁豆奖励。</li><li class=\"taskExplain\">2.完成推荐练习的任务，可获得50积分和10个园丁豆。</li><li class=\"taskExplain\">3.完成检查练习的任务，可获得50积分和园丁豆，完成学生越多可获得的园丁豆越多。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分将计入等级积分。</li><li class=\"taskExplain\">2.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">3.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "rewards": [
+      {
+        "expression": "return 100;",
+        "id": 1,
+        "unit": "integral"
+      }
+    ],
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 50;",
+            "id": 1,
+            "unit": "exp"
+          },
+          {
+            "expression": "return 10;",
+            "id": 2,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [],
+          "targetExpr": "return 1;",
+          "proExpr": "if (assignNum >=1 ){curr = 1;}else{curr = 0;}"
+        },
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "result = assignNum > 0;",
+        "id": 1,
+        "desc": "推荐练习"
+      },
+      {
+        "rewards": [
+          {
+            "expression": "return 50;",
+            "id": 1,
+            "unit": "exp"
+          },
+          {
+            "expression": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; if(maxFinishNum > 0){num = maxFinishNum*3 + 1;return num;}else{num = 0;return 0;}};",
+            "id": 2,
+            "unit": "integral"
+          }
+        ],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "人",
+          "rewards": [],
+          "targetExpr": "return 20;",
+          "proExpr": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; if(maxFinishNum >= 20){curr = 20;}else{curr = maxFinishNum;}}"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{maxFinishNum = maxFinishNum ? maxFinishNum : 0; result = maxFinishNum >= 20;}",
+        "id": 2,
+        "desc": "检查练习"
+      }
+    ],
+    "id": 14,
+    "type": "Deprecated",
+    "loop": false,
+    "autoReceive": false
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL';",
+    "cycleUnit": "W",
+    "rewards": [],
+    "name": "分享练习报告",
+    "buttonName": "去分享",
+    "sort": 2,
+    "instruction": "<ul><li class=\"taskName\">任务介绍</li><li class=\"taskExplain\">1.每次向家长分享练习日报成功即可获得5积分和1个园丁豆。</li><li class=\"taskExplain\">2.每周最多奖励3次，超过后无积分和园丁豆奖励。</li><li class=\"taskExplain\">3.一份作业一天分享多次只记一次。</li><li class=\"taskName hint\">温馨提示</li><li class=\"taskExplain\">1.获取的积分计入等级积分。</li><li class=\"taskExplain\">2.累计分享次数会在8月31日23:59和12月31日23:59清零。</li><li class=\"taskExplain\">3.如转校则以转校后的任务显示为准。</li><li class=\"taskExplain\">4.该任务最终解释权归一起教育科技所有。</li></ul>",
+    "subTaskList": [
+      {
+        "rewards": [],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+            {
+              "expression": "return 5;",
+              "id": 1,
+              "unit": "exp"
+            },
+            {
+              "expression": "return 1;",
+              "id": 2,
+              "unit": "integral"
+            }
+          ],
+          "targetExpr": "return 3;",
+          "proExpr": "curr = shareReportNum;"
+        },
+        "calType": "REPORT_HOMEWORK",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "分享练习报告"
+      }
+    ],
+    "id": 15,
+    "type": "Deprecated",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && (rookieTaskFinish || is_authentication == 1);",
+    "cycleUnit": "D",
+    "rewards": [
+    ],
+    "name": "布置作业",
+    "buttonName": "去完成",
+    "sort": 1,
+    "instruction": "",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 1;",
+            "id": 1,
+            "unit": "integral"
+          },
+          {
+            "expression": "return 1;",
+            "id": 2,
+            "unit": "exp"
+          }
+        ],
+        "skip": {
+          "url": "goSetHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+          ],
+          "targetExpr": "return 1;",
+          "proExpr": "curr = assignNum > 1 ? 1 : assignNum;"
+        },
+        "calType": "ASSIGN_HOMEWORK",
+        "expression": "result = assignNum >= 1",
+        "id": 1,
+        "desc": "布置作业"
+      }
+    ],
+    "id": 22,
+    "type": "DAY",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && (rookieTaskFinish || is_authentication == 1);",
+    "cycleUnit": "D",
+    "rewards": [
+    ],
+    "name": "检查作业10人以上",
+    "buttonName": "去完成",
+    "sort": 2,
+    "instruction": "",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 5;",
+            "id": 1,
+            "unit": "integral"
+          },
+          {
+            "expression": "return 10;",
+            "id": 2,
+            "unit": "exp"
+          }
+        ],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+          ],
+          "targetExpr": "return 1;",
+          "proExpr": "{for (var hw : hwList){ if(hw.finishNum>=10){ curr = curr + 1 ;}} if(curr > 1){curr = 1} }"
+        },
+        "calType": "CHECK_HOMEWORK",
+        "expression": "{var curr=0; for (var hw : hwList){ if(hw.finishNum>=10){ curr = curr + 1 ;}}  result = curr>=1; }",
+        "id": 1,
+        "desc": "检查作业10人以上"
+      }
+    ],
+    "id": 23,
+    "type": "DAY",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && (rookieTaskFinish || is_authentication == 1);",
+    "cycleUnit": "D",
+    "rewards": [
+    ],
+    "name": "点评奖励5名学生",
+    "buttonName": "去完成",
+    "sort": 3,
+    "instruction": "",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 10;",
+            "id": 1,
+            "unit": "integral"
+          },
+          {
+            "expression": "return 10;",
+            "id": 2,
+            "unit": "exp"
+          }
+        ],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "名",
+          "rewards": [
+          ],
+          "targetExpr": "return 5;",
+          "proExpr": "curr = studentIds.size() > 5 ? 5 : studentIds.size();"
+        },
+        "calType": "COMMENT_AND_AWARD_HOMEWORK",
+        "expression": "result = studentIds.size() >= 5;",
+        "id": 1,
+        "desc": "点评奖励学生"
+      }
+    ],
+    "id": 24,
+    "type": "DAY",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return ktwelve eq 'PRIMARY_SCHOOL' && (rookieTaskFinish || is_authentication == 1);",
+    "cycleUnit": "D",
+    "rewards": [
+    ],
+    "name": "分享作业报告",
+    "buttonName": "去完成",
+    "sort": 4,
+    "instruction": "",
+    "subTaskList": [
+      {
+        "rewards": [
+          {
+            "expression": "return 10;",
+            "id": 1,
+            "unit": "integral"
+          },
+          {
+            "expression": "return 10;",
+            "id": 2,
+            "unit": "exp"
+          }
+        ],
+        "skip": {
+          "url": "goCheckHomework",
+          "type": "native"
+        },
+        "showProgress": true,
+        "progress": {
+          "quantifier": "次",
+          "rewards": [
+          ],
+          "targetExpr": "return 1;",
+          "proExpr": "curr = shareReportNum > 1 ? 1 : shareReportNum;"
+        },
+        "calType": "REPORT_HOMEWORK",
+        "expression": "result = shareReportNum >= 1;",
+        "id": 1,
+        "desc": "分享作业报告"
+      }
+    ],
+    "id": 25,
+    "type": "DAY",
+    "loop": true,
+    "autoReceive": true
+  },
+  {
+    "putOnExpr": "return false;",
+    "rewards": [
+    ],
+    "name": "邀请新老师",
+    "buttonName": "去完成",
+    "sort": 1,
+    "subTaskList": [
+      {
+        "rewards": [
+        ],
+        "skip": {
+          "url": "/view/mobile/teacher/activity2018/invite_teacher/index?source=gofinish",
+          "type": "h5"
+        },
+        "showProgress": false,
+        "calType": "USER_INVITATION",
+        "expression": "result = false;",
+        "id": 1,
+        "desc": "邀请新老师"
+      }
+    ],
+    "id": 26,
+    "type": "Special",
+    "loop": false,
+    "autoReceive": true
+  }
+]

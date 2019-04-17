@@ -1,0 +1,5 @@
+本项目提供短地址服务，包括短地址转换、短地址重定向
+短地址码为6位字符串，取[a-zA-Z0-9]
+
+短地址转换：/crt?url=long_domain  e.g. http://17zy.cn/crt?url=www.17zuoye.com/wechat/api/token?aec3sdE+kds
+短地址重定向: /shortUrl  e.g. http://17zy.cn/EFJZn2

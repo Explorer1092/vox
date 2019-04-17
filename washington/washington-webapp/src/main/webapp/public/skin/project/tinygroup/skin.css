@@ -1,0 +1,17 @@
+body{ background:#fbbc3f url("oder-head-bg.png") repeat-x 0 0;}
+.head, .head .inner{ background: url("order-1.png") no-repeat center 0; width: 100%; height: 426px;}
+.head .inner{ position: relative;}
+.head .inner .logo{ position: absolute; left: 0; width: 138px; height: 57px; top: 0;}
+.head .inner .logo a{ width: 100%; height: 100%; display: block;}
+.head .inner .back-index{ position: absolute; right: 0; width: 97px; height: 37px; top: 10px; display: block; text-indent: -999px;}
+.content_stepOne_box, .content_stepOne_box .inner{ background: url("oder-2.png") no-repeat center 0; width: 100%; height: 387px;}
+.content_stepOne_box .cont-txt{ padding: 105px 87px 0 90px; font-size: 18px; color: #2d1b1b;}
+.content_stepOne_box .cont-txt .className{ font-size: 26px; height: 45px; }
+.content_stepOne_box .cont-txt .txt{ line-height: 190%; text-indent: 3em; font-size: 18px;}
+.content_stepOne_box .cont-txt .teacherName{ font-size: 18px; text-align: right; padding-top: 22px;}
+.content_stepTwo_box, .content_stepTwo_box .inner{ background: url("order-3.png") no-repeat center 0; width: 100%; height: 488px;}
+.content_stepThree_box, .content_stepThree_box .inner{ background: url("order-4.png?1.0.1") no-repeat center 0; width: 100%; height: 675px;}
+.content_stepFour_box, .content_stepFour_box .inner{ background: url("order-5.jpg") no-repeat center 0; width: 100%; height: 756px;}
+.content_stepThree_box .inner{ position: relative;}
+body .inner{ width: 1000px!important; margin: 0 auto; overflow: hidden; *zoom: 1;}
+.recharge_btn{ height: 67px; width: 211px; position: absolute; bottom: 175px; right: 397px; text-decoration: none; display: block; text-indent: -9999px;}

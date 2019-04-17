@@ -1,0 +1,94 @@
+body{ background-color: #ebe9e4;}
+/*t-novice-task-guide*/
+.t-novice-task-guide{ width: 100%; margin: 0 auto; background-color: #fff;}
+.t-novice-task-guide .md-title{ font-size: 20px; padding: 30px 0; text-align: center; font-weight: normal; position: relative;}
+.t-novice-task-guide .md-title .md-bag{ background: url(../images/notauthindex/index-redBag.png) no-repeat 0 0; width:62px; height: 76px; cursor: pointer; display: block; position: absolute; right: 26px; top: 7px; }
+.t-novice-task-guide .md-title .f-change-meg{ background: url(../images/notauthindex/icon-f-meg.png) no-repeat 0 0; width: 31px; height: 29px; display: inline-block; vertical-align: middle; margin: 0 5px;;}
+.t-novice-task-guide .md-title h3 strong{ font-size: 22px; font-weight: normal;}
+.t-novice-task-guide .md-sArrow{ background: url(../images/notauthindex/auth-arrow.png) no-repeat 0 6px #fff; padding: 0 30px 20px;}
+.t-novice-task-guide .md-sArrow-dis{ background-image: url(../images/notauthindex/auth-arrow-dis.png);}
+.t-novice-task-guide .md-content .md-sArrow dd p{ font-size: 16px;}
+.t-novice-task-guide .md-content{ }
+.t-novice-task-guide .md-content .md-arrow{ position: relative; clear: both; width: 100%; margin: 0; padding: 0; height: 1px; line-height: 1px; display: none;}
+.t-novice-task-guide .md-content .md-arrow .md-arrow-inner{ background: url(../images/notauthindex/follow-arrow.png) no-repeat 0 0; width: 22px; height: 12px; display: block; position: absolute; bottom: -28px; _bottom: -29px; left: 10px; z-index: 10; line-height: 100%; overflow: hidden}
+.t-novice-task-guide .md-content .list-disable { border-style: dashed; background-color: #f7f7f7; z-index: 9; position: relative; color: #999;}
+.t-novice-task-guide .md-content .list-disable .md-arrow-inner{ background-position: 0 -13px;}
+.t-novice-task-guide .md-content .list-disable .md-icon-blue{ background-color: #f2f2f2; border-color: #cfcfcf; color: #999;}
+.t-novice-task-guide .md-content .list-current .md-icon-blue{background-color: #009afe; color: #fff;}
+.t-novice-task-guide .md-content .record-count{ background: url(../images/notauthindex/icon-o-back.png) no-repeat 0 0; width: 17px; height: 20px; overflow: hidden; color: #fff; text-align: center; line-height: 20px; vertical-align: middle; display: inline-block;}
+.t-novice-task-guide .md-content .part-text{ padding: 10px 0 0; }
+.t-novice-task-guide .md-content dl{ border-top: 1px dashed #d9d9d9; margin-top: -1px; padding: 20px 0 0 40px; background-color: #fff;}
+.t-novice-task-guide .md-content dt{ width: 190px; float: left; position: relative; display: none;}
+.t-novice-task-guide .md-content dt.pw{ width: 320px; padding-bottom: 10px;  display: block;}
+.t-novice-task-guide .md-content dt .nm-info{ font-size: 20px; line-height: 130%; display: inline-block; vertical-align: middle;}
+.t-novice-task-guide .md-content dt .md-icon-blue{width: 42px; height: 42px; background-color: #eaf7ff; margin-right: 15px; border-radius: 50%; border: 1px solid #069cfe; color: #009afe; font: 26px/42px arial; vertical-align: middle; display: inline-block; font-style: normal; text-align: center;}
+.t-novice-task-guide .md-content dt .md-icon-lw{ background: url(../images/notauthindex/auth-liwu-v1.png) no-repeat; width: 30px; height: 30px; display: inline-block; vertical-align: middle; margin: 0 13px 0 0;}
+.t-novice-task-guide .md-content dd{ font-size: 16px; line-height: 150%; color: #667284; padding:0;}
+.t-novice-task-guide .md-content dd p{ padding-bottom: 12px; font-size: 16px;}
+.t-novice-task-guide .md-content dd p .pl{ padding-left: 71px;}
+.t-novice-task-guide .md-content dd .pt{ padding: 15px 0 0 0;}
+.step-noAuth-info{ display: none;}
+.step-noAuth-info-top{ background: url(../images/publicbanner/step-noAuth-1.png) no-repeat; width: 472px; height: 47px; position: absolute; top: -70px; left: 50px;}
+.step-noAuth-info-bot{ background: url(../images/publicbanner/step-noAuth-2.png) no-repeat; width: 596px; height: 165px; position: absolute; top: 150px; left: 0; overflow: hidden;}
+.step-noAuth-info-know{ display: block; width: 138px; height: 62px; margin: 106px 0 0 255px; cursor: pointer;}
+.w-opt-back{ }
+.w-opt-back-content .step-noAuth-hide{ display: none;  }
+.w-opt-back-content .step-noAuth-info{ display: block; }
+/*t-novice-privilege*/
+.t-novice-privilege{ clear: both; margin: 0 !important;; padding: 0 !important; }
+.t-novice-privilege .part-text{ text-align: center; width: 580px;}
+.t-novice-privilege .tn-list{}
+.t-novice-privilege .tn-list li{ float: left; padding: 18px 40px 18px 0; }
+.t-novice-privilege .tn-list li a{ width: 150px; border: 1px solid #3398f4; display: block; color: #383a4b;}
+.t-novice-privilege .tn-list li a .k-im{ background: url(../images/notauthindex/auth-pt.png) no-repeat 0 0;}
+.t-novice-privilege .tn-list li a.s-1 {position: relative;}
+.t-novice-privilege .tn-list li a.s-1 .k-im{ background-position: 0 0; }
+.t-novice-privilege .tn-list li a.s-1 .k-kb{ background: url(../images/notauthindex/auth-pt-ic.png) no-repeat; width: 29px; height: 29px;position: absolute; right: -10px; top: -10px;}
+.t-novice-privilege .tn-list li a.s-2 .k-im{ background-position: -180px 0;}
+.t-novice-privilege .tn-list li a.s-3 .k-im{ background-position: -360px 0;}
+.t-novice-privilege .tn-list li a.s-4 .k-im{ background-position: 0 -85px;}
+.t-novice-privilege .tn-list li a.s-5 .k-im{ background-position: -180px -85px;}
+.t-novice-privilege .tn-list li a.s-6 .k-im{ background-position: -360px -85px;}
+.t-novice-privilege .tn-list li a span{ display: block; font-size: 12px; text-align: center;}
+.t-novice-privilege .tn-list li a .k-im{ background-color: #eaf7ff; height: 75px;}
+.t-novice-privilege .tn-list li a .k-text{ height: 27px; padding: 2px 0 0;}
+.t-novice-privilege .tn-list li a .n-im{ display: none;  background-color: #fff6eb; height: 60px; padding: 15px 0 0;}
+.t-novice-privilege .tn-list li a .n-text{ display: none;height: 27px; padding: 2px 0 0;}
+.t-novice-privilege .tn-list li a .n-text .w-btn-mini{ width: 60px; font-size: 12px; padding: 3px 0;}
+.t-novice-privilege .tn-list li a:hover{ border-color: #fba948;}
+.t-novice-privilege .tn-list li a:hover .n-im,
+.t-novice-privilege .tn-list li a:hover .n-text{ display: block;}
+.t-novice-privilege .tn-list li a:hover .k-im,
+.t-novice-privilege .tn-list li a:hover .k-text{ display: none;}
+.t-novice-privilege .tn-list li a:hover .w-btn-mini{ background-color: #fba948;}
+/*no-clazzHomework*/
+.t-novice-task-guide .no-clazzHomework{ border: 1px dashed #d9d9d9; font-size: 14px; color: #888e96; padding: 5px 10px; width: 350px; overflow: hidden; height: 100%;}
+.t-novice-task-guide .send-bill-card{ background: url(../images/publicbanner/send-bill-banner-v1.png) no-repeat; width: 277px; height: 146px; border: none; padding: 0 0 0 252px; margin-bottom: 14px;}
+.t-novice-task-guide .send-bill-card-42{ background-image: url(../images/publicbanner/send-bill-banner-v1-42.png);}
+.t-novice-task-guide .send-bill-card img{ width: 130px; height: 130px;}
+.t-novice-task-guide .send-bill-card .teacherSendBillCampaignType{ display: block; padding: 4px 4px 0 0;}
+.t-novice-task-guide .send-bill-card .detail{ width: 120px; height: 34px; margin: 81px 0 0 0; float: left; cursor: pointer; display: block; }
+.w-btn-mini{padding: 8px 0 8px; width: 150px; font-size: 16px;}
+/*step-naAuth-container-in*/
+.step-naAuth-container-in{ margin: 0 0 30px;}
+.step-naAuth-title{ font-size: 20px; padding: 12px 0; text-align: center; font-weight: normal; position: relative; background-color: #fff; border-bottom: 1px solid #d9d9d9; width: 100%; clear: both;}
+.step-naAuth-title .f-change-meg{ background: url(../images/notauthindex/icon-f-meg.png) no-repeat 0 0; width: 31px; height: 29px; display: inline-block; vertical-align: middle; margin: 0 5px;;}
+.step-naAuth-container-in .step-box{ clear: both; height: 100%; *display: inline;  width: 100%; }
+.step-naAuth-container-in .step-box .step-icon{ position: relative;}
+.step-naAuth-container-in .step-box .step-icon-in{ position: absolute; left: -78px; top: 2px; background: url(../images/notauthindex/auth-step.png) no-repeat 0 -132px; width: 79px; height: 45px; }
+.step-naAuth-container-in .step-box .step-icon strong{ display: block; width: 45px; height: 45px; color: #009afe; font-size: 24px; text-align: center; line-height: 45px; overflow: hidden; font-weight: normal;}
+.step-naAuth-container-in .step-box .step-content{ border-left: 1px solid #009afe; margin: 0 0 0 44px; padding: 24px 40px 0 53px;}
+.step-naAuth-container-in .step-box .step-content-inner{ border: 1px solid  #fff; background-color: #fff; display: inline-block; *display: inline; *zoom: 1;}
+.step-naAuth-container-in .step-box .step-content-inner .step-title{ font-size: 22px; color: #383a4b; line-height: 43px; font-weight: normal; padding: 0 20px;}
+.step-naAuth-container-in .step-box .step-content-inner .step-title .cp{ color:#8fd15a; font-size: 12px; display: none; vertical-align: middle;}
+.step-naAuth-container-in .step-box .step-content-inner .step-block{ clear: both;}
+.step-naAuth-container-in .step-box-complete .step-icon-in{ background-position: 0 0;}
+.step-naAuth-container-in .step-box-complete .step-icon strong{ display: none;}
+.step-naAuth-container-in .step-box-complete .step-content{ border-color: #ccc;}
+.step-naAuth-container-in .step-box-complete .step-content-inner{ background-color: #f7f7f7; border-color: #f7f7f7;}
+.step-naAuth-container-in .step-box-complete .step-content-inner .step-title{ color: #999;}
+.step-naAuth-container-in .step-box-complete .step-content-inner .step-title .cp{ display: inline-block;}
+.step-naAuth-container-in .step-box-current .step-icon-in{ background-position: 0 -67px;}
+.step-naAuth-container-in .step-box-current .step-icon strong{ color: #fff;}
+.step-naAuth-container-in .step-box-current .step-content-inner{ display: block; border-color: #009afe;}
+.step-naAuth-container-in .step-box-current .step-content-inner .step-title{ border-bottom: 2px solid #009afe; position: relative; z-index: 2;}

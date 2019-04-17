@@ -1,0 +1,102 @@
+html{ background: #f8f8f8;}
+body { background: #fff;}
+body, button, input, select, textarea { font: 12px/1.125 Tahoma, Geneva, sans-serif; }
+html, body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { padding: 0; margin: 0; }
+input, button, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+li { list-style: none outside; }
+fieldset, img { vertical-align: middle; border: 0 none; }
+address, caption, cite, code, dfn, em, i, s, th, var { font-style: normal; font-weight: normal; }
+s { vertical-align: middle; font: 0px/0px arial; }
+a { color: #666; text-decoration: none; }
+a:hover { color: #39f; }
+.clear { clear: both; font: 0pt/0 Arial; height: 0px !important; visibility: hidden; padding: 0 !important; margin: 0 !important; width: 96%; float: none !important; }
+.grayLine { border-bottom: solid 1px #ddd; font: 1px/1px arial; margin: 10px 0; }
+.blueClr { color: #39f; }
+.grayClr { color: #666; }
+.sequence { display: inline-block; background: #1eb0f6; border-radius: 3px; padding: 2px 4px; color: #fff; font: bold 10px/1.125 Tahoma, Geneva, sans-serif; margin-right: 10px; }
+/*img*/
+.header { background: url(../images/help/topback.png?1.0.1) repeat-x center 0; }
+/*.header .navigation .logo { background: url(../images/help/logo.png?1.0.1) no-repeat; }*/
+.header .navigation .logo { background: url(../images/help/logo-new.png?1.0.2) no-repeat; }
+.main .navs .menu h1.about { background: url(../images/help/about.png) no-repeat; }
+.main .content .article .innovation { background: url(../images/help/innovation.png) no-repeat; }
+.main .content .article .cooperation { background: url(../images/help/cooperation.png) no-repeat; }
+.main .content .article .client .img { background: url(../images/help/client.png) no-repeat; }
+.main .content .article.hr .img { background: url(../images/help/hr.png) no-repeat; }
+.main .content .article.map .img { background: url(../images/help/map.png) no-repeat; }
+.main .navs .menu h1.instructions{ background: url(../images/help/instructions.png) no-repeat; }
+.main .navs .menu h1.problem{ background: url(../images/help/problem.png) no-repeat; }
+.icon{ background:url(../images/help/icon.png) no-repeat; display:inline-block; width:90px; height:130px; overflow:hidden;}
+.iteacher{ background-position:0 0 ;}
+.istudent{ background-position:-95px 0 ;}
+.iparent{ background-position:-198px 0 ;}
+.ipassword{ background-position:5px -134px ; width:50px; height:50px;}
+.iplug{ background-position:-49px -134px ; width:50px; height:50px;}
+.igold{ background-position:-105px -134px ; width:50px; height:50px;}
+.icontact{ background-position:-157px -134px ; width:50px; height:50px;}
+/*all help skin*/
+.header { width: 100%; height: 91px; }
+.header .navs { width: 920px; margin: 0 auto; text-align: right; color: #999; }
+.header .navs a { color: #999; display: inline-block; padding: 0 10px; line-height: 26px; }
+.header .navigation { width: 920px; margin: 0 auto; padding: 18px 0 0; }
+.header .navigation .logo { display: inline-block; width: 150px; height: 37px; vertical-align: middle; background-size: auto 100%}
+.header .navigation .title { display: inline-block; vertical-align: middle; font: bold 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #999; padding: 0 20px; }
+.footer { width: 100%; background: #f8f8f8; border-top: solid 1px #ddd; padding: 20px 0; clear: both; }
+.footer p { width: 920px; margin: 0 auto; padding: 2px 0; color: #999; clear: both; }
+.footer p.navs { padding: 0 0 10px; }
+.footer p.navs a { color: #666; }
+.footer p.navs i { display: inline-block; padding: 0 6px; }
+.footer p.navs .contacttel { float: right; }
+.footer p.navs .contacttel b { color: #2cace9; font: bold 14px/1.125 arial; }
+/*main*/
+.main { width: 920px; margin: 20px auto; clear: both; }
+.main .location { padding: 0 0 10px; color: #999; }
+.main .location a { color: #39f; }
+.main .navs { float: left; width: 189px; padding-top: 1px; }
+.main .navs .menu { margin-top: -1px; }
+.main .navs .menu h1 { height: 50px; display: block; clear: both; background-repeat: no-repeat; overflow: hidden; text-indent: -1000px; }
+.main .navs .menu ul { background: #f8f8f8; border: solid #ddd; border-width: 0 0 1px 1px; margin: 0 0 0 10px; padding: 15px 0; }
+.main .navs .menu ul li { height: 30px; position: relative; }
+.main .navs .menu ul li a { color: #2cace9; font: 14px/30px arial; display: block; width: 178px; text-indent: 20px; outline: none; }
+.main .navs .menu ul li.sel a { position: absolute; background: #fff; border: solid 1px #b8daea; border-right-width: 0; width: 190px; left: -12px; text-indent: 30px; font-weight: bold; }
+.main .content { border: solid 1px #b8daea; background: #fff; }
+.main .content .blueLine { background: #1eb0f6; color: #fff; font: bold 12px/1.125 arial; padding: 6px }
+.main .content.separate { width: 729px; float: right; }
+.main .content .article { padding: 20px 40px; }
+.main .content .article h2 { font: bold 14px/22px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #333; padding: 10px 0; }
+.main .content .article h3 { font: bold 14px/22px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color: #1eb0f6; padding: 8px 0; border-bottom: solid 1px #ddd; }
+.main .content .article p { font: 14px/26px arial; color: #666; padding: 5px 0; }
+.main .content .article .innovation { width: 630px; height: 510px; }
+.main .content .article .cooperation { width: 622px; height: 305px; margin: 20px 0; }
+.main .content .article .client p { padding: 0; }
+.main .content .article .client .img { width: 626px; height: 280px; margin: 20px 0; }
+.main .content .article .client .left { float: left; }
+.main .content .article .client .right { float: right; }
+.main .content .article.hr .img, .main .content .article.map .img { width: 300px; height: 420px; float: left; display: block; margin-top: 20px; }
+.main .content .article.hr p, .main .content .article.map p { float: left; margin: 210px 0 0 30px; width: 350px; }
+.main .content .article.map .img { width: 453px; height: 379px; }
+.main .leftSidebar { width:710px; float:left;}
+.main .leftSidebar li{ float:left; text-align:center;}
+.main .leftSidebar li.title{ width:120px !important; font: bold 14px/1.125 arial; color:#999;}
+.main .leftSidebar li a b{ display:block; font:12px/40px arial; color:#666;}
+.main .leftSidebar li a{ outline:none;}
+.main .leftSidebar .mainSub{ border:solid 1px #ccc;}
+.main .leftSidebar .mainSub ul{ width:99%;}
+.main .leftSidebar .mainSub li{ width:180px; padding:20px 0;}
+.main .leftSidebar .mainSub li.title{ line-height:165px;}
+.main .leftSidebar ul.secondarySub{ clear:both; padding:20px 0;}
+.main .leftSidebar ul.secondarySub li{ width:140px;}
+.main .leftSidebar ul.secondarySub li a b{ color:#39f;}
+.main .leftSidebar ul.secondarySub li.title{ line-height:90px;}
+.main .rightSidebar { width:190px; float:right;}
+.main .rightSidebar .navs { width:190px;}
+.main .rightSidebar .navs .menu ul{ margin:0; border-width:0 1px 1px; background:#fff;}
+.main .rightSidebar .navs .menu ul li { height:24px;}
+.main .rightSidebar .navs .menu ul li a{ line-height:24px;}
+.main .problemBox { padding:10px 20px;}
+.main .problemBox li{ border:solid 1px #ddd; background:#fdfdfd; margin:10px 0 ; padding:10px; }
+.main .problemBox li a{ font:14px/1.125 arial; color:#2cace9;}
+.main .problemBox li .answer{ padding:10px 23px; font:12px/20px arial; color:#666; display:none;}
+.main .problemBox li .answer span{ display: inline-block;}
+.main .problemBox .warmInfo{ margin:20px 0; font-size:14px; color:#999; padding:20px 0 0; border-top:solid 1px #ddd;}

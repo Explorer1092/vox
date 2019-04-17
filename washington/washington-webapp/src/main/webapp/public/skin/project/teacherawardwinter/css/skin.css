@@ -1,0 +1,117 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+body{background-color:#1e88ff}
+.lotteryBanner{width:100%;min-width:1000px;height:446px;background:url(../images/banner.png?v=c2810b699d) no-repeat 50% 50%}
+.lotteryMain{overflow:hidden;width:980px;margin:0 auto;padding:0 10px 10px}
+.lotteryMain .tips{margin-bottom:10px;line-height:28px;font-weight:400;text-align:center;font-size:16px;color:#333}
+.lotteryMain .countTips{margin:26px 0 0;padding:26px 0;border-top:3px dotted #ecc870;text-align:center;font-size:16px;color:#fe5844}
+.lotteryMain .section{float:left;width:484px;padding:10px 0;margin-bottom:10px;background-color:#fff;border-radius:20px}
+.lotteryMain .section01,.lotteryMain .section02{height:466px}
+.lotteryMain .section03,.lotteryMain .section04{height:404px;overflow: hidden;position: relative;}
+.lotteryMain .section05,.lotteryMain .section06{height:463px}
+.lotteryMain .section01,.lotteryMain .section03,.lotteryMain .section05{margin-right:10px}
+.lotteryMain .section02{height:486px;padding:0;background-color:transparent}
+.lotteryMain .section05 h2.titleTag{padding-top:10px}
+.lotteryMain h2.titleTag{line-height:50px;text-align:center;font-size:30px;color:#1e88ff}
+.lotteryMain h3.titleTag{position:relative;line-height:40px;text-align:center;font-size:20px;color:#1e88ff}
+.lotteryMain h3.titleTag span{color:#ff3e3e}
+.lotteryMain h3.titleTag i{position:relative;display:inline-block;content:"";margin:0 6px}
+.lotteryMain h3.titleTag .tagIcon01{top:2px;width:38px;height:35px;background:url(../images/icon03.png?v=5cb9a51114) no-repeat}
+.lotteryMain h3.titleTag .tagIcon02{top:6px;width:39px;height:24px;background:url(../images/icon02.png?v=86b51594eb) no-repeat}
+.lotteryMain .titleState{margin-bottom:5px;text-align:center;font-size:14px;color:#939393}
+.lotteryMain .titleState.diff{margin:10px 0 25px}
+.lotteryMain .assignBtn{display:block;margin:0 auto;width:150px;height:44px;background-color:#ff3e3e;border-radius:44px;line-height:44px;text-align:center;font-size:18px;color:#fff}
+.lotteryMain .assignBtn.disabled{background-color:#b6b6b6}
+.lotteryMain .assignTips{padding:5px 0;line-height:24px;text-align:center;font-size:14px;color:#333}
+.lotteryMain .lotteryState{margin:30px 18px 0;border-top:2px dotted #1e88ff}
+.lotteryMain .lotteryState .assignTips{margin-bottom:24px;padding:0;text-align:left}
+.lotteryMain .fl-reward{float:left;width:186px;margin:0 0 10px 15px}
+.lotteryMain .fl-reward .left{float:left;width:114px;height:40px;padding:13px 0;background-color:#1e88ff;border-radius:4px;text-align:center;font-size:15px;color:#fff}
+.lotteryMain .fl-reward .left span{font-size:20px}
+.lotteryMain .fl-reward .right{margin-left:122px;line-height:66px;font-size:26px;color:#1e88ff}
+.lotteryMain .fl-reward.diff .left{line-height:40px}
+.lotteryMain .downloadTips{overflow:hidden;margin:20px 0 0 90px}
+.lotteryMain .downloadTips .code{float:left;width:140px;height:160px;background-color:#f1f1f1;border-radius:10px}
+.lotteryMain .downloadTips .codeImg{margin:16px auto 0;width:111px;height:111px;background:url(../images/code.png?v=310d6d1f4b) no-repeat}
+.lotteryMain .downloadTips .txt{line-height:26px;text-align:center;font-size:12px;color:#333}
+.lotteryMain .downloadTips .info{padding-top:18px;margin-left:160px}
+.lotteryMain .downloadTips .info .txt{text-align:left;font-size:14px}
+.lotteryMain .ruleBox{padding:0 20px;line-height:30px;font-size:16px;color:#333}
+.lotteryMain .ruleBox .txtBlue{font-size:18px;color:#1e88ff}
+.lotteryMain .ruleBox .marB{margin-bottom:16px}
+.lotteryBox{position:relative;width:414px;height:414px;padding:36px;background:url(../images/rewardBox.png?v=7a7686fa40) no-repeat;background-size:100% 100%}
+.lotteryBox .drawBtn{position:absolute;left:172px;top:170px;cursor:pointer;width:143px;height:40px;padding-top:103px;background:url(../images/reward_btn.png?v=a3dbd08768) no-repeat;text-align:center;font-size:14px;color:#000}
+.lotteryBox .drawBtn span{color:#ff3e3e}
+.lotteryBox ul{position:relative;width:100%;height:100%}
+.lotteryBox li{position:absolute;width:130px;height:130px;background-size:100% 100%;background:url(../images/rewardCard.png?v=70385ed8c9) no-repeat}
+.lotteryBox li.active:after{position:absolute;left:-10px;top:-10px;content:"";width:150px;height:150px;background:url(../images/rewardSelect.png?v=136ae9edcf) no-repeat;background-size:100% 100%}
+.lotteryBox li.l-num01{left:0;top:0}
+.lotteryBox li.l-num02{left:142px;top:0}
+.lotteryBox li.l-num03{right:0;top:0}
+.lotteryBox li.l-num04{right:0;top:143px}
+.lotteryBox li.l-num05{right:0;bottom:0}
+.lotteryBox li.l-num06{left:142px;bottom:0}
+.lotteryBox li.l-num07{left:0;bottom:0}
+.lotteryBox li.l-num08{left:0;top:143px}
+.lotteryBox .reward{position:relative;width:130px;height:130px;background-repeat:no-repeat;background-size:100% 100%;background-color:#fff;border-radius:8px;overflow:hidden}
+.lotteryBox .reward.reward01{background-image:url(../images/reward01.png?v=dd11b2f6ce)}
+.lotteryBox .reward.reward02{background-image:url(../images/reward02.png?v=6ec0118a5c)}
+.lotteryBox .reward.reward03{background-image:url(../images/reward03.png?v=d1f0fb7441)}
+.lotteryBox .reward.reward04{background-image:url(../images/reward04.png?v=c4358e9a7b)}
+.lotteryBox .reward.reward05{background-image:url(../images/reward05.png?v=430691fcbf)}
+.lotteryBox .reward.reward06{background-image:url(../images/reward06.png?v=9d5da6b644)}
+.recordList{overflow:hidden;padding:0 30px;height:60px;line-height:60px;font-size:14px;color:#333}
+.recordList .cell{float:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.recordList .txtRed{color:#ff3e3e}
+.recordList:nth-child(2n-1){background-color:#ecf8ff}
+.recordList.hd{height:30px;line-height:30px;background-color:transparent;font-size:16px}
+.recordList.hd .cell01{padding-left:4%;width:24%}
+.recordList.hd .cell02{padding-left:5%;width:30%}
+.recordList.hd .cell03{padding-left:5%;width:32%}
+.dynamicBox{height:300px;overflow-y:auto}
+.dynamicBox .cell01{padding-left:0%;width:15%}
+.dynamicBox .cell02{padding-left:2%;width:14%}
+.dynamicBox .cell03{padding-left:2%;width:28%}
+.dynamicBox .cell04{padding-left:2%;width:35%}
+.recordBox{height:300px;overflow-y:auto}
+.recordBox .cell01{padding-left:4%;width:24%}
+.recordBox .cell02{padding-left:5%;width:30%}
+.recordBox .cell03{padding-left:5%;width:32%}
+.w-popup{position:fixed;left:0;top:0;width:100%;height:100%;background:url(../images/mask01.png?v=5ed141122f) repeat}
+.w-popupTxt{position:absolute;left:50%;top:50%;margin-left:-295px;margin-top:-150px;width:590px;padding:60px 0 22px;border-radius:20px;background-color:#fff}
+.w-popupTxt .pop-close{position:absolute;right:0;top:0;cursor:pointer;width:50px;height:50px;background:url(../images/close.png?v=480e8ebe0e) no-repeat 50% 50%}
+.w-popupTxt h2.title{padding-bottom:10px;line-height:30px;text-align:center;font-size:20px;color:#1e88ff}
+.w-popupTxt .txtBox{padding-bottom:50px;line-height:28px;text-align:center;font-size:16px;color:#676767}
+.w-popupTxt .pop-btn{display:block;margin:0 auto;width:290px;height:40px;background-color:#1b88ff;border-radius:8px;line-height:40px;text-align:center;font-size:18px;font-weight:700;color:#fff}

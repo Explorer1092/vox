@@ -1,0 +1,181 @@
+@charset "UTF-8";.textBlue{color:#189cfb}
+.star-icon{display:inline-block;margin:0 2px;width:14px;height:14px;background:url(../images/goal/stars-icon.png?v=d4d52d4d3e) no-repeat;background-position:-19px 0}
+.star-light{background-position:0 0}
+.tE-tableList{margin:0 15px;line-height:14px;font-size:14px;color:#4e5656}
+.tE-tableList .hd-title{overflow:hidden;*zoom:1;padding:5px 0;line-height:32px;font-size:18px}
+.tE-tableList .hd-title .link{float:right;font-size:14px}
+.tE-tableList .hd-title .w-btn{width:102px;padding:6px 0}
+.tE-tableList table{width:100%;margin-bottom:15px;border:1px solid #dae6ee;border-radius:4px;text-align:center;border-collapse:collapse}
+.tE-tableList table thead tr td{padding:5px 0;line-height:20px;border-bottom:1px solid #dae6ee;border-right:1px solid #dae6ee}
+.tE-tableList table tbody tr td{padding:10px 0}
+.tE-tableList table tbody tr.odd{background:#f9fcfe}
+.tE-tableList table .tableTitle{display:inline-block;margin:-5px 0 -8px 0;width:129px;height:66px;background:url(../images/goal/table-title.jpg?v=141a307b0e) no-repeat}
+.tE-tableList table .point{text-align:left;padding:0 10px}
+.tE-tableList table .point span{display:inline-block;width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tE-tableList table .name{display:inline-block;width:66px;padding:0 17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tE-tableList table .unitName{text-align:left;padding:0 5px;background:#fff}
+.tE-tableList table .unitName span{display:inline-block;width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tE-tableList table .testName{display:inline-block;width:180px;text-align:left;padding:0 5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tE-tableList table .timeRow{padding:0 5px;line-height:20px}
+.tE-tableList table .clazzName{padding:0 5px}
+.tE-tableList table .hand{cursor:pointer}
+.tE-tableList table .h-textBlue.hover{color:#189cfb}
+.tE-tableList table .marR-20{margin-right:20px}
+.tE-tableList .tableBorder{border-collapse:collapse}
+.tE-tableList .tableBorder tr td{border:1px solid #dae6ee}
+.tE-tableList .tableBorder .noBorder td{border-bottom:0}
+.tE-tableList .star{position:relative;display:inline-block;cursor:pointer;width:70px}
+.reportTips{padding-bottom:20px;line-height:20px;font-size:14px;color:#4e5656}
+.reportTips .r-left{float:left}
+.reportTips .r-right{margin-left:65px}
+.tE-tableEmpty{padding:150px 0;text-align:center;font-size:14px;color:#4e5656}
+.tE-tabGrade{position:relative;width:100%;background:#f9fcfe;height:51px;overflow:hidden}
+.tE-tabGrade .arrow{cursor:pointer;position:absolute;top:0;z-index:4;display:block;width:14px;height:51px;background:#eef8ff}
+.tE-tabGrade .arrow .icon{position:absolute;top:20px;display:block;width:6px;height:12px;background:url(../images/goal/tab-arrow03.png?v=6a47ba468f) no-repeat}
+.tE-tabGrade .arrow-disabled .icon{background:url(../images/goal/tab-arrow04.png?v=6d661d768f) no-repeat}
+.tE-tabGrade .arrow-l{left:0}
+.tE-tabGrade .arrow-l .icon{left:4px;background-position:0 -13px}
+.tE-tabGrade .arrow-r{right:0}
+.tE-tabGrade .arrow-r .icon{right:4px;background-position:0 0}
+.tE-tabGrade ul{overflow:hidden;*zoom:1}
+.tE-tabGrade ul li{position:relative;cursor:pointer;float:left;width:126px;padding:18px 15px;border-right:1px solid #dae6ee;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:18px;color:#4e5656}
+.tE-tabGrade ul li .h-arrow{display:none;background-color:#189cfb;width:100%;font:0/0 arial;position:absolute;left:0;top:0;height:3px}
+.tE-tabGrade ul li .h-arrow i{position:absolute;left:50%;top:3px;margin:0 0 0 -5px;background-position:0 -8px}
+.tE-tabGrade ul li.active{z-index:3;background:#fff;padding-bottom:20px}
+.tE-tabGrade ul li.active .h-arrow{display:block}
+.tE-tabGrade-line{position:relative;z-index:2;width:100%;height:1px;line-height:1px;margin:-1px 0 10px 0;overflow:hidden;background:#dae6ee}
+.tE-unitInfo{margin:0 15px 10px 15px;color:#4e5656}
+.tE-unitInfo .title{position:relative;padding:12px 0;font-size:18px;border-bottom:1px solid #dae6ee}
+.tE-unitInfo .infoBox{width:100%;height:132px;padding:20px 0 16px 0;border-bottom:1px solid #dae6ee}
+.tE-unitInfo .infoBox .left{float:left;width:158px}
+.tE-unitInfo .infoBox .left .innerBox{position:relative;width:130px;height:130px;margin:0 12px}
+.tE-unitInfo .infoBox .left .innerBox canvas{position:absolute;left:0;top:0}
+.tE-unitInfo .infoBox .left .innerBox .text{position:relative;z-index:2;width:100%;padding-top:28px;text-align:center}
+.tE-unitInfo .infoBox .left .innerBox .text p{line-height:50px;font-weight:700;font-size:40px}
+.tE-unitInfo .infoBox .left .innerBox .text p span{font-size:24px}
+.tE-unitInfo .infoBox .left .innerBox .text span{font-size:16px;color:#4e5656}
+.tE-unitInfo .infoBox .right{margin-left:170px}
+.tE-unitInfo .infoBox .right .pointCount{margin-bottom:12px;font-size:18px}
+.tE-unitInfo .infoBox .right .pointCount .link{font-size:14px;color:#189cfb}
+.tE-unitInfo .infoBox .right .pointDescribe{position:relative;height:40px;margin-bottom:15px;overflow:hidden}
+.tE-unitInfo .infoBox .right .pointDescribe .text{width:390px;font-size:14px}
+.tE-unitInfo .infoBox .right .pointDescribe .textBlue{color:#189cfb}
+.tE-unitInfo .infoBox .right .pointDescribe .w-btn{position:absolute;right:0;top:0}
+.tE-unitInfo .infoBox .right .tab{width:598px}
+.tE-unitInfo .infoBox .right .tab li{position:relative;float:left;cursor:pointer;margin-right:15px;width:280px;border:1px solid #dae6ee;border-radius:2px;padding:9px 0;text-align:center}
+.tE-unitInfo .infoBox .right .tab li .icon{vertical-align:middle;display:inline-block;margin:0 5px;width:20px;height:20px;background:url(../images/goal/tab-icons.png?v=d3e4840962) no-repeat}
+.tE-unitInfo .infoBox .right .tab li .icon-1{background-position:0 -30px}
+.tE-unitInfo .infoBox .right .tab li .icon-2{background-position:-34px -30px}
+.tE-unitInfo .infoBox .right .tab li .icon-3{background-position:-69px -30px}
+.tE-unitInfo .infoBox .right .tab li .arrow{position:absolute;bottom:-27px;left:50%;margin-left:-10px;display:none;width:20px;height:8px;background:url(../images/goal/tab-arrow.png?v=9f91876906) no-repeat}
+.tE-unitInfo .infoBox .right .tab li.active{border:1px solid #189cfb;color:#189cfb}
+.tE-unitInfo .infoBox .right .tab li.active .icon-1{background-position:0 0}
+.tE-unitInfo .infoBox .right .tab li.active .icon-2{background-position:-34px 0}
+.tE-unitInfo .infoBox .right .tab li.active .icon-3{background-position:-69px 0}
+.tE-unitInfo .infoBox .right .tab li.active .arrow{display:block}
+.star-hoverTips{position:absolute;bottom:26px;right:-25px;z-index:3;*zoom:1;width:328px;padding:5px 15px;background:#f2eaa4;border:1px solid #fce194;border-radius:2px;font-size:14px;text-align:left}
+.star-hoverTips .title{padding:2px 0}
+.star-hoverTips .text{color:#cb6206}
+.star-hoverTips .list{width:100%;background:#fff;border:1px solid #d3d8df;border-radius:2px}
+.star-hoverTips .list .num{display:inline-block;padding:6px 10px;width:155px;border-right:1px solid #d3d8df}
+.star-hoverTips .list .accuracy{padding:6px 10px;display:inline-block;width:100px}
+.star-hoverTips .list .list-hd{border-bottom:1px solid #d3d8df}
+.star-hoverTips .list .list-hd .accuracy,.star-hoverTips .list .list-hd .num{padding:2px 10px}
+.star-hoverTips .list .list-mn{max-height:105px;overflow-y:auto}
+.star-hoverTips .list .list-mn .odd{background:#f9fcfe}
+.star-hoverTips .link{padding:5px 0;text-align:right}
+.star-hoverTips .link a{color:#189cfb}
+.star-hoverTips .arrow{position:absolute;bottom:-13px;right:43px;display:block;width:24px;height:13px;background:url(../images/goal/tips-arrow02.png?v=1492b2bff4) no-repeat}
+.h-slide{position:absolute;bottom:0;*bottom:4px;right:0;z-index:2;margin-left:50px;margin-top:-5px;width:120px;background:#fff;font-size:14px}
+.h-slide .slideText{cursor:pointer;position:relative;z-index:2;display:block;text-align:center;color:#189cfb;overflow:hidden;padding:7.5px 0;border:1px solid #fff}
+.h-slide.hover .slideText,.h-slide:hover .slideText{background:#fff;border-radius:3px;border:1px solid #ccc;border-bottom:1px solid #fff}
+.h-slide.hover .h-slide-box,.h-slide:hover .h-slide-box{display:block}
+.h-slide.hover .w-icon-arrow-blue,.h-slide:hover .w-icon-arrow-blue{background-position:0 0}
+.h-slide .h-slide-box{display:none;width:255px;max-height:500px;overflow-y:auto;border:1px solid #d3d8df;background:#fff;padding:15px;position:absolute;top:30px;*top:38px;right:0}
+.h-slide .h-slide-box label{display:block;width:100%;text-align:left;line-height:26px}
+.h-slide .h-slide-box label .w-radio{margin-right:5px}
+.h-slide .h-slide-box label .name{display:inline-block;vertical-align:middle;max-width:233px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.h-slide .h-slide-box .bookName{color:#189cfb}
+.h-slide .h-slide-box .bookName .w-icon-switch{cursor:pointer;margin:0 5px}
+.tE-practice{padding:15px}
+.te-emptyTips{padding:44px 0;text-align:center;font-size:14px;color:#4e5656}
+.te-emptyTips .tips-icon{margin:0 5px;vertical-align:middle;display:inline-block;width:16px;height:16px;background:url(../images/goal/error-icon.png?v=f6a972574b) no-repeat}
+.te-emptyTips .tips-icon01{background-position:-22px 0}
+.te-emptyTips .tips-icon02{background-position:0 0}
+.tE-pointBox{margin-bottom:15px;border:1px solid #d6dbe1;color:#4e5656}
+.tE-pointBox .tE-tabGrade li{width:155.5px}
+.tE-pointBox .tE-tabGrade li.last{border-right:0}
+.tE-pointBox .innerLable{position:relative;z-index:2;margin-top:-1px;border-top:1px solid #d6dbe1;padding:15px 0 5px 15px}
+.tE-pointBox .innerLable span{cursor:pointer;display:inline-block;padding:7px 6px;margin:0 10px 10px 0;border:1px solid #d6dbe1;border-radius:2px;font-size:14px}
+.tE-pointBox .innerLable span.active{background:#189cfb;border-color:#189cfb;color:#fff}
+.tE-pointBox .innerLable span.disabled{cursor:default;color:#9baaaa}
+.tE-pointAnalyze{margin-bottom:15px;padding:10px;background:#e1f0fc;color:#4e5656}
+.tE-pointAnalyze .title{position:relative;margin-bottom:15px;font-size:18px;line-height:18px}
+.tE-pointAnalyze .title .count{position:absolute;right:0;top:0;background:#fff;padding:4px 6px;border:1px solid #bababa;font-size:14px;color:#f86638}
+.tE-pointAnalyze .stuName-list{margin-bottom:20px}
+.tE-pointAnalyze .stuName-list .icon{margin-left:5px;display:inline-block;width:41px;height:41px;background:url(../images/goal/p-icon01.png?v=b8ed92f299) no-repeat}
+.tE-pointAnalyze .stuName-list .icon-01{background-position:0 0}
+.tE-pointAnalyze .stuName-list .icon-02{background-position:0 -70px}
+.tE-pointAnalyze .stuName-list .left{float:left}
+.tE-pointAnalyze .stuName-list .right{margin-left:60px}
+.tE-pointAnalyze .stuName-list .right .overFlow{max-height:44px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:16px}
+.tE-close{position:absolute;top:0;right:0;cursor:pointer;display:inline-block;width:45px;height:45px;border-left:1px solid #dfdfdf;text-align:center;line-height:42px;font-size:30px;color:#4e5656}
+.tE-percentage{position:relative;height:126px;padding-bottom:20px;border-bottom:1px solid #189cfb}
+.tE-percentage .arrow{cursor:pointer;position:absolute;top:0;z-index:2;display:block;width:30px;height:126px;background:rgba(0,0,0,.6)}
+.tE-percentage .arrow .icon{position:absolute;top:54px;display:inline-block;width:8px;height:18px;background:url(../images/goal/tab-arrow02.png?v=849f0f3bc7) no-repeat}
+.tE-percentage .arrow-l{left:-15px}
+.tE-percentage .arrow-l .icon{left:9px;background-position:0 0}
+.tE-percentage .arrow-r{right:-15px}
+.tE-percentage .arrow-r .icon{right:9px;background-position:0 -20px}
+.tE-percentage ul{*zoom:1}
+.tE-percentage ul li{position:relative;float:left;margin-right:20px;width:100px;text-align:center;font-size:14px;color:#4e5656}
+.tE-percentage ul li .qid{line-height:18px;margin-bottom:6px}
+.tE-percentage ul li .inner{cursor:pointer;position:relative;width:100px;height:100px}
+.tE-percentage ul li .inner canvas{position:absolute;left:0;top:0}
+.tE-percentage ul li .inner .text{position:relative;z-index:2;width:100%;padding-top:20px;text-align:center}
+.tE-percentage ul li .inner .text p{line-height:40px;font-weight:700;font-size:40px}
+.tE-percentage ul li .inner .text p span{font-size:24px}
+.tE-percentage ul li .inner .text span{font-size:14px;color:#4e5656}
+.tE-percentage ul li.active:after{position:absolute;bottom:-23px;left:40px;content:"";display:block;width:20px;height:8px;background:url(../images/goal/tab-arrow-blue.png?v=d3edd539e9) no-repeat}
+.tE-percentage ul:after{display:block;content:"";width:0;height:0;clear:both;overflow:hidden;visibility:hidden}
+.tE-topicDetails{font-size:14px;color:#4e5656}
+.tE-topicDetails .topicList .title{padding:10px;line-height:14px}
+.tE-topicDetails .topicList .title h2{font-size:18px;color:#4e5656}
+.tE-topicDetails .topicList .title h2 span{font-weight:400;font-size:14px;color:#a9a9a9}
+.tE-topicDetails .topicList .topicInfo{border:1px solid #dae6ee}
+.tE-topicDetails .topicList .topicInfo .hd{padding:10px 0;border-bottom:1px solid #dae6ee;color:#7f96a3}
+.tE-topicDetails .topicList .topicInfo .hd span{display:inline-block;padding:0 15px;border-right:1px solid #dae6ee}
+.tE-topicDetails .topicList .topicInfo .hd span.last{border-right:0}
+.tE-topicDetails .topicList .topicInfo .mn{margin:20px;background:#eee}
+.tE-topicDetails .topicList .topicInfo .selectBtn{height:40px;text-align:right}
+.tE-topicDetails .topicList .topicInfo .selectBtn a.btn{display:inline-block;width:58px;height:38px;background:#189cfb;border:1px solid #189cfb;text-align:center;line-height:38px;color:#fff}
+.tE-topicDetails .topicList .topicInfo .selectBtn a.btn span{display:inline-block;vertical-align:middle;margin:0 2px;position:relative;top:-2px;font-size:26px}
+.tE-topicDetails .topicList .topicInfo .selectBtn a.btn-cancel{background:#e1f0fc;border:1px solid #abc1d3;color:#2180c1}
+.tE-topicDetails .topicList .topicInfo .answerTable table{width:100%}
+.tE-topicDetails .topicList .topicInfo .answerTable table tr td{padding:8px 10px;line-height:20px}
+.tE-topicDetails .topicList .topicInfo .answerTable table tr.odd{background:#f9fcfe}
+.tE-topicDetails .topicList .topicInfo .answerTable table thead tr td{padding:2px 10px;border-bottom:1px solid #dae6ee;border-top:1px solid #dae6ee}
+.tE-topicDetails .topicList .topicInfo .answerTable table thead tr td.td-cell01{border-right:1px solid #dae6ee}
+.tE-topicDetails .topicList.borderBlue{border:1px solid #189cfb;border-top:0}
+.tE-topicDetails .topicList.borderBlue .topicInfo{border:0;border-top:1px solid #dae6ee}
+.dialog01{width:620px;max-height:500px;overflow-y:auto;background:#fff;border-radius:2px}
+.dialog01 table{width:100%;margin-bottom:15px;border:1px solid #dae6ee;border-radius:4px;text-align:center}
+.dialog01 table thead tr td{padding:5px 0;border-bottom:1px solid #dae6ee}
+.dialog01 table tbody tr td{padding:6px 0;border-bottom:1px solid #dae6ee}
+.dialog01 table tbody tr.odd{background:#f9fcfe}
+.dialog01 table .unitName{border-right:1px solid #dae6ee}
+.dialog01 table .point{text-align:left;padding:0 10px;border-right:1px solid #dae6ee}
+.dialog01 table .point span{display:inline-block;width:376px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dialog01 table .switch-icon{cursor:pointer;display:inline-block;width:60px;height:20px;background:url(../images/goal/switch-icon.png?v=c2f8b49b93) no-repeat;background-position:0 0}
+.dialog01 table .switch-off{background-position:0 -35px}
+.specialTest-clazz{padding:10px 15px}
+.specialTest-clazz .label{float:left;width:60px;line-height:23px}
+.specialTest-clazz .clazzOption{overflow:hidden}
+.specialTest-clazz .clazzOption p{float:left;cursor:pointer;margin:0 10px 5px 0}
+.specialTest-clazz .clazzOption p .w-icon-md{width:124px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.w-noContent{padding:40px 0;text-align:center}
+.w-noContent .tipsTxt{font-size:12px;color:#7f96a3;line-height:18px}
+.w-noContent .txtBlue{padding:6px 0;font-size:16px;color:#189cfb}
+.w-noContent .successTips-icon{display:block;margin:0 auto;width:110px;height:103px;background:url(../images/goal/successTips-icon.png?v=4cd0f9635c) no-repeat}
+.w-noContent .emptyTips-icon{display:block;margin:0 auto;width:107px;height:92px;background:url(../images/goal/emptyTips-icon.png?v=6c9eb72984) no-repeat}
+/*# sourceMappingURL=../_sass/goal.css.map */

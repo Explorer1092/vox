@@ -1,0 +1,149 @@
+@charset "UTF-8";body,html{height:100%;width:100%}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+.header img{display:block;width:100%}
+.wrapper{padding:0 0 40px;background:#8fecd1 url(../images/pic-btm.jpg?v=5dd71bedaa) no-repeat left bottom;background-size:100% auto}
+.wrapper .container{margin:90px auto 0;width:1000px}
+.wrapper .winn-teach{margin-top:-40px;text-align:center}
+.wrapper .winn-teach .info{display:inline-block;padding:0 40px;height:100%;height:62px;line-height:62px;background-color:#00635d;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+.wrapper .winn-teach .info span{float:left}
+.wrapper .winn-teach .info span.txt{font-size:20px;font-weight:700;color:#fff}
+.wrapper .winn-teach .info span.pic{margin:5px 10px 0;width:50px;height:50px;vertical-align:middle;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;overflow:hidden}
+.wrapper .winn-teach .info span.pic img{display:block;width:100%;height:100%}
+.wrapper .winn-teach .info span.name{max-width:100px;font-size:20px;font-weight:700;color:#fff65f;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.wrapper .winn-teach .info span.school{max-width:300px;padding-left:10px;font-size:18px;color:#fff65f;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.md-box{width:483px;min-height:200px;background-color:#e9fbf4;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:10px;border:6px solid #b1ecdb}
+.l-content{position:relative;float:left;min-height:400px}
+.l-content .main-box{padding:36px 0 140px}
+.r-content{margin-left:503px}
+.i-book{position:absolute;top:-20px;left:-24px;width:80px;height:34px;background:url(../images/i-book.png?v=fe2e4ffaf9) no-repeat;background-size:100% 100%}
+.i-convex{position:absolute;top:-22px;right:-16px;width:200px;height:22px;background:url(../images/i-convex-1.png?v=aff485e2bd) no-repeat;background-size:100% 100%}
+.title{position:absolute;left:50%;top:-48px;margin-left:-188.5px;width:377px;height:76px;line-height:60px;text-align:center;font-size:24px;color:#00635d;font-weight:700;background:url(../images/i-title-1.png?v=dcdf85312c) no-repeat;background-size:100% 100%}
+.tips{text-align:center;font-size:16px;color:#00635d}
+.exam{display:block;padding:15px 0;text-align:center;font-size:16px;color:#fd9141;text-decoration:underline}
+.exam .icon{display:inline-block;margin-left:4px;width:7px;height:9px;background:url(../images/i-triangle.png?v=0b1799a370) no-repeat;background-size:100% 100%}
+.details{padding:0 20px 0;line-height:30px;overflow:hidden}
+.details span{float:left;font-size:18px;color:#00635d}
+.details i{float:right}
+.color-1{color:#7a7a7a}
+.color-2{color:#fd9141}
+.btn-box{padding-top:30px;text-align:center}
+.btn-box a{display:inline-block;width:200px;height:58px;line-height:58px;font-size:16px;font-weight:700}
+.btn-box .disabled{color:#a1a6a4;cursor:default;background:url(../images/btn-disabled.png?v=bdf662a2c2) no-repeat;background-size:100% 100%}
+.btn-box .current{color:#16a076;background:url(../images/btn.png?v=aecd9a4070) no-repeat;background-size:100% 100%}
+.btn-box .dis{cursor:default}
+.tips-2{text-align:center;font-size:14px;color:#7a7a7a}
+.divi-line{margin:34px 22px 0;border-bottom:2px dashed #8cbeb8}
+.md-prize{margin-top:26px;text-align:center}
+.md-prize p{line-height:26px}
+.md-prize .text-1{font-size:18px;font-weight:700;color:#333}
+.md-prize .text-2{font-size:20px;color:#ff7302}
+.md-prize .text-2 span{font-size:12px}
+.md-prize .text-3{font-size:14px;color:#868686}
+.md-prize .text-4{font-size:18px;color:#333}
+.md-prize .img{padding-top:10px}
+.scholarship{position:relative;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}
+.scholarship .i-convex{top:-48px;right:4px;width:196px;height:42px;background:url(../images/i-convex-2.png?v=858c3bf185) no-repeat;background-size:100% 100%}
+.scholarship .title{top:-62px;height:106px;line-height:87px;background:url(../images/i-title-2.png?v=e5bfea0415) no-repeat;background-size:100% 100%}
+.scholarship .exam{padding:20px 0 0;position:relative;z-index:4}
+.scholarship .btn-box{padding:10px 0 6px}
+.descrip{padding:20px 20px 0;overflow:hidden}
+.descrip .l-text{float:left}
+.descrip .l-text .subtit{font-size:18px;color:#00635d}
+.descrip .l-text .inner{padding-top:5px;font-size:14px;color:#7a7a7a}
+.descrip .r-pic{float:right;margin-top:-10px}
+.result-list{position:relative;margin-top:60px}
+.result-list .title{top:-54px;width:376px;height:77px;line-height:60px;background:url(../images/i-title-3.png?v=246aa894fb) no-repeat;background-size:100% 100%}
+.result-list .text{padding-top:30px;text-align:center;font-size:18px;color:#333}
+.result-list .text-2{padding-top:10px}
+.result-list .r-tips{text-align:center;font-size:12px;color:#828282}
+.tab-list{margin:10px 10px 0;font-size:14px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;box-shadow:0 0 10px 0 #d6f3e7;overflow:hidden}
+.tab-list table{width:100%;text-align:center}
+.tab-list table thead tr{background-color:#39d5ab}
+.tab-list table thead td{color:#fff;height:42px;vertical-align:middle}
+.tab-list table tbody tr:nth-child(2n){background-color:#d6f4ea}
+.tab-list table tbody td{height:60px;line-height:60px}
+.tab-list table tbody td a,.tab-list table tbody td i{margin:0 auto;display:block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.tab-list .name{width:20%}
+.tab-list .name i{width:80px}
+.tab-list .schol{width:50%}
+.tab-list .schol i{width:220px}
+.tab-list .winn{width:30%}
+.tab-list .winn a{width:128px}
+.tab-list .viewlist{color:#4da58b;text-decoration:underline}
+.tab-list-2{margin-bottom:10px}
+.tab-list-2 .time{width:20%}
+.tab-list-2 .time i{width:80px}
+.tab-list-2 .name{width:20%}
+.tab-list-2 .name i{width:80px}
+.tab-list-2 .schol{width:40%}
+.tab-list-2 .schol i{width:175px}
+.tab-list-2 .winn{width:20%}
+.tab-list-2 .winn i{width:80px}
+.scorl-box{height:354px;overflow-y:auto}
+.scorl-box .resultEmpty{padding:40px 0;line-height:30px;text-align:center;font-size:20px;color:#838383}
+.popup{position:fixed;left:0;top:0;z-index:9;width:100%;min-width:900px;height:100%;background:rgba(0,0,0,.5)}
+.popinner{position:absolute;left:50%;top:50%;margin:-150px 0 0 -295px;width:590px;height:300px;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background-color:#fff}
+.popinner .pic{padding-top:0;width:156px;height:97px;margin:0 auto;background:url(../images/i-book-2.png?v=d5300ad052) no-repeat top center;background-size:156px 97px}
+.popinner .pic-beans{height:111px;margin-top:-14px;background:url(../images/beans.png?v=d0fdb53763) no-repeat top center;background-size:120px 97px}
+.popinner .txt-1{font-size:20px;font-weight:700;color:#30c49c}
+.popinner .txt-2{height:54px;line-height:27px;padding-top:5px;font-size:16px;color:#676767}
+.popinner .btn-homework{display:block;margin:20px auto 0;width:290px;height:42px;line-height:42px;font-size:18px;font-weight:700;color:#fff;background:url(../images/i-button.png?v=2b17a64504) no-repeat;background-size:100% 100%}
+.popinner .winnersList{height:230px;padding:0 30px;text-align:left;line-height:22px;font-size:14px;color:#676767}
+.popinner .winnersList .titleLabel{margin:0 0 20px;text-align:center;font-weight:700;font-size:20px;color:#30c49c}
+.popinner .winnersList .fontBig{padding-bottom:4px;font-weight:700;font-size:17px}
+.popinner .winnersList .winnerGroup{margin-bottom:15px}
+.popinner .tips-gray{font-size:12px;color:silver}
+.btn-close{display:block;margin-top:10px;width:98%;height:30px;background:url(../images/i-close.png?v=53bdc7520a) no-repeat right center;background-size:20px 20px}
+.rule-descr{position:absolute;left:50%;top:50%;margin:-450px 0 0 -434px;width:868px;height:900px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background-color:#fff;overflow:hidden}
+.rule-descr h2{padding:26px 0 6px;text-align:center;font-size:28px;color:#09a973}
+.rule-descr .foreword{padding:20px 30px 0;min-height:24px}
+.rule-descr .foreword span{padding-left:10px;float:left;font-size:18px;font-weight:700;color:#09a973;background:url(../images/i-line.png?v=abeb37efb6) no-repeat left center;background-size:auto}
+.rule-descr .foreword p{padding-left:66px;line-height:26px}
+.rule-descr .pic{text-align:center}
+.rule-descr .pic p{padding-top:4px;font-size:14px;color:#737373}
+.rule-descr .pic-2{padding-top:20px}
+.rule-descr .list-txt{padding:24px 30px 0}
+.rule-descr .list-txt h4{font-size:20px;color:#333}
+.rule-descr .list-txt p{padding-top:4px;font-size:16px}
+.rule-descr .list-txt p span{padding-left:20px}
+.rule-descr .list-txt .l-txt{padding-top:10px}
+.rule-descr .list-txt .l-txt-2{line-height:26px}
+.rule-descr .list-txt-2{padding-top:0}
+.rule-descr .text-box{margin:14px 0;padding:10px 20px 12px;width:620px;background-color:#e9fbf4;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+.rule-descr .text-box .t-text{padding-top:4px;font-size:14px}
+.rule-descr .text-box .t-text i{font-weight:700}
+.rule-descr .btn-partic{padding:30px 0 20px;text-align:center}
+.rule-descr .btn-partic .btn{display:inline-block;width:246px;height:46px;line-height:46px;font-size:16px;font-weight:700;color:#16a076;background:url(../images/btn-2.png?v=2f47bfaebf) no-repeat;background-size:100% 100%}
+.scorl-box-2{height:95%;overflow-y:auto}

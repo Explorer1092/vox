@@ -1,0 +1,47 @@
+html,body{ width:100%;height:100%;font:14px/100% "微软雅黑","Microsoft YaHei",arial; background-color: #fff;}
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul,div{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{line-height:100%;}
+li,ol,ul{list-style:none;}
+input,select,textarea{outline:0;resize:none;}
+a{ text-decoration: none;}
+.m-main{ width: 100%;}
+/*integral*/
+.integral{}
+.integral .header{ width: 100%; min-width: 960px; height: 232px; background: url(main-bg-top-v1.png) center top no-repeat;}
+.integral .main{ width: 960px; height:auto; margin: 0 auto;}
+.integral .main .mn{ width: 100%; border-bottom: 1px solid #c2e5ff; position: relative; padding: 20px 0;}
+.integral .main .mn .bg{ width: 100%; margin: 0 auto;}
+.integral .main .mn01 .bg{ height: 185px; background: url(main-bg01-v1.png) top center no-repeat;}
+.integral .main .mn02 .bg{ height: 226px; background: url(main-bg02-v1.png) top center no-repeat;}
+.integral .main .mn03 .bg{ height: 400px; background: url(main-bg03-v1.png) top center no-repeat;}
+.integral .main .mn03 .w-btn{ width: 98px; font-size: 12px; position: absolute; bottom: 30px; right: 138px;}
+.integral .main .mn04 .bg{ height: 340px; background: url(main-bg04.png) top center no-repeat;}
+.integral .main .mn05 .bg{ height: 323px; background: url(main-bg05-v1.png) top center no-repeat;}
+.integral .main .mn06 .bg{ height: 395px; background: url(main-bg06-v1.png) top center no-repeat; border-bottom: 0;}
+.integral .main .mn06 .mn06-inner{ width: 100%; text-align: center; height: 50px; padding: 13px 0; position: absolute; bottom: 20px; left: 0;}
+.integral .main .mn06 .mn06-inner a.w-btn{ width: 158px; padding: 14px 0;}
+/*college-box*/
+.college-box{}
+.college-box .header{ width: 100%; min-width: 1000px; height: 179px; background: url(college_top.png) center top no-repeat;}
+.college-box .main .mn{ width: 1000px; margin: 0 auto; position: relative;}
+.college-box .main .mn .cource{ position: absolute; display: block; width: 100px; top: -10px; left: 50%; margin-left: -50px;}
+.college-box .main .mn01{ width: 100%; height: 164px; background: #f9f2ea;}
+.college-box .main .mn01 .bg{ width: 1000px; height: 164px; background: url(college_mnbg01.png) center top no-repeat;}
+.college-box .main .mn01 .cource{ height: 45px; background: url(course01.png) no-repeat;}
+.college-box .main .mn01 .study-btn{ display: block; width: 100px; height: 50px; background: url(study-btn01.png) no-repeat; position: absolute; top: 50px; right: 167px;}
+.college-box .main .mn02{ width: 100%; height: 176px; background: #eaf8f9;}
+.college-box .main .mn02 .bg{ width: 1000px; height: 176px; background: url(college_mnbg02.png) center top no-repeat;}
+.college-box .main .mn02 .cource{ height: 40px; background: url(course02.png) no-repeat;}
+/*cur-task*/
+.cur-task{ width: 100%; height: auto;}
+.cur-task .ctask-inner{ width: 100%; height: auto;}
+.cur-task .ctask-inner .task-cell{ display: block; float: left; position: relative; width: 33.25%; padding: 34px 0 15px 0; border-right: 1px dashed #d3d8df; text-align: center; line-height: 28px;}
+.cur-task .ctask-inner .task-cell .type{ font-size: 20.5px; color: #189cfb;}
+.cur-task .ctask-inner .task-cell .describe{ font-size: 18px; color: #667284;}
+.cur-task .ctask-inner .task-cell .check-btn{ visibility: hidden; font-size: 12px; color: #189cfb; font-weight: bold;position: relative;}
+.cur-task .ctask-inner .task-cell .tips{ position: absolute; display: none; background: #ffef94; border-radius: 3px; width: 280px; *width: 250px; padding: 0 10px; font-size: 10px; color: #b78133; bottom: -15px; left: 43%; *left: 46%;}
+.cur-task .ctask-inner .task-cell .tips span{ display: block; width: 0; height: 0; line-height: 0; font-size: 0; border: 5px solid #fff; border-bottom-color: #ffef94; position: absolute; left: 20px; top: -10px;}
+.cur-task .ctask-inner .task-cell .auth-btn{ width: 80px; padding: 4px 0;}
+.cur-task .ctask-inner .task-cell.success{ background: url(complate-icon.png) right bottom no-repeat;}
+.cur-task .ctask-inner .task-cell.success .check-btn{ visibility: visible;}
+.cur-task .ctask-inner .task-cell.success .tips{ display: block;}

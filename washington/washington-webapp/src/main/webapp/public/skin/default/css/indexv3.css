@@ -1,0 +1,198 @@
+html, body{ font:12px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; }
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+html, body{ width: 100%; height: 100%;}
+html{ background: url(../images/indexv3/back-sky.png) repeat-x #dff4ff fixed 0 -10px;}
+ul,li{ list-style: none;}
+input {outline: none;}
+a{ color: #666; text-decoration: none;}
+.PNG_24{}
+.bodyNoBack{ background: #fff; width: auto; height: auto; }
+.indexBody{ overflow-y: hidden;}
+.event-icon{ cursor: pointer;}
+.w-module-wh { overflow: hidden; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; }
+/*public*/
+.section{ width: 9400px; height: 100%;  overflow: hidden; position: absolute; bottom: 50px; left: 0;}
+.section .b-grassland{background: url(../images/indexv3/back-big.png) no-repeat 0 bottom; z-index: 5;}
+.section .b-mountain-one{background: url(../images/indexv3/mountain-one.png) repeat-x 0 bottom; z-index: 3;}
+.section .b-mountain-two{background: url(../images/indexv3/mountain-two.png) repeat-x -180px bottom; z-index: 1; bottom: 70px; opacity: 0.8; filter:alpha(opacity=80);}
+.section .b-castle-group{ background: url(../images/indexv3/castle-group-back.png) no-repeat ;width: 481px; height: 347px; position: absolute; bottom: 160px; left: 1300px; z-index: 4;}
+/*header*/
+.header{ _position: relative; z-index: 999; }
+.header .inner{position: fixed; left: 0; top: 0; _position: absolute; _left: expression(documentElement.scrollLeft); width: 100%; z-index: 999;}
+.header .nav{ width: 100%; margin: 0 auto; position: relative;}
+.header .logo{ background: url(../images/indexv3/head-logo.png) no-repeat; width: 100px; height: 41px; float: left; margin: 8px 0 0 10px;}
+/*sign-in-box*/
+.sign-in-box{ position: absolute; right: 20px; top: 0; width: 240px; height: 360px; z-index: 999;}
+.sign-in-box .back-login-t{ background: url(../images/indexv3/back-login-t.png) no-repeat; width: 69px; height: 98px; position: absolute; left: -21px; top: 6px; z-index: 3;}
+.sign-in-box ul{ padding-top: 30px; background: url(../images/indexv3/back-login-box.png) no-repeat 0 0; height: 360px; width: 250px;}
+.sign-in-box li.int{ position: relative;  padding: 0 0 0; height: 30px; margin: 0 0 10px 35px; _margin-bottom: 6px;}
+.sign-in-box li.md{ margin: 0 0 8px 48px;}
+.sign-in-box li.mt{ margin: 17px 0 0 40px;}
+.sign-in-box li.PNG_24 .brown{ color: #663300;}
+.sign-in-box li.int label{ position: absolute; color: #e9d1b9; padding: 6px 0; left: 38px; top: 3px; z-index: 2;}
+.sign-in-box li.int input{ border: none; background: url(../images/indexv3/back-login-icon-v1.png) no-repeat 0 -91px; width: 143px; color: #fff; padding: 8px 0 8px 35px;}
+.sign-in-box li.int input.pass{ background-position: 0 -130px;}
+.sign-in-box li.forget{ height: 25px; *height: 22px; color: #663300; margin: 0 0 0 38px; position: relative;}
+.sign-in-box li.forget a{color: #630;}
+.sign-in-box .sign-btn{ cursor: pointer; border: none; background: url(../images/indexv3/back-login-icon-v1.png) no-repeat 0 0; width: 176px; height: 33px; display: block; margin: 0 auto 10px; overflow: hidden;}
+.sign-in-box .sign-btn input{ width: 176px; height: 32px; background: none; border: none; cursor: pointer; display: block; }
+.sign-in-box .sign-btn-hover{ background-position: -179px 0;}
+.sign-in-box .sign-btn-active{ background-position: -358px 0;}
+.sign-in-box .reg-btn{ display: inline-block; vertical-align: middle; width: 90px; height: 32px; overflow: hidden; text-indent: -500px; background: url(../images/indexv3/back-login-icon-v1.png) no-repeat 0 -42px; margin: 0 auto 10px;}
+.sign-in-box .reg-btn:hover{ background-position: -179px -42px;}
+.sign-in-box .reg-btn:active{ background-position: -354px -42px;}
+.sign-in-box .reg-btn-qq{ background: url(../images/indexv3/back-login-icon-v1.png) no-repeat -467px -38px; width: 54px; height: 20px; display: inline-block; vertical-align: middle;}
+.sign-in-box .reg-btn-qq:hover{ background-position: -467px -88px;}
+.sign-in-box .reg-btn-qq:active{ background-position: -467px -138px;}
+.sign-in-box .remember-pass-block { cursor: pointer; float: left;}
+.sign-in-box .remember-pass-block i{ width: 16px; height: 16px; display: block; float: left; margin-right: 5px; background: url(../images/indexv3/back-login-icon-v1.png) no-repeat -231px -142px; }
+.sign-in-box .remember-pass-block input{ height: 5px; width: 5px; overflow: hidden;}
+.sign-in-box .remember-pass-block strong{ font-weight: normal;}
+.sign-in-box .rb_active i{background-position: -267px -142px;}
+.sign-in-box .forgot-pass-block{ display: block; margin-left: 80px; color: #f00000 !important;}
+.sign-in-box .show-hide{ cursor: pointer; text-align: center; width: 45px; margin: 0 auto; height: 26px; padding: 3px 0 0}
+.sign-in-box .show-hide .i-text{ color: #630; float: left;}
+.sign-in-box .show-hide .i-arrow{ background: url(../images/indexv3/back-login-icon-v1.png) no-repeat -193px -143px; width: 15px; height: 10px; display: inline-block;margin:1px 0 0 0; float: right; overflow: hidden;}
+.sign-in-box .show-hide .i-arrow-hide{ background-position: -193px -153px !important;}
+.sign-in-box .error-info{ background: url(../images/indexv3/back-login-icon-v1.png) no-repeat -178px -90px; width: 178px; height: 38px; position: absolute; color: #f33; text-align: center; line-height: 33px; top: -10px; left: 0;}
+.sign-in-box .error-info{ /* fix ie6 */ _background: #FFFDD5; _border: 1px solid #FF4B3D; _width: 160px; _height: 28px; }
+/*nav-main*/
+.nav-main { position: fixed; _position: absolute; right: 0; top: 50%; height: 327px; width: 94px; margin: -150px 0 0; z-index: 888; display: none;}
+.nav-main .inner{overflow: hidden; position: relative; /*_left: expression(documentElement.scrollLeft); _top: 0px;*/}
+.nav-main ul{ background: url(../images/indexv3/back-right-nav.png) no-repeat -83px 0; width: 94px; height: 312px; padding: 15px 0 0; }
+.nav-main li{text-align: center; margin-right: 5px;}
+.nav-main li a{ color: #663300; font-size: 14px; text-decoration: none; line-height: 36px; }
+.nav-main li a:hover{ color: #8c5217;}
+.nav-main li.service-box { margin:10px 0 0;}
+.nav-main li.service-box a .event-icon{ background: url(../images/indexv3/back-right-nav.png) no-repeat 0 0; width: 72px; height: 69px; display: inline-block;}
+.nav-main li.service-box a:hover .event-icon{ background-position: 0 -79px;}
+.nav-main li.service-box a:active .event-icon{ background-position: 0 -158px;}
+/*footer*/
+.footer { position: fixed; bottom: 0; left: 0;  width: 100%; height: 55px; z-index: 777; _position: absolute; _left: expression(documentElement.scrollLeft); background-color: #7e5e27;}
+.footer .inner{ background: url(../images/indexv3/back-grassland.png) repeat-x 0 0 #7f5e29; height: 45px; padding: 10px 0 0;  }
+.footer p{  text-align: center; line-height: 22px; color: #fff; font-size: 12px;}
+/*c-module*/
+.c-main-box{ z-index: 10; bottom: 20px;}
+.c-home, .c-individualized, .c-interesting, .c-intimate, .c-immediate, .c-interactive { width: 1560px; height: 100%; float: left; position: absolute; top: 0;}
+.c-home { background: url(../images/indexv3/future-box/f-1.png) no-repeat center bottom; left: 0;}
+.c-home .play-btn{ width: 71px; height: 70px; bottom: 94px; right: 359px; position: absolute;}
+.c-home .play-btn .event-icon{ width: 71px; height: 70px; display: inline-block; background: url(../images/indexv3/play-back.png) no-repeat 0 -80px;}
+.c-home .play-btn a{ display: block;}
+.c-home .play-btn a:hover .event-icon{ background-position: 0 -80px;}
+.c-home .plane-box{ background: url(../images/indexv3/slogan-back.png) no-repeat; width: 455px; height: 113px; position: absolute; bottom: 420px; left: 200px; }
+.c-home .kite-box{ position: absolute; bottom: 148px; left: 955px;}
+.c-home .kite-box .kite-icon{ position: absolute; background: url("../images/indexv3/kite-icon.png") no-repeat; width: 71px; height: 71px; display: block; left: -28px; top: -34px; z-index: 2;}
+/*c-main-module*/
+.c-individualized { background: url(../images/indexv3/future-box/f-2.png) no-repeat center bottom; left: 1560px;}
+.c-interesting { background: url(../images/indexv3/future-box/f-3.png) no-repeat 480px bottom; left: 3120px; }
+.c-intimate { background: url(../images/indexv3/future-box/f-4.png) no-repeat center bottom; left: 4680px;}
+.c-immediate { background: url(../images/indexv3/future-box/f-5.png) no-repeat 260px bottom; left: 6240px;}
+.c-interactive { background: url(../images/indexv3/future-box/f-6.png) no-repeat 50px bottom; left: 7800px;}
+.t-module-info { background-repeat: no-repeat; width: 471px; height: 216px; position: absolute; bottom: 320px; right: 290px; color: #fff;}
+.t-module-info dt{ height: 95px; margin: 0 25px;}
+.t-module-info dt h4{ font-size: 30px; float: left; padding-top: 45px; font-weight: normal;}
+.t-module-info dt p{ font-size: 24px;float: left; padding: 52px 0 0 15px;}
+.t-module-info dd{ font-size: 14px; line-height: 26px; margin: 0 25px;}
+.t-module-back-1{ background-image: url(../images/indexv3/text-box/t-1.png);}
+.t-module-back-2{ background-image: url(../images/indexv3/text-box/t-2.png); width: 391px; }
+.t-module-back-3{ background-image: url(../images/indexv3/text-box/t-3.png); width: 391px; right: 870px;}
+.t-module-back-4{ background-image: url(../images/indexv3/text-box/t-4.png); width: 313px; right: 940px; bottom: 270px;}
+.t-module-back-5{ background-image: url(../images/indexv3/text-box/t-5.png); width: 313px; height: 221px; right: 380px;}
+/*widget-icon*/
+.widget-icon{ background: url(../images/indexv3/widget-icon.png) no-repeat; display: block;}
+.widget-icon-1{ width: 53px; height: 74px; background-position: 0 0 ;}
+.widget-icon-2{ width: 35px; height: 53px; background-position: -81px 0 ;}
+.widget-icon-3{ width: 29px; height: 29px; background-position: -142px 0 ;}
+.widget-icon-4{ width: 15px; height: 33px; background-position: -186px 0 ;}
+/*cloud*/
+.cloud{ bottom: 40%; position: fixed; overflow: hidden; width: 9400px; _position: absolute; _bottom: 0; _margin:0 !important; opacity: 0.8; filter:alpha(opacity=80);}
+.cloud1{ background: url("../images/indexv3/cloud/cloud01.png") repeat-x 0 0; height: 88px;  margin-bottom: 250px; _bottom: 480px;}
+.cloud2{ background: url("../images/indexv3/cloud/cloud02.png") repeat-x 0 0; height: 106px; margin-bottom: 150px; _bottom: 380px;}
+.cloud3{ background: url("../images/indexv3/cloud/cloud03.png") repeat-x  0 0; height: 127px; margin-bottom: 400px; _bottom: 360px;}
+.balloon-one {position: absolute; bottom: 510px; left: 585px;}
+.balloon-two {position: absolute; bottom: 510px; right: 50px;}
+/*have-sign*/
+.have-sign { }
+.have-sign li{ text-align: center; }
+.have-sign p.wel-text{ color: #630; padding: 60px 0 0; line-height: 22px; font-size: 13px;}
+.have-sign p.user-name{ color: #fff; padding: 5px 0 0; line-height: 22px; font-size: 14px; height: 60px;}
+.have-sign p.user-name font{ color: #fff;}
+.have-sign .btn { clear: both; height: 45px}
+.have-sign .btn span{ background: url(../images/indexv3/have-sign-btn.png) no-repeat; width: 76px; height: 32px; display: inline-block; vertical-align: middle; cursor: pointer;}
+.have-sign .exit-btn{ display: inline-block; margin: 0 5px 0 0;}
+.have-sign .exit-btn span{ background-position: 0 0;}
+.have-sign .exit-btn:hover span{ background-position: 0 -42px;}
+.have-sign .exit-btn:active span{ background-position: 0 -84px;}
+.have-sign .enter-btn span{ background-position: -81px 0;}
+.have-sign .enter-btn:hover span{ background-position: -81px -42px;}
+.have-sign .enter-btn:active span{ background-position: -81px -84px;}
+/*popup - box*/
+div.jqibox { position: fixed !important; }
+div.jqi{ border-radius: 0; padding: 0; border: none; font: 12px/100% "微软雅黑", "Microsoft YaHei", arial, "黑体";}
+div.jqi .jqiclose { font-size: 28px; font-weight: normal; float: right; color: #000; border-left: 1px solid #dfdfdf; padding: 0 13px; height: 47px; line-height: 45px; overflow: hidden;}
+div.jqi .jqistates{ margin-top: -13px;}
+div.jqi .jqititle { color: #383a4b; padding: 16px 0 11px 20px; font-size:18px; border-color: #dfdfdf;}
+div.jqi .jqimessage{ padding: 0; line-height: 100%;}
+div.jqi .jqimessage .w-ag-center { text-align: center; padding: 50px 0 20px; font-size: 14px; }
+div.jqi .jqimessage .jqicontent{ margin: 40px 20px; clear: both; line-height: 30px; text-align: center; color: #666;}
+div.jqi .jqimessage .jqicontent textarea{ border: 1px solid #ddd; overflow: auto; line-height: 22px; font-size: 12px;}
+div.jqi .jqibuttons{ border: none; background: none; text-align: center; padding: 20px 0 30px;}
+div.jqi .jqibuttons button{ background-color: #bad55e; color: #fff; display: inline-block; padding: 12px 35px; text-decoration: none; text-align: center; font: 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; vertical-align: middle; outline: none; cursor: pointer;}
+div.jqi .jqibuttons button:hover{background-color: #d1e97f; color: #fff;}
+div.jqi .jqibuttons button:active{background-color: #a6c244;}
+div.jqi .jqibuttons .jqidefaultbutton{ background-color: #189cfb;}
+div.jqi .jqibuttons .jqidefaultbutton:hover{ background-color: #52b4fb;}
+/*switch-btn-box */
+.switch-btn-box { position: fixed; _position: absolute; left: 10px; top: 50%; margin: -28px 0 0; width: 56px; height: 56px; z-index: 777; cursor: pointer; _margin: 20% 0 0;}
+.switch-btn-box span.c-d{ background: url(../images/indexv3/switch-lr-btn.png) no-repeat 0 0; width: 56px; height: 56px; display: inline-block; cursor: pointer;}
+.switch-btn-box a{ background-position: 0 0; display: block;}
+.switch-btn-box a:hover span.c-d{ background-position: -60px 0;}
+.switch-btn-box a:active span.c-d{ background-position: -120px 0;}
+.switch-btn-box-right { right: 10px; left: auto;}
+.switch-btn-box-right a span.c-d{ background-position: 0 -70px;}
+.switch-btn-box-right a:hover span.c-d{ background-position: -60px -70px;}
+.switch-btn-box-right a:active span.c-d{ background-position: -120px -70px;}
+/*login ----------------------------------*/
+.m-section ,.m-section .m-inner{ background: url(../images/indexv3/login/landingbg.jpg) no-repeat center 120px;}
+.m-section .m-inner{ width: 1000px; margin: 0 auto; height: 700px; position: relative;}
+.m-section .logo, .m-section .logo a{ overflow: hidden;}
+.m-section .logo a{  display: block; background: url(../images/indexv3/login/head-logo.png) no-repeat 0 0;margin: 40px 10px 0; width: 121px; height: 47px;}
+/*.sign-in-box .back-login-t*/
+.m-login-box .sign-in-box ul{ background: url(../images/indexv3/login/landingSign_v1.png) no-repeat; padding-top: 100px;}
+.m-login-box .sign-in-box .back-login-t{top: 100px;}
+/*m-footer*/
+.m-footer, .m-footer .m-inner{ clear: both;  background-color: #fff;  }
+.m-footer .m-inner{ width: 1000px; margin: 0 auto; overflow: hidden; padding: 15px 0; border-top: 1px solid #ddd; }
+.m-footer .copyright{ color: #b9b9b9; font-size: 12px; line-height: 24px;}
+.m-footer .link{ margin-top: 8px;}
+.m-footer .link .spare-icon{ background: url("../images/indexv3/login/m-icon-share.png") no-repeat 500px 500px; display: inline-block; width: 39px; height: 38px; margin-right:20px;}
+.m-footer .link .spare-icon:hover{ background-image: url(../images/indexv3/login/m-icon-share-blue.png)}
+.m-footer .link .spare-weibo{ background-position: 0 0;}
+.m-footer .link .spare-rr{background-position: -62px 0;}
+.m-footer .link .spare-qq{background-position: -124px 0;}
+.m-footer .link .spare-wx{background-position: -185px 0;}
+.m-footer .link .spare-qzone{background-position: -248px 0;}
+/*m-foot-link*/
+.m-footer .m-foot-link { width: 420px;}
+.m-footer .m-foot-link h3{ color: #000; font-size: 16px; height: 25px; padding-left: 10px;}
+.m-footer .m-foot-link a{ display: block; color: #666; line-height: 26px; font-size: 14px;}
+.m-footer .m-foot-link a:hover{ color: #189cfb;}
+.m-footer .m-foot-link .w-fl-left{ width: 120px;}
+.m-footer .w-fl-right{ float: right;}
+.m-footer .w-fl-left{ float: left;}
+.m-footer .m-service { float: right;; width: 165px;}
+.m-footer .m-service .c-title{ color: #667284; font-size: 12px; background: url(../images/indexv3/login/service-icon.png) no-repeat 0 7px; line-height: 25px; padding-left: 45px; margin-bottom: 10px;}
+.m-footer .m-service .c-title strong{ display: block; font-size: 16px;}
+.m-footer .m-service .c-btn {}
+.m-footer .m-service .c-btn a{ display: inline-block; background-color: #77d142; color: #fff; padding: 10px 8px; line-height: 100%; border-radius: 6px; float: left; margin: 0 5px;}
+.m-footer .m-service .c-btn a:hover{ background-color: #92da68;  color: #fff;}
+.m-footer .m-service .c-btn a:active{ background-color: #77d142;}
+.m-footer .m-service .c-btn a.on-service{ background-color: #46c0ea;}
+.m-footer .m-service .c-btn .on-service:hover{ background-color: #6bcdee;}
+.m-footer .m-service .c-btn .on-service:active{ background-color: #46c0ea;}
+.m-login-up { position: relative;}
+.m-login-up .play-btn{ width: 71px; height: 70px; top: 445px; right: 120px; position: absolute;}
+.m-login-up .play-btn .event-icon{ width: 71px; height: 70px; display: inline-block; /*background: url(../images/indexv3/play-back.png) no-repeat 0 -80px;*/}
+.m-login-up .play-btn a{ display: block;}
+.m-login-up .play-btn a:hover .event-icon{ background-position: 0 -80px;}
+.m-login-up .plane-box-h{ width: 620px; height: 140px; position: absolute; top: 40px; left: 100px; }

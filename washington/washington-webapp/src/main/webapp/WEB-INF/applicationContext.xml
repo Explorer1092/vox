@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	                       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <import resource="classpath*:/config/utopia-cdn.xml"/>
+
+    <import resource="classpath*:/config/washington-core.xml"/>
+
+    <context:component-scan base-package="com.voxlearning"/>
+
+    <bean class="com.voxlearning.washington.interceptor.ControllerRequestInterceptor"
+          p:includePatterns="/**"
+          p:excludePatterns="/v1/**,/v2/**,/v3/**,/newexam/marketing/**"
+          p:order="1"/>
+    <bean class="com.voxlearning.washington.interceptor.OpenAuthInterceptor"
+          p:includePatterns="/open/**"
+          p:order="2"/>
+    <bean class="com.voxlearning.washington.interceptor.OpenApiRequestInterceptor"
+          p:includePatterns="/v1/**,/apps/order/**,/v2/**,/v3/**"
+          p:order="3"/>
+    <bean class="com.voxlearning.washington.interceptor.SpecialTeacherRequestInterceptor"
+          p:includePatterns="/specialteacher/**"
+          p:order="4"/>
+    <bean class="com.voxlearning.washington.controller.thirdparty.base.cors.OptionsMethodInterceptor"
+          p:includePatterns="/thirdparty/api/qiyukf/**"
+          p:order="1"/>
+
+
+    <bean class="com.voxlearning.washington.support.WashingtonAuthenticationHandler">
+        <property name="limitedUrls">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="/parent/" value="ROLE_PARENT"/>
+                <entry key="/student/" value="ROLE_STUDENT,ROLE_STUDENT_REP,ROLE_PARENT"/>
+                <entry key="/parentzone/" value="ROLE_STUDENT,ROLE_STUDENT_REP"/>
+                <entry key="/teacher/" value="ROLE_TEACHER,ROLE_TEACHER_REO"/>
+                <entry key="/ambassador/" value="ROLE_TEACHER,ROLE_TEACHER_REO"/>
+                <entry key="/rstaff/" value="ROLE_RESEARCH_STAFF"/>
+                <entry key="/schoolmaster/" value="ROLE_RESEARCH_STAFF"/>
+                <entry key="/mobile/student/" value="ROLE_STUDENT,ROLE_STUDENT_REP"/>
+                <entry key="/exam/paper/" value="ROLE_TEACHER,ROLE_TEACHER_REO,ROLE_RESEARCH_STAFF"/>
+                <entry key="/tts/" value="ROLE_TEACHER,ROLE_TEACHER_REO,ROLE_RESEARCH_STAFF"/>
+                <entry key="/reward/" value="ROLE_TEACHER,ROLE_STUDENT,ROLE_RESEARCH_STAFF"/>
+                <entry key="/campaign/" value="ROLE_TEACHER,ROLE_STUDENT,ROLE_PARENT"/>
+                <entry key="/ucenter/home.vpage"
+                       value="ROLE_PARENT,ROLE_STUDENT,ROLE_STUDENT_REP,ROLE_TEACHER,ROLE_TEACHER_REO,ROLE_RESEARCH_STAFF,ROLE_ADMIN,ROLE_TEMPORARY_EXAMINATION"/>
+                <entry key="/teacher/newexam/" value="ROLE_TEACHER,ROLE_TEACHER_REO"/>
+                <entry key="/afenti/api/" value="ROLE_PARENT,ROLE_STUDENT,ROLE_STUDENT_REP"/>
+                <entry key="/wonderland/" value="ROLE_PARENT,ROLE_STUDENT,ROLE_STUDENT_REP"/>
+                <entry key="/specialteacher/" value="ROLE_RESEARCH_STAFF"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean class="com.voxlearning.alps.webmvc.view.AlpsFreemarkerViewResolver"
+          p:name="default"
+          p:order="1"
+          p:templateLoaderPaths="/WEB-INF/ftl/default"
+          p:autoImport="/common/config.ftl as app,/common/flash.ftl as flash,/common/ftlmacro.ftl as ftlmacro,/nuwa/sugar.ftl as sugar"/>
+    <bean class="com.voxlearning.alps.webmvc.view.AlpsFreemarkerViewResolver"
+          p:name="xml"
+          p:order="2"
+          p:templateLoaderPaths="/WEB-INF/ftl/default"
+          p:autoImport="/common/config.ftl as app,/common/flash.ftl as flash,/common/ftlmacro.ftl as ftlmacro,/nuwa/sugar.ftl as sugar"
+          p:suffix=".xml.ftl"
+          p:contentType="application/xml;charset=UTF-8"
+          p:cacheLimit="4096"
+          p:exposeRequestAttributes="false"
+          p:allowRequestOverride="false"
+          p:exposeSessionAttributes="false"
+          p:allowSessionOverride="false"
+          p:exposeSpringMacroHelpers="true"
+          p:redirectContextRelative="true"
+          p:redirectHttp10Compatible="true"/>
+</beans>

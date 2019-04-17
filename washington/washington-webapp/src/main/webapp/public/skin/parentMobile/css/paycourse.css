@@ -1,0 +1,67 @@
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+html{font:20px/1.5 "Microsoft YaHei",Arial}
+body,html{width:100%;height:100%;color:#333;background:#149ff5}
+body,input,option,select{-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+.fc-header{width:100%}
+.fc-header .bg01{width:100%;height:34.45rem;background:url(../images/activity/paycourse/header-bg01.jpg?v=93fd1a135d) no-repeat;background-size:100% 100%}
+.fc-header .bg02{margin-top:-.05rem;width:100%;height:22.35rem;background:url(../images/activity/paycourse/header-bg02.png?v=cf275f5241) no-repeat;background-size:100% 100%}
+.fc-tab ul{padding:0 1.35rem;overflow:hidden}
+.fc-tab ul li{float:left;width:50%;margin-bottom:1.3rem;text-align:center}
+.fc-tab .tab-icon01{background:url(../images/activity/paycourse/tabBtn01.png?v=622f45f0e0) no-repeat}
+.fc-tab .tab-icon02{background:url(../images/activity/paycourse/tabBtn02.png?v=4de07650f0) no-repeat}
+.fc-tab .tab-icon03{background:url(../images/activity/paycourse/tabBtn03.png?v=19008397b1) no-repeat}
+.fc-tab .tab-icon04{background:url(../images/activity/paycourse/tabBtn04.png?v=627105451b) no-repeat}
+.fc-tab .tab-icon{display:block;width:88%;margin:0 6%;height:4.5rem;background-size:100% 100%}
+.fc-main{padding:.5rem 1.35rem}
+.fc-main .title01{background:url(../images/activity/paycourse/title01.png?v=9aae7900b9) no-repeat}
+.fc-main .title02{background:url(../images/activity/paycourse/title02.png?v=5525e600be) no-repeat}
+.fc-main .title03{background:url(../images/activity/paycourse/title03.png?v=8bbe722d97) no-repeat}
+.fc-main .title04{background:url(../images/activity/paycourse/title04.png?v=0c0ba309aa) no-repeat}
+.fc-main .title{width:100%;height:3.6rem;background-size:100% 100%}
+.fc-main .info01 .section{margin:0 1rem 1.25rem 1rem;overflow:hidden}
+.fc-main .info01 .section .name{width:100%;display:inline-block;font-size:1.2rem;color:#fff01e}
+.fc-main .info01 .section .text{display:inline-block;text-indent:2rem;font-size:1rem;color:#fff}
+.fc-main .info01 .section .leftText{float:left;width:14.5rem}
+.fc-main .info01 .section .pic-3{margin-left:15.5rem;width:12rem;height:8.5rem;background:url(../images/activity/paycourse/data.png?v=daee492500) no-repeat;background-size:100% 100%}
+.fc-main .info01 .section .pic-7{margin:1rem auto 0 auto;width:27.6rem;height:15.3rem;background:url(../images/activity/paycourse/contrast.png?v=70a8400d05) no-repeat;background-size:100% 100%}
+.fc-main .info02{margin:1rem auto;width:29.3rem;height:35rem;background:url(../images/activity/paycourse/lesson-arrange.png?v=ec019118cf) no-repeat;background-size:100% 100%}
+.fc-main .info03{position:relative;margin-left:.7rem;padding-left:1rem;border-left:.2rem solid #fff;color:#fff}
+.fc-main .info03 .name{position:relative;display:inline-block;width:100%;padding:.8rem 0;font-size:1.2rem}
+.fc-main .info03 .name .num{position:absolute;z-index:3;left:-2rem;top:.8rem;display:inline-block;width:1.8rem;height:1.8rem;border-radius:1.8rem;background:#ffeb0d;text-align:center;line-height:1.8rem;font-size:1.2rem;font-weight:700;color:#6a4c41}
+.fc-main .info03 .text{display:inline-block;width:100%;font-size:1rem}
+.fc-main .info03 .text p.padLeft{padding-left:4rem}
+.fc-main .info03 .text p span{display:inline-block}
+.fc-main .info03:before{position:absolute;left:-.3rem;top:-.1rem;display:block;content:"";width:.5rem;height:1rem;background:#149ff5}
+.fc-main .info03:after{position:absolute;left:-.3rem;bottom:-.1rem;display:block;content:"";width:.5rem;height:10rem;background:#149ff5}
+.fc-main .info04{margin:1rem 0;font-size:1.1rem;color:#fff}
+.fc-main .info04 p{margin:.65rem 0;}
+.fc-main .info04 p.padLeft{padding-left:5.5rem}
+.fc-main .info04 p.padLeft-m{padding-left:2rem}
+.fc-main .info04 span{display:inline-block}
+.fc-nav .navFixed{position:fixed;z-index:10;left:0;top:0;width:100%;height:3.6rem;padding-top:4rem;background:#43b2f7;font-size:1.5rem}
+.fc-nav .navFixed div{display:-webkit-box;border-bottom:1px transparent solid}
+.fc-nav .navFixed div a{display:block;width:100%;-webkit-box-flex:1;text-align:center;line-height:3.6rem;color:#fff}
+.fc-nav .navFixed div a.active{background:#fff01e;color:#6a4c41}
+.fc-footer .empty{width:100%;height:5.3rem}
+.fc-footer .footerFixed{position:fixed;z-index:10;left:0;bottom:0;width:100%;height:3.7rem;padding:.8rem 0;background:#ff5015;font-size:1.4rem;color:#fff;overflow:hidden}
+.fc-footer .footerFixed .left{float:left;padding:0 .8rem}
+.fc-footer .footerFixed .left span:first-child{padding-right:1.5rem}
+.fc-footer .footerFixed .right{float:right;margin-right:.8rem;width:11rem}
+.fc-footer .footerFixed .right a{display:block;width:100%;height:3.8rem;line-height:3.8rem;background:#fff01e;border-radius:1.8rem;border-bottom:.2rem solid #d8a908;font-size:1.7rem;font-weight:700;text-align:center;color:#6e5952}
+
+.parentApp-layerBox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 30; }
+.parentApp-layerBox .layerInner { position: absolute; top: 25%; left: 50%; margin: 0 0 0 -44%; width: 88%; background-color: #fff; }
+.parentApp-layerBox .layerHead { padding: 15px 0 0; text-align: center; color: #3b3e47; font-size: 40px; line-height: 50px; }
+.parentApp-layerBox .layerMain { padding: 14px 38px 0 38px; color: #797a7c; font-size: 32px; line-height: 50px; }
+.parentApp-layerBox .layerFoot { padding: 18px 0 15px; text-align: center; }
+.parentApp-layerBox .layerFoot > div { display: inline-block; margin: 0 5px; width: 40%; color: #fff; font-size: 32px; line-height: 50px; cursor: pointer; }
+.parentApp-layerBox .layerFoot > div:last-child { background-color: #5a70d6; }
+.parentApp-layerBox .layerFoot > div:first-child { border: 3px #5a70d6 solid; color: #5a70d6; line-height: 37px; }
+.parentApp-layerBox .layerClose { position: absolute; top: 15px; right: 15px; width: 20px; height: 20px; cursor: pointer; background: url(../images/activity/paycourse/parentApp-layerClose.png) no-repeat 50% 50%; background-size: 100% auto; }

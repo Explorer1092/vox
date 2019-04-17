@@ -1,0 +1,99 @@
+@charset "UTF-8";
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:transparent}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+button,input[type=reset],input[type=button],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}
+a,a:visited{text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+thead{display:table-header-group}
+img,tr{page-break-inside:avoid}
+img{max-width:100%!important}
+@page{margin:.5cm}
+h2,h3,p{orphans:3;widows:3}
+h2,h3{page-break-after:avoid}
+}
+img{display:inherit}
+body,html{width:100%;height:100%}
+.annualReport-box{position:relative;width:100%;height:100%;overflow:hidden}
+.annualReport-box img{width:100%}
+.anr-info{position:absolute;top:3.25rem;right:1.25rem;text-align:right;font-size:.7rem;color:#565c6f}
+.anr-info img{display:inline-block}
+.anr-info .anr-title{position:relative;right:0;padding:.5rem 0}
+.anr-info .anr-title p{line-height:1.2rem}
+.anr-info .anr-title p .num{font-size:.9rem;color:red}
+.anr-info.textLeft{top:2rem;right:auto;left:1.625rem;text-align:left}
+.anr-info.textDown{top:auto;bottom:1rem}
+.anr-info.textTop{top:30%;left:2.5rem}
+.anr-info.textTopDif{top:50%}
+.anr-time{position:absolute;left:0;bottom:1rem;width:100%;text-align:center;font-size:.5rem;color:#bdc2d0}
+.anr-column{padding:0 1.4rem 0 1.625rem}
+.anr-column .colImages{float:left;width:3rem;height:3rem;overflow:hidden}
+.anr-column .colTime{padding:0 0 .1rem 3.75rem;font-size:.6rem;color:#565c6f}
+.anr-column .colComment{position:relative;padding:.625rem .5rem;margin:0 0 0 3.75rem;font-size:.6rem;color:#565c6f;line-height:1.125rem;background-color:#faf8e2;border-radius:1.25rem}
+.anr-column .colComment:after{position:absolute;top:.75rem;left:-.5rem;content:'';width:.5rem;height:.675rem;background:url(../images/annualreport/arrow.png?v=05c662356c) no-repeat;background-size:100% 100%}
+.anr-column.colCenter{padding:0;position:absolute;top:20%;width:100%;text-align:center;overflow:hidden}
+.anr-column.colCenter .colImages{float:none;margin:0 auto}
+.anr-content{position:absolute;top:9rem;width:100%;text-align:center;font-size:.7rem;color:#565c6f}
+.anr-main{position:absolute;top:12.5rem;left:50%;margin:0 0 0 -6.125rem;width:13.125rem;height:7.5rem}
+.anr-main li{position:absolute;bottom:0;width:1.5rem;height:0;text-align:center;font-size:.45rem;color:#607e69;background-color:#f6d6b5}
+.anr-main li .peo{margin:-1.25rem 0 0 0}
+.anr-main li.s-1{left:0rem}
+.anr-main li.s-2{left:2.625rem}
+.anr-main li.s-3{left:5.5rem}
+.anr-main li.s-4{left:8.25rem}
+.anr-main li.s-5{left:11rem}
+.anr-main .mfoot{position:absolute;left:-.625rem;bottom:-1.25rem}
+.anr-main .mfoot .percent{float:left;width:2.75rem;text-align:center;font-size:.35rem;color:#607e69}
+.anr-list{position:absolute;top:8.25rem;margin:0 2.25rem}
+.anr-list li{margin:.125rem 0;padding:.5rem .75rem;display:inline-block;text-align:center;font-size:.7rem;color:#ee6170;background-color:#fff;border-radius:1.25rem}
+.anr-side{position:absolute;top:45%;left:50%;width:7.35rem;margin:0 0 0 -3.675rem}
+.anr-foot{position:absolute;bottom:0;left:0;right:0}
+.play_btn{position:fixed;top:0;right:0;width:3rem;height:3rem;background:url(../images/annualreport/play_btn.png?v=23c01182fb) no-repeat center;background-size:1.975rem 1.975rem;z-index:1}
+.play_btn.close_btn{background:url(../images/annualreport/close_btn.png?v=dd313adab7) no-repeat center;background-size:1.975rem 1.975rem;cursor:default}
+.start_btn{position:absolute;left:50%;bottom:4.25rem;margin:0 0 0 -4.125rem;display:block;width:8.25rem;height:2.7rem;background:url(../images/annualreport/btn01.jpg?v=1858f142e6) no-repeat;background-size:100% 100%}
+.arrowDown_btn{position:fixed;bottom:0;left:50%;margin:0 0 0 -1.875rem;width:3.75rem;height:2.5rem;background:url(../images/annualreport/arrow_down.png?v=f765aa3614) no-repeat center;background-size:2.3rem .9rem}
+.receive_btn{position:absolute;left:50%;bottom:2rem;margin:0 0 0 -6.7625rem;display:block;width:13.525rem;height:2.7rem;background-image:url(../images/annualreport/btn02.png?v=faafe18624);background-repeat:no-repeat;background-size:100% 100%}
+.receive_btn.share_btn{bottom:5rem;background-image:url(../images/annualreport/btn03.png?v=54fcc918b3)}
+.receive_btn.see_btn{background-image:url(../images/annualreport/btn04.png?v=cb5d0ce7df)}
+.receive_btn.view_btn{background-image:url(../images/annualreport/btn05.jpg?v=a3f3c1b675)}

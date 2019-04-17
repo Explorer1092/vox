@@ -1,0 +1,132 @@
+/*reset*/
+html, body{ width: 100%; height: 100%; font:12px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体";}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font:12px/1.125 "微软雅黑", Microsoft YaHei, regular;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none; cursor:pointer; text-decoration: none;}
+img{ vertical-align:middle; border:none;}
+.build_publicimg{ background: url("../images/guideStep/build_icon24.png") no-repeat 500px 500px; _background: url("../images/guideStep/build_icon8.png") no-repeat 500px 500px;}
+/*clear*/
+.clear{ zoom:1;}
+.clear:after{content:""; display:block; clear:both;}
+/*build_head_box*/
+.build_head_box{ height: 100%; width: 100%; position: relative; z-index: 5;}
+.build_head_box .aph-back{ height: 40%; background-color: #fff; width: 100%; position: relative; z-index: 1; opacity: 0.6; filter: alpha(opacity=60);}
+.build_head_box .build_head_main{ width:1000px; position: absolute; top: 0; left: 50%; z-index: 4; margin-left: -500px; }
+.build_head_box .build_head_back{ height: 457px; background: url(../images/guideStep/build_bg.png) no-repeat center bottom; position: absolute; bottom: 134px; width: 100%;left: 0;}
+.build_head_box .build_head_back .text-mobile{ display: none;}
+.build_head_box .build_head_back_mobile{ background-image: url(../images/guideStep/build_bg_v2.png?1.0.0);}
+.build_head_box .build_head_back_mobile .text-mobile{text-align: center;padding-top: 280px;color: #fcc22b; font-size: 14px; display: block;}
+.build_head_box .logo{ background: url("../images/guideStep/build_logo_v2.png") no-repeat 0 0; width: 150px; height: 37px; margin-top: 27px; display: block;}
+.build_head_box h2{ text-align: center; font-size: 30px; font-weight: normal; color: #494751; margin: 50px 0 32px 0;}
+.build_head_box p{ font-size: 18px; color:#777; margin-bottom: 10px; text-align: center;}
+.build_head_box p span{color: #189cfb;}
+.build_head_box_isInvite{ }
+.build_head_box_isInvite .build_head_back{ position: static; height: 620px; background-image: url(../images/guideStep/build_bg_v1.png); margin-bottom: 20px;}
+.build_head_box_isInvite .aph-back{ height: 220px; position: absolute;}
+.build_head_box_isInvite .build_step_btn{ display: none;}
+.build_head_box_isInvite #setPasswordContainer{ background-color: #fff; position: absolute; top: 110px; border: 1px solid #189cfb; border-radius: 3px; width: 500px; right: 0; font-size: 14px;}
+.build_head_box_isInvite #setPasswordContainer h3{ text-align: center; font-size: 20px; color: #666; padding: 0 0 35px; font-weight: normal;}
+.build_head_box_isInvite #setPasswordContainer input{ outline: none;}
+/*build_step_btn*/
+.build_step_btn{width:100%; height: 134px; background-color: #189cfb; text-align: center; overflow: hidden; position: absolute; bottom: 0; z-index: 6;}
+.build_step_btn a{ overflow: hidden; display: block; width: 150px; margin: 0 auto;}
+.build_step_btn  .build_arrow{ background-position: 0 0; width: 45px; height: 45px; display:block; margin:12px auto 20px;}
+.build_step_btn a span{ font-size: 18px; color: #fff; text-align:center;}
+/*build_down_box*/
+.build_down_box{ width: 100%; padding-bottom: 50px; position: relative; z-index: 6;}
+.build_down_box .build_nav{width: 100%; margin:0 auto 30px;  border-bottom:10px solid #dfdfdf; position: relative;}
+.build_down_box .build_nav h4{ text-align: center;color:#189cfb; font-size: 18px; position: absolute; left: 0; top: 40px; width: 100%;}
+.build_down_box .build_nav ul{ width: 1000px; margin: 0 auto;}
+.build_down_box .build_nav ul li{ height: 50px; color:#189cfb; font-size: 18px; width: 250px; white-space:nowrap;text-overflow: ellipsis; float: left; position: relative; padding: 50px 0 20px;}
+.build_down_box .build_nav ul li.active{ border-bottom: 10px solid  #189cfb; margin-bottom: -10px;}
+.build_down_box .build_nav ul li .arrow{ background: url(../images/guideStep/build_rowArrow.png) 0 center no-repeat; width: 42px; height: 10px; display: inline-block;  margin-top:20px;position: absolute; right: 20px; }
+.build_down_box .build_nav ul li em{ display: none;}
+.build_down_box .build_nav ul li.active em{ position: absolute; left: 48%; bottom: -18px; color:#189cfb; display: block; font: 16px/1.125 Arial, Helvetica, sans-serif;}
+.build_down_box .build_nav .sc_4 .arrow{ display: none;}
+.build_down_box .build_info_box{ width: 1000px; margin:0 auto; overflow: hidden; height: 550px;}
+.build_down_box .build_info_box ul{ margin: 0 0 20px 0;}
+.build_down_box .build_info_box li{ float: left; width: 250px; }
+.build_down_box .build_info_box li strong{ font-size: 18px; margin: 0 8px; color: #383a4c; display: inline-block; vertical-align: middle;}
+.build_down_box .build_info_box li .blue_cirl{ background-position:-5px -90px; line-height: 35px;  color: #fff; font-style: normal; vertical-align: middle; display: inline-block; width: 35px; height: 35px; font-size: 25px; text-align: center; }
+.build_down_box .build_info_box li .selected_btn{background-position:-10px -128px;vertical-align: middle; cursor: pointer; display: inline-block; width: 27px; height: 25px; text-align: center;}
+.build_down_box .build_info_box li.active strong{ color:#999;}
+.build_down_box .build_info_box li.active .selected_btn{display: none;}
+.build_down_box .build_info_box li.active .blue_cirl{ background-position: -5px -50px; }
+.build_down_box .build_info_box .build_choice_box{ border: 1px solid #d9d9d9; margin-top: 20px; font-size: 14px; border-radius: 3px; color: #383a4c; width: 227px; height: 54px; padding:20px 0px 38px 32px; position: relative;}
+.build_down_box .build_info_box .build_choice_box .build_arrow{ color: #ccc; font-size: 50px; position: absolute; top: -30px; right: 100px;}
+.build_down_box .build_info_box .build_choice_box .build_arrow span{ color: #fff; position: absolute; top: 1px; left: 0;}
+.build_down_box .build_info_box .build_choice_box p{font-size: 12px; color: #333; margin-bottom: 15px;}
+.build_down_box .build_info_box .build_choice_box a{ color: #383a4c; width: 70px; display: inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.build_down_box .build_info_box .build_choice_box a.active ,.build_down_box .build_info_box .build_choice_box .selected a{ color:#00aced; }
+.build_down_box .build_info_box .build_choice_box .letter-type{ color: #383a4c; width: 36px; display: inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-bottom: 10px;}
+.build_down_box .build_info_box .build_choice_box1{ width: 480px; height:auto; padding: 10px 0px 8px 15px;}
+.build_down_box .build_info_box .build_choice_box1 a{width: 45px; padding-bottom: 10px;}
+.build_down_box .build_info_box .build_choice_box3{ width: 480px; height:auto; padding: 10px 0px 8px 15px;}
+.build_down_box .build_info_box .build_choice_box3 a{width: 80px; padding-bottom: 10px;}
+.build_down_box .build_info_box .build_choice_box2{width: 560px; height:auto; padding: 10px 20px 8px 28px;}
+.build_down_box .build_info_box .build_choice_box2 .menu ul{ border-bottom:2px solid #cccccc;}
+.build_down_box .build_info_box .build_choice_box2 .menu li.selected{ border-bottom:2px solid  #00aced; margin-bottom: -2px;}
+.build_down_box .build_info_box .build_choice_box2 .menu li.selected a{ color:#00aced; }
+.build_down_box .build_info_box .build_choice_box2 .menu li{ float: left; width: 70px; height: 24px; position: relative; text-align: center;}
+.build_down_box .build_info_box .build_choice_box2 .school li{ float: left; width: 180px;}
+.build_down_box .build_info_box .build_choice_box2 .school a{ float: left; width: 100%; height: 32px; line-height: 120%; display: inline-block; overflow: hidden; white-space: normal; font-size: 14px;}
+.build_down_box .build_info_box .build_foot_box{ text-align: center; padding: 40px 0 0;}
+.build_down_box .build_info_box .build_foot_box p{ text-align: center; font-size: 14px; color: #383a4c; margin:50px 0 20px 0;}
+.build_down_box .build_info_box .build_foot_box p a{ color:#00aced; text-decoration: underline; }
+.build_down_box .build_info_box .build_foot_box a.blue{ width: 220px; color: #FFFFFF; font-size: 18px; border-radius: 2px; height: 60px; line-height: 60px; text-align: center; display: inline-block; background-color: #189cfb;}
+.build_down_box .build_info_box .build_foot_box a.blue:hover{ background-color: #62bdff; }
+.build_down_box .build_info_box .build_foot_box a.gray, .build_down_box .build_info_box .build_foot_box a.gray:hover{ background-color: #dfdfdf; cursor: default;}
+/*build_footer_box*/
+.build_footer_box{ width: 100%; border-top: 5px solid #189cfb; height: auto;}
+.build_footer_box .build_main_box{width: 1000px; margin: 0 auto; overflow: hidden; padding: 45px 0;}
+.build_footer_box .build_main_box .left{ float: left;}
+.build_footer_box .build_main_box p{ color: #b9b9b9; font: 12px/1.125 ""; padding-bottom: 10px;}
+.build_footer_box .build_main_box p.spare{ background-color: #FFFFFF; margin-top: 5px;}
+.build_footer_box .build_main_box .spare_img{ background: url("../images/guideStep/spare_icon.png") no-repeat 500px 500px; display: inline-block; width: 39px; height: 38px; margin-right:20px;}
+.build_footer_box .build_main_box .spare_img:hover{ background-image: url(../images/guideStep/spare_icon_blue.png)}
+.build_footer_box .build_main_box .spare_weibo{ background-position: 0 0;}
+.build_footer_box .build_main_box .spare_rr{background-position: -62px 0;}
+.build_footer_box .build_main_box .spare_qq{background-position: -124px 0;}
+.build_footer_box .build_main_box .spare_wx{background-position: -185px 0;}
+.build_footer_box .build_main_box .spare_space{background-position: -248px 0;}
+.build_footer_box .build_main_box .right{ float: right; overflow: hidden; font: 12px/1.125 "";}
+.build_footer_box .build_main_box .right ul{ float:left; width: 125px;}
+.build_footer_box .build_main_box .right ul li{ padding-bottom: 10px;}
+.build_footer_box .build_main_box .right ul li.font a{ font-weight: bold; color: #000000; font-size: 16px;}
+.build_footer_box .build_main_box .right ul li.weixin{ background: url("../images/guideStep/build_weixin.png") no-repeat 0 0; width: 90px; height: 90px;}
+.build_footer_box .build_main_box .right ul li a{ color: #666; font-size: 14px;}
+/*addSchoolBox*/
+.addSchoolBox{ clear: both; border-top: 1px solid #d9d9d9; margin: 0 -20px 0 -28px; padding: 17px; color: #383a4c; font-size: 14px; text-align: center;}
+.addSchoolBox a{ color: #52b4fb !important; display: inline !important; text-decoration: underline;}
+/*.build_down_box .build_info_box .build_choice_box4*/
+.build_down_box .build_info_box .build_choice_box4{  clear: both;}
+.build_down_box .build_info_box .build_choice_box4 p{ margin-bottom: 38px;}
+.build_down_box .build_info_box .build_choice_box4 ul{ overflow: hidden; color: #000000;}
+.build_down_box .build_info_box .build_choice_box4 dt{ float: left; padding-top: 10px; }
+.build_down_box .build_info_box .build_choice_box4 dd{ margin-left: 118px; _margin-left: 110px; padding-bottom: 10px;}
+.build_down_box .build_info_box .build_choice_box4 dd b{ margin:14px 4px 0 2px; float: left; font-weight: normal;}
+.build_down_box .build_info_box .build_choice_box4 dd input{ width: 220px; height: 38px; border: 1px solid #cccccc; line-height: 38px; border-radius: 3px; outline: none; padding: 0 10px;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down{ display: inline-block; float: left; position: relative; border: 1px solid #cccccc; position: relative; border-radius: 3px; width: 125px; height: 38px; cursor: pointer;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down em{ position: absolute; line-height: 38px; text-indent: 1em; font-style: normal; width: 84px; white-space: nowrap; overflow: hidden;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down .arrow{position:absolute; width: 39px; height: 38px; border-left: 1px solid #cccccc; right: 0; background: url("../images/guideStep/build_arrow.png") no-repeat center center; }
+.build_down_box .build_info_box .build_choice_box4 dd .select_down .selectList{ position:absolute; background-color: #FFFFFF;  text-align: center; z-index: 2; border: 1px solid #cccccc; top: 43px; width: 125px; overflow: hidden; overflow-y: auto; display: none; height: 140px;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down .selectList a{ width: 125px; padding: 5px 0;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down .selectList a:hover, .build_down_box .build_info_box .build_choice_box4 dd .select_down .selectList a.active{ background-color: #189cfb; color: #FFFFFF;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down_active{ border-color:#189cfb; }
+.build_down_box .build_info_box .build_choice_box4 dd .select_down_active .selectList{ display: block;}
+.build_down_box .build_info_box .build_choice_box4 dd .select_down_active .arrow{ border-color:#189cfb!important; background: #189cfb url("../images/guideStep/build_arrow_active.png") no-repeat center center!important; }
+.build_down_box .build_info_box .build_choice_box4 dd .line{ background: url("../images/guideStep/btn_line.png") repeat-x 300px 300px;  color: #FFFFFF; text-align: center; width: 155px; height: 40px; display: inline-block; line-height: 38px; border-radius: 5px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_close{ background-position: 0 -164px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_close:hover{background-position: 0 -209px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_sure{background-position: 0 0px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_sure:hover{background-position: 0 -82px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_sure:active{background-position: 0 -41px;}
+.build_down_box .build_info_box .build_choice_box4 dd .botton_gray{background-position: 0 -123px !important;}
+.stepGuideContent .contentMe{ display: inline-block; width: 150px; overflow: hidden;  text-overflow: ellipsis; background-color: #189cfb; padding: 16px 0; text-align: center; color: #fff; margin-left: 6px;}
+#infoContentBox{height: 50px; color: #d00;}
+/*participateInKeTi*/
+.participateInKeTi{ background: url(../images/guideStep/build_bg_popup.jpg) no-repeat 0 0; width: 690px; height: 400px; overflow: hidden;}
+.participateInKeTi .btn{ padding: 304px 0 0 270px; }

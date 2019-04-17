@@ -1,0 +1,91 @@
+html, body { background: url(images/ex.jpg) repeat-x #4597e9 0 48px; }
+html, body, p, ul, li, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; line-height: 1.125; }
+ul, li { list-style: none; }
+a{ text-decoration:none;}
+.clear { clear: both; }
+/*icon*/
+.ex_icon { background: url(images/icon.png) no-repeat 0 0; _background: url(images/icon_8.png) no-repeat 0 0; width: 32px; height: 32px; display: inline-block; vertical-align: text-top; margin: 0 5px; }
+.ex_icon_1 { background-position: 0 0; }
+.ex_icon_2 { background-position: -45px 0; }
+.ex_icon_3 { background-position: -89px 2px; }
+.ex_icon_4 { background-position: -132px 0; width: 44px; height: 34px; }
+.ex_icon_5 { background-position: -187px 0; width: 91px; height: 27px; cursor: pointer; line-height:26px; color:#fff; text-align:center;}
+.ex_icon_6 { background-position: -289px 0; width: 37px; height: 56px; }
+.ex_icon_7 { background-position: -289px 0; width: 37px; height: 56px; }
+.ex_icon_8 { background-position: -336px 0; width: 35px; height: 36px; }
+.ex_icon_9 { background-position: -384px 0; width: 147px; height: 41px; cursor: pointer;}
+.ex_icon_10{ background-position: 2px -45px; width:16px; height:16px;}
+.ex_icon_11{ background-position: -22px -45px; width:16px; height:16px;}
+/*header*/
+.header { width: 960px; margin: 0 auto; background: url(images/ex-02.jpg?1.1.0) no-repeat #fff; height: 420px; position: relative; }
+.header .pro{ background: url(images/ex-02-p.jpg) no-repeat; width: 360px; height: 140px; position: absolute; top: 216px; left: 50px;}
+.header .menu { position: absolute; right: 50px; bottom: 10px; }
+.header .menu li { float: left; padding-left: 10px; }
+.header .menu li a { background: url(images/menu.png?1.0.1) no-repeat; _background: url(images/menu_8.png?1.0.1) no-repeat; width: 145px; height: 44px; display: block; }
+.header .menu li.n_1 a { background-position: 0 0; }
+.header .menu li.n_2 a { background-position: -153px 0; }
+.header .menu li.n_3 a { background-position: -306px 0; }
+.header .menu li.n_1 a:hover{ background-position: 0 -47px; }
+.header .menu li.n_2 a:hover{ background-position: -153px -47px; }
+.header .menu li.n_3 a:hover{ background-position: -306px -47px; }
+.header .menu li.n_1 .active { background-position: 0 -98px !important; }
+.header .menu li.n_2 .active { background-position: -153px -98px !important; }
+.header .menu li.n_3 .active { background-position: -306px -98px !important; }
+.header .immed_btn { padding: 282px 0 0 135px }
+.header .immed_btn a { display: block; width: 127px; height: 38px; }
+.main { background-color: #fff; width: 960px; margin: 0 auto 20px; }
+/*article*/
+.article { width: 900px; margin: 0 auto; padding:0 0 30px;}
+.article h1 { background: url(images/back_line_blue.png); height: 55px; color: #fff; font: bold 24px/55px "微软雅黑", "Microsoft YaHei", Arial, "黑体"; padding: 0 20px; }
+.article h1 strong { line-height: 55px; display: inline-block; }
+/*exam groud*/
+.paperContestBox { margin: 0 auto; position: relative; }
+.paperContestBox .bigBox { clear: both; background-color: #ecf4fd; padding: 10px 0 10px 18px; margin: 0 0 20px; overflow: hidden; height: 100%; }
+.paperContestBox .bigBox h2 { font: bold 14px/1.125 arial; color: #333; padding: 10px; }
+.paperContestBox .bigBox p { padding: 0 10px; height: 50px; font: bold 12px/22px arial; background-color: #fff; margin: 4px 3px; width: 187px; color: #222; border: 1px solid #ddd; cursor: pointer; text-align: center; float: left;  position: relative; }
+.paperContestBox .bigBox p .ex_icon_4 { position: absolute; right: -10px; top: -10px; }
+.paperContestBox .bigBox p .ctn { display: inline-block; vertical-align: middle;  }
+.paperContestBox .bigBox p .mid { display: inline-block; vertical-align: middle; height: 100%; }
+.paperContestBox .bigBox p span.tm { font: 12px/1.125 arial; display: block; width: 100%; }
+.paperContestBox .bigBox p span.tm b { color: #f00; }
+.paperContestBox .bigBox .active { background-color: #6faeee; color: #fff; }
+.paperContestBox .bigBox .over, .paperContestBox .bigBox p:hover { border-color: #91bae4; }
+/*latest_awards*/
+.latest_awards { width: 920px; margin: 0 0 10px -10px; }
+.latest_awards h1 { background: url(images/ex.png) no-repeat; height: 116px; }
+.latest_awards h1 ul{ float: right; padding:38px 50px 0 0; width:500px;}
+.latest_awards h1 li{ font:12px/1.125 arial; color:#fce6ad; line-height:22px;}
+.latest_awards .inner { height: 360px; background: url(images/ex.jpg) repeat-x 0 -20px; width: 900px; margin: 0 auto; }
+.latest_awards .inner li { background: url(images/ex-04.png) no-repeat center 0; width: 260px; height: 270px; float: left; text-align:center; margin:10px 0 0; padding:70px 20px 0;font:12px/1.125 arial;}
+.latest_awards .inner li p{ width:190px; margin:0 auto; line-height:20px;}
+.latest_awards .inner li p.i_1{ height:50px; padding:10px 0 0; overflow:hidden;}
+.latest_awards .inner li p.i_2{ height:45px; width:160px; padding:5px 0 0; overflow:hidden;}
+.latest_awards .inner li p.i_3{ height:60px; overflow:hidden;}
+.latest_awards .inner li p.i_4{ padding:0 0 5px; font: bold 24px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#e16c34;}
+.latest_awards .inner li p.i_5{ height:50px;}
+/*activi_intro*/
+.activi_intro{ background-color:#f1f6fd; padding: 0 0 10px;}
+.activi_intro .ai_1{ font: bold 14px/1.125 Arial, Helvetica, sans-serif; padding:20px 50px; color:#333;}
+.activi_intro .ai_1 p{ line-height: 28px;}
+.activi_intro .ai_1 strong{ font-size:24px; font-family:"微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#ff6500;}
+.activi_intro .ai_2{ background:url(images/back_line_blue.png); height:74px; padding:10px 0 0; position: relative; margin: 10px 0;}
+.activi_intro .ai_2 p{ text-align:center; padding:5px; font:20px/1.125 "微软雅黑", "Microsoft YaHei", Arial, "黑体"; color:#fff;}
+.activi_intro .ai_2 .book{ background:url(images/ex-05.png) no-repeat; width:150px; height:110px; position:absolute; left:0; top:-16px;}
+.activi_intro  h3{ background:url(images/back_line_green.png) -10px 0; padding:8px 0; color:#fff; width:120px; font-size:14px; text-align: center; margin: 0 0 10px;}
+.activi_intro .border_line{ border:1px solid #ddd; font-size:12px; padding:0 0 15px; margin:20px; clear:both; background-color:#e8f1fc;}
+.activi_intro .border_line p{ line-height:22px; padding:5px 30px;}
+.activi_intro .border_line p strong{ color: #f00;}
+.activi_intro .num_ks{ font: bold 12px/1.125 arial; color:#333; background-color:#cdeb8b; display:inline-block; vertical-align:middle; padding:2px 4px; margin:0 5px 0 0; border:1px solid #aacf58;}
+.activi_intro .ai_3{ margin:20px; height:300px;}
+.activi_intro .ai_3 ul{ margin:20px 0 0;}
+.activi_intro .ai_3 li{ float:left; background: url(images/ex-06.png) no-repeat center 0; width:187px; height:217px; font-size:12px; text-align:center; padding: 0 13px;}
+.activi_intro .ai_3 li p{ width:160px; margin:0 auto;}
+.activi_intro .ai_3 li p.i_1{ height:50px; padding:30px 0 0;}
+.activi_intro .ai_3 li p.i_2{ height:60px; padding:0 0 0;}
+/*inof_use*/
+.inof_use{ padding: 0 0 20px;}
+.inof_use .border_me{ border:1px solid #cedceb; padding: 1px; float:left; width:49%; height:340px;}
+.inof_use .border_me h3{ background:url(images/back_line_blue.png) ; font-size:14px; color:#fff; padding:10px;}
+.inof_use .border_me p{ padding:10px 20px; font-size:12px; color: #333; line-height:20px;}
+/**/
+.driftSideNavs .showyInline a.top, .driftSideNavs .showyInline a.top:hover{ background: url(images/driftSideNavs.png) no-repeat 0 0 !important;  width: 68px; height: 68px;}

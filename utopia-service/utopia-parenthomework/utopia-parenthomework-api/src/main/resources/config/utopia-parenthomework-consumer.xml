@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ SHANGHAI SUNNY EDUCATION, INC. CONFIDENTIAL
+  ~
+  ~ Copyright 2011-2016 Shanghai Sunny Education, Inc. All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains the property of
+  ~ Shanghai Sunny Education, Inc. and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Shanghai Sunny
+  ~ Education, Inc. and its suppliers and may be covered by patents, patents
+  ~ in process, and are protected by trade secret or copyright law. Dissemination
+  ~ of this information or reproduction of this material is strictly forbidden
+  ~ unless prior written permission is obtained from Shanghai Sunny Education, Inc.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="flashGameServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.FlashGameServiceClient"/>-->
+    <!--<bean id="homeworkCommentLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.HomeworkCommentLoaderClient"/>-->
+    <!--<bean id="homeworkCommentServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.HomeworkCommentServiceClient"/>-->
+    <!--<bean id="newAccomplishmentLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewAccomplishmentLoaderClient"/>-->
+    <!--<bean id="newHomeworkCacheServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkCacheServiceClient"/>-->
+    <!--<bean id="newHomeworkContentServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkContentServiceClient"/>-->
+    <!--<bean id="newHomeworkCrmServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkCrmServiceClient"/>-->
+    <!--<bean id="newHomeworkCrmLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkCrmLoaderClient" />-->
+    <!--<bean id="newHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkLoaderClient"/>-->
+    <!--<bean id="newHomeworkPartLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkPartLoaderClient"/>-->
+    <!--<bean id="newHomeworkProcessResultLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkProcessResultLoaderClient"/>-->
+    <!--<bean id="newHomeworkReportServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkReportServiceClient"/>-->
+    <!--<bean id="newHomeworkResultLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkResultLoaderClient"/>-->
+    <!--<bean id="newHomeworkResultSrviceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkResultServiceClient"/>-->
+    <!--<bean id="newHomeworkQueueServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkQueueServiceClient"/>-->
+    <!--<bean id="newHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.NewHomeworkServiceClient"/>-->
+    <!--<bean id="pictureBookHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.PictureBookHomeworkServiceClient"/>-->
+    <!--<bean id="studentAccomplishmentLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.StudentAccomplishmentLoaderClient"/>-->
+    <!--<bean id="voiceRecommendLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.VoiceRecommendLoaderClient"/>-->
+    <!--<bean id="readReciteHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.ReadReciteHomeworkServiceClient"/>-->
+    <!--<bean id="offlineHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.OfflineHomeworkLoaderClient"/>-->
+    <!--<bean id="offlineHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.OfflineHomeworkServiceClient"/>-->
+    <!--<bean id="videoHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.VideoHomeworkServiceClient"/>-->
+    <!--<bean id="vacationHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.VacationHomeworkServiceClient" />-->
+    <!--<bean id="vacationHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.VacationHomeworkLoaderClient"/>-->
+    <!--<bean id="middleSchoolHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.MiddleSchoolHomeworkLoaderClient"/>-->
+    <!--<bean id="basicReviewHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.BasicReviewHomeworkLoaderClient"/>-->
+    <!--<bean id="basicReviewHomeworkCacheLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.BasicReviewHomeworkCacheLoaderClient"/>-->
+    <!--<bean id="dubbingHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.DubbingHomeworkServiceClient"/>-->
+
+    <!--<bean id="weekReportLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.WeekReportLoaderClient"/>-->
+
+    <!--<bean id="weekReportServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.WeekReportServiceClient"/>-->
+    <!--<bean id="basicReviewHomeworkReportLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.BasicReviewHomeworkReportLoaderClient"/>-->
+
+    <!--<bean id="dpLiveCastHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.DPLiveCastHomeworkServiceClient"/>-->
+    <!--<bean id="dpLiveCastHomeworkReportLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.DPLiveCastHomeworkReportLoaderClient"/>-->
+    <!--<bean id="vacationHomeworkPackageLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.VacationHomeworkPackageLoaderClient"/>-->
+    <!--<bean id="termPlanLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.TermPlanLoaderClient"/>-->
+    <!--<bean id="readingReportLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.ReadingReportLoaderClient"/>-->
+    <!--<bean id="readingReportServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.ReadingReportServiceClient"/>-->
+    <!--<bean id="operationalActivitiesLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.OperationalActivitiesLoaderClient"/>-->
+    <!--<bean id="diagnoseReportServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.DiagnoseReportServiceClient"/>-->
+    <!--<bean id="wordRecognitionHomeworkServiceClient" class="com.voxlearning.utopia.service.newhomework.consumer.WordRecognitionHomeworkServiceClient"/>-->
+    <!--<bean id="dubbingScoreRecommendLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.DubbingScoreRecommendLoaderClient"/>-->
+    <!--<bean id="selfStudyHomeworkLoaderClient" class="com.voxlearning.utopia.service.newhomework.consumer.SelfStudyHomeworkLoaderClient"/>-->
+
+</beans>

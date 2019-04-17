@@ -1,0 +1,82 @@
+@charset "UTF-8";
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body{color:#333;font:12px/1.5 "微软雅黑","Microsoft YaHei",Arial,"黑体"}
+button,input,select{vertical-align:middle;font-size:100%}
+li,ol,ul{list-style:none}
+fieldset,img{border:0}
+em{font-style:normal}
+a{text-decoration:none}
+.clearfix:after{content:".";display:block;visibility:hidden;clear:both;height:0;font-size:0}
+.clearfix{*zoom:1}
+body{background:url(../images/bg-01-v.png?v=5b19ac5e81) repeat}
+.section-01{position:relative;padding:215px 0 0;height:523px;background:url(../images/bg-02-v.png?v=59efd9d10f) 50% 0;z-index:1}
+.section-01 .wrap{position:relative;margin:0 auto;width:885px;height:523px}
+.section-01 .main{margin:0 auto;padding:157px 0 0;width:492px;height:152px;background:url(../images/bg-03-v.png?v=b3f4ecd42a) no-repeat 50% 157px}
+.section-01 .main .code{float:left;_display:inline;margin:11px 16px 0 18px;width:88px;height:88px}
+.section-01 .main .code img{display:block;width:100%;height:100%}
+.section-01 .main .white{position:relative;padding:11px 0 0;height:88px;overflow:hidden;color:#fff;font-size:14px;line-height:20px}
+.section-01 .main .white span{font-size:18px}
+.section-01 .main .white .app,.section-01 .main .white .txt{position:relative;float:left;margin:0 0 10px;width:30%;height:40px;overflow:hidden}
+.section-01 .main .white .app{padding:0 16px 0 36px;background:url(../images/icon-17.png?v=3620541e0b) no-repeat 0 50%}
+.section-01 .main .white .txt{padding:0 16px 0 0}
+.section-01 .main .white .font18{padding:10px 0;font-size:18px}
+.section-01 .main .white .prom{position:relative;float:left;width:100%;color:#085697;font-size:14px;line-height:20px}
+.section-01 .main .btn{display:block;margin:10px auto 0;width:278px;height:70px;text-align:center;color:#ce3147;font-size:30px;line-height:62px;font-weight:700;background:url(../images/btn-01.png?v=bc0f530ac9) no-repeat}
+.section-01 .main .btn:hover{background:url(../images/btn-02.png?v=a6fb5b8722) no-repeat}
+.section-01 .main .btn.deabled{color:#939393;background:url(../images/btn-03.png?v=57d2441edd) no-repeat;cursor:default}
+.section-01 .icon-01,.section-01 .icon-02,.section-01 .icon-03,.section-01 .icon-04,.section-01 .icon-05,.section-01 .icon-06,.section-01 .icon-07,.section-01 .icon-08{position:absolute;width:148px;height:98px;background-repeat:no-repeat;background-position:50% 50%}
+.section-01 .icon-01{top:202px;right:35px;background-image:url(../images/icon-01.png?v=9e262a5d6e)}
+.section-01 .icon-01.active{background-image:url(../images/icon-09.png?v=9fe58b9b6e)}
+.section-01 .icon-02{top:350px;right:105px;background-image:url(../images/icon-02.png?v=8aa90a5b62)}
+.section-01 .icon-02.active{background-image:url(../images/icon-10.png?v=a503c44ca1)}
+.section-01 .icon-03{top:350px;left:383px;background-image:url(../images/icon-03.png?v=866e173be2)}
+.section-01 .icon-03.active{background-image:url(../images/icon-11.png?v=544eb15fd9)}
+.section-01 .icon-04{top:350px;left:105px;background-image:url(../images/icon-04.png?v=9eb44b100a)}
+.section-01 .icon-04.active{background-image:url(../images/icon-12.png?v=ae81533730)}
+.section-01 .icon-05{top:202px;left:39px;background-image:url(../images/icon-05.png?v=5ad6a66cf3)}
+.section-01 .icon-05.active{background-image:url(../images/icon-13.png?v=ef411e696c)}
+.section-01 .icon-06{top:42px;left:105px;background-image:url(../images/icon-06.png?v=05181e35a4)}
+.section-01 .icon-06.active{background-image:url(../images/icon-14.png?v=587e4a78b6)}
+.section-01 .icon-07{top:42px;left:375px;background-image:url(../images/icon-07.png?v=7df2628dff)}
+.section-01 .icon-07.active{background-image:url(../images/icon-15.png?v=57da3a4ff0)}
+.section-01 .icon-08{top:42px;right:107px;background-image:url(../images/icon-08.png?v=31b83105e6)}
+.section-01 .icon-08.active{background-image:url(../images/icon-16.png?v=7ee902a6fa)}
+.head{margin:-86px auto 0;padding:86px 0 42px;width:885px;height:80px;text-align:center;color:#fffd7d;font-size:30px;line-height:50px;background:url(../images/bg-04-v.png?v=a6ab31a1e5) no-repeat 50% 50%}
+.section-02{position:relative;margin:-58px auto 0;width:885px;z-index:1}
+.section-02 .wrap{position:relative;margin:0 -70px 0 -7px;padding:21px 70px 0 7px;height:591px;background:url(../images/bg-05-v.png?v=3f18bc28b5) no-repeat}
+.section-02 .head-1,.section-02 .head-2,.section-02 .head-3,.section-02 .head-4,.section-02 .text-1,.section-02 .text-2,.section-02 .text-3,.section-02 .text-4{position:absolute}
+.section-02 .head-1,.section-02 .head-2{top:27px;color:#8a3112;font-size:24px;line-height:34px}
+.section-02 .head-1{left:102px}
+.section-02 .head-2{left:398px}
+.section-02 .head-3{top:160px;left:398px;color:#8a3112;font-size:18px;line-height:26px}
+.section-02 .head-4{top:357px;left:104px;color:#505083;font-size:24px;line-height:34px}
+.section-02 .text-1,.section-02 .text-3,.section-02 .text-4{overflow-y:auto}
+.section-02 .text-1,.section-02 .text-2,.section-02 .text-3{color:#fff}
+.section-02 .text-1{top:78px;left:102px;width:250px;height:196px;font-size:16px;line-height:28px}
+.section-02 .text-2,.section-02 .text-3{width:470px;font-size:14px;line-height:22px}
+.section-02 .text-2 span,.section-02 .text-3 span{color:#fcff00}
+.section-02 .text-2{top:85px;left:398px}
+.section-02 .text-2 .n1,.section-02 .text-2 .n2,.section-02 .text-2 .n3{margin:0 0 0 -27px;padding:0 0 0 27px;background-repeat:no-repeat;background-position:0 50%}
+.section-02 .text-2 .n1{background-image:url(../images/icon-18.png?v=ede19cd22b)}
+.section-02 .text-2 .n2{background-image:url(../images/icon-19.png?v=fe6fa22e06)}
+.section-02 .text-2 .n3{background-image:url(../images/icon-20.png?v=75b3b776d8)}
+.section-02 .text-3{top:191px;left:398px;height:88px}
+.section-02 .text-4{top:402px;left:104px;width:730px;height:180px;color:#505083;font-size:14px;line-height:30px}
+.footer{margin:60px auto 0;width:960px}
+.footer .nav{border-top:1px solid #a197ff;border-bottom:1px solid #a197ff}
+.footer .nav ul{margin:0 auto;width:960px;overflow:hidden}
+.footer .nav ul li{float:left}
+.footer .nav ul li a{margin:15px 17px 10px;display:inline-block;vertical-align:middle;color:#fff}
+.footer .nav ul li a:hover{color:#fcff00}
+.footer .copy{padding:54px 0 40px;text-align:center;color:#fff;font-size:12px;line-height:20px}
+.lotteryInner{width:474px}
+.lotteryInner .title{position:relative;width:100%;height:55px;line-height:55px;text-align:center;font-size:28px;color:#fff;background:url(../images/lottery-t01.png?v=960f6147f6) no-repeat}
+.lotteryInner .title .close{cursor:pointer;position:absolute;right:0;top:0;display:block;width:60px;height:55px}
+.lotteryInner .btnBox{padding:34px 0 12px 0;text-align:center}
+.lotteryInner .btnBox .btn{display:inline-block;width:300px;height:70px;background-color:#ffda45;line-height:70px;box-shadow:0 10px 0 #e0a92d;border-radius:8px;font-size:28px;color:#d3374d}
+.lotteryInner .lt-main{padding:37px 20px 12px 20px;background-color:#acadfd;border-radius:0 0 10px 10px}
+.lotteryInner .lt-main .txt{height:80px;line-height:40px;text-align:center;font-size:24px;color:#5a50c0}
+.lotteryInner.tipsSuccess .title{height:102px;background:url(../images/lottery-t02.png?v=b9392eac63) no-repeat}
+.lotteryInner.tipsSuccess .lt-main{padding-top:0;background-color:#ff653c}
+.lotteryInner.tipsSuccess .lt-main .txt{color:#fff}
+.lotteryInner.tipsSuccess .lt-main .btnBox{padding-top:24px}

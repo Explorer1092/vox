@@ -1,0 +1,47 @@
+html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}
+}
+@media only screen and (min-width:375px){html{font-size:21px!important}
+}
+@media only screen and (min-width:400px){html{font-size:22px!important}
+}
+@media only screen and (min-width:414px){html{font-size:23px!important}
+}
+@media only screen and (min-width:480px){html{font-size:24px!important}
+}
+@media only screen and (min-width:540px){html{font-size:26px!important}
+}
+@media only screen and (min-width:640px){html{font-size:28px!important}
+}
+@media only screen and (min-width:768px){html{font-size:30px!important}
+}
+@media only screen and (min-width:960px){html{font-size:36px!important}
+}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+body,input,option,select{color:#333;line-height:1.5;font-family:"Heiti SC",Rotobo,Arial;-webkit-text-size-adjust:none}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+button,input,textarea{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a,a:visited{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:focus::-webkit-input-placeholder{color:transparent}
+input::-webkit-input-placeholder{color:#999}
+input:focus::-moz-placeholder{color:transparent}
+input::-moz-placeholder{color:#999}
+input:focus:-ms-input-placeholder{color:transparent}
+input:-ms-input-placeholder{color:#999}
+button,input[type=button],input[type=text],input[type=password],input[type=submit],input[type=search],input[type=email],input[type=number],input[type=phone],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;border-image:none;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
+*{-webkit-tap-highlight-color:transparent;background-clip:padding-box}
+.banner{position:relative;height:8.5rem;background:url(../../images/downloadGuide/bg-01.png?v=3d81973af8) no-repeat;background-size:100% 100%}
+.banner .box{position:absolute;top:50%;left:0;right:0;text-align:center;color:#3ba94c;font-size:1.2rem;line-height:1.7rem;-webkit-transform:translate(0,-50%)}
+.banner .box .btn{display:block;margin:.75rem auto 0;width:7rem;text-align:center;color:#fff;font-size:.75rem;line-height:2.15rem;background-color:#41bb54;border-radius:1.075rem;cursor: pointer;}
+.wrap{padding:1rem}
+.text{font-size:.75rem;line-height:1.25rem}
+.img{padding:.65rem 0 1.65rem}
+.img .bg-1,.img .bg-2,.img .bg-3{display:block;margin:0 auto;max-width:100%;background-repeat:no-repeat;background-size:100% 100%}
+.img .bg-1{width:12.45rem;height:10.025rem;background-image:url(../../images/downloadGuide/img-01.png?v=b9c1c575a9)}
+.img .bg-2{width:12.475rem;height:6.275rem;background-image:url(../../images/downloadGuide/img-02.png?v=16db00316a)}
+.img .bg-3{width:12.475rem;height:10.2rem;background-image:url(../../images/downloadGuide/img-03.png?v=a3e70a601c)}
+.btn{display:block;margin:2rem auto 0;width:68%;text-align:center;color:#fff;font-size:.75rem;line-height:2.15rem;background-color:#41bb54;border-radius:1.075rem}

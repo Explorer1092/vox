@@ -1,0 +1,23 @@
+{
+    "clazzIds": "10001",
+    "startDateTime": "2013-12-03 00:00:00",
+    "endDateTime": "2013-12-03 11:00:00",
+    "normFinishTime": "70",
+    "paper": [
+        {
+            "id": "51612e7be4b0e4b776a1d3d8",
+            "paperName": "湘少版-小学英语 - 四年级（下）1. 我的新帽子在哪里？",
+            "author": "真实",
+            "normalTime": 1,
+            "questionNum": 1,
+            "own": true,
+            "difficultyCoefficient": "",
+            "bookId": "946",
+            "bookName": "湘少版-小学英语 - 四年级（下）",
+            "createAt": "2013-12-01 11:00:00",
+            "varea": "北京市辖区海淀区",
+            "papertype": "me"
+
+        }
+    ]
+}

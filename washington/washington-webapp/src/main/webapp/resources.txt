@@ -1,0 +1,13 @@
+说明：
+
+resources 目录已经废弃了，请移步：
+
+test环境
+svn checkout http://192.168.100.8:8088/svn/publish/test/17zuoye/washington-webapp/resources 
+
+staging环境
+http://svn.dc.17zuoye.net/repo/publish/staging/17zuoye/washington-webapp/resources/
+
+production环境
+http://svn.dc.17zuoye.net/repo/publish/production/17zuoye/washington-webapp/resources/
+

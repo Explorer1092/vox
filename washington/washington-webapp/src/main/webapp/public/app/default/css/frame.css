@@ -1,0 +1,2228 @@
+body {
+    background: /*url(../images/back_all.jpg?1.1.0) repeat-x 0 -1156px*/ #ffb554;
+}
+
+/*float process steps*/
+.curriculum_guide_box {
+    background: url(../images/curriculum_guide_bg.png?1.1.0) repeat-x 0 -50px;
+    height: 90px;
+    position: relative;
+    z-index: 2050;
+}
+
+.curriculum_guide_box .posi_guide_step {
+    background: url(../images/curriculum_guide_bg.png?1.1.0) repeat-x 0 -50px;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    _top: expression(documentElement.scrollTop);
+    _left: expression(documentElement.scrollLeft);
+}
+
+.curriculum_guide_box .guide_step, .curriculum_guide_box .guide_prompt {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+
+.curriculum_guide_box .guide_step .step_ul {
+    height: 48px;
+    background: url(../images/curriculum_guide_bg_1.png?1.1.0) no-repeat 0 0;
+    margin: 5px 0 0;
+}
+
+.curriculum_guide_box .guide_step .step_ul li {
+    float: left;
+    color: #fff;
+    text-indent: -2000px;
+    height: 48px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_1 {
+    width: 110px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_2 {
+    width: 210px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_3 {
+    width: 345px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_4 {
+    width: 475px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_5 {
+    width: 573px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_6 {
+    width: 708px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_7 {
+    width: 833px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_8 {
+    width: 928px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.c_1 .c_h, .step_ul li.c_2 .c_h, .step_ul li.c_3 .c_h, .step_ul li.c_4 .c_h, .step_ul li.c_5 .c_h, .step_ul li.c_6 .c_h, .step_ul li.c_7 .c_h, .step_ul li.c_8 .c_h {
+    background: url(../images/curriculum_guide_bg_1.png?1.1.0) no-repeat right -57px;
+    display: block;
+    float: right;
+    width: 25px;
+    height: 48px;
+}
+
+.curriculum_guide_box .guide_step .step_ul li.complete {
+    background: url(../images/curriculum_guide_bg_1.png?1.1.0) no-repeat 0 -57px;
+}
+
+.curriculum_guide_box .guide_prompt {
+    clear: both;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 4px;
+}
+
+.curriculum_guide_box .guide_prompt .prompt_text {
+    color: #444;
+}
+
+.curriculum_guide_box .guide_prompt .prompt_but {
+    border-radius: 2px;
+    border: solid 1px #909090;
+    background: #ddd;
+    padding: 3px 8px;
+    color: #333;
+}
+
+.curriculum_guide_box .guide_prompt .prompt_but:hover {
+    background: #eee;
+    text-decoration: none;
+    color: #000;
+}
+
+.prompt_leave_box {
+    position: relative;
+    top: 0;
+    left: 600px;
+    border: solid 5px #ffa211;
+    width: 300px;
+}
+
+.prompt_leave_box .leave_border {
+    background: #fff;
+    border: solid 1px #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.prompt_leave_box .leave_border .leave_p {
+    padding: 10px 10px 20px;
+    text-align: left;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+/*home page*/
+.toggle_menu {
+    padding: 12px 0 0;
+}
+
+.toggle_menu a {
+    display: block;
+    float: left;
+    width: 155px;
+    height: 31px;
+    background: url(../images/index_image.png?1.1.0) no-repeat -172px 0;
+}
+
+.toggle_menu a.n_0 {
+    background-position: 0px 0;
+}
+
+.toggle_menu a.n_1 {
+    background-position: -155px 0;
+}
+
+.toggle_menu a.n_2 {
+    background-position: -310px 0;
+}
+
+.toggle_menu a.n_3 {
+    background-position: -466px 0;
+}
+
+.toggle_menu a.n_4 {
+    background-position: -621px 0;
+}
+
+.toggle_menu a.n_v_0, .toggle_menu a.n_0:hover {
+    background-position: -0px -31px;
+}
+
+.toggle_menu a.n_v_1, .toggle_menu a.n_1:hover {
+    background-position: -155px -31px;
+}
+
+.toggle_menu a.n_v_2, .toggle_menu a.n_2:hover {
+    background-position: -310px -31px;
+}
+
+.toggle_menu a.n_v_3, .toggle_menu a.n_3:hover {
+    background-position: -466px -31px;
+}
+
+.toggle_menu a.n_v_4, .toggle_menu a.n_4:hover {
+    background-position: -621px -31px;
+}
+
+.index_content {
+    width: 940px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.ad_switch {
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto; /* height:490px;*/
+}
+
+.ad_integrated {
+    width: 938px;
+    height: 598px;
+    position: relative;
+    background: url(../images/ad/ad_tu_new.jpg?1.1.0) no-repeat;
+    border: solid 1px #ccc;
+}
+
+.ad_integrated .a_integ_list {
+    padding-top: 173px;
+    margin-left: 195px;
+    overflow: hidden;
+    width: 538px;
+}
+
+.ad_integrated .a_integ_list ul {
+    width: 10000px;
+}
+
+.ad_integrated .a_integ_list li {
+    float: left;
+}
+
+div.ad_change_button {
+    text-align: right;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+div.ad_change_button div {
+    background: url(../images/index_image.png?1.1.0) -70px -173px;
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+    height: 17px;
+    padding-top: 7px;
+    color: #8c3000;
+    font-weight: bold;
+}
+
+div.ad_change_button div.sel {
+    background: url(../images/index_image.png?1.1.0) -110px -173px;
+    color: #FFFFFF;
+}
+
+/*home ad*/
+div.ad_change_button2 {
+    text-align: right;
+    height: 10px;
+    position: absolute;
+    font-size: 7px;
+}
+
+div.ad_change_button2 div {
+    background: url(../images/ad_index_bg2.gif);
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    padding-top: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.ad_change_button2 div.sel {
+    background: url(../images/ad_index_bg2_sel.gif);
+    color: #FFFFFF;
+}
+
+/*home porject*/
+.certificate {
+    background: url(../images/index_image.png?1.1.0) center -80px no-repeat;
+    height: 950px;
+    height: 90px;
+    clear: both;
+}
+
+.cg_view, .cg_view .cg_left, .cg_view .cg_right {
+    background: url(../images/index_image.png?1.1.0) repeat-x;
+}
+
+.cg_view {
+    background-position: right -223px;
+    height: 50px;
+    width: 940px;
+    margin: 12px auto;
+    clear: both;
+}
+
+.cg_view .cg_left {
+    float: left;
+    background-position: 0 -173px;
+    width: 50px;
+    height: 50px;
+}
+
+.cg_view .cg_right {
+    float: right;
+    background-position: right -273px;
+    height: 50px;
+    width: 10px;
+}
+
+.cg_view .cg_content {
+    float: left;
+    margin: 4px 10px 0;
+    width: 860px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cg_view .cg_content li {
+    float: left;
+    padding-right: 10px;
+    width: 160px;
+    height: 20px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.cg_view .cg_content li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.cg_view .cg_content li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+/*two level login*/
+.public_login {
+    width: 900px;
+    margin: -20px auto 0;
+    color: #333;
+}
+
+.join_opera {
+    float: left;
+    width: 530px;
+}
+
+.join_opera h1, .join_opera dl dt {
+    background: url(../images/login_image.png?1.2.1) no-repeat 0 0;
+}
+
+.join_opera h1 {
+    height: 40px;
+    text-indent: -10000px;
+    clear: both;
+    display: block;
+}
+
+.join_opera p {
+    line-height: 26px;
+    padding-bottom: 20px;
+    font-family: "宋体"
+}
+
+.join_opera dl {
+    clear: both;
+}
+
+.join_opera dl dt {
+    width: 48px;
+    height: 70px;
+    display: block;
+    float: left;
+}
+
+.join_opera dl dt.j_01 {
+    background-position: -113px -50px;
+}
+
+.join_opera dl dt.j_02 {
+    background-position: -53px -50px;
+}
+
+.join_opera dl dt.j_03 {
+    background-position: 0 -50px;
+}
+
+.join_opera dl dd {
+    float: left;
+    padding-left: 20px;
+}
+
+.join_opera dl dd h2 {
+    font-size: 16px;
+}
+
+.login_wrap {
+    float: right;
+    width: 335px;
+    height: 285px;
+    background: #f5f5f5;
+    border: solid 1px #e5e5e5;
+    margin: 28px 0 20px;
+    position: relative;
+}
+
+.login_wrap ul {
+    padding: 15px;
+}
+
+.login_wrap ul li {
+    padding: 5px;
+}
+
+.login_wrap li input {
+    vertical-align: middle;
+}
+
+.login_wrap li.tit {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.login_wrap li.tab {
+    font-weight: bold;
+}
+
+.login_wrap li.lab {
+    margin-bottom: 5px;
+}
+
+.login_wrap li.lab input {
+    width: 270px;
+    height: 15px;
+    padding: 8px 5px;
+    border: solid 1px;
+    border-color: #bbb #ddd #ddd #bbb;
+    font: 12px Arial, Helvetica, sans-serif
+}
+
+.login_wrap li.lab input:hover, .login_wrap li.lab input:active, .login_wrap li.lab input:focus {
+    background: #ffb;
+    border-color: #4b9dd5 #bcdcf2 #bcdcf2 #4b9dd5;
+}
+
+.login_wrap li.lab .radio_list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login_wrap li.lab .radio_list input {
+    width: auto;
+    vertical-align: middle;
+    border: none;
+    background: none;
+    padding: 2px;
+}
+
+.login_wrap li.lab .radio_list label {
+    width: auto;
+    line-height: normal;
+    padding: 5px;
+    display: inline-block;
+}
+
+.login_wrap li.lab .back_password {
+    position: absolute;
+    right: 18px;
+    top: 5px;
+    *top: 6px;
+}
+
+.login_wrap li.lab .back_password a {
+    height: 31px;
+    background: #89c623;
+    border: solid 1px #789635;
+    font: 14px/30px "微软雅黑", "Microsoft YaHei", Arial;
+    display: inline-block;
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.login_wrap li.lab .back_password a:hover {
+    background: #81bc1e;
+}
+
+.login_wrap li.but {
+    color: #666;
+}
+
+.login_wrap li.inf {
+    color: #080;
+    line-height: 22px;
+}
+
+.login_wrap li.sent {
+    line-height: 22px;
+    background: #fdffce;
+    border: solid 1px #ffba43;
+    margin: 20px 0 10px
+}
+
+.login_wrap li.sent b {
+    color: #c00
+}
+
+.login_wrap .l_info {
+    text-align: center;
+}
+
+.login_wrap .l_info .tit {
+    line-height: 50px;
+    font-size: 20px;
+    margin: 50px 0 0;
+    font-family: "微软雅黑", "Microsoft YaHei", Arial;
+}
+
+.login_msg {
+    width: 335px;
+    clear: both;
+    position: absolute;
+    bottom: 287px;
+    left: 0px;
+}
+
+.login_msg .info {
+    padding: 8px;
+    text-align: center;
+}
+
+.auto_l_body {
+    background: none #f5f5f5
+}
+
+.auto_l_wrap {
+    float: none;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+/*help page*/
+.head_help_img {
+    background: url(../images/help_top_img.png?1.1.0) no-repeat 0 0;
+    width: 620px;
+    height: 35px;
+    margin: 3px 15px 0 0;
+    float: right;
+}
+
+.public_help {
+    margin: -20px auto 20px;
+    width: 900px;
+}
+
+.public_help h1 {
+    font: 40px/1.4 "微软雅黑", "Microsoft YaHei", Arial;
+    text-align: center;
+    display: block;
+    color: #333;
+    border-bottom: solid 1px #CCC;
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+}
+
+.public_help h2 {
+    font: 24px/2.4 "微软雅黑", "Microsoft YaHei", Arial;
+    color: #333;
+    border-bottom: dashed 1px #ccc;
+}
+
+.public_help h2 span {
+    float: right;
+    font-size: 14px;
+    margin: 15px 0 0 0;
+}
+
+.public_help h3 {
+    font: 18px/1.8 "微软雅黑", "Microsoft YaHei", Arial;
+    color: #000;
+}
+
+.public_help .help_content {
+    color: #333;
+    padding: 15px 0 5px;
+    font: 14px/200% Arial, Helvetica, sans-serif;
+}
+
+.public_help .help_content p {
+    padding: 0 24px 10px;
+    color: #555;
+}
+
+.public_help .help_content h4 {
+    margin: 0 0 0 24px;
+    color: #555;
+    font-size: 14px;
+}
+
+.public_help .help_content h5 {
+    margin: 0 0 0 48px;
+    color: #f50;
+    font-size: 12px;
+}
+
+.public_help .help_content h5 p, .public_help .help_content h4 p {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.public_help .help_content h5 p strong {
+    color: #F50;
+}
+
+.public_help .title_image {
+    clear: both;
+    text-align: left;
+}
+
+.public_help .orange {
+    color: #F50;
+    font-size: 12px;
+}
+
+/*about us page*/
+.about_us_box {
+    border: solid 1px #ccc;
+    overflow: hidden;
+    height: 100%;
+}
+
+.about_us_box .au_left {
+    float: left;
+}
+
+.about_us_box .au_left a {
+    display: block;
+    position: relative;
+    width: 169px;
+    height: 42px;
+    border-bottom: solid 1px #ccc;
+    font: 16px/42px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #888;
+    text-align: center;
+}
+
+.about_us_box .au_left a:hover {
+    text-decoration: none;
+    background: #eee;
+}
+
+.about_us_box .au_left a.sel span {
+    background: url(../images/help/navmenu.png?1.1.0) no-repeat right 0;
+    display: block;
+    position: absolute;
+    width: 180px;
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.about_us_box .au_right {
+    padding: 0 0 0 20px;
+    margin: 0;
+    width: 700px;
+    float: left;
+    border-left: solid 1px #ccc;
+}
+
+.about_us_box .intro_img {
+    background: url(../images/help/aboutus.jpg?1.1.0) no-repeat;
+    width: 700px;
+    height: 175px;
+    clear: both;
+    margin: 15px 0 0;
+}
+
+.innovation_and_technology, .cooperation_government, .corporate_customers {
+    font: x-small/1.125 "微软雅黑", "Microsoft YaHei", Arial;
+    padding: 50px 0;
+}
+
+.innovation_and_technology h4 {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    margin: 0 30px;
+    padding: 10px;
+    color: #333;
+}
+
+.innovation_and_technology h4 span {
+    font-size: 40px;
+}
+
+.innovation_and_technology .item_images_detail {
+    background: url(../images/help/innovation.jpg?1.1.0) no-repeat center;
+    height: 600px;
+}
+
+.cooperation_government p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.cooperation_government .item_images_detail {
+    background: url(../images/help/cooperation_government.jpg?1.1.0) no-repeat center;
+    height: 380px;
+}
+
+.cooperation_government .item_images_detail span {
+    display: inline-block;
+    width: 340px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin: 340px 0 0;
+}
+
+.corporate_customers {
+    overflow: hidden;
+    height: 100%;
+}
+
+.corporate_customers p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.corporate_customers .item_images_detail {
+    background: url(../images/help/corporate_customers.jpg?1.1.0) no-repeat center;
+    height: 360px;
+}
+
+.corporate_customers span {
+    float: left;
+    display: block;
+    width: 320px;
+    line-height: 22px;
+    font-size: 14px;
+    padding-left: 15px;
+    color: #666;
+}
+
+/*integral page*/
+.public_topics {
+    margin: -32px auto 0;
+    width: 928px;
+    position: relative;
+    overflow: hidden;
+    background: #FED480;
+    border: solid 1px #EDB675;
+}
+
+.public_topics .topics_head {
+    clear: both;
+    background: url(../images/topics/topics_head.jpg?1.1.0);
+    height: 150px;
+    width: 930px;
+    cursor: pointer;
+}
+
+.topics_content {
+    margin: 0 auto 40px;
+    width: 850px;
+    clear: both;
+    border: solid 1px #EDB675;
+    padding-bottom: 15px;
+    background: #fff;
+}
+
+.topics_content h2 {
+    font: bold 16px/28px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #555;
+    padding: 15px 20px 0;
+}
+
+.topics_content .topics_tab {
+    clear: both;
+    padding: 5px 20px;
+}
+
+.topics_content .topics_tab table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.topics_content .topics_tab table td, .topics_content .topics_tab table th {
+    padding: 10px;
+    border: solid 1px #ccc;
+    line-height: 20px;
+}
+
+.topics_content .topics_tab table th {
+    white-space: nowrap;
+    background: #eee;
+}
+
+.topics_content .single_art {
+    padding: 5px 20px 10px;
+    line-height: 22px;
+    color: #555;
+}
+
+.topics_content td b {
+    font-size: 14px;
+}
+
+.topics_content .orange {
+    color: #f60;
+}
+
+.topics_content .red {
+    color: #e00;
+}
+
+.topics_content .blue {
+    color: #15c;
+}
+
+.topics_content .gold_explain {
+    background: url(../images/topics/gold_explain.jpg?1.1.0) no-repeat;
+    height: 73px;
+    margin: 1px;
+}
+
+.topics_content .gold_menu_box {
+    overflow: hidden;
+}
+
+.topics_content .gold_menu_box a {
+    width: 282px;
+    height: 72px;
+    text-align: center;
+    text-align: center;
+    display: inline-block;
+    background: #aaa;
+    color: #fff;
+    margin: 0 0 0 1px;
+    font: 26px/72px "微软雅黑", "Microsoft YaHei", Arial;
+}
+
+.topics_content .gold_menu_box a.sel {
+    background: #f60;
+}
+
+.topics_content .gold_menu_box a:hover {
+    text-decoration: none;
+}
+
+/*reg page*/
+.reg_content {
+    width: 940px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.reg_content .ad_reg {
+    height: 290px;
+}
+
+.tutorial_box, .tutorial_box .t_tag a, .reg_login_blk .reg h3, .reg_login_blk .lo_gin h3 {
+    background: url(../images/tutorial_sun.png?1.1.0) repeat-x;
+}
+
+.tutorial_box {
+    border: solid 1px #ccc;
+    background-position: 0 -152px;
+    background-color: #d5d5d5;
+    clear: both;
+    margin: 10px 0;
+}
+
+.tutorial_box .t_tag {
+    height: 48px;
+    padding-left: 180px;
+}
+
+.tutorial_box .t_tag a {
+    display: block;
+    float: left;
+    line-height: 500px;
+    overflow: hidden;
+    width: 120px;
+    height: 32px;
+    cursor: pointer;
+    margin: 14px 10px;
+}
+
+.tutorial_box .t_tag a.a_0 {
+    background-position: 0 0;
+}
+
+.tutorial_box .t_tag a.a_1 {
+    background-position: -140px 0;
+}
+
+.tutorial_box .t_tag a.a_2 {
+    background-position: -280px 0;
+}
+
+.tutorial_box .t_tag a.a_3 {
+    background-position: -420px 0;
+}
+
+.tutorial_box .t_tag a.a_0:hover, .tutorial_box .t_tag a.a_v_0 {
+    background-position: 0 -42px;
+}
+
+.tutorial_box .t_tag a.a_1:hover, .tutorial_box .t_tag a.a_v_1 {
+    background-position: -140px -42px;
+}
+
+.tutorial_box .t_tag a.a_2:hover, .tutorial_box .t_tag a.a_v_2 {
+    background-position: -280px -42px;
+}
+
+.tutorial_box .t_tag a.a_3:hover, .tutorial_box .t_tag a.a_v_3 {
+    background-position: -420px -42px;
+}
+
+.tutorial_box .t_content {
+    text-align: center;
+    margin: 10px;
+    border: solid 1px #b3b3b3;
+    background: #fff;
+    padding: 10px 5px;
+}
+
+.reg_login_blk {
+    padding: 0 0 20px;
+}
+
+.reg_login_blk .reg {
+    float: left;
+    width: 508px;
+}
+
+.reg_login_blk .reg h3, .reg_login_blk .lo_gin h3 {
+    text-indent: -10000px;
+    background-position: 100px -84px;
+    background-repeat: no-repeat;
+    margin: 0 0 15px;
+    height: 24px;
+    border-bottom: solid 1px #eee;
+}
+
+.reg_login_blk .right {
+    float: right;
+    width: 420px;
+    border-left: solid 1px #eee;
+}
+
+.reg_login_blk .reg .type_tag {
+    clear: both;
+    text-align: center;
+}
+
+.reg_login_blk .reg .type_tag a {
+    width: 60px;
+    height: 68px;
+    float: none;
+    display: inline-block;
+    background: url(../images/login_image.png?1.2.1) no-repeat 0 0 #fff;
+    border: solid 6px #fff;
+    margin: 5px 15px 15px;
+    cursor: pointer;
+}
+
+.reg_login_blk .reg .type_tag a:hover {
+    border-color: #eee;
+}
+
+.reg_login_blk .reg .type_tag a.t_1 {
+    background-position: -107px -45px;
+}
+
+.reg_login_blk .reg .type_tag a.t_2 {
+    background-position: 7px -46px;
+}
+
+.reg_login_blk .reg .type_tag a.t_3 {
+    background-position: -47px -46px;
+}
+
+.reg_login_blk .reg .type_tag a.jueover {
+    border-color: #f50;
+}
+
+.reg_login_blk .reg .type_navs {
+    border-bottom: solid 1px #ddd;
+    height: 35px;
+    clear: both;
+    padding-left: 130px;
+}
+
+.reg_login_blk .reg .type_navs span {
+    float: left;
+    display: block;
+    width: 116px;
+    height: 34px;
+}
+
+.reg_login_blk .reg .type_navs a {
+    color: #333;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: solid 1px #ddd;
+    position: absolute;
+    background-image: url(../images/tutorial_sun.png?1.1.0);
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0 0;
+}
+
+.reg_login_blk .reg .type_navs a.sel {
+    border-bottom-color: #fff;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.reg_login_blk .reg .type_navs a.email {
+    background-position: -510px -77px;
+}
+
+.reg_login_blk .reg .type_navs a.tel {
+    background-position: -510px -106px;
+}
+
+.reg_login_blk .reg .step_list_title {
+    font: 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial;
+    color: #666;
+    padding: 0 0 10px;
+    margin: 0 40px;
+}
+
+.reg_login_blk .reg .step_list_box {
+    background: #f8f8f8;
+    border: solid 1px #ddd;
+    color: #777;
+    margin: 0 0 10px;
+    margin: 0 40px;
+}
+
+.reg_login_blk .reg .step_list_box .step_list span {
+    padding: 3px 10px;
+    display: block;
+    clear: both;
+    font-family: "微软雅黑", "Microsoft YaHei", Arial;
+}
+
+.reg_login_blk .reg .step_list_box .step_list span b {
+    font-size: 16px;
+    font-family: vani;
+    vertical-align: middle;
+}
+
+.reg_login_blk .reg .step_list_box .step_info {
+    line-height: 22px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-top: solid 1px #ddd;
+}
+
+.reg_login_blk .reg .step_list_box .step_info .s_info {
+    display: block;
+    clear: both;
+    color: #f60;
+    font-weight: bold;
+}
+
+.reg_login_blk .lo_gin h3 {
+    background-position: 80px -118px;
+}
+
+.reg_login_blk .blk {
+    padding: 10px 50px;
+    clear: both;
+    margin: 10px 5px 0;
+    border-top: solid 1px #eee;
+}
+
+.reg_login_blk .blk h3 {
+    font: 18px "微软雅黑", "Microsoft YaHei", Arial, Arial;
+    padding: 0 0 10px;
+    color: #333;
+}
+
+.reg_login_blk .blk dl {
+    overflow: hidden;
+    clear: both;
+    display: block;
+    border-bottom: dashed 1px #ddd;
+    margin: 0 0 5px;
+    padding: 0 0 5px;
+}
+
+.reg_login_blk .blk dl dt {
+    float: left;
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    border: solid 1px #eee;
+}
+
+.reg_login_blk .blk dl dt img {
+    width: 32px;
+    height: 32px;
+}
+
+.reg_login_blk .blk dl dd {
+    margin-left: 48px;
+}
+
+.reg_login_blk .blk dl dd p.title {
+    color: #666;
+    padding: 3px 0
+}
+
+.reg_login_blk .blk dl dd p.time {
+    color: #999;
+}
+
+.reg_login_blk .free_mc_box {
+    background: url(../images/multiple_choice.jpg?1.1.0) no-repeat 0 1px;
+    display: block;
+    width: 190px;
+    height: 35px;
+    overflow: hidden;
+    text-indent: -1100px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.reg_login_blk .free_mc_box_sel {
+    background-position: 0 -33px;
+}
+
+.share_rel {
+    background-image: url(../images/tutorial_sun.png?1.1.0);
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share_rel input {
+    background: none;
+    border: none;
+    width: 122px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.external_reg {
+    background-position: -121px -230px;
+}
+
+.external_reg:hover {
+    background-position: -121px -272px;
+}
+
+.external_login {
+    background-position: 0 -230px;
+}
+
+.external_login:hover {
+    background-position: 0 -272px;
+}
+
+/*innle page*/
+.innle_head_ad {
+    background: #fff;
+    border: 1px solid #f4c992;
+    float: right;
+    width: 660px;
+    height: 50px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.innle_head_ad img {
+    width: 660px;
+    height: 50px;
+}
+
+.innle_menu {
+    height: 30px;
+    padding: 5px 20px 0;
+}
+
+.innle_menu a, .innle_menu span {
+    display: inline-block;
+    height: 30px;
+    background: url(../images/innle_menu.png?1.1.0) no-repeat;
+    cursor: pointer;
+}
+
+.innle_menu a {
+    background-position: 0 0;
+    color: #fde7d8;
+    font-weight: bold;
+    float: left;
+    margin-right: -1px;
+}
+
+.innle_menu a span {
+    background-position: right 0;
+    margin-left: 20px;
+    padding-right: 20px;
+    line-height: 30px
+}
+
+.innle_menu a:hover {
+    background-position: 0 -70px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.innle_menu a:hover span {
+    background-position: right -70px;
+}
+
+.innle_main_t .innle_menu a.menu_o {
+    background-position: 0 -35px;
+    color: #666;
+}
+
+.innle_main_t .innle_menu a.menu_o span {
+    background-position: right -35px;
+}
+
+.menu_time {
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    line-height: 34px;
+    padding-right: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/*innle right page*/
+.school_name_box h6 {
+    text-align: center;
+    padding: 6px;
+    font: normal normal bold 15px/1.125 "微软雅黑", "Microsoft YaHei", Arial;
+    color: #a77844;
+}
+
+.personal_box {
+    margin: 0 auto;
+    padding: 6px 0;
+    width: 200px;
+}
+
+.personal_box h3 {
+    height: 30px;
+    font-size: 12px;
+    color: #555;
+    clear: both;
+}
+
+.personal_box .avatar {
+    float: left;
+    width: 64px;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+.personal_box .avatar i {
+    border: solid 1px #ddd;
+    background: #fcfcfc;
+    padding: 2px;
+    overflow: hidden;
+    height: 64px;
+    width: 64px;
+    display: block;
+}
+
+.personal_box .avatar i img {
+    width: 64px;
+    height: 64px;
+}
+
+.personal_box .avatar a {
+    display: inline-block;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.personal_box .avatar a b {
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.personal_box .avatar .vc_appli_center {
+    background: #007bf7;
+    border: solid 1px #1e6dab;
+    border-radius: 2px;
+    line-height: normal;
+    color: #c3e2ff;
+    padding: 1px 0;
+    text-align: center;
+    width: 70px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.personal_box .avatar .vc_appli_center:hover {
+    background: #3ca3ff;
+    color: #fff;
+    border-color: #0a72d6;
+}
+
+.personal_box .avatar .vc_application {
+}
+
+.personal_box .avatar .vc_center {
+}
+
+.personal_box .per_info {
+    float: right;
+    width: 125px;
+}
+
+.personal_box .per_info li {
+    padding-bottom: 5px;
+    display: block;
+    line-height: 20px;
+}
+
+.personal_box .per_info li code {
+    color: #666;
+    margin-right: 3px;
+}
+
+.personal_box .per_info li code em {
+    color: #15c;
+    font: bold 12px/1.125 arial;
+}
+
+.personal_box .per_info li.name_id span {
+    background: #5cbc4e;
+    color: #fff;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.personal_box .per_info li span.s_yb, .personal_box .per_info li span.s_if, .personal_box .per_info li.name_id span {
+    padding: 1px 2px;
+    font: bold 12px/1.125 Arial;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.personal_box .per_info li span.s_yb, .personal_box .per_info li span.s_if {
+    font-size: 14px;
+    color: #f60;
+}
+
+.personal_box .user_but {
+    clear: both;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.personal_box .user_gray span {
+    width: 87px;
+}
+
+.badgelist {
+    padding: 0 0 5px;
+    clear: both;
+}
+
+.badgelist h4 {
+    color: #555;
+    padding: 6px;
+    margin: 3px 0;
+    display: block;
+    clear: both;
+    border: solid 1px #ddd;
+    background: #ffe;
+    border-radius: 2px;
+    font: normal 12px/1.125 Arial;
+}
+
+/*right subtitle*/
+.within h4.title_r s, .icon_16 {
+    background: url(../images/icon_16x16.png?1.1.0) no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.within h4.title_r, .scores_con li, .scores_con p.pt_msg_img {
+    background: url(../images/innle_menu.png?1.1.0) no-repeat;
+}
+
+.within h4.title_r {
+    background-position: 0 -158px;
+    background-repeat: repeat-x;
+    padding: 6px 0 6px 4px;
+    font: bold 14px/1.125 "微软雅黑", "Microsoft YaHei", Arial;
+    border-bottom: solid 1px #f5eada
+}
+
+.within h4 s {
+    margin: 0 5px;
+}
+
+.within h4 s.scores {
+    background-position: 0 -41px;
+}
+
+.within h4 s.students {
+    background-position: 0 -60px;
+}
+
+.within h4 s.tips {
+    background-position: 0 -80px;
+}
+
+.scores_con ul {
+    float: right;
+    padding: 10px 0 5px;
+}
+
+.scores_con li {
+    float: left;
+    width: 65px;
+    height: 60px;
+    padding-right: 4px;
+}
+
+.scores_con li.l_0 {
+    background-position: 0 -275px;
+    color: #feeadb;
+}
+
+.scores_con li.l_1 {
+    background-position: -68px -275px;
+    color: #fbcccc;
+}
+
+.scores_con li.l_2 {
+    background-position: -136px -275px;
+    color: #e0f2dd;
+}
+
+.scores_con li b, .scores_con li span {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.scores_con li b {
+    height: 26px;
+    line-height: 26px;
+}
+
+.scores_con li span {
+    color: #fff;
+    font-size: 28px;
+}
+
+.scores_con p {
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.scores_con p b {
+    color: #c00;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.scores_con p.pt_msg_img {
+    height: 54px;
+    width: 192px;
+    display: block;
+    margin: 0 auto;
+    background-position: 0 -206px;
+}
+
+.students_con {
+    padding: 8px 5px;
+}
+
+.students_con dl {
+    clear: both;
+    padding: 5px 0;
+    border-bottom: dashed 1px #ddd;
+    overflow: hidden;
+    height: 100%;
+}
+
+.students_con dt {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding: 2px;
+    border: solid 1px #ddd;
+}
+
+.students_con dt img {
+    width: 30px;
+    height: 30px;
+}
+
+.students_con dd {
+    float: right;
+    width: 160px;
+    line-height: 20px;
+}
+
+.students_con dd a, .students_con dd em {
+    display: inline-block;
+}
+
+.students_con dd span {
+    color: #999;
+    display: block;
+}
+
+
+/*teacher platform*/
+.select_none_home {
+    padding: 0px;
+    float: right;
+    margin: -2px 5px 0 0;
+}
+
+.select_none_home select {
+    width: 100px;
+}
+
+.class_type_list {
+    padding: 0;
+    margin: 0;
+}
+
+.class_type_list .type_title {
+    line-height: 24px;
+    height: 24px;
+    border-bottom: solid 1px #f5eada;
+    background: #fef7e7;
+    color: #efd7b7;
+    text-align: center;
+}
+
+.class_type_list .type_title span {
+    margin: 0 12px;
+    color: #a97834;
+    display: inline-block;
+}
+
+.class_type_list ul {
+    padding: 10px 0;
+}
+
+.class_type_list ul li {
+    float: left;
+    margin: 2px;
+    overflow: hidden;
+    width: 66px;
+    text-align: center;
+}
+
+.class_type_list ul li .iamges {
+    border: solid 1px #ccc;
+    background: #fff;
+    padding: 2px;
+    line-height: 48px;
+}
+
+.class_type_list ul li .iamges, .class_type_list ul li .iamges img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+.class_type_list ul li .title {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+
+/*parents platform－*/
+.personal_box .student_data {
+    clear: both;
+    width: auto;
+    float: none;
+    padding: 0 0 10px;
+}
+
+.students_work_info {
+    border: 1px dashed #bbb;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.students_work_info h5, .students_work_info p {
+    padding: 3px 0;
+}
+
+.students_work_info h5 {
+    font-size: 12px;
+    padding: 4px 0 8px;
+}
+
+.students_work_info h5 span {
+    float: right;
+    font-weight: normal;
+    color: #b00;
+}
+
+.students_work_info p {
+    color: #666;
+}
+
+.students_work_info p.s_l {
+    float: left;
+    color: #15c;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+}
+
+.students_work_info p.s_r {
+    float: right;
+    width: 120px;
+}
+
+.students_work_info p.s_r span, .students_work_info p.s_r b {
+    vertical-align: middle;
+}
+
+.students_work_info p b {
+    color: #f60;
+    font-size: 20px;
+}
+
+.students_work_info p em {
+    margin: 0 3px;
+    display: block;
+}
+
+.students_work_info p em img {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #ccc;
+    padding: 2px;
+    background: #fff;
+    display: inline-block;
+}
+
+.students_work_info p .z_q {
+    border: solid 1px #5ad;
+    padding: 3px 6px;
+    background: #7bd;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.students_work_info p .z_q:hover {
+    background: #f60;
+    border-color: #f30;
+    color: #fff;
+    text-decoration: none;
+}
+
+.add_boy_box {
+    text-align: center;
+    clear: both;
+}
+
+.add_boy_box .public_b span {
+    padding: 0 25px;
+}
+
+/*invite a friend*/
+.invite_wrap {
+    background: url(../images/pfcampaign/invite_friend.png?1.1.0) no-repeat;
+    width: 747px;
+    height: 505px;
+    position: relative;
+}
+
+.invite_wrap .close {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: block;
+    width: 72px;
+    height: 72px;
+    line-height: 8000px;
+    text-align: center;
+    overflow: hidden;
+    background: url(../images/pfcampaign/invite_friend.png?1.1.0) no-repeat -0 -510px;
+}
+
+.invite_wrap .t_public, .invite_wrap .b_public {
+    background: url(../images/pfcampaign/invite_friend_b.png?1.1.0) no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 2000px
+}
+
+.invite_wrap .t1 {
+    background-position: -10px -276px;
+    width: 372px;
+    height: 95px;
+}
+
+.invite_wrap .t2 {
+    background-position: 0 -385px;
+    width: 533px;
+    height: 72px;
+}
+
+.invite_wrap .t3 {
+    background-position: 0 -467px;
+    width: 574px;
+    height: 72px;
+}
+
+.invite_wrap .t4 {
+    background-position: 0 -546px;
+    width: 532px;
+    height: 72px;
+}
+
+.invite_wrap .t5 {
+    background-position: 0 -756px;
+    width: 185px;
+    height: 72px;
+}
+
+.invite_wrap .t6 {
+    background-position: 0 -839px;
+    width: 360px;
+    height: 72px;
+}
+
+.invite_wrap .b1 {
+    background-position: -1px 0;
+    width: 446px;
+    height: 52px;
+}
+
+.invite_wrap .b2 {
+    background-position: -1px -66px;
+    width: 410px;
+    height: 52px;
+}
+
+.invite_wrap .b3 {
+    background-position: -440px -66px;
+    width: 159px;
+    height: 52px;
+}
+
+.invite_wrap .b4 {
+    background-position: -3px -132px;
+    width: 244px;
+    height: 52px;
+}
+
+.invite_wrap .b5 {
+    background-position: -1px -197px;
+    width: 244px;
+    height: 52px;
+}
+
+.invite_wrap .b7 {
+    background-position: -0px -690px;
+    width: 352px;
+    height: 52px;
+}
+
+.invite_wrap .b8 {
+    background-position: -369px -690px;
+    width: 123px;
+    height: 50px;
+}
+
+.invite_wrap .b9 {
+    background-position: -251px -765px;
+    width: 308px;
+    height: 52px;
+}
+
+.invite_wrap .b10 {
+    background-position: -316px -631px;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 1;
+}
+
+.invite_wrap .b6 {
+    background-position: 0 -631px;
+    width: 307px;
+    height: 45px;
+    text-indent: inherit !important;
+    line-height: normal !important;
+}
+
+.invite_wrap .b6 input {
+    padding: 13px;
+    border: none;
+    background: none;
+    width: 280px;
+    font-size: 14px;
+    color: #6d0100;
+}
+
+.invite_wrap .select_b6_box {
+    overflow: inherit;
+}
+
+.invite_wrap .b6 .region_text_box {
+    display: block;
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+}
+
+.invite_wrap .b6 .region_text_box .text_box {
+    text-indent: 10px;
+    display: block;
+    line-height: 44px;
+    font-size: 14px;
+    color: #6D0100;
+    font-weight: normal;
+}
+
+.invite_wrap .b6 .region_text_box .text_list {
+    position: absolute;
+    z-index: 11111;
+    display: block;
+    background: #fffcd1;
+    border: solid 2px #6d0100;
+    width: 294px;
+    top: 44px;
+    left: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.invite_wrap .b6 .region_text_box .text_list i {
+    display: inline-block;
+    padding: 3px 8px;
+    border: solid 1px #ccc;
+    margin: 1px;
+}
+
+.invite_wrap .b6 .region_text_box .text_list i:hover {
+    background: #fff;
+}
+
+.invite_wrap .b6 .region_text_box .clazz_level_list {
+    position: absolute;
+    z-index: 11112;
+    display: block;
+    background: #fffcd1;
+    border: solid 2px #6d0100;
+    width: 338px;
+    top: 44px;
+    left: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.invite_wrap .b6 .region_text_box .clazz_level_list b {
+    font-size: 14px;
+    clear: both;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.invite_wrap .b6 .region_text_box .clazz_level_list i {
+    display: inline-block;
+    padding: 3px 8px;
+    border: solid 1px #ccc;
+    margin: 1px;
+}
+
+.invite_wrap .b6 .region_text_box .clazz_level_list i:hover {
+    background: #fff;
+}
+
+.invite_wrap h2 {
+    text-align: center;
+    clear: both;
+    display: block;
+    padding: 12px 0 0;
+}
+
+.invite_type {
+    background: url(../images/pfcampaign/invite_type.png?1.1.0) 0 0 no-repeat;
+    height: 400px;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.invite_type .in_1, .invite_type .in_2 {
+    text-align: center;
+}
+
+.invite_type .in_1 {
+    padding-top: 130px;
+}
+
+.invite_type .in_2 {
+    padding-top: 68px;
+}
+
+.search_type {
+    background: url(../images/pfcampaign/search_type.png?1.1.0) no-repeat 0 80px;
+    width: 687px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.search_type .in_1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.search_type .in_2 {
+    padding: 78px 0 0 220px;
+    line-height: 22px;
+    font: bold 14px/31px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #333;
+    height: 160px;
+}
+
+.search_type .in_2 .add_friend {
+    background: #f50;
+    border: solid 1px #f10;
+    display: inline-block;
+    line-height: 18px;
+    padding: 2px 5px;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.search_type .in_2 .add_friend:hover {
+    text-decoration: none;
+    background: #F63;
+    border-color: #f30;
+}
+
+.search_type .no_info {
+    background: url(../images/pfcampaign/search_info.png?1.1.0) no-repeat;
+    width: 383px;
+    height: 80px;
+    margin: 20px auto 0;
+}
+
+.reg_type {
+    background: url(../images/pfcampaign/reg_type.png?1.1.0) no-repeat 40px 50px;
+    height: 300px;
+    padding-top: 25px;
+}
+
+.reg_type .in_1 {
+    padding: 12px 0 0 320px;
+}
+
+.info_type {
+    background: url(../images/pfcampaign/info_type.png?1.1.0) no-repeat;
+    width: 645px;
+    height: 380px;
+    margin: 15px auto;
+}
+
+.info_type .in_1 {
+    padding: 15px;
+    width: 570px;
+    height: 220px;
+    overflow: auto;
+    font: bold 14px/28px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #000;
+}
+
+.info_type .in_1 strong {
+    color: #C00;
+}
+
+.info_type .in_2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.pf_title {
+    background: url(../images/pfcampaign/pf_title.jpg?1.1.0) no-repeat;
+    width: 950px;
+    height: 94px;
+    margin: 0 auto;
+}
+
+.pf_wrap {
+    background: #fff;
+    width: 938px;
+    margin: 10px auto 0;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.pf_prompt {
+    background: url(../images/pfcampaign/pf_prompt.png?1.1.0) no-repeat 0 0;
+    width: 364px;
+    height: 166px;
+    overflow: hidden;
+}
+
+.pf_prompt p.p_content {
+    padding: 40px 0 10px 120px;
+    font: 14px/22px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #333;
+}
+
+.pf_prompt p.p_but {
+    padding: 0 0 0 120px;
+}
+
+.pf_prompt p.p_but .prompt_b {
+    background: url(../images/pfcampaign/pf_prompt.png?1.1.0) no-repeat;
+    width: 80px;
+    height: 27px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.pf_prompt p.p_but .prompt_b:hover {
+    text-decoration: none;
+}
+
+.pf_prompt p.p_but a.p_red {
+    background-position: 0 -202px;
+}
+
+.pf_prompt p.p_but a.p_red:hover {
+    background-position: 0 -171px;
+}
+
+.pf_prompt p.p_but a.p_gray {
+    background-position: -94px -202px;
+}
+
+.pf_prompt p.p_but a.p_gray:hover {
+    background-position: -94px -171px;
+}
+
+.second_type {
+    background: url(../images/pfcampaign/second_type.png?1.1.0) no-repeat 0 30px;
+    width: 575px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.second_type .in_top {
+    height: 210px;
+}
+
+.second_type .in_1 {
+    padding: 3px 0 0 110px;
+}
+
+.second_avatar {
+    position: absolute;
+    top: 202px;
+    right: 59px;
+}
+
+.second_avatar .avatar {
+    background: #ad331d;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 10px;
+    border: solid 2px #ad331d
+}
+
+.second_avatar .avatar img {
+    width: 96px;
+    height: 96px;
+}
+
+.second_type .in_1 select {
+    padding: 14px;
+    width: 310px;
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+
+.description_type {
+    background: url(../images/pfcampaign/description_type.png?1.1.0) no-repeat;
+    width: 697px;
+    height: 390px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.description_type .in_1 {
+    padding: 6px;
+    margin: 10px;
+    width: 670px;
+    height: 355px;
+    overflow: auto;
+    font: 14px/28px "微软雅黑", "Microsoft YaHei", Arial;
+    color: #6d0100;
+}
+
+.description_type .in_1 strong {
+    color: #C00;
+    font-size: 18px;
+}
+
+.description_type .in_2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.bd_type {
+    background: url(../images/pfcampaign/bd_type.png?1.1.0) no-repeat center 90px;
+    height: 300px;
+}
+
+.bd_type .in_1 {
+    text-align: center;
+    padding-top: 220px;
+}
+
+/*apply for certification*/
+.apply_cf_box {
+    background: #fff;
+}
+
+.apply_cf_box h1 {
+    font: 24px/1.125 '微软雅黑', 'Microsoft YaHei', Arial;
+    padding: 15px;
+    color: #333;
+    text-align: center;
+    border-bottom: dashed 1px #ccc;
+}
+
+.apply_cf_box h2 {
+    font-size: 12px;
+    color: #c00;
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: dashed 1px #ccc;
+}
+
+.apply_cf_box h3 {
+    font: 15px/1.125 '微软雅黑', 'Microsoft YaHei', Arial;
+    color: #c00;
+    padding: 5px;
+    text-align: center;
+}
+
+.apply_cf_box p.leave_p {
+    padding: 10px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #444;
+}
+
+.apply_cf_box p.leave_p_c {
+    text-align: center;
+    font-size: 14px;
+}
+
+.apply_cf_box p.leave_but {
+    text-align: center;
+    padding: 10px;
+}
+
+.v_icon {
+    background: url(../images/v_icon.png?1.1.3) no-repeat;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.v_icon_cg {
+    background-position: 0 -50px;
+}
+
+.v_icon_tg {
+    background-position: 5px -92px;
+}
+
+.v_icon_cw {
+    background-position: 12px -130px;
+}

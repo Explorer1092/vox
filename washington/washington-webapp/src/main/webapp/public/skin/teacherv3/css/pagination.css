@@ -1,0 +1,11 @@
+.homework_page_list{text-align:right;padding:15px 10px;clear:both}
+.homework_page_list a{display:inline-block;padding:4px 8px;margin:0 2px;font:14px/1.125 Arial,Helvetica,sans-serif;border-radius:2px;color:#4e5656}
+.homework_page_list a.this{background-color:#189cfb;color:#fff;font-weight:700;border:1px solid #0979ca}
+.homework_page_list a.enable{padding:4px 12px;background:#e1f0fc;border:1px solid #abc1d3;color:#2180c1}
+.homework_page_list a.disable{padding:4px 12px;background:#f5f5f5;border:1px solid #dadada;color:#a9a9a9;cursor:default}
+.homework_page_list a.enable:hover{background-color:#f0f0f0}
+.homework_page_list a.enable:active{background-color:#eee}
+.homework_page_list .pageGo{display:inline-block;*display:inline;*zoom:1;font:14px/1.125 Arial,Helvetica,sans-serif;height:23px;margin:-1px 0 0 36px;*margin:-3px 0 0 36px;vertical-align:middle;overflow:hidden;background:#fff;border:1px solid #dfdfdf;border-radius:2px}
+.homework_page_list .pageGo input{width:42px;height:23px;line-height:23px;margin-top:-1px;border:0;color:#4e5656;background-color:transparent;text-align:center;display:inline-block;outline-style:none}
+.homework_page_list .pageGo .goBtn{width:36px;height:23px;line-height:23px;text-align:center;display:inline-block;background:#189cfb;color:#fff;cursor:pointer}
+/*# sourceMappingURL=../_sass/pagination.css.map */

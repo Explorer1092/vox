@@ -1,0 +1,60 @@
+/*
+*命名规范：例（.main_...）
+*/
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, input, dl, dt, dd{padding: 0; margin: 0;}
+html, body{ width: 100%; }
+html, body, input{font: 12px/140% "微软雅黑", regular; color: #464646; }
+ul, li{ list-style: none; }
+a, input{ outline: none;}
+a{ text-decoration: none; }
+html, body{ background: #27336e url(math-bg.png) repeat 0 0; line-height: 1.125;}
+.head, .head .inner{ background: url(math-active-1.jpg) no-repeat center 0; width: 100%; height: 410px; margin: 0 auto;}
+.content, .content .inner{ background: url(math-active-2.jpg) no-repeat center 0; width: 100%; height: 555px;}
+/*enlarge-content*/
+.enlarge-content, .enlarge-content .inner{ background: url(math-active-6.jpg?1.0.1) no-repeat center 0; width: 100%; height: 499px;}
+.enlarge-content .inner .big-box{ width: 287px; height: 207px; margin: 135px 0 0 90px; cursor: pointer;}
+.enlarge-content .inner .sign-up-but{ background: url(sign-up-btn.png) no-repeat 0 0; width: 268px; height: 94px; display: block; text-indent: -9999px; margin: 43px 0 0 367px;}
+.enlarge-content .inner .sign-up-but-disabled{ background-position: 0 -106px; cursor: default;}
+/*luck-draw-content*/
+.luck-draw-content, .luck-draw-content .inner{background: url(math-active-5.jpg) no-repeat center 0; width: 100%; height: 337px;}
+/*myTeam-content*/
+.myTeam-content, .myTeam-content .inner{ background:#fcc803 url(math-active-4.jpg) no-repeat center 0; width: 100%; margin: 0 auto; padding-bottom: 50px; }
+.myTeam-list-content{ text-align: center; padding: 95px 0 28px 0;}
+.myTeam-list-content span.title{ background-color: #eba601; border-radius: 20px 20px 0 0; padding: 10px 30px; font-size: 26px; display: inline-block; color: #9e5d2c;}
+.myTeam-list-content .my-l{ background-color: #eba601; margin: 0 22px; border-radius: 20px;}
+.myTeam-list-content .my-l ul{ overflow: hidden; *zoom: 1; padding: 12px 0 12px 12px;}
+.myTeam-list-content .my-l ul li{ background-color: #ffe082; cursor: pointer; border-radius: 20px; float: left; margin: 8px 4px; _display: inline; color: #a56833; font-size: 24px; width: 178px; text-align: center; padding: 20px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.myTeam-list-content .my-l ul li.active{ background-color: #9e5d2c; color: #fff;}
+/*my-team-listDetail-box*/
+.my-team-listDetail-box{ background-color: #eba601;  margin: 0 22px; border-radius: 20px;}
+.my-team-listDetail-box .my-t{}
+.my-team-listDetail-box .my-t ul{ padding: 10px 25px; overflow: hidden; *zoom: 1;}
+.my-team-listDetail-box .my-t ul li{ background: url(tip-colum.png) no-repeat 0 0; text-align: center; width: 129px; height: 174px; float: left; margin: 8px 11px; _display: inline;}
+.my-team-listDetail-box .my-t ul li .actor img{ width: 105px; height: 105px; display: block;}
+.my-team-listDetail-box .my-t ul li .actor{ margin: 54px 0 0 12px; width: 105px; position: relative; height: 105px;}
+.my-team-listDetail-box .my-t ul li .actor span.name{ width: 100%; background-color: #000; opacity: 0.8; filter:alpha(opacity=80); padding: 5px 0; font-size: 14px; display: block; color: #fff; position: absolute; left: 0; bottom: 0;}
+/*math-activity-pop*/
+.math-activity-pop{ width: 910px; margin: 0 auto; position: relative;}
+.math-activity-pop .icon-arrow{ background: url(arrow.png) no-repeat 300px 300px; cursor: pointer; width: 45px; height: 45px; display: block; position: absolute;  top: 50%;}
+.math-activity-pop .pull-left{ background-position: 0 0; left: 0;}
+.math-activity-pop .pull-right{ background-position: 0 -45px; right: 0;}
+.math-activity-pop .math-con{  width: 710px; margin: 0 auto;}
+.math-activity-pop .math-con h3{color: #fff; font-size: 26px; text-align: center; line-height: 180%; font-weight: normal;}
+.math-activity-pop .math-con .font{ font-size: 14px; color: #000;}
+.math-activity-pop .math-con .pull-list{ height: 515px; width: 710px; background-color: #fff; overflow: hidden;}
+.math-activity-pop .math-con .pull-list .pl{  margin: 0 65px;}
+.math-activity-pop .math-con .pull-list .pl h4{ font-size: 32px; text-align: center; padding-top: 120px;  font-weight: normal;}
+.math-activity-pop .math-con .pull-list .font .name{text-align: left; padding: 45px 0 30px 0;}
+.math-activity-pop .math-con .pull-list .font .info{text-indent: 2em; line-height: 150%;}
+.math-activity-pop .math-con .pull-list .font .date{text-align: right; padding: 5px 0 50px 0;}
+.math-activity-pop .math-con .pull-list .ending-box{ overflow: hidden; *zoom: 1;}
+.math-activity-pop .math-con .pull-list .ending-box .eb-left{ float: left;}
+.math-activity-pop .math-con .pull-list .eb-left .number{ font-size: 24px; padding-bottom: 16px;}
+.math-activity-pop .math-con .pull-list .eb-left .el span{ padding-right: 16px;}
+.math-activity-pop .math-con .pull-list .eb-left .orange{ color: #ff7c42;}
+.math-activity-pop .math-con .pull-list .ending-box .eb-right{ float: right;}
+.math-activity-pop .math-con .pull-list .ending-box .eb-right p .er{ padding-left: 30px;}
+.main .inner{ width: 1000px; margin: 0 auto; overflow: hidden; *zoom: 1;}
+.challenge-demo-popupclose{position: absolute; right: 88px; z-index: 111; cursor: pointer; border: 3px solid #ff7c41; top: 35px; background-color: #fff; color: #333; font-size: 26px; border-radius: 100%; width: 30px; height: 30px; text-align: center; line-height: 28px;}
+
+

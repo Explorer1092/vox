@@ -1,0 +1,32 @@
+/*t-howGet-flower-box*/
+.t-howGet-flower-box{}
+.t-howGet-flower-box .hf-content{ background-color: #fff; font-size: 14px;  padding: 0 20px;}
+.t-howGet-flower-box .hf-content p{ padding:5px 0;}
+.t-howGet-flower-box .hf-content p span{ color: #e2e7eb; font-size: 14px; padding: 0 10px 0 0;}
+.t-sendFlower-box .w-border-list{padding: 20px 0 20px 20px; float: none;}
+.t-sendFlower-box .w-border-list ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;  width: 125px;}
+.t-sendFlower-box .Sf-result-item{ background-color: #edf5fa; padding: 12px 0; color: #4e5656; overflow: hidden;}
+.t-sendFlower-box .Sf-result-item span.info{ width: 425px; display: inline-block; text-align: center;}
+.t-sendFlower-box .Sf-result-item span.w-orange{ font-size: 18px;}
+.t-sendFlower-box .Sf-result-item .w-btn{ margin: 0 0 0 5px;}
+.t-allTeacherRange-box{}
+.t-allTeacherRange-box .w-base-two-switch li{ height: 60px;}
+.t-allTeacherRange-box .flower-icon{ background:url(../images/flower/pc-flower.png) no-repeat 5000px 5000px; display: inline-block; vertical-align: middle; width: 42px;}
+.t-allTeacherRange-box .flowerRange-icon{ background-position: 0 -2px; height: 38px;}
+.t-allTeacherRange-box .allRange-icon{background-position: 0 -47px; height: 38px;}
+.t-allTeacherRange-box .FGold-01, .t-allTeacherRange-box .FGold-02, .t-allTeacherRange-box .FGold-03{ background-position: 0 -92px; height: 28px;}
+.t-allTeacherRange-box .FGold-02{ background-position: 0 -132px;}
+.t-allTeacherRange-box .FGold-03{ background-position: 0 -172px;}
+/*t-flower-swap-pop*/
+.t-flower-swap-pop{ background: url(../images/flower/flower-reward-back.png) no-repeat 0 0; width: 483px; height: 233px; overflow: hidden;  margin: -20px auto -20px}
+.t-flower-swap-pop .swap{ width: 132px; height: 132px;  margin: 36px 0 0 36px;}
+.t-flower-swap-pop .swap img{ width: 100%;}
+
+/*t-range-item-list*/
+.t-range-item-list{}
+.t-range-item-list ul{ width: 100%; overflow: hidden; *zoom: 1;}
+.t-range-item-list ul li{ width: 100%; float: left;}
+.t-range-item-list ul li span{width: 28%; display: inline-block; padding: 10px 5px;}
+.t-range-item-list ul li span.num{ height: 28px; line-height: 26px;}
+.t-range-item-list ul li span.num i{ text-align: center; font-style: normal;}
+.t-range-item-list ul li.odd{background-color: #f9fcfe;}

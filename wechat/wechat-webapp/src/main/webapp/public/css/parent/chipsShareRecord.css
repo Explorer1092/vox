@@ -1,0 +1,66 @@
+@charset "UTF-8";html{font-size:18px}
+@media only screen and (min-width:360px){html{font-size:20px!important}}
+@media only screen and (min-width:375px){html{font-size:21px!important}}
+@media only screen and (min-width:400px){html{font-size:22px!important}}
+@media only screen and (min-width:414px){html{font-size:23px!important}}
+@media only screen and (min-width:480px){html{font-size:24px!important}}
+@media only screen and (min-width:540px){html{font-size:26px!important}}
+@media only screen and (min-width:640px){html{font-size:28px!important}}
+@media only screen and (min-width:768px){html{font-size:32px!important}}
+@media only screen and (min-width:960px){html{font-size:36px!important}}
+@media only screen and (min-width:1024px){html{font-size:46px!important}}
+html{-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-user-select:none;-ms-user-select:none}
+body,html{-webkit-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;tap-highlight-color:transparent}
+body,button,input,select,textarea{font-family:TrebuchetMS,Rotobo,"Microsoft YaHei",sans-serif}
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,li,ol,p,select,ul{margin:0;padding:0}
+li,ol,ul{list-style-type:none}
+em,i{font-style:normal}
+a{color:#333}
+a{text-decoration:none}
+a img{border:0 none}
+input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder{color:#999}
+input:focus:-ms-input-placeholder,input:focus::-moz-placeholder,input:focus::-webkit-input-placeholder{color:rgba(0,0,0,0)}
+button,input[type=button],input[type=email],input[type=number],input[type=password],input[type=phone],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;-webkit-border-image:none;-moz-border-image:none;-o-border-image:none;border-image:none;-moz-border-radius:0;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.hidden{display:none!important;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important}
+    a,a:visited{text-decoration:underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content:" (" attr(title) ")"}
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+    blockquote,pre{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    img,tr{page-break-inside:avoid}
+    img{max-width:100%!important}
+    @page{margin:.5cm}
+    h2,h3,p{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}}
+[v-cloak]{display:none}
+body,html{width:100%;height:100%}
+.award_wrap{width:100%;height:100%}
+.award_heard{width:100%;height:7rem;background:url(../../images/parent/chips/award_bg.png?v=e01046a985) no-repeat;-moz-background-size:cover;-o-background-size:cover;background-size:cover;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}
+.l_box,.r_box{width:50%;text-align:center;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}
+.l_box .num,.r_box .num{font-size:.75rem;color:#333;font-weight:700;margin-bottom:.5rem}
+.l_box .num span,.r_box .num span{display:inline-block;margin-right:.225rem}
+.big_text{font-size:2.5rem;color:#333;font-weight:700}
+.s_text{font-size:.6rem;color:#333}
+.award_main .title{font-size:.9rem;color:#464646;text-align:center;padding:1.6rem 0 2.075rem 0;position:relative}
+.award_main .title::after,.award_main .title::before{display:inline-block;vertical-align:middle;content:"";width:3.875rem;height:.025rem;background:#e6e6e6}
+.award_main .title::before{margin-right:1.075rem}
+.award_main .title::after{margin-left:1.075rem}
+.award_main .content{margin:0 .65rem 0 .65rem}
+.award_main .c_list{overflow:hidden;margin-left:2%;width:100%}
+.award_main .time_box{width:18%;float:left;margin:0 2% 1.675rem 0}
+.award_main .time_box .icon_clock{margin:0 auto;padding-top:.5rem;text-align:center;width:100%;height:3.65rem;color:#8e8e8e;font-weight:700;background:url(../../images/parent/chips/award_icon_noclock.png?v=7cbccffe61) no-repeat;-moz-background-size:2.75rem 3.3rem;-o-background-size:2.75rem 3.3rem;background-size:2.75rem 3.3rem;background-position:center .05rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.award_main .time_box .icon_checked{margin:.375rem auto 0;width:1.5rem;height:1.5rem;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}
+.award_main .already_clock .icon_clock{background:url(../../images/parent/chips/award_clock.png?v=b40dddc930) no-repeat;-moz-background-size:3.075rem 3.65rem;-o-background-size:3.075rem 3.65rem;background-size:3.075rem 3.65rem;background-position:center top;color:#b8672e;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-right:0}
+.award_main .already_clock .icon_checked{background:url(../../images/parent/chips/award_icon_checked.png?v=068658184b) no-repeat;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%}

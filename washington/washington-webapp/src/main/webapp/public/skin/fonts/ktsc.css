@@ -1,0 +1,13 @@
+/**
+中文简体楷体加粗
+ */
+@font-face {
+    font-family: jdktsc;
+    font-display:swap;
+    src: local("Kaiti SC Bold"),
+    url('ktsc.woff2') format('woff2'),
+    url('ktsc.woff') format('woff'),
+    url("ktsc.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,62 @@
+html,body{ width:100%;height:100%;font:14px/100% "微软雅黑","Microsoft YaHei",arial;  }
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul,div{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{line-height:100%;}
+li,ol,ul{list-style:none;}
+input,select,textarea{outline:0;resize:none;}
+a{ text-decoration: none;}
+.clearfix:after { content:"."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0;}
+.clearfix { *zoom: 1;}
+.special-header{ background: none; border-bottom: 0; position: absolute; width: 100%;}
+.special-header .back a{ color: #fff;}
+.special-header .logo{ background: url("../images/chrislogo.png") no-repeat; width: 140px; height: 53px;}
+.special-footer{ border-top: 0;}
+.christmas{ width: 100%; position: relative;}
+.christmas .bgs{ position: absolute; width: 100%; min-width: 1000px; top: 0; left: 0;}
+.christmas .bgs .bg01{ width: 100%; height: 200px; background: url("../images/christmas-bg01.png") center top no-repeat;}
+.christmas .bgs .bg02{ width: 100%; height: 172px; background: url("../images/christmas-bg02.png") center top no-repeat;}
+.christmas .bgs .bg03{ width: 100%; height: 264px; background: url("../images/christmas-bg03.png") center top no-repeat;}
+.christmas .bgs .bg04{ width: 100%; height: 612px; background: url("../images/christmas-bg04.png") center top no-repeat;}
+.christmas .bgs .bg05{ width: 100%; height: 324px; background: url("../images/christmas-bg05.png") center top no-repeat;}
+.christmas .main{ width: 1000px; margin: 0 auto 222px auto; position: relative; *margin-bottom: 210px; padding-top: 450px;}
+.christmas .main .main-hd{ padding: 0; text-align: center; width: 500px; margin: 0 auto; height: 240px;}
+.christmas .main .main-hd h3{ color: #144320; font-size: 24px; line-height: 32px; text-align: center; font-weight: normal;}
+.christmas .main .main-hd p{ font-size: 20px; color: #8f755f; text-align: center; padding-top: 15px;}
+.christmas .main .main-mn .mn{ width: 640px; margin: 0 auto 25px auto; border: 4px solid #bf222c; border-radius: 45px;}
+.christmas .main .main-mn .mn .inner{ margin: 6px; border: 2px dashed #d49053; border-radius: 40px;}
+.christmas .main .main-mn .receive{ height: 144px; background: #ffc675; position: relative;}
+.christmas .main .main-mn .receive .inner{ border-color: #a4b665; height: 128px;}
+.christmas .main .main-mn .receive h2{ font-size: 18px; padding: 10px 0 10px 40px; color: #cc3942;}
+.christmas .main .main-mn .receive .gift{ width: 100%; height: 85px; background: url("../images/gift-pic.png") top center no-repeat;}
+.christmas .main .main-mn .receive a.get-btn{ display: block; margin: -50px auto 0 auto; width: 124px; height: 42px; line-height: 36px; text-align: center; font-size: 16px; color: #fff; background: url("../images/receive-btn.png") no-repeat; background-position: 0 0;}
+.christmas .main .main-mn .receive a.get-btn.click{ background-position: 0 -45px;}
+.christmas .main .main-mn .receive .snowflake{ display: block; width: 100px; height: 30px; background: url("../images/snowflake.png") no-repeat; position: absolute; top: -20px; right: 20px;}
+.christmas .main .main-mn .step{ height: 200px; background: #d2e982;}
+.christmas .main .main-mn .step h2{ font-size: 18px; padding: 10px 0 15px 40px; color: #7e9235;}
+.christmas .main .main-mn .step .inner{ border-color: #a4b665; height: 184px;}
+.christmas .main .main-mn .step .inner-box{ overflow: hidden; margin: 0 auto; width: 500px; height: 106px; padding: 5px; background: #ebffa7; border-radius: 15px;}
+.christmas .main .main-mn .step .tea-intro{ float: left; width: 46%; padding-left: 1%; border-right: 1px solid #d2e982;}
+.christmas .main .main-mn .step .stu-intro{ float: left; width: 46%; padding-left: 1%;}
+.christmas .main .main-mn .step .avatar{ display: block; float: left; width: 50px; height: 50px; border-radius: 50px; text-align: center;}
+.christmas .main .main-mn .step .avatar img{ width: 44px; height: 50px;}
+.christmas .main .main-mn .step .tea-intro .avatar{ background: #ffb33a;}
+.christmas .main .main-mn .step .stu-intro .avatar{ background: #75db57;}
+.christmas .main .main-mn .step .info{ float: left;}
+.christmas .main .main-mn .step p{ color: #7e9235; line-height: 24px; font-size: 16px;}
+.christmas .main .main-mn .step h3{ font-size: 14px; width: 107px; padding-left: 20px; height: 22px; line-height: 22px; color: #fff; margin: 2px 0 20px -5px;}
+.christmas .main .main-mn .step .tea-intro h3{ background: url("../images/tea-title-bg.png") no-repeat;}
+.christmas .main .main-mn .step .stu-intro h3{ background:  url("../images/stu-title-bg.png") no-repeat;}
+.christmas .main .main-mn .table{ height: 210px; background: #ffc675; position: relative;}
+.christmas .main .main-mn .table .inner{ height: 192px; border-color: #d49053;}
+.christmas .main .main-mn .table table{ width: 100%;}
+.christmas .main .main-mn .table table tr td{ font-size: 18px; height: 33px; line-height: 120%; text-align: center; border-right: 2px dashed #d49053; }
+.christmas .main .main-mn .table table tr td.no-border{ border-right: 0;}
+.christmas .main .main-mn .table .thead td{ color: #cc3942; border-bottom: 2px dashed #d49053;}
+.christmas .main .main-mn .table .tbody{ height: 138px; overflow: hidden; overflow-y: auto; }
+.christmas .main .main-mn .table .tbody td{ color: #13849c; border-top: 2px dashed #d49053;}
+.christmas .main .main-mn .table .tbody .first td{ border-top: 0;}
+.christmas .main .main-mn .table .tea-select{ display: none;}
+.christmas .main .main-mn .table .snowflake{ display: block; width: 100px; height: 30px; background: url("../images/snowflake-r.png") no-repeat; position: absolute; top: -22px; left: 18px;}
+.christmas .main .main-mn .table-tea .snowflake{ top: -66px;}
+.christmas .main .main-mn .table-tea{ margin-top: 65px;border-radius: 0 45px 45px 45px;}
+.christmas .main .main-mn .table-tea .tea-select{ display: block; width: 261px; height: 47px; background: url("../images/tea-select.png") no-repeat; margin-top: -46px; margin-left: -4px; position: relative; z-index: 2;}
+.christmas .main .main-mn .table-tea .tea-select select{ margin: 10px 0 0 25px; width: 210px; height: 30px; background: #dca65a; border: none; color: #fff; font-size: 18px;}

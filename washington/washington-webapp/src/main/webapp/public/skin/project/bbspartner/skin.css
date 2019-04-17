@@ -1,0 +1,13 @@
+html, body{ width: 100%; font:14px/100% "Microsoft YaHei", arial;}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p ,dl, dt, dd{ margin: 0; padding: 0; }
+ul, ol, li { list-style: none; }
+input, select, textarea{ font: 12px/1.125 Arial, Helvetica, sans-serif;}
+textarea{ outline:none; resize:none;}
+p { line-height: 22px; }
+a { outline: none;  cursor:pointer; text-decoration:none}
+img{ vertical-align:middle; border:none;}
+.t-forumRevised-box{background-color: #c5e4f9;width:100%;margin:0 auto;position: absolute;top:0;bottom:0;overflow: hidden;}
+.t-forumRevised-box .banner{margin:70px auto 0;background: url(forumRevised-banner.png) no-repeat;width:623px;height:288px;display: block;vertical-align: middle;}
+.t-forumRevised-box .title{font-size:28px;text-align: center;color:#2c7192;line-height: 90px;}
+.t-forumRevised-box .btn{text-align: center;margin:100px 0;}
+.t-forumRevised-box .btn .btn-return{border-radius:6px;text-align: center;display: inline-block;background-color: #4a839e;color:#fff;font-size: 28px;width:210px;padding:25px 15px;}
